@@ -1,0 +1,36 @@
+name: pm-archive-sweep
+
+on:
+  schedule:
+    - cron: '7 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: archive
+  cancel-in-progress: false
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: archive sweep (budgeted)
+        env:
+          ARCHIVE_BUDGET_S: "1500"
+        run: python3 scripts/archive_sweep.py || echo "archive failed"
+      - name: odota stats
+        run: python3 scripts/odota_stats.py || echo "odota failed"
+      - name: commit
+        run: |
+          git config user.name "pm-esports-collector"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data state
+          if ! git diff --cached --quiet; then
+            git commit -m "archive: $(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+            git pull --rebase --autostash origin main || true
+            git push origin HEAD:main || echo "push race (next run retries)"
+          fi
