@@ -1,0 +1,36 @@
+name: liquipedia-intel
+
+on:
+  schedule:
+    - cron: '23 */12 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: liquipedia
+  cancel-in-progress: false
+
+jobs:
+  intel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: transfers monitor
+        run: python3 scripts/liquipedia_monitor.py || echo "transfers failed"
+      - name: results cross-check (best effort)
+        run: python3 scripts/liquipedia_results.py || echo "results check failed"
+      - name: commit
+        run: |
+          git config user.name "pm-esports-collector"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data state
+          if ! git diff --cached --quiet; then
+            git commit -m "intel: liquipedia $(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+            git pull --rebase --autostash origin main || true
+            git push origin HEAD:main || echo "push race (next run retries)"
+          fi
