@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-06T21:26:14Z",
+ "ts": "2026-10-06T21:47:41Z",
  "sources": [
   {
    "url": "/tags",
@@ -134,7 +134,7 @@
   }
  ],
  "errors": [],
- "stage": "snap",
+ "stage": "all",
  "tags_discovered": [
   "international-affairs"
  ],
@@ -311,9 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 424,
- "markets": 298,
- "markets_dropped_by_volume_floor": 2590,
+ "markets": 299,
+ "markets_dropped_by_volume_floor": 2593,
  "day_file": "data/2026/10/2026-10-06T21.jsonl",
  "retention_removed_files": 0,
+ "trades_markets_queried": 63,
+ "trades_watchlist_markets": 37,
+ "trades_collected": 1151,
+ "anomalies_detected": 2,
+ "anomalies_new": 0,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 63,
+ "books_rows": 108,
  "status": "ok"
 }
