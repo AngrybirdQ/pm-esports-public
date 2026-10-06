@@ -799,12 +799,11 @@ def backfill_betmatches(report):
             markets_out.append({"question": q, "tokens": dict(zip(outs, toks))})
         with open(os.path.join(hist_dir, "betmatch_map.jsonl"), "a",
                   encoding="utf-8") as f:
+            # 隐私(10-07): map行只留hash关联, 队名/日期明文不入公共仓
             f.write(json.dumps({
                 "match_key": r["key"], "event_id": hit.get("id"),
                 "title": hit.get("title"), "start": hit.get("startDate"),
                 "end": hit.get("endDate"),
-                "req": {"team_a": r["team_a"], "team_b": r["team_b"],
-                        "date": r["date"], "game": r.get("game")},
                 "markets": markets_out}, ensure_ascii=False) + "\n")
         done[r["key"]] = {"status": "hit", "event_id": hit.get("id"),
                           "game": r.get("game")}
