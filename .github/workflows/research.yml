@@ -1,0 +1,36 @@
+name: cloud-research
+
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: '数据回看窗口(天)'
+        default: '7'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: research
+  cancel-in-progress: false
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: sharp参数矩阵扫描(仓内数据重建, 无PG依赖)
+        run: python3 scripts/cloud_research.py ${{ inputs.days || 7 }}
+      - name: commit analysis
+        run: |
+          git config user.name "pm-esports-collector"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A analysis
+          if git diff --cached --quiet; then
+            echo "nothing new"
+          else
+            git commit -m "research: sharp matrix $(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+            git pull --rebase --autostash origin main || true
+            git push origin HEAD:main || echo "push race - retry later"
+          fi

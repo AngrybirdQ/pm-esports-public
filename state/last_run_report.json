@@ -1,0 +1,338 @@
+{
+ "ts": "2026-10-06T19:32:03Z",
+ "sources": [
+  {
+   "url": "/tags",
+   "ok": true,
+   "err": null
+  },
+  {
+   "url": "tag_slug=esports",
+   "ok": true,
+   "events_returned": 300,
+   "err": null
+  },
+  {
+   "url": "tag_slug=e-sports",
+   "ok": true,
+   "events_returned": 0,
+   "err": null
+  },
+  {
+   "url": "tag_slug=dota-2",
+   "ok": true,
+   "events_returned": 36,
+   "err": null
+  },
+  {
+   "url": "tag_slug=dota2",
+   "ok": true,
+   "events_returned": 0,
+   "err": null
+  },
+  {
+   "url": "tag_slug=cs2",
+   "ok": true,
+   "events_returned": 25,
+   "err": null
+  },
+  {
+   "url": "tag_slug=counter-strike",
+   "ok": true,
+   "events_returned": 2,
+   "err": null
+  },
+  {
+   "url": "tag_slug=csgo",
+   "ok": true,
+   "events_returned": 0,
+   "err": null
+  },
+  {
+   "url": "tag_slug=league-of-legends",
+   "ok": true,
+   "events_returned": 94,
+   "err": null
+  },
+  {
+   "url": "tag_slug=lol",
+   "ok": true,
+   "events_returned": 39,
+   "err": null
+  },
+  {
+   "url": "tag_slug=valorant",
+   "ok": true,
+   "events_returned": 50,
+   "err": null
+  },
+  {
+   "url": "tag_slug=starcraft-2",
+   "ok": true,
+   "events_returned": 2,
+   "err": null
+  },
+  {
+   "url": "tag_slug=rocket-league",
+   "ok": true,
+   "events_returned": 0,
+   "err": null
+  },
+  {
+   "url": "tag_slug=the-international",
+   "ok": true,
+   "events_returned": 0,
+   "err": null
+  },
+  {
+   "url": "tag_slug=ti",
+   "ok": true,
+   "events_returned": 0,
+   "err": null
+  },
+  {
+   "url": "tag_slug=international-affairs",
+   "ok": true,
+   "events_returned": 11,
+   "err": null
+  },
+  {
+   "url": "tag_id[international-affairs]",
+   "ok": true,
+   "events_returned": 11,
+   "err": null
+  },
+  {
+   "url": "search:Dota 2",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:Counter-Strike",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:League of Legends",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:Valorant",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:The International",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  }
+ ],
+ "errors": [],
+ "stage": "all",
+ "tags_discovered": [
+  "international-affairs"
+ ],
+ "tag_samples": {
+  "tag_slug=esports": [
+   "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
+   "Counter-Strike: Team Falcons vs Natus Vincere (BO3) - ESL Pro League G",
+   "Counter-Strike: Legacy vs M80 (BO3) - ESL Pro League Group Stage"
+  ],
+  "tag_slug=dota-2": [
+   "Dota 2: LEGION vs MOUZ (BO3) - PARI Universe Closed Qualifier Playoffs",
+   "Dota 2: Power Rangers vs Team Synapse (BO3) - EPL Masters Group A",
+   "Dota 2: REKONIX vs Team Nemesis - More Markets"
+  ],
+  "tag_slug=cs2": [
+   "ESL Pro League Season 24: Winner",
+   "Will FaZe win a Tier 1 event in 2026? ",
+   "Which teams will qualify to PGL Major Singapore 2026?"
+  ],
+  "tag_slug=counter-strike": [
+   "Will Valve add sticker trade-ups before November?",
+   "Will Valve add sticker trade-ups by...?"
+  ],
+  "tag_slug=league-of-legends": [
+   "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
+   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
+   "LoL: Gen.G Global Academy vs Hanwha Life Esports Challengers (BO3) - L"
+  ],
+  "tag_slug=lol": [
+   "Worlds 2026 Winning Region",
+   "Worlds 2026: Winner",
+   "League of Legends Global Power Rankings Post Worlds: Rank 1"
+  ],
+  "tag_slug=valorant": [
+   "VALORANT Champions 2026: Winner",
+   "Valorant: NRG vs T1 (BO3) - VCT Champions Playoffs",
+   "Valorant: Paper Rex vs LOUD (BO3) - VCT Champions Playoffs"
+  ],
+  "tag_slug=starcraft-2": [
+   "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
+   "StarCraft II: Lambo vs Cure (BO3) - WardiTV Championship Group Stage 2"
+  ],
+  "tag_slug=international-affairs": [
+   "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
+   "US-Canada diplomatic agreement to lower tariffs by...?",
+   "Will the Philippine Senate convict Sara Duterte? "
+  ],
+  "tag_id[international-affairs]": [
+   "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
+   "US-Canada diplomatic agreement to lower tariffs by...?",
+   "Will the Philippine Senate convict Sara Duterte? "
+  ]
+ },
+ "winning_sources": [
+  "tag_slug=cs2",
+  "tag_slug=dota-2",
+  "tag_slug=esports",
+  "tag_slug=international-affairs",
+  "tag_slug=league-of-legends",
+  "tag_slug=starcraft-2",
+  "tag_slug=valorant"
+ ],
+ "search_samples": {
+  "search:Dota 2": [
+   {
+    "t": "Dota 2: HULIGANI vs CyberHero (BO3) - PARI Universe Closed Qualifier P",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Team Synapse vs Yellow Submarine (BO3) - PARI Universe Closed ",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: LEGION vs MOUZ (BO3) - PARI Universe Closed Qualifier Playoffs",
+    "closed": false
+   },
+   {
+    "t": "Dota 2: Blasterbl vs Nemiga Gaming (BO3) - PARI Universe Closed Qualif",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: MOUZ vs Nemiga Gaming (BO3) - PARI Universe Closed Qualifier P",
+    "closed": true
+   }
+  ],
+  "search:Counter-Strike": [
+   {
+    "t": "ESL Counter-Strike Quarterfinals: G2 vs Liquid",
+    "closed": true
+   },
+   {
+    "t": "ESL Counter-Strike Semifinals: G2 vs Natus Vincere",
+    "closed": true
+   },
+   {
+    "t": "ESL Counter-Strike Quarterfinals: Spirit vs Natus Vincere",
+    "closed": true
+   },
+   {
+    "t": "ESL Counter-Strike Semifinals: Eternal Fire vs MIBR",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike 2 ESL Challenger Atlanta Winner",
+    "closed": true
+   }
+  ],
+  "search:League of Legends": [
+   {
+    "t": "LoL: Kaufland Hangry Knights vs Unicorns Of Love Sexy Edition (BO5) - ",
+    "closed": false
+   },
+   {
+    "t": "Will Jynxzi reach Gold rank in League of Legends by...?",
+    "closed": false
+   },
+   {
+    "t": "League of Legends Global Power Rankings Post Worlds: Rank 1",
+    "closed": false
+   },
+   {
+    "t": "LoL: Dplus KIA Challengers vs KT Rolster Challengers (BO5) - LCK Chall",
+    "closed": true
+   },
+   {
+    "t": "LoL: T1 Academy vs KT Rolster Challengers (BO5) - LCK Challengers Leag",
+    "closed": true
+   }
+  ],
+  "search:Valorant": [
+   {
+    "t": "Valorant: NRG vs T1 (BO3) - VCT Champions Playoffs",
+    "closed": false
+   },
+   {
+    "t": "Valorant: Paper Rex vs LOUD (BO3) - VCT Champions Playoffs",
+    "closed": false
+   },
+   {
+    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
+    "closed": false
+   },
+   {
+    "t": "Most Played Map at VALORANT Champions 2026",
+    "closed": false
+   },
+   {
+    "t": "Valorant: NRG vs Fnatic (BO5)",
+    "closed": true
+   }
+  ],
+  "search:The International": [
+   {
+    "t": "The International 2026: Winner",
+    "closed": true
+   },
+   {
+    "t": "The International 2026: Winning Region",
+    "closed": true
+   },
+   {
+    "t": "The International 2026: Most Picked Hero",
+    "closed": true
+   },
+   {
+    "t": "The International 2026: Total Rampages",
+    "closed": true
+   },
+   {
+    "t": "The International 2026: Will Any Team Field a Stand-in?",
+    "closed": true
+   }
+  ]
+ },
+ "n_event_queries": 21,
+ "events": 424,
+ "markets": 316,
+ "markets_dropped_by_volume_floor": 2630,
+ "day_file": "data/2026/10/2026-10-06T19.jsonl",
+ "retention_removed_files": 0,
+ "trades_markets_queried": 127,
+ "trades_watchlist_markets": 109,
+ "trades_collected": 2417,
+ "anomalies_detected": 22,
+ "anomalies_new": 22,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "betmatch_rescued": 0,
+ "betmatch_hits": 0,
+ "betmatch_miss": 0,
+ "betmatch_remaining": 0,
+ "books_errors": [
+  "4714452300: HTTPError: HTTP Error 404: Not Found",
+  "8729920027: HTTPError: HTTP Error 404: Not Found",
+  "1012642873: HTTPError: HTTP Error 404: Not Found",
+  "2767090228: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 86,
+ "books_rows": 110,
+ "status": "ok"
+}

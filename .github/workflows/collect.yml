@@ -1,0 +1,153 @@
+name: collect-polymarket-esports
+
+on:
+  schedule:
+    - cron: '13,43 * * * *'   # UTC, redundancy only — the primary heartbeat is
+                               # the LOCAL dispatcher (this repo's scheduled
+                               # runs proved unreliable on the old private repo)
+  workflow_dispatch: {}
+  repository_dispatch:          # primary trigger: carries the tasking payload
+    types: [collect]            # (watchlist + betmatch + mode) from CN
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-esports
+  cancel-in-progress: false
+
+jobs:
+  decide:
+    runs-on: ubuntu-latest
+    outputs:
+      mode: ${{ steps.m.outputs.mode }}
+    steps:
+      - id: m
+        run: |
+          MODE=tick
+          if [ -f "$GITHUB_EVENT_PATH" ]; then
+            M=$(python3 -c "import json,sys;print(json.load(open(sys.argv[1])).get('client_payload',{}).get('mode','tick'))" "$GITHUB_EVENT_PATH" 2>/dev/null || echo tick)
+            [ -n "$M" ] && MODE="$M"
+          fi
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+
+  # ── A2 长跑模式: live窗口下单job内部循环 ~100min×90s ≈ 2-3min级新鲜度,
+  #    每轮独立commit(单写者无竞态); dispatcher见in_progress的longrun会避让
+  longrun:
+    if: needs.decide.outputs.mode == 'longrun'
+    needs: decide
+    runs-on: ubuntu-latest
+    timeout-minutes: 115
+    env:
+      WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: iterate (90s loop, ~100min budget)
+        run: |
+          git config user.name "pm-esports-collector"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          END=$((SECONDS + 6000)); i=0
+          while [ $SECONDS -lt $END ]; do
+            i=$((i+1))
+            echo "== longrun iter $i $(date -u '+%H:%M:%S') =="
+            python3 scripts/collect.py || echo "collect failed (next iter retries)"
+            python3 scripts/wecom_alert.py || echo "wecom failed (next iter retries)"
+            python3 scripts/collect_side.py || echo "side failed (next iter retries)"
+            if [ $((i % 15)) -eq 1 ]; then python3 scripts/twin_and_settle.py || echo 'twin failed (next iter retries)'; fi
+            git add -A data state
+            if ! git diff --cached --quiet; then
+              git commit -m "data: longrun $(date -u '+%Y-%m-%dT%H:%M:%SZ') iter$i"
+              git pull --rebase --autostash origin main || true
+              git push origin HEAD:main || echo "push race (next iter retries)"
+            fi
+            sleep 90
+          done
+
+  # ── A1 并行矩阵 (tick模式): snap→flow 依赖经artifact交接, side独立,
+  #    commit单写者收口 — 四job并行, wall time ~1min
+  snap:
+    if: needs.decide.outputs.mode != 'longrun'
+    needs: decide
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: collect snapshots + markets.json
+        run: python3 scripts/collect.py --stage snap
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pm-snap
+          path: |
+            data
+            state
+          retention-days: 1
+          if-no-files-found: warn
+
+  flow:
+    if: needs.decide.outputs.mode != 'longrun'
+    needs: snap
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { name: pm-snap, path: . }
+      - name: collect trades/books/anomalies (uses markets.json handoff)
+        run: python3 scripts/collect.py --stage flow
+      - name: wecom direct push
+        env:
+          WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+        run: python3 scripts/wecom_alert.py || echo "wecom failed (commit retries)"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pm-flow
+          path: |
+            data
+            state/seen_anomalies.json
+            state/last_run_report_flow.json
+          retention-days: 1
+          if-no-files-found: warn
+
+  side:
+    if: needs.decide.outputs.mode != 'longrun'
+    needs: decide
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - name: collect side sources (Kalshi book / gated probes)
+        run: python3 scripts/collect_side.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pm-side
+          path: data
+          retention-days: 1
+          if-no-files-found: warn
+
+  commit:
+    if: needs.decide.outputs.mode != 'longrun'
+    needs: [snap, flow, side]
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { name: pm-snap, path: . }
+      - uses: actions/download-artifact@v4
+        with: { name: pm-flow, path: . }
+      - uses: actions/download-artifact@v4
+        with: { name: pm-side, path: . }
+      - name: twin scan + pm settlement backfill (gamma reachable)
+        run: python3 scripts/twin_and_settle.py
+      - name: commit (single writer — no race)
+        run: |
+          git config user.name "pm-esports-collector"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data state
+          if git diff --cached --quiet; then
+            echo "nothing new"
+          else
+            git commit -m "data: $(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+            git pull --rebase --autostash origin main || true
+            git push origin HEAD:main || echo "push race - next run retries"
+          fi
