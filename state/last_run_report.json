@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-06T22:23:15Z",
+ "ts": "2026-10-06T22:25:54Z",
  "sources": [
   {
    "url": "/tags",
@@ -248,11 +248,11 @@
     "closed": false
    },
    {
-    "t": "Will Jynxzi reach Gold rank in League of Legends by...?",
+    "t": "League of Legends Global Power Rankings Post Worlds: Rank 1",
     "closed": false
    },
    {
-    "t": "League of Legends Global Power Rankings Post Worlds: Rank 1",
+    "t": "Will Jynxzi reach Gold rank in League of Legends by...?",
     "closed": false
    },
    {
@@ -311,18 +311,24 @@
  },
  "n_event_queries": 21,
  "events": 424,
- "markets": 296,
- "markets_dropped_by_volume_floor": 2582,
+ "markets": 298,
+ "markets_dropped_by_volume_floor": 2580,
  "day_file": "data/2026/10/2026-10-06T22.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 61,
+ "trades_markets_queried": 63,
  "trades_watchlist_markets": 37,
- "trades_collected": 1097,
- "anomalies_detected": 29,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 61,
- "books_rows": 106,
+ "trades_collected": 1227,
+ "anomalies_detected": 25,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0xf4132a55",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 62,
+ "books_rows": 108,
  "status": "ok"
 }
