@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-06T19:32:03Z",
+ "ts": "2026-10-06T21:26:14Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 36,
+   "events_returned": 37,
    "err": null
   },
   {
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 94,
+   "events_returned": 92,
    "err": null
   },
   {
@@ -134,7 +134,7 @@
   }
  ],
  "errors": [],
- "stage": "all",
+ "stage": "snap",
  "tags_discovered": [
   "international-affairs"
  ],
@@ -142,12 +142,12 @@
   "tag_slug=esports": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
    "Counter-Strike: Team Falcons vs Natus Vincere (BO3) - ESL Pro League G",
-   "Counter-Strike: Legacy vs M80 (BO3) - ESL Pro League Group Stage"
+   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: LEGION vs MOUZ (BO3) - PARI Universe Closed Qualifier Playoffs",
    "Dota 2: Power Rangers vs Team Synapse (BO3) - EPL Masters Group A",
-   "Dota 2: REKONIX vs Team Nemesis - More Markets"
+   "Dota 2: REKONIX vs Team Nemesis - More Markets",
+   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A"
   ],
   "tag_slug=cs2": [
    "ESL Pro League Season 24: Winner",
@@ -169,8 +169,8 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "VALORANT Champions 2026: Winner",
    "Valorant: NRG vs T1 (BO3) - VCT Champions Playoffs",
+   "VALORANT Champions 2026: Winner",
    "Valorant: Paper Rex vs LOUD (BO3) - VCT Champions Playoffs"
   ],
   "tag_slug=starcraft-2": [
@@ -209,14 +209,14 @@
    },
    {
     "t": "Dota 2: LEGION vs MOUZ (BO3) - PARI Universe Closed Qualifier Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Blasterbl vs Nemiga Gaming (BO3) - PARI Universe Closed Qualif",
     "closed": true
    },
    {
-    "t": "Dota 2: MOUZ vs Nemiga Gaming (BO3) - PARI Universe Closed Qualifier P",
+    "t": "Dota 2: Yangon Galacticos vs InterActive Philippines (BO3) - EPL World",
     "closed": true
    }
   ],
@@ -274,16 +274,16 @@
     "closed": false
    },
    {
+    "t": "VALORANT Champions 2026: Winner",
+    "closed": false
+   },
+   {
     "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
     "closed": false
    },
    {
     "t": "Most Played Map at VALORANT Champions 2026",
     "closed": false
-   },
-   {
-    "t": "Valorant: NRG vs Fnatic (BO5)",
-    "closed": true
    }
   ],
   "search:The International": [
@@ -311,28 +311,9 @@
  },
  "n_event_queries": 21,
  "events": 424,
- "markets": 316,
- "markets_dropped_by_volume_floor": 2630,
- "day_file": "data/2026/10/2026-10-06T19.jsonl",
+ "markets": 298,
+ "markets_dropped_by_volume_floor": 2590,
+ "day_file": "data/2026/10/2026-10-06T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 127,
- "trades_watchlist_markets": 109,
- "trades_collected": 2417,
- "anomalies_detected": 22,
- "anomalies_new": 22,
- "history_debug": [],
- "history_conditions_new": 0,
- "betmatch_rescued": 0,
- "betmatch_hits": 0,
- "betmatch_miss": 0,
- "betmatch_remaining": 0,
- "books_errors": [
-  "4714452300: HTTPError: HTTP Error 404: Not Found",
-  "8729920027: HTTPError: HTTP Error 404: Not Found",
-  "1012642873: HTTPError: HTTP Error 404: Not Found",
-  "2767090228: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 86,
- "books_rows": 110,
  "status": "ok"
 }
