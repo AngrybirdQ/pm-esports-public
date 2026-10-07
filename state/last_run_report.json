@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T05:42:00Z",
+ "ts": "2026-10-07T05:45:12Z",
  "sources": [
   {
    "url": "/tags",
@@ -244,11 +244,11 @@
   ],
   "search:League of Legends": [
    {
-    "t": "League of Legends Global Power Rankings Post Worlds: Rank 1",
+    "t": "LoL: Kaufland Hangry Knights vs Unicorns Of Love Sexy Edition (BO5) - ",
     "closed": false
    },
    {
-    "t": "LoL: Kaufland Hangry Knights vs Unicorns Of Love Sexy Edition (BO5) - ",
+    "t": "League of Legends Global Power Rankings Post Worlds: Rank 1",
     "closed": false
    },
    {
@@ -311,17 +311,23 @@
  },
  "n_event_queries": 21,
  "events": 421,
- "markets": 295,
- "markets_dropped_by_volume_floor": 2536,
+ "markets": 296,
+ "markets_dropped_by_volume_floor": 2540,
  "day_file": "data/2026/10/2026-10-07T05.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 66,
+ "trades_markets_queried": 67,
  "trades_watchlist_markets": 54,
- "trades_collected": 583,
+ "trades_collected": 589,
  "anomalies_detected": 5,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "history_debug": [
+  {
+   "cid": "0xb6c695f1",
+   "pts": 9,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 73,
  "books_rows": 144,
  "status": "ok"
