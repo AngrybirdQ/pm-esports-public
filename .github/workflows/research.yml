@@ -18,10 +18,18 @@ jobs:
   research:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    strategy:
+      matrix:
+        entry: ${{ fromJSON(format('[{0}]', inputs.entry_bands || '1000,2000,5000')) }}
+      fail-fast: false
     steps:
       - uses: actions/checkout@v4
-      - name: sharp参数矩阵扫描(仓内数据重建, 无PG依赖)
+      - name: sharp参数矩阵扫描(带=${{ matrix.entry }}, 仓内数据重建)
+        env:
+          RESEARCH_ENTRY: ${{ inputs.entry_bands }}
         run: python3 scripts/cloud_research.py ${{ inputs.days || 7 }}
+      - name: rename analysis
+        run: mv analysis analysis_entry_${{ matrix.entry }} || true
       - name: commit analysis
         run: |
           git config user.name "pm-esports-collector"
