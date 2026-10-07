@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T19:44:36Z",
+ "ts": "2026-10-07T19:47:02Z",
  "sources": [
   {
    "url": "/tags",
@@ -133,7 +133,10 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "trades 0x85370502: HTTPError: HTTP Error 429: Too Many Requests",
+  "trades 0x868f31c6: HTTPError: HTTP Error 429: Too Many Requests"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -216,7 +219,7 @@
     "closed": false
    },
    {
-    "t": "Dota 2: LEGION vs MOUZ (BO3) - PARI Universe Closed Qualifier Playoffs",
+    "t": "Dota 2: InterActive Philippines vs Xipto Esports (BO3) - EPL World Ser",
     "closed": true
    }
   ],
@@ -278,11 +281,11 @@
     "closed": false
    },
    {
-    "t": "VALORANT Champions 2026: Winner",
+    "t": "Valorant: Team Vitality vs Nongshim RedForce (BO3) - VCT Champions Pla",
     "closed": false
    },
    {
-    "t": "Valorant: Team Vitality vs Nongshim RedForce (BO3) - VCT Champions Pla",
+    "t": "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs",
     "closed": false
    }
   ],
@@ -311,21 +314,17 @@
  },
  "n_event_queries": 21,
  "events": 420,
- "markets": 345,
- "markets_dropped_by_volume_floor": 2456,
+ "markets": 344,
+ "markets_dropped_by_volume_floor": 2451,
  "day_file": "data/2026/10/2026-10-07T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 89,
+ "trades_markets_queried": 88,
  "trades_watchlist_markets": 47,
- "trades_collected": 3043,
+ "trades_collected": 2911,
  "anomalies_detected": 52,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "6990884053: HTTPError: HTTP Error 404: Not Found",
-  "9804287520: HTTPError: HTTP Error 404: Not Found"
- ],
  "books_markets": 59,
  "books_rows": 82,
  "status": "ok"
