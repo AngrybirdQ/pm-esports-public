@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T17:53:44Z",
+ "ts": "2026-10-07T17:56:55Z",
  "sources": [
   {
    "url": "/tags",
@@ -200,12 +200,12 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: LEGION vs MOUZ (BO3) - PARI Universe Closed Qualifier Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Synapse vs LEGION (BO3) - PARI Universe Closed Qualifier ",
     "closed": false
+   },
+   {
+    "t": "Dota 2: LEGION vs MOUZ (BO3) - PARI Universe Closed Qualifier Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -311,18 +311,22 @@
  },
  "n_event_queries": 21,
  "events": 424,
- "markets": 354,
- "markets_dropped_by_volume_floor": 2501,
+ "markets": 355,
+ "markets_dropped_by_volume_floor": 2500,
  "day_file": "data/2026/10/2026-10-07T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 103,
+ "trades_markets_queried": 105,
  "trades_watchlist_markets": 68,
- "trades_collected": 3248,
- "anomalies_detected": 61,
- "anomalies_new": 8,
+ "trades_collected": 3309,
+ "anomalies_detected": 62,
+ "anomalies_new": 1,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 86,
+ "books_errors": [
+  "4409389727: HTTPError: HTTP Error 404: Not Found",
+  "8206975467: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 87,
  "books_rows": 112,
  "status": "ok"
 }
