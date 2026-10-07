@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T13:33:15Z",
+ "ts": "2026-10-07T13:36:16Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 37,
+   "events_returned": 36,
    "err": null
   },
   {
@@ -217,7 +217,7 @@
    },
    {
     "t": "Dota 2: InterActive Philippines vs Xipto Esports (BO3) - EPL World Ser",
-    "closed": false
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -317,12 +317,28 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 141,
  "trades_watchlist_markets": 107,
- "trades_collected": 2864,
- "anomalies_detected": 27,
- "anomalies_new": 26,
+ "trades_collected": 2883,
+ "anomalies_detected": 33,
+ "anomalies_new": 6,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "4118691245: HTTPError: HTTP Error 404: Not Found",
+  "1011924920: HTTPError: HTTP Error 404: Not Found",
+  "8254210981: HTTPError: HTTP Error 404: Not Found",
+  "8695944821: HTTPError: HTTP Error 404: Not Found",
+  "9150420625: HTTPError: HTTP Error 404: Not Found",
+  "9527291889: HTTPError: HTTP Error 404: Not Found",
+  "1009599341: HTTPError: HTTP Error 404: Not Found",
+  "1208357333: HTTPError: HTTP Error 404: Not Found",
+  "1115303443: HTTPError: HTTP Error 404: Not Found",
+  "9118045787: HTTPError: HTTP Error 404: Not Found",
+  "5381719757: HTTPError: HTTP Error 404: Not Found",
+  "4648632872: HTTPError: HTTP Error 404: Not Found",
+  "9113145164: HTTPError: HTTP Error 404: Not Found",
+  "3910631675: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 105,
- "books_rows": 146,
+ "books_rows": 140,
  "status": "ok"
 }
