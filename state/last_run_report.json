@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T21:07:29Z",
+ "ts": "2026-10-07T21:10:42Z",
  "sources": [
   {
    "url": "/tags",
@@ -245,7 +245,7 @@
   "search:League of Legends": [
    {
     "t": "LoL: Kaufland Hangry Knights vs Unicorns Of Love Sexy Edition (BO5) - ",
-    "closed": false
+    "closed": true
    },
    {
     "t": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -311,26 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 421,
- "markets": 329,
- "markets_dropped_by_volume_floor": 2452,
+ "markets": 327,
+ "markets_dropped_by_volume_floor": 2451,
  "day_file": "data/2026/10/2026-10-07T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 96,
+ "trades_markets_queried": 94,
  "trades_watchlist_markets": 71,
- "trades_collected": 2054,
- "anomalies_detected": 25,
- "anomalies_new": 4,
+ "trades_collected": 2078,
+ "anomalies_detected": 23,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "4896438063: HTTPError: HTTP Error 404: Not Found",
-  "9778227769: HTTPError: HTTP Error 404: Not Found",
-  "1160151247: HTTPError: HTTP Error 404: Not Found",
-  "6441665838: HTTPError: HTTP Error 404: Not Found",
-  "6458728050: HTTPError: HTTP Error 404: Not Found",
-  "5300832148: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 78,
- "books_rows": 116,
+ "books_markets": 79,
+ "books_rows": 124,
  "status": "ok"
 }
