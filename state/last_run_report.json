@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T14:13:17Z",
+ "ts": "2026-10-07T14:17:53Z",
  "sources": [
   {
    "url": "/tags",
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
    "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
-   "Counter-Strike: FURIA vs 9z (BO3) - ESL Pro League Group Stage"
+   "LoL: Gen.G Global Academy vs Hanwha Life Esports Challengers (BO3) - L"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -216,7 +216,7 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Blasterbl vs Nemiga Gaming (BO3) - PARI Universe Closed Qualif",
+    "t": "Dota 2: InterActive Philippines vs Xipto Esports (BO3) - EPL World Ser",
     "closed": true
    }
   ],
@@ -311,45 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 425,
- "markets": 355,
+ "markets": 348,
  "markets_dropped_by_volume_floor": 2535,
  "day_file": "data/2026/10/2026-10-07T14.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 118,
  "trades_watchlist_markets": 98,
- "trades_collected": 2506,
- "anomalies_detected": 30,
- "anomalies_new": 4,
- "history_debug": [
-  {
-   "cid": "0xb74a7995",
-   "pts": 3,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x1fec1ef2",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 2,
- "books_errors": [
-  "6522949427: HTTPError: HTTP Error 404: Not Found",
-  "8511916105: HTTPError: HTTP Error 404: Not Found",
-  "1859293095: HTTPError: HTTP Error 404: Not Found",
-  "1052144420: HTTPError: HTTP Error 404: Not Found",
-  "1119700468: HTTPError: HTTP Error 404: Not Found",
-  "8083576682: HTTPError: HTTP Error 404: Not Found",
-  "8755213662: HTTPError: HTTP Error 404: Not Found",
-  "3425528206: HTTPError: HTTP Error 404: Not Found",
-  "2372592613: HTTPError: HTTP Error 404: Not Found",
-  "8368539486: HTTPError: HTTP Error 404: Not Found",
-  "9791123464: HTTPError: HTTP Error 404: Not Found",
-  "1123808622: HTTPError: HTTP Error 404: Not Found",
-  "5130896448: HTTPError: HTTP Error 404: Not Found",
-  "6273357978: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 97,
- "books_rows": 152,
+ "trades_collected": 2524,
+ "anomalies_detected": 27,
+ "anomalies_new": 2,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 90,
+ "books_rows": 150,
  "status": "ok"
 }
