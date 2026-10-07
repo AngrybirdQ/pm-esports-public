@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T07:59:39Z",
+ "ts": "2026-10-07T08:02:18Z",
  "sources": [
   {
    "url": "/tags",
@@ -161,7 +161,7 @@
   "tag_slug=league-of-legends": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
    "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
-   "LoL: GAM Esports vs Shopify Rebellion (BO3) - Demacia Cup Global Invit"
+   "LoL: GAM Esports vs FlyQuest (BO3) - Demacia Cup Global Invitational G"
   ],
   "tag_slug=lol": [
    "Worlds 2026 Winning Region",
@@ -313,22 +313,16 @@
  "events": 421,
  "markets": 314,
  "markets_dropped_by_volume_floor": 2571,
- "day_file": "data/2026/10/2026-10-07T07.jsonl",
+ "day_file": "data/2026/10/2026-10-07T08.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 83,
  "trades_watchlist_markets": 63,
- "trades_collected": 1380,
+ "trades_collected": 1389,
  "anomalies_detected": 24,
- "anomalies_new": 3,
- "history_debug": [
-  {
-   "cid": "0xba8efd83",
-   "pts": 3,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
+ "anomalies_new": 22,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 87,
- "books_rows": 168,
+ "books_rows": 166,
  "status": "ok"
 }
