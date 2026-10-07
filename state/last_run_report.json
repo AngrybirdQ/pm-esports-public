@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T13:10:25Z",
+ "ts": "2026-10-07T13:14:18Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 50,
+   "events_returned": 49,
    "err": null
   },
   {
@@ -169,9 +169,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: NRG vs T1 (BO3) - VCT Champions Playoffs",
    "Valorant: Paper Rex vs LOUD (BO3) - VCT Champions Playoffs",
-   "VALORANT Champions 2026: Winner"
+   "VALORANT Champions 2026: Winner",
+   "Least Played Map at VALORANT Champions 2026"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -267,7 +267,7 @@
   "search:Valorant": [
    {
     "t": "Valorant: NRG vs T1 (BO3) - VCT Champions Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Paper Rex vs LOUD (BO3) - VCT Champions Playoffs",
@@ -312,31 +312,28 @@
  "n_event_queries": 21,
  "events": 421,
  "markets": 359,
- "markets_dropped_by_volume_floor": 2508,
+ "markets_dropped_by_volume_floor": 2507,
  "day_file": "data/2026/10/2026-10-07T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 138,
+ "trades_markets_queried": 141,
  "trades_watchlist_markets": 107,
- "trades_collected": 2915,
- "anomalies_detected": 38,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "1060395483: HTTPError: HTTP Error 404: Not Found",
-  "6244522508: HTTPError: HTTP Error 404: Not Found",
-  "7651824862: HTTPError: HTTP Error 404: Not Found",
-  "4325273645: HTTPError: HTTP Error 404: Not Found",
-  "6602826906: HTTPError: HTTP Error 404: Not Found",
-  "1089395610: HTTPError: HTTP Error 404: Not Found",
-  "3189459070: HTTPError: HTTP Error 404: Not Found",
-  "9556346324: HTTPError: HTTP Error 404: Not Found",
-  "1380933646: HTTPError: HTTP Error 404: Not Found",
-  "1039191897: HTTPError: HTTP Error 404: Not Found",
-  "1079714275: HTTPError: HTTP Error 404: Not Found",
-  "3937083615: HTTPError: HTTP Error 404: Not Found"
+ "trades_collected": 3013,
+ "anomalies_detected": 40,
+ "anomalies_new": 4,
+ "history_debug": [
+  {
+   "cid": "0xaf9adc18",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x21212a48",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 112,
- "books_rows": 156,
+ "history_conditions_new": 2,
+ "books_markets": 109,
+ "books_rows": 158,
  "status": "ok"
 }
