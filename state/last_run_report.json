@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T15:38:00Z",
+ "ts": "2026-10-07T15:43:36Z",
  "sources": [
   {
    "url": "/tags",
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
-   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
-   "Counter-Strike: PARIVISION vs Natus Vincere (BO3) - ESL Pro League Gro"
+   "Counter-Strike: PARIVISION vs Natus Vincere (BO3) - ESL Pro League Gro",
+   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -204,12 +204,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Synapse vs Yellow Submarine (BO3) - PARI Universe Closed ",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Synapse vs Yellow Submarine (BO3) - PARI Universe Closed ",
+    "closed": true
    },
    {
     "t": "Dota 2: MOUZ vs CyberHero (BO3) - PARI Universe Closed Qualifier Playo",
@@ -311,24 +311,22 @@
  },
  "n_event_queries": 21,
  "events": 424,
- "markets": 360,
- "markets_dropped_by_volume_floor": 2545,
+ "markets": 357,
+ "markets_dropped_by_volume_floor": 2527,
  "day_file": "data/2026/10/2026-10-07T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 133,
- "trades_watchlist_markets": 98,
- "trades_collected": 2984,
- "anomalies_detected": 19,
- "anomalies_new": 1,
+ "trades_markets_queried": 121,
+ "trades_watchlist_markets": 94,
+ "trades_collected": 3148,
+ "anomalies_detected": 37,
+ "anomalies_new": 18,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "3566442277: HTTPError: HTTP Error 404: Not Found",
-  "1956057484: HTTPError: HTTP Error 404: Not Found",
-  "7346797154: HTTPError: HTTP Error 404: Not Found",
-  "5887125797: HTTPError: HTTP Error 404: Not Found"
+  "4117860266: HTTPError: HTTP Error 404: Not Found",
+  "6985240815: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 98,
- "books_rows": 154,
+ "books_markets": 104,
+ "books_rows": 164,
  "status": "ok"
 }
