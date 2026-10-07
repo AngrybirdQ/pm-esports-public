@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T20:19:05Z",
+ "ts": "2026-10-07T20:21:14Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 90,
+   "events_returned": 91,
    "err": null
   },
   {
@@ -310,16 +310,16 @@
   ]
  },
  "n_event_queries": 21,
- "events": 421,
+ "events": 422,
  "markets": 347,
- "markets_dropped_by_volume_floor": 2448,
+ "markets_dropped_by_volume_floor": 2485,
  "day_file": "data/2026/10/2026-10-07T20.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 84,
  "trades_watchlist_markets": 47,
- "trades_collected": 2348,
- "anomalies_detected": 33,
- "anomalies_new": 0,
+ "trades_collected": 2334,
+ "anomalies_detected": 24,
+ "anomalies_new": 1,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 59,
