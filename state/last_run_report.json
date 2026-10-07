@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T14:09:33Z",
+ "ts": "2026-10-07T14:13:17Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 91,
+   "events_returned": 90,
    "err": null
   },
   {
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
-   "LoL: GAM Esports vs Shopify Rebellion (BO3) - Demacia Cup Global Invit",
-   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier"
+   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
+   "Counter-Strike: FURIA vs 9z (BO3) - ESL Pro League Group Stage"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -160,8 +160,8 @@
   ],
   "tag_slug=league-of-legends": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
-   "LoL: GAM Esports vs Shopify Rebellion (BO3) - Demacia Cup Global Invit",
-   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier"
+   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
+   "LoL: Gen.G Global Academy vs Hanwha Life Esports Challengers (BO3) - L"
   ],
   "tag_slug=lol": [
    "Worlds 2026 Winning Region",
@@ -311,22 +311,45 @@
  },
  "n_event_queries": 21,
  "events": 425,
- "markets": 343,
- "markets_dropped_by_volume_floor": 2519,
+ "markets": 355,
+ "markets_dropped_by_volume_floor": 2535,
  "day_file": "data/2026/10/2026-10-07T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 116,
+ "trades_markets_queried": 118,
  "trades_watchlist_markets": 98,
- "trades_collected": 2360,
+ "trades_collected": 2506,
  "anomalies_detected": 30,
  "anomalies_new": 4,
- "history_debug": [],
- "history_conditions_new": 0,
+ "history_debug": [
+  {
+   "cid": "0xb74a7995",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x1fec1ef2",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
  "books_errors": [
-  "1042779556: HTTPError: HTTP Error 404: Not Found",
-  "1093388938: HTTPError: HTTP Error 404: Not Found"
+  "6522949427: HTTPError: HTTP Error 404: Not Found",
+  "8511916105: HTTPError: HTTP Error 404: Not Found",
+  "1859293095: HTTPError: HTTP Error 404: Not Found",
+  "1052144420: HTTPError: HTTP Error 404: Not Found",
+  "1119700468: HTTPError: HTTP Error 404: Not Found",
+  "8083576682: HTTPError: HTTP Error 404: Not Found",
+  "8755213662: HTTPError: HTTP Error 404: Not Found",
+  "3425528206: HTTPError: HTTP Error 404: Not Found",
+  "2372592613: HTTPError: HTTP Error 404: Not Found",
+  "8368539486: HTTPError: HTTP Error 404: Not Found",
+  "9791123464: HTTPError: HTTP Error 404: Not Found",
+  "1123808622: HTTPError: HTTP Error 404: Not Found",
+  "5130896448: HTTPError: HTTP Error 404: Not Found",
+  "6273357978: HTTPError: HTTP Error 404: Not Found"
  ],
  "books_markets": 97,
- "books_rows": 148,
+ "books_rows": 152,
  "status": "ok"
 }
