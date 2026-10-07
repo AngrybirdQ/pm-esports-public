@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T19:05:44Z",
+ "ts": "2026-10-07T19:13:30Z",
  "sources": [
   {
    "url": "/tags",
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
-   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
-   "Counter-Strike: Spirit vs M80 (BO3) - ESL Pro League Group Stage"
+   "Counter-Strike: Spirit vs M80 (BO3) - ESL Pro League Group Stage",
+   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -312,23 +312,29 @@
  "n_event_queries": 21,
  "events": 420,
  "markets": 360,
- "markets_dropped_by_volume_floor": 2508,
+ "markets_dropped_by_volume_floor": 2513,
  "day_file": "data/2026/10/2026-10-07T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 111,
- "trades_watchlist_markets": 68,
- "trades_collected": 3630,
- "anomalies_detected": 61,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "2510529529: HTTPError: HTTP Error 404: Not Found",
-  "2399895172: HTTPError: HTTP Error 404: Not Found",
-  "4987385122: HTTPError: HTTP Error 404: Not Found",
-  "1027879215: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 98,
+ "trades_watchlist_markets": 47,
+ "trades_collected": 3313,
+ "anomalies_detected": 71,
+ "anomalies_new": 71,
+ "history_debug": [
+  {
+   "cid": "0x8db59ecf",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 85,
- "books_rows": 100,
+ "history_conditions_new": 1,
+ "books_errors": [
+  "1135607017: HTTPError: HTTP Error 404: Not Found",
+  "2772939179: HTTPError: HTTP Error 404: Not Found",
+  "1114107706: HTTPError: HTTP Error 404: Not Found",
+  "2598332980: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 61,
+ "books_rows": 84,
  "status": "ok"
 }
