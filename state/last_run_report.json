@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T07:23:48Z",
+ "ts": "2026-10-07T07:26:14Z",
  "sources": [
   {
    "url": "/tags",
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
    "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
-   "LoL: Gen.G Global Academy vs Hanwha Life Esports Challengers (BO3) - L"
+   "LoL: GAM Esports vs Shopify Rebellion (BO3) - Demacia Cup Global Invit"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Power Rangers vs Team Synapse (BO3) - EPL Masters Group A",
@@ -311,18 +311,24 @@
  },
  "n_event_queries": 21,
  "events": 420,
- "markets": 307,
- "markets_dropped_by_volume_floor": 2536,
+ "markets": 310,
+ "markets_dropped_by_volume_floor": 2534,
  "day_file": "data/2026/10/2026-10-07T07.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 77,
+ "trades_markets_queried": 80,
  "trades_watchlist_markets": 63,
- "trades_collected": 1059,
- "anomalies_detected": 6,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 84,
- "books_rows": 164,
+ "trades_collected": 1156,
+ "anomalies_detected": 15,
+ "anomalies_new": 8,
+ "history_debug": [
+  {
+   "cid": "0x45904f19",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 86,
+ "books_rows": 168,
  "status": "ok"
 }
