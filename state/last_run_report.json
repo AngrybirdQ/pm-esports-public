@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T18:19:33Z",
+ "ts": "2026-10-07T18:23:46Z",
  "sources": [
   {
    "url": "/tags",
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
-   "Counter-Strike: PARIVISION vs Natus Vincere (BO3) - ESL Pro League Gro",
-   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier"
+   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
+   "Counter-Strike: Spirit vs M80 (BO3) - ESL Pro League Group Stage"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Synapse vs LEGION (BO3) - PARI Universe Closed Qualifier ",
@@ -311,30 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 422,
- "markets": 362,
- "markets_dropped_by_volume_floor": 2531,
+ "markets": 355,
+ "markets_dropped_by_volume_floor": 2527,
  "day_file": "data/2026/10/2026-10-07T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 108,
+ "trades_markets_queried": 102,
  "trades_watchlist_markets": 68,
- "trades_collected": 3698,
- "anomalies_detected": 80,
- "anomalies_new": 0,
+ "trades_collected": 3622,
+ "anomalies_detected": 75,
+ "anomalies_new": 7,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1035788973: HTTPError: HTTP Error 404: Not Found",
-  "4888321996: HTTPError: HTTP Error 404: Not Found",
-  "1650857303: HTTPError: HTTP Error 404: Not Found",
-  "4762203847: HTTPError: HTTP Error 404: Not Found",
-  "1098946105: HTTPError: HTTP Error 404: Not Found",
-  "2876440929: HTTPError: HTTP Error 404: Not Found",
-  "1346885599: HTTPError: HTTP Error 404: Not Found",
-  "6337327865: HTTPError: HTTP Error 404: Not Found",
-  "5711539379: HTTPError: HTTP Error 404: Not Found",
-  "3965093649: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 87,
- "books_rows": 100,
+ "books_markets": 81,
+ "books_rows": 98,
  "status": "ok"
 }
