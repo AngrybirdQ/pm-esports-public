@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T14:23:38Z",
+ "ts": "2026-10-07T14:26:24Z",
  "sources": [
   {
    "url": "/tags",
@@ -146,8 +146,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Power Rangers vs Team Synapse (BO3) - EPL Masters Group A",
-   "Dota 2: REKONIX vs Team Nemesis - More Markets"
+   "Dota 2: MOUZ vs CyberHero (BO3) - PARI Universe Closed Qualifier Playo",
+   "Dota 2: Power Rangers vs Team Synapse (BO3) - EPL Masters Group A"
   ],
   "tag_slug=cs2": [
    "ESL Pro League Season 24: Winner",
@@ -311,18 +311,24 @@
  },
  "n_event_queries": 21,
  "events": 425,
- "markets": 351,
- "markets_dropped_by_volume_floor": 2529,
+ "markets": 353,
+ "markets_dropped_by_volume_floor": 2527,
  "day_file": "data/2026/10/2026-10-07T14.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 123,
  "trades_watchlist_markets": 98,
- "trades_collected": 2712,
- "anomalies_detected": 24,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_collected": 2704,
+ "anomalies_detected": 25,
+ "anomalies_new": 1,
+ "history_debug": [
+  {
+   "cid": "0x28d5edcb",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 93,
- "books_rows": 152,
+ "books_rows": 154,
  "status": "ok"
 }
