@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T03:48:40Z",
+ "ts": "2026-10-07T05:24:13Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 91,
+   "events_returned": 90,
    "err": null
   },
   {
@@ -134,7 +134,7 @@
   }
  ],
  "errors": [],
- "stage": "all",
+ "stage": "snap",
  "tags_discovered": [
   "international-affairs"
  ],
@@ -310,19 +310,10 @@
   ]
  },
  "n_event_queries": 21,
- "events": 422,
- "markets": 294,
- "markets_dropped_by_volume_floor": 2550,
- "day_file": "data/2026/10/2026-10-07T03.jsonl",
+ "events": 421,
+ "markets": 293,
+ "markets_dropped_by_volume_floor": 2538,
+ "day_file": "data/2026/10/2026-10-07T05.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 65,
- "trades_watchlist_markets": 54,
- "trades_collected": 432,
- "anomalies_detected": 0,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 73,
- "books_rows": 134,
  "status": "ok"
 }

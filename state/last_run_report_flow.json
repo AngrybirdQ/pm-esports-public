@@ -1,38 +1,23 @@
 {
- "ts": "2026-10-06T21:33:46Z",
+ "ts": "2026-10-07T05:25:21Z",
  "sources": [],
  "errors": [],
  "stage": "flow",
- "markets": 298,
- "trades_markets_queried": 25,
+ "markets": 293,
+ "trades_markets_queried": 20,
  "trades_watchlist_markets": 0,
- "trades_collected": 869,
- "anomalies_detected": 0,
- "anomalies_new": 0,
+ "trades_collected": 440,
+ "anomalies_detected": 3,
+ "anomalies_new": 3,
  "history_debug": [
   {
-   "cid": "0xb746fdd1",
-   "pts": 3,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x71106ee8",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xd03b5c18",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x8f998a82",
+   "cid": "0xea238daf",
    "pts": 1,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 4,
+ "history_conditions_new": 1,
  "books_markets": 20,
- "books_rows": 36,
+ "books_rows": 40,
  "status": "ok"
 }
