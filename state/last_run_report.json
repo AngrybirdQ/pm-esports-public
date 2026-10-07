@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T15:53:42Z",
+ "ts": "2026-10-07T15:57:25Z",
  "sources": [
   {
    "url": "/tags",
@@ -216,8 +216,8 @@
     "closed": false
    },
    {
-    "t": "Dota 2: InterActive Philippines vs Xipto Esports (BO3) - EPL World Ser",
-    "closed": true
+    "t": "Dota 2: Team Synapse vs LEGION (BO3) - PARI Universe Closed Qualifier ",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -311,30 +311,24 @@
  },
  "n_event_queries": 21,
  "events": 424,
- "markets": 353,
- "markets_dropped_by_volume_floor": 2524,
+ "markets": 348,
+ "markets_dropped_by_volume_floor": 2515,
  "day_file": "data/2026/10/2026-10-07T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 118,
+ "trades_markets_queried": 117,
  "trades_watchlist_markets": 94,
  "trades_collected": 2932,
- "anomalies_detected": 31,
- "anomalies_new": 0,
+ "anomalies_detected": 23,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "2336711405: HTTPError: HTTP Error 404: Not Found",
-  "1001512689: HTTPError: HTTP Error 404: Not Found",
-  "4063282889: HTTPError: HTTP Error 404: Not Found",
-  "9383851289: HTTPError: HTTP Error 404: Not Found",
-  "4714843498: HTTPError: HTTP Error 404: Not Found",
-  "5010299996: HTTPError: HTTP Error 404: Not Found",
-  "1948221511: HTTPError: HTTP Error 404: Not Found",
-  "3051796908: HTTPError: HTTP Error 404: Not Found",
-  "2138513429: HTTPError: HTTP Error 404: Not Found",
-  "9564704059: HTTPError: HTTP Error 404: Not Found"
+  "4692196818: HTTPError: HTTP Error 404: Not Found",
+  "1922419623: HTTPError: HTTP Error 404: Not Found",
+  "9042524377: HTTPError: HTTP Error 404: Not Found",
+  "2070107576: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 102,
+ "books_markets": 97,
  "books_rows": 156,
  "status": "ok"
 }
