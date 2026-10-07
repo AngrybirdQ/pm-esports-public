@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T16:29:36Z",
+ "ts": "2026-10-07T16:32:49Z",
  "sources": [
   {
    "url": "/tags",
@@ -208,11 +208,11 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Team Synapse vs Yellow Submarine (BO3) - PARI Universe Closed ",
+    "t": "Dota 2: MOUZ vs CyberHero (BO3) - PARI Universe Closed Qualifier Playo",
     "closed": true
    },
    {
-    "t": "Dota 2: MOUZ vs CyberHero (BO3) - PARI Universe Closed Qualifier Playo",
+    "t": "Dota 2: Team Synapse vs Yellow Submarine (BO3) - PARI Universe Closed ",
     "closed": true
    },
    {
@@ -311,33 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 424,
- "markets": 352,
- "markets_dropped_by_volume_floor": 2523,
+ "markets": 349,
+ "markets_dropped_by_volume_floor": 2520,
  "day_file": "data/2026/10/2026-10-07T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 118,
+ "trades_markets_queried": 117,
  "trades_watchlist_markets": 94,
- "trades_collected": 3368,
- "anomalies_detected": 36,
- "anomalies_new": 14,
- "history_debug": [
-  {
-   "cid": "0xe2c77069",
-   "pts": 4,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x025fd7ad",
-   "pts": 3,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 2,
- "books_errors": [
-  "8142645882: HTTPError: HTTP Error 404: Not Found",
-  "7502926300: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 97,
- "books_rows": 140,
+ "trades_collected": 3362,
+ "anomalies_detected": 46,
+ "anomalies_new": 46,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 96,
+ "books_rows": 136,
  "status": "ok"
 }
