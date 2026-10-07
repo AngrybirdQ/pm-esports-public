@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T17:14:35Z",
+ "ts": "2026-10-07T17:18:43Z",
  "sources": [
   {
    "url": "/tags",
@@ -208,12 +208,12 @@
     "closed": false
    },
    {
-    "t": "Dota 2: MOUZ vs CyberHero (BO3) - PARI Universe Closed Qualifier Playo",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Synapse vs LEGION (BO3) - PARI Universe Closed Qualifier ",
     "closed": false
+   },
+   {
+    "t": "Dota 2: MOUZ vs CyberHero (BO3) - PARI Universe Closed Qualifier Playo",
+    "closed": true
    },
    {
     "t": "Dota 2: InterActive Philippines vs Xipto Esports (BO3) - EPL World Ser",
@@ -311,24 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 424,
- "markets": 351,
- "markets_dropped_by_volume_floor": 2505,
+ "markets": 348,
+ "markets_dropped_by_volume_floor": 2509,
  "day_file": "data/2026/10/2026-10-07T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 120,
+ "trades_markets_queried": 119,
  "trades_watchlist_markets": 94,
- "trades_collected": 3290,
- "anomalies_detected": 45,
- "anomalies_new": 0,
+ "trades_collected": 3314,
+ "anomalies_detected": 29,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "2250225430: HTTPError: HTTP Error 404: Not Found",
-  "1074005312: HTTPError: HTTP Error 404: Not Found",
-  "9586906651: HTTPError: HTTP Error 404: Not Found",
-  "6048741953: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 94,
- "books_rows": 130,
+ "books_markets": 93,
+ "books_rows": 128,
  "status": "ok"
 }
