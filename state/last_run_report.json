@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T20:49:49Z",
+ "ts": "2026-10-07T20:56:54Z",
  "sources": [
   {
    "url": "/tags",
@@ -145,8 +145,8 @@
    "LoL: Team Heretics Academy vs G2 NORD (BO5) - EMEA Masters Playoffs"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
    "Dota 2: CyberHero vs Blasterbl (BO3) - PARI Universe Closed Qualifier ",
+   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
    "Dota 2: Power Rangers vs Team Synapse (BO3) - EPL Masters Group A"
   ],
   "tag_slug=cs2": [
@@ -204,11 +204,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
+    "t": "Dota 2: CyberHero vs Blasterbl (BO3) - PARI Universe Closed Qualifier ",
     "closed": false
    },
    {
-    "t": "Dota 2: CyberHero vs Blasterbl (BO3) - PARI Universe Closed Qualifier ",
+    "t": "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
     "closed": false
    },
    {
@@ -311,22 +311,26 @@
  },
  "n_event_queries": 21,
  "events": 421,
- "markets": 335,
- "markets_dropped_by_volume_floor": 2473,
+ "markets": 334,
+ "markets_dropped_by_volume_floor": 2469,
  "day_file": "data/2026/10/2026-10-07T20.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 79,
- "trades_watchlist_markets": 47,
- "trades_collected": 1784,
- "anomalies_detected": 16,
- "anomalies_new": 0,
+ "trades_markets_queried": 95,
+ "trades_watchlist_markets": 71,
+ "trades_collected": 2128,
+ "anomalies_detected": 17,
+ "anomalies_new": 17,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "1902499076: HTTPError: HTTP Error 404: Not Found",
-  "9521244158: HTTPError: HTTP Error 404: Not Found"
+  "4286878734: HTTPError: HTTP Error 404: Not Found",
+  "4524030928: HTTPError: HTTP Error 404: Not Found",
+  "1149575002: HTTPError: HTTP Error 404: Not Found",
+  "1139555619: HTTPError: HTTP Error 404: Not Found",
+  "8245864534: HTTPError: HTTP Error 404: Not Found",
+  "5471037576: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 54,
- "books_rows": 78,
+ "books_markets": 76,
+ "books_rows": 116,
  "status": "ok"
 }
