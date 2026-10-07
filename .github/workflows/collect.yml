@@ -139,6 +139,12 @@ jobs:
         with: { name: pm-side, path: . }
       - name: twin scan + pm settlement backfill (gamma reachable)
         run: python3 scripts/twin_and_settle.py
+      - name: arbitrage scan (pm x Kalshi + internal consistency)
+        run: python3 scripts/arb_scan.py
+      - name: pm price-history backfill (research fuel)
+        run: python3 scripts/price_history_backfill.py
+      - name: data integrity guard
+        run: python3 scripts/data_guard.py
       - name: commit (single writer — no race)
         run: |
           git config user.name "pm-esports-collector"
