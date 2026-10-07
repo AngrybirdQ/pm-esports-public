@@ -1,0 +1,32 @@
+name: resolve-conditions
+
+on:
+  schedule:
+    - cron: '41 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: resolve
+  cancel-in-progress: false
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: resolve conditions (gamma authoritative)
+        run: python3 scripts/resolve_conditions.py || echo "resolve failed"
+      - name: commit
+        run: |
+          git config user.name "pm-esports-collector"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data state
+          if ! git diff --cached --quiet; then
+            git commit -m "resolve: $(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+            git pull --rebase --autostash origin main || true
+            git push origin HEAD:main || echo "push race (next run retries)"
+          fi
