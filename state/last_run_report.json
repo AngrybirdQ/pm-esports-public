@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T23:36:42Z",
+ "ts": "2026-10-07T23:38:58Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 36,
+   "events_returned": 35,
    "err": null
   },
   {
@@ -142,12 +142,12 @@
   "tag_slug=esports": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
    "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
-   "Dota 2: CyberHero vs Blasterbl (BO3) - PARI Universe Closed Qualifier "
+   "LoL: Disguised vs Maryville University (BO5) - LCS Promotion Playoffs"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: CyberHero vs Blasterbl (BO3) - PARI Universe Closed Qualifier ",
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Power Rangers vs Team Synapse (BO3) - EPL Masters Group A"
+   "Dota 2: Power Rangers vs Team Synapse (BO3) - EPL Masters Group A",
+   "Dota 2: REKONIX vs Team Nemesis - More Markets"
   ],
   "tag_slug=cs2": [
    "ESL Pro League Season 24: Winner",
@@ -189,6 +189,7 @@
   ]
  },
  "winning_sources": [
+  "search:Dota 2",
   "tag_slug=cs2",
   "tag_slug=dota-2",
   "tag_slug=esports",
@@ -310,18 +311,24 @@
   ]
  },
  "n_event_queries": 21,
- "events": 419,
+ "events": 420,
  "markets": 307,
  "markets_dropped_by_volume_floor": 2425,
  "day_file": "data/2026/10/2026-10-07T23.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 72,
  "trades_watchlist_markets": 48,
- "trades_collected": 1267,
- "anomalies_detected": 13,
- "anomalies_new": 2,
+ "trades_collected": 1247,
+ "anomalies_detected": 15,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "4588512679: HTTPError: HTTP Error 404: Not Found",
+  "2488135937: HTTPError: HTTP Error 404: Not Found",
+  "1023408723: HTTPError: HTTP Error 404: Not Found",
+  "3009818153: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 56,
  "books_rows": 80,
  "status": "ok"
