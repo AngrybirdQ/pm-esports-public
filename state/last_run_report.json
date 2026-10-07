@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T13:36:16Z",
+ "ts": "2026-10-07T13:41:24Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 92,
+   "events_returned": 91,
    "err": null
   },
   {
@@ -160,8 +160,8 @@
   ],
   "tag_slug=league-of-legends": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
-   "LoL: FlyQuest vs Shopify Rebellion (BO3) - Demacia Cup Global Invitati",
-   "LoL: GAM Esports vs Shopify Rebellion (BO3) - Demacia Cup Global Invit"
+   "LoL: GAM Esports vs Shopify Rebellion (BO3) - Demacia Cup Global Invit",
+   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier"
   ],
   "tag_slug=lol": [
    "Worlds 2026 Winning Region",
@@ -171,7 +171,7 @@
   "tag_slug=valorant": [
    "Valorant: Paper Rex vs LOUD (BO3) - VCT Champions Playoffs",
    "VALORANT Champions 2026: Winner",
-   "Least Played Map at VALORANT Champions 2026"
+   "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -212,11 +212,11 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Blasterbl vs Nemiga Gaming (BO3) - PARI Universe Closed Qualif",
-    "closed": true
+    "t": "Dota 2: MOUZ vs CyberHero (BO3) - PARI Universe Closed Qualifier Playo",
+    "closed": false
    },
    {
-    "t": "Dota 2: InterActive Philippines vs Xipto Esports (BO3) - EPL World Ser",
+    "t": "Dota 2: Blasterbl vs Nemiga Gaming (BO3) - PARI Universe Closed Qualif",
     "closed": true
    }
   ],
@@ -266,12 +266,12 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: NRG vs T1 (BO3) - VCT Champions Playoffs",
-    "closed": true
-   },
-   {
     "t": "Valorant: Paper Rex vs LOUD (BO3) - VCT Champions Playoffs",
     "closed": false
+   },
+   {
+    "t": "Valorant: NRG vs T1 (BO3) - VCT Champions Playoffs",
+    "closed": true
    },
    {
     "t": "VALORANT Champions 2026: Winner",
@@ -311,34 +311,38 @@
  },
  "n_event_queries": 21,
  "events": 423,
- "markets": 354,
- "markets_dropped_by_volume_floor": 2537,
+ "markets": 350,
+ "markets_dropped_by_volume_floor": 2527,
  "day_file": "data/2026/10/2026-10-07T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 141,
+ "trades_markets_queried": 140,
  "trades_watchlist_markets": 107,
- "trades_collected": 2883,
+ "trades_collected": 2920,
  "anomalies_detected": 33,
- "anomalies_new": 6,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "4118691245: HTTPError: HTTP Error 404: Not Found",
-  "1011924920: HTTPError: HTTP Error 404: Not Found",
-  "8254210981: HTTPError: HTTP Error 404: Not Found",
-  "8695944821: HTTPError: HTTP Error 404: Not Found",
-  "9150420625: HTTPError: HTTP Error 404: Not Found",
-  "9527291889: HTTPError: HTTP Error 404: Not Found",
-  "1009599341: HTTPError: HTTP Error 404: Not Found",
-  "1208357333: HTTPError: HTTP Error 404: Not Found",
-  "1115303443: HTTPError: HTTP Error 404: Not Found",
-  "9118045787: HTTPError: HTTP Error 404: Not Found",
-  "5381719757: HTTPError: HTTP Error 404: Not Found",
-  "4648632872: HTTPError: HTTP Error 404: Not Found",
-  "9113145164: HTTPError: HTTP Error 404: Not Found",
-  "3910631675: HTTPError: HTTP Error 404: Not Found"
+ "anomalies_new": 4,
+ "history_debug": [
+  {
+   "cid": "0x3be25c50",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 105,
- "books_rows": 140,
+ "history_conditions_new": 1,
+ "books_errors": [
+  "3830602476: HTTPError: HTTP Error 404: Not Found",
+  "1025387678: HTTPError: HTTP Error 404: Not Found",
+  "2861195304: HTTPError: HTTP Error 404: Not Found",
+  "3036666028: HTTPError: HTTP Error 404: Not Found",
+  "3768262953: HTTPError: HTTP Error 404: Not Found",
+  "9266746244: HTTPError: HTTP Error 404: Not Found",
+  "4283165663: HTTPError: HTTP Error 404: Not Found",
+  "7954999559: HTTPError: HTTP Error 404: Not Found",
+  "4401110897: HTTPError: HTTP Error 404: Not Found",
+  "1972486205: HTTPError: HTTP Error 404: Not Found",
+  "9929193772: HTTPError: HTTP Error 404: Not Found",
+  "6009024876: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 101,
+ "books_rows": 142,
  "status": "ok"
 }
