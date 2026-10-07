@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T10:41:03Z",
+ "ts": "2026-10-07T10:43:55Z",
  "sources": [
   {
    "url": "/tags",
@@ -212,12 +212,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Blasterbl vs Nemiga Gaming (BO3) - PARI Universe Closed Qualif",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Blasterbl vs Nemiga Gaming (BO3) - PARI Universe Closed Qualif",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -311,18 +311,28 @@
  },
  "n_event_queries": 21,
  "events": 422,
- "markets": 367,
- "markets_dropped_by_volume_floor": 2560,
+ "markets": 368,
+ "markets_dropped_by_volume_floor": 2559,
  "day_file": "data/2026/10/2026-10-07T10.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 127,
+ "trades_markets_queried": 128,
  "trades_watchlist_markets": 100,
- "trades_collected": 3045,
- "anomalies_detected": 40,
- "anomalies_new": 5,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_collected": 2982,
+ "anomalies_detected": 43,
+ "anomalies_new": 1,
+ "history_debug": [
+  {
+   "cid": "0x38844805",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_errors": [
+  "8401149212: HTTPError: HTTP Error 404: Not Found",
+  "2066297837: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 121,
- "books_rows": 186,
+ "books_rows": 190,
  "status": "ok"
 }
