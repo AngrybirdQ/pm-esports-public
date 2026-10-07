@@ -18,8 +18,11 @@ from datetime import datetime, timezone
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEGEN = (0.03, 0.97)
-DELAYS = (30, 60, 120, 240)                 # 跟单延迟(分钟)
-ENTRY_MIN = (1000.0, 2000.0, 5000.0)        # 入场门槛($)
+import os as _os
+DELAYS = tuple(int(x) for x in _os.environ.get(
+    "RESEARCH_DELAYS", "30,60,120,240").split(","))   # 跟单延迟(分钟)
+ENTRY_MIN = tuple(float(x) for x in _os.environ.get(
+    "RESEARCH_ENTRY", "1000,2000,5000").split(","))   # 入场门槛($)
 THRESH = ((5, 0.45, 0.10), (10, 0.45, 0.10), (10, 0.50, 0.20))  # (n, wr, roi)
 
 
