@@ -22,6 +22,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: transfers monitor
         run: python3 scripts/liquipedia_monitor.py || echo "transfers failed"
+      - name: tournament discovery (portal pages)
+        run: python3 scripts/liquipedia_schedule.py
       - name: results cross-check (best effort)
         run: python3 scripts/liquipedia_results.py || echo "results check failed"
       - name: commit
