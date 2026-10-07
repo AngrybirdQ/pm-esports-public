@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T14:57:03Z",
+ "ts": "2026-10-07T15:00:06Z",
  "sources": [
   {
    "url": "/tags",
@@ -200,11 +200,11 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Team Synapse vs Yellow Submarine (BO3) - PARI Universe Closed ",
+    "t": "Dota 2: LEGION vs MOUZ (BO3) - PARI Universe Closed Qualifier Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: LEGION vs MOUZ (BO3) - PARI Universe Closed Qualifier Playoffs",
+    "t": "Dota 2: Team Synapse vs Yellow Submarine (BO3) - PARI Universe Closed ",
     "closed": true
    },
    {
@@ -312,22 +312,16 @@
  "n_event_queries": 21,
  "events": 424,
  "markets": 354,
- "markets_dropped_by_volume_floor": 2517,
- "day_file": "data/2026/10/2026-10-07T14.jsonl",
+ "markets_dropped_by_volume_floor": 2519,
+ "day_file": "data/2026/10/2026-10-07T15.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 129,
  "trades_watchlist_markets": 98,
- "trades_collected": 2773,
- "anomalies_detected": 30,
- "anomalies_new": 4,
- "history_debug": [
-  {
-   "cid": "0x81306384",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
+ "trades_collected": 2745,
+ "anomalies_detected": 47,
+ "anomalies_new": 46,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 95,
  "books_rows": 158,
  "status": "ok"
