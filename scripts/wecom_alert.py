@@ -12,7 +12,8 @@ import time
 import urllib.request
 
 PUSH_TYPES = {"big_trade", "sharp_wallet", "big_premarket",
-              "one_side_flow", "concentrated_entry", "sharp_move"}
+              "one_side_flow", "concentrated_entry", "sharp_move",
+              "insider_wallet"}
 TTL_H = 6
 FRESH_FILE_MIN = 15
 CAP = 8
@@ -62,7 +63,8 @@ def main():
     if not fresh:
         return
 
-    LABEL = {"big_trade": "🚨大单", "sharp_wallet": "🧠聪明钱",
+    LABEL = {"insider_wallet": "🔒S级内幕观察",
+             "big_trade": "🚨大单", "sharp_wallet": "🧠聪明钱",
              "big_premarket": "💰赛前大单", "one_side_flow": "⚔单边净流",
              "concentrated_entry": "🎯集中建仓", "sharp_move": "⚡胜率急动"}
     segs = ["**🚨 pm场外异动 ×%d**" % len(fresh)]
