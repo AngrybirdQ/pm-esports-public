@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T10:57:10Z",
+ "ts": "2026-10-07T11:01:04Z",
  "sources": [
   {
    "url": "/tags",
@@ -146,8 +146,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Power Rangers vs Team Synapse (BO3) - EPL Masters Group A",
-   "Dota 2: REKONIX vs Team Nemesis - More Markets",
-   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua"
+   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
+   "Dota 2: REKONIX vs Team Nemesis - More Markets"
   ],
   "tag_slug=cs2": [
    "ESL Pro League Season 24: Winner",
@@ -311,30 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 422,
- "markets": 362,
- "markets_dropped_by_volume_floor": 2544,
- "day_file": "data/2026/10/2026-10-07T10.jsonl",
+ "markets": 358,
+ "markets_dropped_by_volume_floor": 2522,
+ "day_file": "data/2026/10/2026-10-07T11.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 127,
  "trades_watchlist_markets": 100,
- "trades_collected": 2973,
- "anomalies_detected": 29,
- "anomalies_new": 1,
+ "trades_collected": 2937,
+ "anomalies_detected": 34,
+ "anomalies_new": 30,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "3035719838: HTTPError: HTTP Error 404: Not Found",
-  "4561090669: HTTPError: HTTP Error 404: Not Found",
-  "2098905982: HTTPError: HTTP Error 404: Not Found",
-  "8352108748: HTTPError: HTTP Error 404: Not Found",
-  "8716796502: HTTPError: HTTP Error 404: Not Found",
-  "9841970634: HTTPError: HTTP Error 404: Not Found",
-  "1385791890: HTTPError: HTTP Error 404: Not Found",
-  "9062501306: HTTPError: HTTP Error 404: Not Found",
-  "4297021338: HTTPError: HTTP Error 404: Not Found",
-  "5595777935: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 116,
- "books_rows": 186,
+ "books_markets": 113,
+ "books_rows": 184,
  "status": "ok"
 }
