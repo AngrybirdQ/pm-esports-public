@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T22:17:56Z",
+ "ts": "2026-10-07T22:37:16Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 35,
+   "events_returned": 36,
    "err": null
   },
   {
@@ -169,8 +169,8 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "VALORANT Champions 2026: Winner",
    "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
+   "VALORANT Champions 2026: Winner",
    "Valorant: Team Vitality vs Nongshim RedForce (BO3) - VCT Champions Pla"
   ],
   "tag_slug=starcraft-2": [
@@ -310,19 +310,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 420,
+ "events": 421,
  "markets": 315,
- "markets_dropped_by_volume_floor": 2432,
+ "markets_dropped_by_volume_floor": 2450,
  "day_file": "data/2026/10/2026-10-07T22.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 89,
- "trades_watchlist_markets": 71,
- "trades_collected": 1930,
- "anomalies_detected": 31,
- "anomalies_new": 3,
+ "trades_markets_queried": 74,
+ "trades_watchlist_markets": 48,
+ "trades_collected": 2043,
+ "anomalies_detected": 25,
+ "anomalies_new": 25,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 74,
- "books_rows": 115,
+ "books_markets": 58,
+ "books_rows": 88,
  "status": "ok"
 }
