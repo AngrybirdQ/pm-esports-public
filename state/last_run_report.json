@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T18:40:19Z",
+ "ts": "2026-10-07T18:42:56Z",
  "sources": [
   {
    "url": "/tags",
@@ -133,7 +133,10 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "trades 0x1305414d: HTTPError: HTTP Error 429: Too Many Requests",
+  "trades 0x868f31c6: HTTPError: HTTP Error 429: Too Many Requests"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -216,8 +219,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: InterActive Philippines vs Xipto Esports (BO3) - EPL World Ser",
-    "closed": true
+    "t": "Dota 2: CyberHero vs Blasterbl (BO3) - PARI Universe Closed Qualifier ",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -317,12 +320,12 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 106,
  "trades_watchlist_markets": 68,
- "trades_collected": 3601,
+ "trades_collected": 3628,
  "anomalies_detected": 41,
- "anomalies_new": 4,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 83,
- "books_rows": 100,
+ "books_rows": 98,
  "status": "ok"
 }
