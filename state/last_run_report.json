@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T05:24:13Z",
+ "ts": "2026-10-07T05:30:45Z",
  "sources": [
   {
    "url": "/tags",
@@ -134,7 +134,7 @@
   }
  ],
  "errors": [],
- "stage": "snap",
+ "stage": "all",
  "tags_discovered": [
   "international-affairs"
  ],
@@ -216,8 +216,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Yangon Galacticos vs InterActive Philippines (BO3) - EPL World",
-    "closed": true
+    "t": "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -244,11 +244,11 @@
   ],
   "search:League of Legends": [
    {
-    "t": "LoL: Kaufland Hangry Knights vs Unicorns Of Love Sexy Edition (BO5) - ",
+    "t": "League of Legends Global Power Rankings Post Worlds: Rank 1",
     "closed": false
    },
    {
-    "t": "League of Legends Global Power Rankings Post Worlds: Rank 1",
+    "t": "LoL: Kaufland Hangry Knights vs Unicorns Of Love Sexy Edition (BO5) - ",
     "closed": false
    },
    {
@@ -315,5 +315,14 @@
  "markets_dropped_by_volume_floor": 2538,
  "day_file": "data/2026/10/2026-10-07T05.jsonl",
  "retention_removed_files": 0,
+ "trades_markets_queried": 64,
+ "trades_watchlist_markets": 54,
+ "trades_collected": 565,
+ "anomalies_detected": 5,
+ "anomalies_new": 2,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 71,
+ "books_rows": 140,
  "status": "ok"
 }
