@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-07T14:38:17Z",
+ "ts": "2026-10-07T14:41:55Z",
  "sources": [
   {
    "url": "/tags",
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
    "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
-   "LoL: Gen.G Global Academy vs Hanwha Life Esports Challengers (BO3) - L"
+   "Counter-Strike: PARIVISION vs Natus Vincere (BO3) - ESL Pro League Gro"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -252,15 +252,15 @@
     "closed": false
    },
    {
+    "t": "Will Jynxzi reach Gold rank in League of Legends by...?",
+    "closed": false
+   },
+   {
     "t": "LoL: Dplus KIA Challengers vs KT Rolster Challengers (BO5) - LCK Chall",
     "closed": true
    },
    {
     "t": "LoL: T1 Academy vs KT Rolster Challengers (BO5) - LCK Challengers Leag",
-    "closed": true
-   },
-   {
-    "t": "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO5) - LCK Challengers",
     "closed": true
    }
   ],
@@ -310,23 +310,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 425,
- "markets": 349,
- "markets_dropped_by_volume_floor": 2533,
+ "events": 424,
+ "markets": 350,
+ "markets_dropped_by_volume_floor": 2532,
  "day_file": "data/2026/10/2026-10-07T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 124,
+ "trades_markets_queried": 126,
  "trades_watchlist_markets": 98,
- "trades_collected": 2718,
+ "trades_collected": 2896,
  "anomalies_detected": 20,
- "anomalies_new": 2,
+ "anomalies_new": 4,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1082144273: HTTPError: HTTP Error 404: Not Found",
-  "4821186850: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 90,
- "books_rows": 152,
+ "books_markets": 91,
+ "books_rows": 156,
  "status": "ok"
 }
