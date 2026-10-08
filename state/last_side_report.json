@@ -1,18 +1,18 @@
 {
- "ts": "2026-10-08T04:50:57Z",
+ "ts": "2026-10-08T04:54:25Z",
  "side_sources": [
   {
    "source": "kalshi",
    "ok": true,
    "variant": "https://api.elections.kalshi.com/trade-api/v2",
    "markets_scanned": 5000,
-   "esports_hits": 1
+   "esports_hits": 0
   },
   {
    "source": "kalshi_orderbook",
    "ok": true,
    "books": 0,
-   "fails": 1
+   "fails": 0
   },
   {
    "source": "liquipedia",
@@ -25,5 +25,5 @@
    "skipped": "dead source, see docstring"
   }
  ],
- "observations": 1
+ "observations": 0
 }
