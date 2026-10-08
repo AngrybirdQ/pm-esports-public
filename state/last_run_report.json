@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T15:36:50Z",
+ "ts": "2026-10-08T15:41:06Z",
  "sources": [
   {
    "url": "/tags",
@@ -200,24 +200,24 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Team Yandex vs LGD Gaming (BO3) - BLAST Slam Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Aurora vs 1win (BO3) - BLAST Slam Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Yandex vs LGD Gaming (BO3) - BLAST Slam Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: CyberHero vs Blasterbl (BO3) - PARI Universe Closed Qualifier ",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Synapse vs LEGION (BO3) - PARI Universe Closed Qualifier ",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Synapse vs LEGION (BO3) - PARI Universe Closed Qualifier ",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -311,26 +311,28 @@
  },
  "n_event_queries": 21,
  "events": 425,
- "markets": 349,
- "markets_dropped_by_volume_floor": 2622,
+ "markets": 348,
+ "markets_dropped_by_volume_floor": 2617,
  "day_file": "data/2026/10/2026-10-08T15.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 132,
  "trades_watchlist_markets": 90,
- "trades_collected": 3525,
- "anomalies_detected": 36,
- "anomalies_new": 0,
+ "trades_collected": 3439,
+ "anomalies_detected": 37,
+ "anomalies_new": 7,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "3570121874: HTTPError: HTTP Error 404: Not Found",
-  "6878398657: HTTPError: HTTP Error 404: Not Found",
-  "6820620054: HTTPError: HTTP Error 404: Not Found",
-  "8816375720: HTTPError: HTTP Error 404: Not Found",
-  "2713649151: HTTPError: HTTP Error 404: Not Found",
-  "4313829612: HTTPError: HTTP Error 404: Not Found"
+  "1107347467: HTTPError: HTTP Error 404: Not Found",
+  "7337389590: HTTPError: HTTP Error 404: Not Found",
+  "5112582964: HTTPError: HTTP Error 404: Not Found",
+  "1711354298: HTTPError: HTTP Error 404: Not Found",
+  "2549700711: HTTPError: HTTP Error 404: Not Found",
+  "2702331505: HTTPError: HTTP Error 404: Not Found",
+  "6519705055: HTTPError: HTTP Error 404: Not Found",
+  "9804148948: HTTPError: HTTP Error 404: Not Found"
  ],
  "books_markets": 91,
- "books_rows": 118,
+ "books_rows": 112,
  "status": "ok"
 }
