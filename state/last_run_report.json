@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T16:21:09Z",
+ "ts": "2026-10-08T17:44:39Z",
  "sources": [
   {
    "url": "/tags",
@@ -141,11 +141,11 @@
  "tag_samples": {
   "tag_slug=esports": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
-   "Dota 2: Aurora vs 1win (BO3) - BLAST Slam Playoffs",
-   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier"
+   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
+   "Dota 2: PARIVISION vs Team Yandex (BO3) - BLAST Slam Playoffs"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Aurora vs 1win (BO3) - BLAST Slam Playoffs",
+   "Dota 2: PARIVISION vs Team Yandex (BO3) - BLAST Slam Playoffs",
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua"
   ],
@@ -171,7 +171,7 @@
   "tag_slug=valorant": [
    "VALORANT Champions 2026: Winner",
    "Least Played Map at VALORANT Champions 2026",
-   "VALORANT Champions 2026 Winning Region"
+   "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -201,11 +201,15 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: Aurora vs 1win (BO3) - BLAST Slam Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Yandex vs LGD Gaming (BO3) - BLAST Slam Playoffs",
     "closed": true
+   },
+   {
+    "t": "Dota 2: PARIVISION vs Team Yandex (BO3) - BLAST Slam Playoffs",
+    "closed": false
    },
    {
     "t": "Dota 2: CyberHero vs Blasterbl (BO3) - PARI Universe Closed Qualifier ",
@@ -214,10 +218,6 @@
    {
     "t": "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
     "closed": false
-   },
-   {
-    "t": "Dota 2: Team Synapse vs LEGION (BO3) - PARI Universe Closed Qualifier ",
-    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -282,7 +282,7 @@
     "closed": false
    },
    {
-    "t": "VALORANT Champions 2026: Winner",
+    "t": "Valorant: BBL Esports vs Pcific Esports (BO3) - Monsters Reloaded Clos",
     "closed": false
    }
   ],
@@ -311,24 +311,59 @@
  },
  "n_event_queries": 21,
  "events": 427,
- "markets": 336,
- "markets_dropped_by_volume_floor": 2707,
- "day_file": "data/2026/10/2026-10-08T16.jsonl",
+ "markets": 333,
+ "markets_dropped_by_volume_floor": 2678,
+ "day_file": "data/2026/10/2026-10-08T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 109,
- "trades_watchlist_markets": 78,
- "trades_collected": 2954,
- "anomalies_detected": 33,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "1149839327: HTTPError: HTTP Error 404: Not Found",
-  "4538887059: HTTPError: HTTP Error 404: Not Found",
-  "2898506846: HTTPError: HTTP Error 404: Not Found",
-  "7608469325: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 101,
+ "trades_watchlist_markets": 55,
+ "trades_collected": 2003,
+ "anomalies_detected": 18,
+ "anomalies_new": 18,
+ "history_debug": [
+  {
+   "cid": "0x58628f45",
+   "pts": 10,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x0ceb5105",
+   "pts": 6,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xbfd6f1c7",
+   "pts": 5,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x45163f33",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xb7dd321e",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x4bedc704",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xcd23eed8",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x80113828",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 83,
- "books_rows": 96,
+ "history_conditions_new": 9,
+ "books_markets": 74,
+ "books_rows": 116,
  "status": "ok"
 }
