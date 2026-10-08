@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T11:09:53Z",
+ "ts": "2026-10-08T11:12:32Z",
  "sources": [
   {
    "url": "/tags",
@@ -170,8 +170,8 @@
   ],
   "tag_slug=valorant": [
    "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
-   "VALORANT Champions 2026: Winner",
-   "Valorant: Team Vitality vs Nongshim RedForce (BO3) - VCT Champions Pla"
+   "Valorant: Team Vitality vs Nongshim RedForce (BO3) - VCT Champions Pla",
+   "VALORANT Champions 2026: Winner"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -266,20 +266,20 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: Paper Rex vs LOUD (BO3) - VCT Champions Playoffs",
-    "closed": true
-   },
-   {
     "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
     "closed": false
    },
    {
-    "t": "Valorant: NRG vs T1 (BO3) - VCT Champions Playoffs",
+    "t": "Valorant: Paper Rex vs LOUD (BO3) - VCT Champions Playoffs",
     "closed": true
    },
    {
     "t": "Valorant: Team Vitality vs Nongshim RedForce (BO3) - VCT Champions Pla",
     "closed": false
+   },
+   {
+    "t": "Valorant: NRG vs T1 (BO3) - VCT Champions Playoffs",
+    "closed": true
    },
    {
     "t": "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs",
@@ -317,17 +317,17 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 112,
  "trades_watchlist_markets": 85,
- "trades_collected": 2791,
+ "trades_collected": 2783,
  "anomalies_detected": 48,
- "anomalies_new": 4,
- "history_debug": [
-  {
-   "cid": "0x285e2c3d",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
+ "anomalies_new": 0,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_errors": [
+  "2823070395: HTTPError: HTTP Error 404: Not Found",
+  "9618569988: HTTPError: HTTP Error 404: Not Found",
+  "1081375138: HTTPError: HTTP Error 404: Not Found",
+  "3339012090: HTTPError: HTTP Error 404: Not Found"
  ],
- "history_conditions_new": 1,
  "books_markets": 109,
  "books_rows": 154,
  "status": "ok"
