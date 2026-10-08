@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T12:13:20Z",
+ "ts": "2026-10-08T12:16:03Z",
  "sources": [
   {
    "url": "/tags",
@@ -216,7 +216,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
+    "t": "Dota 2: Xipto Esports vs InterActive Philippines (BO5) - EPL World Ser",
     "closed": false
    }
   ],
@@ -317,12 +317,16 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 121,
  "trades_watchlist_markets": 85,
- "trades_collected": 2959,
- "anomalies_detected": 39,
+ "trades_collected": 2926,
+ "anomalies_detected": 41,
  "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "6094082521: HTTPError: HTTP Error 404: Not Found",
+  "4270578623: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 105,
- "books_rows": 140,
+ "books_rows": 136,
  "status": "ok"
 }
