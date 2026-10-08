@@ -60,7 +60,7 @@ jobs:
               git pull --rebase --autostash origin main || true
               git push origin HEAD:main || echo "push race (next iter retries)"
             fi
-            sleep 90
+            sleep 60
           done
 
   # ── A1 并行矩阵 (tick模式): snap→flow 依赖经artifact交接, side独立,
