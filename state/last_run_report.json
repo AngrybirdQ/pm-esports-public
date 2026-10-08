@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T09:56:15Z",
+ "ts": "2026-10-08T10:00:11Z",
  "sources": [
   {
    "url": "/tags",
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
    "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
-   "LoL: Gen.G Global Academy vs Hanwha Life Esports Challengers (BO3) - L"
+   "LoL: FlyQuest vs RED Canids (BO3) - Demacia Cup Global Invitational Gr"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -161,7 +161,7 @@
   "tag_slug=league-of-legends": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
    "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
-   "LoL: Gen.G Global Academy vs Hanwha Life Esports Challengers (BO3) - L"
+   "LoL: FlyQuest vs RED Canids (BO3) - Demacia Cup Global Invitational Gr"
   ],
   "tag_slug=lol": [
    "Worlds 2026 Winning Region",
@@ -208,15 +208,15 @@
     "closed": true
    },
    {
+    "t": "Dota 2: Team Yandex vs LGD Gaming (BO3) - BLAST Slam Playoffs",
+    "closed": false
+   },
+   {
     "t": "Dota 2: MOUZ vs CyberHero (BO3) - PARI Universe Closed Qualifier Playo",
     "closed": true
    },
    {
     "t": "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-    "closed": false
-   },
-   {
-    "t": "Dota 2: Team Yandex vs LGD Gaming (BO3) - BLAST Slam Playoffs",
     "closed": false
    }
   ],
@@ -270,12 +270,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: NRG vs T1 (BO3) - VCT Champions Playoffs",
-    "closed": true
-   },
-   {
     "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
     "closed": false
+   },
+   {
+    "t": "Valorant: NRG vs T1 (BO3) - VCT Champions Playoffs",
+    "closed": true
    },
    {
     "t": "Valorant: Team Vitality vs Nongshim RedForce (BO3) - VCT Champions Pla",
@@ -311,18 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 422,
- "markets": 331,
- "markets_dropped_by_volume_floor": 2519,
- "day_file": "data/2026/10/2026-10-08T09.jsonl",
+ "markets": 330,
+ "markets_dropped_by_volume_floor": 2517,
+ "day_file": "data/2026/10/2026-10-08T10.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 96,
+ "trades_markets_queried": 95,
  "trades_watchlist_markets": 75,
- "trades_collected": 2313,
- "anomalies_detected": 36,
- "anomalies_new": 12,
+ "trades_collected": 2290,
+ "anomalies_detected": 42,
+ "anomalies_new": 42,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 93,
- "books_rows": 160,
+ "books_rows": 158,
  "status": "ok"
 }
