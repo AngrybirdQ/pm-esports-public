@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T12:56:20Z",
+ "ts": "2026-10-08T12:58:57Z",
  "sources": [
   {
    "url": "/tags",
@@ -216,7 +216,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Xipto Esports vs InterActive Philippines (BO5) - EPL World Ser",
+    "t": "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
     "closed": false
    }
   ],
@@ -311,22 +311,24 @@
  },
  "n_event_queries": 21,
  "events": 423,
- "markets": 338,
- "markets_dropped_by_volume_floor": 2516,
+ "markets": 339,
+ "markets_dropped_by_volume_floor": 2525,
  "day_file": "data/2026/10/2026-10-08T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 116,
+ "trades_markets_queried": 117,
  "trades_watchlist_markets": 95,
- "trades_collected": 2675,
- "anomalies_detected": 55,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "2828480835: HTTPError: HTTP Error 404: Not Found",
-  "1880779708: HTTPError: HTTP Error 404: Not Found"
+ "trades_collected": 2723,
+ "anomalies_detected": 53,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0xe4cbf224",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 100,
- "books_rows": 110,
+ "history_conditions_new": 1,
+ "books_markets": 99,
+ "books_rows": 108,
  "status": "ok"
 }
