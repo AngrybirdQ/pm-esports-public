@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T14:29:08Z",
+ "ts": "2026-10-08T14:31:58Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 89,
+   "events_returned": 93,
    "err": null
   },
   {
@@ -267,7 +267,7 @@
   "search:Valorant": [
    {
     "t": "Valorant: Team Vitality vs Nongshim RedForce (BO3) - VCT Champions Pla",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
@@ -282,7 +282,7 @@
     "closed": false
    },
    {
-    "t": "Most Kills on a Single Map at VALORANT Champions 2026",
+    "t": "Valorant: BBL Esports vs Pcific Esports (BO3) - Monsters Reloaded Clos",
     "closed": false
    }
   ],
@@ -310,19 +310,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 423,
- "markets": 340,
- "markets_dropped_by_volume_floor": 2488,
+ "events": 427,
+ "markets": 339,
+ "markets_dropped_by_volume_floor": 2637,
  "day_file": "data/2026/10/2026-10-08T14.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 119,
  "trades_watchlist_markets": 90,
- "trades_collected": 3123,
- "anomalies_detected": 39,
- "anomalies_new": 10,
+ "trades_collected": 3100,
+ "anomalies_detected": 35,
+ "anomalies_new": 34,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 99,
- "books_rows": 126,
+ "books_rows": 120,
  "status": "ok"
 }
