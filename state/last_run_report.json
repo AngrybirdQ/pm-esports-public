@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T14:56:09Z",
+ "ts": "2026-10-08T14:59:09Z",
  "sources": [
   {
    "url": "/tags",
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
    "LoL: Natus Vincere vs JD Gaming (BO3) - Demacia Cup Global Invitationa",
-   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier"
+   "Dota 2: Aurora vs 1win (BO3) - BLAST Slam Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Aurora vs 1win (BO3) - BLAST Slam Playoffs",
@@ -310,19 +310,30 @@
   ]
  },
  "n_event_queries": 21,
- "events": 427,
- "markets": 337,
- "markets_dropped_by_volume_floor": 2617,
+ "events": 425,
+ "markets": 343,
+ "markets_dropped_by_volume_floor": 2615,
  "day_file": "data/2026/10/2026-10-08T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 119,
+ "trades_markets_queried": 122,
  "trades_watchlist_markets": 90,
- "trades_collected": 3073,
- "anomalies_detected": 45,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 97,
- "books_rows": 112,
+ "trades_collected": 3228,
+ "anomalies_detected": 49,
+ "anomalies_new": 4,
+ "history_debug": [
+  {
+   "cid": "0xb1cc2d4b",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xd97b5438",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_markets": 98,
+ "books_rows": 118,
  "status": "ok"
 }
