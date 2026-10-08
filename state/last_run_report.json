@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T09:26:38Z",
+ "ts": "2026-10-08T09:29:59Z",
  "sources": [
   {
    "url": "/tags",
@@ -208,12 +208,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-    "closed": false
-   },
-   {
     "t": "Dota 2: MOUZ vs CyberHero (BO3) - PARI Universe Closed Qualifier Playo",
     "closed": true
+   },
+   {
+    "t": "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
+    "closed": false
    },
    {
     "t": "Dota 2: Team Yandex vs LGD Gaming (BO3) - BLAST Slam Playoffs",
@@ -311,27 +311,24 @@
  },
  "n_event_queries": 21,
  "events": 423,
- "markets": 329,
- "markets_dropped_by_volume_floor": 2500,
+ "markets": 330,
+ "markets_dropped_by_volume_floor": 2505,
  "day_file": "data/2026/10/2026-10-08T09.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 93,
+ "trades_markets_queried": 94,
  "trades_watchlist_markets": 75,
- "trades_collected": 1943,
- "anomalies_detected": 10,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "8352564005: HTTPError: HTTP Error 404: Not Found",
-  "1767664022: HTTPError: HTTP Error 404: Not Found",
-  "5328020653: HTTPError: HTTP Error 404: Not Found",
-  "4718654749: HTTPError: HTTP Error 404: Not Found",
-  "1331857815: HTTPError: HTTP Error 404: Not Found",
-  "3090621895: HTTPError: HTTP Error 404: Not Found",
-  "9284933976: HTTPError: HTTP Error 404: Not Found"
+ "trades_collected": 1955,
+ "anomalies_detected": 14,
+ "anomalies_new": 14,
+ "history_debug": [
+  {
+   "cid": "0x4836ee4b",
+   "pts": 5,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 97,
- "books_rows": 164,
+ "history_conditions_new": 1,
+ "books_markets": 93,
+ "books_rows": 166,
  "status": "ok"
 }
