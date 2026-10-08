@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T13:24:11Z",
+ "ts": "2026-10-08T13:26:30Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 36,
+   "events_returned": 35,
    "err": null
   },
   {
@@ -142,12 +142,12 @@
   "tag_slug=esports": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
    "LoL: Natus Vincere vs JD Gaming (BO3) - Demacia Cup Global Invitationa",
-   "Dota 2: Team Yandex vs LGD Gaming (BO3) - BLAST Slam Playoffs"
+   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Team Yandex vs LGD Gaming (BO3) - BLAST Slam Playoffs",
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Power Rangers vs Team Synapse (BO3) - EPL Masters Group A"
+   "Dota 2: Power Rangers vs Team Synapse (BO3) - EPL Masters Group A",
+   "Dota 2: REKONIX vs Team Nemesis - More Markets"
   ],
   "tag_slug=cs2": [
    "ESL Pro League Season 24: Winner",
@@ -201,7 +201,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: Team Yandex vs LGD Gaming (BO3) - BLAST Slam Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: CyberHero vs Blasterbl (BO3) - PARI Universe Closed Qualifier ",
@@ -311,15 +311,15 @@
  },
  "n_event_queries": 21,
  "events": 423,
- "markets": 337,
- "markets_dropped_by_volume_floor": 2500,
+ "markets": 340,
+ "markets_dropped_by_volume_floor": 2494,
  "day_file": "data/2026/10/2026-10-08T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 118,
+ "trades_markets_queried": 120,
  "trades_watchlist_markets": 95,
- "trades_collected": 2679,
- "anomalies_detected": 49,
- "anomalies_new": 0,
+ "trades_collected": 2825,
+ "anomalies_detected": 53,
+ "anomalies_new": 3,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 91,
