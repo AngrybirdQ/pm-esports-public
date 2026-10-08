@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T11:07:13Z",
+ "ts": "2026-10-08T11:09:53Z",
  "sources": [
   {
    "url": "/tags",
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
    "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
-   "LoL: FlyQuest vs RED Canids (BO3) - Demacia Cup Global Invitational Gr"
+   "Dota 2: Team Yandex vs LGD Gaming (BO3) - BLAST Slam Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Yandex vs LGD Gaming (BO3) - BLAST Slam Playoffs",
@@ -312,17 +312,23 @@
  "n_event_queries": 21,
  "events": 422,
  "markets": 345,
- "markets_dropped_by_volume_floor": 2509,
+ "markets_dropped_by_volume_floor": 2498,
  "day_file": "data/2026/10/2026-10-08T11.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 112,
  "trades_watchlist_markets": 85,
- "trades_collected": 2956,
- "anomalies_detected": 50,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 110,
+ "trades_collected": 2791,
+ "anomalies_detected": 48,
+ "anomalies_new": 4,
+ "history_debug": [
+  {
+   "cid": "0x285e2c3d",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 109,
  "books_rows": 154,
  "status": "ok"
 }
