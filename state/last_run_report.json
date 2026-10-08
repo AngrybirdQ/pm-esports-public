@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T13:56:16Z",
+ "ts": "2026-10-08T13:58:36Z",
  "sources": [
   {
    "url": "/tags",
@@ -147,7 +147,7 @@
   "tag_slug=dota-2": [
    "Dota 2: Aurora vs 1win (BO3) - BLAST Slam Playoffs",
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Power Rangers vs Team Synapse (BO3) - EPL Masters Group A"
+   "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi"
   ],
   "tag_slug=cs2": [
    "ESL Pro League Season 24: Winner",
@@ -204,12 +204,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: CyberHero vs Blasterbl (BO3) - PARI Universe Closed Qualifier ",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Aurora vs 1win (BO3) - BLAST Slam Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: CyberHero vs Blasterbl (BO3) - PARI Universe Closed Qualifier ",
+    "closed": true
    },
    {
     "t": "Dota 2: Team Synapse vs LEGION (BO3) - PARI Universe Closed Qualifier ",
@@ -312,14 +312,14 @@
  "n_event_queries": 21,
  "events": 423,
  "markets": 335,
- "markets_dropped_by_volume_floor": 2495,
+ "markets_dropped_by_volume_floor": 2497,
  "day_file": "data/2026/10/2026-10-08T13.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 124,
  "trades_watchlist_markets": 95,
- "trades_collected": 2728,
- "anomalies_detected": 26,
- "anomalies_new": 0,
+ "trades_collected": 2736,
+ "anomalies_detected": 32,
+ "anomalies_new": 8,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 83,
