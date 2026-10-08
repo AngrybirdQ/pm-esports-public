@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T11:53:29Z",
+ "ts": "2026-10-08T11:57:03Z",
  "sources": [
   {
    "url": "/tags",
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
    "Dota 2: Team Yandex vs LGD Gaming (BO3) - BLAST Slam Playoffs",
-   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier"
+   "LoL: Natus Vincere vs JD Gaming (BO3) - Demacia Cup Global Invitationa"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Yandex vs LGD Gaming (BO3) - BLAST Slam Playoffs",
@@ -311,28 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 422,
- "markets": 338,
- "markets_dropped_by_volume_floor": 2495,
+ "markets": 335,
+ "markets_dropped_by_volume_floor": 2490,
  "day_file": "data/2026/10/2026-10-08T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 114,
+ "trades_markets_queried": 116,
  "trades_watchlist_markets": 85,
- "trades_collected": 3020,
+ "trades_collected": 3102,
  "anomalies_detected": 46,
- "anomalies_new": 1,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "2458368587: HTTPError: HTTP Error 404: Not Found",
-  "5289332294: HTTPError: HTTP Error 404: Not Found",
-  "5833391414: HTTPError: HTTP Error 404: Not Found",
-  "1935853684: HTTPError: HTTP Error 404: Not Found",
-  "8741046313: HTTPError: HTTP Error 404: Not Found",
-  "1968537970: HTTPError: HTTP Error 404: Not Found",
-  "9812884556: HTTPError: HTTP Error 404: Not Found",
-  "3442342896: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 106,
- "books_rows": 138,
+ "books_markets": 103,
+ "books_rows": 144,
  "status": "ok"
 }
