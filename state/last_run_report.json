@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T03:13:20Z",
+ "ts": "2026-10-08T03:15:37Z",
  "sources": [
   {
    "url": "/tags",
@@ -248,11 +248,11 @@
     "closed": true
    },
    {
-    "t": "League of Legends Global Power Rankings Post Worlds: Rank 1",
+    "t": "Will Jynxzi reach Gold rank in League of Legends by...?",
     "closed": false
    },
    {
-    "t": "Will Jynxzi reach Gold rank in League of Legends by...?",
+    "t": "League of Legends Global Power Rankings Post Worlds: Rank 1",
     "closed": false
    },
    {
@@ -311,28 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 420,
- "markets": 309,
- "markets_dropped_by_volume_floor": 2398,
+ "markets": 308,
+ "markets_dropped_by_volume_floor": 2395,
  "day_file": "data/2026/10/2026-10-08T03.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 62,
+ "trades_markets_queried": 61,
  "trades_watchlist_markets": 39,
- "trades_collected": 1153,
- "anomalies_detected": 8,
+ "trades_collected": 1100,
+ "anomalies_detected": 6,
  "anomalies_new": 0,
- "history_debug": [
-  {
-   "cid": "0x6c2751e1",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
- "books_errors": [
-  "9949970272: HTTPError: HTTP Error 404: Not Found",
-  "5413626678: HTTPError: HTTP Error 404: Not Found"
- ],
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 61,
- "books_rows": 102,
+ "books_rows": 98,
  "status": "ok"
 }
