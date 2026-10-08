@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T13:28:56Z",
+ "ts": "2026-10-08T13:31:52Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 90,
+   "events_returned": 89,
    "err": null
   },
   {
@@ -311,26 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 423,
- "markets": 340,
- "markets_dropped_by_volume_floor": 2494,
+ "markets": 335,
+ "markets_dropped_by_volume_floor": 2507,
  "day_file": "data/2026/10/2026-10-08T13.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 120,
  "trades_watchlist_markets": 95,
- "trades_collected": 2823,
- "anomalies_detected": 54,
- "anomalies_new": 1,
+ "trades_collected": 2787,
+ "anomalies_detected": 22,
+ "anomalies_new": 21,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "3590120503: HTTPError: HTTP Error 404: Not Found",
-  "4695996632: HTTPError: HTTP Error 404: Not Found",
-  "2885752619: HTTPError: HTTP Error 404: Not Found",
-  "2860026129: HTTPError: HTTP Error 404: Not Found",
-  "7013679442: HTTPError: HTTP Error 404: Not Found",
-  "6721200385: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 91,
- "books_rows": 108,
+ "books_markets": 87,
+ "books_rows": 110,
  "status": "ok"
 }
