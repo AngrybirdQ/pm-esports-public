@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T10:11:52Z",
+ "ts": "2026-10-08T10:15:37Z",
  "sources": [
   {
    "url": "/tags",
@@ -145,8 +145,8 @@
    "LoL: FlyQuest vs RED Canids (BO3) - Demacia Cup Global Invitational Gr"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
    "Dota 2: Team Yandex vs LGD Gaming (BO3) - BLAST Slam Playoffs",
+   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
    "Dota 2: Power Rangers vs Team Synapse (BO3) - EPL Masters Group A"
   ],
   "tag_slug=cs2": [
@@ -204,12 +204,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Synapse vs LEGION (BO3) - PARI Universe Closed Qualifier ",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Yandex vs LGD Gaming (BO3) - BLAST Slam Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Synapse vs LEGION (BO3) - PARI Universe Closed Qualifier ",
+    "closed": true
    },
    {
     "t": "Dota 2: MOUZ vs CyberHero (BO3) - PARI Universe Closed Qualifier Playo",
@@ -317,23 +317,12 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 100,
  "trades_watchlist_markets": 75,
- "trades_collected": 2522,
- "anomalies_detected": 42,
- "anomalies_new": 3,
- "history_debug": [
-  {
-   "cid": "0x5c5657d2",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xc931d958",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 2,
+ "trades_collected": 2530,
+ "anomalies_detected": 53,
+ "anomalies_new": 13,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 95,
- "books_rows": 164,
+ "books_rows": 162,
  "status": "ok"
 }
