@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T13:41:21Z",
+ "ts": "2026-10-08T13:43:43Z",
  "sources": [
   {
    "url": "/tags",
@@ -274,16 +274,16 @@
     "closed": false
    },
    {
-    "t": "Valorant: Paper Rex vs LOUD (BO3) - VCT Champions Playoffs",
-    "closed": true
-   },
-   {
     "t": "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs",
     "closed": false
    },
    {
     "t": "VALORANT Champions 2026: Winner",
     "closed": false
+   },
+   {
+    "t": "Valorant: Paper Rex vs LOUD (BO3) - VCT Champions Playoffs",
+    "closed": true
    }
   ],
   "search:The International": [
@@ -311,18 +311,29 @@
  },
  "n_event_queries": 21,
  "events": 423,
- "markets": 335,
- "markets_dropped_by_volume_floor": 2507,
+ "markets": 342,
+ "markets_dropped_by_volume_floor": 2506,
  "day_file": "data/2026/10/2026-10-08T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 120,
+ "trades_markets_queried": 122,
  "trades_watchlist_markets": 95,
- "trades_collected": 2731,
- "anomalies_detected": 24,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 87,
- "books_rows": 108,
+ "trades_collected": 2724,
+ "anomalies_detected": 28,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0x179d3bda",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xce0d26b2",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_markets": 89,
+ "books_rows": 110,
  "status": "ok"
 }
