@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T22:17:17Z",
+ "ts": "2026-10-08T23:01:10Z",
  "sources": [
   {
    "url": "/tags",
@@ -169,8 +169,8 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "VALORANT Champions 2026: Winner",
    "Valorant: T1 vs Paper Rex (BO3) - VCT Champions Playoffs",
+   "VALORANT Champions 2026: Winner",
    "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs"
   ],
   "tag_slug=starcraft-2": [
@@ -311,18 +311,24 @@
  },
  "n_event_queries": 21,
  "events": 425,
- "markets": 320,
- "markets_dropped_by_volume_floor": 2639,
- "day_file": "data/2026/10/2026-10-08T22.jsonl",
+ "markets": 326,
+ "markets_dropped_by_volume_floor": 2628,
+ "day_file": "data/2026/10/2026-10-08T23.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 99,
- "trades_watchlist_markets": 76,
- "trades_collected": 1535,
- "anomalies_detected": 44,
- "anomalies_new": 4,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 74,
- "books_rows": 134,
+ "trades_markets_queried": 93,
+ "trades_watchlist_markets": 60,
+ "trades_collected": 2198,
+ "anomalies_detected": 37,
+ "anomalies_new": 36,
+ "history_debug": [
+  {
+   "cid": "0x14c1b49d",
+   "pts": 7,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 85,
+ "books_rows": 132,
  "status": "ok"
 }
