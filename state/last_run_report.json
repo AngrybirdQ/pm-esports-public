@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T14:59:09Z",
+ "ts": "2026-10-08T15:02:19Z",
  "sources": [
   {
    "url": "/tags",
@@ -278,11 +278,11 @@
     "closed": false
    },
    {
-    "t": "VALORANT Champions 2026: Winner",
+    "t": "Valorant: T1 vs Paper Rex (BO3) - VCT Champions Playoffs",
     "closed": false
    },
    {
-    "t": "Valorant: BBL Esports vs Pcific Esports (BO3) - Monsters Reloaded Clos",
+    "t": "VALORANT Champions 2026: Winner",
     "closed": false
    }
   ],
@@ -311,29 +311,24 @@
  },
  "n_event_queries": 21,
  "events": 425,
- "markets": 343,
- "markets_dropped_by_volume_floor": 2615,
- "day_file": "data/2026/10/2026-10-08T14.jsonl",
+ "markets": 344,
+ "markets_dropped_by_volume_floor": 2614,
+ "day_file": "data/2026/10/2026-10-08T15.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 122,
  "trades_watchlist_markets": 90,
- "trades_collected": 3228,
- "anomalies_detected": 49,
- "anomalies_new": 4,
+ "trades_collected": 3199,
+ "anomalies_detected": 52,
+ "anomalies_new": 48,
  "history_debug": [
   {
-   "cid": "0xb1cc2d4b",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xd97b5438",
+   "cid": "0xb48263a7",
    "pts": 1,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 2,
+ "history_conditions_new": 1,
  "books_markets": 98,
- "books_rows": 118,
+ "books_rows": 114,
  "status": "ok"
 }
