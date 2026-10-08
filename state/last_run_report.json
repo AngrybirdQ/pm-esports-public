@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T19:40:39Z",
+ "ts": "2026-10-08T19:42:46Z",
  "sources": [
   {
    "url": "/tags",
@@ -204,12 +204,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Yandex vs LGD Gaming (BO3) - BLAST Slam Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: PARIVISION vs Team Yandex (BO3) - BLAST Slam Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Yandex vs LGD Gaming (BO3) - BLAST Slam Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
@@ -311,17 +311,23 @@
  },
  "n_event_queries": 21,
  "events": 427,
- "markets": 319,
+ "markets": 320,
  "markets_dropped_by_volume_floor": 2683,
  "day_file": "data/2026/10/2026-10-08T19.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 88,
  "trades_watchlist_markets": 64,
- "trades_collected": 1696,
+ "trades_collected": 1690,
  "anomalies_detected": 25,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
+ "anomalies_new": 0,
+ "history_debug": [
+  {
+   "cid": "0x77c11993",
+   "pts": 10,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 82,
  "books_rows": 120,
  "status": "ok"
