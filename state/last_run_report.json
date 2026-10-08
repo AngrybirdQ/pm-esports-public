@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T22:05:32Z",
+ "ts": "2026-10-08T22:07:37Z",
  "sources": [
   {
    "url": "/tags",
@@ -189,7 +189,6 @@
   ]
  },
  "winning_sources": [
-  "search:Dota 2",
   "tag_slug=cs2",
   "tag_slug=dota-2",
   "tag_slug=esports",
@@ -202,7 +201,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: PARIVISION vs Team Yandex (BO3) - BLAST Slam Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Aurora vs 1win (BO3) - BLAST Slam Playoffs",
@@ -218,7 +217,7 @@
    },
    {
     "t": "Dota 2: LEGION vs Blasterbl (BO5) - PARI Universe Closed Qualifier Pla",
-    "closed": false
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -312,18 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 425,
- "markets": 316,
- "markets_dropped_by_volume_floor": 2635,
+ "markets": 317,
+ "markets_dropped_by_volume_floor": 2636,
  "day_file": "data/2026/10/2026-10-08T22.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 98,
  "trades_watchlist_markets": 76,
- "trades_collected": 1596,
- "anomalies_detected": 34,
- "anomalies_new": 2,
+ "trades_collected": 1562,
+ "anomalies_detected": 36,
+ "anomalies_new": 4,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 78,
- "books_rows": 144,
+ "books_rows": 142,
  "status": "ok"
 }
