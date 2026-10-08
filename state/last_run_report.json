@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T15:41:06Z",
+ "ts": "2026-10-08T15:45:36Z",
  "sources": [
   {
    "url": "/tags",
@@ -146,8 +146,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Aurora vs 1win (BO3) - BLAST Slam Playoffs",
-   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi"
+   "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
+   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua"
   ],
   "tag_slug=cs2": [
    "ESL Pro League Season 24: Winner",
@@ -311,28 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 425,
- "markets": 348,
- "markets_dropped_by_volume_floor": 2617,
+ "markets": 341,
+ "markets_dropped_by_volume_floor": 2613,
  "day_file": "data/2026/10/2026-10-08T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 132,
+ "trades_markets_queried": 131,
  "trades_watchlist_markets": 90,
- "trades_collected": 3439,
- "anomalies_detected": 37,
- "anomalies_new": 7,
+ "trades_collected": 3334,
+ "anomalies_detected": 27,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1107347467: HTTPError: HTTP Error 404: Not Found",
-  "7337389590: HTTPError: HTTP Error 404: Not Found",
-  "5112582964: HTTPError: HTTP Error 404: Not Found",
-  "1711354298: HTTPError: HTTP Error 404: Not Found",
-  "2549700711: HTTPError: HTTP Error 404: Not Found",
-  "2702331505: HTTPError: HTTP Error 404: Not Found",
-  "6519705055: HTTPError: HTTP Error 404: Not Found",
-  "9804148948: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 91,
+ "books_markets": 86,
  "books_rows": 112,
  "status": "ok"
 }
