@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T04:35:55Z",
+ "ts": "2026-10-08T04:39:12Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 90,
+   "events_returned": 89,
    "err": null
   },
   {
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
    "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
-   "LoL: Disguised vs Maryville University (BO5) - LCS Promotion Playoffs"
+   "LoL: Gen.G Global Academy vs Hanwha Life Esports Challengers (BO3) - L"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -161,7 +161,7 @@
   "tag_slug=league-of-legends": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
    "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
-   "LoL: Disguised vs Maryville University (BO5) - LCS Promotion Playoffs"
+   "LoL: Gen.G Global Academy vs Hanwha Life Esports Challengers (BO3) - L"
   ],
   "tag_slug=lol": [
    "Worlds 2026 Winning Region",
@@ -311,27 +311,24 @@
  },
  "n_event_queries": 21,
  "events": 422,
- "markets": 310,
- "markets_dropped_by_volume_floor": 2437,
+ "markets": 306,
+ "markets_dropped_by_volume_floor": 2446,
  "day_file": "data/2026/10/2026-10-08T04.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 73,
+ "trades_markets_queried": 71,
  "trades_watchlist_markets": 53,
- "trades_collected": 710,
+ "trades_collected": 718,
  "anomalies_detected": 4,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "2812808257: HTTPError: HTTP Error 404: Not Found",
-  "3299023625: HTTPError: HTTP Error 404: Not Found",
-  "1818311819: HTTPError: HTTP Error 404: Not Found",
-  "7350767391: HTTPError: HTTP Error 404: Not Found",
-  "3424531169: HTTPError: HTTP Error 404: Not Found",
-  "5874330516: HTTPError: HTTP Error 404: Not Found",
-  "4707040087: HTTPError: HTTP Error 404: Not Found"
+ "history_debug": [
+  {
+   "cid": "0xa61b49d4",
+   "pts": 11,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 75,
+ "history_conditions_new": 1,
+ "books_markets": 70,
  "books_rows": 118,
  "status": "ok"
 }
