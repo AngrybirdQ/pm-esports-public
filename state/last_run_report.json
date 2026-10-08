@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T18:28:15Z",
+ "ts": "2026-10-08T18:30:15Z",
  "sources": [
   {
    "url": "/tags",
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
-   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
-   "Dota 2: PARIVISION vs Team Yandex (BO3) - BLAST Slam Playoffs"
+   "Dota 2: PARIVISION vs Team Yandex (BO3) - BLAST Slam Playoffs",
+   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier"
   ],
   "tag_slug=dota-2": [
    "Dota 2: PARIVISION vs Team Yandex (BO3) - BLAST Slam Playoffs",
@@ -311,22 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 427,
- "markets": 325,
- "markets_dropped_by_volume_floor": 2690,
+ "markets": 322,
+ "markets_dropped_by_volume_floor": 2695,
  "day_file": "data/2026/10/2026-10-08T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 93,
+ "trades_markets_queried": 91,
  "trades_watchlist_markets": 55,
- "trades_collected": 1544,
- "anomalies_detected": 2,
- "anomalies_new": 0,
+ "trades_collected": 1548,
+ "anomalies_detected": 38,
+ "anomalies_new": 37,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1792043428: HTTPError: HTTP Error 404: Not Found",
-  "3379413759: HTTPError: HTTP Error 404: Not Found"
- ],
  "books_markets": 66,
- "books_rows": 108,
+ "books_rows": 110,
  "status": "ok"
 }
