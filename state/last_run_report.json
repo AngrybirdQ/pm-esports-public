@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T10:38:40Z",
+ "ts": "2026-10-08T10:49:20Z",
  "sources": [
   {
    "url": "/tags",
@@ -200,12 +200,12 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: CyberHero vs Blasterbl (BO3) - PARI Universe Closed Qualifier ",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Yandex vs LGD Gaming (BO3) - BLAST Slam Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: CyberHero vs Blasterbl (BO3) - PARI Universe Closed Qualifier ",
+    "closed": true
    },
    {
     "t": "Dota 2: Team Synapse vs LEGION (BO3) - PARI Universe Closed Qualifier ",
@@ -312,17 +312,17 @@
  "n_event_queries": 21,
  "events": 422,
  "markets": 339,
- "markets_dropped_by_volume_floor": 2514,
+ "markets_dropped_by_volume_floor": 2518,
  "day_file": "data/2026/10/2026-10-08T10.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 101,
- "trades_watchlist_markets": 75,
- "trades_collected": 2591,
- "anomalies_detected": 40,
- "anomalies_new": 8,
+ "trades_markets_queried": 107,
+ "trades_watchlist_markets": 85,
+ "trades_collected": 2737,
+ "anomalies_detected": 51,
+ "anomalies_new": 51,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 98,
- "books_rows": 156,
+ "books_markets": 108,
+ "books_rows": 158,
  "status": "ok"
 }
