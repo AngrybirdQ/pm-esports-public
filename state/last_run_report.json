@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T20:54:14Z",
+ "ts": "2026-10-08T20:56:36Z",
  "sources": [
   {
    "url": "/tags",
@@ -244,10 +244,6 @@
   ],
   "search:League of Legends": [
    {
-    "t": "LoL: Kaufland Hangry Knights vs Unicorns Of Love Sexy Edition (BO5) - ",
-    "closed": true
-   },
-   {
     "t": "Will Jynxzi reach Gold rank in League of Legends by...?",
     "closed": false
    },
@@ -261,6 +257,10 @@
    },
    {
     "t": "LoL: T1 Academy vs KT Rolster Challengers (BO5) - LCK Challengers Leag",
+    "closed": true
+   },
+   {
+    "t": "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO5) - LCK Challengers",
     "closed": true
    }
   ],
@@ -310,23 +310,30 @@
   ]
  },
  "n_event_queries": 21,
- "events": 428,
- "markets": 318,
- "markets_dropped_by_volume_floor": 2656,
+ "events": 426,
+ "markets": 322,
+ "markets_dropped_by_volume_floor": 2655,
  "day_file": "data/2026/10/2026-10-08T20.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 91,
+ "trades_markets_queried": 92,
  "trades_watchlist_markets": 64,
- "trades_collected": 1690,
- "anomalies_detected": 14,
+ "trades_collected": 1664,
+ "anomalies_detected": 8,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "9697572406: HTTPError: HTTP Error 404: Not Found",
-  "6111985937: HTTPError: HTTP Error 404: Not Found"
+ "history_debug": [
+  {
+   "cid": "0xa57386b4",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xb28f1d39",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
+ "history_conditions_new": 2,
  "books_markets": 80,
- "books_rows": 126,
+ "books_rows": 128,
  "status": "ok"
 }
