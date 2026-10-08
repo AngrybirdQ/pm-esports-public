@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T16:14:50Z",
+ "ts": "2026-10-08T16:18:07Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,13 +51,13 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 94,
+   "events_returned": 95,
    "err": null
   },
   {
    "url": "tag_slug=lol",
    "ok": true,
-   "events_returned": 40,
+   "events_returned": 42,
    "err": null
   },
   {
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
-   "LoL: Natus Vincere vs JD Gaming (BO3) - Demacia Cup Global Invitationa",
-   "Dota 2: Aurora vs 1win (BO3) - BLAST Slam Playoffs"
+   "Dota 2: Aurora vs 1win (BO3) - BLAST Slam Playoffs",
+   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Aurora vs 1win (BO3) - BLAST Slam Playoffs",
@@ -160,8 +160,8 @@
   ],
   "tag_slug=league-of-legends": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
-   "LoL: Natus Vincere vs JD Gaming (BO3) - Demacia Cup Global Invitationa",
-   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier"
+   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
+   "LoL: Gen.G Global Academy vs Hanwha Life Esports Challengers (BO3) - L"
   ],
   "tag_slug=lol": [
    "Worlds 2026 Winning Region",
@@ -310,25 +310,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 426,
- "markets": 338,
- "markets_dropped_by_volume_floor": 2673,
+ "events": 427,
+ "markets": 336,
+ "markets_dropped_by_volume_floor": 2707,
  "day_file": "data/2026/10/2026-10-08T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 110,
+ "trades_markets_queried": 109,
  "trades_watchlist_markets": 78,
- "trades_collected": 3103,
- "anomalies_detected": 40,
- "anomalies_new": 5,
+ "trades_collected": 3085,
+ "anomalies_detected": 43,
+ "anomalies_new": 3,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "8120521116: HTTPError: HTTP Error 404: Not Found",
-  "1153250646: HTTPError: HTTP Error 404: Not Found",
-  "5617219709: HTTPError: HTTP Error 404: Not Found",
-  "6893731755: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 85,
+ "books_markets": 83,
  "books_rows": 104,
  "status": "ok"
 }
