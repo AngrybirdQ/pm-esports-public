@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T11:57:03Z",
+ "ts": "2026-10-08T11:59:45Z",
  "sources": [
   {
    "url": "/tags",
@@ -160,8 +160,8 @@
   ],
   "tag_slug=league-of-legends": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
-   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
-   "LoL: Natus Vincere vs JD Gaming (BO3) - Demacia Cup Global Invitationa"
+   "LoL: Natus Vincere vs JD Gaming (BO3) - Demacia Cup Global Invitationa",
+   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier"
   ],
   "tag_slug=lol": [
    "Worlds 2026 Winning Region",
@@ -317,12 +317,16 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 116,
  "trades_watchlist_markets": 85,
- "trades_collected": 3102,
+ "trades_collected": 3073,
  "anomalies_detected": 46,
- "anomalies_new": 0,
+ "anomalies_new": 45,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "1100620403: HTTPError: HTTP Error 404: Not Found",
+  "6315604371: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 103,
- "books_rows": 144,
+ "books_rows": 142,
  "status": "ok"
 }
