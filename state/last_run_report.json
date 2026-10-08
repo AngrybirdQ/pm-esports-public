@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-08T17:44:39Z",
+ "ts": "2026-10-08T17:46:42Z",
  "sources": [
   {
    "url": "/tags",
@@ -312,57 +312,16 @@
  "n_event_queries": 21,
  "events": 427,
  "markets": 333,
- "markets_dropped_by_volume_floor": 2678,
+ "markets_dropped_by_volume_floor": 2681,
  "day_file": "data/2026/10/2026-10-08T17.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 101,
  "trades_watchlist_markets": 55,
- "trades_collected": 2003,
- "anomalies_detected": 18,
- "anomalies_new": 18,
- "history_debug": [
-  {
-   "cid": "0x58628f45",
-   "pts": 10,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x0ceb5105",
-   "pts": 6,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xbfd6f1c7",
-   "pts": 5,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x45163f33",
-   "pts": 3,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xb7dd321e",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x4bedc704",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xcd23eed8",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x80113828",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 9,
+ "trades_collected": 2007,
+ "anomalies_detected": 16,
+ "anomalies_new": 2,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 74,
  "books_rows": 116,
  "status": "ok"
