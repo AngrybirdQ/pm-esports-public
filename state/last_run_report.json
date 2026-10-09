@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-09T11:08:40Z",
+ "ts": "2026-10-09T11:10:32Z",
  "sources": [
   {
    "url": "/tags",
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
    "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
-   "Counter-Strike: 1WIN vs Aurora Gaming (BO3) - ESL Pro League Playoffs"
+   "Dota 2: Team Spirit vs Aurora (BO3) - BLAST Slam Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Spirit vs Aurora (BO3) - BLAST Slam Playoffs",
@@ -311,18 +311,24 @@
  },
  "n_event_queries": 21,
  "events": 424,
- "markets": 349,
- "markets_dropped_by_volume_floor": 2647,
+ "markets": 353,
+ "markets_dropped_by_volume_floor": 2654,
  "day_file": "data/2026/10/2026-10-09T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 129,
+ "trades_markets_queried": 133,
  "trades_watchlist_markets": 93,
- "trades_collected": 2755,
- "anomalies_detected": 40,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 107,
- "books_rows": 180,
+ "trades_collected": 2931,
+ "anomalies_detected": 46,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0x741a5576",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 109,
+ "books_rows": 182,
  "status": "ok"
 }
