@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-09T13:56:15Z",
+ "ts": "2026-10-09T14:00:15Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 36,
+   "events_returned": 37,
    "err": null
   },
   {
@@ -310,37 +310,35 @@
   ]
  },
  "n_event_queries": 21,
- "events": 423,
- "markets": 357,
- "markets_dropped_by_volume_floor": 2628,
- "day_file": "data/2026/10/2026-10-09T13.jsonl",
+ "events": 424,
+ "markets": 355,
+ "markets_dropped_by_volume_floor": 2664,
+ "day_file": "data/2026/10/2026-10-09T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 145,
+ "trades_markets_queried": 144,
  "trades_watchlist_markets": 109,
- "trades_collected": 3328,
- "anomalies_detected": 42,
- "anomalies_new": 1,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "6876188684: HTTPError: HTTP Error 404: Not Found",
-  "6416840188: HTTPError: HTTP Error 404: Not Found",
-  "1017546874: HTTPError: HTTP Error 404: Not Found",
-  "1088776716: HTTPError: HTTP Error 404: Not Found",
-  "7032489928: HTTPError: HTTP Error 404: Not Found",
-  "4010884362: HTTPError: HTTP Error 404: Not Found",
-  "7242418983: HTTPError: HTTP Error 404: Not Found",
-  "6306608260: HTTPError: HTTP Error 404: Not Found",
-  "1011804663: HTTPError: HTTP Error 404: Not Found",
-  "6792876215: HTTPError: HTTP Error 404: Not Found",
-  "1266607791: HTTPError: HTTP Error 404: Not Found",
-  "5648646446: HTTPError: HTTP Error 404: Not Found",
-  "1887341986: HTTPError: HTTP Error 404: Not Found",
-  "8584902842: HTTPError: HTTP Error 404: Not Found",
-  "1926063014: HTTPError: HTTP Error 404: Not Found",
-  "1815446747: HTTPError: HTTP Error 404: Not Found"
+ "trades_collected": 3334,
+ "anomalies_detected": 35,
+ "anomalies_new": 33,
+ "history_debug": [
+  {
+   "cid": "0xe0e45e81",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x2dbd8e7a",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xee0b6e56",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 113,
- "books_rows": 160,
+ "history_conditions_new": 3,
+ "books_markets": 106,
+ "books_rows": 162,
  "status": "ok"
 }
