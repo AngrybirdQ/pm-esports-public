@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-09T15:39:07Z",
+ "ts": "2026-10-09T15:41:52Z",
  "sources": [
   {
    "url": "/tags",
@@ -208,12 +208,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Aurora vs 1win (BO3) - BLAST Slam Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Aurora vs 1win (BO3) - BLAST Slam Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: LEGION vs Blasterbl (BO5) - PARI Universe Closed Qualifier Pla",
@@ -310,19 +310,27 @@
   ]
  },
  "n_event_queries": 21,
- "events": 423,
+ "events": 422,
  "markets": 355,
- "markets_dropped_by_volume_floor": 2722,
+ "markets_dropped_by_volume_floor": 2719,
  "day_file": "data/2026/10/2026-10-09T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 146,
+ "trades_markets_queried": 147,
  "trades_watchlist_markets": 99,
- "trades_collected": 4194,
- "anomalies_detected": 54,
- "anomalies_new": 0,
+ "trades_collected": 4278,
+ "anomalies_detected": 52,
+ "anomalies_new": 6,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 99,
+ "books_errors": [
+  "6960186552: HTTPError: HTTP Error 404: Not Found",
+  "1078513330: HTTPError: HTTP Error 404: Not Found",
+  "3830456437: HTTPError: HTTP Error 404: Not Found",
+  "5665411231: HTTPError: HTTP Error 404: Not Found",
+  "8663735922: HTTPError: HTTP Error 404: Not Found",
+  "6020657715: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 98,
  "books_rows": 148,
  "status": "ok"
 }
