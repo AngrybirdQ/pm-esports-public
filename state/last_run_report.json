@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-09T17:42:41Z",
+ "ts": "2026-10-09T17:45:16Z",
  "sources": [
   {
    "url": "/tags",
@@ -204,12 +204,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs Team Yandex (BO3) - BLAST Slam Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: PARIVISION vs Team Yandex (BO3) - BLAST Slam Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: LEGION vs Blasterbl (BO5) - PARI Universe Closed Qualifier Pla",
@@ -311,22 +311,24 @@
  },
  "n_event_queries": 21,
  "events": 422,
- "markets": 344,
- "markets_dropped_by_volume_floor": 2689,
+ "markets": 346,
+ "markets_dropped_by_volume_floor": 2690,
  "day_file": "data/2026/10/2026-10-09T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 128,
+ "trades_markets_queried": 129,
  "trades_watchlist_markets": 80,
- "trades_collected": 2631,
+ "trades_collected": 2597,
  "anomalies_detected": 24,
  "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "3399741430: HTTPError: HTTP Error 404: Not Found",
-  "1055558184: HTTPError: HTTP Error 404: Not Found"
+ "history_debug": [
+  {
+   "cid": "0x39d4c9e0",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 73,
+ "history_conditions_new": 1,
+ "books_markets": 72,
  "books_rows": 98,
  "status": "ok"
 }
