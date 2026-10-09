@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-09T22:15:22Z",
+ "ts": "2026-10-09T22:17:24Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 49,
+   "events_returned": 48,
    "err": null
   },
   {
@@ -171,7 +171,7 @@
   "tag_slug=valorant": [
    "VALORANT Champions 2026: Winner",
    "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs",
-   "Valorant: Fire Flux Esports vs BBL Esports (BO3) - Monsters Reloaded C"
+   "Least Played Map at VALORANT Champions 2026"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -312,14 +312,14 @@
  "n_event_queries": 21,
  "events": 422,
  "markets": 311,
- "markets_dropped_by_volume_floor": 2691,
+ "markets_dropped_by_volume_floor": 2701,
  "day_file": "data/2026/10/2026-10-09T22.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 76,
  "trades_watchlist_markets": 50,
- "trades_collected": 1859,
+ "trades_collected": 1834,
  "anomalies_detected": 20,
- "anomalies_new": 0,
+ "anomalies_new": 4,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 64,
