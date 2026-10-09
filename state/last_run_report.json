@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-09T14:24:03Z",
+ "ts": "2026-10-09T14:27:04Z",
  "sources": [
   {
    "url": "/tags",
@@ -141,13 +141,13 @@
  "tag_samples": {
   "tag_slug=esports": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
-   "Dota 2: Team Spirit vs Aurora (BO3) - BLAST Slam Playoffs",
-   "Counter-Strike: FURIA vs MOUZ (BO3) - ESL Pro League Playoffs"
+   "Counter-Strike: FURIA vs MOUZ (BO3) - ESL Pro League Playoffs",
+   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Power Rangers vs Team Synapse (BO3) - EPL Masters Group A"
+   "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs"
   ],
   "tag_slug=cs2": [
    "ESL Pro League Season 24: Winner",
@@ -212,12 +212,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: LEGION vs Blasterbl (BO5) - PARI Universe Closed Qualifier Pla",
-    "closed": true
-   },
-   {
     "t": "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: LEGION vs Blasterbl (BO5) - PARI Universe Closed Qualifier Pla",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -278,12 +278,12 @@
     "closed": false
    },
    {
-    "t": "Valorant: Team Vitality vs Nongshim RedForce (BO3) - VCT Champions Pla",
-    "closed": true
-   },
-   {
     "t": "Valorant: Fire Flux Esports vs BBL Esports (BO3) - Monsters Reloaded C",
     "closed": false
+   },
+   {
+    "t": "Valorant: BBL Esports vs Pcific Esports (BO3) - Monsters Reloaded Clos",
+    "closed": true
    }
   ],
   "search:The International": [
@@ -311,18 +311,28 @@
  },
  "n_event_queries": 21,
  "events": 424,
- "markets": 356,
- "markets_dropped_by_volume_floor": 2683,
+ "markets": 363,
+ "markets_dropped_by_volume_floor": 2675,
  "day_file": "data/2026/10/2026-10-09T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 144,
+ "trades_markets_queried": 150,
  "trades_watchlist_markets": 109,
- "trades_collected": 3332,
- "anomalies_detected": 53,
- "anomalies_new": 4,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 103,
- "books_rows": 154,
+ "trades_collected": 3555,
+ "anomalies_detected": 43,
+ "anomalies_new": 1,
+ "history_debug": [
+  {
+   "cid": "0x6938be5f",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_errors": [
+  "4810349232: HTTPError: HTTP Error 404: Not Found",
+  "2245904308: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 107,
+ "books_rows": 158,
  "status": "ok"
 }
