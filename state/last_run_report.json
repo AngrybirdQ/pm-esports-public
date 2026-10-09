@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-09T17:08:52Z",
+ "ts": "2026-10-09T17:11:47Z",
  "sources": [
   {
    "url": "/tags",
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
-   "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs",
-   "Counter-Strike: Team Falcons vs Spirit (BO3) - ESL Pro League Playoffs"
+   "Counter-Strike: Team Falcons vs Spirit (BO3) - ESL Pro League Playoffs",
+   "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs",
@@ -311,22 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 422,
- "markets": 341,
- "markets_dropped_by_volume_floor": 2709,
+ "markets": 344,
+ "markets_dropped_by_volume_floor": 2699,
  "day_file": "data/2026/10/2026-10-09T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 126,
+ "trades_markets_queried": 129,
  "trades_watchlist_markets": 80,
- "trades_collected": 3194,
- "anomalies_detected": 30,
- "anomalies_new": 2,
+ "trades_collected": 3211,
+ "anomalies_detected": 32,
+ "anomalies_new": 5,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1077451963: HTTPError: HTTP Error 404: Not Found",
-  "7435366988: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 74,
- "books_rows": 90,
+ "books_markets": 76,
+ "books_rows": 94,
  "status": "ok"
 }
