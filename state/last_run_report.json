@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-09T13:25:29Z",
+ "ts": "2026-10-09T13:28:10Z",
  "sources": [
   {
    "url": "/tags",
@@ -204,20 +204,20 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Aurora vs 1win (BO3) - BLAST Slam Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Spirit vs Aurora (BO3) - BLAST Slam Playoffs",
     "closed": false
    },
    {
-    "t": "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
-    "closed": false
+    "t": "Dota 2: Aurora vs 1win (BO3) - BLAST Slam Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: LEGION vs Blasterbl (BO5) - PARI Universe Closed Qualifier Pla",
     "closed": true
+   },
+   {
+    "t": "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -270,12 +270,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: Team Vitality vs Nongshim RedForce (BO3) - VCT Champions Pla",
-    "closed": true
-   },
-   {
     "t": "Valorant: 100 Thieves vs Nongshim RedForce (BO3) - VCT Champions Playo",
     "closed": false
+   },
+   {
+    "t": "Valorant: Team Vitality vs Nongshim RedForce (BO3) - VCT Champions Pla",
+    "closed": true
    },
    {
     "t": "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs",
@@ -312,23 +312,17 @@
  "n_event_queries": 21,
  "events": 423,
  "markets": 355,
- "markets_dropped_by_volume_floor": 2638,
+ "markets_dropped_by_volume_floor": 2628,
  "day_file": "data/2026/10/2026-10-09T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 139,
+ "trades_markets_queried": 142,
  "trades_watchlist_markets": 109,
- "trades_collected": 3115,
+ "trades_collected": 3280,
  "anomalies_detected": 56,
  "anomalies_new": 4,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "2982913960: HTTPError: HTTP Error 404: Not Found",
-  "9892271606: HTTPError: HTTP Error 404: Not Found",
-  "7696611750: HTTPError: HTTP Error 404: Not Found",
-  "1017575204: HTTPError: HTTP Error 404: Not Found"
- ],
  "books_markets": 112,
- "books_rows": 170,
+ "books_rows": 172,
  "status": "ok"
 }
