@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-09T02:35:21Z",
+ "ts": "2026-10-09T02:39:21Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 95,
+   "events_returned": 94,
    "err": null
   },
   {
@@ -161,7 +161,7 @@
   "tag_slug=league-of-legends": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
    "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
-   "LoL: Maryville University vs Cupid Esports (BO5) - LCS Promotion Playo"
+   "LoL: Gen.G Global Academy vs Hanwha Life Esports Challengers (BO3) - L"
   ],
   "tag_slug=lol": [
    "Worlds 2026 Winning Region",
@@ -311,34 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 423,
- "markets": 328,
- "markets_dropped_by_volume_floor": 2595,
+ "markets": 320,
+ "markets_dropped_by_volume_floor": 2580,
  "day_file": "data/2026/10/2026-10-09T02.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 95,
+ "trades_markets_queried": 87,
  "trades_watchlist_markets": 70,
- "trades_collected": 1426,
- "anomalies_detected": 18,
+ "trades_collected": 1435,
+ "anomalies_detected": 16,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "2758248644: HTTPError: HTTP Error 404: Not Found",
-  "9398631698: HTTPError: HTTP Error 404: Not Found",
-  "9220716399: HTTPError: HTTP Error 404: Not Found",
-  "4295848653: HTTPError: HTTP Error 404: Not Found",
-  "4709025694: HTTPError: HTTP Error 404: Not Found",
-  "8038013966: HTTPError: HTTP Error 404: Not Found",
-  "8424938046: HTTPError: HTTP Error 404: Not Found",
-  "4989664683: HTTPError: HTTP Error 404: Not Found",
-  "1147184352: HTTPError: HTTP Error 404: Not Found",
-  "1135778413: HTTPError: HTTP Error 404: Not Found",
-  "5210975095: HTTPError: HTTP Error 404: Not Found",
-  "1123603492: HTTPError: HTTP Error 404: Not Found",
-  "3278605885: HTTPError: HTTP Error 404: Not Found",
-  "1020211174: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 103,
- "books_rows": 172,
+ "books_markets": 95,
+ "books_rows": 170,
  "status": "ok"
 }
