@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-09T21:25:13Z",
+ "ts": "2026-10-09T21:27:37Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 89,
+   "events_returned": 88,
    "err": null
   },
   {
@@ -161,7 +161,7 @@
   "tag_slug=league-of-legends": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
    "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
-   "LoL: ⁠Movistar KOI Fénix vs TLN Pirates (BO5) - EMEA Masters Playoffs"
+   "LoL: Gen.G Global Academy vs Hanwha Life Esports Challengers (BO3) - L"
   ],
   "tag_slug=lol": [
    "Worlds 2026 Winning Region",
@@ -212,12 +212,12 @@
     "closed": false
    },
    {
-    "t": "Dota 2: PARIVISION vs Team Yandex (BO3) - BLAST Slam Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Yandex vs Team Spirit (BO3) - BLAST Slam Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: PARIVISION vs Team Yandex (BO3) - BLAST Slam Playoffs",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -310,18 +310,24 @@
   ]
  },
  "n_event_queries": 21,
- "events": 424,
- "markets": 304,
- "markets_dropped_by_volume_floor": 2717,
+ "events": 423,
+ "markets": 307,
+ "markets_dropped_by_volume_floor": 2704,
  "day_file": "data/2026/10/2026-10-09T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 74,
+ "trades_markets_queried": 75,
  "trades_watchlist_markets": 43,
- "trades_collected": 1170,
+ "trades_collected": 1359,
  "anomalies_detected": 6,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "history_debug": [
+  {
+   "cid": "0x93ca2501",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 49,
  "books_rows": 90,
  "status": "ok"
