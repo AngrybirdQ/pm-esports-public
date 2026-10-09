@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-09T16:36:15Z",
+ "ts": "2026-10-09T16:50:59Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 37,
+   "events_returned": 38,
    "err": null
   },
   {
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
-   "Counter-Strike: FURIA vs MOUZ (BO3) - ESL Pro League Playoffs",
-   "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs"
+   "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs",
+   "Counter-Strike: Team Falcons vs Spirit (BO3) - ESL Pro League Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs",
@@ -310,29 +310,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 421,
- "markets": 352,
- "markets_dropped_by_volume_floor": 2724,
+ "events": 422,
+ "markets": 340,
+ "markets_dropped_by_volume_floor": 2738,
  "day_file": "data/2026/10/2026-10-09T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 146,
- "trades_watchlist_markets": 99,
- "trades_collected": 3805,
- "anomalies_detected": 47,
- "anomalies_new": 3,
+ "trades_markets_queried": 123,
+ "trades_watchlist_markets": 80,
+ "trades_collected": 3217,
+ "anomalies_detected": 31,
+ "anomalies_new": 31,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "9539322419: HTTPError: HTTP Error 404: Not Found",
-  "1035384760: HTTPError: HTTP Error 404: Not Found",
-  "8825770879: HTTPError: HTTP Error 404: Not Found",
-  "1073247690: HTTPError: HTTP Error 404: Not Found",
-  "3494919845: HTTPError: HTTP Error 404: Not Found",
-  "5222164822: HTTPError: HTTP Error 404: Not Found",
-  "1060771074: HTTPError: HTTP Error 404: Not Found",
-  "7636193427: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 99,
- "books_rows": 120,
+ "books_markets": 78,
+ "books_rows": 96,
  "status": "ok"
 }
