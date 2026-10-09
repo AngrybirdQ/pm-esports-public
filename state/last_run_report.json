@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-09T21:39:46Z",
+ "ts": "2026-10-09T21:41:56Z",
  "sources": [
   {
    "url": "/tags",
@@ -216,8 +216,8 @@
     "closed": false
    },
    {
-    "t": "Dota 2: PARIVISION vs Team Yandex (BO3) - BLAST Slam Playoffs",
-    "closed": true
+    "t": "Dota 2: PARIVISION vs Aurora (BO3) - BLAST Slam Playoffs",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -311,17 +311,23 @@
  },
  "n_event_queries": 21,
  "events": 423,
- "markets": 306,
+ "markets": 307,
  "markets_dropped_by_volume_floor": 2699,
  "day_file": "data/2026/10/2026-10-09T21.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 76,
  "trades_watchlist_markets": 43,
- "trades_collected": 1391,
+ "trades_collected": 1392,
  "anomalies_detected": 8,
- "anomalies_new": 4,
- "history_debug": [],
- "history_conditions_new": 0,
+ "anomalies_new": 0,
+ "history_debug": [
+  {
+   "cid": "0x2b1a4bb9",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 49,
  "books_rows": 92,
  "status": "ok"
