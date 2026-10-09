@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-09T16:26:18Z",
+ "ts": "2026-10-09T16:29:46Z",
  "sources": [
   {
    "url": "/tags",
@@ -212,11 +212,11 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Aurora vs 1win (BO3) - BLAST Slam Playoffs",
+    "t": "Dota 2: LEGION vs Blasterbl (BO5) - PARI Universe Closed Qualifier Pla",
     "closed": true
    },
    {
-    "t": "Dota 2: LEGION vs Blasterbl (BO5) - PARI Universe Closed Qualifier Pla",
+    "t": "Dota 2: Aurora vs 1win (BO3) - BLAST Slam Playoffs",
     "closed": true
    }
   ],
@@ -311,22 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 421,
- "markets": 353,
- "markets_dropped_by_volume_floor": 2727,
+ "markets": 352,
+ "markets_dropped_by_volume_floor": 2726,
  "day_file": "data/2026/10/2026-10-09T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 147,
+ "trades_markets_queried": 146,
  "trades_watchlist_markets": 99,
- "trades_collected": 3936,
- "anomalies_detected": 51,
- "anomalies_new": 1,
+ "trades_collected": 3886,
+ "anomalies_detected": 49,
+ "anomalies_new": 47,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "3504070566: HTTPError: HTTP Error 404: Not Found",
-  "1985095548: HTTPError: HTTP Error 404: Not Found"
- ],
  "books_markets": 99,
- "books_rows": 126,
+ "books_rows": 122,
  "status": "ok"
 }
