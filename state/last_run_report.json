@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-09T12:37:01Z",
+ "ts": "2026-10-09T12:40:23Z",
  "sources": [
   {
    "url": "/tags",
@@ -310,29 +310,39 @@
   ]
  },
  "n_event_queries": 21,
- "events": 424,
- "markets": 364,
- "markets_dropped_by_volume_floor": 2653,
+ "events": 422,
+ "markets": 361,
+ "markets_dropped_by_volume_floor": 2643,
  "day_file": "data/2026/10/2026-10-09T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 139,
+ "trades_markets_queried": 142,
  "trades_watchlist_markets": 104,
- "trades_collected": 2869,
- "anomalies_detected": 45,
+ "trades_collected": 2867,
+ "anomalies_detected": 36,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "history_debug": [
+  {
+   "cid": "0x2b67a9a8",
+   "pts": 5,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_errors": [
-  "5714154102: HTTPError: HTTP Error 404: Not Found",
-  "2620293207: HTTPError: HTTP Error 404: Not Found",
-  "4181264516: HTTPError: HTTP Error 404: Not Found",
-  "1128525304: HTTPError: HTTP Error 404: Not Found",
-  "5935829420: HTTPError: HTTP Error 404: Not Found",
-  "5623814012: HTTPError: HTTP Error 404: Not Found",
-  "7473042870: HTTPError: HTTP Error 404: Not Found",
-  "3529743272: HTTPError: HTTP Error 404: Not Found"
+  "3255019447: HTTPError: HTTP Error 404: Not Found",
+  "3747244723: HTTPError: HTTP Error 404: Not Found",
+  "2820371603: HTTPError: HTTP Error 404: Not Found",
+  "1714391124: HTTPError: HTTP Error 404: Not Found",
+  "1784932806: HTTPError: HTTP Error 404: Not Found",
+  "3373137265: HTTPError: HTTP Error 404: Not Found",
+  "1299255092: HTTPError: HTTP Error 404: Not Found",
+  "1439960528: HTTPError: HTTP Error 404: Not Found",
+  "9268496535: HTTPError: HTTP Error 404: Not Found",
+  "1849769688: HTTPError: HTTP Error 404: Not Found",
+  "3861110264: HTTPError: HTTP Error 404: Not Found",
+  "5269637700: HTTPError: HTTP Error 404: Not Found"
  ],
  "books_markets": 116,
- "books_rows": 176,
+ "books_rows": 180,
  "status": "ok"
 }
