@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-09T14:40:19Z",
+ "ts": "2026-10-09T14:42:59Z",
  "sources": [
   {
    "url": "/tags",
@@ -145,9 +145,9 @@
    "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier"
   ],
   "tag_slug=dota-2": [
+   "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs",
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
-   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs"
+   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua"
   ],
   "tag_slug=cs2": [
    "ESL Pro League Season 24: Winner",
@@ -311,18 +311,28 @@
  },
  "n_event_queries": 21,
  "events": 425,
- "markets": 360,
- "markets_dropped_by_volume_floor": 2696,
+ "markets": 362,
+ "markets_dropped_by_volume_floor": 2702,
  "day_file": "data/2026/10/2026-10-09T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 148,
+ "trades_markets_queried": 152,
  "trades_watchlist_markets": 109,
- "trades_collected": 3491,
- "anomalies_detected": 24,
- "anomalies_new": 0,
+ "trades_collected": 3675,
+ "anomalies_detected": 34,
+ "anomalies_new": 7,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 105,
+ "books_errors": [
+  "6750205008: HTTPError: HTTP Error 404: Not Found",
+  "7268520431: HTTPError: HTTP Error 404: Not Found",
+  "4462520828: HTTPError: HTTP Error 404: Not Found",
+  "3089544223: HTTPError: HTTP Error 404: Not Found",
+  "1059597865: HTTPError: HTTP Error 404: Not Found",
+  "1139392546: HTTPError: HTTP Error 404: Not Found",
+  "1062166945: HTTPError: HTTP Error 404: Not Found",
+  "6108525024: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 106,
  "books_rows": 158,
  "status": "ok"
 }
