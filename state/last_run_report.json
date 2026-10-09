@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-09T20:12:20Z",
+ "ts": "2026-10-09T20:19:51Z",
  "sources": [
   {
    "url": "/tags",
@@ -266,11 +266,11 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: T1 vs Paper Rex (BO3) - VCT Champions Playoffs",
+    "t": "Valorant: 100 Thieves vs Nongshim RedForce (BO3) - VCT Champions Playo",
     "closed": true
    },
    {
-    "t": "Valorant: 100 Thieves vs Nongshim RedForce (BO3) - VCT Champions Playo",
+    "t": "Valorant: T1 vs Paper Rex (BO3) - VCT Champions Playoffs",
     "closed": true
    },
    {
@@ -312,23 +312,17 @@
  "n_event_queries": 21,
  "events": 420,
  "markets": 320,
- "markets_dropped_by_volume_floor": 2667,
+ "markets_dropped_by_volume_floor": 2666,
  "day_file": "data/2026/10/2026-10-09T20.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 83,
- "trades_watchlist_markets": 45,
- "trades_collected": 1931,
- "anomalies_detected": 34,
- "anomalies_new": 0,
- "history_debug": [
-  {
-   "cid": "0xcf3f8d40",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
- "books_markets": 51,
- "books_rows": 68,
+ "trades_markets_queried": 85,
+ "trades_watchlist_markets": 43,
+ "trades_collected": 2024,
+ "anomalies_detected": 44,
+ "anomalies_new": 8,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 66,
+ "books_rows": 78,
  "status": "ok"
 }
