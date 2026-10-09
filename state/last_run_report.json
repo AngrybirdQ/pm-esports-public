@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-09T18:51:51Z",
+ "ts": "2026-10-09T18:54:02Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 38,
+   "events_returned": 37,
    "err": null
   },
   {
@@ -145,9 +145,9 @@
    "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs",
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
-   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua"
+   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
+   "Dota 2: Power Rangers vs Team Synapse (BO3) - EPL Masters Group A"
   ],
   "tag_slug=cs2": [
    "ESL Pro League Season 24: Winner",
@@ -310,16 +310,16 @@
   ]
  },
  "n_event_queries": 21,
- "events": 423,
+ "events": 422,
  "markets": 341,
  "markets_dropped_by_volume_floor": 2722,
  "day_file": "data/2026/10/2026-10-09T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 87,
+ "trades_markets_queried": 88,
  "trades_watchlist_markets": 45,
- "trades_collected": 2172,
+ "trades_collected": 2252,
  "anomalies_detected": 32,
- "anomalies_new": 11,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 60,
