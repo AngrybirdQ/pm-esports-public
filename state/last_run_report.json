@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-09T19:55:56Z",
+ "ts": "2026-10-09T19:58:04Z",
  "sources": [
   {
    "url": "/tags",
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
    "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
-   "LoL: ⁠Movistar KOI Fénix vs TLN Pirates (BO5) - EMEA Masters Playoffs"
+   "Dota 2: LGD Gaming vs Aurora (BO3) - BLAST Slam Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: LGD Gaming vs Aurora (BO3) - BLAST Slam Playoffs",
@@ -312,26 +312,16 @@
  "n_event_queries": 21,
  "events": 421,
  "markets": 322,
- "markets_dropped_by_volume_floor": 2677,
+ "markets_dropped_by_volume_floor": 2671,
  "day_file": "data/2026/10/2026-10-09T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 83,
+ "trades_markets_queried": 82,
  "trades_watchlist_markets": 45,
- "trades_collected": 2180,
- "anomalies_detected": 45,
- "anomalies_new": 0,
- "history_debug": [
-  {
-   "cid": "0xed6fdc90",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
- "books_errors": [
-  "4101965073: HTTPError: HTTP Error 404: Not Found",
-  "9619514227: HTTPError: HTTP Error 404: Not Found"
- ],
+ "trades_collected": 2041,
+ "anomalies_detected": 44,
+ "anomalies_new": 6,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 50,
  "books_rows": 70,
  "status": "ok"
