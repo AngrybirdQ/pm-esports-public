@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-09T12:10:27Z",
+ "ts": "2026-10-09T12:13:42Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 50,
+   "events_returned": 49,
    "err": null
   },
   {
@@ -169,9 +169,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: T1 vs Paper Rex (BO3) - VCT Champions Playoffs",
+   "Valorant: 100 Thieves vs Nongshim RedForce (BO3) - VCT Champions Playo",
    "VALORANT Champions 2026: Winner",
-   "Valorant: 100 Thieves vs Nongshim RedForce (BO3) - VCT Champions Playo"
+   "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -212,12 +212,12 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Team Yandex vs LGD Gaming (BO3) - BLAST Slam Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Yandex vs LGD Gaming (BO3) - BLAST Slam Playoffs",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -311,22 +311,29 @@
  },
  "n_event_queries": 21,
  "events": 424,
- "markets": 361,
- "markets_dropped_by_volume_floor": 2610,
+ "markets": 365,
+ "markets_dropped_by_volume_floor": 2648,
  "day_file": "data/2026/10/2026-10-09T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 134,
+ "trades_markets_queried": 135,
  "trades_watchlist_markets": 104,
- "trades_collected": 2692,
- "anomalies_detected": 55,
- "anomalies_new": 1,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "9074576622: HTTPError: HTTP Error 404: Not Found",
-  "4102865110: HTTPError: HTTP Error 404: Not Found"
+ "trades_collected": 2774,
+ "anomalies_detected": 51,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0x89cbd811",
+   "pts": 5,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x894cc6e4",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 112,
- "books_rows": 178,
+ "history_conditions_new": 2,
+ "books_markets": 114,
+ "books_rows": 184,
  "status": "ok"
 }
