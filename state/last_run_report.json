@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-09T15:19:29Z",
+ "ts": "2026-10-09T15:22:00Z",
  "sources": [
   {
    "url": "/tags",
@@ -189,7 +189,6 @@
   ]
  },
  "winning_sources": [
-  "search:Valorant",
   "tag_slug=cs2",
   "tag_slug=dota-2",
   "tag_slug=esports",
@@ -272,7 +271,7 @@
    },
    {
     "t": "Valorant: 100 Thieves vs Nongshim RedForce (BO3) - VCT Champions Playo",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs",
@@ -311,16 +310,16 @@
   ]
  },
  "n_event_queries": 21,
- "events": 426,
+ "events": 425,
  "markets": 355,
  "markets_dropped_by_volume_floor": 2702,
  "day_file": "data/2026/10/2026-10-09T15.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 143,
  "trades_watchlist_markets": 99,
- "trades_collected": 4068,
- "anomalies_detected": 57,
- "anomalies_new": 6,
+ "trades_collected": 4096,
+ "anomalies_detected": 61,
+ "anomalies_new": 4,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
