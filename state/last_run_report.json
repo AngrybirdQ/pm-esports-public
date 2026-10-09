@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-09T22:17:24Z",
+ "ts": "2026-10-09T23:55:33Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 88,
+   "events_returned": 84,
    "err": null
   },
   {
@@ -140,9 +140,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
-   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
-   "ESL Pro League Season 24: Winner"
+   "ESL Pro League Season 24: Winner",
+   "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
@@ -159,9 +159,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
-   "LoL: Gen.G vs DN SOOPers (BO3) - KeSPA Cup Last Chance Qualifier",
-   "LoL: Gen.G Global Academy vs Hanwha Life Esports Challengers (BO3) - L"
+   "Worlds 2026 Winning Region",
+   "LoL: KaBuM! Ilha das Lendas vs Golden Lions (BO5) - CBLOL Promotion Pl",
+   "LoL: FALKE Esports vs Kawaii Kiwis (BO5) - LES Promotion Playoffs"
   ],
   "tag_slug=lol": [
    "Worlds 2026 Winning Region",
@@ -282,7 +282,7 @@
     "closed": false
    },
    {
-    "t": "VALORANT Champions 2026: Winner",
+    "t": "Valorant: G2 Esports vs Team Vitality (BO3) - VCT Champions Playoffs",
     "closed": false
    }
   ],
@@ -311,18 +311,37 @@
  },
  "n_event_queries": 21,
  "events": 422,
- "markets": 311,
- "markets_dropped_by_volume_floor": 2701,
- "day_file": "data/2026/10/2026-10-09T22.jsonl",
+ "markets": 313,
+ "markets_dropped_by_volume_floor": 2667,
+ "day_file": "data/2026/10/2026-10-09T23.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 76,
- "trades_watchlist_markets": 50,
- "trades_collected": 1834,
- "anomalies_detected": 20,
- "anomalies_new": 4,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 64,
- "books_rows": 114,
+ "trades_markets_queried": 70,
+ "trades_watchlist_markets": 46,
+ "trades_collected": 1092,
+ "anomalies_detected": 3,
+ "anomalies_new": 3,
+ "history_debug": [
+  {
+   "cid": "0x62028ace",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x381090b9",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_errors": [
+  "5559471334: HTTPError: HTTP Error 404: Not Found",
+  "8935862245: HTTPError: HTTP Error 404: Not Found",
+  "5854913758: HTTPError: HTTP Error 404: Not Found",
+  "1051112054: HTTPError: HTTP Error 404: Not Found",
+  "4119745373: HTTPError: HTTP Error 404: Not Found",
+  "8075362017: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 62,
+ "books_rows": 100,
  "status": "ok"
 }
