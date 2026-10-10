@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T15:07:15Z",
+ "ts": "2026-10-10T15:10:50Z",
  "sources": [
   {
    "url": "/tags",
@@ -310,31 +310,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 416,
- "markets": 356,
- "markets_dropped_by_volume_floor": 2604,
+ "events": 415,
+ "markets": 357,
+ "markets_dropped_by_volume_floor": 2583,
  "day_file": "data/2026/10/2026-10-10T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 125,
+ "trades_markets_queried": 126,
  "trades_watchlist_markets": 101,
- "trades_collected": 3031,
- "anomalies_detected": 59,
- "anomalies_new": 0,
+ "trades_collected": 3055,
+ "anomalies_detected": 46,
+ "anomalies_new": 3,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "5167778229: HTTPError: HTTP Error 404: Not Found",
-  "9300166611: HTTPError: HTTP Error 404: Not Found",
-  "2221156174: HTTPError: HTTP Error 404: Not Found",
-  "1058135825: HTTPError: HTTP Error 404: Not Found",
-  "2826808357: HTTPError: HTTP Error 404: Not Found",
-  "2031635300: HTTPError: HTTP Error 404: Not Found",
-  "9541553819: HTTPError: HTTP Error 404: Not Found",
-  "6667991387: HTTPError: HTTP Error 404: Not Found",
-  "2222779905: HTTPError: HTTP Error 404: Not Found",
-  "8493767609: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 119,
+ "books_markets": 116,
  "books_rows": 172,
  "status": "ok"
 }
