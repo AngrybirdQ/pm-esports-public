@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T18:40:27Z",
+ "ts": "2026-10-10T18:42:24Z",
  "sources": [
   {
    "url": "/tags",
@@ -140,8 +140,8 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Dota 2: PARIVISION vs Aurora (BO3) - BLAST Slam Playoffs",
    "Counter-Strike: MOUZ vs Spirit (BO3) - ESL Pro League Playoffs",
+   "LoL: LOS vs FURIA Esports (BO5) - CBLOL Playoffs",
    "ESL Pro League Season 24: Winner"
   ],
   "tag_slug=dota-2": [
@@ -310,23 +310,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 415,
+ "events": 416,
  "markets": 335,
- "markets_dropped_by_volume_floor": 2556,
+ "markets_dropped_by_volume_floor": 2555,
  "day_file": "data/2026/10/2026-10-10T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 92,
+ "trades_markets_queried": 91,
  "trades_watchlist_markets": 64,
- "trades_collected": 2282,
- "anomalies_detected": 49,
- "anomalies_new": 6,
+ "trades_collected": 2241,
+ "anomalies_detected": 52,
+ "anomalies_new": 5,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "5351534456: HTTPError: HTTP Error 404: Not Found",
-  "2499148063: HTTPError: HTTP Error 404: Not Found"
- ],
  "books_markets": 88,
- "books_rows": 96,
+ "books_rows": 98,
  "status": "ok"
 }
