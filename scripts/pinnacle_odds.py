@@ -9,19 +9,39 @@ import json, os, time, urllib.request
 BASE = "https://guest.api.pinnacle.com"
 HDRS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36",
         "Accept": "application/json"}
-def gj(url):
-    req = urllib.request.Request(url, headers=HDRS)
-    with urllib.request.urlopen(req, timeout=20) as r:
-        return json.loads(r.read().decode())
+def gj(url, host=None):
+    """优先urllib; 失败则DoH解析IP + curl --resolve绕DNS(Actions上pinnacle不解析)"""
+    import subprocess
+    try:
+        req = urllib.request.Request(url, headers=HDRS)
+        with urllib.request.urlopen(req, timeout=20) as r:
+            return json.loads(r.read().decode())
+    except Exception as e1:
+        if host is None:
+            host = url.split("/")[2]
+        doh = ("https://dns.google/resolve?name=" + host + "&type=A")
+        req = urllib.request.Request(doh, headers={"Accept": "application/dns-json"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            ans = json.loads(r.read().decode()).get("Answer") or []
+        ips = [a["data"] for a in ans if a.get("type") == 1]
+        if not ips:
+            raise RuntimeError(f"DoH no A record for {host}; first error: {e1}")
+        out = subprocess.run(
+            ["curl", "-sS", "-m", "20", "--resolve", f"{host}:443:{ips[0]}",
+             "-A", HDRS["User-Agent"], "-H", "Accept: application/json", url],
+            capture_output=True, text=True, timeout=30)
+        if out.returncode != 0:
+            raise RuntimeError(f"curl --resolve failed: {out.stderr[:120]}")
+        return json.loads(out.stdout)
 def main():
     reps = []
     errs = []
     try:
-        mus = gj(f"{BASE}/matchups/esports")
+        mus = gj(f"{BASE}/matchups/esports", host="guest.api.pinnacle.com")
     except Exception as e:
         errs.append(f"matchups {type(e).__name__}: {e}")
     try:
-        odds = gj(f"{BASE}/odds/esports?oddsFormat=decimal")
+        odds = gj(f"{BASE}/odds/esports?oddsFormat=decimal", host="guest.api.pinnacle.com")
     except Exception as e:
         errs.append(f"odds {type(e).__name__}: {e}")
     os.makedirs("state", exist_ok=True)
