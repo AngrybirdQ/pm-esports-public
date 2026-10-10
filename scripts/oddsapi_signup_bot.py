@@ -60,7 +60,7 @@ def main():
             br = p.chromium.launch(headless=True)
             pg = br.new_page()
             pg.goto("https://the-odds-api.com/account/", timeout=60000)
-            pg.wait_for_load_state("networkidle")
+            pg.wait_for_load_state("domcontentloaded"); time.sleep(2)
             snap(pg, "account_landed")
             # 若有"request access / sign up"入口, 点它
             for label in ("Request access", "request access", "Sign up",
@@ -69,7 +69,7 @@ def main():
                 if loc.count():
                     try:
                         loc.first.click(timeout=3000)
-                        pg.wait_for_load_state("networkidle")
+                        pg.wait_for_load_state("domcontentloaded"); time.sleep(2)
                         time.sleep(2)
                         snap(pg, f"clicked_{label}")
                         break
@@ -143,7 +143,7 @@ def main():
             except Exception as e:
                 STATE["fail"] = f"submit {e}"[:200]
                 snap(pg, "submit_failed"); write_report(); br.close(); return
-            pg.wait_for_load_state("networkidle")
+            pg.wait_for_load_state("domcontentloaded"); time.sleep(2)
             time.sleep(3)
             snap(pg, "after_submit")
             STATE["after_url"] = pg.url
@@ -194,7 +194,7 @@ def main():
                 STATE["fail"] = "no verify link"
                 write_report(); br.close(); return
             pg.goto(link, timeout=60000)
-            pg.wait_for_load_state("networkidle")
+            pg.wait_for_load_state("domcontentloaded"); time.sleep(2)
             time.sleep(3)
             snap(pg, "after_verify")
             # dashboard找key(v4): 等异步渲染(最长25s), 每轮全文本扫
@@ -217,7 +217,7 @@ def main():
                     time.sleep(6)
                     pg.locator("button[type=submit], button:has-text('Log in'), "
                                "button:has-text('Sign in')").first.click(timeout=8000)
-                    pg.wait_for_load_state("networkidle")
+                    pg.wait_for_load_state("domcontentloaded"); time.sleep(2)
                     for _ in range(8):
                         time.sleep(2.5)
                         for cand in pg.locator(
