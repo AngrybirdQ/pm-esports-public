@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T04:29:04Z",
+ "ts": "2026-10-10T05:22:01Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 83,
+   "events_returned": 82,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 47,
+   "events_returned": 46,
    "err": null
   },
   {
@@ -274,11 +274,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: G2 Esports vs Team Vitality (BO3) - VCT Champions Playoffs",
+    "t": "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs",
     "closed": false
    },
    {
-    "t": "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs",
+    "t": "Valorant: G2 Esports vs Team Vitality (BO3) - VCT Champions Playoffs",
     "closed": false
    },
    {
@@ -310,19 +310,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 421,
+ "events": 419,
  "markets": 318,
- "markets_dropped_by_volume_floor": 2606,
- "day_file": "data/2026/10/2026-10-10T04.jsonl",
+ "markets_dropped_by_volume_floor": 2597,
+ "day_file": "data/2026/10/2026-10-10T05.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 73,
- "trades_watchlist_markets": 57,
- "trades_collected": 448,
- "anomalies_detected": 3,
+ "trades_markets_queried": 81,
+ "trades_watchlist_markets": 69,
+ "trades_collected": 341,
+ "anomalies_detected": 1,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 69,
- "books_rows": 130,
+ "books_markets": 79,
+ "books_rows": 156,
  "status": "ok"
 }
