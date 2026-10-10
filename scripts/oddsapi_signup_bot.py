@@ -30,28 +30,43 @@ def write_report(path="state/oddsapi_signup_report.json"):
         {k: v for k, v in STATE.items() if k != "stages"},
         ensure_ascii=False)[:300])
 
-def main():
+def setup_mail():
+    """mailtm优先(正规域, Cognito友好) + guerrilla兜底; 返回(addr, pwd, token, provider)"""
     try:
-        try:
-                g = api("https://api.guerrillamail.com/ajax.php?f=get_email_address")
-                addr, mpwd, mtok = g["email_addr"], "n/a", g["sid_token"]
-                STATE["mail_provider"] = "guerrilla"
-        except Exception as e1:
-                print("guerrilla fail:", str(e1)[:100])
-                doms = api("https://api.mail.tm/domains")["hydra:member"]
-                dom = doms[0]["domain"]
-                addr = f"pm.esports.{os.urandom(3).hex()}@{dom}"
-                mpwd = f"Pm!{os.urandom(4).hex()}"
-                api("https://api.mail.tm/accounts", "POST",
-                    {"address": addr, "password": mpwd})
+        doms = api("https://api.mail.tm/domains")
+        dom = (doms[0] if isinstance(doms, list)
+               else doms.get("hydra:member", [])[0])["domain"]
+        addr = f"pm.esports.{os.urandom(3).hex()}@{dom}"
+        mpwd = f"Pm!{os.urandom(4).hex()}"
+        api("https://api.mail.tm/accounts", "POST",
+            {"address": addr, "password": mpwd})
+        mtok = None
+        for _ in range(4):  # mail.tm新账号token延迟生效
+            time.sleep(8)
+            try:
                 mtok = api("https://api.mail.tm/token", "POST",
                            {"address": addr, "password": mpwd})["token"]
-                STATE["mail_provider"] = "mailtm"
+                if mtok:
+                    return addr, mpwd, mtok, "mailtm"
+            except Exception as te:
+                print("mailtm token retry:", str(te)[:60])
+    except Exception as e1:
+        print("mailtm channel fail:", str(e1)[:100])
+    try:
+        g = api("https://api.guerrillamail.com/ajax.php?f=get_email_address")
+        return g["email_addr"], "n/a", g["sid_token"], "guerrilla"
+    except Exception as e2:
+        raise RuntimeError(f"both mail channels dead: {e1} / {e2}")
+
+
+def main():
+    try:
+        addr, mpwd, mtok, prov = setup_mail()
         STATE["email"] = addr
-        STATE["mail_pwd"] = mpwd
-        print("temp email:", addr)
+        STATE["mail_provider"] = prov
+        print("temp email:", addr, "| provider:", prov)
     except Exception as e:
-        STATE["fail"] = f"mailtm {e}"[:200]; write_report(); return
+        STATE["fail"] = f"mail setup {e}"[:200]; write_report(); return
     pwd = f"Zq{os.urandom(5).hex()}!A"
     STATE["site_pwd"] = pwd
     try:
