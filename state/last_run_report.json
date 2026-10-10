@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T18:48:22Z",
+ "ts": "2026-10-10T18:50:42Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 39,
+   "events_returned": 38,
    "err": null
   },
   {
@@ -213,7 +213,7 @@
    },
    {
     "t": "Dota 2: oveA vs potn9ki (BO3) - DreamLeague Western Europe Open Qualif",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Kinetix vs Team Nemesis (BO3) - EPL World Series Southeas",
@@ -310,23 +310,23 @@
   ]
  },
  "n_event_queries": 21,
- "events": 415,
- "markets": 335,
- "markets_dropped_by_volume_floor": 2554,
+ "events": 414,
+ "markets": 334,
+ "markets_dropped_by_volume_floor": 2553,
  "day_file": "data/2026/10/2026-10-10T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 91,
+ "trades_markets_queried": 90,
  "trades_watchlist_markets": 64,
- "trades_collected": 2220,
- "anomalies_detected": 51,
- "anomalies_new": 2,
+ "trades_collected": 2156,
+ "anomalies_detected": 47,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "1918409990: HTTPError: HTTP Error 404: Not Found",
-  "5187694163: HTTPError: HTTP Error 404: Not Found"
+  "3122423711: HTTPError: HTTP Error 404: Not Found",
+  "6661472680: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 88,
+ "books_markets": 87,
  "books_rows": 98,
  "status": "ok"
 }
