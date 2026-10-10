@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T18:24:13Z",
+ "ts": "2026-10-10T18:26:57Z",
  "sources": [
   {
    "url": "/tags",
@@ -159,8 +159,8 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "Worlds 2026 Winning Region",
    "LoL: LOS vs FURIA Esports (BO5) - CBLOL Playoffs",
+   "Worlds 2026 Winning Region",
    "LoL: KaBuM! Ilha das Lendas vs Golden Lions (BO5) - CBLOL Promotion Pl"
   ],
   "tag_slug=lol": [
@@ -311,18 +311,24 @@
  },
  "n_event_queries": 21,
  "events": 415,
- "markets": 334,
- "markets_dropped_by_volume_floor": 2556,
+ "markets": 336,
+ "markets_dropped_by_volume_floor": 2547,
  "day_file": "data/2026/10/2026-10-10T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 91,
+ "trades_markets_queried": 93,
  "trades_watchlist_markets": 64,
- "trades_collected": 2383,
- "anomalies_detected": 46,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 87,
- "books_rows": 102,
+ "trades_collected": 2413,
+ "anomalies_detected": 60,
+ "anomalies_new": 6,
+ "history_debug": [
+  {
+   "cid": "0xb40af296",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 88,
+ "books_rows": 106,
  "status": "ok"
 }
