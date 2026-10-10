@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T15:39:22Z",
+ "ts": "2026-10-10T15:41:49Z",
  "sources": [
   {
    "url": "/tags",
@@ -208,12 +208,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: PARIVISION vs Aurora (BO3) - BLAST Slam Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: Team Kinetix vs Team Nemesis (BO3) - EPL World Series Southeas",
@@ -311,17 +311,23 @@
  },
  "n_event_queries": 21,
  "events": 417,
- "markets": 357,
- "markets_dropped_by_volume_floor": 2622,
+ "markets": 358,
+ "markets_dropped_by_volume_floor": 2621,
  "day_file": "data/2026/10/2026-10-10T15.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 130,
  "trades_watchlist_markets": 101,
- "trades_collected": 2868,
- "anomalies_detected": 33,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_collected": 2876,
+ "anomalies_detected": 35,
+ "anomalies_new": 6,
+ "history_debug": [
+  {
+   "cid": "0x6ab22128",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 113,
  "books_rows": 164,
  "status": "ok"
