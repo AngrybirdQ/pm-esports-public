@@ -145,6 +145,8 @@ jobs:
         run: python3 scripts/price_history_backfill.py
       - name: data integrity guard
         run: python3 scripts/data_guard.py
+      - name: channel probe
+        run: python3 scripts/channel_probe.py
       - name: commit (single writer — no race)
         run: |
           git config user.name "pm-esports-collector"
