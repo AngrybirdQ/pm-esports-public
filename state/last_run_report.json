@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T05:25:53Z",
+ "ts": "2026-10-10T05:28:33Z",
  "sources": [
   {
    "url": "/tags",
@@ -169,8 +169,8 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "VALORANT Champions 2026: Winner",
    "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs",
+   "VALORANT Champions 2026: Winner",
    "Valorant: G2 Esports vs Team Vitality (BO3) - VCT Champions Playoffs"
   ],
   "tag_slug=starcraft-2": [
@@ -311,17 +311,28 @@
  },
  "n_event_queries": 21,
  "events": 419,
- "markets": 318,
- "markets_dropped_by_volume_floor": 2597,
+ "markets": 322,
+ "markets_dropped_by_volume_floor": 2608,
  "day_file": "data/2026/10/2026-10-10T05.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 81,
+ "trades_markets_queried": 82,
  "trades_watchlist_markets": 69,
  "trades_collected": 346,
- "anomalies_detected": 1,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "anomalies_detected": 3,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0x16367129",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x173249ac",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
  "books_markets": 79,
  "books_rows": 156,
  "status": "ok"
