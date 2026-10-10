@@ -157,12 +157,40 @@ def main():
             pg.wait_for_load_state("networkidle")
             time.sleep(3)
             snap(pg, "after_verify")
-            # dashboard找key
+            # dashboard找key(v4): 等异步渲染(最长25s), 每轮全文本扫
             key = None
-            for cand in pg.locator("code, pre, td, span, div").all_text_contents():
-                m = re.search(r"\b([0-9a-f]{32,64})\b", cand or "")
-                if m and len(m.group(1)) in (32, 40, 64):
-                    key = m.group(1); break
+            for _ in range(10):
+                time.sleep(2.5)
+                for cand in pg.locator("code, pre, td, span, div, p").all_text_contents():
+                    m = re.search(r"\b([0-9a-f]{32}|[0-9a-f]{64})\b", cand or "")
+                    if m:
+                        key = m.group(1); break
+                if key:
+                    break
+            # 若dashboard要求登录: 用凭据登录再抓
+            if not key:
+                try:
+                    e = pg.locator("input[type=email], input[name*='mail' i]").first
+                    pw = pg.locator("input[type=password]").first
+                    e.fill(addr, timeout=6000)
+                    pw.fill(pwd, timeout=6000)
+                    time.sleep(6)
+                    pg.locator("button[type=submit], button:has-text('Log in'), "
+                               "button:has-text('Sign in')").first.click(timeout=8000)
+                    pg.wait_for_load_state("networkidle")
+                    for _ in range(8):
+                        time.sleep(2.5)
+                        for cand in pg.locator(
+                                "code, pre, td, span, div, p").all_text_contents():
+                            m = re.search(r"\b([0-9a-f]{32}|[0-9a-f]{64})\b",
+                                          cand or "")
+                            if m:
+                                key = m.group(1); break
+                        if key:
+                            break
+                    snap(pg, "after_login_attempt")
+                except Exception as e:
+                    STATE["login_try"] = str(e)[:120]
             if not key:
                 STATE["fail"] = "no key on dashboard"
                 write_report(); br.close(); return
