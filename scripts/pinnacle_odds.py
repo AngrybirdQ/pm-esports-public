@@ -15,14 +15,20 @@ def gj(url):
         return json.loads(r.read().decode())
 def main():
     reps = []
+    errs = []
     try:
         mus = gj(f"{BASE}/matchups/esports")
     except Exception as e:
-        print(json.dumps({"error": f"matchups {e}"})); return
+        errs.append(f"matchups {type(e).__name__}: {e}")
     try:
         odds = gj(f"{BASE}/odds/esports?oddsFormat=decimal")
     except Exception as e:
-        print(json.dumps({"error": f"odds {e}"})); return
+        errs.append(f"odds {type(e).__name__}: {e}")
+    os.makedirs("state", exist_ok=True)
+    if errs:
+        json.dump({"ts": time.strftime("%Y-%m-%dT%H:%M:%SZ"), "errors": errs},
+                  open("state/pinnacle_report.json", "w"), ensure_ascii=False)
+        print(json.dumps({"errors": errs})); return
     by_id = {}
     for o in odds if isinstance(odds, list) else []:
         if isinstance(o, dict) and o.get("prices"):
