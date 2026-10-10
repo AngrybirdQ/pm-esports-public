@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T09:00:25Z",
+ "ts": "2026-10-10T10:58:57Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 41,
+   "events_returned": 40,
    "err": null
   },
   {
@@ -140,14 +140,14 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "ESL Pro League Season 24: Winner",
-   "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
-   "Worlds 2026 Winning Region"
+   "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs",
+   "Dota 2: Team Yandex vs Team Spirit (BO3) - BLAST Slam Playoffs",
+   "ESL Pro League Season 24: Winner"
   ],
   "tag_slug=dota-2": [
+   "Dota 2: Team Yandex vs Team Spirit (BO3) - BLAST Slam Playoffs",
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
-   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Power Rangers vs Team Synapse (BO3) - EPL Masters Group A"
+   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua"
   ],
   "tag_slug=cs2": [
    "ESL Pro League Season 24: Winner",
@@ -170,8 +170,8 @@
   ],
   "tag_slug=valorant": [
    "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs",
-   "VALORANT Champions 2026: Winner",
-   "Valorant: G2 Esports vs Team Vitality (BO3) - VCT Champions Playoffs"
+   "Valorant: G2 Esports vs Team Vitality (BO3) - VCT Champions Playoffs",
+   "VALORANT Champions 2026: Winner"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -200,11 +200,11 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Team Spirit vs Aurora (BO3) - BLAST Slam Playoffs",
+    "t": "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs",
+    "t": "Dota 2: Team Spirit vs Aurora (BO3) - BLAST Slam Playoffs",
     "closed": true
    },
    {
@@ -266,16 +266,16 @@
   ],
   "search:Valorant": [
    {
+    "t": "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs",
+    "closed": false
+   },
+   {
     "t": "Valorant: 100 Thieves vs Nongshim RedForce (BO3) - VCT Champions Playo",
     "closed": true
    },
    {
     "t": "Valorant: T1 vs Paper Rex (BO3) - VCT Champions Playoffs",
     "closed": true
-   },
-   {
-    "t": "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs",
-    "closed": false
    },
    {
     "t": "Valorant: G2 Esports vs Team Vitality (BO3) - VCT Champions Playoffs",
@@ -310,19 +310,60 @@
   ]
  },
  "n_event_queries": 21,
- "events": 417,
- "markets": 344,
- "markets_dropped_by_volume_floor": 2632,
- "day_file": "data/2026/10/2026-10-10T09.jsonl",
+ "events": 418,
+ "markets": 380,
+ "markets_dropped_by_volume_floor": 2667,
+ "day_file": "data/2026/10/2026-10-10T10.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 91,
- "trades_watchlist_markets": 68,
- "trades_collected": 1166,
- "anomalies_detected": 9,
- "anomalies_new": 7,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 96,
- "books_rows": 174,
+ "trades_markets_queried": 107,
+ "trades_watchlist_markets": 75,
+ "trades_collected": 2311,
+ "anomalies_detected": 3,
+ "anomalies_new": 3,
+ "history_debug": [
+  {
+   "cid": "0x0e0146d5",
+   "pts": 5,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xfa4a3d3c",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x8a7a3328",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x8c71d841",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xf61b7609",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x83b7a2a8",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x6a61d1b9",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x279d88ea",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 8,
+ "books_markets": 110,
+ "books_rows": 170,
  "status": "ok"
 }
