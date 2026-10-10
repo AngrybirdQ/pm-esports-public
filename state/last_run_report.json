@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T17:09:33Z",
+ "ts": "2026-10-10T17:12:00Z",
  "sources": [
   {
    "url": "/tags",
@@ -282,7 +282,7 @@
     "closed": false
    },
    {
-    "t": "Valorant: BBL Esports vs Misa Esports (BO5) - Monsters Reloaded Closed",
+    "t": "VALORANT Champions 2026: Winner",
     "closed": false
    }
   ],
@@ -311,17 +311,23 @@
  },
  "n_event_queries": 21,
  "events": 417,
- "markets": 349,
- "markets_dropped_by_volume_floor": 2592,
+ "markets": 350,
+ "markets_dropped_by_volume_floor": 2591,
  "day_file": "data/2026/10/2026-10-10T17.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 128,
  "trades_watchlist_markets": 103,
- "trades_collected": 2976,
- "anomalies_detected": 46,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_collected": 3011,
+ "anomalies_detected": 47,
+ "anomalies_new": 4,
+ "history_debug": [
+  {
+   "cid": "0x022138f1",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 99,
  "books_rows": 140,
  "status": "ok"
