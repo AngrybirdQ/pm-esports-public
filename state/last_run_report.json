@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T16:16:52Z",
+ "ts": "2026-10-10T16:30:59Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 84,
+   "events_returned": 83,
    "err": null
   },
   {
@@ -200,12 +200,12 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Team Yandex vs Team Spirit (BO3) - BLAST Slam Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: PARIVISION vs Aurora (BO3) - BLAST Slam Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Yandex vs Team Spirit (BO3) - BLAST Slam Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: LGD Gaming vs Aurora (BO3) - BLAST Slam Playoffs",
@@ -216,7 +216,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Kinetix vs Team Nemesis (BO3) - EPL World Series Southeas",
+    "t": "Dota 2: oveA vs potn9ki (BO3) - DreamLeague Western Europe Open Qualif",
     "closed": false
    }
   ],
@@ -312,17 +312,17 @@
  "n_event_queries": 21,
  "events": 416,
  "markets": 360,
- "markets_dropped_by_volume_floor": 2612,
+ "markets_dropped_by_volume_floor": 2598,
  "day_file": "data/2026/10/2026-10-10T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 134,
- "trades_watchlist_markets": 101,
- "trades_collected": 2867,
- "anomalies_detected": 62,
- "anomalies_new": 7,
+ "trades_markets_queried": 126,
+ "trades_watchlist_markets": 103,
+ "trades_collected": 2906,
+ "anomalies_detected": 44,
+ "anomalies_new": 44,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 112,
- "books_rows": 150,
+ "books_markets": 110,
+ "books_rows": 146,
  "status": "ok"
 }
