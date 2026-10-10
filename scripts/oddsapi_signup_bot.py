@@ -31,21 +31,22 @@ def write_report(path="state/oddsapi_signup_report.json"):
         ensure_ascii=False)[:300])
 
 def main():
+    try:
         try:
-            g = api("https://api.guerrillamail.com/ajax.php?f=get_email_address")
-            addr, mpwd, mtok = g["email_addr"], "n/a", g["sid_token"]
-            STATE["mail_provider"] = "guerrilla"
+                g = api("https://api.guerrillamail.com/ajax.php?f=get_email_address")
+                addr, mpwd, mtok = g["email_addr"], "n/a", g["sid_token"]
+                STATE["mail_provider"] = "guerrilla"
         except Exception as e1:
-            print("guerrilla fail:", str(e1)[:100])
-            doms = api("https://api.mail.tm/domains")["hydra:member"]
-            dom = doms[0]["domain"]
-            addr = f"pm.esports.{os.urandom(3).hex()}@{dom}"
-            mpwd = f"Pm!{os.urandom(4).hex()}"
-            api("https://api.mail.tm/accounts", "POST",
-                {"address": addr, "password": mpwd})
-            mtok = api("https://api.mail.tm/token", "POST",
-                       {"address": addr, "password": mpwd})["token"]
-            STATE["mail_provider"] = "mailtm"
+                print("guerrilla fail:", str(e1)[:100])
+                doms = api("https://api.mail.tm/domains")["hydra:member"]
+                dom = doms[0]["domain"]
+                addr = f"pm.esports.{os.urandom(3).hex()}@{dom}"
+                mpwd = f"Pm!{os.urandom(4).hex()}"
+                api("https://api.mail.tm/accounts", "POST",
+                    {"address": addr, "password": mpwd})
+                mtok = api("https://api.mail.tm/token", "POST",
+                           {"address": addr, "password": mpwd})["token"]
+                STATE["mail_provider"] = "mailtm"
         STATE["email"] = addr
         STATE["mail_pwd"] = mpwd
         print("temp email:", addr)
@@ -111,40 +112,40 @@ def main():
             prov = STATE.get("mail_provider")
             t0 = time.time()
             while time.time() - t0 < 180 and not link:
-              try:
-                if prov == "guerrilla":
-                    box = api("https://api.guerrillamail.com/ajax.php"
-                              "?f=check_email&sid_token=" + mtok + "&seq=0")
-                    for m in (box.get("list") or []):
-                        mid = m.get("mail_id")
-                        if not mid or str(mid) == "1":
-                            continue
-                        det = api("https://api.guerrillamail.com/ajax.php"
-                                  "?f=fetch_email&sid_token=" + mtok +
-                                  "&mail_id=" + str(mid))
-                        txt = det.get("mail_body") or ""
-                        for ln in txt.split():
-                            if ln.startswith("http") and any(
-                                    k in ln for k in ("verify", "confirm",
-                                                      "activate", "token",
-                                                      "account", "access")):
-                                link = ln.rstrip('").,'); break
-                        if link:
-                            break
-                else:
-                  if True:
-                    msgs = api("https://api.mail.tm/messages",
-                               headers={"Authorization": f"Bearer {mtok}"})
-                    for m in msgs.get("hydra:member") or []:
-                        txt = api(f"https://api.mail.tm/messages/{m['id']}",
-                                  headers={"Authorization": f"Bearer {mtok}"})["text"]
-                        for ln in (txt or "").split():
-                            if ln.startswith("http") and any(
-                                    k in ln for k in
-                                    ("verify", "confirm", "activate", "token", "account")):
-                                link = ln.rstrip(").,"); break
-                        if link:
-                            break
+                try:
+                    if prov == "guerrilla":
+                        box = api("https://api.guerrillamail.com/ajax.php"
+                                  "?f=check_email&sid_token=" + mtok + "&seq=0")
+                        for m in (box.get("list") or []):
+                            mid = m.get("mail_id")
+                            if not mid or str(mid) == "1":
+                                continue
+                            det = api("https://api.guerrillamail.com/ajax.php"
+                                      "?f=fetch_email&sid_token=" + mtok +
+                                      "&mail_id=" + str(mid))
+                            txt = det.get("mail_body") or ""
+                            for ln in txt.split():
+                                if ln.startswith("http") and any(
+                                        k in ln for k in ("verify", "confirm",
+                                                          "activate", "token",
+                                                          "account", "access")):
+                                    link = ln.rstrip('").,'); break
+                            if link:
+                                break
+                    else:
+                        msgs = api("https://api.mail.tm/messages",
+                                   headers={"Authorization": f"Bearer {mtok}"})
+                        for m in msgs.get("hydra:member") or []:
+                            txt = api(f"https://api.mail.tm/messages/{m['id']}",
+                                      headers={"Authorization": f"Bearer {mtok}"})["text"]
+                            for ln in (txt or "").split():
+                                if ln.startswith("http") and any(
+                                        k in ln for k in ("verify", "confirm",
+                                                          "activate", "token",
+                                                          "account")):
+                                    link = ln.rstrip(").,"); break
+                            if link:
+                                break
                 except Exception:
                     pass
                 time.sleep(8)
