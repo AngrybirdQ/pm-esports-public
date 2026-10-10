@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T15:13:39Z",
+ "ts": "2026-10-10T15:15:56Z",
  "sources": [
   {
    "url": "/tags",
@@ -204,11 +204,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs",
+    "t": "Dota 2: LGD Gaming vs Aurora (BO3) - BLAST Slam Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: LGD Gaming vs Aurora (BO3) - BLAST Slam Playoffs",
+    "t": "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs",
     "closed": true
    },
    {
@@ -312,17 +312,21 @@
  "n_event_queries": 21,
  "events": 415,
  "markets": 357,
- "markets_dropped_by_volume_floor": 2583,
+ "markets_dropped_by_volume_floor": 2584,
  "day_file": "data/2026/10/2026-10-10T15.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 126,
  "trades_watchlist_markets": 101,
- "trades_collected": 3065,
- "anomalies_detected": 46,
+ "trades_collected": 3046,
+ "anomalies_detected": 5,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "7630786065: HTTPError: HTTP Error 404: Not Found",
+  "6654132171: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 116,
- "books_rows": 172,
+ "books_rows": 168,
  "status": "ok"
 }
