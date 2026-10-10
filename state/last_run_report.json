@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T17:23:37Z",
+ "ts": "2026-10-10T17:26:27Z",
  "sources": [
   {
    "url": "/tags",
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "Counter-Strike: Aurora Gaming vs Vitality (BO3) - ESL Pro League Playo",
    "Dota 2: PARIVISION vs Aurora (BO3) - BLAST Slam Playoffs",
-   "Valorant: G2 Esports vs Team Vitality (BO3) - VCT Champions Playoffs"
+   "Counter-Strike: MOUZ vs Spirit (BO3) - ESL Pro League Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: PARIVISION vs Aurora (BO3) - BLAST Slam Playoffs",
@@ -310,23 +310,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 416,
+ "events": 415,
  "markets": 348,
- "markets_dropped_by_volume_floor": 2581,
+ "markets_dropped_by_volume_floor": 2579,
  "day_file": "data/2026/10/2026-10-10T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 127,
+ "trades_markets_queried": 128,
  "trades_watchlist_markets": 103,
- "trades_collected": 3020,
- "anomalies_detected": 41,
- "anomalies_new": 2,
+ "trades_collected": 2972,
+ "anomalies_detected": 40,
+ "anomalies_new": 1,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1049032264: HTTPError: HTTP Error 404: Not Found",
-  "2665346514: HTTPError: HTTP Error 404: Not Found"
- ],
  "books_markets": 99,
- "books_rows": 134,
+ "books_rows": 132,
  "status": "ok"
 }
