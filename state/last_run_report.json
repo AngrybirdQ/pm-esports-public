@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T01:58:30Z",
+ "ts": "2026-10-10T02:00:51Z",
  "sources": [
   {
    "url": "/tags",
@@ -311,17 +311,33 @@
  },
  "n_event_queries": 21,
  "events": 421,
- "markets": 317,
- "markets_dropped_by_volume_floor": 2645,
- "day_file": "data/2026/10/2026-10-10T01.jsonl",
+ "markets": 323,
+ "markets_dropped_by_volume_floor": 2650,
+ "day_file": "data/2026/10/2026-10-10T02.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 60,
  "trades_watchlist_markets": 39,
- "trades_collected": 662,
- "anomalies_detected": 4,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_collected": 659,
+ "anomalies_detected": 6,
+ "anomalies_new": 6,
+ "history_debug": [
+  {
+   "cid": "0xb6a3b6fd",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x5ff55bfc",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x4c2df50f",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 3,
  "books_markets": 60,
  "books_rows": 102,
  "status": "ok"
