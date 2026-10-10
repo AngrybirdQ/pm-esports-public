@@ -10,25 +10,34 @@ permissions:
 
 concurrency:
   group: pinnacle-odds
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 6
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
-      - name: fetch pinnacle esports odds
-        run: python3 scripts/pinnacle_odds.py
-      - name: commit
+      - name: fetch collector via API (checkout-free, git path degraded)
         run: |
-          git config user.name "pm-esports-collector"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A data state
-          if git diff --cached --quiet; then
-            echo "no change"
-          else
-            git commit -m "pinnacle: $(date -u '+%H:%MZ')"
-            git pull --rebase --autostash origin main || true
-            git push origin HEAD:main || true
+          gh api "repos/${{ github.repository }}/contents/scripts/pinnacle_odds.py?ref=main"             --jq .content | base64 -d > pinnacle_odds.py
+          wc -c pinnacle_odds.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: fetch pinnacle esports odds
+        run: python3 pinnacle_odds.py
+      - name: commit via API (no git clone needed)
+        run: |
+          D=$(date -u +%Y/%m); F=$(date -u +%Y-%m-%d).pinnacle.jsonl
+          if [ -f "data/$D/$F" ]; then
+            gh api --method PUT "repos/${{ github.repository }}/contents/data/$D/$F"               -f message="pinnacle: $(date -u '+%H:%MZ')"               -f content="$(base64 -w0 "data/$D/$F")"               -f branch=main >/dev/null && echo committed
           fi
+          if [ -f state/pinnacle_report.json ]; then
+            SHA=$(gh api "repos/${{ github.repository }}/contents/state/pinnacle_report.json?ref=main" --jq .sha 2>/dev/null || echo "")
+            if [ -n "$SHA" ]; then
+              gh api --method PUT "repos/${{ github.repository }}/contents/state/pinnacle_report.json"                 -f message="pinnacle report $(date -u '+%H:%MZ')"                 -f content="$(base64 -w0 state/pinnacle_report.json)"                 -f branch=main -f sha="$SHA" >/dev/null && echo report-updated
+            else
+              gh api --method PUT "repos/${{ github.repository }}/contents/state/pinnacle_report.json"                 -f message="pinnacle report $(date -u '+%H:%MZ')"                 -f content="$(base64 -w0 state/pinnacle_report.json)"                 -f branch=main >/dev/null && echo report-created
+            fi
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
