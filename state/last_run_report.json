@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T14:52:29Z",
+ "ts": "2026-10-10T14:55:03Z",
  "sources": [
   {
    "url": "/tags",
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Counter-Strike: Aurora Gaming vs Vitality (BO3) - ESL Pro League Playo",
-   "Valorant: G2 Esports vs Team Vitality (BO3) - VCT Champions Playoffs",
-   "Dota 2: PARIVISION vs Aurora (BO3) - BLAST Slam Playoffs"
+   "Dota 2: PARIVISION vs Aurora (BO3) - BLAST Slam Playoffs",
+   "Valorant: G2 Esports vs Team Vitality (BO3) - VCT Champions Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: PARIVISION vs Aurora (BO3) - BLAST Slam Playoffs",
@@ -311,18 +311,24 @@
  },
  "n_event_queries": 21,
  "events": 416,
- "markets": 350,
- "markets_dropped_by_volume_floor": 2597,
+ "markets": 355,
+ "markets_dropped_by_volume_floor": 2603,
  "day_file": "data/2026/10/2026-10-10T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 120,
+ "trades_markets_queried": 125,
  "trades_watchlist_markets": 101,
- "trades_collected": 2854,
- "anomalies_detected": 60,
- "anomalies_new": 3,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 116,
- "books_rows": 178,
+ "trades_collected": 2933,
+ "anomalies_detected": 68,
+ "anomalies_new": 12,
+ "history_debug": [
+  {
+   "cid": "0x7760dd2a",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 119,
+ "books_rows": 180,
  "status": "ok"
 }
