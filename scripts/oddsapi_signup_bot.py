@@ -47,8 +47,7 @@ def imap_fetch_verify_link(since_min=20):
         typ, d = M.fetch(i, "(BODY[TEXT])")
         body = d[0][1].decode("utf-8", "ignore")
         for ln in body.split():
-            if ln.startswith("https://") and (
-                    "the-odds-api" in ln or "odds" in ln):
+            if ln.startswith("https://") and "the-odds-api.com" in ln:
                 link = ln.rstrip(").,>\""); break
         if link:
             break
