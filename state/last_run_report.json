@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T19:58:37Z",
+ "ts": "2026-10-10T20:12:17Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 38,
+   "events_returned": 36,
    "err": null
   },
   {
@@ -274,15 +274,15 @@
     "closed": true
    },
    {
+    "t": "VALORANT Champions 2026: Winner",
+    "closed": false
+   },
+   {
     "t": "Valorant: BBL Esports vs Misa Esports (BO5) - Monsters Reloaded Closed",
     "closed": false
    },
    {
     "t": "Least Played Map at VALORANT Champions 2026",
-    "closed": false
-   },
-   {
-    "t": "VALORANT Champions 2026: Winner",
     "closed": false
    }
   ],
@@ -310,23 +310,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 414,
- "markets": 324,
- "markets_dropped_by_volume_floor": 2498,
- "day_file": "data/2026/10/2026-10-10T19.jsonl",
+ "events": 413,
+ "markets": 315,
+ "markets_dropped_by_volume_floor": 2479,
+ "day_file": "data/2026/10/2026-10-10T20.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 90,
- "trades_watchlist_markets": 64,
- "trades_collected": 1450,
- "anomalies_detected": 38,
+ "trades_markets_queried": 73,
+ "trades_watchlist_markets": 37,
+ "trades_collected": 1317,
+ "anomalies_detected": 35,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "8471336070: HTTPError: HTTP Error 404: Not Found",
-  "1022037505: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 76,
- "books_rows": 92,
+ "books_markets": 66,
+ "books_rows": 74,
  "status": "ok"
 }
