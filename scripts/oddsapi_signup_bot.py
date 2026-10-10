@@ -1,139 +1,159 @@
 #!/usr/bin/env python3
-"""oddsapi_signup_bot.py — Actions无头注册the-odds-api (路线C, 10-10)
-mail.tm临时邮箱 + playwright chromium(美国IP, reCAPTCHA无感) →
-注册→验证邮件→激活→登录→dashboard抓API key→RSA加密落state/oddsapi_key.enc
-"""
-import base64, json, os, time, urllib.request
+"""oddsapi_signup_bot v2 — 全阶段容错+HTML快照+永远落报告(远程可调试)"""
+import base64, json, os, re, time, urllib.request
 
-def api(url, method="GET", payload=None, headers=None, raw=False):
-    h = {"User-Agent": "Mozilla/5.0 pm-signup-bot/1.0",
+STATE = {"stages": []}
+
+def snap(pg, name):
+    try:
+        html = pg.content()
+        STATE["stages"].append({"name": name, "url": pg.url,
+                                "html_b64": base64.b64encode(
+                                    html.encode("utf-8", "ignore")).decode()[:120000]})
+    except Exception as e:
+        STATE["stages"].append({"name": name, "err": str(e)[:120]})
+
+def api(url, method="GET", payload=None, headers=None):
+    h = {"User-Agent": "Mozilla/5.0 pm-bot/1.0",
          "Content-Type": "application/json"}
     if headers:
         h.update(headers)
     req = urllib.request.Request(url, method=method, headers=h,
         data=json.dumps(payload).encode() if payload else None)
     with urllib.request.urlopen(req, timeout=25) as r:
-        body = r.read().decode()
-        return json.loads(body) if not raw and body[:1] in "{[" else body
+        return json.loads(r.read().decode())
 
-def mailtm_account():
-    doms = api("https://api.mail.tm/domains")["hydra:member"]
-    dom = doms[0]["domain"]
-    addr = f"pm.esports.{os.urandom(3).hex()}@{dom}"
-    pwd = f"Pm!{os.urandom(4).hex()}"
-    api("https://api.mail.tm/accounts", "POST",
-        {"address": addr, "password": pwd})
-    tok = api("https://api.mail.tm/token", "POST",
-              {"address": addr, "password": pwd})["token"]
-    return addr, pwd, tok
-
-def mailtm_wait_link(tok, timeout=180):
-    t0 = time.time()
-    while time.time() - t0 < timeout:
-        try:
-            msgs = api("https://api.mail.tm/messages",
-                       headers={"Authorization": f"Bearer {tok}"})
-            for m in msgs.get("hydra:member") or []:
-                mid = m["id"]
-                txt = api(f"https://api.mail.tm/messages/{mid}",
-                          headers={"Authorization": f"Bearer {tok}"})["text"]
-                for ln in txt.split():
-                    if ln.startswith("http") and ("verify" in ln or "confirm" in ln
-                                                  or "activate" in ln or "token" in ln):
-                        return ln.rstrip(").,")
-        except Exception:
-            pass
-        time.sleep(8)
-    return None
+def write_report(path="state/oddsapi_signup_report.json"):
+    os.makedirs("state", exist_ok=True)
+    json.dump(STATE, open(path, "w"), ensure_ascii=False)
+    print("REPORT_WRITTEN", json.dumps(
+        {k: v for k, v in STATE.items() if k != "stages"},
+        ensure_ascii=False)[:300])
 
 def main():
-    out = {}
-    # 1) 临时邮箱
-    addr, mpwd, mtok = mailtm_account()
-    out["email"] = addr
-    print("temp email:", addr)
-    api_pwd = f"Zq{os.urandom(5).hex()}!A"
-    out["site_password"] = api_pwd  # 仅日志masked, 需要时从Actions secret取
-
-    # 2) playwright注册
-    from playwright.sync_api import sync_playwright
-    with sync_playwright() as p:
-        br = p.chromium.launch(headless=True)
-        pg = br.new_page()
-        pg.goto("https://the-odds-api.com/account/create/", timeout=45000)
-        pg.wait_for_load_state("networkidle")
-        # 探测表单(字段名自适应)
-        html = pg.content()
-        print("page title:", pg.title())
-        # 常见字段: email/password/name — 用label/placeholder/name匹配
-        def fill(sel_types, val):
-            for kw in sel_types:
-                loc = pg.locator(
-                    f"input[type=email], input[name*=email i], "
-                    f"input[type=password], input[name*=pass i], "
-                    f"input[name*=name i], input[type=text]")
-                # 精细化: 按关键词单独找
-            return None
-        # 直接按语义找
-        email_in = pg.locator("input[type=email], input[name*='mail' i]").first
-        pass_in = pg.locator("input[type=password]").first
-        name_in = pg.locator("input[name*='name' i]:not([name*='user' i])").first
-        email_in.fill(addr)
-        pass_in.fill(api_pwd)
-        try:
-            if name_in.count() and name_in.is_visible():
-                name_in.fill("pm esport")
-        except Exception:
-            pass
-        # 等reCAPTCHA v3自动执行(美国住宅级IP一般直接过)
-        time.sleep(6)
-        pg.locator("button[type=submit], input[type=submit]").first.click()
-        pg.wait_for_load_state("networkidle")
-        out["after_signup_url"] = pg.url
-        print("after submit url:", pg.url)
-        # 3) 邮箱激活链接 → 浏览器访问
-        link = mailtm_wait_link(mtok)
-        out["verify_link"] = link
-        if not link:
-            print(json.dumps({"fail": "no verify link", **out}))
-            return
-        pg.goto(link, timeout=45000)
-        pg.wait_for_load_state("networkidle")
-        time.sleep(3)
-        # 4) 登录(激活后一般自动登录态; 否则填一次)
-        if "login" in pg.url or "signin" in pg.url:
-            pg.locator("input[type=email], input[name*='mail' i]").first.fill(addr)
-            pg.locator("input[type=password]").first.fill(api_pwd)
-            time.sleep(5)
-            pg.locator("button[type=submit], input[type=submit]").first.click()
+    try:
+        doms = api("https://api.mail.tm/domains")["hydra:member"]
+        dom = doms[0]["domain"]
+        addr = f"pm.esports.{os.urandom(3).hex()}@{dom}"
+        mpwd = f"Pm!{os.urandom(4).hex()}"
+        api("https://api.mail.tm/accounts", "POST",
+            {"address": addr, "password": mpwd})
+        mtok = api("https://api.mail.tm/token", "POST",
+                   {"address": addr, "password": mpwd})["token"]
+        STATE["email"] = addr
+        STATE["mail_pwd"] = mpwd
+        print("temp email:", addr)
+    except Exception as e:
+        STATE["fail"] = f"mailtm {e}"[:200]; write_report(); return
+    pwd = f"Zq{os.urandom(5).hex()}!A"
+    STATE["site_pwd"] = pwd
+    try:
+        from playwright.sync_api import sync_playwright
+        with sync_playwright() as p:
+            br = p.chromium.launch(headless=True)
+            pg = br.new_page()
+            pg.goto("https://the-odds-api.com/account/", timeout=60000)
             pg.wait_for_load_state("networkidle")
-        # 5) dashboard找API key (页面任意位置40位hex/uuid样式)
-        key = None
-        for cand in pg.locator("code, pre, td, span").all_text_contents():
-            import re
-            m = re.search(r"\b([0-9a-f]{32,64})\b", cand or "")
-            if m:
-                key = m.group(1)
-                break
-        out["key_found"] = bool(key)
-        br.close()
-    if not key:
-        print(json.dumps({"fail": "no key on dashboard", **out}))
-        return
-    # 6) RSA加密落盘
-    open("/tmp/pub.pem", "w").write(api(
-        "https://api.github.com/repos/AngrybirdQ/pm-esports-public/contents/"
-        "state/oddsapi_pub.pem?ref=main",
-        headers={"Authorization": f"Bearer {os.environ['GH_TOKEN']}",
-                 "Accept": "application/vnd.github+json"}) )
-    import subprocess
-    subprocess.run(["bash", "-c",
-        f"echo -n '{key}' | openssl pkeyutl -encrypt -pubin "
-        f"-inkey /tmp/pub.pem | base64 -w0 > state/oddsapi_key.enc"], check=True)
-    print("KEY_ENCRYPTED_OK length", len(key))
-    os.makedirs("state", exist_ok=True)
-    json.dump({k: v for k, v in out.items() if k != "site_password"},
-              open("state/oddsapi_signup_report.json", "w"), ensure_ascii=False)
+            snap(pg, "account_landed")
+            # 若有"request access / sign up"入口, 点它
+            for label in ("Request access", "request access", "Sign up",
+                          "sign up", "Create account"):
+                loc = pg.get_by_text(label, exact=False)
+                if loc.count():
+                    try:
+                        loc.first.click(timeout=3000)
+                        pg.wait_for_load_state("networkidle")
+                        time.sleep(2)
+                        snap(pg, f"clicked_{label}")
+                        break
+                    except Exception:
+                        continue
+            # 填表: 邮箱(任何email型或名字含mail), 密码(password型)
+            filled = {}
+            try:
+                e = pg.locator("input[type=email], input[name*='mail' i], "
+                               "input[placeholder*='mail' i]").first
+                e.fill(addr, timeout=8000); filled["email"] = True
+                pw = pg.locator("input[type=password]").first
+                pw.fill(pwd, timeout=8000); filled["password"] = True
+                n = pg.locator("input[name*='name' i], "
+                               "input[placeholder*='name' i]").first
+                try:
+                    if n.count() and n.is_visible():
+                        n.fill("pm esport", timeout=3000); filled["name"] = True
+                except Exception:
+                    pass
+            except Exception as e:
+                STATE["fail"] = f"fill {e}"[:200]
+                snap(pg, "fill_failed"); write_report(); br.close(); return
+            STATE["filled"] = filled
+            time.sleep(6)  # recaptcha v3 execute
+            try:
+                pg.locator("button[type=submit], input[type=submit], "
+                           "button:has-text('Request'), button:has-text('Sign up'), "
+                           "button:has-text('Create'), button:has-text('Submit')"
+                           ).first.click(timeout=8000)
+            except Exception as e:
+                STATE["fail"] = f"submit {e}"[:200]
+                snap(pg, "submit_failed"); write_report(); br.close(); return
+            pg.wait_for_load_state("networkidle")
+            time.sleep(3)
+            snap(pg, "after_submit")
+            STATE["after_url"] = pg.url
+            # 邮箱等验证链接
+            link = None
+            t0 = time.time()
+            while time.time() - t0 < 180 and not link:
+                try:
+                    msgs = api("https://api.mail.tm/messages",
+                               headers={"Authorization": f"Bearer {mtok}"})
+                    for m in msgs.get("hydra:member") or []:
+                        txt = api(f"https://api.mail.tm/messages/{m['id']}",
+                                  headers={"Authorization": f"Bearer {mtok}"})["text"]
+                        for ln in (txt or "").split():
+                            if ln.startswith("http") and any(
+                                    k in ln for k in
+                                    ("verify", "confirm", "activate", "token", "account")):
+                                link = ln.rstrip(").,"); break
+                        if link:
+                            break
+                except Exception:
+                    pass
+                time.sleep(8)
+            STATE["verify_link"] = link
+            if not link:
+                STATE["fail"] = "no verify link"
+                write_report(); br.close(); return
+            pg.goto(link, timeout=60000)
+            pg.wait_for_load_state("networkidle")
+            time.sleep(3)
+            snap(pg, "after_verify")
+            # dashboard找key
+            key = None
+            for cand in pg.locator("code, pre, td, span, div").all_text_contents():
+                m = re.search(r"\b([0-9a-f]{32,64})\b", cand or "")
+                if m and len(m.group(1)) in (32, 40, 64):
+                    key = m.group(1); break
+            if not key:
+                STATE["fail"] = "no key on dashboard"
+                write_report(); br.close(); return
+            STATE["key_found"] = True
+            br.close()
+        # RSA加密
+        pub = api("https://api.github.com/repos/AngrybirdQ/pm-esports-public"
+                  "/contents/state/oddsapi_pub.pem?ref=main",
+                  headers={"Authorization": f"Bearer {os.environ.get('GH_TOKEN','')}",
+                           "Accept": "application/vnd.github+json"})
+        open("/tmp/pub.pem", "wb").write(base64.b64decode(pub["content"]))
+        import subprocess
+        subprocess.run(["bash", "-c",
+            f"echo -n '{key}' | openssl pkeyutl -encrypt -pubin -inkey /tmp/pub.pem "
+            f"| base64 -w0 > state/oddsapi_key.enc"], check=True)
+        STATE["ok"] = True
+        write_report()
+    except Exception as e:
+        STATE["fail"] = f"outer {type(e).__name__}: {e}"[:250]
+        write_report()
 
 if __name__ == "__main__":
     main()
