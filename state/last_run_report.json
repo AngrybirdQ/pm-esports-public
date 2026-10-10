@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T23:06:24Z",
+ "ts": "2026-10-10T23:08:15Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,13 +51,13 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 79,
+   "events_returned": 78,
    "err": null
   },
   {
    "url": "tag_slug=lol",
    "ok": true,
-   "events_returned": 41,
+   "events_returned": 40,
    "err": null
   },
   {
@@ -310,16 +310,16 @@
   ]
  },
  "n_event_queries": 21,
- "events": 414,
- "markets": 301,
+ "events": 413,
+ "markets": 300,
  "markets_dropped_by_volume_floor": 2511,
  "day_file": "data/2026/10/2026-10-10T23.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 67,
  "trades_watchlist_markets": 40,
- "trades_collected": 1284,
- "anomalies_detected": 26,
- "anomalies_new": 2,
+ "trades_collected": 1265,
+ "anomalies_detected": 22,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 54,
