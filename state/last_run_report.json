@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T21:58:25Z",
+ "ts": "2026-10-10T22:02:50Z",
  "sources": [
   {
    "url": "/tags",
@@ -311,49 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 413,
- "markets": 309,
- "markets_dropped_by_volume_floor": 2462,
- "day_file": "data/2026/10/2026-10-10T21.jsonl",
+ "markets": 299,
+ "markets_dropped_by_volume_floor": 2419,
+ "day_file": "data/2026/10/2026-10-10T22.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 67,
+ "trades_markets_queried": 59,
  "trades_watchlist_markets": 40,
- "trades_collected": 1167,
- "anomalies_detected": 24,
- "anomalies_new": 8,
- "history_debug": [
-  {
-   "cid": "0x43a054ef",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x3943945f",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 2,
- "books_errors": [
-  "1331328567: HTTPError: HTTP Error 404: Not Found",
-  "2664166027: HTTPError: HTTP Error 404: Not Found",
-  "1065839877: HTTPError: HTTP Error 404: Not Found",
-  "2193381397: HTTPError: HTTP Error 404: Not Found",
-  "2066704129: HTTPError: HTTP Error 404: Not Found",
-  "5716503650: HTTPError: HTTP Error 404: Not Found",
-  "7324245952: HTTPError: HTTP Error 404: Not Found",
-  "7463042240: HTTPError: HTTP Error 404: Not Found",
-  "4552469905: HTTPError: HTTP Error 404: Not Found",
-  "9119229405: HTTPError: HTTP Error 404: Not Found",
-  "1724936486: HTTPError: HTTP Error 404: Not Found",
-  "6676216473: HTTPError: HTTP Error 404: Not Found",
-  "1099221341: HTTPError: HTTP Error 404: Not Found",
-  "4212122064: HTTPError: HTTP Error 404: Not Found",
-  "1349668850: HTTPError: HTTP Error 404: Not Found",
-  "1065853034: HTTPError: HTTP Error 404: Not Found",
-  "2052121641: HTTPError: HTTP Error 404: Not Found",
-  "1098835561: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 59,
+ "trades_collected": 1039,
+ "anomalies_detected": 29,
+ "anomalies_new": 29,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 51,
  "books_rows": 80,
  "status": "ok"
 }
