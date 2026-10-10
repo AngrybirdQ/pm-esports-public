@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T13:43:42Z",
+ "ts": "2026-10-10T14:37:11Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 38,
+   "events_returned": 39,
    "err": null
   },
   {
@@ -140,12 +140,12 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Dota 2: Team Yandex vs Team Spirit (BO3) - BLAST Slam Playoffs",
+   "Counter-Strike: Aurora Gaming vs Vitality (BO3) - ESL Pro League Playo",
    "Valorant: G2 Esports vs Team Vitality (BO3) - VCT Champions Playoffs",
-   "Counter-Strike: Aurora Gaming vs Vitality (BO3) - ESL Pro League Playo"
+   "Dota 2: PARIVISION vs Aurora (BO3) - BLAST Slam Playoffs"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Team Yandex vs Team Spirit (BO3) - BLAST Slam Playoffs",
+   "Dota 2: PARIVISION vs Aurora (BO3) - BLAST Slam Playoffs",
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua"
   ],
@@ -200,23 +200,23 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs",
+    "t": "Dota 2: Team Yandex vs Team Spirit (BO3) - BLAST Slam Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Yandex vs Team Spirit (BO3) - BLAST Slam Playoffs",
-    "closed": false
+    "t": "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: LGD Gaming vs Aurora (BO3) - BLAST Slam Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs Aurora (BO3) - BLAST Slam Playoffs",
-    "closed": true
+    "t": "Dota 2: PARIVISION vs Aurora (BO3) - BLAST Slam Playoffs",
+    "closed": false
    },
    {
-    "t": "Dota 2: PARIVISION vs Aurora (BO3) - BLAST Slam Playoffs",
+    "t": "Dota 2: Team Kinetix vs Team Nemesis (BO3) - EPL World Series Southeas",
     "closed": false
    }
   ],
@@ -282,7 +282,7 @@
     "closed": true
    },
    {
-    "t": "VALORANT Champions 2026: Winner",
+    "t": "Least Played Map at VALORANT Champions 2026",
     "closed": false
    }
   ],
@@ -310,25 +310,30 @@
   ]
  },
  "n_event_queries": 21,
- "events": 416,
- "markets": 365,
- "markets_dropped_by_volume_floor": 2574,
- "day_file": "data/2026/10/2026-10-10T13.jsonl",
+ "events": 417,
+ "markets": 352,
+ "markets_dropped_by_volume_floor": 2597,
+ "day_file": "data/2026/10/2026-10-10T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 137,
- "trades_watchlist_markets": 111,
- "trades_collected": 2688,
- "anomalies_detected": 41,
- "anomalies_new": 4,
+ "trades_markets_queried": 119,
+ "trades_watchlist_markets": 101,
+ "trades_collected": 2728,
+ "anomalies_detected": 37,
+ "anomalies_new": 36,
  "history_debug": [
   {
-   "cid": "0x13309b36",
+   "cid": "0x351c9c4b",
    "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x62c2b008",
+   "pts": 1,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 1,
- "books_markets": 116,
- "books_rows": 176,
+ "history_conditions_new": 2,
+ "books_markets": 115,
+ "books_rows": 182,
  "status": "ok"
 }
