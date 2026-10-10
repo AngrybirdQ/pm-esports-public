@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T12:36:55Z",
+ "ts": "2026-10-10T12:50:13Z",
  "sources": [
   {
    "url": "/tags",
@@ -244,10 +244,6 @@
   ],
   "search:League of Legends": [
    {
-    "t": "League of Legends Global Power Rankings Post Worlds: Rank 1",
-    "closed": false
-   },
-   {
     "t": "LoL: Dplus KIA Challengers vs KT Rolster Challengers (BO5) - LCK Chall",
     "closed": true
    },
@@ -262,6 +258,10 @@
    {
     "t": "LoL: DN SOOPers Challengers vs Nongshim Esports Academy (BO5) - LCK Ch",
     "closed": true
+   },
+   {
+    "t": "LoL: DN SOOPers Challengers vs Nongshim Esports Academy (BO3) - LCK Ch",
+    "closed": true
    }
   ],
   "search:Valorant": [
@@ -270,12 +270,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: 100 Thieves vs Nongshim RedForce (BO3) - VCT Champions Playo",
-    "closed": true
-   },
-   {
     "t": "Valorant: G2 Esports vs Team Vitality (BO3) - VCT Champions Playoffs",
     "closed": false
+   },
+   {
+    "t": "Valorant: 100 Thieves vs Nongshim RedForce (BO3) - VCT Champions Playo",
+    "closed": true
    },
    {
     "t": "Valorant: Fire Flux Esports vs BBL Esports (BO3) - Monsters Reloaded C",
@@ -311,22 +311,22 @@
  },
  "n_event_queries": 21,
  "events": 416,
- "markets": 369,
- "markets_dropped_by_volume_floor": 2637,
+ "markets": 371,
+ "markets_dropped_by_volume_floor": 2640,
  "day_file": "data/2026/10/2026-10-10T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 108,
- "trades_watchlist_markets": 75,
- "trades_collected": 2298,
- "anomalies_detected": 47,
- "anomalies_new": 9,
+ "trades_markets_queried": 130,
+ "trades_watchlist_markets": 111,
+ "trades_collected": 2573,
+ "anomalies_detected": 39,
+ "anomalies_new": 39,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "8780458637: HTTPError: HTTP Error 404: Not Found",
-  "2935588080: HTTPError: HTTP Error 404: Not Found"
+  "8814141235: HTTPError: HTTP Error 404: Not Found",
+  "4714612928: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 102,
- "books_rows": 150,
+ "books_markets": 127,
+ "books_rows": 174,
  "status": "ok"
 }
