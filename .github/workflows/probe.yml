@@ -1,0 +1,33 @@
+name: channel-probe
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: '37 */6 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: channel-probe
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: probe odds channels
+        run: python3 scripts/channel_probe.py
+      - name: commit probe result
+        run: |
+          git config user.name "pm-esports-collector"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A state/channel_probe.json
+          if git diff --cached --quiet; then
+            echo "no change"
+          else
+            git commit -m "probe: channel reachability $(date -u '+%H:%MZ')"
+            git pull --rebase --autostash origin main || true
+            git push origin HEAD:main || true
+          fi
