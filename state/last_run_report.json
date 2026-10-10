@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T16:43:14Z",
+ "ts": "2026-10-10T16:45:39Z",
  "sources": [
   {
    "url": "/tags",
@@ -244,6 +244,10 @@
   ],
   "search:League of Legends": [
    {
+    "t": "League of Legends Global Power Rankings Post Worlds: Rank 1",
+    "closed": false
+   },
+   {
     "t": "LoL: Dplus KIA Challengers vs KT Rolster Challengers (BO5) - LCK Chall",
     "closed": true
    },
@@ -257,10 +261,6 @@
    },
    {
     "t": "LoL: DN SOOPers Challengers vs Nongshim Esports Academy (BO5) - LCK Ch",
-    "closed": true
-   },
-   {
-    "t": "LoL: DN SOOPers Challengers vs Nongshim Esports Academy (BO3) - LCK Ch",
     "closed": true
    }
   ],
@@ -317,12 +317,16 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 127,
  "trades_watchlist_markets": 103,
- "trades_collected": 2914,
- "anomalies_detected": 60,
- "anomalies_new": 7,
+ "trades_collected": 2899,
+ "anomalies_detected": 62,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "3651038510: HTTPError: HTTP Error 404: Not Found",
+  "8181512946: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 109,
- "books_rows": 135,
+ "books_rows": 144,
  "status": "ok"
 }
