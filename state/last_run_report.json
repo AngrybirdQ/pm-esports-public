@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T13:38:06Z",
+ "ts": "2026-10-10T13:41:09Z",
  "sources": [
   {
    "url": "/tags",
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "Dota 2: Team Yandex vs Team Spirit (BO3) - BLAST Slam Playoffs",
    "Valorant: G2 Esports vs Team Vitality (BO3) - VCT Champions Playoffs",
-   "ESL Pro League Season 24: Winner"
+   "Counter-Strike: Aurora Gaming vs Vitality (BO3) - ESL Pro League Playo"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Yandex vs Team Spirit (BO3) - BLAST Slam Playoffs",
@@ -311,26 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 416,
- "markets": 361,
- "markets_dropped_by_volume_floor": 2583,
+ "markets": 363,
+ "markets_dropped_by_volume_floor": 2576,
  "day_file": "data/2026/10/2026-10-10T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 135,
+ "trades_markets_queried": 136,
  "trades_watchlist_markets": 111,
- "trades_collected": 2716,
- "anomalies_detected": 34,
+ "trades_collected": 2643,
+ "anomalies_detected": 37,
  "anomalies_new": 7,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "3606224291: HTTPError: HTTP Error 404: Not Found",
-  "6504153296: HTTPError: HTTP Error 404: Not Found",
-  "2688292979: HTTPError: HTTP Error 404: Not Found",
-  "8641728614: HTTPError: HTTP Error 404: Not Found",
-  "2483181090: HTTPError: HTTP Error 404: Not Found",
-  "8315847673: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 111,
- "books_rows": 160,
+ "books_markets": 115,
+ "books_rows": 174,
  "status": "ok"
 }
