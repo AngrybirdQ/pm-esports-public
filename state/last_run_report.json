@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T12:13:27Z",
+ "ts": "2026-10-10T12:15:16Z",
  "sources": [
   {
    "url": "/tags",
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Dota 2: Team Yandex vs Team Spirit (BO3) - BLAST Slam Playoffs",
-   "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs",
-   "ESL Pro League Season 24: Winner"
+   "ESL Pro League Season 24: Winner",
+   "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Yandex vs Team Spirit (BO3) - BLAST Slam Playoffs",
@@ -267,7 +267,7 @@
   "search:Valorant": [
    {
     "t": "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: 100 Thieves vs Nongshim RedForce (BO3) - VCT Champions Playo",
@@ -282,8 +282,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: T1 vs Paper Rex (BO3) - VCT Champions Playoffs",
-    "closed": true
+    "t": "VALORANT Champions 2026: Winner",
+    "closed": false
    }
   ],
   "search:The International": [
@@ -317,17 +317,11 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 110,
  "trades_watchlist_markets": 75,
- "trades_collected": 2604,
- "anomalies_detected": 34,
- "anomalies_new": 1,
- "history_debug": [
-  {
-   "cid": "0xcfb717c9",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
+ "trades_collected": 2587,
+ "anomalies_detected": 25,
+ "anomalies_new": 4,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 103,
  "books_rows": 152,
  "status": "ok"
