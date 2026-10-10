@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T11:55:55Z",
+ "ts": "2026-10-10T11:58:50Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 40,
+   "events_returned": 39,
    "err": null
   },
   {
@@ -140,8 +140,8 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs",
    "Dota 2: Team Yandex vs Team Spirit (BO3) - BLAST Slam Playoffs",
+   "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs",
    "ESL Pro League Season 24: Winner"
   ],
   "tag_slug=dota-2": [
@@ -208,12 +208,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs Aurora (BO3) - BLAST Slam Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Yandex vs Team Spirit (BO3) - BLAST Slam Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Spirit vs Aurora (BO3) - BLAST Slam Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: PARIVISION vs Aurora (BO3) - BLAST Slam Playoffs",
@@ -274,15 +274,15 @@
     "closed": true
    },
    {
-    "t": "Valorant: T1 vs Paper Rex (BO3) - VCT Champions Playoffs",
-    "closed": true
-   },
-   {
     "t": "Valorant: G2 Esports vs Team Vitality (BO3) - VCT Champions Playoffs",
     "closed": false
    },
    {
     "t": "Valorant: Fire Flux Esports vs BBL Esports (BO3) - Monsters Reloaded C",
+    "closed": true
+   },
+   {
+    "t": "Valorant: T1 vs Paper Rex (BO3) - VCT Champions Playoffs",
     "closed": true
    }
   ],
@@ -310,19 +310,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 417,
- "markets": 376,
- "markets_dropped_by_volume_floor": 2654,
+ "events": 416,
+ "markets": 371,
+ "markets_dropped_by_volume_floor": 2633,
  "day_file": "data/2026/10/2026-10-10T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 111,
+ "trades_markets_queried": 108,
  "trades_watchlist_markets": 75,
- "trades_collected": 2539,
- "anomalies_detected": 33,
- "anomalies_new": 9,
+ "trades_collected": 2434,
+ "anomalies_detected": 25,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 108,
+ "books_markets": 104,
  "books_rows": 162,
  "status": "ok"
 }
