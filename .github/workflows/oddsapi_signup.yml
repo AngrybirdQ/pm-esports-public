@@ -1,0 +1,44 @@
+name: oddsapi-signup
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: oddsapi-signup
+  cancel-in-progress: false
+
+jobs:
+  signup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: fetch bot via API (checkout-free)
+        run: |
+          gh api "repos/${{ github.repository }}/contents/scripts/oddsapi_signup_bot.py?ref=main" --jq .content | base64 -d > bot.py
+          wc -c bot.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: install playwright
+        run: |
+          pip install playwright >/dev/null 2>&1
+          python3 -m playwright install --with-deps chromium >/dev/null 2>&1
+          echo playwright ready
+      - name: run signup bot
+        run: python3 bot.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: commit encrypted key (if any)
+        run: |
+          if [ -f state/oddsapi_key.enc ]; then
+            B64=$(base64 -w0 state/oddsapi_key.enc)
+            gh api --method PUT "repos/${{ github.repository }}/contents/state/oddsapi_key.enc"               -f message="oddsapi key (RSA encrypted) $(date -u '+%H:%MZ')"               -f content="$B64" -f branch=main >/dev/null && echo key-committed
+          fi
+          if [ -f state/oddsapi_signup_report.json ]; then
+            B=$(base64 -w0 state/oddsapi_signup_report.json)
+            gh api --method PUT "repos/${{ github.repository }}/contents/state/oddsapi_signup_report.json"               -f message="oddsapi signup report"               -f content="$B" -f branch=main >/dev/null && echo report-committed
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
