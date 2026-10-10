@@ -44,8 +44,19 @@ def main():
         odds = gj(f"{BASE}/odds/esports?oddsFormat=decimal", host="guest.api.pinnacle.com")
     except Exception as e:
         errs.append(f"odds {type(e).__name__}: {e}")
+    # 附带DNS侦察: api.pinnacle.com(主API)是否还存在于公网
+    try:
+        req = urllib.request.Request(
+            "https://dns.google/resolve?name=api.pinnacle.com&type=A",
+            headers={"Accept": "application/dns-json"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            ans = json.loads(r.read().decode()).get("Answer") or []
+        errs.append(f"DNS侦察 api.pinnacle.com A记录: "
+                    f"{[a['data'] for a in ans if a.get('type')==1] or '无'}")
+    except Exception as e:
+        errs.append(f"DNS侦察失败: {e}")
     os.makedirs("state", exist_ok=True)
-    if errs:
+    if True:
         json.dump({"ts": time.strftime("%Y-%m-%dT%H:%M:%SZ"), "errors": errs},
                   open("state/pinnacle_report.json", "w"), ensure_ascii=False)
         print(json.dumps({"errors": errs})); return
