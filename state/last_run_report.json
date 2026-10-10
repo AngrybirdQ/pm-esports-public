@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T18:30:46Z",
+ "ts": "2026-10-10T18:32:49Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 83,
+   "events_returned": 82,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 48,
+   "events_returned": 47,
    "err": null
   },
   {
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "Dota 2: PARIVISION vs Aurora (BO3) - BLAST Slam Playoffs",
    "Counter-Strike: MOUZ vs Spirit (BO3) - ESL Pro League Playoffs",
-   "Valorant: G2 Esports vs Team Vitality (BO3) - VCT Champions Playoffs"
+   "ESL Pro League Season 24: Winner"
   ],
   "tag_slug=dota-2": [
    "Dota 2: PARIVISION vs Aurora (BO3) - BLAST Slam Playoffs",
@@ -169,9 +169,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: G2 Esports vs Team Vitality (BO3) - VCT Champions Playoffs",
    "VALORANT Champions 2026: Winner",
-   "Least Played Map at VALORANT Champions 2026"
+   "Least Played Map at VALORANT Champions 2026",
+   "VALORANT Champions 2026 Winning Region"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -271,7 +271,7 @@
    },
    {
     "t": "Valorant: G2 Esports vs Team Vitality (BO3) - VCT Champions Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: BBL Esports vs Misa Esports (BO5) - Monsters Reloaded Closed",
@@ -312,17 +312,23 @@
  "n_event_queries": 21,
  "events": 415,
  "markets": 336,
- "markets_dropped_by_volume_floor": 2547,
+ "markets_dropped_by_volume_floor": 2552,
  "day_file": "data/2026/10/2026-10-10T18.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 93,
  "trades_watchlist_markets": 64,
- "trades_collected": 2350,
- "anomalies_detected": 34,
- "anomalies_new": 32,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_collected": 2334,
+ "anomalies_detected": 32,
+ "anomalies_new": 4,
+ "history_debug": [
+  {
+   "cid": "0xaed410cf",
+   "pts": 7,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 88,
- "books_rows": 106,
+ "books_rows": 102,
  "status": "ok"
 }
