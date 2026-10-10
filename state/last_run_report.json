@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T18:02:26Z",
+ "ts": "2026-10-10T18:19:21Z",
  "sources": [
   {
    "url": "/tags",
@@ -160,8 +160,8 @@
   ],
   "tag_slug=league-of-legends": [
    "Worlds 2026 Winning Region",
-   "LoL: KaBuM! Ilha das Lendas vs Golden Lions (BO5) - CBLOL Promotion Pl",
-   "LoL: LOS vs FURIA Esports (BO5) - CBLOL Playoffs"
+   "LoL: LOS vs FURIA Esports (BO5) - CBLOL Playoffs",
+   "LoL: KaBuM! Ilha das Lendas vs Golden Lions (BO5) - CBLOL Promotion Pl"
   ],
   "tag_slug=lol": [
    "Worlds 2026 Winning Region",
@@ -212,11 +212,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs",
-    "closed": true
+    "t": "Dota 2: oveA vs potn9ki (BO3) - DreamLeague Western Europe Open Qualif",
+    "closed": false
    },
    {
-    "t": "Dota 2: oveA vs potn9ki (BO3) - DreamLeague Western Europe Open Qualif",
+    "t": "Dota 2: Team Kinetix vs Team Nemesis (BO3) - EPL World Series Southeas",
     "closed": false
    }
   ],
@@ -311,18 +311,24 @@
  },
  "n_event_queries": 21,
  "events": 415,
- "markets": 341,
- "markets_dropped_by_volume_floor": 2572,
+ "markets": 337,
+ "markets_dropped_by_volume_floor": 2558,
  "day_file": "data/2026/10/2026-10-10T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 130,
- "trades_watchlist_markets": 103,
- "trades_collected": 2600,
- "anomalies_detected": 50,
- "anomalies_new": 0,
+ "trades_markets_queried": 93,
+ "trades_watchlist_markets": 64,
+ "trades_collected": 2417,
+ "anomalies_detected": 46,
+ "anomalies_new": 10,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 91,
- "books_rows": 116,
+ "books_errors": [
+  "3232741127: HTTPError: HTTP Error 404: Not Found",
+  "6064858036: HTTPError: HTTP Error 404: Not Found",
+  "1139324474: HTTPError: HTTP Error 404: Not Found",
+  "2853284901: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 87,
+ "books_rows": 100,
  "status": "ok"
 }
