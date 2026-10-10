@@ -81,8 +81,12 @@ def main():
                 e = pg.locator("input[type=email], input[name*='mail' i], "
                                "input[placeholder*='mail' i]").first
                 e.fill(addr, timeout=8000); filled["email"] = True
-                pw = pg.locator("input[type=password]").first
+                pws = pg.locator("input[type=password]")
+                pw = pws.first
                 pw.fill(pwd, timeout=8000); filled["password"] = True
+                if pws.count() > 1:  # Amplify: confirm_password
+                    pws.nth(1).fill(pwd, timeout=8000)
+                    filled["confirm_password"] = True
                 n = pg.locator("input[name*='name' i], "
                                "input[placeholder*='name' i]").first
                 try:
@@ -96,10 +100,46 @@ def main():
             STATE["filled"] = filled
             time.sleep(6)  # recaptcha v3 execute
             try:
-                pg.locator("button[type=submit], input[type=submit], "
-                           "button:has-text('Request'), button:has-text('Sign up'), "
-                           "button:has-text('Create'), button:has-text('Submit')"
-                           ).first.click(timeout=8000)
+                # Amplify Authenticator: 提交钮文本"Create Account"(无type=submit)
+                btn = pg.locator(
+                    "button.amplify-button:has-text('Create Account'), "
+                    "button:has-text('Create Account')").first
+                btn.click(timeout=8000)
+                # Cognito可能弹邮件验证码输入框 — 等待并可处理
+                time.sleep(4)
+                code_in = pg.locator(
+                    "input[name='confirmation_code'], input[placeholder*='code' i], "
+                    "input[name*='code' i]")
+                if code_in.count():
+                    # 从guerrillamail抓验证码
+                    code = None
+                    t0 = time.time()
+                    while time.time() - t0 < 120 and not code:
+                        try:
+                            box = api("https://api.guerrillamail.com/ajax.php"
+                                      "?f=check_email&sid_token=" + mtok + "&seq=0")
+                            for m in (box.get("list") or []):
+                                det = api("https://api.guerrillamail.com/ajax.php"
+                                          "?f=fetch_email&sid_token=" + mtok +
+                                          "&mail_id=" + str(m.get("mail_id")))
+                                mm = re.search(r"\b(\d{6})\b",
+                                               det.get("mail_body") or "")
+                                if mm:
+                                    code = mm.group(1); break
+                        except Exception:
+                            pass
+                        time.sleep(6)
+                    if code:
+                        code_in.first.fill(code, timeout=8000)
+                        filled["confirmation_code"] = code
+                        try:
+                            pg.locator(
+                                "button:has-text('Confirm'), "
+                                "button.amplify-button:has-text('Confirm')"
+                            ).first.click(timeout=8000)
+                        except Exception:
+                            pass
+                        time.sleep(4)
             except Exception as e:
                 STATE["fail"] = f"submit {e}"[:200]
                 snap(pg, "submit_failed"); write_report(); br.close(); return
