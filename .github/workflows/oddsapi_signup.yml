@@ -27,18 +27,48 @@ jobs:
           python3 -m playwright install --with-deps chromium >/dev/null 2>&1
           echo playwright ready
       - name: run signup bot
-        run: python3 bot.py
+        run: |
+          set -x
+          python3 bot.py 2>&1 | tee bot_output.txt
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: commit encrypted key (if any)
+      - name: commit artifacts via python api
         run: |
-          if [ -f state/oddsapi_key.enc ]; then
-            B64=$(base64 -w0 state/oddsapi_key.enc)
-            gh api --method PUT "repos/${{ github.repository }}/contents/state/oddsapi_key.enc"               -f message="oddsapi key (RSA encrypted) $(date -u '+%H:%MZ')"               -f content="$B64" -f branch=main >/dev/null && echo key-committed
-          fi
-          if [ -f state/oddsapi_signup_report.json ]; then
-            B=$(base64 -w0 state/oddsapi_signup_report.json)
-            gh api --method PUT "repos/${{ github.repository }}/contents/state/oddsapi_signup_report.json"               -f message="oddsapi signup report"               -f content="$B" -f branch=main >/dev/null && echo report-committed
-          fi
+          python3 - <<'COMMITEOF'
+          import base64, json, os, time, urllib.request
+          tok = os.environ["GH_TOKEN"]
+          R = "${{ github.repository }}"
+          def put(path, local):
+              content = base64.b64encode(open(local, "rb").read()).decode()
+              body = {"message": "artifact " + os.path.basename(local),
+                      "content": content, "branch": "main"}
+              url = "https://api.github.com/repos/" + R + "/contents/" + path
+              try:
+                  req = urllib.request.Request(url + "?ref=main", headers={
+                      "Authorization": "Bearer " + tok,
+                      "Accept": "application/vnd.github+json"})
+                  with urllib.request.urlopen(req, timeout=20) as r:
+                      body["sha"] = json.loads(r.read().decode())["sha"]
+              except Exception:
+                  pass
+              for i in range(3):
+                  try:
+                      req = urllib.request.Request(url, method="PUT", headers={
+                          "Authorization": "Bearer " + tok,
+                          "Accept": "application/vnd.github+json",
+                          "Content-Type": "application/json"},
+                          data=json.dumps(body).encode())
+                      urllib.request.urlopen(req, timeout=30)
+                      print("committed", path)
+                      return
+                  except Exception as e:
+                      print("retry", i, str(e)[:80])
+                      time.sleep(3)
+          for p in ("state/oddsapi_key.enc", "state/oddsapi_signup_report.json",
+                    "bot_output.txt"):
+              dst = p if p.startswith("state/") else "state/oddsapi_bot_output.txt"
+              if os.path.exists(p):
+                  put(dst, p)
+          COMMITEOF
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
