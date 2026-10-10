@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T17:47:26Z",
+ "ts": "2026-10-10T17:51:31Z",
  "sources": [
   {
    "url": "/tags",
@@ -140,9 +140,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Counter-Strike: Aurora Gaming vs Vitality (BO3) - ESL Pro League Playo",
    "Dota 2: PARIVISION vs Aurora (BO3) - BLAST Slam Playoffs",
-   "Counter-Strike: MOUZ vs Spirit (BO3) - ESL Pro League Playoffs"
+   "Counter-Strike: MOUZ vs Spirit (BO3) - ESL Pro League Playoffs",
+   "Valorant: G2 Esports vs Team Vitality (BO3) - VCT Champions Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: PARIVISION vs Aurora (BO3) - BLAST Slam Playoffs",
@@ -311,32 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 415,
- "markets": 346,
- "markets_dropped_by_volume_floor": 2584,
+ "markets": 340,
+ "markets_dropped_by_volume_floor": 2579,
  "day_file": "data/2026/10/2026-10-10T17.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 129,
  "trades_watchlist_markets": 103,
- "trades_collected": 2683,
- "anomalies_detected": 42,
- "anomalies_new": 2,
+ "trades_collected": 2691,
+ "anomalies_detected": 48,
+ "anomalies_new": 12,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1669488383: HTTPError: HTTP Error 404: Not Found",
-  "1116508278: HTTPError: HTTP Error 404: Not Found",
-  "9018700012: HTTPError: HTTP Error 404: Not Found",
-  "3895191477: HTTPError: HTTP Error 404: Not Found",
-  "6691251578: HTTPError: HTTP Error 404: Not Found",
-  "7611220599: HTTPError: HTTP Error 404: Not Found",
-  "5968017043: HTTPError: HTTP Error 404: Not Found",
-  "9290894159: HTTPError: HTTP Error 404: Not Found",
-  "3613808532: HTTPError: HTTP Error 404: Not Found",
-  "3956088015: HTTPError: HTTP Error 404: Not Found",
-  "9128393699: HTTPError: HTTP Error 404: Not Found",
-  "3455197925: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 96,
+ "books_markets": 90,
  "books_rows": 124,
  "status": "ok"
 }
