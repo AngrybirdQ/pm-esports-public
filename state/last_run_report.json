@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-10T21:32:15Z",
+ "ts": "2026-10-10T21:58:25Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 78,
+   "events_returned": 77,
    "err": null
   },
   {
@@ -140,9 +140,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Counter-Strike: MOUZ vs Spirit (BO3) - ESL Pro League Playoffs",
    "LoL: LOS vs FURIA Esports (BO5) - CBLOL Playoffs",
-   "ESL Pro League Season 24: Winner"
+   "ESL Pro League Season 24: Winner",
+   "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
@@ -282,7 +282,7 @@
     "closed": false
    },
    {
-    "t": "Valorant: BBL Esports vs Misa Esports (BO5) - Monsters Reloaded Closed",
+    "t": "Valorant: G2 Esports vs T1 (BO3) - VCT Champions Playoffs",
     "closed": false
    }
   ],
@@ -311,29 +311,49 @@
  },
  "n_event_queries": 21,
  "events": 413,
- "markets": 313,
- "markets_dropped_by_volume_floor": 2450,
+ "markets": 309,
+ "markets_dropped_by_volume_floor": 2462,
  "day_file": "data/2026/10/2026-10-10T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 69,
- "trades_watchlist_markets": 37,
- "trades_collected": 1194,
- "anomalies_detected": 25,
- "anomalies_new": 2,
+ "trades_markets_queried": 67,
+ "trades_watchlist_markets": 40,
+ "trades_collected": 1167,
+ "anomalies_detected": 24,
+ "anomalies_new": 8,
  "history_debug": [
   {
-   "cid": "0x478d2a53",
-   "pts": 3,
+   "cid": "0x43a054ef",
+   "pts": 2,
    "variant": "interval=all&fidelity=1000"
   },
   {
-   "cid": "0x8cfe43cd",
+   "cid": "0x3943945f",
    "pts": 1,
    "variant": "interval=all&fidelity=1000"
   }
  ],
  "history_conditions_new": 2,
- "books_markets": 62,
- "books_rows": 72,
+ "books_errors": [
+  "1331328567: HTTPError: HTTP Error 404: Not Found",
+  "2664166027: HTTPError: HTTP Error 404: Not Found",
+  "1065839877: HTTPError: HTTP Error 404: Not Found",
+  "2193381397: HTTPError: HTTP Error 404: Not Found",
+  "2066704129: HTTPError: HTTP Error 404: Not Found",
+  "5716503650: HTTPError: HTTP Error 404: Not Found",
+  "7324245952: HTTPError: HTTP Error 404: Not Found",
+  "7463042240: HTTPError: HTTP Error 404: Not Found",
+  "4552469905: HTTPError: HTTP Error 404: Not Found",
+  "9119229405: HTTPError: HTTP Error 404: Not Found",
+  "1724936486: HTTPError: HTTP Error 404: Not Found",
+  "6676216473: HTTPError: HTTP Error 404: Not Found",
+  "1099221341: HTTPError: HTTP Error 404: Not Found",
+  "4212122064: HTTPError: HTTP Error 404: Not Found",
+  "1349668850: HTTPError: HTTP Error 404: Not Found",
+  "1065853034: HTTPError: HTTP Error 404: Not Found",
+  "2052121641: HTTPError: HTTP Error 404: Not Found",
+  "1098835561: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 59,
+ "books_rows": 80,
  "status": "ok"
 }
