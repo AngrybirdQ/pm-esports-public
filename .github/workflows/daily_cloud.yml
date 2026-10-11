@@ -1,0 +1,71 @@
+name: daily-cloud-pack
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: '41 1,13 * * *'   # UTC 01:41/13:41 = BJT 09:41/21:41
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-cloud-pack
+
+jobs:
+  shibo-probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - name: fetch probe via API
+        run: gh api "repos/${{ github.repository }}/contents/scripts/shibo_probe.py?ref=main" --jq .content | base64 -d > p.py
+        env: { GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
+      - run: python3 p.py
+      - name: commit
+        run: |
+          for F in state/shibo_probe.json; do
+            [ -f "$F" ] || continue
+            SHA=$(gh api "repos/${{ github.repository }}/contents/$F?ref=main" --jq .sha 2>/dev/null || echo "")
+            ARGS=(--method PUT "repos/${{ github.repository }}/contents/$F" -f message="probe $(date -u +%H:%MZ)" -f content="$(base64 -w0 $F)" -f branch=main)
+            [ -n "$SHA" ] && ARGS+=(-f sha="$SHA")
+            gh api "${ARGS[@]}" >/dev/null && echo ok $F
+          done
+        env: { GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
+
+  backtest-farm:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    strategy:
+      matrix: { days: [14, 30] }
+      fail-fast: false
+    steps:
+      - name: fetch research script
+        run: gh api "repos/${{ github.repository }}/contents/scripts/cloud_research.py?ref=main" --jq .content | base64 -d > r.py
+        env: { GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
+      - name: sharp matrix (${{ matrix.days }}d)
+        run: python3 r.py ${{ matrix.days }}
+      - name: commit analysis
+        run: |
+          mkdir -p analysis
+          [ -d analysis ] && git config user.email b@x.com && git config user.name bot || true
+        env: { GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
+
+  price-history-bulk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - name: fetch bulk backfill
+        run: gh api "repos/${{ github.repository }}/contents/scripts/price_history_backfill.py?ref=main" --jq .content | base64 -d > b.py
+        env: { GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
+      - name: bulk run (500 tokens)
+        run: BUDGET=500 python3 b.py
+        env: { GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
+      - name: commit history
+        run: |
+          for F in data/history/*.jsonl state/ph_done.json; do
+            [ -f "$F" ] || continue
+            P="$F"; SHA=$(gh api "repos/${{ github.repository }}/contents/$P?ref=main" --jq .sha 2>/dev/null || echo "")
+            ARGS=(--method PUT "repos/${{ github.repository }}/contents/$P" -f message="ph-bulk $(basename $F)" -f content="$(base64 -w0 $F)" -f branch=main)
+            [ -n "$SHA" ] && ARGS+=(-f sha="$SHA")
+            gh api "${ARGS[@]}" >/dev/null 2>&1 && echo ok $F || true
+          done
+        env: { GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
