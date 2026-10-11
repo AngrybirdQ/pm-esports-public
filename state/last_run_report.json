@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T14:58:07Z",
+ "ts": "2026-10-11T15:47:13Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 77,
+   "events_returned": 81,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 44,
+   "events_returned": 45,
    "err": null
   },
   {
@@ -310,19 +310,23 @@
   ]
  },
  "n_event_queries": 21,
- "events": 409,
- "markets": 319,
- "markets_dropped_by_volume_floor": 2520,
- "day_file": "data/2026/10/2026-10-11T14.jsonl",
+ "events": 413,
+ "markets": 315,
+ "markets_dropped_by_volume_floor": 2640,
+ "day_file": "data/2026/10/2026-10-11T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 103,
- "trades_watchlist_markets": 59,
- "trades_collected": 2591,
- "anomalies_detected": 38,
- "anomalies_new": 6,
+ "trades_markets_queried": 109,
+ "trades_watchlist_markets": 73,
+ "trades_collected": 2602,
+ "anomalies_detected": 40,
+ "anomalies_new": 40,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 62,
- "books_rows": 88,
+ "books_errors": [
+  "8913589731: HTTPError: HTTP Error 404: Not Found",
+  "1150878528: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 86,
+ "books_rows": 122,
  "status": "ok"
 }
