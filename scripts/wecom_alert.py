@@ -85,6 +85,20 @@ def main():
     for (eid, outcome), anoms in events[:6]:
         first = anoms[0]
         detail = first.get("detail") or first.get("question") or ""
+        # 10-11: 已结束比赛的清仓异动不推(detail里有"·MM-DD HH:MM开赛")
+        sm = re.search(r"(\d{2})-(\d{2}) (\d{2}):(\d{2})开赛", detail)
+        if sm:
+            import datetime as _dt
+            try:
+                st_ = _dt.datetime.strptime(
+                    f"2026-{sm.group(1)}-{sm.group(2)} {sm.group(3)}:{sm.group(4)}",
+                    "%Y-%m-%d %H:%M").replace(
+                    tzinfo=_dt.timezone(_dt.timedelta(hours=8)))
+                if st_ < _dt.datetime.now(_dt.timezone(_dt.timedelta(hours=8))) \
+                        - _dt.timedelta(hours=2):
+                    continue
+            except ValueError:
+                pass
         m = re.search(r"\[([a-z0-9]+)\]\s*([^·|]+?)\s*·\s*([0-9-]+ [0-9:]+)开赛",
                       detail)
         if m:
