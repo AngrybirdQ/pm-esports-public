@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T23:27:15Z",
+ "ts": "2026-10-11T23:29:01Z",
  "sources": [
   {
    "url": "/tags",
@@ -212,12 +212,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Hokori vs New Growth (BO3) - DreamLeague South America Open Qu",
-    "closed": true
+    "t": "Dota 2: Mena Warriors vs Team Lynx (BO3) - EPL Masters Play-In Group A",
+    "closed": false
    },
    {
-    "t": "Dota 2: Yellow Submarine vs Nemiga Gaming (BO3) - EPL Masters Play-In ",
-    "closed": false
+    "t": "Dota 2: Hokori vs New Growth (BO3) - DreamLeague South America Open Qu",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -317,11 +317,15 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 59,
  "trades_watchlist_markets": 40,
- "trades_collected": 765,
+ "trades_collected": 772,
  "anomalies_detected": 16,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "3386072385: HTTPError: HTTP Error 404: Not Found",
+  "1116155581: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 65,
  "books_rows": 104,
  "status": "ok"
