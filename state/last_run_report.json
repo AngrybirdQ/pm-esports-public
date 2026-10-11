@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T14:27:13Z",
+ "ts": "2026-10-11T14:29:28Z",
  "sources": [
   {
    "url": "/tags",
@@ -140,7 +140,7 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Valorant: G2 Esports vs T1 (BO3) - VCT Champions Playoffs",
+   "Dota 2: Team Yandex vs Team Spirit (BO5) - BLAST Slam Playoffs",
    "Counter-Strike: Vitality vs MOUZ (BO5) - ESL Pro League Playoffs",
    "ESL Pro League Season 24: Winner"
   ],
@@ -310,18 +310,24 @@
   ]
  },
  "n_event_queries": 21,
- "events": 408,
- "markets": 313,
- "markets_dropped_by_volume_floor": 2490,
+ "events": 409,
+ "markets": 314,
+ "markets_dropped_by_volume_floor": 2492,
  "day_file": "data/2026/10/2026-10-11T14.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 99,
  "trades_watchlist_markets": 59,
- "trades_collected": 2490,
- "anomalies_detected": 24,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_collected": 2466,
+ "anomalies_detected": 20,
+ "anomalies_new": 1,
+ "history_debug": [
+  {
+   "cid": "0x9e394614",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 61,
  "books_rows": 90,
  "status": "ok"
