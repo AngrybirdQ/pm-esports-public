@@ -10,45 +10,30 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Probe Pinnacle reachability from cloud
+      - name: Probe Pinnacle reachability from cloud (v2: geo check)
         env:
           PIN_KEY: CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R
           UA: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
         run: |
-          echo "=== 0) egress IP ==="
+          echo "=== 0) egress ==="
           curl -sS --max-time 15 https://api.ipify.org; echo
-          echo "=== 1) guest API /sports ==="
-          code=$(curl -sS -o /tmp/sports.json -w "%{http_code}" --max-time 25 \
-            -H "User-Agent: $UA" -H "X-API-KEY: $PIN_KEY" -H "Accept: application/json" \
-            "https://guest.api.arcadia.pinnacle.com/0.1/sports" || echo "curl_err_$?")
-          echo "HTTP=$code"
-          head -c 600 /tmp/sports.json 2>/dev/null; echo
-          echo "=== 2) esports sport discovery ==="
-          SID=""
-          if [ -s /tmp/sports.json ]; then
-            jq -r '.[] | select(((.name // "")|ascii_downcase) | test("esport|counter|dota|league of legends|valorant|starcraft")) | "\(.id) \(.name)"' /tmp/sports.json 2>/dev/null | head -20
-            SID=$(jq -r '[.[] | select(((.name // "")|ascii_downcase) | test("counter|dota|esport"))][0].id // empty' /tmp/sports.json 2>/dev/null)
-          fi
-          echo "esports_sid=$SID"
-          echo "=== 3) main site ==="
-          code2=$(curl -sS -o /tmp/site.html -w "%{http_code}" --max-time 25 \
-            -H "User-Agent: $UA" "https://www.pinnacle.com/en/esports/matchups/" || echo "curl_err_$?")
-          echo "HTTP=$code2 size=$(wc -c < /tmp/site.html 2>/dev/null)"
-          grep -oE "(blocked|unavailable|jurisdiction|Just a moment|challenge)" /tmp/site.html 2>/dev/null | sort | uniq -c | head
-          echo "=== 4) cascade: leagues + matchups of first esports league ==="
-          if [ -n "$SID" ]; then
-            curl -sS --max-time 25 -H "User-Agent: $UA" -H "X-API-KEY: $PIN_KEY" \
-              "https://guest.api.arcadia.pinnacle.com/0.1/sports/$SID/leagues?featured=false" -o /tmp/leagues.json
-            echo "leagues HTTP data:"; head -c 700 /tmp/leagues.json; echo
-            LID=$(jq -r '[.[] | select(.eventCount // 0 > 0)][0].id // .[0].id // empty' /tmp/leagues.json 2>/dev/null)
-            if [ -n "$LID" ]; then
-              echo "league_id=$LID"
-              curl -sS --max-time 25 -H "User-Agent: $UA" -H "X-API-KEY: $PIN_KEY" \
-                "https://guest.api.arcadia.pinnacle.com/0.1/leagues/$LID/matchups" -o /tmp/matchups.json
-              echo "matchups sample:"; head -c 1200 /tmp/matchups.json; echo
-              jq -r 'if type=="array" then "matchups_count=\(length)" else "unexpected_shape" end' /tmp/matchups.json 2>/dev/null
-            fi
-          else
-            echo "skip cascade (no esports sport or blocked)"
-          fi
+          curl -sS --max-time 15 "https://ipapi.co/json/" | jq -r '"country=\(.country_name) city=\(.city) org=\(.org)"' 2>/dev/null
+          echo "=== 1) /sports full dump ==="
+          curl -sS --max-time 25 -H "User-Agent: $UA" -H "X-API-KEY: $PIN_KEY" \
+            "https://guest.api.arcadia.pinnacle.com/0.1/sports" -o /tmp/sports.json
+          echo "sports_total=$(jq length /tmp/sports.json 2>/dev/null)"
+          jq -r '.[] | "\(.id)\t\(.name)\tmatchups=\(.matchupCount)"' /tmp/sports.json 2>/dev/null
+          echo "=== 2) main site body dump ==="
+          curl -sS --max-time 25 -H "User-Agent: $UA" \
+            "https://www.pinnacle.com/en/esports/matchups/" -o /tmp/site.html
+          echo "site_bytes=$(wc -c < /tmp/site.html)"
+          sed -e 's/<[^>]*>/ /g' /tmp/site.html | tr -s ' \n' ' \n' | grep -vE '^\s*$' | head -40
+          echo "=== 3) try known legacy esports league ids on guest API ==="
+          for lid in 2406 2405 2408 1928 9355; do
+            code=$(curl -sS -o /tmp/lg.json -w "%{http_code}" --max-time 15 \
+              -H "User-Agent: $UA" -H "X-API-KEY: $PIN_KEY" \
+              "https://guest.api.arcadia.pinnacle.com/0.1/leagues/$lid/matchups" || echo err)
+            n=$(jq length /tmp/lg.json 2>/dev/null || echo 0)
+            echo "league=$lid HTTP=$code items=$n"
+          done
           echo "=== PROBE DONE ==="
