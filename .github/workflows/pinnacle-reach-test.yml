@@ -10,7 +10,7 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Probe Pinnacle reachability from cloud (v2: geo check)
+      - name: Probe Pinnacle reachability from cloud v2 geo-check
         env:
           PIN_KEY: CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R
           UA: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
