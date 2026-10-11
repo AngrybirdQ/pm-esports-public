@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T11:15:56Z",
+ "ts": "2026-10-11T11:19:17Z",
  "sources": [
   {
    "url": "/tags",
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "Dota 2: Team Spirit vs PARIVISION (BO3) - BLAST Slam Playoffs",
    "LoL: LOS vs FURIA Esports (BO5) - CBLOL Playoffs",
-   "Valorant: 100 Thieves vs NRG (BO3) - VCT Champions Playoffs"
+   "ESL Pro League Season 24: Winner"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Spirit vs PARIVISION (BO3) - BLAST Slam Playoffs",
@@ -311,15 +311,15 @@
  },
  "n_event_queries": 21,
  "events": 410,
- "markets": 310,
- "markets_dropped_by_volume_floor": 2477,
+ "markets": 308,
+ "markets_dropped_by_volume_floor": 2474,
  "day_file": "data/2026/10/2026-10-11T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 78,
+ "trades_markets_queried": 77,
  "trades_watchlist_markets": 51,
- "trades_collected": 1983,
- "anomalies_detected": 30,
- "anomalies_new": 0,
+ "trades_collected": 1950,
+ "anomalies_detected": 33,
+ "anomalies_new": 5,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
@@ -328,7 +328,7 @@
   "5911189315: HTTPError: HTTP Error 404: Not Found",
   "2346492964: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 78,
- "books_rows": 126,
+ "books_markets": 76,
+ "books_rows": 116,
  "status": "ok"
 }
