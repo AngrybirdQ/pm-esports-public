@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T13:38:31Z",
+ "ts": "2026-10-11T13:58:02Z",
  "sources": [
   {
    "url": "/tags",
@@ -208,15 +208,15 @@
     "closed": true
    },
    {
+    "t": "Dota 2: Team Yandex vs Team Spirit (BO5) - BLAST Slam Playoffs",
+    "closed": false
+   },
+   {
     "t": "Dota 2: oveA vs potn9ki (BO3) - DreamLeague Western Europe Open Qualif",
     "closed": true
    },
    {
     "t": "Dota 2: Ka4kanarskie cyxariki vs Shadow Dance (BO3) - DreamLeague East",
-    "closed": true
-   },
-   {
-    "t": "Dota 2: PuckChamp vs old blood (BO3) - DreamLeague Western Europe Open",
     "closed": true
    }
   ],
@@ -282,7 +282,7 @@
     "closed": false
    },
    {
-    "t": "Valorant: BBL Esports vs Misa Esports (BO5) - Monsters Reloaded Closed",
+    "t": "Which NRG player will have the most kills at VALORANT Champions 2026?",
     "closed": false
    }
   ],
@@ -311,30 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 410,
- "markets": 321,
- "markets_dropped_by_volume_floor": 2523,
+ "markets": 323,
+ "markets_dropped_by_volume_floor": 2510,
  "day_file": "data/2026/10/2026-10-11T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 99,
- "trades_watchlist_markets": 66,
- "trades_collected": 2458,
- "anomalies_detected": 41,
- "anomalies_new": 2,
+ "trades_markets_queried": 98,
+ "trades_watchlist_markets": 59,
+ "trades_collected": 2572,
+ "anomalies_detected": 43,
+ "anomalies_new": 43,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "6088451391: HTTPError: HTTP Error 404: Not Found",
-  "9643003180: HTTPError: HTTP Error 404: Not Found",
-  "4692139051: HTTPError: HTTP Error 404: Not Found",
-  "5474479951: HTTPError: HTTP Error 404: Not Found",
-  "8185123664: HTTPError: HTTP Error 404: Not Found",
-  "1098175401: HTTPError: HTTP Error 404: Not Found",
-  "2195760749: HTTPError: HTTP Error 404: Not Found",
-  "2333965723: HTTPError: HTTP Error 404: Not Found",
-  "1122863329: HTTPError: HTTP Error 404: Not Found",
-  "3775171187: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 82,
- "books_rows": 92,
+ "books_markets": 71,
+ "books_rows": 96,
  "status": "ok"
 }
