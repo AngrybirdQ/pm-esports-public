@@ -16,7 +16,7 @@ import urllib.request
 DATA = os.environ.get("DATA_DIR", "data")
 HIST_DIR = os.path.join("data", "history")
 STATE = os.path.join("state", "ph_done.json")
-BUDGET = 25
+BUDGET = int(os.environ.get('BUDGET', 25))
 API = "https://clob.polymarket.com/prices-history"
 
 
