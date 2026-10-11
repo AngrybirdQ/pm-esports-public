@@ -38,9 +38,8 @@ jobs:
       matrix: { days: [14, 30] }
       fail-fast: false
     steps:
-      - name: fetch research script
-        run: gh api "repos/${{ github.repository }}/contents/scripts/cloud_research.py?ref=main" --jq .content | base64 -d > r.py
-        env: { GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
+      - uses: actions/checkout@v4
+        with: { sparse-checkout: 'data, scripts' }
       - name: sharp matrix (${{ matrix.days }}d)
         run: python3 r.py ${{ matrix.days }}
       - name: commit analysis (API)
@@ -82,9 +81,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 14
     steps:
-      - name: fetch bulk backfill
-        run: gh api "repos/${{ github.repository }}/contents/scripts/price_history_backfill.py?ref=main" --jq .content | base64 -d > b.py
-        env: { GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
+      - uses: actions/checkout@v4
+        with: { sparse-checkout: 'data, scripts, state' }
       - name: bulk run (500 tokens)
         run: BUDGET=500 python3 b.py
         env: { GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
