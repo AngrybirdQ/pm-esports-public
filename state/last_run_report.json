@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T13:24:58Z",
+ "ts": "2026-10-11T13:27:07Z",
  "sources": [
   {
    "url": "/tags",
@@ -266,12 +266,12 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: 100 Thieves vs NRG (BO3) - VCT Champions Playoffs",
-    "closed": true
-   },
-   {
     "t": "Valorant: G2 Esports vs T1 (BO3) - VCT Champions Playoffs",
     "closed": false
+   },
+   {
+    "t": "Valorant: 100 Thieves vs NRG (BO3) - VCT Champions Playoffs",
+    "closed": true
    },
    {
     "t": "Valorant: G2 Esports vs Team Vitality (BO3) - VCT Champions Playoffs",
@@ -311,29 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 409,
- "markets": 324,
- "markets_dropped_by_volume_floor": 2491,
+ "markets": 323,
+ "markets_dropped_by_volume_floor": 2492,
  "day_file": "data/2026/10/2026-10-11T13.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 100,
  "trades_watchlist_markets": 66,
- "trades_collected": 2488,
- "anomalies_detected": 47,
+ "trades_collected": 2534,
+ "anomalies_detected": 45,
  "anomalies_new": 0,
- "history_debug": [
-  {
-   "cid": "0x3dc0000b",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xbd358815",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 2,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 84,
- "books_rows": 106,
+ "books_rows": 102,
  "status": "ok"
 }
