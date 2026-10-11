@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T08:27:03Z",
+ "ts": "2026-10-11T08:29:36Z",
  "sources": [
   {
    "url": "/tags",
@@ -171,7 +171,7 @@
   "tag_slug=valorant": [
    "VALORANT Champions 2026: Winner",
    "Valorant: 100 Thieves vs NRG (BO3) - VCT Champions Playoffs",
-   "Least Played Map at VALORANT Champions 2026"
+   "Valorant: G2 Esports vs T1 (BO3) - VCT Champions Playoffs"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -311,17 +311,28 @@
  },
  "n_event_queries": 21,
  "events": 411,
- "markets": 289,
- "markets_dropped_by_volume_floor": 2477,
+ "markets": 292,
+ "markets_dropped_by_volume_floor": 2492,
  "day_file": "data/2026/10/2026-10-11T08.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 56,
  "trades_watchlist_markets": 43,
- "trades_collected": 502,
+ "trades_collected": 518,
  "anomalies_detected": 3,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "history_debug": [
+  {
+   "cid": "0xa09db2df",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x60c0b5e1",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
  "books_markets": 65,
  "books_rows": 126,
  "status": "ok"
