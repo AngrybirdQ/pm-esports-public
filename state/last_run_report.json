@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T16:57:50Z",
+ "ts": "2026-10-11T17:00:21Z",
  "sources": [
   {
    "url": "/tags",
@@ -133,7 +133,9 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "trades 0x4c2ddad1: HTTPError: HTTP Error 429: Too Many Requests"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -208,7 +210,7 @@
     "closed": false
    },
    {
-    "t": "Dota 2: PARIVISION vs Aurora (BO3) - BLAST Slam Playoffs",
+    "t": "Dota 2: Skyreavers vs Rottweilas Latam (BO3) - DreamLeague South Ameri",
     "closed": true
    },
    {
@@ -216,7 +218,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Skyreavers vs Rottweilas Latam (BO3) - DreamLeague South Ameri",
+    "t": "Dota 2: Hokori vs New Growth (BO3) - DreamLeague South America Open Qu",
     "closed": true
    }
   ],
@@ -313,27 +315,16 @@
  "events": 413,
  "markets": 315,
  "markets_dropped_by_volume_floor": 2660,
- "day_file": "data/2026/10/2026-10-11T16.jsonl",
+ "day_file": "data/2026/10/2026-10-11T17.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 109,
  "trades_watchlist_markets": 73,
- "trades_collected": 2483,
- "anomalies_detected": 36,
- "anomalies_new": 4,
- "history_debug": [
-  {
-   "cid": "0x99558557",
-   "pts": 3,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x751c8137",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 2,
+ "trades_collected": 2456,
+ "anomalies_detected": 37,
+ "anomalies_new": 37,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 88,
- "books_rows": 114,
+ "books_rows": 112,
  "status": "ok"
 }
