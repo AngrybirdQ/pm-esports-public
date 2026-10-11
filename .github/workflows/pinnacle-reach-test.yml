@@ -18,25 +18,22 @@ jobs:
           echo "=== 1) sport 12 leagues ==="
           curl -sS --max-time 25 -H "User-Agent: $UA" -H "X-API-KEY: $PIN_KEY" \
             "https://guest.api.arcadia.pinnacle.com/0.1/sports/12/leagues?featured=false" -o /tmp/leagues.json
-          echo "leagues_total=$(jq length /tmp/leagues.json 2>/dev/null)"
-          jq -r '.[] | select(.eventCount // 0 > 0) | "\(.id)\t\(.name)\tevents=\(.eventCount)"' /tmp/leagues.json 2>/dev/null | head -15
-          LID=$(jq -r '[.[] | select(.eventCount // 0 > 0)][0].id // empty' /tmp/leagues.json)
+          echo "raw_head:"; head -c 700 /tmp/leagues.json; echo
+          LID=$(jq -r 'if type=="array" then ([.[] | select(type=="object") | select((.eventCount // 0) > 0)][0].id // empty) else (.leagues // [] | [.[] | select((.eventCount // 0) > 0)][0].id // empty) end' /tmp/leagues.json 2>/dev/null)
           echo "picked_league=$LID"
           echo "=== 2) matchups of first active league ==="
-          curl -sS --max-time 25 -H "User-Agent: $UA" -H "X-API-KEY: $PIN_KEY" \
-            "https://guest.api.arcadia.pinnacle.com/0.1/leagues/$LID/matchups" -o /tmp/matchups.json
-          echo "matchups_total=$(jq length /tmp/matchups.json 2>/dev/null)"
-          jq -r '.[] | "\(.id)\t\(.startTime // "")\t\(.participants[0].name // "?") vs \(.participants[1].name // "?")\ttype=\(.type)"' /tmp/matchups.json 2>/dev/null | head -8
-          MID=$(jq -r '[.[] | select(.type=="matchup")][0].id // empty' /tmp/matchups.json)
-          echo "picked_matchup=$MID"
-          echo "=== 3) odds of first matchup ==="
-          if [ -n "$MID" ]; then
+          if [ -n "$LID" ]; then
             curl -sS --max-time 25 -H "User-Agent: $UA" -H "X-API-KEY: $PIN_KEY" \
-              "https://guest.api.arcadia.pinnacle.com/0.1/matchups/$MID/markets/related/straight" -o /tmp/mk.json
-            echo "markets_total=$(jq length /tmp/mk.json 2>/dev/null)"
-            jq -r '.[0:4][] | "\(.cutoff // "")\t\(.type)\tparcelId=\(.parcelId // "")\tprices=\([.prices[]? | "\(.price):\(.designation)/\(.participants? // [])"] | join(","))"' /tmp/mk.json 2>/dev/null | head -6
-            jq -r '.[0] | keys' /tmp/mk.json 2>/dev/null | tr '\n' ' '
-            echo
-            jq -c '.[0].prices[0:2]' /tmp/mk.json 2>/dev/null
+              "https://guest.api.arcadia.pinnacle.com/0.1/leagues/$LID/matchups" -o /tmp/matchups.json
+            echo "raw_head:"; head -c 500 /tmp/matchups.json; echo
+            jq -r 'if type=="array" then .[] else .matchups[]? end | select(type=="object") | "\(.id)\t\(.startTime // "")\t\(try (.participants[0].name // "?") catch "?") vs \(try (.participants[1].name // "?") catch "?")\ttype=\(.type // "?")"' /tmp/matchups.json 2>/dev/null | head -8
+            MID=$(jq -r 'if type=="array" then .[] else .matchups[]? end | select(type=="object" and .type=="matchup") | .id' /tmp/matchups.json 2>/dev/null | head -1)
+            echo "picked_matchup=$MID"
+            echo "=== 3) odds of first matchup ==="
+            if [ -n "$MID" ]; then
+              curl -sS --max-time 25 -H "User-Agent: $UA" -H "X-API-KEY: $PIN_KEY" \
+                "https://guest.api.arcadia.pinnacle.com/0.1/matchups/$MID/markets/related/straight" -o /tmp/mk.json
+              echo "markets raw_head:"; head -c 900 /tmp/mk.json; echo
+            fi
           fi
           echo "=== PROBE DONE ==="
