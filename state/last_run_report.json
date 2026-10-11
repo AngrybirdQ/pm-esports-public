@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T22:24:22Z",
+ "ts": "2026-10-11T22:26:13Z",
  "sources": [
   {
    "url": "/tags",
@@ -140,9 +140,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Dota 2: Team Yandex vs Team Spirit (BO5) - BLAST Slam Playoffs",
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Yandex vs Team Spirit (BO5) - BLAST Slam Playoffs",
@@ -201,7 +201,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: Team Yandex vs Team Spirit (BO5) - BLAST Slam Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Spirit vs PARIVISION (BO3) - BLAST Slam Playoffs",
@@ -310,25 +310,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 408,
- "markets": 285,
- "markets_dropped_by_volume_floor": 2574,
+ "events": 409,
+ "markets": 286,
+ "markets_dropped_by_volume_floor": 2577,
  "day_file": "data/2026/10/2026-10-11T22.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 58,
  "trades_watchlist_markets": 32,
- "trades_collected": 1018,
- "anomalies_detected": 14,
- "anomalies_new": 2,
- "history_debug": [
-  {
-   "cid": "0x28858f72",
-   "pts": 4,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
+ "trades_collected": 1057,
+ "anomalies_detected": 16,
+ "anomalies_new": 0,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 61,
- "books_rows": 106,
+ "books_rows": 108,
  "status": "ok"
 }
