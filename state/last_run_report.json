@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T00:11:29Z",
+ "ts": "2026-10-11T00:13:23Z",
  "sources": [
   {
    "url": "/tags",
@@ -278,11 +278,11 @@
     "closed": false
    },
    {
-    "t": "VALORANT Champions 2026: Winner",
+    "t": "Valorant: G2 Esports vs T1 (BO3) - VCT Champions Playoffs",
     "closed": false
    },
    {
-    "t": "Valorant: G2 Esports vs T1 (BO3) - VCT Champions Playoffs",
+    "t": "VALORANT Champions 2026: Winner",
     "closed": false
    }
   ],
@@ -311,18 +311,24 @@
  },
  "n_event_queries": 21,
  "events": 415,
- "markets": 300,
+ "markets": 301,
  "markets_dropped_by_volume_floor": 2584,
  "day_file": "data/2026/10/2026-10-11T00.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 65,
+ "trades_markets_queried": 66,
  "trades_watchlist_markets": 51,
- "trades_collected": 1174,
+ "trades_collected": 1216,
  "anomalies_detected": 18,
- "anomalies_new": 4,
- "history_debug": [],
- "history_conditions_new": 0,
+ "anomalies_new": 0,
+ "history_debug": [
+  {
+   "cid": "0x2f91844d",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 65,
- "books_rows": 88,
+ "books_rows": 90,
  "status": "ok"
 }
