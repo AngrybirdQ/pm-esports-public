@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T10:55:53Z",
+ "ts": "2026-10-11T10:58:45Z",
  "sources": [
   {
    "url": "/tags",
@@ -170,8 +170,8 @@
   ],
   "tag_slug=valorant": [
    "Valorant: 100 Thieves vs NRG (BO3) - VCT Champions Playoffs",
-   "VALORANT Champions 2026: Winner",
-   "Valorant: G2 Esports vs T1 (BO3) - VCT Champions Playoffs"
+   "Valorant: G2 Esports vs T1 (BO3) - VCT Champions Playoffs",
+   "VALORANT Champions 2026: Winner"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -204,12 +204,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Yandex vs Team Spirit (BO3) - BLAST Slam Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Spirit vs PARIVISION (BO3) - BLAST Slam Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Yandex vs Team Spirit (BO3) - BLAST Slam Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: oveA vs potn9ki (BO3) - DreamLeague Western Europe Open Qualif",
@@ -311,18 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 409,
- "markets": 304,
- "markets_dropped_by_volume_floor": 2494,
+ "markets": 311,
+ "markets_dropped_by_volume_floor": 2497,
  "day_file": "data/2026/10/2026-10-11T10.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 78,
  "trades_watchlist_markets": 51,
- "trades_collected": 2152,
- "anomalies_detected": 33,
- "anomalies_new": 1,
+ "trades_collected": 2171,
+ "anomalies_detected": 35,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 74,
+ "books_markets": 77,
  "books_rows": 110,
  "status": "ok"
 }
