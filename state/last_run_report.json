@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T11:19:17Z",
+ "ts": "2026-10-11T11:22:31Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 47,
+   "events_returned": 46,
    "err": null
   },
   {
@@ -169,9 +169,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: 100 Thieves vs NRG (BO3) - VCT Champions Playoffs",
    "Valorant: G2 Esports vs T1 (BO3) - VCT Champions Playoffs",
-   "VALORANT Champions 2026: Winner"
+   "VALORANT Champions 2026: Winner",
+   "Least Played Map at VALORANT Champions 2026"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -271,7 +271,7 @@
    },
    {
     "t": "Valorant: 100 Thieves vs NRG (BO3) - VCT Champions Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs",
@@ -311,24 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 410,
- "markets": 308,
- "markets_dropped_by_volume_floor": 2474,
+ "markets": 312,
+ "markets_dropped_by_volume_floor": 2469,
  "day_file": "data/2026/10/2026-10-11T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 77,
+ "trades_markets_queried": 81,
  "trades_watchlist_markets": 51,
- "trades_collected": 1950,
+ "trades_collected": 2011,
  "anomalies_detected": 33,
- "anomalies_new": 5,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "6109571033: HTTPError: HTTP Error 404: Not Found",
-  "3748967929: HTTPError: HTTP Error 404: Not Found",
-  "5911189315: HTTPError: HTTP Error 404: Not Found",
-  "2346492964: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 76,
- "books_rows": 116,
+ "books_markets": 82,
+ "books_rows": 130,
  "status": "ok"
 }
