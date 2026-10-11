@@ -10,32 +10,14 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Probe Pinnacle esports odds v4
+      - name: Probe v5 identify leagues
         env:
           PIN_KEY: CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R
           UA: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
         run: |
-          echo "=== 1) league 2406 matchups ==="
-          curl -sS --max-time 25 -H "User-Agent: $UA" -H "X-API-KEY: $PIN_KEY" \
-            "https://guest.api.arcadia.pinnacle.com/0.1/leagues/2406/matchups" -o /tmp/m1.json
-          echo "http_data:"; head -c 400 /tmp/m1.json; echo
-          jq -r 'if type=="array" then "items=\(length)" else "NOT_ARRAY" end' /tmp/m1.json
-          echo "--- 样本 ---"
-          jq -r 'if type=="array" then (.[] | select(type=="object") | "\(.id)\t\(.startTime // "")\t\(try (.participants[0].name // .special?.description // "?") catch "?") vs \(try (.participants[1].name // "") catch "")\ttype=\(.type // "?")") else . end' /tmp/m1.json 2>/dev/null | head -6
-          MID=$(jq -r 'if type=="array" then ([.[] | select(type=="object" and .type=="matchup")][0].id // empty) else empty end' /tmp/m1.json)
-          echo "picked_matchup=$MID"
-          echo "=== 2) odds endpoint on matchup ==="
-          if [ -n "$MID" ]; then
-            for ep in "matchups/$MID/markets/related/straight" "markets/related/straight?matchupId=$MID"; do
-              code=$(curl -sS -o /tmp/mk.json -w "%{http_code}" --max-time 20 \
-                -H "User-Agent: $UA" -H "X-API-KEY: $PIN_KEY" -H "Accept: application/json" \
-                "https://guest.api.arcadia.pinnacle.com/0.1/$ep" || echo err)
-              echo "ep=$ep HTTP=$code"
-              head -c 700 /tmp/mk.json; echo
-            done
-          fi
-          echo "=== 3) league 1928 for cross-check ==="
-          curl -sS --max-time 20 -H "User-Agent: $UA" -H "X-API-KEY: $PIN_KEY" \
-            "https://guest.api.arcadia.pinnacle.com/0.1/leagues/1928/matchups" -o /tmp/m2.json
-          jq -r 'if type=="array" then "1928_items=\(length)" else "1928:\(.title // .detail // "obj")" end' /tmp/m2.json
+          for lid in 1928 2406 9355 2405 2408; do
+            curl -sS --max-time 20 -H "User-Agent: $UA" -H "X-API-KEY: $PIN_KEY" \
+              "https://guest.api.arcadia.pinnacle.com/0.1/leagues/$lid/matchups" -o /tmp/m.json
+            echo "league=$lid $(jq -r 'if type=="array" then "items=\(length) leagueName=\([.[].league.name // ""][0]) sample=\([.[] | select(.type=="matchup") | "\(.participants[0].name) vs \(.participants[1].name)"][0] // "")" else "ERR:\(.title // "?")" end' /tmp/m.json 2>/dev/null)"
+          done
           echo "=== PROBE DONE ==="
