@@ -10,14 +10,34 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Probe v5 identify leagues
+      - name: Probe v6 wait for non-US egress then read esports catalog
         env:
           PIN_KEY: CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R
           UA: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
         run: |
-          for lid in 1928 2406 9355 2405 2408; do
-            curl -sS --max-time 20 -H "User-Agent: $UA" -H "X-API-KEY: $PIN_KEY" \
-              "https://guest.api.arcadia.pinnacle.com/0.1/leagues/$lid/matchups" -o /tmp/m.json
-            echo "league=$lid $(jq -r 'if type=="array" then "items=\(length) leagueName=\([.[].league.name // ""][0]) sample=\([.[] | select(.type=="matchup") | "\(.participants[0].name) vs \(.participants[1].name)"][0] // "")" else "ERR:\(.title // "?")" end' /tmp/m.json 2>/dev/null)"
+          for i in 1 2 3 4 5 6 7 8 9 10 11 12; do
+            CC=$(curl -sS --max-time 10 "https://ipapi.co/country" 2>/dev/null || echo "?")
+            IP=$(curl -sS --max-time 10 "https://api.ipify.org" 2>/dev/null || echo "?")
+            echo "try$i country=$CC ip=$IP"
+            if [ "$CC" != "United States" ] && [ "$CC" != "US" ] && [ "$CC" != "?" ]; then
+              echo "=== non-US egress found, probing esports catalog ==="
+              curl -sS --max-time 25 -H "User-Agent: $UA" -H "X-API-KEY: $PIN_KEY" \
+                "https://guest.api.arcadia.pinnacle.com/0.1/sports/12/leagues?featured=false" -o /tmp/lg.json
+              head -c 900 /tmp/lg.json; echo
+              echo "=== and one esports league matchups ==="
+              LID=$(jq -r 'if type=="array" then ([.[] | select(type=="object")][0].id // empty) else empty end' /tmp/lg.json 2>/dev/null)
+              if [ -n "$LID" ]; then
+                curl -sS --max-time 25 -H "User-Agent: $UA" -H "X-API-KEY: $PIN_KEY" \
+                  "https://guest.api.arcadia.pinnacle.com/0.1/leagues/$LID/matchups" -o /tmp/m.json
+                jq -r 'if type=="array" then "league=$LID items=\(length)" else "ERR" end' /tmp/m.json
+                jq -r 'if type=="array" then (.[] | select(.type=="matchup") | "\(.participants[0].name) vs \(.participants[1].name)") else empty end' /tmp/m.json 2>/dev/null | head -5
+                MID=$(jq -r 'if type=="array" then ([.[] | select(.type=="matchup")][0].id // empty) else empty end' /tmp/m.json)
+                curl -sS --max-time 20 -H "User-Agent: $UA" -H "X-API-KEY: $PIN_KEY" \
+                  "https://guest.api.arcadia.pinnacle.com/0.1/matchups/$MID/markets/related/straight" -o /tmp/o.json
+                echo "odds: $(head -c 300 /tmp/o.json)"
+              fi
+              break
+            fi
+            sleep 45
           done
           echo "=== PROBE DONE ==="
