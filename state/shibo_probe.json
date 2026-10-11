@@ -1,0 +1,14 @@
+{
+ "ts": "2026-10-11T07:27:54Z",
+ "tests": [
+  {
+   "step": "first",
+   "code": 200
+  },
+  {
+   "step": "api",
+   "code": 200,
+   "body": "{\"code\":50000,\"msg\":\"token\",\"data\":\"token\",\"ts\":\"0\",\"status\":\"false\",\"sucess\":false}\r\n"
+  }
+ ]
+}
