@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T14:04:55Z",
+ "ts": "2026-10-11T14:08:35Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 35,
+   "events_returned": 34,
    "err": null
   },
   {
@@ -140,14 +140,14 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Dota 2: Team Spirit vs PARIVISION (BO3) - BLAST Slam Playoffs",
-   "Counter-Strike: Aurora Gaming vs Spirit (BO3) - ESL Pro League Playoff",
-   "Valorant: G2 Esports vs T1 (BO3) - VCT Champions Playoffs"
+   "Valorant: G2 Esports vs T1 (BO3) - VCT Champions Playoffs",
+   "ESL Pro League Season 24: Winner",
+   "Counter-Strike: Vitality vs MOUZ (BO5) - ESL Pro League Playoffs"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Team Spirit vs PARIVISION (BO3) - BLAST Slam Playoffs",
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
-   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua"
+   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
+   "Dota 2: Power Rangers vs Team Synapse (BO3) - EPL Masters Group A"
   ],
   "tag_slug=cs2": [
    "ESL Pro League Season 24: Winner",
@@ -201,7 +201,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: Team Spirit vs PARIVISION (BO3) - BLAST Slam Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: PARIVISION vs Aurora (BO3) - BLAST Slam Playoffs",
@@ -310,33 +310,23 @@
   ]
  },
  "n_event_queries": 21,
- "events": 410,
- "markets": 322,
+ "events": 409,
+ "markets": 315,
  "markets_dropped_by_volume_floor": 2510,
  "day_file": "data/2026/10/2026-10-11T14.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 97,
  "trades_watchlist_markets": 59,
- "trades_collected": 2561,
- "anomalies_detected": 41,
- "anomalies_new": 3,
+ "trades_collected": 2589,
+ "anomalies_detected": 32,
+ "anomalies_new": 7,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "8737133202: HTTPError: HTTP Error 404: Not Found",
-  "1985933464: HTTPError: HTTP Error 404: Not Found",
-  "7137643098: HTTPError: HTTP Error 404: Not Found",
-  "9125888626: HTTPError: HTTP Error 404: Not Found",
-  "1052148698: HTTPError: HTTP Error 404: Not Found",
-  "8419733265: HTTPError: HTTP Error 404: Not Found",
-  "4625122571: HTTPError: HTTP Error 404: Not Found",
-  "8358255216: HTTPError: HTTP Error 404: Not Found",
-  "9954976788: HTTPError: HTTP Error 404: Not Found",
-  "3284919549: HTTPError: HTTP Error 404: Not Found",
-  "2610675091: HTTPError: HTTP Error 404: Not Found",
-  "6240389408: HTTPError: HTTP Error 404: Not Found"
+  "9122062014: HTTPError: HTTP Error 404: Not Found",
+  "7644367895: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 71,
- "books_rows": 90,
+ "books_markets": 64,
+ "books_rows": 88,
  "status": "ok"
 }
