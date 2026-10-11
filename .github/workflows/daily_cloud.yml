@@ -38,8 +38,12 @@ jobs:
       matrix: { days: [14, 30] }
       fail-fast: false
     steps:
-      - uses: actions/checkout@v4
-        with: { sparse-checkout: 'data, scripts' }
+      - name: pull repo via tarball (git channel degraded)
+        run: |
+          curl -sSL -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/${{ github.repository }}/tarball/main" \
+            | tar xz --wildcards --strip-components=1 '*/data' '*/data/*' '*/scripts' '*/scripts/*' 2>/dev/null || true
+          ls data scripts 2>/dev/null | head -5
       - name: sharp matrix (${{ matrix.days }}d)
         run: python3 scripts/cloud_research.py ${{ matrix.days }}
       - name: commit analysis (API)
@@ -81,8 +85,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 14
     steps:
-      - uses: actions/checkout@v4
-        with: { sparse-checkout: 'data, scripts, state' }
+      - name: pull repo via tarball (git channel degraded)
+        run: |
+          curl -sSL -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/${{ github.repository }}/tarball/main" \
+            | tar xz --wildcards --strip-components=1 '*/data' '*/data/*' '*/scripts' '*/scripts/*' '*/state' '*/state/*' 2>/dev/null || true
+          ls data scripts state 2>/dev/null | head -5
       - name: bulk run (500 tokens)
         run: BUDGET=500 python3 scripts/price_history_backfill.py
       - name: commit history
