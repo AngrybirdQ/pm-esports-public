@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T14:08:35Z",
+ "ts": "2026-10-11T14:11:47Z",
  "sources": [
   {
    "url": "/tags",
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Valorant: G2 Esports vs T1 (BO3) - VCT Champions Playoffs",
-   "ESL Pro League Season 24: Winner",
-   "Counter-Strike: Vitality vs MOUZ (BO5) - ESL Pro League Playoffs"
+   "Counter-Strike: Vitality vs MOUZ (BO5) - ESL Pro League Playoffs",
+   "ESL Pro League Season 24: Winner"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
@@ -310,22 +310,24 @@
   ]
  },
  "n_event_queries": 21,
- "events": 409,
- "markets": 315,
- "markets_dropped_by_volume_floor": 2510,
+ "events": 408,
+ "markets": 316,
+ "markets_dropped_by_volume_floor": 2508,
  "day_file": "data/2026/10/2026-10-11T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 97,
+ "trades_markets_queried": 99,
  "trades_watchlist_markets": 59,
- "trades_collected": 2589,
- "anomalies_detected": 32,
+ "trades_collected": 2702,
+ "anomalies_detected": 39,
  "anomalies_new": 7,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "9122062014: HTTPError: HTTP Error 404: Not Found",
-  "7644367895: HTTPError: HTTP Error 404: Not Found"
+ "history_debug": [
+  {
+   "cid": "0xaeb84590",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
+ "history_conditions_new": 1,
  "books_markets": 64,
  "books_rows": 88,
  "status": "ok"
