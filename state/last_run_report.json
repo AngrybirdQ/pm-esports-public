@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T11:13:05Z",
+ "ts": "2026-10-11T11:15:56Z",
  "sources": [
   {
    "url": "/tags",
@@ -216,8 +216,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Kinetix vs Team Nemesis (BO3) - EPL World Series Southeas",
-    "closed": false
+    "t": "Dota 2: Ka4kanarskie cyxariki vs Shadow Dance (BO3) - DreamLeague East",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -311,18 +311,24 @@
  },
  "n_event_queries": 21,
  "events": 410,
- "markets": 311,
- "markets_dropped_by_volume_floor": 2480,
+ "markets": 310,
+ "markets_dropped_by_volume_floor": 2477,
  "day_file": "data/2026/10/2026-10-11T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 79,
+ "trades_markets_queried": 78,
  "trades_watchlist_markets": 51,
- "trades_collected": 2015,
- "anomalies_detected": 32,
- "anomalies_new": 3,
+ "trades_collected": 1983,
+ "anomalies_detected": 30,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "6109571033: HTTPError: HTTP Error 404: Not Found",
+  "3748967929: HTTPError: HTTP Error 404: Not Found",
+  "5911189315: HTTPError: HTTP Error 404: Not Found",
+  "2346492964: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 78,
- "books_rows": 124,
+ "books_rows": 126,
  "status": "ok"
 }
