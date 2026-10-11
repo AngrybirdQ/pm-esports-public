@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: '41 * * * *'
   workflow_dispatch: {}
+  repository_dispatch:
+    types: [collect]   # 10-11: actions_ops统一经此通道补跑(99611发现①)
 
 permissions:
   contents: write
