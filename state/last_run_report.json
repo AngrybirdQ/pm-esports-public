@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T03:17:46Z",
+ "ts": "2026-10-11T03:34:31Z",
  "sources": [
   {
    "url": "/tags",
@@ -170,8 +170,8 @@
   ],
   "tag_slug=valorant": [
    "VALORANT Champions 2026: Winner",
-   "Least Played Map at VALORANT Champions 2026",
-   "Valorant: 100 Thieves vs NRG (BO3) - VCT Champions Playoffs"
+   "Valorant: 100 Thieves vs NRG (BO3) - VCT Champions Playoffs",
+   "Least Played Map at VALORANT Champions 2026"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -311,22 +311,24 @@
  },
  "n_event_queries": 21,
  "events": 415,
- "markets": 289,
+ "markets": 288,
  "markets_dropped_by_volume_floor": 2521,
  "day_file": "data/2026/10/2026-10-11T03.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 57,
- "trades_watchlist_markets": 36,
- "trades_collected": 445,
- "anomalies_detected": 18,
+ "trades_markets_queried": 53,
+ "trades_watchlist_markets": 35,
+ "trades_collected": 586,
+ "anomalies_detected": 8,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "9461274178: HTTPError: HTTP Error 404: Not Found",
-  "1065475455: HTTPError: HTTP Error 404: Not Found"
+  "9682864892: HTTPError: HTTP Error 404: Not Found",
+  "8227844419: HTTPError: HTTP Error 404: Not Found",
+  "1149259653: HTTPError: HTTP Error 404: Not Found",
+  "4183979080: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 49,
- "books_rows": 76,
+ "books_markets": 54,
+ "books_rows": 82,
  "status": "ok"
 }
