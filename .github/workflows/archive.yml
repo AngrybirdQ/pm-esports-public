@@ -22,6 +22,10 @@ jobs:
         env:
           ARCHIVE_BUDGET_S: "1500"
         run: python3 scripts/archive_sweep.py || echo "archive failed"
+      - name: archive backfill stage-2 (token histories)
+        env:
+          BF_BUDGET_S: "900"
+        run: python3 scripts/archive_backfill.py || echo "backfill failed"
       - name: odota stats
         run: python3 scripts/odota_stats.py || echo "odota failed"
       - name: commit
