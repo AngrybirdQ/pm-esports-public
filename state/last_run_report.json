@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T14:31:18Z",
+ "ts": "2026-10-11T14:33:03Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 45,
+   "events_returned": 44,
    "err": null
   },
   {
@@ -169,9 +169,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: G2 Esports vs T1 (BO3) - VCT Champions Playoffs",
    "VALORANT Champions 2026: Winner",
-   "Least Played Map at VALORANT Champions 2026"
+   "Least Played Map at VALORANT Champions 2026",
+   "VALORANT Champions 2026 Winning Region"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -267,7 +267,7 @@
   "search:Valorant": [
    {
     "t": "Valorant: G2 Esports vs T1 (BO3) - VCT Champions Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: 100 Thieves vs NRG (BO3) - VCT Champions Playoffs",
@@ -310,16 +310,16 @@
   ]
  },
  "n_event_queries": 21,
- "events": 409,
+ "events": 408,
  "markets": 314,
  "markets_dropped_by_volume_floor": 2492,
  "day_file": "data/2026/10/2026-10-11T14.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 99,
  "trades_watchlist_markets": 59,
- "trades_collected": 2446,
+ "trades_collected": 2431,
  "anomalies_detected": 20,
- "anomalies_new": 17,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 61,
