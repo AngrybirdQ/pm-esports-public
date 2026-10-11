@@ -43,11 +43,40 @@ jobs:
         env: { GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
       - name: sharp matrix (${{ matrix.days }}d)
         run: python3 r.py ${{ matrix.days }}
-      - name: commit analysis
+      - name: commit analysis (API)
         run: |
-          mkdir -p analysis
-          [ -d analysis ] && git config user.email b@x.com && git config user.name bot || true
-        env: { GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
+          python3 - <<'PYEOF'
+          import base64, glob, json, os, time, urllib.request
+          tok = os.environ["GH_TOKEN"]; R = os.environ["REPO"]
+          def put(path, local):
+              content = base64.b64encode(open(local, "rb").read()).decode()
+              body = {"message": "farm " + os.path.basename(local),
+                      "content": content, "branch": "main"}
+              url = "https://api.github.com/repos/%s/contents/%s" % (R, path)
+              try:
+                  req = urllib.request.Request(url + "?ref=main", headers={
+                      "Authorization": "Bearer " + tok,
+                      "Accept": "application/vnd.github+json"})
+                  with urllib.request.urlopen(req, timeout=20) as r:
+                      body["sha"] = json.loads(r.read().decode())["sha"]
+              except Exception:
+                  pass
+              for i in range(3):
+                  try:
+                      req = urllib.request.Request(url, method="PUT", headers={
+                          "Authorization": "Bearer " + tok,
+                          "Accept": "application/vnd.github+json"},
+                          data=json.dumps(body).encode())
+                      urllib.request.urlopen(req, timeout=30)
+                      print("committed", path); return
+                  except Exception as e:
+                      time.sleep(3)
+          for f in glob.glob("analysis/*.json") + glob.glob("analysis/*.md"):
+              put("analysis/" + os.path.basename(f), f)
+          PYEOF
+        env:
+          GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+          REPO: '${{ github.repository }}'
 
   price-history-bulk:
     runs-on: ubuntu-latest
