@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T17:25:09Z",
+ "ts": "2026-10-11T17:39:36Z",
  "sources": [
   {
    "url": "/tags",
@@ -200,23 +200,23 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Team Spirit vs PARIVISION (BO3) - BLAST Slam Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Yandex vs Team Spirit (BO5) - BLAST Slam Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Spirit vs PARIVISION (BO3) - BLAST Slam Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: Skyreavers vs Rottweilas Latam (BO3) - DreamLeague South Ameri",
     "closed": true
    },
    {
-    "t": "Dota 2: PuckChamp vs old blood (BO3) - DreamLeague Western Europe Open",
+    "t": "Dota 2: Hokori vs New Growth (BO3) - DreamLeague South America Open Qu",
     "closed": true
    },
    {
-    "t": "Dota 2: Hokori vs New Growth (BO3) - DreamLeague South America Open Qu",
+    "t": "Dota 2: PuckChamp vs old blood (BO3) - DreamLeague Western Europe Open",
     "closed": true
    }
   ],
@@ -311,18 +311,24 @@
  },
  "n_event_queries": 21,
  "events": 413,
- "markets": 307,
+ "markets": 308,
  "markets_dropped_by_volume_floor": 2644,
  "day_file": "data/2026/10/2026-10-11T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 110,
- "trades_watchlist_markets": 73,
- "trades_collected": 2127,
- "anomalies_detected": 33,
- "anomalies_new": 3,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 85,
- "books_rows": 110,
+ "trades_markets_queried": 94,
+ "trades_watchlist_markets": 61,
+ "trades_collected": 2042,
+ "anomalies_detected": 17,
+ "anomalies_new": 17,
+ "history_debug": [
+  {
+   "cid": "0xe6124369",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 77,
+ "books_rows": 98,
  "status": "ok"
 }
