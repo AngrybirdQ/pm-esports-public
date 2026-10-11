@@ -41,7 +41,7 @@ jobs:
       - uses: actions/checkout@v4
         with: { sparse-checkout: 'data, scripts' }
       - name: sharp matrix (${{ matrix.days }}d)
-        run: python3 r.py ${{ matrix.days }}
+        run: python3 scripts/cloud_research.py ${{ matrix.days }}
       - name: commit analysis (API)
         run: |
           python3 - <<'PYEOF'
@@ -84,8 +84,7 @@ jobs:
       - uses: actions/checkout@v4
         with: { sparse-checkout: 'data, scripts, state' }
       - name: bulk run (500 tokens)
-        run: BUDGET=500 python3 b.py
-        env: { GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
+        run: BUDGET=500 python3 scripts/price_history_backfill.py
       - name: commit history
         run: |
           for F in data/history/*.jsonl state/ph_done.json; do
