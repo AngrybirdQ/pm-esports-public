@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T10:52:57Z",
+ "ts": "2026-10-11T10:55:53Z",
  "sources": [
   {
    "url": "/tags",
@@ -140,9 +140,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: LOS vs FURIA Esports (BO5) - CBLOL Playoffs",
    "Dota 2: Team Spirit vs PARIVISION (BO3) - BLAST Slam Playoffs",
-   "ESL Pro League Season 24: Winner"
+   "LoL: LOS vs FURIA Esports (BO5) - CBLOL Playoffs",
+   "Valorant: 100 Thieves vs NRG (BO3) - VCT Champions Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Spirit vs PARIVISION (BO3) - BLAST Slam Playoffs",
@@ -310,19 +310,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 410,
- "markets": 307,
- "markets_dropped_by_volume_floor": 2505,
+ "events": 409,
+ "markets": 304,
+ "markets_dropped_by_volume_floor": 2494,
  "day_file": "data/2026/10/2026-10-11T10.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 78,
  "trades_watchlist_markets": 51,
- "trades_collected": 2144,
- "anomalies_detected": 38,
- "anomalies_new": 0,
+ "trades_collected": 2152,
+ "anomalies_detected": 33,
+ "anomalies_new": 1,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 77,
+ "books_markets": 74,
  "books_rows": 110,
  "status": "ok"
 }
