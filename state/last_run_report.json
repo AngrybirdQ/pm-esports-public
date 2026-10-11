@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T22:26:13Z",
+ "ts": "2026-10-11T22:28:16Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 32,
+   "events_returned": 31,
    "err": null
   },
   {
@@ -145,9 +145,9 @@
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Team Yandex vs Team Spirit (BO5) - BLAST Slam Playoffs",
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
-   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua"
+   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
+   "Dota 2: Power Rangers vs Team Synapse (BO3) - EPL Masters Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -310,19 +310,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 409,
+ "events": 408,
  "markets": 286,
- "markets_dropped_by_volume_floor": 2577,
+ "markets_dropped_by_volume_floor": 2576,
  "day_file": "data/2026/10/2026-10-11T22.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 58,
  "trades_watchlist_markets": 32,
- "trades_collected": 1057,
+ "trades_collected": 1054,
  "anomalies_detected": 16,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 61,
- "books_rows": 108,
+ "books_rows": 106,
  "status": "ok"
 }
