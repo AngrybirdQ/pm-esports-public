@@ -1,0 +1,31 @@
+name: shibo-token-hunt
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: '*/30 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: shibo-token-hunt
+
+jobs:
+  hunt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: fetch hunter via API
+        run: gh api "repos/${{ github.repository }}/contents/scripts/shibo_token_hunter.py?ref=main" --jq .content | base64 -d > h.py
+        env: { GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
+      - name: install playwright
+        run: |
+          pip install playwright >/dev/null 2>&1
+          python3 -m playwright install --with-deps chromium >/dev/null 2>&1
+          echo ready
+      - name: hunt
+        run: python3 h.py
+        env:
+          GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+          REPO: '${{ github.repository }}'
