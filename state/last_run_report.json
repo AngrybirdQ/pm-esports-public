@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T02:35:01Z",
+ "ts": "2026-10-11T02:37:32Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 79,
+   "events_returned": 78,
    "err": null
   },
   {
@@ -160,8 +160,8 @@
   ],
   "tag_slug=league-of-legends": [
    "LoL: LOS vs FURIA Esports (BO5) - CBLOL Playoffs",
-   "LoL: Cupid Esports vs Disguised (BO5) - LCS Promotion Playoffs",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: KaBuM! Ilha das Lendas vs Golden Lions (BO5) - CBLOL Promotion Pl"
   ],
   "tag_slug=lol": [
    "Worlds 2026 Winning Region",
@@ -310,16 +310,16 @@
   ]
  },
  "n_event_queries": 21,
- "events": 416,
+ "events": 415,
  "markets": 288,
  "markets_dropped_by_volume_floor": 2524,
  "day_file": "data/2026/10/2026-10-11T02.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 53,
  "trades_watchlist_markets": 36,
- "trades_collected": 204,
- "anomalies_detected": 12,
- "anomalies_new": 6,
+ "trades_collected": 192,
+ "anomalies_detected": 6,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 51,
