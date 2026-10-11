@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T11:25:32Z",
+ "ts": "2026-10-11T11:28:27Z",
  "sources": [
   {
    "url": "/tags",
@@ -200,12 +200,12 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: PARIVISION vs Aurora (BO3) - BLAST Slam Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Spirit vs PARIVISION (BO3) - BLAST Slam Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: PARIVISION vs Aurora (BO3) - BLAST Slam Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: Team Yandex vs Team Spirit (BO3) - BLAST Slam Playoffs",
@@ -274,12 +274,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs",
-    "closed": true
-   },
-   {
     "t": "Valorant: G2 Esports vs T1 (BO3) - VCT Champions Playoffs",
     "closed": false
+   },
+   {
+    "t": "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs",
+    "closed": true
    },
    {
     "t": "VALORANT Champions 2026: Winner",
@@ -310,19 +310,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 409,
- "markets": 310,
- "markets_dropped_by_volume_floor": 2467,
+ "events": 410,
+ "markets": 316,
+ "markets_dropped_by_volume_floor": 2476,
  "day_file": "data/2026/10/2026-10-11T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 80,
+ "trades_markets_queried": 83,
  "trades_watchlist_markets": 51,
- "trades_collected": 1891,
- "anomalies_detected": 29,
- "anomalies_new": 7,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_collected": 2124,
+ "anomalies_detected": 38,
+ "anomalies_new": 5,
+ "history_debug": [
+  {
+   "cid": "0xe6201b91",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 84,
- "books_rows": 138,
+ "books_rows": 134,
  "status": "ok"
 }
