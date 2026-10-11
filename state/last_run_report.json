@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T03:12:58Z",
+ "ts": "2026-10-11T03:15:42Z",
  "sources": [
   {
    "url": "/tags",
@@ -212,12 +212,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Kinetix vs Team Nemesis (BO3) - EPL World Series Southeas",
+    "t": "Dota 2: Team Spirit vs PARIVISION (BO3) - BLAST Slam Playoffs",
     "closed": false
    },
    {
-    "t": "Dota 2: Ka4kanarskie cyxariki vs Shadow Dance (BO3) - DreamLeague East",
-    "closed": true
+    "t": "Dota 2: Team Kinetix vs Team Nemesis (BO3) - EPL World Series Southeas",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -317,11 +317,15 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 57,
  "trades_watchlist_markets": 36,
- "trades_collected": 455,
+ "trades_collected": 452,
  "anomalies_detected": 18,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "9461274178: HTTPError: HTTP Error 404: Not Found",
+  "1065475455: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 49,
  "books_rows": 76,
  "status": "ok"
