@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T02:32:04Z",
+ "ts": "2026-10-11T02:35:01Z",
  "sources": [
   {
    "url": "/tags",
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "LoL: LOS vs FURIA Esports (BO5) - CBLOL Playoffs",
    "ESL Pro League Season 24: Winner",
-   "LoL: Cupid Esports vs Disguised (BO5) - LCS Promotion Playoffs"
+   "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
@@ -310,25 +310,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 415,
- "markets": 292,
+ "events": 416,
+ "markets": 288,
  "markets_dropped_by_volume_floor": 2524,
  "day_file": "data/2026/10/2026-10-11T02.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 54,
+ "trades_markets_queried": 53,
  "trades_watchlist_markets": 36,
- "trades_collected": 207,
- "anomalies_detected": 10,
- "anomalies_new": 10,
+ "trades_collected": 204,
+ "anomalies_detected": 12,
+ "anomalies_new": 6,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "2333868749: HTTPError: HTTP Error 404: Not Found",
-  "3360878475: HTTPError: HTTP Error 404: Not Found",
-  "7163249745: HTTPError: HTTP Error 404: Not Found",
-  "2522171303: HTTPError: HTTP Error 404: Not Found"
- ],
  "books_markets": 51,
- "books_rows": 74,
+ "books_rows": 78,
  "status": "ok"
 }
