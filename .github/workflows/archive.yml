@@ -1,8 +1,5 @@
 name: archive
-on:
-  repository_dispatch:
-    types: [collect]   # 每次dispatcher事件同时跑archive链(与collect并行, 不同concurrency组)
-  workflow_dispatch: {}
+on: workflow_dispatch   # 10-11: 已并入collect.yml节奏(时间闸), 独立触发致并发互砍, 仅手动
 permissions:
   contents: write
 
