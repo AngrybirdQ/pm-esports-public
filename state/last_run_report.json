@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-12T00:27:15Z",
+ "ts": "2026-10-12T01:14:54Z",
  "sources": [
   {
    "url": "/tags",
@@ -208,16 +208,16 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Skyreavers vs Rottweilas Latam (BO3) - DreamLeague South Ameri",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Dawn Bulls vs Kalmychata (BO3) - EPL Masters Play-In Group B",
     "closed": false
    },
    {
     "t": "Dota 2: Mena Warriors vs Team Lynx (BO3) - EPL Masters Play-In Group A",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Skyreavers vs Rottweilas Latam (BO3) - DreamLeague South Ameri",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -310,19 +310,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 411,
- "markets": 280,
- "markets_dropped_by_volume_floor": 2684,
- "day_file": "data/2026/10/2026-10-12T00.jsonl",
+ "events": 410,
+ "markets": 279,
+ "markets_dropped_by_volume_floor": 2679,
+ "day_file": "data/2026/10/2026-10-12T01.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 56,
- "trades_watchlist_markets": 40,
- "trades_collected": 558,
- "anomalies_detected": 6,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 58,
- "books_rows": 106,
+ "trades_markets_queried": 53,
+ "trades_watchlist_markets": 41,
+ "trades_collected": 539,
+ "anomalies_detected": 9,
+ "anomalies_new": 8,
+ "history_debug": [
+  {
+   "cid": "0x04682482",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 56,
+ "books_rows": 110,
  "status": "ok"
 }
