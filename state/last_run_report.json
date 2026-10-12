@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-12T12:45:14Z",
+ "ts": "2026-10-12T12:49:00Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 70,
+   "events_returned": 69,
    "err": null
   },
   {
@@ -140,9 +140,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: KT Rolster vs Team Vitality (BO5) - Demacia Cup Global Invitation",
    "LoL: BNK FEARX vs JD Gaming (BO5) - Demacia Cup Global Invitational Pl",
-   "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi"
+   "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
@@ -159,9 +159,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: KT Rolster vs Team Vitality (BO5) - Demacia Cup Global Invitation",
    "LoL: BNK FEARX vs JD Gaming (BO5) - Demacia Cup Global Invitational Pl",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "Worlds 2026: Winner"
   ],
   "tag_slug=lol": [
    "Worlds 2026 Winning Region",
@@ -310,46 +310,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 408,
- "markets": 328,
- "markets_dropped_by_volume_floor": 2695,
+ "events": 406,
+ "markets": 321,
+ "markets_dropped_by_volume_floor": 2692,
  "day_file": "data/2026/10/2026-10-12T12.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 121,
  "trades_watchlist_markets": 102,
- "trades_collected": 2153,
- "anomalies_detected": 28,
- "anomalies_new": 0,
- "history_debug": [
-  {
-   "cid": "0xe78ea2ee",
-   "pts": 11,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x1ada9da7",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 2,
- "books_errors": [
-  "1067021432: HTTPError: HTTP Error 404: Not Found",
-  "7383099861: HTTPError: HTTP Error 404: Not Found",
-  "4602851196: HTTPError: HTTP Error 404: Not Found",
-  "4914797034: HTTPError: HTTP Error 404: Not Found",
-  "2650992160: HTTPError: HTTP Error 404: Not Found",
-  "2904254268: HTTPError: HTTP Error 404: Not Found",
-  "3625222128: HTTPError: HTTP Error 404: Not Found",
-  "4857905505: HTTPError: HTTP Error 404: Not Found",
-  "8272124002: HTTPError: HTTP Error 404: Not Found",
-  "1459141529: HTTPError: HTTP Error 404: Not Found",
-  "1433560441: HTTPError: HTTP Error 404: Not Found",
-  "1139608531: HTTPError: HTTP Error 404: Not Found",
-  "4614638655: HTTPError: HTTP Error 404: Not Found",
-  "1083742703: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 118,
+ "trades_collected": 2104,
+ "anomalies_detected": 30,
+ "anomalies_new": 4,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 111,
  "books_rows": 164,
  "status": "ok"
 }
