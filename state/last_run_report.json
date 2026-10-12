@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-12T13:11:43Z",
+ "ts": "2026-10-12T14:39:03Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 34,
+   "events_returned": 31,
    "err": null
   },
   {
@@ -204,19 +204,19 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs PARIVISION (BO3) - BLAST Slam Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Yellow Submarine vs Nemiga Gaming (BO3) - EPL Masters Play-In ",
     "closed": true
    },
    {
     "t": "Dota 2: CyberHero vs PuckChamp (BO3) - EPL Masters Play-In Group A",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Ivory vs Team Nemesis Academy (BO3) - DreamLeague Southeast As",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Mena Warriors vs Dawn Bulls (BO3) - DreamLeague Western Europe",
     "closed": false
    }
   ],
@@ -266,15 +266,7 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: G2 Esports vs T1 (BO3) - VCT Champions Playoffs",
-    "closed": true
-   },
-   {
     "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
-    "closed": false
-   },
-   {
-    "t": "VALORANT Champions 2026: Winner",
     "closed": false
    },
    {
@@ -283,6 +275,14 @@
    },
    {
     "t": "Most Kills on a Single Map at VALORANT Champions 2026",
+    "closed": false
+   },
+   {
+    "t": "VALORANT Champions 2026: Winner",
+    "closed": false
+   },
+   {
+    "t": "Most First Bloods at VALORANT Champions 2026",
     "closed": false
    }
   ],
@@ -311,18 +311,53 @@
  },
  "n_event_queries": 21,
  "events": 407,
- "markets": 323,
- "markets_dropped_by_volume_floor": 2684,
- "day_file": "data/2026/10/2026-10-12T13.jsonl",
+ "markets": 329,
+ "markets_dropped_by_volume_floor": 2670,
+ "day_file": "data/2026/10/2026-10-12T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 124,
- "trades_watchlist_markets": 102,
- "trades_collected": 1967,
- "anomalies_detected": 27,
- "anomalies_new": 4,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 113,
- "books_rows": 164,
+ "trades_markets_queried": 129,
+ "trades_watchlist_markets": 82,
+ "trades_collected": 3044,
+ "anomalies_detected": 29,
+ "anomalies_new": 29,
+ "history_debug": [
+  {
+   "cid": "0x4e0878dd",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x31286785",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x0ab7d516",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xf062015b",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x875af654",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x55ad26b3",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 6,
+ "books_errors": [
+  "9343296329: HTTPError: HTTP Error 404: Not Found",
+  "1820142797: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 112,
+ "books_rows": 156,
  "status": "ok"
 }
