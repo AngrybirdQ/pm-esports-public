@@ -3,9 +3,7 @@ name: resolve-conditions
 on:
   workflow_dispatch: {}
   repository_dispatch:
-    types: [collect]
-  repository_dispatch:
-    types: [collect]   # 10-11: actions_ops统一经此通道补跑(99611发现①)
+    types: [collect]   # actions_ops统一补跑通道(99611)
 
 permissions:
   contents: write
