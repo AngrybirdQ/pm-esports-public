@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-12T18:44:17Z",
+ "ts": "2026-10-12T18:46:13Z",
  "sources": [
   {
    "url": "/tags",
@@ -188,7 +188,6 @@
   ]
  },
  "winning_sources": [
-  "search:Dota 2",
   "tag_slug=cs2",
   "tag_slug=dota-2",
   "tag_slug=esports",
@@ -205,7 +204,7 @@
    },
    {
     "t": "Dota 2: Team Lynx vs CyberHero (BO3) - EPL Masters Play-In Group A",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Mena Warriors vs Team Lynx (BO3) - EPL Masters Play-In Group A",
@@ -310,18 +309,24 @@
   ]
  },
  "n_event_queries": 21,
- "events": 406,
+ "events": 405,
  "markets": 313,
- "markets_dropped_by_volume_floor": 2624,
+ "markets_dropped_by_volume_floor": 2621,
  "day_file": "data/2026/10/2026-10-12T18.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 100,
  "trades_watchlist_markets": 73,
- "trades_collected": 1615,
+ "trades_collected": 1620,
  "anomalies_detected": 0,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "2276543861: HTTPError: HTTP Error 404: Not Found",
+  "8693760059: HTTPError: HTTP Error 404: Not Found",
+  "5890434002: HTTPError: HTTP Error 404: Not Found",
+  "5090921895: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 85,
  "books_rows": 124,
  "status": "ok"
