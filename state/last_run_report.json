@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-12T14:42:38Z",
+ "ts": "2026-10-12T14:46:16Z",
  "sources": [
   {
    "url": "/tags",
@@ -216,7 +216,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Mena Warriors vs Dawn Bulls (BO3) - DreamLeague Western Europe",
+    "t": "Dota 2: Nemiga Gaming vs 111 (BO3) - DreamLeague Eastern Europe Open Q",
     "closed": false
    }
   ],
@@ -311,21 +311,17 @@
  },
  "n_event_queries": 21,
  "events": 407,
- "markets": 331,
- "markets_dropped_by_volume_floor": 2668,
+ "markets": 330,
+ "markets_dropped_by_volume_floor": 2654,
  "day_file": "data/2026/10/2026-10-12T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 129,
+ "trades_markets_queried": 128,
  "trades_watchlist_markets": 82,
- "trades_collected": 3065,
+ "trades_collected": 3006,
  "anomalies_detected": 3,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "9343296329: HTTPError: HTTP Error 404: Not Found",
-  "1820142797: HTTPError: HTTP Error 404: Not Found"
- ],
  "books_markets": 112,
  "books_rows": 150,
  "status": "ok"
