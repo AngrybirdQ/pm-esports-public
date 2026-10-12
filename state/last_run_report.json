@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-12T11:04:04Z",
+ "ts": "2026-10-12T11:06:24Z",
  "sources": [
   {
    "url": "/tags",
@@ -270,10 +270,6 @@
     "closed": true
    },
    {
-    "t": "Valorant: 100 Thieves vs NRG (BO3) - VCT Champions Playoffs",
-    "closed": true
-   },
-   {
     "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
     "closed": false
    },
@@ -283,6 +279,10 @@
    },
    {
     "t": "Most Kills on a Single Map at VALORANT Champions 2026",
+    "closed": false
+   },
+   {
+    "t": "Valorant: BBL Esports vs Misa Esports (BO5) - Monsters Reloaded Closed",
     "closed": false
    }
   ],
@@ -311,23 +311,17 @@
  },
  "n_event_queries": 21,
  "events": 405,
- "markets": 337,
- "markets_dropped_by_volume_floor": 2672,
+ "markets": 336,
+ "markets_dropped_by_volume_floor": 2671,
  "day_file": "data/2026/10/2026-10-12T11.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 122,
  "trades_watchlist_markets": 99,
- "trades_collected": 2372,
- "anomalies_detected": 27,
+ "trades_collected": 2358,
+ "anomalies_detected": 29,
  "anomalies_new": 2,
- "history_debug": [
-  {
-   "cid": "0xb42a856a",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 121,
  "books_rows": 176,
  "status": "ok"
