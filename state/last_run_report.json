@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-12T16:52:36Z",
+ "ts": "2026-10-12T18:21:22Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 32,
+   "events_returned": 31,
    "err": null
   },
   {
@@ -208,15 +208,15 @@
     "closed": false
    },
    {
+    "t": "Dota 2: Mena Warriors vs Team Lynx (BO3) - EPL Masters Play-In Group A",
+    "closed": false
+   },
+   {
     "t": "Dota 2: Yellow Submarine vs Nemiga Gaming (BO3) - EPL Masters Play-In ",
     "closed": true
    },
    {
     "t": "Dota 2: Mena Warriors vs Dawn Bulls (BO3) - DreamLeague Western Europe",
-    "closed": false
-   },
-   {
-    "t": "Dota 2: CyberHero vs PuckChamp (BO3) - EPL Masters Play-In Group A",
     "closed": true
    }
   ],
@@ -311,24 +311,50 @@
  },
  "n_event_queries": 21,
  "events": 407,
- "markets": 329,
- "markets_dropped_by_volume_floor": 2673,
- "day_file": "data/2026/10/2026-10-12T16.jsonl",
+ "markets": 317,
+ "markets_dropped_by_volume_floor": 2647,
+ "day_file": "data/2026/10/2026-10-12T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 118,
- "trades_watchlist_markets": 90,
- "trades_collected": 1591,
- "anomalies_detected": 21,
- "anomalies_new": 0,
+ "trades_markets_queried": 99,
+ "trades_watchlist_markets": 73,
+ "trades_collected": 1278,
+ "anomalies_detected": 12,
+ "anomalies_new": 12,
  "history_debug": [
   {
-   "cid": "0x40614060",
+   "cid": "0x7725c111",
+   "pts": 5,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x165cf2fe",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x3ff2b004",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xf98f67bb",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x861efcee",
    "pts": 1,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 1,
- "books_markets": 119,
- "books_rows": 140,
+ "history_conditions_new": 5,
+ "books_errors": [
+  "1120932129: HTTPError: HTTP Error 404: Not Found",
+  "9961537197: HTTPError: HTTP Error 404: Not Found",
+  "4487687833: HTTPError: HTTP Error 404: Not Found",
+  "4815304998: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 85,
+ "books_rows": 124,
  "status": "ok"
 }
