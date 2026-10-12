@@ -1,0 +1,15 @@
+name: resolve
+on: workflow_dispatch
+permissions:
+  contents: write
+
+concurrency:
+  group: resolve
+  cancel-in-progress: false
+
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 1
+    steps:
+      - run: echo "disabled — merged into collect.yml lowfreq sweep"
