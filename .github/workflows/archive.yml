@@ -1,5 +1,8 @@
 name: archive
-on: workflow_dispatch
+on:
+  repository_dispatch:
+    types: [collect]   # 每次dispatcher事件同时跑archive链(与collect并行, 不同concurrency组)
+  workflow_dispatch: {}
 permissions:
   contents: write
 
@@ -8,8 +11,29 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  noop:
+  sweep:
     runs-on: ubuntu-latest
-    timeout-minutes: 1
+    timeout-minutes: 35
+    env:
+      PINNACLE_KEY: ${{ secrets.PINNACLE_KEY }}
+      PH_BUDGET_S: "1200"
     steps:
-      - run: echo "disabled — merged into collect.yml lowfreq sweep"
+      - uses: actions/checkout@v4
+      - name: archive sweep (stage1 event list)
+        run: python3 scripts/archive_sweep.py || echo "archive failed"
+      - name: archive backfill (stage2 token histories)
+        run: python3 scripts/archive_backfill.py || echo "backfill failed"
+      - name: pinnacle history sweep (historical esports odds)
+        run: python3 scripts/pinnacle_history_sweep.py || echo "ph sweep failed"
+      - name: odota stats
+        run: python3 scripts/odota_stats.py || echo "odota failed"
+      - name: commit
+        run: |
+          git config user.name "pm-esports-collector"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data state
+          if ! git diff --cached --quiet; then
+            git commit -m "archive: $(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+            git pull --rebase --autostash origin main || true
+            git push origin HEAD:main || echo "push race (next run retries)"
+          fi
