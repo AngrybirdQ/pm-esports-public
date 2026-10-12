@@ -40,6 +40,7 @@ jobs:
     timeout-minutes: 115
     env:
       WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+      PINNACLE_KEY: ${{ secrets.PINNACLE_KEY }}
     steps:
       - uses: actions/checkout@v4
       - name: iterate (90s loop, ~100min budget)
@@ -51,6 +52,7 @@ jobs:
             i=$((i+1))
             echo "== longrun iter $i $(date -u '+%H:%M:%S') =="
             python3 scripts/collect.py || echo "collect failed (next iter retries)"
+            python3 scripts/pinnacle_anchor_collect.py || echo "pinnacle failed (next iter retries)"
             python3 scripts/wecom_alert.py || echo "wecom failed (next iter retries)"
             python3 scripts/collect_side.py || echo "side failed (next iter retries)"
             if [ $((i % 15)) -eq 1 ]; then python3 scripts/twin_and_settle.py || echo 'twin failed (next iter retries)'; fi
@@ -98,6 +100,10 @@ jobs:
         env:
           WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
         run: python3 scripts/wecom_alert.py || echo "wecom failed (commit retries)"
+      - name: pinnacle anchor collect
+        env:
+          PINNACLE_KEY: ${{ secrets.PINNACLE_KEY }}
+        run: python3 scripts/pinnacle_anchor_collect.py || echo "pinnacle failed (commit retries)"
       - uses: actions/upload-artifact@v4
         with:
           name: pm-flow
