@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-12T18:24:05Z",
+ "ts": "2026-10-12T18:26:27Z",
  "sources": [
   {
    "url": "/tags",
@@ -69,7 +69,7 @@
   {
    "url": "tag_slug=starcraft-2",
    "ok": true,
-   "events_returned": 2,
+   "events_returned": 1,
    "err": null
   },
   {
@@ -174,8 +174,7 @@
    "Least Played Map at VALORANT Champions 2026"
   ],
   "tag_slug=starcraft-2": [
-   "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
-   "StarCraft II: Lambo vs Cure (BO3) - WardiTV Championship Group Stage 2"
+   "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
   ],
   "tag_slug=international-affairs": [
    "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
@@ -310,19 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 407,
+ "events": 406,
  "markets": 313,
- "markets_dropped_by_volume_floor": 2637,
+ "markets_dropped_by_volume_floor": 2632,
  "day_file": "data/2026/10/2026-10-12T18.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 98,
  "trades_watchlist_markets": 73,
- "trades_collected": 1362,
+ "trades_collected": 1383,
  "anomalies_detected": 0,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 85,
- "books_rows": 126,
+ "books_rows": 128,
  "status": "ok"
 }
