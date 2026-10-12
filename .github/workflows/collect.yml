@@ -41,6 +41,7 @@ jobs:
     env:
       WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
       PINNACLE_KEY: ${{ secrets.PINNACLE_KEY }}
+      PH_BUDGET_S: "300"
     steps:
       - uses: actions/checkout@v4
       - name: iterate (90s loop, ~100min budget)
@@ -53,6 +54,7 @@ jobs:
             echo "== longrun iter $i $(date -u '+%H:%M:%S') =="
             python3 scripts/collect.py || echo "collect failed (next iter retries)"
             if [ $((i % 15)) -eq 1 ]; then python3 scripts/lowfreq_sweep.py || true; fi
+            if [ $((i % 15)) -eq 8 ]; then PH_BUDGET_S=300 python3 scripts/pinnacle_history_sweep.py || true; fi
             python3 scripts/pinnacle_anchor_collect.py || echo "pinnacle failed (next iter retries)"
             python3 scripts/wecom_alert.py || echo "wecom failed (next iter retries)"
             python3 scripts/collect_side.py || echo "side failed (next iter retries)"
@@ -101,7 +103,12 @@ jobs:
         env:
           WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
         run: python3 scripts/wecom_alert.py || echo "wecom failed (commit retries)"
-      - name: pinnacle anchor collect
+
+      - name: pinnacle history sweep (short batch)
+        env:
+          PINNACLE_KEY: ${{ secrets.PINNACLE_KEY }}
+          PH_BUDGET_S: "90"
+        run: python3 scripts/pinnacle_history_sweep.py || true      - name: pinnacle anchor collect
         env:
           PINNACLE_KEY: ${{ secrets.PINNACLE_KEY }}
         run: python3 scripts/pinnacle_anchor_collect.py || echo "pinnacle failed (commit retries)"
