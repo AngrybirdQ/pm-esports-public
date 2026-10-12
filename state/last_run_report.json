@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-12T19:41:57Z",
+ "ts": "2026-10-12T19:44:41Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 70,
+   "events_returned": 69,
    "err": null
   },
   {
@@ -159,9 +159,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: BNK FEARX vs JD Gaming (BO5) - Demacia Cup Global Invitational Pl",
    "Worlds 2026 Winning Region",
-   "Worlds 2026: Winner"
+   "Worlds 2026: Winner",
+   "LoL: KaBuM! Ilha das Lendas vs Golden Lions (BO5) - CBLOL Promotion Pl"
   ],
   "tag_slug=lol": [
    "Worlds 2026 Winning Region",
@@ -309,29 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 408,
- "markets": 307,
- "markets_dropped_by_volume_floor": 2627,
+ "events": 407,
+ "markets": 306,
+ "markets_dropped_by_volume_floor": 2625,
  "day_file": "data/2026/10/2026-10-12T19.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 98,
  "trades_watchlist_markets": 73,
- "trades_collected": 1619,
+ "trades_collected": 1595,
  "anomalies_detected": 3,
  "anomalies_new": 0,
- "history_debug": [
-  {
-   "cid": "0x1f06bf26",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
- "books_errors": [
-  "4294405504: HTTPError: HTTP Error 404: Not Found",
-  "9185096985: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 79,
- "books_rows": 120,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 78,
+ "books_rows": 116,
  "status": "ok"
 }
