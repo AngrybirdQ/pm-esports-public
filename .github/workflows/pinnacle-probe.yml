@@ -1,0 +1,20 @@
+name: pinnacle-history-probe
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PINNACLE_KEY: ${{ secrets.PINNACLE_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: probe historical endpoints
+        run: python3 scripts/pinnacle_history_probe.py
+      - name: commit probe results
+        run: |
+          git config user.name "probe" && git config user.email "probe@noreply"
+          git add data/pinnacle/probe_results.json
+          git diff --cached --quiet || (git commit -m "probe: history endpoints" && git push || true)
