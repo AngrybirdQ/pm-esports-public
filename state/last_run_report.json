@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-12T19:10:02Z",
+ "ts": "2026-10-12T19:18:07Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 45,
+   "events_returned": 44,
    "err": null
   },
   {
@@ -170,8 +170,8 @@
   ],
   "tag_slug=valorant": [
    "VALORANT Champions 2026: Winner",
-   "Valorant: BBL Esports vs Misa Esports (BO5) - Monsters Reloaded Closed",
-   "Least Played Map at VALORANT Champions 2026"
+   "Least Played Map at VALORANT Champions 2026",
+   "VALORANT Champions 2026 Winning Region"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -266,18 +266,18 @@
   "search:Valorant": [
    {
     "t": "Valorant: BBL Esports vs Misa Esports (BO5) - Monsters Reloaded Closed",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
     "closed": false
    },
    {
-    "t": "Most Kills on a Single Map at VALORANT Champions 2026",
+    "t": "VALORANT Champions 2026: Winner",
     "closed": false
    },
    {
-    "t": "VALORANT Champions 2026: Winner",
+    "t": "Most Kills on a Single Map at VALORANT Champions 2026",
     "closed": false
    },
    {
@@ -310,24 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 405,
- "markets": 311,
- "markets_dropped_by_volume_floor": 2598,
+ "markets": 306,
+ "markets_dropped_by_volume_floor": 2580,
  "day_file": "data/2026/10/2026-10-12T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 102,
+ "trades_markets_queried": 99,
  "trades_watchlist_markets": 73,
- "trades_collected": 1579,
- "anomalies_detected": 24,
- "anomalies_new": 4,
+ "trades_collected": 1474,
+ "anomalies_detected": 18,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "9530371473: HTTPError: HTTP Error 404: Not Found",
-  "2382826216: HTTPError: HTTP Error 404: Not Found",
-  "8295117079: HTTPError: HTTP Error 404: Not Found",
-  "4919212673: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 81,
- "books_rows": 114,
+ "books_markets": 82,
+ "books_rows": 122,
  "status": "ok"
 }
