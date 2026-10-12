@@ -23,8 +23,6 @@ jobs:
         run: python3 scripts/archive_sweep.py || echo "archive failed"
       - name: archive backfill (stage2 token histories)
         run: python3 scripts/archive_backfill.py || echo "backfill failed"
-      - name: pinnacle history sweep (historical esports odds)
-        run: python3 scripts/pinnacle_history_sweep.py || echo "ph sweep failed"
       - name: odota stats
         run: python3 scripts/odota_stats.py || echo "odota failed"
       - name: commit
