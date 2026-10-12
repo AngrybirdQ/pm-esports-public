@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-12T05:08:55Z",
+ "ts": "2026-10-12T05:11:14Z",
  "sources": [
   {
    "url": "/tags",
@@ -212,11 +212,11 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Mena Warriors vs Team Lynx (BO3) - EPL Masters Play-In Group A",
+    "t": "Dota 2: Yellow Submarine vs Nemiga Gaming (BO3) - EPL Masters Play-In ",
     "closed": false
    },
    {
-    "t": "Dota 2: Yellow Submarine vs Nemiga Gaming (BO3) - EPL Masters Play-In ",
+    "t": "Dota 2: Mena Warriors vs Team Lynx (BO3) - EPL Masters Play-In Group A",
     "closed": false
    }
   ],
@@ -310,18 +310,24 @@
   ]
  },
  "n_event_queries": 21,
- "events": 410,
- "markets": 277,
- "markets_dropped_by_volume_floor": 2667,
+ "events": 409,
+ "markets": 279,
+ "markets_dropped_by_volume_floor": 2662,
  "day_file": "data/2026/10/2026-10-12T05.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 65,
  "trades_watchlist_markets": 54,
- "trades_collected": 627,
+ "trades_collected": 630,
  "anomalies_detected": 6,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
+ "anomalies_new": 0,
+ "history_debug": [
+  {
+   "cid": "0x2cdb6f8a",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 68,
  "books_rows": 130,
  "status": "ok"
