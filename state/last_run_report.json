@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-12T07:25:24Z",
+ "ts": "2026-10-12T07:27:11Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 72,
+   "events_returned": 70,
    "err": null
   },
   {
@@ -208,15 +208,15 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Dawn Bulls vs Kalmychata (BO3) - EPL Masters Play-In Group B",
-    "closed": false
-   },
-   {
     "t": "Dota 2: Yellow Submarine vs Nemiga Gaming (BO3) - EPL Masters Play-In ",
     "closed": false
    },
    {
-    "t": "Dota 2: Mena Warriors vs Team Lynx (BO3) - EPL Masters Play-In Group A",
+    "t": "Dota 2: Dawn Bulls vs Kalmychata (BO3) - EPL Masters Play-In Group B",
+    "closed": false
+   },
+   {
+    "t": "Dota 2: Ivory vs Team Nemesis Academy (BO3) - DreamLeague Southeast As",
     "closed": false
    }
   ],
@@ -310,19 +310,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 409,
- "markets": 287,
- "markets_dropped_by_volume_floor": 2680,
+ "events": 408,
+ "markets": 286,
+ "markets_dropped_by_volume_floor": 2671,
  "day_file": "data/2026/10/2026-10-12T07.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 66,
+ "trades_markets_queried": 65,
  "trades_watchlist_markets": 56,
- "trades_collected": 1085,
+ "trades_collected": 1087,
  "anomalies_detected": 17,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 78,
- "books_rows": 148,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0x3cbbc996",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 75,
+ "books_rows": 142,
  "status": "ok"
 }
