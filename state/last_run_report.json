@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-12T10:58:11Z",
+ "ts": "2026-10-12T11:01:02Z",
  "sources": [
   {
    "url": "/tags",
@@ -216,7 +216,7 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Dawn Bulls vs Kalmychata (BO3) - EPL Masters Play-In Group B",
+    "t": "Dota 2: Mena Warriors vs Dawn Bulls (BO3) - DreamLeague Western Europe",
     "closed": false
    }
   ],
@@ -274,11 +274,11 @@
     "closed": true
    },
    {
-    "t": "VALORANT Champions 2026: Winner",
+    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
     "closed": false
    },
    {
-    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
+    "t": "VALORANT Champions 2026: Winner",
     "closed": false
    },
    {
@@ -311,22 +311,18 @@
  },
  "n_event_queries": 21,
  "events": 405,
- "markets": 335,
- "markets_dropped_by_volume_floor": 2675,
- "day_file": "data/2026/10/2026-10-12T10.jsonl",
+ "markets": 334,
+ "markets_dropped_by_volume_floor": 2673,
+ "day_file": "data/2026/10/2026-10-12T11.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 121,
  "trades_watchlist_markets": 99,
- "trades_collected": 2350,
+ "trades_collected": 2338,
  "anomalies_detected": 37,
- "anomalies_new": 18,
+ "anomalies_new": 35,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1026961602: HTTPError: HTTP Error 404: Not Found",
-  "8633802128: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 120,
+ "books_markets": 119,
  "books_rows": 174,
  "status": "ok"
 }
