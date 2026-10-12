@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-12T11:35:27Z",
+ "ts": "2026-10-12T11:37:34Z",
  "sources": [
   {
    "url": "/tags",
@@ -189,7 +189,6 @@
   ]
  },
  "winning_sources": [
-  "search:Dota 2",
   "tag_slug=cs2",
   "tag_slug=dota-2",
   "tag_slug=esports",
@@ -210,7 +209,7 @@
    },
    {
     "t": "Dota 2: Yellow Submarine vs Nemiga Gaming (BO3) - EPL Masters Play-In ",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Ivory vs Team Nemesis Academy (BO3) - DreamLeague Southeast As",
@@ -311,19 +310,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 406,
+ "events": 405,
  "markets": 334,
- "markets_dropped_by_volume_floor": 2655,
+ "markets_dropped_by_volume_floor": 2654,
  "day_file": "data/2026/10/2026-10-12T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 127,
+ "trades_markets_queried": 126,
  "trades_watchlist_markets": 99,
- "trades_collected": 2754,
- "anomalies_detected": 37,
- "anomalies_new": 0,
+ "trades_collected": 2712,
+ "anomalies_detected": 31,
+ "anomalies_new": 4,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 118,
- "books_rows": 178,
+ "books_markets": 119,
+ "books_rows": 176,
  "status": "ok"
 }
