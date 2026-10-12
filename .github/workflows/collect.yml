@@ -52,6 +52,7 @@ jobs:
             i=$((i+1))
             echo "== longrun iter $i $(date -u '+%H:%M:%S') =="
             python3 scripts/collect.py || echo "collect failed (next iter retries)"
+            if [ $((i % 15)) -eq 1 ]; then python3 scripts/lowfreq_sweep.py || true; fi
             python3 scripts/pinnacle_anchor_collect.py || echo "pinnacle failed (next iter retries)"
             python3 scripts/wecom_alert.py || echo "wecom failed (next iter retries)"
             python3 scripts/collect_side.py || echo "side failed (next iter retries)"
