@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-12T09:53:36Z",
+ "ts": "2026-10-12T10:47:15Z",
  "sources": [
   {
    "url": "/tags",
@@ -212,11 +212,11 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Dawn Bulls vs Kalmychata (BO3) - EPL Masters Play-In Group B",
+    "t": "Dota 2: Ivory vs Team Nemesis Academy (BO3) - DreamLeague Southeast As",
     "closed": false
    },
    {
-    "t": "Dota 2: Su4 Esport vs Cresent (BO3) - DreamLeague China Open Qualifier",
+    "t": "Dota 2: Dawn Bulls vs Kalmychata (BO3) - EPL Masters Play-In Group B",
     "closed": false
    }
   ],
@@ -310,19 +310,30 @@
   ]
  },
  "n_event_queries": 21,
- "events": 407,
- "markets": 328,
- "markets_dropped_by_volume_floor": 2702,
- "day_file": "data/2026/10/2026-10-12T09.jsonl",
+ "events": 405,
+ "markets": 337,
+ "markets_dropped_by_volume_floor": 2674,
+ "day_file": "data/2026/10/2026-10-12T10.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 102,
- "trades_watchlist_markets": 70,
- "trades_collected": 2005,
- "anomalies_detected": 29,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 107,
- "books_rows": 166,
+ "trades_markets_queried": 120,
+ "trades_watchlist_markets": 99,
+ "trades_collected": 2326,
+ "anomalies_detected": 22,
+ "anomalies_new": 22,
+ "history_debug": [
+  {
+   "cid": "0x4f4adb0d",
+   "pts": 10,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x13de78f2",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_markets": 121,
+ "books_rows": 178,
  "status": "ok"
 }
