@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-12T09:23:16Z",
+ "ts": "2026-10-12T09:26:07Z",
  "sources": [
   {
    "url": "/tags",
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "LoL: KT Rolster vs Team Vitality (BO5) - Demacia Cup Global Invitation",
-   "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
-   "Worlds 2026 Winning Region"
+   "LoL: BNK FEARX vs JD Gaming (BO5) - Demacia Cup Global Invitational Pl",
+   "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
@@ -311,18 +311,24 @@
  },
  "n_event_queries": 21,
  "events": 408,
- "markets": 318,
- "markets_dropped_by_volume_floor": 2704,
+ "markets": 328,
+ "markets_dropped_by_volume_floor": 2702,
  "day_file": "data/2026/10/2026-10-12T09.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 93,
+ "trades_markets_queried": 101,
  "trades_watchlist_markets": 70,
- "trades_collected": 1940,
- "anomalies_detected": 44,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 99,
- "books_rows": 156,
+ "trades_collected": 2107,
+ "anomalies_detected": 45,
+ "anomalies_new": 3,
+ "history_debug": [
+  {
+   "cid": "0x4631b15a",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 106,
+ "books_rows": 168,
  "status": "ok"
 }
