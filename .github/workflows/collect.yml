@@ -108,7 +108,8 @@ jobs:
         env:
           PINNACLE_KEY: ${{ secrets.PINNACLE_KEY }}
           PH_BUDGET_S: "90"
-        run: python3 scripts/pinnacle_history_sweep.py || true      - name: pinnacle anchor collect
+        run: python3 scripts/pinnacle_history_sweep.py || echo "ph failed (next round)"
+      - name: pinnacle anchor collect
         env:
           PINNACLE_KEY: ${{ secrets.PINNACLE_KEY }}
         run: python3 scripts/pinnacle_anchor_collect.py || echo "pinnacle failed (commit retries)"
