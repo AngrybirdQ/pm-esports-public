@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-12T05:51:52Z",
+ "ts": "2026-10-12T05:54:27Z",
  "sources": [
   {
    "url": "/tags",
@@ -160,8 +160,8 @@
   ],
   "tag_slug=league-of-legends": [
    "Worlds 2026 Winning Region",
-   "Worlds 2026: Winner",
-   "LoL: KaBuM! Ilha das Lendas vs Golden Lions (BO5) - CBLOL Promotion Pl"
+   "LoL: KT Rolster vs Team Vitality (BO5) - Demacia Cup Global Invitation",
+   "Worlds 2026: Winner"
   ],
   "tag_slug=lol": [
    "Worlds 2026 Winning Region",
@@ -310,19 +310,23 @@
   ]
  },
  "n_event_queries": 21,
- "events": 410,
- "markets": 284,
- "markets_dropped_by_volume_floor": 2662,
+ "events": 409,
+ "markets": 285,
+ "markets_dropped_by_volume_floor": 2658,
  "day_file": "data/2026/10/2026-10-12T05.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 67,
+ "trades_markets_queried": 69,
  "trades_watchlist_markets": 54,
- "trades_collected": 600,
- "anomalies_detected": 4,
+ "trades_collected": 637,
+ "anomalies_detected": 6,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 69,
- "books_rows": 132,
+ "books_errors": [
+  "7391393991: HTTPError: HTTP Error 404: Not Found",
+  "1029564869: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 70,
+ "books_rows": 134,
  "status": "ok"
 }
