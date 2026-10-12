@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-12T21:46:59Z",
+ "ts": "2026-10-12T22:13:27Z",
  "sources": [
   {
    "url": "/tags",
@@ -277,11 +277,11 @@
     "closed": false
    },
    {
-    "t": "Most Kills on a Single Map at VALORANT Champions 2026",
+    "t": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
     "closed": false
    },
    {
-    "t": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
+    "t": "Most Kills on a Single Map at VALORANT Champions 2026",
     "closed": false
    }
   ],
@@ -309,25 +309,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 415,
- "markets": 296,
- "markets_dropped_by_volume_floor": 2735,
- "day_file": "data/2026/10/2026-10-12T21.jsonl",
+ "events": 416,
+ "markets": 303,
+ "markets_dropped_by_volume_floor": 2742,
+ "day_file": "data/2026/10/2026-10-12T22.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 90,
- "trades_watchlist_markets": 66,
- "trades_collected": 1365,
- "anomalies_detected": 18,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "8189351386: HTTPError: HTTP Error 404: Not Found",
-  "1106276255: HTTPError: HTTP Error 404: Not Found",
-  "8067372273: HTTPError: HTTP Error 404: Not Found",
-  "5803697763: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 84,
+ "trades_watchlist_markets": 69,
+ "trades_collected": 1540,
+ "anomalies_detected": 24,
+ "anomalies_new": 24,
+ "history_debug": [
+  {
+   "cid": "0x14cd6112",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 90,
- "books_rows": 146,
+ "history_conditions_new": 1,
+ "books_markets": 88,
+ "books_rows": 148,
  "status": "ok"
 }
