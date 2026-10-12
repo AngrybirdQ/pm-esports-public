@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-12T19:37:06Z",
+ "ts": "2026-10-12T19:39:46Z",
  "sources": [
   {
    "url": "/tags",
@@ -140,9 +140,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: BNK FEARX vs JD Gaming (BO5) - Demacia Cup Global Invitational Pl",
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "Worlds 2026: Winner"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
@@ -309,27 +309,23 @@
   ]
  },
  "n_event_queries": 21,
- "events": 404,
- "markets": 307,
- "markets_dropped_by_volume_floor": 2576,
+ "events": 405,
+ "markets": 306,
+ "markets_dropped_by_volume_floor": 2568,
  "day_file": "data/2026/10/2026-10-12T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 99,
+ "trades_markets_queried": 98,
  "trades_watchlist_markets": 73,
- "trades_collected": 1585,
+ "trades_collected": 1631,
  "anomalies_detected": 5,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "2331317636: HTTPError: HTTP Error 404: Not Found",
-  "4347751547: HTTPError: HTTP Error 404: Not Found",
-  "1286835745: HTTPError: HTTP Error 404: Not Found",
-  "3001455522: HTTPError: HTTP Error 404: Not Found",
-  "2460263830: HTTPError: HTTP Error 404: Not Found",
-  "5753117148: HTTPError: HTTP Error 404: Not Found"
+  "4294405504: HTTPError: HTTP Error 404: Not Found",
+  "9185096985: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 82,
+ "books_markets": 79,
  "books_rows": 120,
  "status": "ok"
 }
