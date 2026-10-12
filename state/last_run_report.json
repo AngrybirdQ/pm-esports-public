@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-12T19:59:42Z",
+ "ts": "2026-10-12T20:16:33Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 36,
+   "events_returned": 41,
    "err": null
   },
   {
@@ -203,10 +203,6 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Yandex vs Team Spirit (BO5) - BLAST Slam Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Mena Warriors vs Team Lynx (BO3) - EPL Masters Play-In Group A",
     "closed": false
    },
@@ -216,6 +212,10 @@
    },
    {
     "t": "Dota 2: Mena Warriors vs Dawn Bulls (BO3) - DreamLeague Western Europe",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: CyberHero vs PuckChamp (BO3) - EPL Masters Play-In Group A",
     "closed": true
    }
   ],
@@ -309,25 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 411,
+ "events": 416,
  "markets": 306,
- "markets_dropped_by_volume_floor": 2696,
- "day_file": "data/2026/10/2026-10-12T19.jsonl",
+ "markets_dropped_by_volume_floor": 2798,
+ "day_file": "data/2026/10/2026-10-12T20.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 98,
- "trades_watchlist_markets": 73,
- "trades_collected": 1289,
- "anomalies_detected": 7,
- "anomalies_new": 0,
- "history_debug": [
-  {
-   "cid": "0x36462501",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
- "books_markets": 78,
- "books_rows": 114,
+ "trades_markets_queried": 81,
+ "trades_watchlist_markets": 66,
+ "trades_collected": 1068,
+ "anomalies_detected": 9,
+ "anomalies_new": 9,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 87,
+ "books_rows": 130,
  "status": "ok"
 }
