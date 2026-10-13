@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-13T17:56:20Z",
+ "ts": "2026-10-13T17:58:30Z",
  "sources": [
   {
    "url": "/tags",
@@ -188,7 +188,6 @@
   ]
  },
  "winning_sources": [
-  "search:Dota 2",
   "tag_slug=cs2",
   "tag_slug=dota-2",
   "tag_slug=esports",
@@ -213,7 +212,7 @@
    },
    {
     "t": "Dota 2: Power Rangers vs The Warriors (BO3) - DreamLeague Eastern Euro",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Yakult Brothers vs Zenith (BO3) - DreamLeague China Closed Qua",
@@ -311,18 +310,24 @@
  },
  "n_event_queries": 21,
  "events": 410,
- "markets": 309,
- "markets_dropped_by_volume_floor": 2796,
+ "markets": 310,
+ "markets_dropped_by_volume_floor": 2797,
  "day_file": "data/2026/10/2026-10-13T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 93,
+ "trades_markets_queried": 94,
  "trades_watchlist_markets": 68,
- "trades_collected": 1797,
- "anomalies_detected": 29,
+ "trades_collected": 1841,
+ "anomalies_detected": 27,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 78,
- "books_rows": 118,
+ "books_errors": [
+  "1069868662: HTTPError: HTTP Error 404: Not Found",
+  "5867240191: HTTPError: HTTP Error 404: Not Found",
+  "1036470727: HTTPError: HTTP Error 404: Not Found",
+  "9633773259: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 79,
+ "books_rows": 110,
  "status": "ok"
 }
