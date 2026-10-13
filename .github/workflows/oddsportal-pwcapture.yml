@@ -1,0 +1,53 @@
+name: oddsportal-network-capture
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Install playwright
+        run: pip install playwright && playwright install chromium --with-deps 2>&1 | tail -2
+      - name: Capture results page network
+        env:
+          UA: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+        run: |
+          python3 << 'PYEOF'
+          import json, time
+          from playwright.sync_api import sync_playwright
+          captured = []
+          bodies = {}
+          with sync_playwright() as p:
+              b = p.chromium.launch(args=["--no-sandbox"])
+              pg = b.new_page(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
+              def on_req(req):
+                  u = req.url
+                  if any(k in u for k in ("/proxy/", "ajax", ".dat")):
+                      captured.append((req.method, u[:220]))
+              def on_resp(resp):
+                  u = resp.url
+                  if ".dat" in u or "archive" in u.lower():
+                      try:
+                          bodies[u[:220]] = resp.text()[:600]
+                      except Exception as e:
+                          bodies[u[:220]] = f"body err {e}"
+              pg.on("request", on_req)
+              pg.on("response", on_resp)
+              pg.goto("https://www.oddsportal.com/esports/league-of-legends/league-of-legends-emea-masters/results/",
+                      wait_until="domcontentloaded", timeout=45000)
+              time.sleep(12)
+              # 点可能的赛季/更多按钮不做了, 先看首屏XHR
+              b.close()
+          print(f"=== captured {len(captured)} XHRs ===")
+          for m, u in captured:
+              print(m, u)
+          print("=== .dat/archive bodies ===")
+          for u, b in bodies.items():
+              print("URL:", u)
+              print("BODY:", (b or "")[:500])
+          PYEOF
