@@ -1,0 +1,30 @@
+name: pin-worker-probe
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pin-worker-probe
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - name: fetch probe via API
+        run: gh api "repos/${{ github.repository }}/contents/scripts/pin_worker_probe.py?ref=main" --jq .content | base64 -d > p.py
+        env: { GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
+      - run: python3 p.py
+        env:
+          PIN_KEY: '${{ secrets.PIN_KEY }}'
+      - name: commit result
+        run: |
+          F=state/pin_worker_probe.json
+          SHA=$(gh api "repos/${{ github.repository }}/contents/$F?ref=main" --jq .sha 2>/dev/null || echo "")
+          ARGS=(--method PUT "repos/${{ github.repository }}/contents/$F" -f message="pin probe $(date -u +%H:%MZ)" -f content="$(base64 -w0 $F)" -f branch=main)
+          [ -n "$SHA" ] && ARGS+=(-f sha="$SHA")
+          gh api "${ARGS[@]}" >/dev/null && echo committed
+        env: { GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
