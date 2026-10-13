@@ -84,12 +84,16 @@ jobs:
               print("leagues:", len(league_urls), flush=True)
               os.makedirs(OUT, exist_ok=True)
               done = {os.path.basename(f).replace("league_", "").replace(".jsonl", "") for f in glob.glob(OUT + "/league_*.jsonl")}
-              todo = [u for u in league_urls if u.split("/oddsportal.com/")[1].split("/results/")[0].replace("/", "_") not in done][START_OFFSET:]
+              def slug_of(u):
+                  m = re.search(r"/esports/([^/]+)/([^/]+)/results/", u)
+                  return (m.group(1) + "_" + m.group(2)) if m else None
+                  
+              todo = [u for u in league_urls if slug_of(u) and slug_of(u) not in done][START_OFFSET:]
               print("todo:", len(todo), flush=True)
               pg = ctx.new_page()
               processed = 0
               for i, url in enumerate(todo[:PER_RUN]):
-                  slug = url.split("/oddsportal.com/")[1].split("/results/")[0].replace("/", "_")
+                  slug = slug_of(url) or ("unknown_" + str(i))
                   fn = OUT + "/league_" + slug + ".jsonl"
                   rows = []
                   try:
