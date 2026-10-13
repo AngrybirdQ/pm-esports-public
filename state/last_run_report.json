@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-13T13:36:08Z",
+ "ts": "2026-10-13T15:26:55Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 39,
+   "events_returned": 47,
    "err": null
   },
   {
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 63,
+   "events_returned": 64,
    "err": null
   },
   {
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "LoL: HANJIN BRION vs LGD Gaming (BO5) - Demacia Cup Global Invitationa",
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026: Winner"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
@@ -160,12 +160,12 @@
   ],
   "tag_slug=league-of-legends": [
    "LoL: HANJIN BRION vs LGD Gaming (BO5) - Demacia Cup Global Invitationa",
-   "Worlds 2026 Winning Region",
-   "Worlds 2026: Winner"
+   "Worlds 2026: Winner",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
-   "Worlds 2026 Winning Region",
    "Worlds 2026: Winner",
+   "Worlds 2026 Winning Region",
    "Demacia Cup Global Invitational 2026: Winner"
   ],
   "tag_slug=valorant": [
@@ -203,10 +203,6 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Lynx vs CyberHero (BO3) - EPL Masters Play-In Group A",
-    "closed": true
-   },
-   {
     "t": "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - DreamLeague Eastern Europe C",
     "closed": true
    },
@@ -216,6 +212,10 @@
    },
    {
     "t": "Dota 2: Mena Warriors vs Team Lynx (BO3) - EPL Masters Play-In Group A",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Team Lynx vs CyberHero (BO3) - EPL Masters Play-In Group A",
     "closed": true
    }
   ],
@@ -269,11 +269,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
+    "t": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
     "closed": false
    },
    {
-    "t": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
+    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
     "closed": false
    },
    {
@@ -309,19 +309,45 @@
   ]
  },
  "n_event_queries": 21,
- "events": 408,
- "markets": 319,
- "markets_dropped_by_volume_floor": 2702,
- "day_file": "data/2026/10/2026-10-13T13.jsonl",
+ "events": 413,
+ "markets": 312,
+ "markets_dropped_by_volume_floor": 2827,
+ "day_file": "data/2026/10/2026-10-13T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 107,
- "trades_watchlist_markets": 89,
- "trades_collected": 2408,
- "anomalies_detected": 30,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 95,
- "books_rows": 130,
+ "trades_markets_queried": 82,
+ "trades_watchlist_markets": 53,
+ "trades_collected": 2042,
+ "anomalies_detected": 1,
+ "anomalies_new": 1,
+ "history_debug": [
+  {
+   "cid": "0x94a0eba9",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x75fdb0b5",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xe42893b8",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x0dff7559",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xde50a145",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 5,
+ "books_markets": 80,
+ "books_rows": 112,
  "status": "ok"
 }
