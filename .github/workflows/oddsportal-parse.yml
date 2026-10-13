@@ -1,0 +1,55 @@
+name: oddsportal-results-parse
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Parse results page RSC data
+        env:
+          UA: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+        run: |
+          python3 << 'PYEOF'
+          import json, re, time, urllib.request
+          UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+          def get(url, tries=3):
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": UA,
+                          "Accept": "text/html", "Referer": "https://www.oddsportal.com/esports/"})
+                      with urllib.request.urlopen(req, timeout=35) as r:
+                          return r.status, r.read().decode("utf-8", "replace")
+                  except urllib.error.HTTPError as e:
+                      if e.code in (429, 503) and i < tries-1:
+                          time.sleep(12 + i*8); continue
+                      return e.code, ""
+                  except Exception as ex:
+                      if i < tries-1: time.sleep(5); continue
+                      return 0, str(ex)[:80]
+          st, h = get("https://www.oddsportal.com/esports/league-of-legends/league-of-legends-emea-masters/results/")
+          print("results:", st, "size:", len(h))
+          # flight chunks → blob
+          chunks = re.findall(r'self\.__next_f\.push\(\[1,"(.*?)"\]\)', h, re.S)
+          blob = "".join(c.encode().decode("unicode_escape") for c in chunks)
+          print("blob len:", len(blob))
+          # 找结构化比赛记录特征
+          for pat in ['"matchId"', '"homeName"', '"awayName"', '"homeOdds"', '"awayOdds"',
+                      '"odds":', '"score"', '"winningSide"', '"S1"', 'Pinnacle']:
+              c = len(re.findall(re.escape(pat), blob))
+              print(f"  {pat}: {c}")
+          # 抽一个完整比赛对象样例
+          m = re.search(r'\{[^{}]{0,80}"homeName"[^{}]{0,400}\}', blob)
+          if not m:
+              m = re.search(r'\{[^{}]{0,80}"matchId"[^{}]{0,500}\}', blob)
+          if m:
+              print("SAMPLE:", m.group(0)[:600])
+          # 若无, 找 odds 数值上下文
+          i = blob.find('"odds"')
+          if i >= 0:
+              print("odds ctx:", blob[max(0,i-250):i+250])
+          PYEOF
