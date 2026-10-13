@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-13T18:24:49Z",
+ "ts": "2026-10-13T18:32:30Z",
  "sources": [
   {
    "url": "/tags",
@@ -215,7 +215,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Yakult Brothers vs Zenith (BO3) - DreamLeague China Closed Qua",
+    "t": "Dota 2: HULIGANI vs Yellow Submarine (BO3) - DreamLeague Eastern Europ",
     "closed": false
    }
   ],
@@ -309,30 +309,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 407,
+ "events": 408,
  "markets": 306,
- "markets_dropped_by_volume_floor": 2785,
+ "markets_dropped_by_volume_floor": 2787,
  "day_file": "data/2026/10/2026-10-13T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 95,
+ "trades_markets_queried": 94,
  "trades_watchlist_markets": 68,
- "trades_collected": 1805,
- "anomalies_detected": 29,
- "anomalies_new": 0,
+ "trades_collected": 1874,
+ "anomalies_detected": 28,
+ "anomalies_new": 27,
  "history_debug": [
   {
-   "cid": "0x4828c185",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x9f141794",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
+   "cid": "0xb5a14875",
+   "pts": 0,
+   "variant": "none"
   }
  ],
- "history_conditions_new": 2,
- "books_markets": 76,
- "books_rows": 104,
+ "history_conditions_new": 0,
+ "books_markets": 75,
+ "books_rows": 108,
  "status": "ok"
 }
