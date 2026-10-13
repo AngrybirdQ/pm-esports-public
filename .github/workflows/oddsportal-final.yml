@@ -66,6 +66,23 @@ jobs:
           print("pt head text:", pt_raw[:80])
           # 无pad校验直接落地+也试去pad版
           open("pt_raw.bin", "wb").write(pt_raw)
+          import gzip as _gz
+          try:
+              jtxt = _gz.decompress(pt_raw).decode("utf-8", "replace")
+              print("=== GUNZIP OK, json len:", len(jtxt))
+              data = json.loads(jtxt)
+              print("top type:", type(data).__name__)
+              if isinstance(data, dict):
+                  print("keys:", list(data.keys())[:10])
+                  s2 = json.dumps(data, ensure_ascii=False)
+                  print(s2[:2500])
+                  open("decrypted_sample.json", "w").write(s2)
+              elif isinstance(data, list):
+                  print("list len:", len(data))
+                  print(json.dumps(data[:2], ensure_ascii=False)[:2500])
+                  open("decrypted_sample.json", "w").write(json.dumps(data, ensure_ascii=False))
+          except Exception as e:
+              print("gunzip/json fail:", str(e)[:100])
           n = pt_raw[-1]
           if 1 <= n <= 16 and pt_raw[-n:] == bytes([n])*n:
               open("pt_trim.json", "wb").write(pt_raw[:-n])
