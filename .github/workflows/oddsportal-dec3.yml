@@ -53,40 +53,54 @@ jobs:
               print("meta keys:", list(meta.keys()))
           except Exception:
               meta = None
-          # 3) AES-CBC 解密(PBKDF2 1000轮)
-          import binascii
-          try:
-              from Crypto.Cipher import AES  # runner有pycryptodome? 若无走hashlib+cryptography
-              HAVE = True
-          except Exception:
-              HAVE = False
-          print("pycryptodome:", HAVE)
-          def pbkdf2_key():
-              p = base64.b64decode("Sio4c1EhcCQ3YURfZlIyeVdAZ0huKjNiVnAjc0FkTGRfaw==")
-              s = base64.b64decode("NWI5YThmMmMzZTZkMWE0YjdjOGU5ZDBmMWEyYjNjNGQ=")
-              return hashlib.pbkdf2_hmac("sha256", p, s, 1000, dklen=32)
-          key = pbkdf2_key()
-          print("key:", key.hex())
+          # 3) dump v() 函数(从JS chunk里)
+          st4, h4 = get("https://www.oddsportal.com/esports/tomorrow/")
+          srcs4 = sorted(set(re.findall(r'src="(/_next/static/chunks/[^"]+\.js)"', h4)))
+          for s4 in srcs4:
+              st5, js5 = get("https://www.oddsportal.com" + s4)
+              if st5 == 200 and "async function v(" in js5:
+                  i5 = js5.index("async function v(")
+                  print("=== v() body ===")
+                  print(js5[i5:i5+1200], flush=True)
+                  break
+          # 4) 变体穷举解密
+          import base64 as b64, itertools, subprocess
+          inner = b64.b64decode(raw).decode("latin1")
+          print("inner len:", len(inner), "tail:", inner[-70:], flush=True)
+          p = b64.b64decode("Sio4c1EhcCQ3YURfZlIyeVdAZ0huKjNiVnAjc0FkTGRfaw==")
+          sl = b64.b64decode("NWI5YThmMmMzZTZkMWE0YjdjOGU5ZDBmMWEyYjNjNGQ=")
           def unpad(b):
               n = b[-1]
               return b[:-n] if 1 <= n <= 16 else b
-          def try_decrypt(raw_body, key):
-              import base64 as b64
-              inner = b64.b64decode(raw_body).decode("latin1")
-              ct_b64, iv_hex = inner.rsplit(":", 1)
-              iv = bytes.fromhex(iv_hex)
-              ct = b64.b64decode(ct_b64)
-              open("/tmp/ct.bin","wb").write(ct)
-              import subprocess
-              r = subprocess.run(["openssl","enc","-d","-aes-256-cbc","-K",key.hex(),
-                  "-iv",iv_hex,"-nosalt","-in","/tmp/ct.bin"],
-                  capture_output=True)
-              if r.returncode != 0:
-                  return None, "openssl: " + r.stderr.decode()[:80]
-              pt = r.stdout
-              n = pt[-1]
-              if 1 <= n <= 16: pt = pt[:-n]
-              return pt.decode("utf-8", "replace"), None
+          def try_aes(k, iv, ct):
+              open("/tmp/c.bin","wb").write(ct)
+              r = subprocess.run(["openssl","enc","-d","-aes-256-cbc","-K",k.hex(),
+                  "-iv",iv.hex(),"-nosalt","-in","/tmp/c.bin"], capture_output=True)
+              if r.returncode != 0: return None
+              out = r.stdout
+              n = out[-1]
+              if not (1 <= n <= 16) or out[-n:] != bytes([n])*n: return None
+              try: return out[:-n].decode("utf-8")
+              except Exception: return None
+          hit = None
+          for hname in ("sha256", "sha512", "sha1"):
+              for iters in (1000, 100, 1):
+                  key = hashlib.pbkdf2_hmac(hname, p, sl, iters, dklen=32)
+                  ct_b64, iv_hex = inner.rsplit(":", 1)
+                  r1 = try_aes(key, bytes.fromhex(iv_hex), b64.b64decode(ct_b64))
+                  if r1: hit = (hname, iters, "ct:iv", r1); break
+                  # 反向
+                  iv_hex2, ct_b642 = inner.rsplit(":", 1)
+                  r2 = try_aes(key, bytes.fromhex(iv_hex2), b64.b64decode(ct_b642))
+                  if r2: hit = (hname, iters, "iv:ct", r2); break
+              if hit: break
+          if hit:
+              hname, iters, orient, pt = hit
+              print(f"=== DECRYPTED via {hname}/{iters}/{orient} ===")
+              print(pt[:1500], flush=True)
+              open("decrypted_sample.json","w").write(pt)
+          else:
+              print("ALL VARIANTS FAILED")
           if raw:
               pt, err = try_decrypt(inner, key)
               if pt:
