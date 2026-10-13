@@ -1,0 +1,51 @@
+name: oddsportal-pw-capture2
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Install playwright
+        run: pip install playwright && playwright install chromium --with-deps 2>&1 | tail -1
+      - name: Capture all network on results page
+        run: |
+          python3 << 'PYEOF'
+          import time
+          from playwright.sync_api import sync_playwright
+          reqs = []
+          with sync_playwright() as p:
+              b = p.chromium.launch(args=["--no-sandbox", "--disable-blink-features=AutomationControlled"])
+              ctx = b.new_context(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+                  viewport={"width": 1440, "height": 900},
+                  extra_http_headers={"Accept-Language": "en-US,en;q=0.9"})
+              pg = ctx.new_page()
+              def on_req(req):
+                  u = req.url
+                  if "oddsportal.com" in u and not any(k in u for k in ("_next/static", ".svg", ".png", ".woff", ".css", "cookielaw", "googletag", "analytics")):
+                      reqs.append((req.method, u[:250], (req.post_data or "")[:150]))
+              pg.on("request", on_req)
+              pg.goto("https://www.oddsportal.com/esports/counter-strike/counter-strike-esl-pro-league-season-24/results/",
+                      wait_until="domcontentloaded", timeout=60000)
+              for wait_round in range(6):
+                  time.sleep(5)
+                  pg.mouse.wheel(0, 800)
+              # 点"show more"类按钮(如果存在)
+              try:
+                  for sel in ("text=Show more", "text=More events", "[class*='more']"):
+                      if pg.locator(sel).count() > 0:
+                          pg.locator(sel).first.click()
+                          time.sleep(5)
+                          break
+              except Exception: pass
+              time.sleep(10)
+              print(f"=== captured {len(reqs)} requests ===")
+              for m, u, pd in reqs:
+                  print(m, u, ("POST:"+pd) if pd else "")
+              b.close()
+          PYEOF
