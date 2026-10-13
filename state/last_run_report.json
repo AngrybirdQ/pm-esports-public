@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-13T04:01:20Z",
+ "ts": "2026-10-13T04:05:05Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 65,
+   "events_returned": 64,
    "err": null
   },
   {
@@ -159,9 +159,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: Maryville University vs Disguised (BO5) - LCS Promotion Playoffs",
    "Worlds 2026 Winning Region",
-   "Worlds 2026: Winner"
+   "Worlds 2026: Winner",
+   "LoL: KaBuM! Ilha das Lendas vs Golden Lions (BO5) - CBLOL Promotion Pl"
   ],
   "tag_slug=lol": [
    "Worlds 2026 Winning Region",
@@ -310,30 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 414,
- "markets": 295,
- "markets_dropped_by_volume_floor": 2694,
+ "markets": 285,
+ "markets_dropped_by_volume_floor": 2675,
  "day_file": "data/2026/10/2026-10-13T04.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 74,
+ "trades_markets_queried": 68,
  "trades_watchlist_markets": 57,
- "trades_collected": 425,
- "anomalies_detected": 5,
- "anomalies_new": 2,
+ "trades_collected": 389,
+ "anomalies_detected": 4,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "8517382634: HTTPError: HTTP Error 404: Not Found",
-  "5797060760: HTTPError: HTTP Error 404: Not Found",
-  "2388419536: HTTPError: HTTP Error 404: Not Found",
-  "3522403245: HTTPError: HTTP Error 404: Not Found",
-  "8138401443: HTTPError: HTTP Error 404: Not Found",
-  "6035811375: HTTPError: HTTP Error 404: Not Found",
-  "5015594117: HTTPError: HTTP Error 404: Not Found",
-  "1091203294: HTTPError: HTTP Error 404: Not Found",
-  "8378947256: HTTPError: HTTP Error 404: Not Found",
-  "6306554257: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 77,
- "books_rows": 132,
+ "books_markets": 74,
+ "books_rows": 146,
  "status": "ok"
 }
