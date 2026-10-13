@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-12T22:17:41Z",
+ "ts": "2026-10-13T00:05:42Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 40,
+   "events_returned": 43,
    "err": null
   },
   {
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 67,
+   "events_returned": 68,
    "err": null
   },
   {
@@ -140,9 +140,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
+   "LoL: LOS vs KaBuM! Ilha das Lendas (BO5) - CBLOL Promotion Playoffs",
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
-   "Worlds 2026 Winning Region",
-   "Worlds 2026: Winner"
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
@@ -159,9 +159,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
+   "LoL: LOS vs KaBuM! Ilha das Lendas (BO5) - CBLOL Promotion Playoffs",
    "Worlds 2026 Winning Region",
-   "Worlds 2026: Winner",
-   "LoL: KaBuM! Ilha das Lendas vs Golden Lions (BO5) - CBLOL Promotion Pl"
+   "Worlds 2026: Winner"
   ],
   "tag_slug=lol": [
    "Worlds 2026 Winning Region",
@@ -273,11 +273,11 @@
     "closed": false
    },
    {
-    "t": "VALORANT Champions 2026: Winner",
+    "t": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
     "closed": false
    },
    {
-    "t": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
+    "t": "VALORANT Champions 2026: Winner",
     "closed": false
    },
    {
@@ -309,19 +309,46 @@
   ]
  },
  "n_event_queries": 21,
- "events": 416,
+ "events": 418,
  "markets": 303,
- "markets_dropped_by_volume_floor": 2746,
- "day_file": "data/2026/10/2026-10-12T22.jsonl",
- "retention_removed_files": 0,
- "trades_markets_queried": 84,
- "trades_watchlist_markets": 69,
- "trades_collected": 1524,
- "anomalies_detected": 26,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 88,
- "books_rows": 148,
+ "markets_dropped_by_volume_floor": 2813,
+ "day_file": "data/2026/10/2026-10-13T00.jsonl",
+ "retention_removed_files": 93,
+ "trades_markets_queried": 88,
+ "trades_watchlist_markets": 75,
+ "trades_collected": 1535,
+ "anomalies_detected": 0,
+ "anomalies_new": 0,
+ "history_debug": [
+  {
+   "cid": "0xdb06f4cc",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xe03a54e7",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xa8e34fb8",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x49afe219",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 4,
+ "books_errors": [
+  "7284524301: HTTPError: HTTP Error 404: Not Found",
+  "3413459264: HTTPError: HTTP Error 404: Not Found",
+  "9873995288: HTTPError: HTTP Error 404: Not Found",
+  "7998408648: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 92,
+ "books_rows": 140,
  "status": "ok"
 }
