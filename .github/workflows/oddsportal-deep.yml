@@ -93,7 +93,8 @@ jobs:
           print(f"todo: {len(todo)} (skipped {len(done_slugs)} done + {START_OFFSET} offset)", flush=True)
           # 3) 逐联赛爬取
           for i, url in enumerate(todo):
-              slug = url.split("/")[4]
+              parts = url.split("/")
+              slug = (parts[3] + "_" + parts[2]) if len(parts) > 4 else parts[2]
               h = get_rich(url)
               rows = extract_rows(h) if h else []
               slim = [{"id": r.get("id"), "home": r.get("home-name"), "away": r.get("away-name"),
