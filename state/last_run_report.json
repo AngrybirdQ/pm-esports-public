@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-13T13:06:34Z",
+ "ts": "2026-10-13T13:24:09Z",
  "sources": [
   {
    "url": "/tags",
@@ -251,15 +251,15 @@
     "closed": false
    },
    {
-    "t": "Will Jynxzi reach Gold rank in League of Legends by...?",
-    "closed": false
-   },
-   {
     "t": "LoL: Dplus KIA Challengers vs KT Rolster Challengers (BO5) - LCK Chall",
     "closed": true
    },
    {
     "t": "LoL: T1 Academy vs KT Rolster Challengers (BO5) - LCK Challengers Leag",
+    "closed": true
+   },
+   {
+    "t": "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO5) - LCK Challengers",
     "closed": true
    }
   ],
@@ -277,11 +277,11 @@
     "closed": false
    },
    {
-    "t": "VALORANT Champions 2026: Winner",
+    "t": "Most First Bloods at VALORANT Champions 2026",
     "closed": false
    },
    {
-    "t": "Most First Bloods at VALORANT Champions 2026",
+    "t": "VALORANT Champions 2026: Winner",
     "closed": false
    }
   ],
@@ -309,19 +309,30 @@
   ]
  },
  "n_event_queries": 21,
- "events": 409,
- "markets": 306,
- "markets_dropped_by_volume_floor": 2724,
+ "events": 407,
+ "markets": 318,
+ "markets_dropped_by_volume_floor": 2705,
  "day_file": "data/2026/10/2026-10-13T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 104,
- "trades_watchlist_markets": 68,
- "trades_collected": 1708,
- "anomalies_detected": 17,
- "anomalies_new": 17,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 91,
- "books_rows": 118,
+ "trades_markets_queried": 107,
+ "trades_watchlist_markets": 89,
+ "trades_collected": 2288,
+ "anomalies_detected": 24,
+ "anomalies_new": 24,
+ "history_debug": [
+  {
+   "cid": "0xdcf99340",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xf6622941",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_markets": 97,
+ "books_rows": 128,
  "status": "ok"
 }
