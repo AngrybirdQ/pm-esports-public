@@ -1,0 +1,60 @@
+name: oddsportal-v12-results-sitemap
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Parse esports results sitemap
+        env:
+          UA: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+        run: |
+          python3 << 'PYEOF'
+          import re, time, urllib.request
+          UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+          def get(url, tries=4):
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
+                      with urllib.request.urlopen(req, timeout=60) as r:
+                          raw = r.read()
+                          if raw[:2] == b"\x1f\x8b": import gzip; raw = gzip.decompress(raw)
+                          return r.status, raw.decode("utf-8", "replace")
+                  except urllib.error.HTTPError as e:
+                      if e.code in (429, 503) and i < tries-1: time.sleep(12); continue
+                      return e.code, ""
+                  except Exception:
+                      if i < tries-1: time.sleep(5); continue
+                      return 0, ""
+          st, sm = get("https://www.oddsportal.com/sitemap/esports/results.xml")
+          print("esports results.xml:", st, "len:", len(sm), flush=True)
+          urls = re.findall(r"<loc>([^<]+)</loc>", sm)
+          print("total urls:", len(urls), flush=True)
+          # 形态分析: 联赛results页 vs 场次页
+          league_pages = [u for u in urls if re.match(r"^https://www\.oddsportal\.com/esports/[^/]+/[a-z0-9-]+/$", u)]
+          season_leagues = sorted(set(re.findall(r"/esports/[a-z0-9-]+/([a-z0-9-]*season-\d+)/", " ".join(urls))))
+          match_pages = [u for u in urls if u.count("/") > 5]
+          print("league-level pages:", len(league_pages), flush=True)
+          print("season-named leagues:", len(season_leagues), season_leagues[:10], flush=True)
+          print("deep match pages:", len(match_pages), flush=True)
+          for u in (league_pages[:5] + match_pages[:3]):
+              print("  ", u[:110], flush=True)
+          time.sleep(3)
+          # tournament.xml 抽样
+          st2, t2 = get("https://www.oddsportal.com/sitemap/tournament.xml")
+          turls = re.findall(r"<loc>([^<]+)</loc>", t2)
+          es_t = [u for u in turls if "/esports/" in u]
+          print("tournament.xml total:", len(turls), "| esports:", len(es_t), flush=True)
+          for u in es_t[:6]: print("  ", u[:110], flush=True)
+          # 保存完整枚举供爬虫用
+          json.dump({"league_pages": league_pages, "season_leagues": season_leagues,
+                     "match_pages": match_pages, "es_tournaments": es_t},
+                    open("esports_enum.json", "w"))
+          print("saved esports_enum.json", flush=True)
+          PYEOF
