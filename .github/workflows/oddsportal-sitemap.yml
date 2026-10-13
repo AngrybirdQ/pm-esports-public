@@ -1,0 +1,50 @@
+name: oddsportal-sitemap-probe
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sitemap and match page probe
+        env:
+          UA: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+        run: |
+          python3 << 'PYEOF'
+          import gzip, io, json, re, time, urllib.request, urllib.error
+          UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+          def get(url, tries=3, timeout=30):
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*",
+                          "Referer": "https://www.oddsportal.com/"})
+                      with urllib.request.urlopen(req, timeout=timeout) as r:
+                          raw = r.read()
+                          if url.endswith(".gz") or raw[:2] == b"\x1f\x8b":
+                              raw = gzip.decompress(raw)
+                          return r.status, raw
+                  except urllib.error.HTTPError as e:
+                      if e.code in (429, 503) and i < tries-1:
+                          time.sleep(10 + i*10); continue
+                      return e.code, b""
+                  except Exception as ex:
+                      if i < tries-1: time.sleep(5); continue
+                      return 0, str(ex).encode()
+          # 1) sitemap 索引
+          for su in ("https://www.oddsportal.com/sitemap.xml", "https://www.oddsportal.com/sitemap/"):
+              st, raw = get(su)
+              txt = raw.decode("utf-8", "replace")[:3000]
+              print(f"== {su}: {st}")
+              print(txt[:600].replace("\n", " "))
+              time.sleep(4)
+          # 2) 从已知模式直接试: 昨日有一场 WBT vs NAVI Junior (Roman Imperium Cup IX)
+          #    oddsportal match url 模式: /esports/<region>/<league>/<teams>-<id>/
+          #    从 sitemap 或搜索接口找; 先试 robots.txt
+          st, raw = get("https://www.oddsportal.com/robots.txt")
+          print("== robots:", st)
+          print(raw.decode("utf-8", "replace")[:800])
+          PYEOF
