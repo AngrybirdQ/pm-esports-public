@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-13T12:20:36Z",
+ "ts": "2026-10-13T12:28:49Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,13 +51,13 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 66,
+   "events_returned": 64,
    "err": null
   },
   {
    "url": "tag_slug=lol",
    "ok": true,
-   "events_returned": 39,
+   "events_returned": 37,
    "err": null
   },
   {
@@ -309,29 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 412,
- "markets": 308,
- "markets_dropped_by_volume_floor": 2743,
+ "events": 409,
+ "markets": 306,
+ "markets_dropped_by_volume_floor": 2723,
  "day_file": "data/2026/10/2026-10-13T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 94,
+ "trades_markets_queried": 98,
  "trades_watchlist_markets": 68,
- "trades_collected": 1906,
- "anomalies_detected": 23,
- "anomalies_new": 0,
+ "trades_collected": 1880,
+ "anomalies_detected": 24,
+ "anomalies_new": 7,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1137816280: HTTPError: HTTP Error 404: Not Found",
-  "3952129973: HTTPError: HTTP Error 404: Not Found",
-  "6382946077: HTTPError: HTTP Error 404: Not Found",
-  "3264784472: HTTPError: HTTP Error 404: Not Found",
-  "6549450635: HTTPError: HTTP Error 404: Not Found",
-  "2255658202: HTTPError: HTTP Error 404: Not Found",
-  "1118923681: HTTPError: HTTP Error 404: Not Found",
-  "1156732388: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 95,
- "books_rows": 124,
+ "books_markets": 96,
+ "books_rows": 130,
  "status": "ok"
 }
