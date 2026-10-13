@@ -34,7 +34,7 @@ jobs:
 
           # 1) dump p(e) 与 v() 函数体(解密链上游)
           st, h = get("https://www.oddsportal.com/esports/tomorrow/")
-          srcs = sorted(set(re.findall(r'src="(/_next/static/chunks/[^"]+\.js)"', h.decode("utf-8","replace"))))
+          srcs = sorted(set(re.findall(r'src="(/_next/static/chunks/[^"]+\.js)"', h)))
           for s in srcs:
               st2, js = get("https://www.oddsportal.com" + s)
               if js and "ciphertextBase64" in js:
@@ -46,7 +46,7 @@ jobs:
           # 2) 取10-10的.dat并完整解密
           st3, raw = get("https://www.oddsportal.com/proxy/ajax-nextgames/36/2/1/20261010/yjd25.dat?page=1&hideFinished=0")
           print("fetch:", st3, "bytes:", len(raw))
-          inner = base64.b64decode(raw).decode("utf-8", "replace")
+          inner = base64.b64decode(raw).decode("utf-8", "replace") if isinstance(raw, bytes) else raw
           print("inner type guess: json" if inner.strip().startswith("{") else "inner raw head: "+inner[:80])
           try:
               meta = json.loads(inner)
