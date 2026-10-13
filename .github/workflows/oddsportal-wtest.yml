@@ -1,0 +1,42 @@
+name: oddsportal-via-worker-test
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: OddsPortal via CF Worker
+        env:
+          PIN_WORKER: https://pinnacle-anchor.577813472.workers.dev
+        run: |
+          python3 << 'PYEOF'
+          import os, time, urllib.request, urllib.parse
+          W = os.environ["PIN_WORKER"]
+          def get(path, tries=2):
+              url = W + "/?url=" + urllib.parse.quote("https://www.oddsportal.com" + path, safe="")
+              for i in range(tries):
+                  try:
+                      with urllib.request.urlopen(urllib.request.Request(url, headers={
+                              "Accept": "text/html,*/*"}), timeout=45) as r:
+                          return r.status, r.read().decode("utf-8", "replace")
+                  except urllib.error.HTTPError as e:
+                      if e.code in (429, 503) and i < tries-1: time.sleep(10); continue
+                      return e.code, ""
+                  except Exception as ex:
+                      if i < tries-1: time.sleep(5); continue
+                      return 0, str(ex)[:60]
+          st, sm = get("/sitemap/esports/results.xml")
+          import re
+          n = len(re.findall(r"<loc>", sm)) if st == 200 else 0
+          print(f"sitemap via worker: {st} urls={n}", flush=True)
+          time.sleep(3)
+          st2, h = get("/esports/counter-strike/counter-strike-esl-pro-league-season-24/results/")
+          rich = h.count("encodeEventId") if st2 == 200 else 0
+          print(f"results page via worker: {st2} size={len(h)} rich={rich}", flush=True)
+          PYEOF
