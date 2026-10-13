@@ -1,0 +1,83 @@
+name: oddsportal-v7-final-validation
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Validate results extraction + old seasons + menu
+        env:
+          UA: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+        run: |
+          python3 << 'PYEOF'
+          import json, re, time, urllib.request
+          UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+          def get(url, tries=6):
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html"})
+                      with urllib.request.urlopen(req, timeout=40) as r:
+                          return r.status, r.read().decode("utf-8", "replace")
+                  except urllib.error.HTTPError as e:
+                      if e.code in (429, 503) and i < tries-1: time.sleep(12); continue
+                      return e.code, ""
+                  except Exception:
+                      if i < tries-1: time.sleep(5); continue
+                      return 0, ""
+          def fetch_rich(url):
+              """拿到含比赛数据的完整页(空壳则重试)"""
+              for i in range(5):
+                  st, h = get(url)
+                  if "encodeEventId" in h and h.count("encodeEventId") >= 5:
+                      return st, h, True
+                  time.sleep(6)
+              return st, h, False
+          def extract_rows(h):
+              chunks = re.findall(r'self\.__next_f\.push\(\[1,"(.*?)"\]\)', h, re.S)
+              blob = "".join(c.encode().decode("unicode_escape") for c in chunks)
+              rows = []
+              for m in re.finditer(r'\{"id":\d+,[^{}]*?"encodeEventId":"[^"]+"[^{}]*?"result":"[^"]*"[^{}]*?\}', blob):
+                  try:
+                      rows.append(json.loads(m.group(0)))
+                  except Exception: pass
+              return rows, blob
+          # 1) 当前赛季 results 抽取
+          st, h, ok = fetch_rich("https://www.oddsportal.com/esports/counter-strike/counter-strike-esl-pro-league-season-24/results/")
+          print("results page:", st, "rich:", ok, flush=True)
+          if ok:
+              rows, blob = extract_rows(h)
+              print("rows extracted:", len(rows), flush=True)
+              if rows:
+                  r0 = rows[0]
+                  print("row keys:", sorted(r0.keys())[:30], flush=True)
+                  print("odds-related keys:", [k for k in r0 if "odd" in k.lower() or "bookmaker" in k.lower()], flush=True)
+                  print("SAMPLE:", json.dumps({k: r0[k] for k in list(r0.keys())[:24]}, ensure_ascii=False)[:700], flush=True)
+          time.sleep(4)
+          # 2) 老赛季同构验证 (season-20/21/22)
+          for season in (22, 20):
+              st2, h2, ok2 = fetch_rich(f"https://www.oddsportal.com/esports/counter-strike/counter-strike-esl-pro-league-season-{season}/results/")
+              if ok2:
+                  rows2, _ = extract_rows(h2)
+                  print(f"season-{season}: rows={len(rows2)}", flush=True)
+                  if rows2:
+                      yrs = sorted({r.get("date-start-timestamp") for r in rows2 if r.get("date-start-timestamp")})
+                      import datetime
+                      ys = [datetime.datetime.utcfromtimestamp(int(t)).year for t in yrs[:5] + yrs[-5:]]
+                      print(f"  years span: {min(ys)}-{max(ys)}", flush=True)
+              else:
+                  print(f"season-{season}: page={st2} rich=False(可能无此季/空壳)", flush=True)
+              time.sleep(4)
+          # 3) 菜单接口: 全联赛枚举?
+          st3, m3 = get("https://www.oddsportal.com/proxy/ajax-getSportsMenuDataBySport/36/1/")
+          print("menu:", st3, "size:", len(m3))
+          if st3 == 200:
+              ids = len(re.findall(r'"tournament-id"|"id":\d{4,}', m3))
+              urls = re.findall(r'"url":"([a-z0-9-]+)"', m3)
+              print("menu leagues-ish:", len(urls), urls[:8], flush=True)
+          PYEOF
