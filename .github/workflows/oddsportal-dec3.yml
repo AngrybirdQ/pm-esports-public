@@ -1,0 +1,98 @@
+name: oddsportal-decrypt-final
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Full decrypt implementation + test on past date
+        env:
+          UA: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+        run: |
+          python3 << 'PYEOF'
+          import base64, hashlib, json, re, time, urllib.request
+          UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+          def get(url, tries=3):
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
+                      with urllib.request.urlopen(req, timeout=35) as r:
+                          raw = r.read()
+                          if raw[:2] == b"\x1f\x8b": import gzip; raw = gzip.decompress(raw)
+                          return r.status, raw
+                  except urllib.error.HTTPError as e:
+                      if e.code in (429, 503) and i < tries-1: time.sleep(10+i*8); continue
+                      return e.code, b""
+                  except Exception:
+                      if i < tries-1: time.sleep(5); continue
+                      return 0, b""
+
+          # 1) dump p(e) 与 v() 函数体(解密链上游)
+          st, h = get("https://www.oddsportal.com/esports/tomorrow/")
+          srcs = sorted(set(re.findall(r'src="(/_next/static/chunks/[^"]+\.js)"', h.decode("utf-8","replace"))))
+          for s in srcs:
+              st2, js = get("https://www.oddsportal.com" + s)
+              if js and "ciphertextBase64" in js:
+                  i = js.find("ciphertextBase64")
+                  print("=== around ciphertextBase64 ===")
+                  print(js[max(0,i-2000):i+200], flush=True)
+                  break
+
+          # 2) 取10-10的.dat并完整解密
+          st3, raw = get("https://www.oddsportal.com/proxy/ajax-nextgames/36/2/1/20261010/yjd25.dat?page=1&hideFinished=0")
+          print("fetch:", st3, "bytes:", len(raw))
+          inner = base64.b64decode(raw).decode("utf-8", "replace")
+          print("inner type guess: json" if inner.strip().startswith("{") else "inner raw head: "+inner[:80])
+          try:
+              meta = json.loads(inner)
+              print("meta keys:", list(meta.keys()))
+          except Exception:
+              meta = None
+          # 3) AES-CBC 解密(PBKDF2 1000轮)
+          import binascii
+          try:
+              from Crypto.Cipher import AES  # runner有pycryptodome? 若无走hashlib+cryptography
+              HAVE = True
+          except Exception:
+              HAVE = False
+          print("pycryptodome:", HAVE)
+          def pbkdf2_key():
+              p = base64.b64decode("Sio4c1EhcCQ3YURfZlIyeVdAZ0huKjNiVnAjc0FkTGRfaw==")
+              s = base64.b64decode("NWI5YThmMmMzZTZkMWE0YjdjOGU5ZDBmMWEyYjNjNGQ=")
+              return hashlib.pbkdf2_hmac("sha256", p, s, 1000, dklen=32)
+          key = pbkdf2_key()
+          print("key:", key.hex())
+          def unpad(b):
+              n = b[-1]
+              return b[:-n] if 1 <= n <= 16 else b
+          def try_decrypt(inner_txt, key):
+              # 形态A: {"ciphertextBase64":..,"ivHex":..}
+              try:
+                  m = json.loads(inner_txt)
+                  ct = base64.b64decode(m["ciphertextBase64"])
+                  iv = bytes.fromhex(m["ivHex"])
+              except Exception:
+                  # 形态B: ivHex前32hex + 密文b64
+                  mtxt = re.match(r'^([0-9a-fA-F]{32})([A-Za-z0-9+/=]+)$', inner_txt.strip())
+                  if not mtxt: return None, "format unknown"
+                  iv = bytes.fromhex(mtxt.group(1)); ct = base64.b64decode(mtxt.group(2))
+              try:
+                  from Crypto.Cipher import AES
+                  pt = AES.new(key, AES.MODE_CBC, iv).decrypt(ct)
+                  return unpad(pt).decode("utf-8", "replace"), None
+              except Exception as e:
+                  return None, str(e)[:80]
+          if inner:
+              pt, err = try_decrypt(inner, key)
+              if pt:
+                  print("=== DECRYPTED HEAD 1500 ===")
+                  print(pt[:1500])
+                  open("decrypted_sample.json", "w").write(pt)
+              else:
+                  print("decrypt fail:", err)
+          PYEOF
