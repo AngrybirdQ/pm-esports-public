@@ -50,10 +50,29 @@ jobs:
               return r.stdout[:-n].decode("utf-8")
           st, body = get("https://www.oddsportal.com/proxy/ajax-nextgames/36/2/1/20261010/yjd25.dat?page=1&hideFinished=0")
           print("fetch:", st, "bytes:", len(body))
-          pt = decrypt_dat(body)
-          data = json.loads(pt)
-          print("=== DECRYPT OK, top keys:", list(data.keys()) if isinstance(data, dict) else type(data))
-          s = json.dumps(data, ensure_ascii=False)
-          print(s[:2000])
-          open("decrypted_sample.json", "w").write(s)
+          inner = base64.b64decode(body).decode("latin1")
+          print("inner len:", len(inner), "| tail:", inner[-50:])
+          ct_b64, iv_hex = inner.rsplit(":", 1)
+          print("iv:", iv_hex, "| ct_b64 head:", ct_b64[:24], "| ct len:", len(ct_b64))
+          iv = bytes.fromhex(iv_hex); ct = base64.b64decode(ct_b64)
+          print("ct bytes:", len(ct), "head:", ct[:16].hex())
+          import subprocess
+          r = subprocess.run(["openssl", "enc", "-d", "-aes-256-cbc", "-K", KEY.hex(),
+              "-iv", iv.hex(), "-nosalt", "-in", "/tmp/ct.bin"], capture_output=True)
+          print("openssl rc:", r.returncode, "stderr:", r.stderr.decode()[:60])
+          pt_raw = r.stdout
+          print("pt len:", len(pt_raw), "| last byte:", pt_raw[-1], "| pt head hex:", pt_raw[:16].hex())
+          print("pt head text:", pt_raw[:80])
+          # 无pad校验直接落地+也试去pad版
+          open("pt_raw.bin", "wb").write(pt_raw)
+          n = pt_raw[-1]
+          if 1 <= n <= 16 and pt_raw[-n:] == bytes([n])*n:
+              open("pt_trim.json", "wb").write(pt_raw[:-n])
+              print("TRIMMED OK:", pt_raw[:-n][:300])
+          # 对照: 试 sha1/sha512 派生
+          for hn in ("sha1", "sha512"):
+              k2 = hashlib.pbkdf2_hmac(hn, PASS, SALT, 1000, dklen=32)
+              r2 = subprocess.run(["openssl", "enc", "-d", "-aes-256-cbc", "-K", k2.hex(),
+                  "-iv", iv.hex(), "-nosalt", "-in", "/tmp/ct.bin"], capture_output=True)
+              print(f"alt {hn}: rc={r2.returncode} last={r2.stdout[-1] if r2.stdout else '-'}")
           PYEOF
