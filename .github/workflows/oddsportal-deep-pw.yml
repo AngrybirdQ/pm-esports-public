@@ -58,14 +58,12 @@ jobs:
               except Exception:
                   return []
 
-          # 枚举
-          with sync_playwright() as p:
-              b = p.chromium.launch(args=["--no-sandbox"])
-              pg = b.new_page()
-              pg.goto("https://www.oddsportal.com/sitemap/esports/results.xml", timeout=60000)
-              txt = pg.content()
-              b.close()
-          import re
+          # 枚举(urllib直连sitemap, 浏览器XML渲染会剥标签)
+          import re, urllib.request
+          req = urllib.request.Request("https://www.oddsportal.com/sitemap/esports/results.xml",
+              headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/131", "Accept": "*/*"})
+          with urllib.request.urlopen(req, timeout=60) as r:
+              txt = r.read().decode("utf-8", "replace")
           league_urls = sorted(set(re.findall(r"<loc>(https://www\.oddsportal\.com/esports/[^/]+/[^/]+/results/)</loc>", txt)))
           print(f"leagues: {len(league_urls)}", flush=True)
 
