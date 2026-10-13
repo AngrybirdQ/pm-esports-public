@@ -1,0 +1,39 @@
+name: oddsportal-cloud-probe
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe OddsPortal from cloud
+        env:
+          UA: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+        run: |
+          echo "=== egress ==="
+          curl -sS --max-time 15 https://api.ipify.org; echo
+          echo "=== 1) esports results page ==="
+          code=$(curl -sS -o /tmp/r.html -w "%{http_code}" --max-time 25 -A "$UA" \
+            -H "Accept: text/html" "https://www.oddsportal.com/esports/results/" || echo err)
+          echo "results: HTTP=$code size=$(wc -c < /tmp/r.html 2>/dev/null)"
+          echo "=== 2) XHR endpoints for PAST matches ==="
+          for u in \
+            "https://www.oddsportal.com/proxy/ajax-nextgames/36/2/1/20261010/yjd25.dat?page=1&hideFinished=0" \
+            "https://www.oddsportal.com/proxy/ajax-games/36/2/1/20261010/yjd25.dat?page=1" \
+            "https://www.oddsportal.com/proxy/ajax-result-games/36/2/1/20261010/yjd25.dat?page=1" \
+            "https://www.oddsportal.com/proxy/api/home-data" ; do
+            c=$(curl -sS -o /tmp/x.out -w "%{http_code}" --max-time 20 -A "$UA" \
+              -H "Referer: https://www.oddsportal.com/esports/results/" -H "Accept: */*" "$u" || echo err)
+            echo "$(basename ${u%%\?*}): $c :: $(head -c 100 /tmp/x.out | tr -d '\n')"
+          done
+          echo "=== 3) rate limit feel: 6 quick hits ==="
+          for i in 1 2 3 4 5 6; do
+            c=$(curl -sS -o /dev/null -w "%{http_code}" --max-time 15 -A "$UA" \
+              "https://www.oddsportal.com/esports/results/")
+            echo -n "$c "
+          done; echo
+          echo "=== PROBE DONE ==="
