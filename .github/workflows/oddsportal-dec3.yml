@@ -70,24 +70,24 @@ jobs:
           def unpad(b):
               n = b[-1]
               return b[:-n] if 1 <= n <= 16 else b
-          def try_decrypt(inner_txt, key):
-              # 形态A: {"ciphertextBase64":..,"ivHex":..}
-              try:
-                  m = json.loads(inner_txt)
-                  ct = base64.b64decode(m["ciphertextBase64"])
-                  iv = bytes.fromhex(m["ivHex"])
-              except Exception:
-                  # 形态B: ivHex前32hex + 密文b64
-                  mtxt = re.match(r'^([0-9a-fA-F]{32})([A-Za-z0-9+/=]+)$', inner_txt.strip())
-                  if not mtxt: return None, "format unknown"
-                  iv = bytes.fromhex(mtxt.group(1)); ct = base64.b64decode(mtxt.group(2))
-              try:
-                  from Crypto.Cipher import AES
-                  pt = AES.new(key, AES.MODE_CBC, iv).decrypt(ct)
-                  return unpad(pt).decode("utf-8", "replace"), None
-              except Exception as e:
-                  return None, str(e)[:80]
-          if inner:
+          def try_decrypt(raw_body, key):
+              import base64 as b64
+              inner = b64.b64decode(raw_body).decode("latin1")
+              ct_b64, iv_hex = inner.rsplit(":", 1)
+              iv = bytes.fromhex(iv_hex)
+              ct = b64.b64decode(ct_b64)
+              open("/tmp/ct.bin","wb").write(ct)
+              import subprocess
+              r = subprocess.run(["openssl","enc","-d","-aes-256-cbc","-K",key.hex(),
+                  "-iv",iv_hex,"-nosalt","-in","/tmp/ct.bin"],
+                  capture_output=True)
+              if r.returncode != 0:
+                  return None, "openssl: " + r.stderr.decode()[:80]
+              pt = r.stdout
+              n = pt[-1]
+              if 1 <= n <= 16: pt = pt[:-n]
+              return pt.decode("utf-8", "replace"), None
+          if raw:
               pt, err = try_decrypt(inner, key)
               if pt:
                   print("=== DECRYPTED HEAD 1500 ===")
