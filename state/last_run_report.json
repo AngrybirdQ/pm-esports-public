@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-13T21:25:06Z",
+ "ts": "2026-10-13T21:27:53Z",
  "sources": [
   {
    "url": "/tags",
@@ -265,15 +265,15 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
-    "closed": false
-   },
-   {
     "t": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
     "closed": false
    },
    {
     "t": "Valorant: FlyQuest RED vs Akave Esports Black (BO3) - VCT Game Changer",
+    "closed": false
+   },
+   {
+    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
     "closed": false
    },
    {
@@ -309,14 +309,14 @@
   ]
  },
  "n_event_queries": 21,
- "events": 415,
- "markets": 300,
- "markets_dropped_by_volume_floor": 2703,
+ "events": 414,
+ "markets": 298,
+ "markets_dropped_by_volume_floor": 2699,
  "day_file": "data/2026/10/2026-10-13T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 104,
+ "trades_markets_queried": 102,
  "trades_watchlist_markets": 76,
- "trades_collected": 1173,
+ "trades_collected": 1214,
  "anomalies_detected": 0,
  "anomalies_new": 0,
  "history_debug": [
@@ -327,13 +327,7 @@
   }
  ],
  "history_conditions_new": 0,
- "books_errors": [
-  "6989011870: HTTPError: HTTP Error 404: Not Found",
-  "1103447011: HTTPError: HTTP Error 404: Not Found",
-  "1082575292: HTTPError: HTTP Error 404: Not Found",
-  "5793648730: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 99,
+ "books_markets": 97,
  "books_rows": 174,
  "status": "ok"
 }
