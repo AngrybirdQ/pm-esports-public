@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-13T12:59:14Z",
+ "ts": "2026-10-13T13:06:34Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 40,
+   "events_returned": 39,
    "err": null
   },
   {
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 64,
+   "events_returned": 63,
    "err": null
   },
   {
@@ -140,9 +140,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: Team WE vs FlyQuest (BO5) - Demacia Cup Global Invitational Playo",
    "LoL: HANJIN BRION vs LGD Gaming (BO5) - Demacia Cup Global Invitationa",
-   "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi"
+   "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
@@ -159,9 +159,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: Team WE vs FlyQuest (BO5) - Demacia Cup Global Invitational Playo",
    "LoL: HANJIN BRION vs LGD Gaming (BO5) - Demacia Cup Global Invitationa",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "Worlds 2026: Winner"
   ],
   "tag_slug=lol": [
    "Worlds 2026 Winning Region",
@@ -212,7 +212,7 @@
    },
    {
     "t": "Dota 2: Yellow Submarine vs Kalmychata (BO3) - DreamLeague Eastern Eur",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Mena Warriors vs Team Lynx (BO3) - EPL Masters Play-In Group A",
@@ -310,18 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 409,
- "markets": 307,
- "markets_dropped_by_volume_floor": 2721,
- "day_file": "data/2026/10/2026-10-13T12.jsonl",
+ "markets": 306,
+ "markets_dropped_by_volume_floor": 2724,
+ "day_file": "data/2026/10/2026-10-13T13.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 104,
  "trades_watchlist_markets": 68,
- "trades_collected": 1725,
- "anomalies_detected": 23,
- "anomalies_new": 0,
+ "trades_collected": 1708,
+ "anomalies_detected": 17,
+ "anomalies_new": 17,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 92,
- "books_rows": 122,
+ "books_markets": 91,
+ "books_rows": 118,
  "status": "ok"
 }
