@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-13T05:47:58Z",
+ "ts": "2026-10-13T07:41:30Z",
  "sources": [
   {
    "url": "/tags",
@@ -140,9 +140,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
+   "LoL: Team WE vs FlyQuest (BO5) - Demacia Cup Global Invitational Playo",
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
-   "Worlds 2026 Winning Region",
-   "Worlds 2026: Winner"
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
@@ -159,9 +159,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
+   "LoL: Team WE vs FlyQuest (BO5) - Demacia Cup Global Invitational Playo",
    "Worlds 2026 Winning Region",
-   "Worlds 2026: Winner",
-   "LoL: KaBuM! Ilha das Lendas vs Golden Lions (BO5) - CBLOL Promotion Pl"
+   "Worlds 2026: Winner"
   ],
   "tag_slug=lol": [
    "Worlds 2026 Winning Region",
@@ -207,15 +207,15 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Yellow Submarine vs Nemiga Gaming (BO3) - EPL Masters Play-In ",
-    "closed": true
+    "t": "Dota 2: Yakult Brothers vs Zenith (BO3) - DreamLeague China Closed Qua",
+    "closed": false
    },
    {
     "t": "Dota 2: Dawn Bulls vs The Warriors (BO3) - EPL Masters Play-In Group B",
     "closed": true
    },
    {
-    "t": "Dota 2: Mena Warriors vs Dawn Bulls (BO3) - DreamLeague Western Europe",
+    "t": "Dota 2: Yellow Submarine vs Nemiga Gaming (BO3) - EPL Masters Play-In ",
     "closed": true
    }
   ],
@@ -247,6 +247,10 @@
     "closed": false
    },
    {
+    "t": "Will Caedrel Reach Challenger Before the End of the Year?",
+    "closed": false
+   },
+   {
     "t": "Will Jynxzi reach Gold rank in League of Legends by...?",
     "closed": false
    },
@@ -256,10 +260,6 @@
    },
    {
     "t": "LoL: T1 Academy vs KT Rolster Challengers (BO5) - LCK Challengers Leag",
-    "closed": true
-   },
-   {
-    "t": "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO5) - LCK Challengers",
     "closed": true
    }
   ],
@@ -310,18 +310,49 @@
  },
  "n_event_queries": 21,
  "events": 413,
- "markets": 289,
- "markets_dropped_by_volume_floor": 2706,
- "day_file": "data/2026/10/2026-10-13T05.jsonl",
+ "markets": 303,
+ "markets_dropped_by_volume_floor": 2718,
+ "day_file": "data/2026/10/2026-10-13T07.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 70,
- "trades_watchlist_markets": 60,
- "trades_collected": 655,
- "anomalies_detected": 6,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 82,
- "books_rows": 154,
+ "trades_markets_queried": 78,
+ "trades_watchlist_markets": 65,
+ "trades_collected": 1313,
+ "anomalies_detected": 2,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0xfe0d26ae",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x9d3f5b1e",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x93c8ed9e",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xb0c739c6",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x8bb4c0ef",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xbcac6f07",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 6,
+ "books_markets": 90,
+ "books_rows": 148,
  "status": "ok"
 }
