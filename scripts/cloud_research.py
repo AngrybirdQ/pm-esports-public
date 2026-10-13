@@ -189,8 +189,16 @@ def main():
     days = int(sys.argv[1]) if len(sys.argv) > 1 else 7
     frames, trades = load(days)
     res = build_resolutions(frames)
-    # 时间切分(10-13): 前半窗筛钱包, 后半窗评估 — 同窗即泄漏
-    split_ts = datetime.now(timezone.utc) - timedelta(days=days / 2)
+    # 时间切分(10-13): 前半窗筛钱包, 后半窗评估 — 同窗即泄漏。
+    # 切点=实际数据时间轴中点(仓内数据滚动保留~7天, 按日历days/2取半会切在
+    # 数据起点之前 → 前半窗全空 → wallets=0, 首版即此坑)
+    _all_ts = [ts for series in frames.values() for ts, _ in series]
+    if _all_ts:
+        _t_min, _t_max = min(_all_ts), max(_all_ts)
+        split_ts = _t_min + (_t_max - _t_min) / 2
+    else:
+        split_ts = datetime.now(timezone.utc) - timedelta(days=days / 2)
+    print("split at", split_ts)
     score = wallet_scores(trades, res, until_ts=split_ts)
     out_dir = os.path.join(ROOT, "analysis")
     os.makedirs(out_dir, exist_ok=True)
