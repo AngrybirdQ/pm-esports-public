@@ -14,8 +14,9 @@ import time
 import urllib.request
 
 PUSH_TYPES = {"big_trade", "sharp_wallet", "big_premarket",
-              "one_side_flow", "concentrated_entry", "insider_wallet"}
-QUIET_TYPES = {"sharp_move"}          # 只进digest, 不推企微
+              "concentrated_entry", "insider_wallet"}
+QUIET_TYPES = {"sharp_move", "one_side_flow"}  # 单边流10-13降QUIET:
+# 轰炸主源(209键/6h,164场), 且台账无跟踪战绩+big_trade同源轴13W16L=方向不可靠
 TTL_H = 6
 FRESH_FILE_MIN = 15
 LABEL = {"big_trade": "🐋大单", "sharp_wallet": "🧠聪明钱",
@@ -128,7 +129,8 @@ def main():
     if quiet:
         segs.append(f"(另{quiet}条小幅波动已汇总进摘要文件, 不再刷屏)")
 
-    err = send("\n".join(segs)[:3800])
+    # 10-11教训(pm_signal_push重复推数十条同款): 先记后发 — 宁可漏发不重发,
+    # 漏发由本地pm_signal_push兜底; send后崩溃/commit竞态不再引发重推
     for (eid, outcome), anoms in groups.items():
         for a in anoms:
             key = "%s|%s|%s" % (a.get("type"), a.get("condition_id"),
@@ -136,6 +138,7 @@ def main():
             pushed[key] = now
     with open(state_p, "w", encoding="utf-8") as f:
         json.dump(pushed, f)
+    err = send("\n".join(segs)[:3800])
     print("wecom_alert: pushed %d events (+%d quiet) errcode=%s"
           % (len(events), quiet, err))
 
