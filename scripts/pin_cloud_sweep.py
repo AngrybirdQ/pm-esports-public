@@ -110,6 +110,7 @@ def main():
                                    "prices": prices}}
                 f.write(json.dumps(rec, ensure_ascii=False) + "\n")
                 n_rows += 1
+    os.makedirs("state", exist_ok=True)
     json.dump({"ts": time.strftime("%Y-%m-%dT%H:%M:%SZ"),
                "leagues": len(live), "matchups": n_mu,
                "events": n_rows, "errors": n_err},
