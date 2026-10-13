@@ -1,0 +1,73 @@
+name: oddsportal-archive-probe
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Archive endpoint discovery
+        env:
+          UA: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+        run: |
+          python3 << 'PYEOF'
+          import json, re, time, urllib.request, urllib.error
+          UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+          def get(url, tries=3, timeout=30):
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": UA,
+                          "Accept": "text/html,application/xhtml+xml,*/*",
+                          "Referer": "https://www.oddsportal.com/esports/"})
+                      with urllib.request.urlopen(req, timeout=timeout) as r:
+                          return r.status, r.read().decode("utf-8", "replace")
+                  except urllib.error.HTTPError as e:
+                      if e.code in (429, 503) and i < tries-1:
+                          time.sleep(12 + i*8); continue
+                      return e.code, ""
+                  except Exception as ex:
+                      if i < tries-1: time.sleep(5); continue
+                      return 0, str(ex)[:80]
+          # 1) 电竞主列表页 → 提取联赛页URL
+          st, h = get("https://www.oddsportal.com/esports/")
+          print("esports main:", st, "size:", len(h))
+          leagues = sorted(set(re.findall(r'href="(/esports/[a-z0-9-]+/[a-z0-9-]+/?)"', h)))
+          print("league pages:", len(leagues), leagues[:6], flush=True)
+          time.sleep(4)
+          # 2) 进一个联赛页 → 找 archive/results 链接与 tournament id
+          target = None
+          for lg in leagues:
+              if "world" in lg or "champion" in lg or "league" in lg:
+                  target = lg; break
+          target = target or (leagues[0] if leagues else "/esports/world/league-of-legends-world-championship/")
+          st, h2 = get("https://www.oddsportal.com" + target)
+          print("league page:", target, st, "size:", len(h2), flush=True)
+          # 找 results/archive 链接和 tournament id 线索
+          res_links = sorted(set(re.findall(r'href="(' + target.rstrip('/') + r'[^"]*)"', h2)))
+          print("sub links:", res_links[:10])
+          ids = sorted(set(re.findall(r'(?:tournament|league)[-_]?[Ii]d["\':= ]+(\d+)', h2)))[:8]
+          print("tournament ids found:", ids)
+          # RSC payload 里的数字id线索
+          tids = sorted(set(re.findall(r'"(?:tournamentId|leagueId|id)":(\d{4,9})', h2)))[:15]
+          print("rsc numeric ids:", tids, flush=True)
+          time.sleep(4)
+          # 3) 用发现的子链接尝试 results 页
+          if res_links:
+              rurl = next((r for r in res_links if "result" in r or "archive" in r), res_links[0])
+              st3, h3 = get("https://www.oddsportal.com" + rurl)
+              print("sub page:", rurl, st3, "size:", len(h3))
+              # 页内比赛行/odds 关键词密度
+              print("odds mentions:", h3.lower().count("odds"), "| x-od:", len(re.findall(r'xc\d|oddsb|oddsc', h3)))
+              # 保存样本供后续分析
+              with open("sample_league.html", "w") as f: f.write(h3[:200000])
+              time.sleep(4)
+          # 4) 老 ajax archive 端点盲测(常见参数形态)
+          for u in ("https://www.oddsportal.com/ajax-sport-country-tournament-archive_/0/",
+                    "https://www.oddsportal.com/ajax-sport-country-tournament-archive_36_0/1/"):
+              st4, h4 = get(u)
+              print("archive try:", u.split("archive_")[1][:30], "->", st4, "size:", len(h4))
+          PYEOF
