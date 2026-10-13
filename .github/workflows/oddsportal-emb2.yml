@@ -1,0 +1,49 @@
+name: oddsportal-emb2
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Search page for data fingerprints
+        env:
+          UA: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+        run: |
+          python3 << 'PYEOF'
+          import re, time, urllib.request
+          UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+          def get(url, tries=3):
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html"})
+                      with urllib.request.urlopen(req, timeout=40) as r:
+                          return r.status, r.read().decode("utf-8", "replace")
+                  except urllib.error.HTTPError as e:
+                      if e.code in (429, 503) and i < tries-1: time.sleep(12); continue
+                      return e.code, ""
+                  except Exception:
+                      if i < tries-1: time.sleep(5); continue
+                      return 0, ""
+          st, h = get("https://www.oddsportal.com/esports/counter-strike/counter-strike-esl-pro-league-season-24/results/")
+          print("page:", st, "size:", len(h))
+          for pat in ("encodeEventId", "date-start-timestamp", '"result":', "home-winner",
+                      "tournament-name", "Kills", "challenge", "error"):
+              print(f"  {pat}: {h.count(pat)}")
+          # 中等长度b64块(500-5000)?
+          mids = [(m.start(), len(m.group(0))) for m in re.finditer(r'[A-Za-z0-9+/]{500,5000}={0,2}', h)]
+          print("mid b64 blocks:", len(mids), sorted([x[1] for x in mids], reverse=True)[:8])
+          # 上下文: 书商id 1205 出现处(赔率表渲染位置)
+          i = h.find("/proxy/serve/bookmaker/1205")
+          if i > 0: print("bookmaker ctx:", h[max(0,i-500):i-200].replace("\n"," ")[:300])
+          # flight blob 再查 encodeEventId
+          chunks = re.findall(r'self\.__next_f\.push\(\[1,"(.*?)"\]\)', h, re.S)
+          blob = "".join(c.encode().decode("unicode_escape") for c in chunks)
+          print("blob:", len(blob), "| encodeEventId in blob:", blob.count("encodeEventId"),
+                "| result-col:", blob.count('"result"'))
+          PYEOF
