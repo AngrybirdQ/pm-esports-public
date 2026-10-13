@@ -1,0 +1,119 @@
+name: oddsportal-deep-pw
+
+on:
+  workflow_dispatch:
+    inputs:
+      start_offset:
+        description: "skip first N leagues"
+        default: "0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deep-history
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Install playwright
+        run: pip install playwright && playwright install chromium --with-deps 2>&1 | tail -1
+      - name: Deep crawl via playwright
+        run: |
+          python3 << 'PYEOF'
+          import glob, json, os, time
+          from datetime import datetime, timezone
+          from playwright.sync_api import sync_playwright
+          START_OFFSET = int("${{ inputs.start_offset }}" or 0)
+          OUT = "data/pinnacle_archive"
+
+          def extract_rows(html):
+              import re
+              chunks = re.findall(r'self\.__next_f\.push\(\[1,"(.*?)"\]\)', html, re.S)
+              blob = "".join(c.encode().decode("unicode_escape") for c in chunks)
+              i = blob.find('"rows":[')
+              if i < 0: return []
+              depth = 0; instr = False; esc = False; end = None
+              for k in range(i + 7, min(len(blob), i + 400000)):
+                  ch = blob[k]
+                  if instr:
+                      if esc: esc = False
+                      elif ch == "\\": esc = True
+                      elif ch == '"': instr = False
+                      continue
+                  if ch == '"': instr = True
+                  elif ch in "{[": depth += 1
+                  elif ch in "}]":
+                      depth -= 1
+                      if depth == 0: end = k + 1; break
+              if not end: return []
+              try:
+                  arr = json.loads(blob[i + 7:end])
+                  return [r for r in arr if isinstance(r, dict) and r.get("encodeEventId")]
+              except Exception:
+                  return []
+
+          # 枚举
+          with sync_playwright() as p:
+              b = p.chromium.launch(args=["--no-sandbox"])
+              pg = b.new_page()
+              pg.goto("https://www.oddsportal.com/sitemap/esports/results.xml", timeout=60000)
+              txt = pg.content()
+              b.close()
+          import re
+          league_urls = sorted(set(re.findall(r"<loc>(https://www\.oddsportal\.com/esports/[^/]+/[^/]+/results/)</loc>", txt)))
+          print(f"leagues: {len(league_urls)}", flush=True)
+
+          os.makedirs(OUT, exist_ok=True)
+          done = {os.path.basename(f).replace("league_", "").replace(".jsonl", "")
+                  for f in glob.glob(OUT + "/league_*.jsonl")}
+          todo = [u for u in league_urls
+                  if u.split("/oddsportal.com/")[1].split("/results/")[0].replace("/", "_") not in done][START_OFFSET:]
+          print(f"todo: {len(todo)}", flush=True)
+
+          with sync_playwright() as pw:
+              b = pw.chromium.launch(args=["--no-sandbox", "--disable-blink-features=AutomationControlled"])
+              ctx = b.new_context(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+                  viewport={"width": 1440, "height": 900},
+                  extra_http_headers={"Accept-Language": "en-US,en;q=0.9"})
+              pg = ctx.new_page()
+              for i, url in enumerate(todo):
+                  slug = url.split("/oddsportal.com/")[1].split("/results/")[0].replace("/", "_")
+                  fn = f"{OUT}/league_{slug}.jsonl"
+                  rows = []
+                  try:
+                      pg.goto(url, wait_until="domcontentloaded", timeout=60000)
+                      for _ in range(8):
+                          html = pg.content()
+                          rows = extract_rows(html)
+                          if rows: break
+                          pg.wait_for_timeout(4000)
+                  except Exception as e:
+                      print(f"[{i+1}] {slug}: ERR {str(e)[:60]}", flush=True)
+                      time.sleep(20); continue
+                  slim = [{"id": r.get("id"), "home": r.get("home-name"), "away": r.get("away-name"),
+                           "start": r.get("date-start-timestamp"), "result": r.get("result"),
+                           "hw": r.get("home-winner"), "league": r.get("tournament-name"),
+                           "sport": (r.get("superTemplate") or {}).get("shortUrl"),
+                           "stage": r.get("tournament-stage-name"),
+                           "eid": r.get("encodeEventId"), "url": r.get("url")} for r in rows]
+                  with open(fn, "w") as f:
+                      for r in slim:
+                          f.write(json.dumps(r, ensure_ascii=False) + "\n")
+                  print(f"[{i+1}/{len(todo)}] {slug}: {len(slim)} rows", flush=True)
+                  time.sleep(4 + (i % 4))
+                  if (i + 1) % 20 == 0:
+                      os.system('git config user.name "dc" && git config user.email "dc@noreply"')
+                      os.system("git add data/pinnacle_archive/ && (git commit -m 'deep pw chunk' && (git pull --rebase origin main || true) && git push) || (sleep 8 && git pull --rebase origin main && git push) || true")
+              b.close()
+          print("DEEP PW PASS DONE", flush=True)
+      - name: Commit all
+        run: |
+          git config user.name "dc" && git config user.email "dc@noreply"
+          git add data/pinnacle_archive/
+          git diff --cached --quiet && echo nothing || (git commit -m "deep pw full pass" && (git pull --rebase origin main || true) && git push) || (sleep 8 && git pull --rebase origin main && git push) || true
