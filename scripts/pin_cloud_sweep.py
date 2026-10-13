@@ -61,8 +61,10 @@ def main():
     now = time.gmtime()
     day_dir = os.path.join("data", "pinnacle")
     os.makedirs(day_dir, exist_ok=True)
+    # 文件名必须含 .pinnacle.jsonl 字面量 — pull_and_ingest按此路由到
+    # pinnacle_rows_from_file(本契约); 否则被旧pin平铺管道抢路由→NOT NULL崩
     fp = os.path.join(
-        day_dir, time.strftime("%Y-%m-%dT%H", now) + ".jsonl")
+        day_dir, time.strftime("%Y-%m-%dT%H", now) + ".pinnacle.jsonl")
     n_mu = n_rows = n_err = 0
     with open(fp, "a", encoding="utf-8") as f:
         for lg in live[:20]:
