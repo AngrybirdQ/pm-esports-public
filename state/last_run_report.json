@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-13T17:00:20Z",
+ "ts": "2026-10-13T17:23:40Z",
  "sources": [
   {
    "url": "/tags",
@@ -281,8 +281,8 @@
     "closed": false
    },
    {
-    "t": "Valorant: BBL Esports vs Misa Esports (BO5) - Monsters Reloaded Closed",
-    "closed": true
+    "t": "Most First Bloods at VALORANT Champions 2026",
+    "closed": false
    }
   ],
   "search:The International": [
@@ -310,18 +310,30 @@
  },
  "n_event_queries": 21,
  "events": 412,
- "markets": 312,
- "markets_dropped_by_volume_floor": 2839,
+ "markets": 316,
+ "markets_dropped_by_volume_floor": 2853,
  "day_file": "data/2026/10/2026-10-13T17.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 87,
- "trades_watchlist_markets": 53,
- "trades_collected": 1578,
- "anomalies_detected": 12,
- "anomalies_new": 12,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 77,
- "books_rows": 114,
+ "trades_watchlist_markets": 68,
+ "trades_collected": 1458,
+ "anomalies_detected": 13,
+ "anomalies_new": 11,
+ "history_debug": [
+  {
+   "cid": "0x5a9895dd",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_errors": [
+  "1019480754: HTTPError: HTTP Error 404: Not Found",
+  "7327053124: HTTPError: HTTP Error 404: Not Found",
+  "9870427599: HTTPError: HTTP Error 404: Not Found",
+  "7480002471: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 82,
+ "books_rows": 116,
  "status": "ok"
 }
