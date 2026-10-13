@@ -17,4 +17,4 @@ jobs:
         run: |
           git config user.name "probe" && git config user.email "probe@noreply"
           git add data/pinnacle/probe_results.json
-          git diff --cached --quiet || (git commit -m "probe: history endpoints" && git push || true)
+          git diff --cached --quiet || (git commit -m "probe: history v2" && (git pull --rebase origin main || true) && git push) || (sleep 5 && git pull --rebase origin main && git push) || true
