@@ -1,0 +1,60 @@
+name: oddsportal-decode-probe
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch and decode oddsportal .dat for a past date
+        env:
+          UA: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+        run: |
+          python3 << 'PYEOF'
+          import base64, json, re, time, urllib.request, gzip, io
+          UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+          def get(url, tries=3):
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*",
+                          "Referer": "https://www.oddsportal.com/esports/results/"})
+                      with urllib.request.urlopen(req, timeout=30) as r:
+                          return r.status, r.read()
+                  except urllib.error.HTTPError as e:
+                      if e.code in (429, 503) and i < tries-1:
+                          time.sleep(8 + i*8); continue
+                      return e.code, b""
+                  except Exception as ex:
+                      if i < tries-1: time.sleep(5); continue
+                      return 0, str(ex).encode()
+          # 1) 昨天的 nextgames .dat
+          st, raw = get("https://www.oddsportal.com/proxy/ajax-nextgames/36/2/1/20261010/yjd25.dat?page=1&hideFinished=0")
+          print("nextgames:", st, "bytes:", len(raw))
+          # 响应体: 可能是gzip或base64; 逐层解
+          payload = raw
+          try:
+              payload = gzip.decompress(raw); print("was gzip")
+          except Exception: pass
+          txt = None
+          try:
+              txt = base64.b64decode(payload).decode("utf-8", "replace")
+              print("layer1 b64 decoded, head:", txt[:200].replace("\n"," "))
+          except Exception as e:
+              print("layer1 not b64:", str(e)[:60])
+              txt = payload.decode("utf-8", "replace")
+              print("raw head:", txt[:200])
+          # layer2: 若还是base64再解一层
+          if txt and re.fullmatch(r'[A-Za-z0-9+/=\s]{100,}', txt[:200] or "x"):
+              try:
+                  txt2 = base64.b64decode(txt).decode("utf-8", "replace")
+                  print("layer2 decoded head:", txt2[:300].replace("\n"," "))
+                  txt = txt2
+              except Exception as e:
+                  print("layer2 fail:", str(e)[:60])
+          print("---FULL HEAD 1200---")
+          print((txt or "")[:1200])
+          PYEOF
