@@ -55,6 +55,7 @@ jobs:
           ct_b64, iv_hex = inner.rsplit(":", 1)
           print("iv:", iv_hex, "| ct_b64 head:", ct_b64[:24], "| ct len:", len(ct_b64))
           iv = bytes.fromhex(iv_hex); ct = base64.b64decode(ct_b64)
+          open("/tmp/ct.bin", "wb").write(ct)
           print("ct bytes:", len(ct), "head:", ct[:16].hex())
           import subprocess
           r = subprocess.run(["openssl", "enc", "-d", "-aes-256-cbc", "-K", KEY.hex(),
