@@ -14,7 +14,7 @@ import glob
 import json
 import os
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEGEN = (0.03, 0.97)
@@ -75,25 +75,33 @@ def load(days):
 
 
 def build_resolutions(frames):
-    """末帧≥0.98判结算 (与pm_smart_money同口径)"""
+    """末帧判结算(10-13修): ≥0.98=赢 True / ≤0.02=输 False / 中间=未结算弃。
+    旧版只收赢家腿 → 回测只含必胜单 = 100%胜率构造性泄漏, 已根治。"""
     res = {}
     for (cid, oc), series in frames.items():
         if not series:
             continue
         last_t, last_p = series[-1]
         if last_p >= 0.98:
-            res[(cid, oc)] = last_t
+            res[(cid, oc)] = True
+        elif last_p <= 0.02:
+            res[(cid, oc)] = False
     return res
 
 
-def wallet_scores(trades, res):
-    """钱包P&L账本: BUY开仓-SELL平仓 × 结算 → (n_resolved, wins, pnl, staked)"""
+def wallet_scores(trades, res, until_ts=None):
+    """钱包P&L账本: BUY开仓-SELL平仓 × 结算 → (n_resolved, wins, pnl, staked)。
+    until_ts: 只计该时刻前的交易(时间切分防选择偏差, 10-13)"""
     pos = {}
     for t in trades:
         w = t.get("wallet")
         cid, oc = t.get("condition_id"), str(t.get("outcome"))
         if not w or not cid:
             continue
+        if until_ts is not None:
+            _ts = utc(t.get("ts"))
+            if _ts and _ts >= until_ts:
+                continue
         try:
             size = float(t.get("size") or 0)
             cost = float(t.get("cost_usd") or 0)
@@ -117,7 +125,7 @@ def wallet_scores(trades, res):
         pnl = p["sh"] - p["sh_sell"] + p["proc"] - p["cost"]
         s = score.setdefault(w, {"n": 0, "wins": 0, "pnl": 0.0, "staked": 0.0})
         s["n"] += 1
-        s["wins"] += 1          # 收盘≥0.98的腿必胜
+        s["wins"] += 1 if res[(cid, oc)] else 0   # 真胜负(10-13)
         s["pnl"] += pnl
         s["staked"] += p["cost"]
     return score
@@ -130,8 +138,10 @@ def sharp_set(score, n_min, wr_min, roi_min):
             and s["pnl"] / s["staked"] >= roi_min}
 
 
-def follow_matrix(frames, res, trades, score, sharp, entry_min):
-    """对sharp入场, 首帧跟价 T+delay — 返回按延迟聚合的 (n, wr, roi)"""
+def follow_matrix(frames, res, trades, score, sharp, entry_min,
+                  since_ts=None):
+    """对sharp入场, 首帧跟价 T+delay — 返回按延迟聚合的 (n, wr, roi)。
+    since_ts: 只评估该时刻后的入场(与筛选窗分离, 10-13)"""
     series_by = {}
     entries = {}
     for t in trades:
@@ -150,6 +160,8 @@ def follow_matrix(frames, res, trades, score, sharp, entry_min):
             continue
         ts = utc(t.get("ts"))
         if not ts:
+            continue
+        if since_ts is not None and ts < since_ts:
             continue
         key = (w, cid, oc)
         if key not in entries or ts < entries[key][0]:
@@ -177,11 +189,13 @@ def main():
     days = int(sys.argv[1]) if len(sys.argv) > 1 else 7
     frames, trades = load(days)
     res = build_resolutions(frames)
-    score = wallet_scores(trades, res)
+    # 时间切分(10-13): 前半窗筛钱包, 后半窗评估 — 同窗即泄漏
+    split_ts = datetime.now(timezone.utc) - timedelta(days=days / 2)
+    score = wallet_scores(trades, res, until_ts=split_ts)
     out_dir = os.path.join(ROOT, "analysis")
     os.makedirs(out_dir, exist_ok=True)
     stamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M")
-    lines = ["# sharp跟单参数矩阵 (云上重建, 数据窗口=%dd)" % days,
+    lines = ["# sharp跟单参数矩阵 (云上重建, 数据窗口=%dd, 前半筛选/后半评估防泄漏)" % days,
              "重建自仓内jsonl: frames=%d legs, trades=%d, resolutions=%d, "
              "wallets=%d" % (len(frames), len(trades), len(res), len(score)),
              ""]
@@ -190,7 +204,8 @@ def main():
         lines.append("## sharp线: n≥%d 胜率≥%d%% ROI≥%d%% → %d钱包"
                      % (n_min, wr_min * 100, roi_min * 100, len(sharp)))
         for em in ENTRY_MIN:
-            agg = follow_matrix(frames, res, trades, score, sharp, em)
+            agg = follow_matrix(frames, res, trades, score, sharp, em,
+                               since_ts=split_ts)
             lines.append("| 跟单延迟 | n | 胜率 | 等权ROI |")
             lines.append("|---|---|---|---|")
             for d in DELAYS:
