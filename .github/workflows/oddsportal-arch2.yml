@@ -1,0 +1,65 @@
+name: oddsportal-archive-blind
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Blind-probe archive endpoint combos
+        env:
+          UA: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+        run: |
+          python3 << 'PYEOF'
+          import time, urllib.request, urllib.error
+          UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+          def get(url, tries=2):
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": UA,
+                          "Accept": "text/html, */*", "Referer": "https://www.oddsportal.com/esports/counter-strike/counter-strike-esl-pro-league-season-24/results/",
+                          "X-Requested-With": "XMLHttpRequest"})
+                      with urllib.request.urlopen(req, timeout=25) as r:
+                          return r.status, r.read().decode("utf-8", "replace")
+                  except urllib.error.HTTPError as e:
+                      if e.code in (429, 503) and i < tries-1: time.sleep(10); continue
+                      return e.code, ""
+                  except Exception as ex:
+                      if i < tries-1: time.sleep(4); continue
+                      return 0, str(ex)[:50]
+          combos = [
+            "_36_236509/0/", "_36_236509/1/",
+            "_36_8_144593/0/", "_36_8_144593_236509/0/",
+            "_36_0_144593/0/", "_36_0_144593_236509/0/",
+            "_36_8_236509/0/",
+          ]
+          for c in combos:
+              u = "https://www.oddsportal.com/ajax-sport-country-tournament-archive" + c
+              st, h = get(u)
+              # SPA壳 ~286KB; 真片段应该是小HTML含比赛行
+              marker = ""
+              for k in ("Results", "count", "odds", "<table", "match", "bold"):
+                  if k.lower() in h.lower()[:20000] and len(h) < 150000:
+                      marker = k
+              print(f"{c} -> {st} size={len(h)} frag={len(h)<150000} marker={marker}", flush=True)
+              time.sleep(2.5)
+          # 对照: 直接results页内的 RSC 请求形态 (RSC:1头)
+          st, h = get("https://www.oddsportal.com/esports/counter-strike/counter-strike-esl-pro-league-season-24/results/")
+          print("results page:", st, "size:", len(h))
+          # RSC专用头
+          req = urllib.request.Request("https://www.oddsportal.com/esports/counter-strike/counter-strike-esl-pro-league-season-24/results/",
+              headers={"User-Agent": UA, "RSC": "1", "Accept": "text/x-component"})
+          try:
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  body = r.read().decode("utf-8", "replace")
+              print("RSC fetch:", r.status, "size:", len(body))
+              i = body.find("Vitality")
+              print("team-in-rsc:", i >= 0)
+              if i >= 0: print(body[max(0,i-300):i+400])
+          except Exception as e:
+              print("RSC fetch err:", str(e)[:80])
+          PYEOF
