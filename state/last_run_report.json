@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-13T21:40:48Z",
+ "ts": "2026-10-13T21:43:56Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 43,
+   "events_returned": 42,
    "err": null
   },
   {
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 64,
+   "events_returned": 63,
    "err": null
   },
   {
@@ -208,7 +208,7 @@
    },
    {
     "t": "Dota 2: Nemiga Gaming vs Dawn Bulls (BO3) - EPL Masters Play-In Group ",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - DreamLeague Eastern Europe C",
@@ -309,14 +309,14 @@
   ]
  },
  "n_event_queries": 21,
- "events": 415,
- "markets": 299,
- "markets_dropped_by_volume_floor": 2718,
+ "events": 413,
+ "markets": 297,
+ "markets_dropped_by_volume_floor": 2714,
  "day_file": "data/2026/10/2026-10-13T21.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 103,
  "trades_watchlist_markets": 76,
- "trades_collected": 1265,
+ "trades_collected": 1206,
  "anomalies_detected": 0,
  "anomalies_new": 0,
  "history_debug": [
@@ -327,11 +327,7 @@
   }
  ],
  "history_conditions_new": 0,
- "books_errors": [
-  "9502758060: HTTPError: HTTP Error 404: Not Found",
-  "3018963668: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 98,
- "books_rows": 176,
+ "books_markets": 96,
+ "books_rows": 174,
  "status": "ok"
 }
