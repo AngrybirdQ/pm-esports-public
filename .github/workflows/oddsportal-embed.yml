@@ -1,0 +1,73 @@
+name: oddsportal-embedded-decrypt
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Find and decrypt embedded payload
+        env:
+          UA: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+        run: |
+          python3 << 'PYEOF'
+          import base64, hashlib, json, re, subprocess, time, urllib.request
+          UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+          PASS = base64.b64decode("Sio4c1EhcCQ3YURfZlIyeVdAZ0huKjNiVnAjc0FkTGRfaw==")
+          SALT = base64.b64decode("NWI5YThmMmMzZTZkMWE0YjdjOGU5ZDBmMWEyYjNjNGQ=")
+          KEY = hashlib.pbkdf2_hmac("sha256", PASS, SALT, 1000, dklen=32)
+          def get(url, tries=3):
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html"})
+                      with urllib.request.urlopen(req, timeout=40) as r:
+                          return r.status, r.read().decode("utf-8", "replace")
+                  except urllib.error.HTTPError as e:
+                      if e.code in (429, 503) and i < tries-1: time.sleep(12); continue
+                      return e.code, ""
+                  except Exception:
+                      if i < tries-1: time.sleep(5); continue
+                      return 0, ""
+          st, h = get("https://www.oddsportal.com/esports/counter-strike/counter-strike-esl-pro-league-season-24/results/")
+          print("page:", st, "size:", len(h))
+          # 找所有 >=5000 的连续 base64 块
+          cands = []
+          for m in re.finditer(r'[A-Za-z0-9+/]{5000,}={0,2}', h):
+              cands.append((m.start(), m.group(0)))
+          print("long b64 blocks:", len(cands), [len(c[1]) for c in cands][:10])
+          for pos, blk in cands[:6]:
+              try:
+                  inner = base64.b64decode(blk).decode("latin1")
+              except Exception:
+                  continue
+              if ":" not in inner: continue
+              ct_b64, iv_hex = inner.rsplit(":", 1)
+              if not re.fullmatch(r'[0-9a-fA-F]{32}', iv_hex): continue
+              try:
+                  iv = bytes.fromhex(iv_hex); ct = base64.b64decode(ct_b64)
+                  open("/tmp/e.bin", "wb").write(ct)
+                  r = subprocess.run(["openssl", "enc", "-d", "-aes-256-cbc", "-K", KEY.hex(),
+                      "-iv", iv.hex(), "-nosalt", "-in", "/tmp/e.bin"], capture_output=True)
+                  if r.returncode != 0: continue
+                  out = r.stdout
+                  if out[:2] == b"\x1f\x8b":
+                      import gzip; out = gzip.decompress(out)
+                  txt = out.decode("utf-8", "replace")
+                  print(f"=== DECRYPTED block@{pos} len={len(blk)} -> {len(txt)} chars ===")
+                  # 检查是否含队伍/odds
+                  has_team = "Vitality" in txt or "Vitality" in json.dumps(json.loads(txt), ensure_ascii=False) if _is_json(txt) else False
+                  print(txt[:1200], flush=True)
+                  open("dec_results.json", "w").write(txt)
+                  break
+              except Exception as e:
+                  print(f"  block@{pos} decrypt fail: {str(e)[:60]}")
+          def _is_json(t):
+              try: json.loads(t); return True
+              except Exception: return False
+          # 如果上面没打印, 输出所有块长度
+          PYEOF
