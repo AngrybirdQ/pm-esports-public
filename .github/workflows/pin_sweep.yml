@@ -1,0 +1,62 @@
+name: pin-cloud-sweep
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: '13,43 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pin-cloud-sweep
+  cancel-in-progress: false
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: fetch sweep via API
+        run: gh api "repos/${{ github.repository }}/contents/scripts/pin_cloud_sweep.py?ref=main" --jq .content | base64 -d > s.py
+        env: { GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
+      - name: run sweep
+        run: python3 s.py
+        env:
+          PIN_KEY: '${{ secrets.PIN_KEY }}'
+          PIN_WORKER: '${{ secrets.PIN_WORKER }}'
+      - name: commit outputs (API)
+        run: |
+          python3 - <<'PYEOF'
+          import base64, glob, json, os, time, urllib.request
+          tok = os.environ["GH_TOKEN"]; R = os.environ["REPO"]
+          def put(path, local):
+              content = base64.b64encode(open(local, "rb").read()).decode()
+              body = {"message": "pin-sweep " + os.path.basename(local),
+                      "content": content, "branch": "main"}
+              url = "https://api.github.com/repos/%s/contents/%s" % (R, path)
+              try:
+                  req = urllib.request.Request(url + "?ref=main", headers={
+                      "Authorization": "Bearer " + tok,
+                      "Accept": "application/vnd.github+json"})
+                  with urllib.request.urlopen(req, timeout=20) as r:
+                      body["sha"] = json.loads(r.read().decode())["sha"]
+              except Exception:
+                  pass
+              for i in range(3):
+                  try:
+                      req = urllib.request.Request(url, method="PUT", headers={
+                          "Authorization": "Bearer " + tok,
+                          "Accept": "application/vnd.github+json"},
+                          data=json.dumps(body).encode())
+                      urllib.request.urlopen(req, timeout=30)
+                      print("committed", path); return
+                  except Exception as e:
+                      time.sleep(3)
+          for f in glob.glob("data/pinnacle/*.jsonl") + ["state/pin_cloud_report.json"]:
+              if os.path.exists(f):
+                  put(f, f)
+          PYEOF
+        env:
+          GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+          REPO: '${{ github.repository }}'
