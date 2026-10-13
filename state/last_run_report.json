@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-13T16:43:09Z",
+ "ts": "2026-10-13T16:46:04Z",
  "sources": [
   {
    "url": "/tags",
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "LoL: HANJIN BRION vs LGD Gaming (BO5) - Demacia Cup Global Invitationa",
-   "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
-   "Worlds 2026: Winner"
+   "Worlds 2026: Winner",
+   "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
@@ -309,19 +309,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 415,
+ "events": 412,
  "markets": 308,
- "markets_dropped_by_volume_floor": 2858,
+ "markets_dropped_by_volume_floor": 2839,
  "day_file": "data/2026/10/2026-10-13T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 85,
+ "trades_markets_queried": 84,
  "trades_watchlist_markets": 53,
- "trades_collected": 1416,
- "anomalies_detected": 12,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_collected": 1325,
+ "anomalies_detected": 13,
+ "anomalies_new": 4,
+ "history_debug": [
+  {
+   "cid": "0x16c07cb5",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 77,
- "books_rows": 112,
+ "books_rows": 114,
  "status": "ok"
 }
