@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-13T16:46:04Z",
+ "ts": "2026-10-13T16:48:19Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 64,
+   "events_returned": 63,
    "err": null
   },
   {
@@ -159,9 +159,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: HANJIN BRION vs LGD Gaming (BO5) - Demacia Cup Global Invitationa",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: KaBuM! Ilha das Lendas vs Golden Lions (BO5) - CBLOL Promotion Pl"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -316,17 +316,11 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 84,
  "trades_watchlist_markets": 53,
- "trades_collected": 1325,
- "anomalies_detected": 13,
- "anomalies_new": 4,
- "history_debug": [
-  {
-   "cid": "0x16c07cb5",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
+ "trades_collected": 1337,
+ "anomalies_detected": 10,
+ "anomalies_new": 0,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 77,
  "books_rows": 114,
  "status": "ok"
