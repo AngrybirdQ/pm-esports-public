@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-13T17:27:14Z",
+ "ts": "2026-10-13T17:30:26Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 49,
+   "events_returned": 48,
    "err": null
   },
   {
@@ -215,8 +215,8 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Mena Warriors vs Team Lynx (BO3) - EPL Masters Play-In Group A",
-    "closed": true
+    "t": "Dota 2: Yakult Brothers vs Zenith (BO3) - DreamLeague China Closed Qua",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -309,31 +309,27 @@
   ]
  },
  "n_event_queries": 21,
- "events": 411,
- "markets": 315,
- "markets_dropped_by_volume_floor": 2833,
+ "events": 410,
+ "markets": 313,
+ "markets_dropped_by_volume_floor": 2816,
  "day_file": "data/2026/10/2026-10-13T17.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 88,
  "trades_watchlist_markets": 68,
- "trades_collected": 1578,
- "anomalies_detected": 13,
- "anomalies_new": 2,
- "history_debug": [
-  {
-   "cid": "0x64c8f513",
-   "pts": 3,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
+ "trades_collected": 1548,
+ "anomalies_detected": 14,
+ "anomalies_new": 14,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_errors": [
+  "1154322467: HTTPError: HTTP Error 404: Not Found",
+  "7068681318: HTTPError: HTTP Error 404: Not Found",
   "6005837945: HTTPError: HTTP Error 404: Not Found",
   "4457953589: HTTPError: HTTP Error 404: Not Found",
   "6107553164: HTTPError: HTTP Error 404: Not Found",
   "6510050586: HTTPError: HTTP Error 404: Not Found"
  ],
  "books_markets": 83,
- "books_rows": 120,
+ "books_rows": 118,
  "status": "ok"
 }
