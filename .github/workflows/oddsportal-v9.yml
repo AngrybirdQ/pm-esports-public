@@ -1,0 +1,48 @@
+name: oddsportal-v9-debug
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Debug row format
+        env:
+          UA: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+        run: |
+          python3 << 'PYEOF'
+          import re, time, urllib.request
+          UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+          def get(url, tries=8):
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html"})
+                      with urllib.request.urlopen(req, timeout=40) as r:
+                          h = r.read().decode("utf-8", "replace")
+                      if "encodeEventId" in h and h.count("encodeEventId") >= 5:
+                          return h
+                      time.sleep(4)
+                  except Exception:
+                      time.sleep(4)
+              return ""
+          h = get("https://www.oddsportal.com/esports/counter-strike/counter-strike-esl-pro-league-season-24/results/")
+          print("rich page:", len(h), "count:", h.count("encodeEventId"), flush=True)
+          # RAW HTML 上下文 (前2处)
+          for i, m in enumerate(re.finditer(r'"encodeEventId"', h)):
+              if i >= 2: break
+              print(f"=== RAW ctx #{i} ===", flush=True)
+              print(h[max(0,m.start()-700):m.start()+300], flush=True)
+          # blob 上下文
+          chunks = re.findall(r'self\.__next_f\.push\(\[1,"(.*?)"\]\)', h, re.S)
+          blob = "".join(c.encode().decode("unicode_escape") for c in chunks)
+          print("blob:", len(blob), "hits:", blob.count("encodeEventId"), flush=True)
+          for i, m in enumerate(re.finditer(r'"encodeEventId"', blob)):
+              if i >= 1: break
+              print(f"=== BLOB ctx #{i} ===", flush=True)
+              print(blob[max(0,m.start()-900):m.start()+200], flush=True)
+          PYEOF
