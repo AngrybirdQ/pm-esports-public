@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-13T11:42:52Z",
+ "ts": "2026-10-13T11:50:20Z",
  "sources": [
   {
    "url": "/tags",
@@ -211,12 +211,12 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Mena Warriors vs Team Lynx (BO3) - EPL Masters Play-In Group A",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Yellow Submarine vs Kalmychata (BO3) - DreamLeague Eastern Eur",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Mena Warriors vs Team Lynx (BO3) - EPL Masters Play-In Group A",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -310,18 +310,22 @@
  },
  "n_event_queries": 21,
  "events": 412,
- "markets": 313,
- "markets_dropped_by_volume_floor": 2761,
+ "markets": 309,
+ "markets_dropped_by_volume_floor": 2757,
  "day_file": "data/2026/10/2026-10-13T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 95,
+ "trades_markets_queried": 93,
  "trades_watchlist_markets": 68,
- "trades_collected": 2474,
- "anomalies_detected": 3,
- "anomalies_new": 0,
+ "trades_collected": 2459,
+ "anomalies_detected": 7,
+ "anomalies_new": 4,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 99,
+ "books_errors": [
+  "5661926248: HTTPError: HTTP Error 404: Not Found",
+  "5690811838: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 95,
  "books_rows": 122,
  "status": "ok"
 }
