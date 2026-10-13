@@ -1,0 +1,144 @@
+name: oddsportal-v10-enum
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Menu decrypt + season scan + odds POST
+        env:
+          UA: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+        run: |
+          python3 << 'PYEOF'
+          import base64, gzip, hashlib, json, re, subprocess, time, urllib.request
+          UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+          PASS = base64.b64decode("Sio4c1EhcCQ3YURfZlIyeVdAZ0huKjNiVnAjc0FkTGRfaw==")
+          SALT = base64.b64decode("NWI5YThmMmMzZTZkMWE0YjdjOGU5ZDBmMWEyYjNjNGQ=")
+          KEY = hashlib.pbkdf2_hmac("sha256", PASS, SALT, 1000, dklen=32)
+          def get(url, tries=4, timeout=40):
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
+                      with urllib.request.urlopen(req, timeout=timeout) as r:
+                          raw = r.read()
+                          if raw[:2] == b"\x1f\x8b": raw = gzip.decompress(raw)
+                          return r.status, raw.decode("utf-8", "replace")
+                  except urllib.error.HTTPError as e:
+                      if e.code in (429, 503) and i < tries-1: time.sleep(12); continue
+                      return e.code, ""
+                  except Exception as ex:
+                      if i < tries-1: time.sleep(5); continue
+                      return 0, str(ex)[:60]
+          def decrypt(body):
+              inner = base64.b64decode(body).decode("latin1")
+              ct_b64, iv_hex = inner.rsplit(":", 1)
+              open("/tmp/x.bin", "wb").write(base64.b64decode(ct_b64))
+              r = subprocess.run(["openssl", "enc", "-d", "-aes-256-cbc", "-K", KEY.hex(),
+                  "-iv", iv_hex, "-nosalt", "-in", "/tmp/x.bin"], capture_output=True)
+              if r.returncode != 0: raise RuntimeError("aes")
+              out = r.stdout
+              try: import gzip; out = gzip.decompress(out)
+              except Exception: pass
+              return json.loads(out.decode("utf-8"))
+
+          # 1) 菜单接口解密 (esports=36)
+          for suffix in ("36/1/", "36/2/", "36/0/"):
+              st, body = get("https://www.oddsportal.com/proxy/ajax-getSportsMenuDataBySport/" + suffix)
+              info = f"menu {suffix}: {st} len={len(body)}"
+              if st == 200 and len(body) > 100:
+                  try:
+                      data = decrypt(body)
+                      j = json.dumps(data, ensure_ascii=False)
+                      info += f" -> DECRYPTED {len(j)} chars"
+                      # 提取联赛枚举能力
+                      leagues = re.findall(r'"(?:url|slug)":"([a-z0-9-]{8,60})"', j)
+                      urls = sorted(set(leagues))
+                      info += f" | urls={len(urls)} sample={urls[:8]}"
+                      open("menu_decrypted.json", "w").write(j)
+                      print(info, flush=True)
+                      continue
+                  except Exception as e:
+                      info += f" (decrypt fail: {str(e)[:40]})"
+              print(info, flush=True)
+              time.sleep(3)
+
+          # 2) 老赛季slug扫描 (放宽: >=1个encodeEventId即算rich)
+          def get_rich(url, tries=10):
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html"})
+                      with urllib.request.urlopen(req, timeout=40) as r:
+                          h = r.read().decode("utf-8", "replace")
+                      if "encodeEventId" in h:
+                          return h
+                      time.sleep(5)
+                  except urllib.error.HTTPError as e:
+                      if e.code in (429, 503): time.sleep(15); continue
+                      return ""
+                  except Exception:
+                      time.sleep(5)
+              return ""
+          for season in (23, 22, 21, 20, 19):
+              slug = f"counter-strike-esl-pro-league-season-{season}"
+              h = get_rich(f"https://www.oddsportal.com/esports/counter-strike/{slug}/results/")
+              if not h:
+                  print(f"{slug}: empty", flush=True); time.sleep(3); continue
+              chunks = re.findall(r'self\.__next_f\.push\(\[1,"(.*?)"\]\)', h, re.S)
+              blob = "".join(c.encode().decode("unicode_escape") for c in chunks)
+              i = blob.find('"rows":[')
+              if i < 0:
+                  print(f"{slug}: rich但无rows(blob {len(blob)})", flush=True); time.sleep(3); continue
+              depth = 0; instr = False; esc = False; end = None
+              for k in range(i + len('"rows":'), min(len(blob), i + 200000)):
+                  ch = blob[k]
+                  if instr:
+                      if esc: esc = False
+                      elif ch == "\\": esc = True
+                      elif ch == '"': instr = False
+                      continue
+                  if ch == '"': instr = True
+                  elif ch in "{[": depth += 1
+                  elif ch in "}]":
+                      depth -= 1
+                      if depth == 0: end = k + 1; break
+              arr = json.loads(blob[i + len('"rows":'):end])
+              ts = sorted(int(r["date-start-timestamp"]) for r in arr if r.get("date-start-timestamp"))
+              import datetime
+              span = (datetime.datetime.utcfromtimestamp(ts[0]).strftime("%Y-%m"),
+                      datetime.datetime.utcfromtimestamp(ts[-1]).strftime("%Y-%m")) if ts else ("?", "?")
+              print(f"{slug}: rows={len(arr)} span={span[0]}~{span[1]}", flush=True)
+              time.sleep(4)
+
+          # 3) odds POST (用已捕获的真实eid, 日期20261011)
+          eids = ["QV4e6IQs"]  # Vitality vs MOUZ 10-11
+          for h in ("yjd25", "yjab8"):
+              body = json.dumps({"onlyEssentials": eids}).encode()
+              req = urllib.request.Request(
+                  f"https://www.oddsportal.com/proxy/ajax-nextgames-odds/36/2/1/20261011/{h}.dat?page=1&hideFinished=0",
+                  data=body, method="POST",
+                  headers={"User-Agent": UA, "Content-Type": "application/json", "Accept": "*/*",
+                           "Referer": "https://www.oddsportal.com/esports/counter-strike/"})
+              try:
+                  with urllib.request.urlopen(req, timeout=30) as r:
+                      raw = r.read()
+                  try:
+                      data = decrypt(raw.decode("latin1") if isinstance(raw, bytes) else raw)
+                      j = json.dumps(data, ensure_ascii=False)
+                      print(f"odds POST hash={h}: DECRYPTED {len(j)} chars")
+                      print(j[:900], flush=True)
+                      open("odds_sample.json", "w").write(j)
+                      break
+                  except Exception as e:
+                      print(f"odds POST hash={h}: {r_status if False else '200'}但解密fail {str(e)[:50]}; head={raw[:80]}")
+              except urllib.error.HTTPError as e:
+                  print(f"odds POST hash={h}: HTTP {e.code}", flush=True)
+              except Exception as ex:
+                  print(f"odds POST hash={h}: {str(ex)[:60]}", flush=True)
+              time.sleep(3)
+          PYEOF
