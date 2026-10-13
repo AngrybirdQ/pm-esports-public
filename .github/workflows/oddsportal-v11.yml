@@ -1,0 +1,55 @@
+name: oddsportal-v11-sitemap
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Sitemap + season links
+        env:
+          UA: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+        run: |
+          python3 << 'PYEOF'
+          import re, time, urllib.request
+          UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+          def get(url, tries=5):
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
+                      with urllib.request.urlopen(req, timeout=40) as r:
+                          return r.status, r.read().decode("utf-8", "replace")
+                  except urllib.error.HTTPError as e:
+                      if e.code in (429, 503) and i < tries-1: time.sleep(12); continue
+                      return e.code, ""
+                  except Exception:
+                      if i < tries-1: time.sleep(5); continue
+                      return 0, ""
+          # 1) sitemap 索引
+          st, sm = get("https://www.oddsportal.com/sitemap_index.xml")
+          print("sitemap_index:", st, "len:", len(sm))
+          subs = re.findall(r"<loc>([^<]+)</loc>", sm)
+          print("sub-sitemaps:", len(subs))
+          for s in subs[:12]: print("  ", s)
+          time.sleep(3)
+          # 2) 电竞相关的 sub-sitemap 抓一个看URL形态与年代
+          es = [s for s in subs if "esport" in s.lower() or "match" in s.lower()]
+          print("esports-ish:", es[:5])
+          if es:
+              st2, s2 = get(es[0])
+              urls = re.findall(r"<loc>([^<]+)</loc>", s2)
+              print(f"{es[0]}: {st2} urls={len(urls)}")
+              for u in urls[:6]: print("  ", u[:110])
+          time.sleep(3)
+          # 3) S24 results页里的老赛季链接
+          st3, h = get("https://www.oddsportal.com/esports/counter-strike/counter-strike-esl-pro-league-season-24/results/")
+          seasons = sorted(set(re.findall(r'href="([^"]*season-\d+[^"]*)"', h)))
+          print("season links in page:", len(seasons), seasons[:10])
+          all_lg = sorted(set(re.findall(r'href="(/esports/counter-strike/[a-z0-9-]+/)"', h)))
+          print("cs league links:", len(all_lg), all_lg[:10])
+          PYEOF
