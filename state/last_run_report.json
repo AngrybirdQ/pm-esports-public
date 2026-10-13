@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-13T21:12:10Z",
+ "ts": "2026-10-13T21:15:05Z",
  "sources": [
   {
    "url": "/tags",
@@ -199,12 +199,12 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Team Lynx vs Zero Tenacity (BO3) - EPL Masters Play-In Group A",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Power Rangers vs CyberHero (BO3) - DreamLeague Eastern Europe ",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Lynx vs Zero Tenacity (BO3) - EPL Masters Play-In Group A",
+    "closed": true
    },
    {
     "t": "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - DreamLeague Eastern Europe C",
@@ -310,23 +310,28 @@
  },
  "n_event_queries": 21,
  "events": 415,
- "markets": 297,
- "markets_dropped_by_volume_floor": 2705,
+ "markets": 298,
+ "markets_dropped_by_volume_floor": 2704,
  "day_file": "data/2026/10/2026-10-13T21.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 102,
  "trades_watchlist_markets": 76,
- "trades_collected": 1144,
+ "trades_collected": 1189,
  "anomalies_detected": 0,
  "anomalies_new": 0,
  "history_debug": [
   {
    "cid": "0x10241a7f",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xd0298dc3",
    "pts": 0,
    "variant": "none"
   }
  ],
- "history_conditions_new": 0,
+ "history_conditions_new": 1,
  "books_markets": 97,
  "books_rows": 172,
  "status": "ok"
