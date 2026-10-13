@@ -1,0 +1,148 @@
+name: oddsportal-history-crawler
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_days:
+        description: "how many days to crawl this run (0=until timeout)"
+        default: "40"
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Crawl historical odds
+        env:
+          UA: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+        run: |
+          python3 << 'PYEOF'
+          import base64, glob, hashlib, json, os, random, subprocess, time
+          import urllib.request, urllib.error
+          from datetime import datetime, timedelta
+          UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+          PASS = base64.b64decode("Sio4c1EhcCQ3YURfZlIyeVdAZ0huKjNiVnAjc0FkTGRfaw==")
+          SALT = base64.b64decode("NWI5YThmMmMzZTZkMWE0YjdjOGU5ZDBmMWEyYjNjNGQ=")
+          KEY = hashlib.pbkdf2_hmac("sha256", PASS, SALT, 1000, dklen=32)
+          MAX_DAYS = int(os.environ.get("MAX_DAYS", "40") or 0) if False else int("${{ inputs.max_days }}" or "40")
+          HASH_CANDIDATES = ["yjd25", "yjab8"]
+          STATE_DIR = "data/pinnacle_archive"
+
+          def get(url, tries=4):
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*",
+                          "Referer": "https://www.oddsportal.com/esports/results/"})
+                      with urllib.request.urlopen(req, timeout=40) as r:
+                          return r.status, r.read()
+                  except urllib.error.HTTPError as e:
+                      if e.code in (429, 503) and i < tries-1:
+                          time.sleep(15 + i*15); continue
+                      return e.code, b""
+                  except Exception:
+                      if i < tries-1: time.sleep(5); continue
+                      return 0, b""
+
+          def decrypt(raw_body):
+              inner = base64.b64decode(raw_body).decode("latin1")
+              ct_b64, iv_hex = inner.rsplit(":", 1)
+              iv = bytes.fromhex(iv_hex)
+              ct = base64.b64decode(ct_b64)
+              p = subprocess.run(["openssl", "enc", "-d", "-aes-256-cbc", "-K", KEY.hex(),
+                  "-iv", iv.hex(), "-nosalt"], input=ct, capture_output=True)
+              if p.returncode != 0: raise RuntimeError("aes fail")
+              out = p.stdout
+              try: import gzip; out = gzip.decompress(out)
+              except Exception: pass
+              return json.loads(out.decode("utf-8"))
+
+          def working_hash(test_date):
+              for h in HASH_CANDIDATES:
+                  st, raw = get(f"https://www.oddsportal.com/proxy/ajax-nextgames/36/2/1/{test_date}/{h}.dat?page=1&hideFinished=0")
+                  if st == 200 and len(raw) > 50:
+                      try:
+                          decrypt(raw); return h
+                      except Exception: pass
+                  time.sleep(3)
+              return None
+
+          def fetch_date(dstr, h):
+              rows_all, page = [], 1
+              while page <= 5:
+                  st, raw = get(f"https://www.oddsportal.com/proxy/ajax-nextgames/36/2/1/{dstr}/{h}.dat?page={page}&hideFinished=0")
+                  if st != 200 or len(raw) < 50: break
+                  try: data = decrypt(raw)
+                  except Exception as e: break
+                  rows = (data.get("d") or {}).get("rows") or []
+                  rows_all += [r for r in rows if isinstance(r, dict) and r.get("encodeEventId")]
+                  total = (data.get("d") or {}).get("total") or 0
+                  if len(rows_all) >= total or not rows: break
+                  page += 1
+                  time.sleep(2 + random.random()*2)
+              return rows_all
+
+          # ---- 自测: 深度日期支持 ----
+          h = working_hash("20261010")
+          print("hash:", h, flush=True)
+          if not h: raise SystemExit("no working hash")
+          for deep in ("20251013", "20241013", "20231013"):
+              rows = fetch_date(deep, h)
+              print(f"DEEP-TEST {deep}: {len(rows)} matches", flush=True)
+              time.sleep(3)
+
+          # ---- 主循环: 从昨天往回爬 ----
+          os.makedirs(STATE_DIR, exist_ok=True)
+          done = set()
+          for f in glob.glob(STATE_DIR + "/*.jsonl"):
+              for line in open(f):
+                  try: done.add(json.loads(line)["date"])
+                  except Exception: pass
+          print("already done:", len(done), flush=True)
+          d = datetime.utcnow() - timedelta(days=1)
+          n_dates = 0
+          buf = []
+          while n_dates < (MAX_DAYS if MAX_DAYS > 0 else 9999):
+              dstr = d.strftime("%Y%m%d")
+              d = d - timedelta(days=1)
+              if dstr in done: continue
+              try:
+                  rows = fetch_date(dstr, h)
+              except Exception as e:
+                  print(f"{dstr}: ERR {str(e)[:60]}", flush=True)
+                  time.sleep(20); continue
+              if rows:
+                  ev_ids = [r["encodeEventId"] for r in rows][:60]
+                  odds = {}
+                  try:
+                      st, raw = get(f"https://www.oddsportal.com/proxy/ajax-nextgames-odds/36/2/1/{dstr}/{h}.dat?page=1&hideFinished=0")
+                      if st == 200 and len(raw) > 50:
+                          od = decrypt(raw)
+                          odds = od.get("d", {}).get("oddsData") or {}
+                  except Exception: pass
+                  slim = [{"id": r.get("id"), "home": r.get("home-name"), "away": r.get("away-name"),
+                           "start": r.get("date-start-timestamp"), "result": r.get("result"),
+                           "hw": r.get("home-winner"), "league": r.get("tournament-name"),
+                           "sport": (r.get("superTemplate") or {}).get("shortUrl"),
+                           "eid": r.get("encodeEventId")} for r in rows]
+                  buf.append(json.dumps({"date": dstr, "matches": slim, "odds": odds},
+                                         ensure_ascii=False))
+              n_dates += 1
+              print(f"{dstr}: {len(rows)} matches (total dates {n_dates})", flush=True)
+              time.sleep(3 + random.random()*4)
+              if len(buf) >= 15:
+                  fn = f"{STATE_DIR}/hist_{dstr}.jsonl"
+                  open(fn, "a").write("\n".join(buf) + "\n"); buf = []
+          if buf:
+              fn = f"{STATE_DIR}/hist_{d.strftime('%Y%m%d')}.jsonl"
+              open(fn, "a").write("\n".join(buf) + "\n")
+          print("CRAWL PASS DONE", flush=True)
+      - name: Commit accumulated data
+        run: |
+          git config user.name "crawler" && git config user.email "crawler@noreply"
+          git add data/pinnacle_archive/ 2>/dev/null || true
+          git diff --cached --quiet && echo "nothing new" || (git commit -m "oddsportal history: ${{ inputs.max_days }}d pass" && (git pull --rebase origin main || true) && git push) || (sleep 5 && git pull --rebase origin main && git push) || true
