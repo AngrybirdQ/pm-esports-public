@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-13T09:20:19Z",
+ "ts": "2026-10-13T11:27:20Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 42,
+   "events_returned": 43,
    "err": null
   },
   {
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 64,
+   "events_returned": 66,
    "err": null
   },
   {
@@ -199,24 +199,24 @@
  "search_samples": {
   "search:Dota 2": [
    {
+    "t": "Dota 2: Team Lynx vs Zero Tenacity (BO3) - EPL Masters Play-In Group A",
+    "closed": false
+   },
+   {
     "t": "Dota 2: Team Lynx vs CyberHero (BO3) - EPL Masters Play-In Group A",
     "closed": true
+   },
+   {
+    "t": "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - DreamLeague Eastern Europe C",
+    "closed": false
    },
    {
     "t": "Dota 2: Mena Warriors vs Team Lynx (BO3) - EPL Masters Play-In Group A",
     "closed": true
    },
    {
-    "t": "Dota 2: Yakult Brothers vs Zenith (BO3) - DreamLeague China Closed Qua",
+    "t": "Dota 2: Yellow Submarine vs Kalmychata (BO3) - DreamLeague Eastern Eur",
     "closed": false
-   },
-   {
-    "t": "Dota 2: Team Lynx vs Zero Tenacity (BO3) - EPL Masters Play-In Group A",
-    "closed": false
-   },
-   {
-    "t": "Dota 2: Dawn Bulls vs The Warriors (BO3) - EPL Masters Play-In Group B",
-    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -309,23 +309,45 @@
   ]
  },
  "n_event_queries": 21,
- "events": 411,
- "markets": 312,
- "markets_dropped_by_volume_floor": 2749,
- "day_file": "data/2026/10/2026-10-13T09.jsonl",
+ "events": 412,
+ "markets": 320,
+ "markets_dropped_by_volume_floor": 2800,
+ "day_file": "data/2026/10/2026-10-13T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 90,
- "trades_watchlist_markets": 65,
- "trades_collected": 1901,
- "anomalies_detected": 22,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "2982391128: HTTPError: HTTP Error 404: Not Found",
-  "3781629139: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 102,
+ "trades_watchlist_markets": 68,
+ "trades_collected": 2710,
+ "anomalies_detected": 2,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0xb8f01681",
+   "pts": 5,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xd843ac47",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x9fc03874",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x1d433c65",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x15dc6b7b",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 93,
- "books_rows": 140,
+ "history_conditions_new": 5,
+ "books_markets": 107,
+ "books_rows": 142,
  "status": "ok"
 }
