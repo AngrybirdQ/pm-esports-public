@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-13T02:00:51Z",
+ "ts": "2026-10-13T03:53:02Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 43,
+   "events_returned": 41,
    "err": null
   },
   {
@@ -51,13 +51,13 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 67,
+   "events_returned": 65,
    "err": null
   },
   {
    "url": "tag_slug=lol",
    "ok": true,
-   "events_returned": 40,
+   "events_returned": 39,
    "err": null
   },
   {
@@ -140,9 +140,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: LOS vs KaBuM! Ilha das Lendas (BO5) - CBLOL Promotion Playoffs",
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
-   "LoL: Maryville University vs Disguised (BO5) - LCS Promotion Playoffs"
+   "LoL: Maryville University vs Disguised (BO5) - LCS Promotion Playoffs",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Synapse vs Blasterbl (BO3) - PARI Universe Closed Qualifi",
@@ -159,14 +159,14 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: LOS vs KaBuM! Ilha das Lendas (BO5) - CBLOL Promotion Playoffs",
    "LoL: Maryville University vs Disguised (BO5) - LCS Promotion Playoffs",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "Worlds 2026: Winner"
   ],
   "tag_slug=lol": [
    "Worlds 2026 Winning Region",
    "Worlds 2026: Winner",
-   "League of Legends Global Power Rankings Post Worlds: Rank 1"
+   "Demacia Cup Global Invitational 2026: Winner"
   ],
   "tag_slug=valorant": [
    "VALORANT Champions 2026: Winner",
@@ -212,7 +212,7 @@
    },
    {
     "t": "Dota 2: Dawn Bulls vs The Warriors (BO3) - EPL Masters Play-In Group B",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Mena Warriors vs Dawn Bulls (BO3) - DreamLeague Western Europe",
@@ -309,19 +309,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 417,
- "markets": 308,
- "markets_dropped_by_volume_floor": 2764,
- "day_file": "data/2026/10/2026-10-13T02.jsonl",
+ "events": 414,
+ "markets": 292,
+ "markets_dropped_by_volume_floor": 2697,
+ "day_file": "data/2026/10/2026-10-13T03.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 74,
- "trades_watchlist_markets": 55,
- "trades_collected": 699,
- "anomalies_detected": 7,
+ "trades_markets_queried": 72,
+ "trades_watchlist_markets": 57,
+ "trades_collected": 442,
+ "anomalies_detected": 5,
  "anomalies_new": 5,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 85,
- "books_rows": 124,
+ "history_debug": [
+  {
+   "cid": "0x0f81fc65",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 75,
+ "books_rows": 132,
  "status": "ok"
 }
