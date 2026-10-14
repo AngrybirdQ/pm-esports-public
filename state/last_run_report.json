@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T12:26:29Z",
+ "ts": "2026-10-14T12:30:20Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 40,
+   "events_returned": 39,
    "err": null
   },
   {
@@ -146,8 +146,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Inner Circle vs Team Lynx (BO3) - EPL Masters Play-In Group A",
-   "Dota 2: Nemiga Gaming vs Kalmychata (BO3) - DreamLeague Eastern Europe"
+   "Dota 2: Nemiga Gaming vs Kalmychata (BO3) - DreamLeague Eastern Europe",
+   "Dota 2: Inner Circle vs Team Lynx (BO3) - EPL Masters Play-In Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -310,18 +310,30 @@
  },
  "n_event_queries": 21,
  "events": 420,
- "markets": 350,
- "markets_dropped_by_volume_floor": 2717,
+ "markets": 355,
+ "markets_dropped_by_volume_floor": 2728,
  "day_file": "data/2026/10/2026-10-14T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 155,
+ "trades_markets_queried": 158,
  "trades_watchlist_markets": 112,
- "trades_collected": 2952,
+ "trades_collected": 3001,
  "anomalies_detected": 15,
- "anomalies_new": 1,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 135,
- "books_rows": 174,
+ "anomalies_new": 9,
+ "history_debug": [
+  {
+   "cid": "0x1f1d9fb4",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_errors": [
+  "8497981782: HTTPError: HTTP Error 404: Not Found",
+  "2274486182: HTTPError: HTTP Error 404: Not Found",
+  "1082123747: HTTPError: HTTP Error 404: Not Found",
+  "6250889207: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 138,
+ "books_rows": 176,
  "status": "ok"
 }
