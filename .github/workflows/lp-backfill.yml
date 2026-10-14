@@ -1,0 +1,179 @@
+name: liquipedia-results-backfill
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Liquipedia results backfill 2024-2026
+        run: |
+          python3 << 'PYEOF'
+          import json, re, time, urllib.request, urllib.parse, gzip
+          UA = "pm-esports-research/1.0 (github.com/AngrybirdQ; odds backfill research)"
+          # 精选顶级联赛页面(2024-2026, 覆盖两年): 每页含整届赛事全部比赛
+          TOURNAMENTS = []
+          # CS2
+          for s in (22, 23, 24):
+              TOURNAMENTS.append(("cs", f"counterstrike", f"ESL/Pro_League/Season_{s}"))
+          for ev in ("Katowice_2025","Katowice_2026","Cologne_2025","Cologne_2026",
+                     "Chengdu_2025","Dallas_2025","Sydney_2025","Rio_2025","World_Championship_2025",
+                     "Katowice_2024","Cologne_2024","Dallas_2024","Chengdu_2024","Sydney_2024","Rio_2024"):
+              TOURNAMENTS.append(("cs", "counterstrike", f"Intel_Extreme_Masters/{ev}"))
+          for s in (23, 24, 25):
+              TOURNAMENTS.append(("cs", "counterstrike", f"BLAST/Premier/Season_{s}"))
+          for ev in ("Copenhagen_2024","Shanghai_2024","Austin_2025","Budapest_2025"):
+              TOURNAMENTS.append(("cs", "counterstrike", f"PGL/Major/{ev}"))
+          # LoL
+          for y in (2024, 2025, 2026):
+              TOURNAMENTS.append(("lol", "leagueoflegends", f"World_Championship/{y}"))
+              TOURNAMENTS.append(("lol", "leagueoflegends", f"Mid-Season_Invitational/{y}"))
+          for lg in ("LPL", "LCK", "LEC"):
+              for spl in ("Spring", "Summer"):
+                  for y in (2024, 2025, 2026):
+                      TOURNAMENTS.append(("lol", "leagueoflegends", f"{lg}/{y}/Season/{spl}"))
+          # Dota2
+          for y in (2025, 2026):
+              TOURNAMENTS.append(("dota2", "dota2", f"The_International/{y}"))
+          for s in (22, 23, 24, 25):
+              TOURNAMENTS.append(("dota2", "dota2", f"DreamLeague/Season_{s}"))
+          # Valorant
+          for y in (2025, 2026):
+              TOURNAMENTS.append(("valorant", "valorant", f"VCT/{y}"))
+          for y in (2024, 2025, 2026):
+              TOURNAMENTS.append(("valorant", "valorant", f"VALORANT_Champions/{y}"))
+              TOURNAMENTS.append(("valorant", "valorant", f"VALORANT_Masters/{y}"))
+          print(f"tournament pages: {len(TOURNAMENTS)}", flush=True)
+
+          UA = "pm-esports-research/1.0 (github.com/AngrybirdQ)"
+          def lp_wikitext(game, page, tries=3):
+              url = f"https://liquipedia.net/{game}/api.php?" + urllib.parse.urlencode(
+                  {"action": "parse", "page": page, "prop": "wikitext", "format": "json"})
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": UA,
+                          "Accept": "application/json", "Accept-Encoding": "gzip"})
+                      with urllib.request.urlopen(req, timeout=45) as r:
+                          raw = r.read()
+                          if raw[:2] == b"\x1f\x8b": raw = gzip.decompress(raw)
+                          d = json.loads(raw)
+                          return d["parse"]["wikitext"]["*"]
+                  except urllib.error.HTTPError as e:
+                      if e.code in (429, 503) and i < tries-1: time.sleep(15); continue
+                      return None
+                  except Exception:
+                      if i < tries-1: time.sleep(6); continue
+                      return None
+
+          def find_template(wt, start):
+              """从start的'{{'起做模板括号计数, 返回结束位置(含}})"""
+              depth = 0; i = start
+              while i < len(wt) - 1:
+                  if wt[i:i+2] == "{{":
+                      depth += 1; i += 2; continue
+                  if wt[i:i+2] == "}}":
+                      depth -= 1; i += 2
+                      if depth == 0: return i
+                      continue
+                  i += 1
+              return None
+
+          def split_params(tpl):
+              """拆模板参数(管道符在嵌套模板内不分割): 顶层 | 分割"""
+              inner = tpl[2:-2]
+              parts = []; depth = 0; instr = None; cur = ""
+              i = 0
+              while i < len(inner):
+                  if instr:
+                      cur += inner[i]
+                      if instr == "[[" and inner[i:i+2] == "]]": instr = None; cur += "]"
+                      elif inner[i:i+2] == "{{": instr = "{{"
+                      i += 1; continue
+                  if inner[i:i+2] == "{{": instr = "{{"; cur += "{{"; i += 2; continue
+                  if inner[i:i+2] == "[[": instr = "[["; cur += "[["; i += 2; continue
+                  if inner[i] == "|" and depth == 0:
+                      parts.append(cur); cur = ""; i += 1; continue
+                  if inner[i] in "{[": depth += 1
+                  elif inner[i] in "}]": depth -= 1
+                  cur += inner[i]; i += 1
+              parts.append(cur)
+              return parts
+
+          def parse_match(tpl, game, page_title):
+              parts = split_params(tpl)
+              opp1 = opp2 = None; s1 = s2 = None
+              date = None; winner = None; finished = False; bestof = None
+              for p in parts[1:]:
+                  if "=" not in p: continue
+                  k, v = p.split("=", 1)
+                  k = k.strip(); v = v.strip()
+                  if k == "opponent1": opp1 = v
+                  elif k == "opponent2": opp2 = v
+                  elif k == "date": date = v
+                  elif k == "finished": finished = v.lower() == "true"
+                  elif k == "winner": winner = v
+                  elif k == "bestof": bestof = v
+              def team_and_score(opp):
+                  if not opp: return None, None
+                  m = re.search(r"TeamOpponent\|([^|}]+)", opp)
+                  team = m.group(1).strip() if m else None
+                  sm = re.search(r"\|score\s*=\s*(\d+)", opp)
+                  return team, (int(sm.group(1)) if sm else None)
+              t1, sc1 = team_and_score(opp1)
+              t2, sc2 = team_and_score(opp2)
+              if not t1 or not t2: return None
+              return {"game": game, "tournament": page_title, "team_a": t1, "team_b": t2,
+                      "score1": sc1, "score2": sc2, "date": date, "finished": finished,
+                      "winner": winner, "bestof": bestof}
+
+          # 主循环
+          out = open("lp_results.jsonl", "w")
+          ok_pages = err_pages = total_matches = 0
+          for gi, (game, wiki, page) in enumerate(TOURNAMENTS):
+              wt = lp_wikitext(wiki, page)
+              if not wt:
+                  err_pages += 1
+                  print(f"[{gi+1}] {page}: miss", flush=True)
+                  time.sleep(2.5); continue
+              # 抽取所有 {{Match ...}} 顶层模板
+              matches = []
+              i = 0
+              while True:
+                  i = wt.find("{{Match", i)
+                  if i < 0: break
+                  # 排除 {{Matchlist/{{Matchsection}} — Matchlist是容器, 内嵌{{Match
+                  if wt[i:i+10].startswith("{{Matchlist") or wt[i:i+14].startswith("{{Matchsection"):
+                      i += 2; continue
+                  end = find_template(wt, i)
+                  if not end: break
+                  tpl = wt[i:end]
+                  r = parse_match(tpl, game, page)
+                  if r: matches.append(r)
+                  i = end
+              for r in matches:
+                  out.write(json.dumps(r, ensure_ascii=False) + "\n")
+              total_matches += len(matches)
+              ok_pages += 1
+              print(f"[{gi+1}] {page}: {len(matches)} matches", flush=True)
+              time.sleep(2.5)
+          out.close()
+          print(f"DONE: pages ok={ok_pages} miss={err_pages} matches={total_matches}", flush=True)
+      - name: Commit results
+        run: |
+          git config user.name "lp" && git config user.email "lp@noreply"
+          git add lp_results.jsonl
+          git diff --cached --quiet && echo nothing || (git commit -m "liquipedia results backfill" && (git pull --rebase origin main || true) && git push) || (sleep 8 && git pull --rebase origin main && git push) || true
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lp-results
+          path: lp_results.jsonl
+          retention-days: 90
+          if-no-files-found: ignore
