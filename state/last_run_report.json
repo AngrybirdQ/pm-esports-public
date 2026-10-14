@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T06:00:24Z",
+ "ts": "2026-10-14T06:08:17Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 40,
+   "events_returned": 42,
    "err": null
   },
   {
@@ -309,19 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 423,
- "markets": 311,
- "markets_dropped_by_volume_floor": 2699,
+ "events": 425,
+ "markets": 312,
+ "markets_dropped_by_volume_floor": 2736,
  "day_file": "data/2026/10/2026-10-14T06.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 109,
+ "trades_markets_queried": 110,
  "trades_watchlist_markets": 93,
  "trades_collected": 695,
- "anomalies_detected": 10,
- "anomalies_new": 7,
+ "anomalies_detected": 9,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 106,
- "books_rows": 208,
+ "books_markets": 107,
+ "books_rows": 210,
  "status": "ok"
 }
