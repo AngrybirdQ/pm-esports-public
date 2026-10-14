@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T13:27:24Z",
+ "ts": "2026-10-14T13:33:04Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 40,
+   "events_returned": 39,
    "err": null
   },
   {
@@ -147,7 +147,7 @@
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
    "Dota 2: Nemiga Gaming vs Kalmychata (BO3) - DreamLeague Eastern Europe",
-   "Dota 2: Inner Circle vs Team Lynx (BO3) - EPL Masters Play-In Group A"
+   "Dota 2: Power Rangers vs CyberHero (BO3) - DreamLeague Eastern Europe "
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -204,7 +204,7 @@
    },
    {
     "t": "Dota 2: Inner Circle vs Team Lynx (BO3) - EPL Masters Play-In Group A",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Power Rangers vs CyberHero (BO3) - DreamLeague Eastern Europe ",
@@ -310,34 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 420,
- "markets": 346,
- "markets_dropped_by_volume_floor": 2692,
+ "markets": 338,
+ "markets_dropped_by_volume_floor": 2689,
  "day_file": "data/2026/10/2026-10-14T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 158,
+ "trades_markets_queried": 151,
  "trades_watchlist_markets": 112,
  "trades_collected": 2606,
- "anomalies_detected": 29,
- "anomalies_new": 10,
+ "anomalies_detected": 27,
+ "anomalies_new": 25,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "6536301317: HTTPError: HTTP Error 404: Not Found",
-  "9093439383: HTTPError: HTTP Error 404: Not Found",
-  "7051449912: HTTPError: HTTP Error 404: Not Found",
-  "4237183629: HTTPError: HTTP Error 404: Not Found",
-  "7202082601: HTTPError: HTTP Error 404: Not Found",
-  "1061045083: HTTPError: HTTP Error 404: Not Found",
-  "5327858044: HTTPError: HTTP Error 404: Not Found",
-  "2948922150: HTTPError: HTTP Error 404: Not Found",
-  "7028572899: HTTPError: HTTP Error 404: Not Found",
-  "3175717415: HTTPError: HTTP Error 404: Not Found",
-  "1621920978: HTTPError: HTTP Error 404: Not Found",
-  "9802574800: HTTPError: HTTP Error 404: Not Found",
-  "1069233585: HTTPError: HTTP Error 404: Not Found",
-  "6360943840: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 113,
- "books_rows": 182,
+ "books_markets": 105,
+ "books_rows": 176,
  "status": "ok"
 }
