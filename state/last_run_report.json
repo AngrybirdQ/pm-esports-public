@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T18:31:45Z",
+ "ts": "2026-10-14T18:36:07Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 41,
+   "events_returned": 46,
    "err": null
   },
   {
@@ -140,9 +140,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Counter-Strike: Legacy vs PARIVISION (BO3) - Thunderpick World Champio",
    "Worlds 2026: Winner",
-   "Dota 2: Team Resilience vs Yakult Brothers (BO3) - DreamLeague China C"
+   "Dota 2: Team Resilience vs Yakult Brothers (BO3) - DreamLeague China C",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Resilience vs Yakult Brothers (BO3) - DreamLeague China C",
@@ -309,39 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 421,
- "markets": 337,
- "markets_dropped_by_volume_floor": 2750,
+ "events": 426,
+ "markets": 333,
+ "markets_dropped_by_volume_floor": 2846,
  "day_file": "data/2026/10/2026-10-14T18.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 152,
  "trades_watchlist_markets": 123,
- "trades_collected": 2876,
- "anomalies_detected": 42,
- "anomalies_new": 41,
- "history_debug": [
-  {
-   "cid": "0xc29aaa29",
-   "pts": 3,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
- "books_errors": [
-  "2426472990: HTTPError: HTTP Error 404: Not Found",
-  "1131464315: HTTPError: HTTP Error 404: Not Found",
-  "7749896008: HTTPError: HTTP Error 404: Not Found",
-  "9013146949: HTTPError: HTTP Error 404: Not Found",
-  "3204348741: HTTPError: HTTP Error 404: Not Found",
-  "7871832321: HTTPError: HTTP Error 404: Not Found",
-  "1044350606: HTTPError: HTTP Error 404: Not Found",
-  "2736925058: HTTPError: HTTP Error 404: Not Found",
-  "9318732159: HTTPError: HTTP Error 404: Not Found",
-  "6204113538: HTTPError: HTTP Error 404: Not Found",
-  "6397676680: HTTPError: HTTP Error 404: Not Found",
-  "4156951998: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 110,
- "books_rows": 146,
+ "trades_collected": 2838,
+ "anomalies_detected": 40,
+ "anomalies_new": 4,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 104,
+ "books_rows": 144,
  "status": "ok"
 }
