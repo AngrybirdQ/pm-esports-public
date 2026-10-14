@@ -1,0 +1,40 @@
+name: liquipedia-raw-template-debug
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Dump raw Match template
+        run: |
+          python3 << 'PYEOF'
+          import gzip, json, re, urllib.request
+          UA = "pm-esports-research/1.0 (github.com/AngrybirdQ)"
+          req = urllib.request.Request(
+              "https://liquipedia.net/counterstrike/api.php?action=parse&page=Intel_Extreme_Masters/2023/Cologne&prop=wikitext&format=json",
+              headers={"User-Agent": UA, "Accept": "application/json", "Accept-Encoding": "gzip"})
+          with urllib.request.urlopen(req, timeout=60) as r:
+              raw = r.read()
+          if raw[:2] == b"\x1f\x8b": raw = gzip.decompress(raw)
+          wt = json.loads(raw)["parse"]["wikitext"]["*"]
+          i = wt.find("{{Match")
+          # 找一个非Matchlist开头的
+          while i >= 0 and wt[i:i+11] == "{{Matchlist":
+              i = wt.find("{{Match", i + 2)
+          # 括号计数取完整模板
+          depth = 0; k = i; end = None
+          while k < len(wt) - 1:
+              if wt[k:k+2] == "{{": depth += 1; k += 2; continue
+              if wt[k:k+2] == "}}":
+                  depth -= 1; k += 2
+                  if depth == 0: end = k; break
+                  continue
+              k += 1
+          print(wt[i:end][:1500], flush=True)
+          PYEOF
