@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T06:36:04Z",
+ "ts": "2026-10-14T08:23:54Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 42,
+   "events_returned": 39,
    "err": null
   },
   {
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 70,
+   "events_returned": 69,
    "err": null
   },
   {
@@ -140,14 +140,14 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
+   "LoL: BNK FEARX vs KT Rolster (BO5) - Demacia Cup Global Invitational P",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua"
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Power Rangers vs Team Synapse (BO3) - EPL Masters Group A",
-   "Dota 2: Power Rangers vs CyberHero (BO3) - DreamLeague Eastern Europe "
+   "Dota 2: Power Rangers vs CyberHero (BO3) - DreamLeague Eastern Europe ",
+   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -159,9 +159,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
+   "LoL: BNK FEARX vs KT Rolster (BO5) - Demacia Cup Global Invitational P",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "LoL: KaBuM! Ilha das Lendas vs Golden Lions (BO5) - CBLOL Promotion Pl"
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -247,10 +247,6 @@
     "closed": false
    },
    {
-    "t": "Will Caedrel Reach Challenger Before the End of the Year?",
-    "closed": false
-   },
-   {
     "t": "LoL: Dplus KIA Challengers vs KT Rolster Challengers (BO5) - LCK Chall",
     "closed": true
    },
@@ -260,6 +256,10 @@
    },
    {
     "t": "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO5) - LCK Challengers",
+    "closed": true
+   },
+   {
+    "t": "LoL: DN SOOPers Challengers vs Nongshim Esports Academy (BO5) - LCK Ch",
     "closed": true
    }
   ],
@@ -309,19 +309,60 @@
   ]
  },
  "n_event_queries": 21,
- "events": 425,
- "markets": 315,
- "markets_dropped_by_volume_floor": 2733,
- "day_file": "data/2026/10/2026-10-14T06.jsonl",
+ "events": 424,
+ "markets": 333,
+ "markets_dropped_by_volume_floor": 2708,
+ "day_file": "data/2026/10/2026-10-14T08.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 113,
- "trades_watchlist_markets": 99,
- "trades_collected": 696,
- "anomalies_detected": 2,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 112,
- "books_rows": 220,
+ "trades_markets_queried": 124,
+ "trades_watchlist_markets": 104,
+ "trades_collected": 1125,
+ "anomalies_detected": 5,
+ "anomalies_new": 5,
+ "history_debug": [
+  {
+   "cid": "0xf5b99bdf",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x25b0b6ee",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x039f4533",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xb2e168e7",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xcfb7da41",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xce20327d",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xf61d6d89",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xa54f2540",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 9,
+ "books_markets": 117,
+ "books_rows": 230,
  "status": "ok"
 }
