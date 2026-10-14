@@ -1,0 +1,59 @@
+name: wayback-enumerate
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Enumerate archived esports pages + sample odds
+        run: |
+          python3 << 'PYEOF'
+          import json, re, time, urllib.request, urllib.parse
+          def get(url, tries=3):
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": "research/1.0"})
+                      with urllib.request.urlopen(req, timeout=90) as r:
+                          return r.status, r.read().decode("utf-8", "replace")
+                  except urllib.error.HTTPError as e:
+                      if e.code in (429, 503) and i < tries-1: time.sleep(20); continue
+                      return e.code, ""
+                  except Exception as ex:
+                      if i < tries-1: time.sleep(8); continue
+                      return 0, str(ex)[:60]
+          base = "http://web.archive.org/cdx/search/cdx?url=" + urllib.parse.quote("oddsportal.com/esports/") + "&matchType=prefix&from=2024&to=2026&filter=statuscode:200&output=json"
+          all_rows = []
+          for pgnum in (0, 1):
+              st, d = get(base + f"&page={pgnum}")
+              print(f"page {pgnum}: {st}", flush=True)
+              if st == 200 and d:
+                  rows = json.loads(d)
+                  all_rows += rows[1:] if rows else []
+              time.sleep(4)
+          print("total archived 200s:", len(all_rows), flush=True)
+          # 分类: match detail页(3+路径段) vs 频道页
+          match_rows = [r for r in all_rows if len(r[2].split("/")) >= 6 and "results" not in r[2]]
+          print("match-detail pages:", len(match_rows), flush=True)
+          for r in match_rows[:8]:
+              print("  ", r[1], r[2][:100], flush=True)
+          time.sleep(3)
+          # 取最早的一个2024快照, 看赔率表是否在老版HTML里
+          if match_rows:
+              old = sorted(match_rows, key=lambda r: r[1])[0]
+              ts, ourl = old[1], old[2]
+              print("fetching archived:", ts, ourl[:90], flush=True)
+              st3, h = get(f"http://web.archive.org/web/{ts}/{ourl}", tries=2)
+              print("archived page:", st3, "size:", len(h), flush=True)
+              # 老版oddsportal页面特征: 赔率在<table id="odds">或类似; 搜Pinnacle与赔率数字
+              print("has pinnacle:", "pinnacle" in h.lower(), flush=True)
+              print("has odds table:", bool(re.search(r'id="odds|class="odds|oddsTable|odds-table', h, re.I)), flush=True)
+              # 赔率数字特征: 1.85/2.10之类的小数在表内
+              odds_nums = len(re.findall(r'>(1\.\d{2}|2\.\d{2})<', h))
+              print("decimal odds cells:", odds_nums, flush=True)
+          PYEOF
