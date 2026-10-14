@@ -79,9 +79,17 @@ jobs:
           sm = sm.decode("utf-8", "replace") if isinstance(sm, bytes) else sm
           league_urls = sorted(set(re.findall(r"<loc>(https://www\.oddsportal\.com/esports/[^/]+/[a-z0-9-]+/results/)</loc>",
               sm.decode("utf-8", "replace") if False else sm))) if False else []
-          raw = urllib.request.urlopen(urllib.request.Request(
-              "https://www.oddsportal.com/sitemap/esports/results.xml",
-              headers={"User-Agent": UA}), timeout=60).read().decode("utf-8", "replace")
+          raw = ""
+          for _rt in range(4):
+              try:
+                  raw = urllib.request.urlopen(urllib.request.Request(
+                      "https://www.oddsportal.com/sitemap/esports/results.xml",
+                      headers={"User-Agent": UA}), timeout=45).read().decode("utf-8", "replace")
+                  if raw:
+                      break
+              except Exception as _e:
+                  print("sitemap retry", _rt, str(_e)[:50], flush=True)
+              time.sleep(10)
           league_urls = sorted(set(re.findall(r"<loc>(https://www\.oddsportal\.com/esports/[^/]+/[a-z0-9-]+/results/)</loc>", raw)))
           print(f"leagues: {len(league_urls)}", flush=True)
           # 2) 断点续爬: 跳过已有jsonl的联赛
