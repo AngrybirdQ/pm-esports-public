@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T09:38:10Z",
+ "ts": "2026-10-14T09:41:30Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 39,
+   "events_returned": 41,
    "err": null
   },
   {
@@ -146,8 +146,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Power Rangers vs CyberHero (BO3) - DreamLeague Eastern Europe ",
-   "Dota 2: Inner Circle vs Team Lynx (BO3) - EPL Masters Play-In Group A"
+   "Dota 2: Inner Circle vs Team Lynx (BO3) - EPL Masters Play-In Group A",
+   "Dota 2: Power Rangers vs CyberHero (BO3) - DreamLeague Eastern Europe "
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -281,8 +281,8 @@
     "closed": false
    },
    {
-    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
-    "closed": false
+    "t": "Valorant: NRG vs Fnatic (BO5)",
+    "closed": true
    }
   ],
   "search:The International": [
@@ -309,19 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 421,
+ "events": 423,
  "markets": 346,
- "markets_dropped_by_volume_floor": 2711,
+ "markets_dropped_by_volume_floor": 2751,
  "day_file": "data/2026/10/2026-10-14T09.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 137,
+ "trades_markets_queried": 138,
  "trades_watchlist_markets": 104,
- "trades_collected": 2077,
- "anomalies_detected": 32,
- "anomalies_new": 6,
+ "trades_collected": 2218,
+ "anomalies_detected": 27,
+ "anomalies_new": 1,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 126,
- "books_rows": 228,
+ "books_rows": 222,
  "status": "ok"
 }
