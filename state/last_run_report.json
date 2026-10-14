@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T10:35:07Z",
+ "ts": "2026-10-14T12:01:14Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 40,
+   "events_returned": 41,
    "err": null
   },
   {
@@ -141,13 +141,13 @@
  "tag_samples": {
   "tag_slug=esports": [
    "LoL: BNK FEARX vs KT Rolster (BO5) - Demacia Cup Global Invitational P",
-   "Counter-Strike: 9z vs Aurora Gaming (BO3) - Thunderpick World Champion",
+   "Counter-Strike: Team Falcons vs NIP (BO3) - Thunderpick World Champion",
    "Worlds 2026: Winner"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
    "Dota 2: Inner Circle vs Team Lynx (BO3) - EPL Masters Play-In Group A",
-   "Dota 2: Power Rangers vs CyberHero (BO3) - DreamLeague Eastern Europe "
+   "Dota 2: Nemiga Gaming vs Kalmychata (BO3) - DreamLeague Eastern Europe"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -203,6 +203,10 @@
     "closed": false
    },
    {
+    "t": "Dota 2: Nemiga Gaming vs Kalmychata (BO3) - DreamLeague Eastern Europe",
+    "closed": false
+   },
+   {
     "t": "Dota 2: Power Rangers vs CyberHero (BO3) - DreamLeague Eastern Europe ",
     "closed": false
    },
@@ -212,10 +216,6 @@
    },
    {
     "t": "Dota 2: HULIGANI vs Yellow Submarine (BO3) - DreamLeague Eastern Europ",
-    "closed": true
-   },
-   {
-    "t": "Dota 2: Power Rangers vs The Warriors (BO3) - DreamLeague Eastern Euro",
     "closed": true
    }
   ],
@@ -281,8 +281,8 @@
     "closed": false
    },
    {
-    "t": "Valorant: NRG vs Fnatic (BO5)",
-    "closed": true
+    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
+    "closed": false
    }
   ],
   "search:The International": [
@@ -309,19 +309,40 @@
   ]
  },
  "n_event_queries": 21,
- "events": 421,
- "markets": 348,
- "markets_dropped_by_volume_floor": 2761,
- "day_file": "data/2026/10/2026-10-14T10.jsonl",
+ "events": 422,
+ "markets": 346,
+ "markets_dropped_by_volume_floor": 2749,
+ "day_file": "data/2026/10/2026-10-14T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 152,
- "trades_watchlist_markets": 131,
- "trades_collected": 3236,
- "anomalies_detected": 47,
- "anomalies_new": 10,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 143,
- "books_rows": 232,
+ "trades_markets_queried": 155,
+ "trades_watchlist_markets": 112,
+ "trades_collected": 2973,
+ "anomalies_detected": 59,
+ "anomalies_new": 59,
+ "history_debug": [
+  {
+   "cid": "0x50fbe3c6",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xe178cbf8",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xa05984fe",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x8b950d8b",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 4,
+ "books_markets": 136,
+ "books_rows": 188,
  "status": "ok"
 }
