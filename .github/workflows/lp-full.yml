@@ -1,0 +1,147 @@
+name: liquipedia-full-backfill
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Discover + parse all + store
+        run: |
+          python3 << 'PYEOF'
+          import base64, json, re, time, urllib.request, urllib.parse, gzip, hashlib
+          UA = "pm-esports-research/1.0 (github.com/AngrybirdQ)"
+          QUERIES = {
+            "counterstrike": ["ESL Pro League", "Intel Extreme Masters", "BLAST Premier", "PGL Major", "ESL Challenger"],
+            "leagueoflegends": ["World Championship", "Mid-Season Invitational", "LPL Season", "LCK", "LEC Season"],
+            "dota2": ["The International", "DreamLeague", "ESL One", "Dota Pro Circuit"],
+            "valorant": ["VALORANT Champions", "VCT Masters", "VCT Champions"],
+          }
+          def http(url, tries=3, timeout=45):
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": UA,
+                          "Accept": "application/json", "Accept-Encoding": "gzip"})
+                      with urllib.request.urlopen(req, timeout=timeout) as r:
+                          raw = r.read()
+                          if raw[:2] == b"\x1f\x8b": raw = gzip.decompress(raw)
+                          return r.status, raw.decode("utf-8", "replace")
+                  except urllib.error.HTTPError as e:
+                      if e.code in (429, 503) and i < tries-1: time.sleep(15); continue
+                      return e.code, ""
+                  except Exception as ex:
+                      if i < tries-1: time.sleep(6); continue
+                      return 0, str(ex)[:50]
+          # 1) discovery
+          discovered = {}
+          for game, qs in QUERIES.items():
+              found = []
+              for q in qs:
+                  st, d = http(f"https://liquipedia.net/{game}/api.php?" + urllib.parse.urlencode(
+                      {"action": "opensearch", "search": q, "limit": 20, "format": "json"}))
+                  if st == 200:
+                      try: found += [n for n in json.loads(d)[1] if "Archive" not in n]
+                      except Exception: pass
+                  time.sleep(2.2)
+              discovered[game] = sorted(set(found))
+          pages = [(g, p) for g, ps in discovered.items() for p in ps]
+          print(f"discovered pages: {len(pages)}", flush=True)
+
+          # 2) Match模板解析
+          def find_template(wt, start):
+              depth = 0; i = start
+              while i < len(wt) - 1:
+                  if wt[i:i+2] == "{{":
+                      depth += 1; i += 2; continue
+                  if wt[i:i+2] == "}}":
+                      depth -= 1; i += 2
+                      if depth == 0: return i
+                      continue
+                  i += 1
+              return None
+          def split_params(tpl):
+              inner = tpl[2:-2]
+              parts = []; depth = 0; cur = ""; i = 0
+              while i < len(inner):
+                  if inner[i:i+2] == "{{":
+                      depth += 1; cur += "{{"; i += 2; continue
+                  if inner[i:i+2] == "}}":
+                      if depth > 0: depth -= 1
+                      cur += "}}"; i += 2; continue
+                  if inner[i] == "|" and depth == 0:
+                      parts.append(cur); cur = ""; i += 1; continue
+                  cur += inner[i]; i += 1
+              parts.append(cur)
+              return parts
+          def parse_match(tpl, game, page):
+              parts = split_params(tpl)
+              opp1 = opp2 = None; date = None; winner = None; finished = False
+              for p in parts[1:]:
+                  if "=" not in p: continue
+                  k, v = p.split("=", 1); k = k.strip(); v = v.strip()
+                  if k == "opponent1": opp1 = v
+                  elif k == "opponent2": opp2 = v
+                  elif k == "date": date = v
+                  elif k == "finished": finished = v.lower() == "true"
+                  elif k == "winner": winner = v
+              def team(opp):
+                  if not opp: return None
+                  m = re.search(r"TeamOpponent\|([^|}]+)", opp)
+                  return m.group(1).strip() if m else None
+              t1, t2 = team(opp1), team(opp2)
+              def score(opp):
+                  m = re.search(r"\|score\s*=\s*(\d+)", opp or "")
+                  return int(m.group(1)) if m else None
+              if not t1 or not t2 or not finished: return None
+              return {"game": game, "tournament": page, "team_a": t1, "team_b": t2,
+                      "score1": score(opp1), "score2": score(opp2), "date": date,
+                      "winner_side": winner}
+
+          # 3) 全量解析
+          out = open("lp_results_full.jsonl", "w")
+          ok = miss = total = 0
+          for gi, (game, page) in enumerate(pages):
+              st, d = http(f"https://liquipedia.net/{game}/api.php?" + urllib.parse.urlencode(
+                  {"action": "parse", "page": page, "prop": "wikitext", "format": "json"}))
+              if st != 200:
+                  miss += 1; print(f"[{gi+1}] {page}: {st}", flush=True); time.sleep(2.5); continue
+              try: wt = json.loads(d)["parse"]["wikitext"]["*"]
+              except Exception: miss += 1; continue
+              n = 0; i = 0
+              while True:
+                  i = wt.find("{{Match", i)
+                  if i < 0: break
+                  if wt[i:i+11] in ("{{Matchlist",):
+                      i += 2; continue
+                  end = find_template(wt, i)
+                  if not end: i += 2; continue
+                  tpl = wt[i:end]
+                  r = parse_match(tpl, game, page)
+                  if r:
+                      out.write(json.dumps(r, ensure_ascii=False) + "\n")
+                      total += 1; n += 1
+                  i = end
+              ok += 1
+              print(f"[{gi+1}] {page}: {n} matches", flush=True)
+              time.sleep(2.5)
+          out.close()
+          print(f"DONE: pages={len(pages)} ok={ok} miss={miss} matches={total}", flush=True)
+      - name: Commit
+        run: |
+          git config user.name "lp" && git config user.email "lp@noreply"
+          git add lp_results_full.jsonl
+          git diff --cached --quiet && echo nothing || (git commit -m "liquipedia full backfill" && (git pull --rebase origin main || true) && git push) || (sleep 8 && git pull --rebase origin main && git push) || true
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lp-results-full
+          path: lp_results_full.jsonl
+          retention-days: 90
+          if-no-files-found: ignore
