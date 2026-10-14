@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T15:58:39Z",
+ "ts": "2026-10-14T16:02:18Z",
  "sources": [
   {
    "url": "/tags",
@@ -311,30 +311,21 @@
  "n_event_queries": 21,
  "events": 417,
  "markets": 337,
- "markets_dropped_by_volume_floor": 2643,
- "day_file": "data/2026/10/2026-10-14T15.jsonl",
+ "markets_dropped_by_volume_floor": 2644,
+ "day_file": "data/2026/10/2026-10-14T16.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 136,
  "trades_watchlist_markets": 101,
- "trades_collected": 2769,
+ "trades_collected": 2848,
  "anomalies_detected": 5,
- "anomalies_new": 0,
- "history_debug": [
-  {
-   "cid": "0x98314db6",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xb6a8ece9",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 2,
+ "anomalies_new": 4,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_errors": [
   "4550941774: HTTPError: HTTP Error 404: Not Found",
-  "5713244825: HTTPError: HTTP Error 404: Not Found"
+  "5713244825: HTTPError: HTTP Error 404: Not Found",
+  "3525844675: HTTPError: HTTP Error 404: Not Found",
+  "4512734824: HTTPError: HTTP Error 404: Not Found"
  ],
  "books_markets": 108,
  "books_rows": 172,
