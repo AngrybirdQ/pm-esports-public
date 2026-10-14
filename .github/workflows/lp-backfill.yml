@@ -35,9 +35,9 @@ jobs:
               TOURNAMENTS.append(("lol", "leagueoflegends", f"World_Championship/{y}"))
               TOURNAMENTS.append(("lol", "leagueoflegends", f"Mid-Season_Invitational/{y}"))
           for lg in ("LPL", "LCK", "LEC"):
-              for spl in ("Spring", "Summer"):
-                  for y in (2024, 2025, 2026):
-                      TOURNAMENTS.append(("lol", "leagueoflegends", f"{lg}/{y}/Season/{spl}"))
+              for y in (2024, 2025, 2026):
+                  TOURNAMENTS.append(("lol", "leagueoflegends", f"{lg}/{y}/Spring"))
+                  TOURNAMENTS.append(("lol", "leagueoflegends", f"{lg}/{y}/Summer"))
           # Dota2
           for y in (2025, 2026):
               TOURNAMENTS.append(("dota2", "dota2", f"The_International/{y}"))
@@ -85,22 +85,16 @@ jobs:
               return None
 
           def split_params(tpl):
-              """拆模板参数(管道符在嵌套模板内不分割): 顶层 | 分割"""
               inner = tpl[2:-2]
-              parts = []; depth = 0; instr = None; cur = ""
-              i = 0
+              parts = []; depth = 0; cur = ""; i = 0
               while i < len(inner):
-                  if instr:
-                      cur += inner[i]
-                      if instr == "[[" and inner[i:i+2] == "]]": instr = None; cur += "]"
-                      elif inner[i:i+2] == "{{": instr = "{{"
-                      i += 1; continue
-                  if inner[i:i+2] == "{{": instr = "{{"; cur += "{{"; i += 2; continue
-                  if inner[i:i+2] == "[[": instr = "[["; cur += "[["; i += 2; continue
+                  if inner[i:i+2] == "{{":
+                      depth += 1; cur += "{{"; i += 2; continue
+                  if inner[i:i+2] == "}}":
+                      if depth > 0: depth -= 1
+                      cur += "}}"; i += 2; continue
                   if inner[i] == "|" and depth == 0:
                       parts.append(cur); cur = ""; i += 1; continue
-                  if inner[i] in "{[": depth += 1
-                  elif inner[i] in "}]": depth -= 1
                   cur += inner[i]; i += 1
               parts.append(cur)
               return parts
