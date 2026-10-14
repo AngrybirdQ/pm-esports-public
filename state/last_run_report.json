@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T21:22:40Z",
+ "ts": "2026-10-14T21:43:55Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 45,
+   "events_returned": 46,
    "err": null
   },
   {
@@ -140,9 +140,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Counter-Strike: FURIA vs BetBoom Team (BO3) - Thunderpick World Champi",
    "Worlds 2026: Winner",
-   "Dota 2: Team Resilience vs Yakult Brothers (BO3) - DreamLeague China C"
+   "Dota 2: Team Resilience vs Yakult Brothers (BO3) - DreamLeague China C",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Resilience vs Yakult Brothers (BO3) - DreamLeague China C",
@@ -171,7 +171,7 @@
   "tag_slug=valorant": [
    "VALORANT Champions 2026: Winner",
    "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
-   "Least Played Map at VALORANT Champions 2026"
+   "Valorant: FlyQuest RED vs Akave Esports Black (BO3) - VCT Game Changer"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -277,11 +277,11 @@
     "closed": false
    },
    {
-    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
+    "t": "Valorant: FlyQuest RED vs MIBR GC (BO3) - VCT Game Changers Americas L",
     "closed": false
    },
    {
-    "t": "Valorant: FlyQuest RED vs MIBR GC (BO3) - VCT Game Changers Americas L",
+    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
     "closed": false
    }
   ],
@@ -310,18 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 424,
- "markets": 317,
- "markets_dropped_by_volume_floor": 2779,
+ "markets": 322,
+ "markets_dropped_by_volume_floor": 2787,
  "day_file": "data/2026/10/2026-10-14T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 131,
- "trades_watchlist_markets": 93,
- "trades_collected": 1976,
- "anomalies_detected": 27,
- "anomalies_new": 2,
+ "trades_markets_queried": 110,
+ "trades_watchlist_markets": 79,
+ "trades_collected": 1785,
+ "anomalies_detected": 17,
+ "anomalies_new": 17,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 87,
- "books_rows": 116,
+ "books_markets": 84,
+ "books_rows": 124,
  "status": "ok"
 }
