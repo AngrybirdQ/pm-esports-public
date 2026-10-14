@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T08:27:00Z",
+ "ts": "2026-10-14T08:30:05Z",
  "sources": [
   {
    "url": "/tags",
@@ -203,10 +203,6 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Team Lynx vs Zero Tenacity (BO3) - EPL Masters Play-In Group A",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Nemiga Gaming vs Dawn Bulls (BO3) - EPL Masters Play-In Group ",
     "closed": true
    },
@@ -216,6 +212,10 @@
    },
    {
     "t": "Dota 2: HULIGANI vs Yellow Submarine (BO3) - DreamLeague Eastern Europ",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Team Lynx vs Zero Tenacity (BO3) - EPL Masters Play-In Group A",
     "closed": true
    }
   ],
@@ -311,13 +311,13 @@
  "n_event_queries": 21,
  "events": 424,
  "markets": 333,
- "markets_dropped_by_volume_floor": 2708,
+ "markets_dropped_by_volume_floor": 2710,
  "day_file": "data/2026/10/2026-10-14T08.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 124,
  "trades_watchlist_markets": 104,
- "trades_collected": 1140,
- "anomalies_detected": 5,
+ "trades_collected": 1142,
+ "anomalies_detected": 4,
  "anomalies_new": 1,
  "history_debug": [],
  "history_conditions_new": 0,
