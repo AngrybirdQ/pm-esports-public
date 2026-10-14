@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T19:57:27Z",
+ "ts": "2026-10-14T19:59:48Z",
  "sources": [
   {
    "url": "/tags",
@@ -140,8 +140,8 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Worlds 2026: Winner",
    "Counter-Strike: FURIA vs BetBoom Team (BO3) - Thunderpick World Champi",
+   "Worlds 2026: Winner",
    "Dota 2: Team Resilience vs Yakult Brothers (BO3) - DreamLeague China C"
   ],
   "tag_slug=dota-2": [
@@ -211,12 +211,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: The Warriors vs Shadow Dance (BO3) - DreamLeague Eastern Europ",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Kalmychata vs HULIGANI (BO3) - DreamLeague Eastern Europe Clos",
     "closed": false
+   },
+   {
+    "t": "Dota 2: The Warriors vs Shadow Dance (BO3) - DreamLeague Eastern Europ",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -269,11 +269,11 @@
     "closed": false
    },
    {
-    "t": "Valorant: FlyQuest RED vs Akave Esports Black (BO3) - VCT Game Changer",
+    "t": "Valorant: Akave Esports Black vs MIBR GC (BO3) - VCT Game Changers Ame",
     "closed": false
    },
    {
-    "t": "Valorant: Akave Esports Black vs MIBR GC (BO3) - VCT Game Changers Ame",
+    "t": "Valorant: FlyQuest RED vs Akave Esports Black (BO3) - VCT Game Changer",
     "closed": false
    },
    {
@@ -311,14 +311,14 @@
  "n_event_queries": 21,
  "events": 425,
  "markets": 336,
- "markets_dropped_by_volume_floor": 2829,
+ "markets_dropped_by_volume_floor": 2822,
  "day_file": "data/2026/10/2026-10-14T19.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 132,
  "trades_watchlist_markets": 93,
- "trades_collected": 2434,
- "anomalies_detected": 35,
- "anomalies_new": 2,
+ "trades_collected": 2436,
+ "anomalies_detected": 42,
+ "anomalies_new": 42,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 96,
