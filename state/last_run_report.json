@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T17:43:20Z",
+ "ts": "2026-10-14T17:46:10Z",
  "sources": [
   {
    "url": "/tags",
@@ -211,11 +211,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Power Rangers vs CyberHero (BO3) - DreamLeague Eastern Europe ",
+    "t": "Dota 2: The Warriors vs Shadow Dance (BO3) - DreamLeague Eastern Europ",
     "closed": true
    },
    {
-    "t": "Dota 2: The Warriors vs Shadow Dance (BO3) - DreamLeague Eastern Europ",
+    "t": "Dota 2: Power Rangers vs CyberHero (BO3) - DreamLeague Eastern Europe ",
     "closed": true
    }
   ],
@@ -316,28 +316,16 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 145,
  "trades_watchlist_markets": 123,
- "trades_collected": 3079,
- "anomalies_detected": 45,
+ "trades_collected": 3076,
+ "anomalies_detected": 49,
  "anomalies_new": 4,
- "history_debug": [
-  {
-   "cid": "0x2f6e7c3e",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x5e031d45",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x2d244a8f",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  }
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_errors": [
+  "9521650538: HTTPError: HTTP Error 404: Not Found",
+  "2455399903: HTTPError: HTTP Error 404: Not Found"
  ],
- "history_conditions_new": 3,
  "books_markets": 122,
- "books_rows": 164,
+ "books_rows": 162,
  "status": "ok"
 }
