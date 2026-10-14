@@ -1,0 +1,38 @@
+name: liquipedia-probe2
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Liquipedia header variants
+        run: |
+          echo "=== v1: curl default ==="
+          curl -s --max-time 30 -A "pm-esports-research/1.0 (github.com/AngrybirdQ)" "https://liquipedia.net/counterstrike/api.php?action=parse&page=ESL/Pro_League/Season_24&prop=wikitext&format=json" -o /tmp/lp1.json -w "http=%{http_code} size=%{size_download}\n"
+          head -c 200 /tmp/lp1.json; echo
+          echo "=== v2: curl + gzip + full browser-ish ==="
+          curl -s --compressed --max-time 30 -A "pm-esports-research/1.0 (github.com/AngrybirdQ)" -H "Accept: application/json" -H "Accept-Encoding: gzip" "https://liquipedia.net/counterstrike/api.php?action=parse&page=ESL/Pro_League/Season_24&prop=wikitext&format=json" -o /tmp/lp2.json -w "http=%{http_code} size=%{size_download}\n"
+          head -c 200 /tmp/lp2.json; echo
+          echo "=== v3: urllib with gzip header ==="
+          python3 << 'PYEOF'
+          import gzip, json, urllib.request
+          req = urllib.request.Request(
+              "https://liquipedia.net/counterstrike/api.php?action=parse&page=ESL/Pro_League/Season_24&prop=wikitext&format=json",
+              headers={"User-Agent": "pm-esports-research/1.0 (github.com/AngrybirdQ)",
+                       "Accept": "application/json",
+                       "Accept-Encoding": "gzip"})
+          with urllib.request.urlopen(req, timeout=40) as r:
+              raw = r.read()
+          if raw[:2] == b"\x1f\x8b": raw = gzip.decompress(raw)
+          d = json.loads(raw)
+          wt = d["parse"]["wikitext"]["*"]
+          print("OK wikitext len:", len(wt), "| Match templates:", wt.count("{{Match"))
+          i = wt.find("{{Match")
+          print("sample:", wt[i:i+250].replace("\n", " "))
+          PYEOF
