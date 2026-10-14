@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T09:41:30Z",
+ "ts": "2026-10-14T09:45:12Z",
  "sources": [
   {
    "url": "/tags",
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "LoL: BNK FEARX vs KT Rolster (BO5) - Demacia Cup Global Invitational P",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Counter-Strike: 9z vs Aurora Gaming (BO3) - Thunderpick World Champion"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -199,6 +199,10 @@
  "search_samples": {
   "search:Dota 2": [
    {
+    "t": "Dota 2: Inner Circle vs Team Lynx (BO3) - EPL Masters Play-In Group A",
+    "closed": false
+   },
+   {
     "t": "Dota 2: Power Rangers vs CyberHero (BO3) - DreamLeague Eastern Europe ",
     "closed": false
    },
@@ -211,11 +215,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Inner Circle vs Team Lynx (BO3) - EPL Masters Play-In Group A",
-    "closed": false
-   },
-   {
-    "t": "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - DreamLeague Eastern Europe C",
+    "t": "Dota 2: Power Rangers vs The Warriors (BO3) - DreamLeague Eastern Euro",
     "closed": true
    }
   ],
@@ -316,11 +316,19 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 138,
  "trades_watchlist_markets": 104,
- "trades_collected": 2218,
- "anomalies_detected": 27,
- "anomalies_new": 1,
+ "trades_collected": 2240,
+ "anomalies_detected": 39,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "9548484479: HTTPError: HTTP Error 404: Not Found",
+  "2898456459: HTTPError: HTTP Error 404: Not Found",
+  "9451564533: HTTPError: HTTP Error 404: Not Found",
+  "8426225004: HTTPError: HTTP Error 404: Not Found",
+  "1154380706: HTTPError: HTTP Error 404: Not Found",
+  "1778189261: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 126,
  "books_rows": 222,
  "status": "ok"
