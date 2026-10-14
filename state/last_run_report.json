@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T01:18:01Z",
+ "ts": "2026-10-14T01:26:07Z",
  "sources": [
   {
    "url": "/tags",
@@ -277,11 +277,11 @@
     "closed": false
    },
    {
-    "t": "Most First Bloods at VALORANT Champions 2026",
+    "t": "Valorant: Akave Esports Black vs MIBR GC (BO3) - VCT Game Changers Ame",
     "closed": false
    },
    {
-    "t": "Valorant: Akave Esports Black vs MIBR GC (BO3) - VCT Game Changers Ame",
+    "t": "Most First Bloods at VALORANT Champions 2026",
     "closed": false
    }
   ],
@@ -311,17 +311,23 @@
  "n_event_queries": 21,
  "events": 415,
  "markets": 294,
- "markets_dropped_by_volume_floor": 2708,
+ "markets_dropped_by_volume_floor": 2710,
  "day_file": "data/2026/10/2026-10-14T01.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 97,
+ "trades_markets_queried": 99,
  "trades_watchlist_markets": 84,
- "trades_collected": 541,
- "anomalies_detected": 1,
+ "trades_collected": 591,
+ "anomalies_detected": 0,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 93,
- "books_rows": 180,
+ "history_debug": [
+  {
+   "cid": "0x6242912c",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 95,
+ "books_rows": 184,
  "status": "ok"
 }
