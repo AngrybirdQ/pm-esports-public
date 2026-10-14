@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T16:12:26Z",
+ "ts": "2026-10-14T16:21:05Z",
  "sources": [
   {
    "url": "/tags",
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Dota 2: Team Resilience vs Yakult Brothers (BO3) - DreamLeague China C",
-   "Counter-Strike: Legacy vs PARIVISION (BO3) - Thunderpick World Champio"
+   "Counter-Strike: Legacy vs PARIVISION (BO3) - Thunderpick World Champio",
+   "Dota 2: Team Resilience vs Yakult Brothers (BO3) - DreamLeague China C"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Resilience vs Yakult Brothers (BO3) - DreamLeague China C",
@@ -309,23 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 421,
- "markets": 338,
- "markets_dropped_by_volume_floor": 2712,
+ "events": 420,
+ "markets": 340,
+ "markets_dropped_by_volume_floor": 2697,
  "day_file": "data/2026/10/2026-10-14T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 136,
+ "trades_markets_queried": 137,
  "trades_watchlist_markets": 101,
- "trades_collected": 2783,
- "anomalies_detected": 2,
+ "trades_collected": 2754,
+ "anomalies_detected": 1,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "8566766916: HTTPError: HTTP Error 404: Not Found",
-  "8474133347: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 106,
- "books_rows": 164,
+ "books_markets": 105,
+ "books_rows": 166,
  "status": "ok"
 }
