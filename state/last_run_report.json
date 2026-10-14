@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T12:45:12Z",
+ "ts": "2026-10-14T12:50:12Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 40,
+   "events_returned": 39,
    "err": null
   },
   {
@@ -310,24 +310,28 @@
  },
  "n_event_queries": 21,
  "events": 421,
- "markets": 354,
- "markets_dropped_by_volume_floor": 2730,
+ "markets": 352,
+ "markets_dropped_by_volume_floor": 2726,
  "day_file": "data/2026/10/2026-10-14T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 166,
+ "trades_markets_queried": 164,
  "trades_watchlist_markets": 112,
- "trades_collected": 2998,
- "anomalies_detected": 7,
- "anomalies_new": 0,
+ "trades_collected": 2688,
+ "anomalies_detected": 41,
+ "anomalies_new": 34,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "8845611732: HTTPError: HTTP Error 404: Not Found",
-  "2154926895: HTTPError: HTTP Error 404: Not Found",
-  "7451177475: HTTPError: HTTP Error 404: Not Found",
-  "4333038143: HTTPError: HTTP Error 404: Not Found"
+  "3415311130: HTTPError: HTTP Error 404: Not Found",
+  "8440174043: HTTPError: HTTP Error 404: Not Found",
+  "8621469496: HTTPError: HTTP Error 404: Not Found",
+  "1059579783: HTTPError: HTTP Error 404: Not Found",
+  "7208425157: HTTPError: HTTP Error 404: Not Found",
+  "5275043486: HTTPError: HTTP Error 404: Not Found",
+  "6816762733: HTTPError: HTTP Error 404: Not Found",
+  "8800653225: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 137,
+ "books_markets": 135,
  "books_rows": 180,
  "status": "ok"
 }
