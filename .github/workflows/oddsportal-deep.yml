@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with: { fetch-depth: 0 }
-      - name: Deep crawl 507 league results pages
+      - name: Deep crawl chunk (100 leagues max per run)
         env:
           UA: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
         run: |
@@ -29,6 +29,7 @@ jobs:
           import glob, json, os, re, time, urllib.request, urllib.error
           UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
           START_OFFSET = int("${{ inputs.start_offset }}" or 0)
+          PER_RUN_CAP = 100
           def get_rich(url, tries=6):
               """拿到含rows的富页(空壳竞态重试)"""
               last = ""
@@ -117,10 +118,7 @@ jobs:
                       f.write(json.dumps(r, ensure_ascii=False) + "\n")
               print(f"[{i+1}/{len(todo)}] {slug}: {len(slim)} rows", flush=True)
               time.sleep(5 + (i % 4))  # 5-9s 礼貌节奏
-              if (i + 1) % 25 == 0:
-                  # 中途提交(断点保护)
-                  os.system('git config user.name "deep-crawler" && git config user.email "dc@noreply"')
-                  os.system("git add data/pinnacle_archive/ && (git commit -m 'deep history chunk' && (git pull --rebase origin main || true) && git push) || (sleep 5 && git pull --rebase origin main && git push)")
+              # 中途不commit(git与pin-sweep竞态全败史); 数据靠artifact兜底
           print("DEEP CRAWL PASS DONE", flush=True)
       - name: Commit all
         run: |
