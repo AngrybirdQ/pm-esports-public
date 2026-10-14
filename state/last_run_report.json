@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T16:24:08Z",
+ "ts": "2026-10-14T16:26:56Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 40,
+   "events_returned": 39,
    "err": null
   },
   {
@@ -140,8 +140,8 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Worlds 2026: Winner",
    "Counter-Strike: Legacy vs PARIVISION (BO3) - Thunderpick World Champio",
+   "Worlds 2026: Winner",
    "Dota 2: Team Resilience vs Yakult Brothers (BO3) - DreamLeague China C"
   ],
   "tag_slug=dota-2": [
@@ -310,18 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 420,
- "markets": 340,
- "markets_dropped_by_volume_floor": 2697,
+ "markets": 344,
+ "markets_dropped_by_volume_floor": 2699,
  "day_file": "data/2026/10/2026-10-14T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 137,
+ "trades_markets_queried": 140,
  "trades_watchlist_markets": 101,
- "trades_collected": 2757,
+ "trades_collected": 2798,
  "anomalies_detected": 1,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 105,
+ "books_markets": 108,
  "books_rows": 166,
  "status": "ok"
 }
