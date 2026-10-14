@@ -28,7 +28,7 @@ jobs:
                       if i < tries-1: time.sleep(8); continue
                       return 0, str(ex)[:60]
           # 1) esports 频道页快照量
-          u1 = "http://web.archive.org/cdx/search/cdx?url=" + urllib.parse.quote("oddsportal.com/esports/", exact=False) + "&output=json&collapse=urlkey&limit=30&from=2024&to=2026"
+          u1 = "http://web.archive.org/cdx/search/cdx?url=" + urllib.parse.quote("oddsportal.com/esports/") + "&matchType=prefix&output=json&collapse=urlkey&limit=30&from=2024&to=2026"
           st, d = get(u1)
           print("cdx esports:", st)
           if st == 200 and d:
@@ -37,7 +37,7 @@ jobs:
               for r in (rows[1:6] if rows else []): print("  ", r[1], r[3])
           time.sleep(3)
           # 2) match detail 页快照量 (含赔率的老版match页)
-          u2 = "http://web.archive.org/cdx/search/cdx?url=" + urllib.parse.quote("oddsportal.com/esports/", exact=False) + "&output=json&collapse=urlkey&limit=5&from=2024&to=2026&filter=statuscode:200&matchType=domain&filter=original:.*esports/[a-z-]+/[a-z0-9-]+/[a-z0-9-]+.*"
+          u2 = "http://web.archive.org/cdx/search/cdx?url=" + urllib.parse.quote("oddsportal.com/esports/") + "&matchType=prefix&output=json&collapse=urlkey&limit=5&from=2024&to=2026&filter=statuscode:200"
           st2, d2 = get(u2)
           print("cdx match pages:", st2)
           if st2 == 200 and d2:
@@ -45,7 +45,7 @@ jobs:
               print("sample:", len(rows2)-1 if rows2 else 0)
               for r in (rows2[1:5] if rows2 else []): print("  ", r[1], r[3])
           # 3) 总量计数(不分页的粗估)
-          u3 = "http://web.archive.org/cdx/search/cdx?url=" + urllib.parse.quote("oddsportal.com/esports/", exact=False) + "&from=2024&to=2026&showNumPages=true"
+          u3 = "http://web.archive.org/cdx/search/cdx?url=" + urllib.parse.quote("oddsportal.com/esports/") + "&matchType=prefix&from=2024&to=2026&showNumPages=true"
           st3, d3 = get(u3)
           print("cdx numpages:", st3, d3[:50])
           PYEOF
