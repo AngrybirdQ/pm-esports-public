@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T21:56:31Z",
+ "ts": "2026-10-14T21:59:14Z",
  "sources": [
   {
    "url": "/tags",
@@ -265,10 +265,6 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
-    "closed": false
-   },
-   {
     "t": "Valorant: Akave Esports Black vs MIBR GC (BO3) - VCT Game Changers Ame",
     "closed": false
    },
@@ -278,6 +274,10 @@
    },
    {
     "t": "Valorant: FlyQuest RED vs MIBR GC (BO3) - VCT Game Changers Americas L",
+    "closed": false
+   },
+   {
+    "t": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
     "closed": false
    },
    {
@@ -316,18 +316,16 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 113,
  "trades_watchlist_markets": 79,
- "trades_collected": 1763,
+ "trades_collected": 1744,
  "anomalies_detected": 18,
- "anomalies_new": 1,
- "history_debug": [
-  {
-   "cid": "0xeb17a5c5",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
+ "anomalies_new": 0,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_errors": [
+  "7049517382: HTTPError: HTTP Error 404: Not Found",
+  "2801648610: HTTPError: HTTP Error 404: Not Found"
  ],
- "history_conditions_new": 1,
  "books_markets": 84,
- "books_rows": 120,
+ "books_rows": 116,
  "status": "ok"
 }
