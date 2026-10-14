@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T21:59:14Z",
+ "ts": "2026-10-14T23:32:46Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 46,
+   "events_returned": 44,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 51,
+   "events_returned": 50,
    "err": null
   },
   {
@@ -171,7 +171,7 @@
   "tag_slug=valorant": [
    "VALORANT Champions 2026: Winner",
    "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
-   "Valorant: FlyQuest RED vs Akave Esports Black (BO3) - VCT Game Changer"
+   "Valorant: Akave Esports Black vs MIBR GC (BO3) - VCT Game Changers Ame"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -265,11 +265,11 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: Akave Esports Black vs MIBR GC (BO3) - VCT Game Changers Ame",
+    "t": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
     "closed": false
    },
    {
-    "t": "Valorant: FlyQuest RED vs Akave Esports Black (BO3) - VCT Game Changer",
+    "t": "Valorant: Akave Esports Black vs MIBR GC (BO3) - VCT Game Changers Ame",
     "closed": false
    },
    {
@@ -277,8 +277,8 @@
     "closed": false
    },
    {
-    "t": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
-    "closed": false
+    "t": "Valorant: FlyQuest RED vs Akave Esports Black (BO3) - VCT Game Changer",
+    "closed": true
    },
    {
     "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
@@ -310,22 +310,34 @@
  },
  "n_event_queries": 21,
  "events": 424,
- "markets": 323,
- "markets_dropped_by_volume_floor": 2798,
- "day_file": "data/2026/10/2026-10-14T21.jsonl",
+ "markets": 317,
+ "markets_dropped_by_volume_floor": 2759,
+ "day_file": "data/2026/10/2026-10-14T23.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 113,
- "trades_watchlist_markets": 79,
- "trades_collected": 1744,
- "anomalies_detected": 18,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "7049517382: HTTPError: HTTP Error 404: Not Found",
-  "2801648610: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 111,
+ "trades_watchlist_markets": 72,
+ "trades_collected": 1521,
+ "anomalies_detected": 2,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0x774394d6",
+   "pts": 6,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x055b69e2",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xe8cfb63f",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
+ "history_conditions_new": 3,
  "books_markets": 84,
- "books_rows": 116,
+ "books_rows": 126,
  "status": "ok"
 }
