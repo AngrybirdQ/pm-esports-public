@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T10:02:25Z",
+ "ts": "2026-10-14T10:21:30Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 41,
+   "events_returned": 40,
    "err": null
   },
   {
@@ -247,6 +247,10 @@
     "closed": false
    },
    {
+    "t": "Will Jynxzi reach Gold rank in League of Legends by...?",
+    "closed": false
+   },
+   {
     "t": "LoL: Dplus KIA Challengers vs KT Rolster Challengers (BO5) - LCK Chall",
     "closed": true
    },
@@ -256,10 +260,6 @@
    },
    {
     "t": "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO5) - LCK Challengers",
-    "closed": true
-   },
-   {
-    "t": "LoL: DN SOOPers Challengers vs Nongshim Esports Academy (BO5) - LCK Ch",
     "closed": true
    }
   ],
@@ -310,18 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 422,
- "markets": 347,
- "markets_dropped_by_volume_floor": 2749,
+ "markets": 348,
+ "markets_dropped_by_volume_floor": 2762,
  "day_file": "data/2026/10/2026-10-14T10.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 141,
- "trades_watchlist_markets": 104,
- "trades_collected": 2670,
- "anomalies_detected": 40,
- "anomalies_new": 35,
+ "trades_markets_queried": 150,
+ "trades_watchlist_markets": 131,
+ "trades_collected": 2986,
+ "anomalies_detected": 42,
+ "anomalies_new": 42,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 127,
- "books_rows": 218,
+ "books_markets": 141,
+ "books_rows": 238,
  "status": "ok"
 }
