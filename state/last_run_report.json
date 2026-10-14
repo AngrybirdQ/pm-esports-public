@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T20:51:42Z",
+ "ts": "2026-10-14T20:59:46Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 69,
+   "events_returned": 68,
    "err": null
   },
   {
@@ -207,12 +207,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Inner Circle vs Team Lynx (BO3) - EPL Masters Play-In Group A",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Kalmychata vs HULIGANI (BO3) - DreamLeague Eastern Europe Clos",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Inner Circle vs Team Lynx (BO3) - EPL Masters Play-In Group A",
+    "closed": true
    },
    {
     "t": "Dota 2: The Warriors vs Shadow Dance (BO3) - DreamLeague Eastern Europ",
@@ -309,19 +309,23 @@
   ]
  },
  "n_event_queries": 21,
- "events": 425,
- "markets": 323,
+ "events": 424,
+ "markets": 322,
  "markets_dropped_by_volume_floor": 2773,
  "day_file": "data/2026/10/2026-10-14T20.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 131,
  "trades_watchlist_markets": 93,
- "trades_collected": 2043,
- "anomalies_detected": 25,
- "anomalies_new": 0,
+ "trades_collected": 1971,
+ "anomalies_detected": 23,
+ "anomalies_new": 23,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "7042337005: HTTPError: HTTP Error 404: Not Found",
+  "2404478002: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 92,
- "books_rows": 128,
+ "books_rows": 118,
  "status": "ok"
 }
