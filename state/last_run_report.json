@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T19:19:32Z",
+ "ts": "2026-10-14T19:43:13Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 46,
+   "events_returned": 47,
    "err": null
   },
   {
@@ -141,13 +141,13 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Dota 2: Team Resilience vs Yakult Brothers (BO3) - DreamLeague China C",
-   "Worlds 2026 Winning Region"
+   "Counter-Strike: FURIA vs BetBoom Team (BO3) - Thunderpick World Champi",
+   "Dota 2: Team Resilience vs Yakult Brothers (BO3) - DreamLeague China C"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Resilience vs Yakult Brothers (BO3) - DreamLeague China C",
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A"
+   "Dota 2: Kalmychata vs HULIGANI (BO3) - DreamLeague Eastern Europe Clos"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -215,8 +215,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: CyberHero vs Kalmychata (BO3) - DreamLeague Eastern Europe Clo",
-    "closed": true
+    "t": "Dota 2: Kalmychata vs HULIGANI (BO3) - DreamLeague Eastern Europe Clos",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -309,19 +309,35 @@
   ]
  },
  "n_event_queries": 21,
- "events": 424,
- "markets": 334,
- "markets_dropped_by_volume_floor": 2814,
+ "events": 425,
+ "markets": 337,
+ "markets_dropped_by_volume_floor": 2831,
  "day_file": "data/2026/10/2026-10-14T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 163,
- "trades_watchlist_markets": 123,
- "trades_collected": 2684,
- "anomalies_detected": 41,
- "anomalies_new": 6,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 102,
- "books_rows": 130,
+ "trades_markets_queried": 132,
+ "trades_watchlist_markets": 93,
+ "trades_collected": 2560,
+ "anomalies_detected": 40,
+ "anomalies_new": 40,
+ "history_debug": [
+  {
+   "cid": "0x4596e231",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x56415f65",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x883db596",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 3,
+ "books_markets": 97,
+ "books_rows": 128,
  "status": "ok"
 }
