@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T14:05:28Z",
+ "ts": "2026-10-14T15:47:31Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 39,
+   "events_returned": 36,
    "err": null
   },
   {
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 69,
+   "events_returned": 68,
    "err": null
   },
   {
@@ -140,13 +140,13 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: BNK FEARX vs KT Rolster (BO5) - Demacia Cup Global Invitational P",
-   "Counter-Strike: Team Falcons vs NIP (BO3) - Thunderpick World Champion",
-   "Worlds 2026: Winner"
+   "Worlds 2026: Winner",
+   "Dota 2: Team Resilience vs Yakult Brothers (BO3) - DreamLeague China C",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
    "Dota 2: Team Resilience vs Yakult Brothers (BO3) - DreamLeague China C",
+   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
    "Dota 2: Power Rangers vs CyberHero (BO3) - DreamLeague Eastern Europe "
   ],
   "tag_slug=cs2": [
@@ -159,9 +159,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: BNK FEARX vs KT Rolster (BO5) - Demacia Cup Global Invitational P",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: KaBuM! Ilha das Lendas vs Golden Lions (BO5) - CBLOL Promotion Pl"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -199,6 +199,10 @@
  "search_samples": {
   "search:Dota 2": [
    {
+    "t": "Dota 2: Team Resilience vs Yakult Brothers (BO3) - DreamLeague China C",
+    "closed": false
+   },
+   {
     "t": "Dota 2: Nemiga Gaming vs Kalmychata (BO3) - DreamLeague Eastern Europe",
     "closed": true
    },
@@ -207,16 +211,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Resilience vs Yakult Brothers (BO3) - DreamLeague China C",
-    "closed": false
-   },
-   {
     "t": "Dota 2: Power Rangers vs CyberHero (BO3) - DreamLeague Eastern Europe ",
     "closed": false
    },
    {
     "t": "Dota 2: The Warriors vs Shadow Dance (BO3) - DreamLeague Eastern Europ",
-    "closed": false
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -309,19 +309,54 @@
   ]
  },
  "n_event_queries": 21,
- "events": 420,
- "markets": 338,
- "markets_dropped_by_volume_floor": 2680,
- "day_file": "data/2026/10/2026-10-14T14.jsonl",
+ "events": 417,
+ "markets": 341,
+ "markets_dropped_by_volume_floor": 2654,
+ "day_file": "data/2026/10/2026-10-14T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 149,
- "trades_watchlist_markets": 114,
- "trades_collected": 2697,
- "anomalies_detected": 27,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 107,
- "books_rows": 182,
+ "trades_markets_queried": 135,
+ "trades_watchlist_markets": 101,
+ "trades_collected": 2693,
+ "anomalies_detected": 5,
+ "anomalies_new": 5,
+ "history_debug": [
+  {
+   "cid": "0x62cd5144",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xe154d88f",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x953b78e3",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x47c9c87c",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x8c041bc3",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x59bc849e",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 6,
+ "books_errors": [
+  "2449469646: HTTPError: HTTP Error 404: Not Found",
+  "7014898276: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 108,
+ "books_rows": 178,
  "status": "ok"
 }
