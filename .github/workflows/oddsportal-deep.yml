@@ -127,3 +127,11 @@ jobs:
           git config user.name "deep-crawler" && git config user.email "dc@noreply"
           git add data/pinnacle_archive/
           git diff --cached --quiet && echo nothing || (git commit -m "deep history: full pass" && (git pull --rebase origin main || true) && git push) || (sleep 5 && git pull --rebase origin main && git push)
+      - name: Upload archive artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pinnacle-archive-data
+          path: data/pinnacle_archive/
+          retention-days: 90
+          if-no-files-found: ignore
