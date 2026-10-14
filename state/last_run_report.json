@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T16:39:54Z",
+ "ts": "2026-10-14T16:43:08Z",
  "sources": [
   {
    "url": "/tags",
@@ -310,18 +310,34 @@
  },
  "n_event_queries": 21,
  "events": 420,
- "markets": 343,
- "markets_dropped_by_volume_floor": 2705,
+ "markets": 353,
+ "markets_dropped_by_volume_floor": 2715,
  "day_file": "data/2026/10/2026-10-14T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 140,
+ "trades_markets_queried": 145,
  "trades_watchlist_markets": 101,
- "trades_collected": 2872,
- "anomalies_detected": 30,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 107,
- "books_rows": 160,
+ "trades_collected": 2990,
+ "anomalies_detected": 31,
+ "anomalies_new": 11,
+ "history_debug": [
+  {
+   "cid": "0xdf508a4a",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xa2169a43",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x22dbc3e5",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 3,
+ "books_markets": 112,
+ "books_rows": 168,
  "status": "ok"
 }
