@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T18:39:38Z",
+ "ts": "2026-10-14T18:42:48Z",
  "sources": [
   {
    "url": "/tags",
@@ -215,7 +215,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Power Rangers vs CyberHero (BO3) - DreamLeague Eastern Europe ",
+    "t": "Dota 2: CyberHero vs Kalmychata (BO3) - DreamLeague Eastern Europe Clo",
     "closed": true
    }
   ],
@@ -310,18 +310,29 @@
  },
  "n_event_queries": 21,
  "events": 426,
- "markets": 333,
- "markets_dropped_by_volume_floor": 2846,
+ "markets": 338,
+ "markets_dropped_by_volume_floor": 2834,
  "day_file": "data/2026/10/2026-10-14T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 152,
+ "trades_markets_queried": 158,
  "trades_watchlist_markets": 123,
- "trades_collected": 2837,
- "anomalies_detected": 40,
- "anomalies_new": 4,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 104,
- "books_rows": 144,
+ "trades_collected": 3059,
+ "anomalies_detected": 41,
+ "anomalies_new": 3,
+ "history_debug": [
+  {
+   "cid": "0x056552db",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xdb37541d",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_markets": 106,
+ "books_rows": 148,
  "status": "ok"
 }
