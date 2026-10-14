@@ -126,7 +126,7 @@ jobs:
           todo = [(g, p) for g, p in pages if (g, p) not in done_tournaments]
           print(f"pages: {len(pages)} | todo(skip done): {len(todo)}", flush=True)
 
-          out = open("lp_results_full.jsonl", "a")
+          out = open("lp_results_full.jsonl", "a", buffering=1)
           ok = miss = total = 0
           for gi, (game, page) in enumerate(todo):
               st, d = http(f"https://liquipedia.net/{game}/api.php?" + urllib.parse.urlencode(
