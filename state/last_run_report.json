@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T12:30:20Z",
+ "ts": "2026-10-14T12:40:09Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 39,
+   "events_returned": 40,
    "err": null
   },
   {
@@ -211,11 +211,11 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Nemiga Gaming vs Dawn Bulls (BO3) - EPL Masters Play-In Group ",
-    "closed": true
+    "t": "Dota 2: The Warriors vs Shadow Dance (BO3) - DreamLeague Eastern Europ",
+    "closed": false
    },
    {
-    "t": "Dota 2: HULIGANI vs Yellow Submarine (BO3) - DreamLeague Eastern Europ",
+    "t": "Dota 2: Nemiga Gaming vs Dawn Bulls (BO3) - EPL Masters Play-In Group ",
     "closed": true
    }
   ],
@@ -309,31 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 420,
- "markets": 355,
- "markets_dropped_by_volume_floor": 2728,
+ "events": 421,
+ "markets": 354,
+ "markets_dropped_by_volume_floor": 2742,
  "day_file": "data/2026/10/2026-10-14T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 158,
+ "trades_markets_queried": 166,
  "trades_watchlist_markets": 112,
- "trades_collected": 3001,
- "anomalies_detected": 15,
- "anomalies_new": 9,
- "history_debug": [
-  {
-   "cid": "0x1f1d9fb4",
-   "pts": 3,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
- "books_errors": [
-  "8497981782: HTTPError: HTTP Error 404: Not Found",
-  "2274486182: HTTPError: HTTP Error 404: Not Found",
-  "1082123747: HTTPError: HTTP Error 404: Not Found",
-  "6250889207: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 138,
- "books_rows": 176,
+ "trades_collected": 3122,
+ "anomalies_detected": 9,
+ "anomalies_new": 0,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 137,
+ "books_rows": 180,
  "status": "ok"
 }
