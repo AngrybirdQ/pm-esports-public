@@ -1,0 +1,114 @@
+name: oddsportal-fix-and-smoke
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Install playwright
+        run: pip install playwright && playwright install chromium --with-deps 2>&1 | tail -1
+      - name: Clean empty files + diagnose + smoke crawl
+        run: |
+          python3 << 'PYEOF'
+          import glob, json, os, re, time
+          def extract(html):
+              chunks = re.findall(r'self\.__next_f\.push\(\[1,"(.*?)"\]\)', html, re.S)
+              blob = "".join(c.encode().decode("unicode_escape") for c in chunks)
+              i = blob.find('"rows":[')
+              if i < 0:
+                  return []
+              depth = 0
+              instr = False
+              esc = False
+              end = None
+              for k in range(i + 7, min(len(blob), i + 400000)):
+                  ch = blob[k]
+                  if instr:
+                      if esc:
+                          esc = False
+                      elif ch == "\\":
+                          esc = True
+                      elif ch == '"':
+                          instr = False
+                      continue
+                  if ch == '"':
+                      instr = True
+                  elif ch in "{[":
+                      depth += 1
+                  elif ch in "}]":
+                      depth -= 1
+                      if depth == 0:
+                          end = k + 1
+                          break
+              if not end:
+                  return []
+              try:
+                  arr = json.loads(blob[i + 7:end])
+                  return [r for r in arr if isinstance(r, dict) and r.get("encodeEventId")]
+              except Exception:
+                  return []
+
+          # 1) 清理空文件
+          removed = 0
+          for f in glob.glob("data/pinnacle_archive/league_*.jsonl"):
+              if os.path.getsize(f) < 50:
+                  os.remove(f); removed += 1
+          print(f"removed {removed} empty files", flush=True)
+          # 2) 诊断: playwright拉一个联赛results页
+          from playwright.sync_api import sync_playwright
+          with sync_playwright() as pw:
+              b = pw.chromium.launch(args=["--no-sandbox", "--disable-blink-features=AutomationControlled"])
+              ctx = b.new_context(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+                  viewport={"width": 1440, "height": 900},
+                  extra_http_headers={"Accept-Language": "en-US,en;q=0.9"})
+              pg = ctx.new_page()
+              url = "https://www.oddsportal.com/esports/counter-strike/counter-strike-esl-pro-league-season-24/results/"
+              pg.goto(url, wait_until="domcontentloaded", timeout=60000)
+              rows = []
+              for _ in range(10):
+                  html = pg.content()
+                  rows = extract(html)
+                  if rows: break
+                  pg.wait_for_timeout(4000)
+              print(f"diag: html={len(html)} rows={len(rows)}", flush=True)
+              if rows:
+                  print("SAMPLE:", json.dumps(rows[0], ensure_ascii=False)[:250], flush=True)
+                  # 3) 冒烟: 爬5个联赛
+                  import urllib.request
+                  req = urllib.request.Request("https://www.oddsportal.com/sitemap/esports/results.xml",
+                      headers={"User-Agent": "Mozilla/5.0"})
+                  sm = urllib.request.urlopen(req, timeout=60).read().decode("utf-8", "replace")
+                  urls = sorted(set(re.findall(r"<loc>(https://www\.oddsportal\.com/esports/[^/]+/[^/]+/results/)</loc>", sm)))
+                  todo = [u for u in urls][:5]
+                  for i, u in enumerate(todo):
+                      parts = u.split("/"); slug = parts[4] + "_" + parts[3]
+                      try:
+                          pg.goto(u, wait_until="domcontentloaded", timeout=60000)
+                          rr = []
+                          for _ in range(10):
+                              rr = extract(pg.content())
+                              if rr: break
+                              pg.wait_for_timeout(4000)
+                          fn = f"data/pinnacle_archive/league_{slug}.jsonl"
+                          if rr:
+                              with open(fn, "w") as f:
+                                  for r2 in rr: f.write(json.dumps(r2, ensure_ascii=False) + "\n")
+                          print(f"smoke[{i+1}] {slug}: {len(rr)} rows", flush=True)
+                      except Exception as e:
+                          print(f"smoke[{i+1}] ERR {str(e)[:50]}", flush=True)
+                      time.sleep(6)
+              b.close()
+          PYEOF
+      - name: Commit
+        run: |
+          git config user.name "dc" && git config user.email "dc@noreply"
+          git add -A data/pinnacle_archive/
+          git diff --cached --quiet && echo nothing || (git commit -m "clean empty + smoke" && (git pull --rebase origin main || true) && git push) || (sleep 8 && git pull --rebase origin main && git push) || true
