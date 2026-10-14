@@ -1,0 +1,55 @@
+name: liquipedia-api-probe
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Liquipedia API reachability + sample
+        run: |
+          python3 << 'PYEOF'
+          import json, time, urllib.request, urllib.parse
+          UA = "pm-esports-research/1.0 (contact: odds-research@local; github.com/AngrybirdQ)"
+          def lp(game, params, tries=3):
+              url = f"https://liquipedia.net/{game}/api.php?" + urllib.parse.urlencode(params)
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
+                      with urllib.request.urlopen(req, timeout=40) as r:
+                          return r.status, r.read().decode("utf-8", "replace")
+                  except urllib.error.HTTPError as e:
+                      if e.code in (429, 503) and i < tries-1: time.sleep(10); continue
+                      return e.code, ""
+                  except Exception as ex:
+                      if i < tries-1: time.sleep(5); continue
+                      return 0, str(ex)[:60]
+          # 1) CS2: 取 ESL Pro League 页面 wikitext(含Match2模板=结构化赛果)
+          st, w = lp("counterstrike", {"action": "parse", "page": "ESL/Pro_League/Season_24",
+                                        "prop": "wikitext", "format": "json"})
+          print("CS2 ESL S24 parse:", st, "size:", len(w), flush=True)
+          if st == 200:
+              try:
+                  wt = json.loads(w)["parse"]["wikitext"]["*"]
+                  m2 = wt.count("{{Match2") + wt.count("{{Match|")
+                  print("  wikitext len:", len(wt), "| Match templates:", m2, flush=True)
+                  i = wt.find("{{Match")
+                  print("  sample:", wt[i:i+300].replace("\n", " ")[:300], flush=True)
+              except Exception as e:
+                  print("  parse err:", str(e)[:80], flush=True)
+          time.sleep(2)
+          # 2) LoL: Worlds 页面存在性
+          st2, w2 = lp("leagueoflegends", {"action": "parse", "page": "World_Championship/2026",
+                                             "prop": "wikitext", "format": "json"})
+          print("LoL Worlds 2026:", st2, "size:", len(w2), flush=True)
+          time.sleep(2)
+          # 3) Dota2: TI 页面
+          st3, w3 = lp("dota2", {"action": "parse", "page": "The_International/2026",
+                                  "prop": "wikitext", "format": "json"})
+          print("Dota2 TI 2026:", st3, "size:", len(w3), flush=True)
+          PYEOF
