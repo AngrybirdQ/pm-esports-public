@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T03:03:56Z",
+ "ts": "2026-10-14T04:40:25Z",
  "sources": [
   {
    "url": "/tags",
@@ -277,11 +277,11 @@
     "closed": false
    },
    {
-    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
+    "t": "Most First Bloods at VALORANT Champions 2026",
     "closed": false
    },
    {
-    "t": "Most First Bloods at VALORANT Champions 2026",
+    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
     "closed": false
    }
   ],
@@ -309,23 +309,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 425,
+ "events": 424,
  "markets": 308,
- "markets_dropped_by_volume_floor": 2724,
- "day_file": "data/2026/10/2026-10-14T03.jsonl",
+ "markets_dropped_by_volume_floor": 2719,
+ "day_file": "data/2026/10/2026-10-14T04.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 95,
- "trades_watchlist_markets": 89,
- "trades_collected": 651,
- "anomalies_detected": 5,
+ "trades_markets_queried": 106,
+ "trades_watchlist_markets": 93,
+ "trades_collected": 737,
+ "anomalies_detected": 1,
  "anomalies_new": 1,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "7802720486: HTTPError: HTTP Error 404: Not Found",
-  "1117751326: HTTPError: HTTP Error 404: Not Found"
+ "history_debug": [
+  {
+   "cid": "0xf168ff4f",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 100,
- "books_rows": 194,
+ "history_conditions_new": 1,
+ "books_markets": 104,
+ "books_rows": 206,
  "status": "ok"
 }
