@@ -1,0 +1,169 @@
+name: liquipedia-full-backfill-v2
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Discover + parse remaining + merge
+        run: |
+          python3 << 'PYEOF'
+          import base64, json, re, time, urllib.request, urllib.parse, gzip
+          UA = "pm-esports-research/1.0 (github.com/AngrybirdQ)"
+          QUERIES = {
+            "counterstrike": ["ESL Pro League", "Intel Extreme Masters", "BLAST Premier", "PGL Major", "ESL Challenger"],
+            "leagueoflegends": ["World Championship", "Mid-Season Invitational", "LPL Season", "LCK", "LEC Season"],
+            "dota2": ["The International", "DreamLeague", "ESL One", "Dota Pro Circuit"],
+            "valorant": ["VALORANT Champions", "VCT Masters", "VCT Champions"],
+          }
+          def http(url, tries=3, timeout=45):
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": UA,
+                          "Accept": "application/json", "Accept-Encoding": "gzip"})
+                      with urllib.request.urlopen(req, timeout=timeout) as r:
+                          raw = r.read()
+                          if raw[:2] == b"\x1f\x8b": raw = gzip.decompress(raw)
+                          return r.status, raw.decode("utf-8", "replace")
+                  except urllib.error.HTTPError as e:
+                      if e.code in (429, 503) and i < tries-1: time.sleep(15); continue
+                      return e.code, ""
+                  except Exception as ex:
+                      if i < tries-1: time.sleep(6); continue
+                      return 0, str(ex)[:50]
+          def find_template(wt, start):
+              depth = 0; i = start
+              while i < len(wt) - 1:
+                  if wt[i:i+2] == "{{":
+                      depth += 1; i += 2; continue
+                  if wt[i:i+2] == "}}":
+                      depth -= 1; i += 2
+                      if depth == 0: return i
+                      continue
+                  i += 1
+              return None
+          def split_params(tpl):
+              inner = tpl[2:-2]
+              parts = []; depth = 0; cur = ""; i = 0
+              while i < len(inner):
+                  if inner[i:i+2] == "{{":
+                      depth += 1; cur += "{{"; i += 2; continue
+                  if inner[i:i+2] == "}}":
+                      if depth > 0: depth -= 1
+                      cur += "}}"; i += 2; continue
+                  if inner[i] == "|" and depth == 0:
+                      parts.append(cur); cur = ""; i += 1; continue
+                  cur += inner[i]; i += 1
+              parts.append(cur)
+              return parts
+          def strip_tpl(v):
+              return re.sub(r"\{\{[^}]*\}\}", "", v).strip()
+          def parse_match(tpl, game, page):
+              parts = split_params(tpl)
+              opps = {}; date = None; winner = None; finished = False
+              map_params = []
+              for p in parts[1:]:
+                  if "=" not in p: continue
+                  k, v = p.split("=", 1); k = k.strip(); v = v.strip()
+                  if k in ("opponent1", "opponent2"):
+                      m = re.search(r"TeamOpponent\|([^|}]+)", v)
+                      if m: opps[k] = m.group(1).strip()
+                  elif k == "date": date = strip_tpl(v)
+                  elif k == "finished": finished = v.lower() == "true"
+                  elif k == "winner": winner = v
+                  elif re.match(r"map\d+$", k): map_params.append(v)
+              t1 = opps.get("opponent1"); t2 = opps.get("opponent2")
+              if not t1 or not t2 or not finished: return None
+              # 系列比分: 数map胜场(每图回合数比较)
+              s1 = s2 = 0
+              for mp in map_params:
+                  t1t = re.search(r"\|t1t=(\d+)", mp); t1ct = re.search(r"\|t1ct=(\d+)", mp)
+                  t2t = re.search(r"\|t2t=(\d+)", mp); t2ct = re.search(r"\|t2ct=(\d+)", mp)
+                  if not (t1t and t1ct and t2t and t2ct): continue
+                  a = int(t1t.group(1)) + int(t1ct.group(1))
+                  b = int(t2t.group(1)) + int(t2ct.group(1))
+                  if a > b: s1 += 1
+                  elif b > a: s2 += 1
+              winner_side = None
+              if winner == "1": winner_side = t1
+              elif winner == "2": winner_side = t2
+              elif s1 != s2: winner_side = t1 if s1 > s2 else t2
+              return {"game": game, "tournament": page, "team_a": t1, "team_b": t2,
+                      "score1": s1, "score2": s2, "date": date,
+                      "winner": winner_side, "bestof": len(map_params)}
+
+          # done集合: 从已提交的 lp_results_full.jsonl 读
+          done_tournaments = set()
+          try:
+              for line in open("lp_results_full.jsonl"):
+                  r = json.loads(line)
+                  done_tournaments.add((r["game"], r["tournament"]))
+          except FileNotFoundError:
+              pass
+          print("done tournaments:", len(done_tournaments), flush=True)
+
+          # discovery
+          discovered = {}
+          for game, qs in QUERIES.items():
+              found = []
+              for q in qs:
+                  st, d = http(f"https://liquipedia.net/{game}/api.php?" + urllib.parse.urlencode(
+                      {"action": "opensearch", "search": q, "limit": 20, "format": "json"}))
+                  if st == 200:
+                      try: found += [n for n in json.loads(d)[1] if "Archive" not in n]
+                      except Exception: pass
+                  time.sleep(2.2)
+              discovered[game] = sorted(set(found))
+          pages = [(g, p) for g, ps in discovered.items() for p in ps]
+          todo = [(g, p) for g, p in pages if (g, p) not in done_tournaments]
+          print(f"pages: {len(pages)} | todo(skip done): {len(todo)}", flush=True)
+
+          out = open("lp_results_full.jsonl", "a")
+          ok = miss = total = 0
+          for gi, (game, page) in enumerate(todo):
+              st, d = http(f"https://liquipedia.net/{game}/api.php?" + urllib.parse.urlencode(
+                  {"action": "parse", "page": page, "prop": "wikitext", "format": "json"}))
+              if st != 200:
+                  miss += 1; print(f"[{gi+1}] {page}: {st}", flush=True); time.sleep(2.5); continue
+              try: wt = json.loads(d)["parse"]["wikitext"]["*"]
+              except Exception: miss += 1; continue
+              n = 0; i = 0
+              while True:
+                  i = wt.find("{{Match", i)
+                  if i < 0: break
+                  if wt[i:i+11] == "{{Matchlist":
+                      i += 2; continue
+                  end = find_template(wt, i)
+                  if not end: i += 2; continue
+                  tpl = wt[i:end]
+                  r = parse_match(tpl, game, page)
+                  if r:
+                      out.write(json.dumps(r, ensure_ascii=False) + "\n")
+                      total += 1; n += 1
+                  i = end
+              ok += 1
+              print(f"[{gi+1}] {page}: {n} matches", flush=True)
+              time.sleep(2.5)
+          out.close()
+          print(f"DONE: todo={len(todo)} ok={ok} miss={miss} matches={total}", flush=True)
+      - name: Commit merged
+        run: |
+          git config user.name "lp" && git config user.email "lp@noreply"
+          git add lp_results_full.jsonl
+          git diff --cached --quiet && echo nothing || (git commit -m "lp backfill chunk v2" && (git pull --rebase origin main || true) && git push) || (sleep 8 && git pull --rebase origin main && git push) || true
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lp-results-chunk
+          path: lp_results_full.jsonl
+          retention-days: 90
+          if-no-files-found: ignore
