@@ -15,8 +15,10 @@ import time
 import urllib.parse
 import urllib.request
 
-WORKER = os.environ.get(
-    "PIN_WORKER", "https://pinnacle-anchor.577813472.workers.dev")
+# 双worker热备(10-15): api-proxy为主, pinnacle-anchor为退
+WORKERS = ["https://api-proxy.577813472.workers.dev",
+           "https://pinnacle-anchor.577813472.workers.dev"]
+WORKER = os.environ.get("PIN_WORKER", WORKERS[0])
 PIN_KEY = os.environ.get("PIN_KEY", "")
 BASE = "https://guest.api.arcadia.pinnacle.com/0.1"
 SCHEMA_LEAGUES = ("id", "name")
@@ -24,17 +26,21 @@ SCHEMA_MATCHUPS = ("id", "type")
 
 
 def wreq(url, timeout=35):
-    req = urllib.request.Request(
-        WORKER + "/?url=" + urllib.parse.quote(url, safe=""),
-        headers={"x-key": PIN_KEY, "Accept": "application/json",
-                 "User-Agent": "pin-cloud-sweep/1.0"})
-    try:
-        with urllib.request.urlopen(req, timeout=timeout) as r:
-            return True, json.loads(r.read().decode()), r.status
-    except urllib.error.HTTPError as e:
-        return False, None, e.code
-    except Exception:
-        return False, None, 0
+    for w in ([WORKER] + [x for x in WORKERS if x != WORKER]):
+        req = urllib.request.Request(
+            w + "/?url=" + urllib.parse.quote(url, safe=""),
+            headers={"x-key": PIN_KEY, "Accept": "application/json",
+                     "User-Agent": "pin-cloud-sweep/1.0"})
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return True, json.loads(r.read().decode()), r.status
+        except urllib.error.HTTPError as e:
+            if e.code == 403:
+                continue  # 该worker拒了, 试下一个
+            return False, None, e.code
+        except Exception:
+            continue
+    return False, None, 0
 
 
 def amer_to_dec(a):
