@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T11:54:03Z",
+ "ts": "2026-10-15T12:19:53Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 37,
+   "events_returned": 36,
    "err": null
   },
   {
@@ -147,7 +147,7 @@
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
    "Dota 2: Power Rangers vs Kalmychata (BO3) - DreamLeague Eastern Europe",
-   "Dota 2: Team Resilience vs Yakult Brothers (BO5) - DreamLeague China C"
+   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -212,7 +212,7 @@
    },
    {
     "t": "Dota 2: Team Resilience vs Yakult Brothers (BO5) - DreamLeague China C",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: CyberHero vs Kalmychata (BO3) - DreamLeague Eastern Europe Clo",
@@ -310,30 +310,29 @@
  },
  "n_event_queries": 21,
  "events": 422,
- "markets": 394,
- "markets_dropped_by_volume_floor": 2677,
- "day_file": "data/2026/10/2026-10-15T11.jsonl",
+ "markets": 389,
+ "markets_dropped_by_volume_floor": 2661,
+ "day_file": "data/2026/10/2026-10-15T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 153,
- "trades_watchlist_markets": 107,
- "trades_collected": 3399,
- "anomalies_detected": 51,
- "anomalies_new": 16,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "8138792043: HTTPError: HTTP Error 404: Not Found",
-  "1068693069: HTTPError: HTTP Error 404: Not Found",
-  "3492517443: HTTPError: HTTP Error 404: Not Found",
-  "9638618533: HTTPError: HTTP Error 404: Not Found",
-  "5809905892: HTTPError: HTTP Error 404: Not Found",
-  "1057860710: HTTPError: HTTP Error 404: Not Found",
-  "5600000576: HTTPError: HTTP Error 404: Not Found",
-  "4775730917: HTTPError: HTTP Error 404: Not Found",
-  "7535296045: HTTPError: HTTP Error 404: Not Found",
-  "8680987979: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 155,
+ "trades_watchlist_markets": 105,
+ "trades_collected": 2949,
+ "anomalies_detected": 49,
+ "anomalies_new": 49,
+ "history_debug": [
+  {
+   "cid": "0x674367fd",
+   "pts": 6,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xd71c5b02",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 123,
- "books_rows": 172,
+ "history_conditions_new": 2,
+ "books_markets": 127,
+ "books_rows": 166,
  "status": "ok"
 }
