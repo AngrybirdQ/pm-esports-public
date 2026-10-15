@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T18:35:26Z",
+ "ts": "2026-10-15T19:08:19Z",
  "sources": [
   {
    "url": "/tags",
@@ -140,14 +140,14 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Counter-Strike: PARIVISION vs BetBoom Team (BO3) - Thunderpick World C",
    "LoL: Cloud9 vs Karmine Corp (BO5) - Worlds Play-In",
-   "Worlds 2026: Winner"
+   "Worlds 2026: Winner",
+   "Counter-Strike: Legacy vs FURIA (BO3) - Thunderpick World Championship"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
-   "Dota 2: PlayTime vs Skyreavers (BO3) - DreamLeague South America Close"
+   "Dota 2: PlayTime vs Skyreavers (BO3) - DreamLeague South America Close",
+   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -309,66 +309,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 420,
- "markets": 324,
- "markets_dropped_by_volume_floor": 2527,
- "day_file": "data/2026/10/2026-10-15T18.jsonl",
+ "events": 419,
+ "markets": 317,
+ "markets_dropped_by_volume_floor": 2519,
+ "day_file": "data/2026/10/2026-10-15T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 131,
- "trades_watchlist_markets": 96,
- "trades_collected": 2702,
- "anomalies_detected": 40,
- "anomalies_new": 40,
+ "trades_markets_queried": 125,
+ "trades_watchlist_markets": 94,
+ "trades_collected": 2924,
+ "anomalies_detected": 3,
+ "anomalies_new": 3,
  "history_debug": [
   {
-   "cid": "0x68cc18f4",
-   "pts": 10,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x05ebb1c7",
-   "pts": 9,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x41547b2c",
-   "pts": 8,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x4d3e76e0",
-   "pts": 8,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x29d8af79",
-   "pts": 7,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x3ab2c831",
-   "pts": 6,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x674367fd",
-   "pts": 7,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xdf508a4a",
-   "pts": 6,
+   "cid": "0x6487693b",
+   "pts": 3,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 36,
- "books_errors": [
-  "7747141099: HTTPError: HTTP Error 404: Not Found",
-  "4253882110: HTTPError: HTTP Error 404: Not Found",
-  "9641434304: HTTPError: HTTP Error 404: Not Found",
-  "7724151150: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 105,
- "books_rows": 166,
+ "history_conditions_new": 1,
+ "books_markets": 96,
+ "books_rows": 146,
  "status": "ok"
 }
