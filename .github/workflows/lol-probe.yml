@@ -32,9 +32,12 @@ jobs:
           for q in ("World Championship 2025", "LPL 2025", "LCK 2025"):
               url = f"https://liquipedia.net/leagueoflegends/api.php?" + urllib.parse.urlencode(
                   {"action": "opensearch", "search": q, "limit": 8, "format": "json"})
-              req = urllib.request.Request(url, headers={"User-Agent": UA})
+              req = urllib.request.Request(url, headers={"User-Agent": UA,
+                  "Accept": "application/json", "Accept-Encoding": "gzip"})
               with urllib.request.urlopen(req, timeout=40) as r:
-                  names = json.loads(r.read())[1]
+                  raw = r.read()
+                  if raw[:2] == b"\x1f\x8b": raw = gzip.decompress(raw)
+                  names = json.loads(raw)[1]
               print(f"LoL '{q}':", names[:6], flush=True)
               time.sleep(2)
           # 2) 取Worlds 2025页面的Match模板样例
