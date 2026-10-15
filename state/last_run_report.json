@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T21:56:48Z",
+ "ts": "2026-10-15T22:24:30Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 69,
+   "events_returned": 68,
    "err": null
   },
   {
@@ -309,19 +309,46 @@
   ]
  },
  "n_event_queries": 21,
- "events": 418,
- "markets": 331,
- "markets_dropped_by_volume_floor": 2483,
- "day_file": "data/2026/10/2026-10-15T21.jsonl",
+ "events": 416,
+ "markets": 336,
+ "markets_dropped_by_volume_floor": 2464,
+ "day_file": "data/2026/10/2026-10-15T22.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 145,
- "trades_watchlist_markets": 113,
- "trades_collected": 2057,
- "anomalies_detected": 42,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 115,
- "books_rows": 140,
+ "trades_markets_queried": 155,
+ "trades_watchlist_markets": 122,
+ "trades_collected": 1892,
+ "anomalies_detected": 39,
+ "anomalies_new": 39,
+ "history_debug": [
+  {
+   "cid": "0xbc11925d",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x74053933",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x826cbf19",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xf13f3625",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 4,
+ "books_errors": [
+  "6987600694: HTTPError: HTTP Error 404: Not Found",
+  "4362799594: HTTPError: HTTP Error 404: Not Found",
+  "1669342914: HTTPError: HTTP Error 404: Not Found",
+  "8864167296: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 118,
+ "books_rows": 150,
  "status": "ok"
 }
