@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T21:09:03Z",
+ "ts": "2026-10-15T21:32:57Z",
  "sources": [
   {
    "url": "/tags",
@@ -273,12 +273,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: FlyQuest RED vs MIBR GC (BO3) - VCT Game Changers Americas L",
-    "closed": true
-   },
-   {
     "t": "Highest ACS at VALORANT Champions 2026",
     "closed": false
+   },
+   {
+    "t": "Valorant: FlyQuest RED vs MIBR GC (BO3) - VCT Game Changers Americas L",
+    "closed": true
    },
    {
     "t": "Most Kills at VALORANT Champions 2026",
@@ -309,27 +309,30 @@
   ]
  },
  "n_event_queries": 21,
- "events": 419,
- "markets": 347,
- "markets_dropped_by_volume_floor": 2504,
+ "events": 418,
+ "markets": 330,
+ "markets_dropped_by_volume_floor": 2468,
  "day_file": "data/2026/10/2026-10-15T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 142,
- "trades_watchlist_markets": 101,
- "trades_collected": 2577,
- "anomalies_detected": 51,
- "anomalies_new": 6,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "6937513069: HTTPError: HTTP Error 404: Not Found",
-  "6653658970: HTTPError: HTTP Error 404: Not Found",
-  "8206891603: HTTPError: HTTP Error 404: Not Found",
-  "1218256317: HTTPError: HTTP Error 404: Not Found",
-  "2932815355: HTTPError: HTTP Error 404: Not Found",
-  "6837616259: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 135,
+ "trades_watchlist_markets": 110,
+ "trades_collected": 2165,
+ "anomalies_detected": 35,
+ "anomalies_new": 35,
+ "history_debug": [
+  {
+   "cid": "0x6145e1d1",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xd5eb429e",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
+ "history_conditions_new": 2,
  "books_markets": 116,
- "books_rows": 142,
+ "books_rows": 162,
  "status": "ok"
 }
