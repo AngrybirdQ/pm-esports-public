@@ -14,7 +14,7 @@ jobs:
       - name: LoL Match template format probe
         run: |
           python3 << 'PYEOF'
-          import gzip, json, re, urllib.request, urllib.parse
+          import gzip, json, re, time, urllib.request, urllib.parse
           UA = "pm-esports-research/1.0 (github.com/AngrybirdQ)"
           def lp(game, page):
               url = f"https://liquipedia.net/{game}/api.php?" + urllib.parse.urlencode(
@@ -29,9 +29,10 @@ jobs:
               except Exception as e:
                   return 0, str(e)[:60]
           # 1) 从opensearch发现LoL真实页名
-          for q in ("World Championship 2025", "LPL 2025", "LCK 2025"):
+          import time as _t
+          for q in ("World", "LPL", "LCK", "LEC", "MSI"):
               url = f"https://liquipedia.net/leagueoflegends/api.php?" + urllib.parse.urlencode(
-                  {"action": "opensearch", "search": q, "limit": 8, "format": "json"})
+                  {"action": "opensearch", "search": q, "limit": 20, "format": "json"})
               req = urllib.request.Request(url, headers={"User-Agent": UA,
                   "Accept": "application/json", "Accept-Encoding": "gzip"})
               with urllib.request.urlopen(req, timeout=40) as r:
