@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T20:40:01Z",
+ "ts": "2026-10-15T21:05:49Z",
  "sources": [
   {
    "url": "/tags",
@@ -309,25 +309,35 @@
   ]
  },
  "n_event_queries": 21,
- "events": 418,
- "markets": 336,
- "markets_dropped_by_volume_floor": 2494,
- "day_file": "data/2026/10/2026-10-15T20.jsonl",
+ "events": 419,
+ "markets": 341,
+ "markets_dropped_by_volume_floor": 2510,
+ "day_file": "data/2026/10/2026-10-15T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 140,
- "trades_watchlist_markets": 107,
- "trades_collected": 2718,
- "anomalies_detected": 55,
- "anomalies_new": 6,
+ "trades_markets_queried": 137,
+ "trades_watchlist_markets": 101,
+ "trades_collected": 2529,
+ "anomalies_detected": 47,
+ "anomalies_new": 47,
  "history_debug": [
   {
-   "cid": "0x683a0678",
+   "cid": "0xb7d37725",
+   "pts": 11,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x1e639358",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x2115b749",
    "pts": 2,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 1,
- "books_markets": 115,
- "books_rows": 148,
+ "history_conditions_new": 3,
+ "books_markets": 112,
+ "books_rows": 140,
  "status": "ok"
 }
