@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T16:40:41Z",
+ "ts": "2026-10-15T17:08:29Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,13 +51,13 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 68,
+   "events_returned": 69,
    "err": null
   },
   {
    "url": "tag_slug=lol",
    "ok": true,
-   "events_returned": 45,
+   "events_returned": 46,
    "err": null
   },
   {
@@ -169,8 +169,8 @@
    "Demacia Cup Global Invitational 2026: Winner"
   ],
   "tag_slug=valorant": [
-   "VALORANT Champions 2026: Winner",
    "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
+   "VALORANT Champions 2026: Winner",
    "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs"
   ],
   "tag_slug=starcraft-2": [
@@ -309,64 +309,30 @@
   ]
  },
  "n_event_queries": 21,
- "events": 420,
- "markets": 324,
- "markets_dropped_by_volume_floor": 2476,
- "day_file": "data/2026/10/2026-10-15T16.jsonl",
+ "events": 422,
+ "markets": 321,
+ "markets_dropped_by_volume_floor": 2554,
+ "day_file": "data/2026/10/2026-10-15T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 129,
- "trades_watchlist_markets": 93,
- "trades_collected": 2367,
- "anomalies_detected": 37,
- "anomalies_new": 37,
+ "trades_markets_queried": 135,
+ "trades_watchlist_markets": 106,
+ "trades_collected": 2190,
+ "anomalies_detected": 31,
+ "anomalies_new": 30,
  "history_debug": [
   {
-   "cid": "0x05ebb1c7",
-   "pts": 9,
+   "cid": "0xcaa6059e",
+   "pts": 4,
    "variant": "interval=all&fidelity=1000"
   },
   {
-   "cid": "0x41547b2c",
-   "pts": 8,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x4d3e76e0",
-   "pts": 8,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x29d8af79",
-   "pts": 7,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x7b267b18",
-   "pts": 7,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x3ab2c831",
-   "pts": 7,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x674367fd",
-   "pts": 7,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xdf508a4a",
-   "pts": 6,
+   "cid": "0xb0ac6cdb",
+   "pts": 2,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 36,
- "books_errors": [
-  "7896229139: HTTPError: HTTP Error 404: Not Found",
-  "2451962282: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 118,
- "books_rows": 178,
+ "history_conditions_new": 2,
+ "books_markets": 112,
+ "books_rows": 172,
  "status": "ok"
 }
