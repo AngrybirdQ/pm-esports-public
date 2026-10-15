@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T15:27:03Z",
+ "ts": "2026-10-15T15:31:08Z",
  "sources": [
   {
    "url": "/tags",
@@ -211,12 +211,12 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Team Resilience vs Yakult Brothers (BO5) - DreamLeague China C",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Yangon Galacticos vs InterActive Philippines (BO3) - DreamLeag",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Resilience vs Yakult Brothers (BO5) - DreamLeague China C",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -310,32 +310,22 @@
  },
  "n_event_queries": 21,
  "events": 425,
- "markets": 384,
- "markets_dropped_by_volume_floor": 2552,
+ "markets": 335,
+ "markets_dropped_by_volume_floor": 2559,
  "day_file": "data/2026/10/2026-10-15T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 145,
+ "trades_markets_queried": 144,
  "trades_watchlist_markets": 91,
- "trades_collected": 2957,
+ "trades_collected": 2865,
  "anomalies_detected": 33,
- "anomalies_new": 0,
- "history_debug": [
-  {
-   "cid": "0x99432c8b",
-   "pts": 4,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
+ "anomalies_new": 29,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_errors": [
-  "5928860046: HTTPError: HTTP Error 404: Not Found",
-  "1090813924: HTTPError: HTTP Error 404: Not Found",
-  "2057978818: HTTPError: HTTP Error 404: Not Found",
-  "7446214020: HTTPError: HTTP Error 404: Not Found",
-  "9857146889: HTTPError: HTTP Error 404: Not Found",
-  "8828048207: HTTPError: HTTP Error 404: Not Found"
+  "7501364915: HTTPError: HTTP Error 404: Not Found",
+  "9251661350: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 114,
+ "books_markets": 112,
  "books_rows": 170,
  "status": "ok"
 }
