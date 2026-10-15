@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T14:10:38Z",
+ "ts": "2026-10-15T14:33:41Z",
  "sources": [
   {
    "url": "/tags",
@@ -211,11 +211,11 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Team Resilience vs Yakult Brothers (BO3) - DreamLeague China C",
+    "t": "Dota 2: Team Resilience vs Yakult Brothers (BO5) - DreamLeague China C",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Resilience vs Yakult Brothers (BO5) - DreamLeague China C",
+    "t": "Dota 2: Execration vs Royal Bear (BO3) - DreamLeague Southeast Asia Cl",
     "closed": true
    }
   ],
@@ -309,19 +309,45 @@
   ]
  },
  "n_event_queries": 21,
- "events": 419,
- "markets": 372,
- "markets_dropped_by_volume_floor": 2440,
+ "events": 420,
+ "markets": 388,
+ "markets_dropped_by_volume_floor": 2452,
  "day_file": "data/2026/10/2026-10-15T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 145,
- "trades_watchlist_markets": 89,
- "trades_collected": 2102,
- "anomalies_detected": 26,
- "anomalies_new": 6,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 120,
- "books_rows": 153,
+ "trades_markets_queried": 146,
+ "trades_watchlist_markets": 86,
+ "trades_collected": 2556,
+ "anomalies_detected": 35,
+ "anomalies_new": 35,
+ "history_debug": [
+  {
+   "cid": "0xca1db6ea",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xad7a9f1b",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xa13d58ad",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xdb9186db",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x73c5a952",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 5,
+ "books_markets": 127,
+ "books_rows": 158,
  "status": "ok"
 }
