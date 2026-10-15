@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T14:57:20Z",
+ "ts": "2026-10-15T15:23:33Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 34,
+   "events_returned": 42,
    "err": null
   },
   {
@@ -51,13 +51,13 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 70,
+   "events_returned": 69,
    "err": null
   },
   {
    "url": "tag_slug=lol",
    "ok": true,
-   "events_returned": 46,
+   "events_returned": 45,
    "err": null
   },
   {
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "LoL: Team WE vs HANJIN BRION (BO5) - Demacia Cup Global Invitational P",
-   "Counter-Strike: 9z vs Team Falcons (BO3) - Thunderpick World Champions",
-   "Worlds 2026: Winner"
+   "Worlds 2026: Winner",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -215,8 +215,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Execration vs Royal Bear (BO3) - DreamLeague Southeast Asia Cl",
-    "closed": true
+    "t": "Dota 2: Yangon Galacticos vs InterActive Philippines (BO3) - DreamLeag",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -309,19 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 418,
- "markets": 389,
- "markets_dropped_by_volume_floor": 2434,
- "day_file": "data/2026/10/2026-10-15T14.jsonl",
+ "events": 425,
+ "markets": 384,
+ "markets_dropped_by_volume_floor": 2559,
+ "day_file": "data/2026/10/2026-10-15T15.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 144,
- "trades_watchlist_markets": 90,
- "trades_collected": 3003,
- "anomalies_detected": 24,
- "anomalies_new": 2,
+ "trades_watchlist_markets": 91,
+ "trades_collected": 2851,
+ "anomalies_detected": 35,
+ "anomalies_new": 31,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 119,
- "books_rows": 162,
+ "books_markets": 113,
+ "books_rows": 174,
  "status": "ok"
 }
