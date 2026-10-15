@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T16:21:42Z",
+ "ts": "2026-10-15T16:40:41Z",
  "sources": [
   {
    "url": "/tags",
@@ -140,8 +140,8 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Worlds 2026: Winner",
    "Counter-Strike: PARIVISION vs BetBoom Team (BO3) - Thunderpick World C",
+   "Worlds 2026: Winner",
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
@@ -309,31 +309,64 @@
   ]
  },
  "n_event_queries": 21,
- "events": 422,
- "markets": 327,
- "markets_dropped_by_volume_floor": 2496,
+ "events": 420,
+ "markets": 324,
+ "markets_dropped_by_volume_floor": 2476,
  "day_file": "data/2026/10/2026-10-15T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 131,
- "trades_watchlist_markets": 90,
- "trades_collected": 2927,
- "anomalies_detected": 38,
- "anomalies_new": 18,
+ "trades_markets_queried": 129,
+ "trades_watchlist_markets": 93,
+ "trades_collected": 2367,
+ "anomalies_detected": 37,
+ "anomalies_new": 37,
  "history_debug": [
   {
-   "cid": "0xbf25d8b9",
-   "pts": 3,
+   "cid": "0x05ebb1c7",
+   "pts": 9,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x41547b2c",
+   "pts": 8,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x4d3e76e0",
+   "pts": 8,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x29d8af79",
+   "pts": 7,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x7b267b18",
+   "pts": 7,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x3ab2c831",
+   "pts": 7,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x674367fd",
+   "pts": 7,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xdf508a4a",
+   "pts": 6,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 1,
+ "history_conditions_new": 36,
  "books_errors": [
-  "1113239270: HTTPError: HTTP Error 404: Not Found",
-  "8553858515: HTTPError: HTTP Error 404: Not Found",
-  "1156486614: HTTPError: HTTP Error 404: Not Found",
-  "6043559586: HTTPError: HTTP Error 404: Not Found"
+  "7896229139: HTTPError: HTTP Error 404: Not Found",
+  "2451962282: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 112,
- "books_rows": 166,
+ "books_markets": 118,
+ "books_rows": 178,
  "status": "ok"
 }
