@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T17:08:29Z",
+ "ts": "2026-10-15T18:25:31Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 40,
+   "events_returned": 36,
    "err": null
   },
   {
@@ -146,8 +146,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Yangon Galacticos vs InterActive Philippines (BO3) - DreamLeag",
-   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A"
+   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
+   "Dota 2: PlayTime vs Skyreavers (BO3) - DreamLeague South America Close"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -159,9 +159,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
+   "LoL: Cloud9 vs Karmine Corp (BO5) - Worlds Play-In",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "LoL: KaBuM! Ilha das Lendas vs Golden Lions (BO5) - CBLOL Promotion Pl"
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -199,10 +199,6 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Kalmychata vs HULIGANI (BO3) - DreamLeague Eastern Europe Clos",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Power Rangers vs Kalmychata (BO3) - DreamLeague Eastern Europe",
     "closed": true
    },
@@ -211,8 +207,12 @@
     "closed": true
    },
    {
+    "t": "Dota 2: Kalmychata vs HULIGANI (BO3) - DreamLeague Eastern Europe Clos",
+    "closed": true
+   },
+   {
     "t": "Dota 2: Yangon Galacticos vs InterActive Philippines (BO3) - DreamLeag",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Resilience vs Yakult Brothers (BO5) - DreamLeague China C",
@@ -309,30 +309,40 @@
   ]
  },
  "n_event_queries": 21,
- "events": 422,
- "markets": 321,
- "markets_dropped_by_volume_floor": 2554,
- "day_file": "data/2026/10/2026-10-15T17.jsonl",
+ "events": 420,
+ "markets": 319,
+ "markets_dropped_by_volume_floor": 2522,
+ "day_file": "data/2026/10/2026-10-15T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 135,
- "trades_watchlist_markets": 106,
- "trades_collected": 2190,
- "anomalies_detected": 31,
- "anomalies_new": 30,
+ "trades_markets_queried": 133,
+ "trades_watchlist_markets": 100,
+ "trades_collected": 2558,
+ "anomalies_detected": 40,
+ "anomalies_new": 40,
  "history_debug": [
   {
-   "cid": "0xcaa6059e",
-   "pts": 4,
+   "cid": "0x164eea70",
+   "pts": 3,
    "variant": "interval=all&fidelity=1000"
   },
   {
-   "cid": "0xb0ac6cdb",
+   "cid": "0xf0f30cd6",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xad9e57b3",
    "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x456cfb78",
+   "pts": 1,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 2,
- "books_markets": 112,
- "books_rows": 172,
+ "history_conditions_new": 4,
+ "books_markets": 100,
+ "books_rows": 162,
  "status": "ok"
 }
