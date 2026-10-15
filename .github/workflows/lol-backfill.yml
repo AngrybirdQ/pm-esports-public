@@ -161,14 +161,33 @@ jobs:
               time.sleep(2)
           print(f"pages incl subpages: {len(all_pages)}", flush=True)
 
-          # 3) 逐页解析(不存在的页API 404自然跳过)
+          # 3) 批量存在性验证: titles API 一次查50个
+          def batch_exists(pages):
+              exists = set()
+              for off in range(0, len(pages), 50):
+                  batch = pages[off:off+50]
+                  st, d = http(f"https://liquipedia.net/leagueoflegends/api.php?" + urllib.parse.urlencode(
+                      {"action": "query", "titles": "|".join(batch), "format": "json"}))
+                  if st == 200:
+                      try:
+                          q = json.loads(d).get("query", {})
+                          for p in q.get("pages", {}).values():
+                              if "missing" not in p and "title" in p:
+                                  exists.add(p["title"])
+                      except Exception: pass
+                  time.sleep(2)
+              return exists
+          all_pages = sorted(all_pages)
+          verified = batch_exists(all_pages)
+          print(f"verified existing: {len(verified)}/{len(all_pages)}", flush=True)
+          all_pages = [p for p in all_pages if p in verified]
+
           out = open("lp_results_full.jsonl", "a", buffering=1)
           total = ok = miss = 0
           for pi, page in enumerate(sorted(all_pages)):
               wt = wikitext("leagueoflegends", page)
               if not wt:
                   miss += 1
-                  time.sleep(2.2)
                   continue
               rows = extract_from_wt(wt, page)
               for r in rows:
