@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T00:43:51Z",
+ "ts": "2026-10-15T00:46:14Z",
  "sources": [
   {
    "url": "/tags",
@@ -188,7 +188,6 @@
   ]
  },
  "winning_sources": [
-  "search:Valorant",
   "tag_slug=cs2",
   "tag_slug=dota-2",
   "tag_slug=esports",
@@ -275,7 +274,7 @@
    },
    {
     "t": "Valorant: FlyQuest RED vs MIBR GC (BO3) - VCT Game Changers Americas L",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: FlyQuest RED vs Akave Esports Black (BO3) - VCT Game Changer",
@@ -310,24 +309,18 @@
   ]
  },
  "n_event_queries": 21,
- "events": 424,
+ "events": 423,
  "markets": 302,
  "markets_dropped_by_volume_floor": 2718,
  "day_file": "data/2026/10/2026-10-15T00.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 108,
  "trades_watchlist_markets": 72,
- "trades_collected": 705,
- "anomalies_detected": 5,
+ "trades_collected": 667,
+ "anomalies_detected": 7,
  "anomalies_new": 2,
- "history_debug": [
-  {
-   "cid": "0x5095efd3",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 78,
  "books_rows": 128,
  "status": "ok"
