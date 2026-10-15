@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T14:53:51Z",
+ "ts": "2026-10-15T14:57:20Z",
  "sources": [
   {
    "url": "/tags",
@@ -277,11 +277,11 @@
     "closed": true
    },
    {
-    "t": "Most Kills at VALORANT Champions 2026",
+    "t": "Highest ACS at VALORANT Champions 2026",
     "closed": false
    },
    {
-    "t": "Most First Bloods at VALORANT Champions 2026",
+    "t": "Most Kills at VALORANT Champions 2026",
     "closed": false
    }
   ],
@@ -309,23 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 419,
- "markets": 391,
- "markets_dropped_by_volume_floor": 2442,
+ "events": 418,
+ "markets": 389,
+ "markets_dropped_by_volume_floor": 2434,
  "day_file": "data/2026/10/2026-10-15T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 143,
+ "trades_markets_queried": 144,
  "trades_watchlist_markets": 90,
- "trades_collected": 2848,
- "anomalies_detected": 25,
- "anomalies_new": 11,
+ "trades_collected": 3003,
+ "anomalies_detected": 24,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "6508479548: HTTPError: HTTP Error 404: Not Found",
-  "3056958873: HTTPError: HTTP Error 404: Not Found"
- ],
  "books_markets": 119,
- "books_rows": 164,
+ "books_rows": 162,
  "status": "ok"
 }
