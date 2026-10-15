@@ -1,12 +1,12 @@
 {
- "ts": "2026-10-15T11:00:01Z",
+ "ts": "2026-10-15T11:03:07Z",
  "side_sources": [
   {
    "source": "kalshi",
    "ok": true,
    "variant": "https://api.elections.kalshi.com/trade-api/v2",
    "markets_scanned": 5000,
-   "esports_hits": 40
+   "esports_hits": 48
   },
   {
    "source": "kalshi_orderbook",
@@ -25,5 +25,5 @@
    "skipped": "dead source, see docstring"
   }
  ],
- "observations": 40
+ "observations": 48
 }
