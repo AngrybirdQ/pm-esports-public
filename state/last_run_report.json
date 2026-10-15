@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T03:25:37Z",
+ "ts": "2026-10-15T03:47:03Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 50,
+   "events_returned": 49,
    "err": null
   },
   {
@@ -171,7 +171,7 @@
   "tag_slug=valorant": [
    "VALORANT Champions 2026: Winner",
    "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
-   "Valorant: Akave Esports Black vs MIBR GC (BO3) - VCT Game Changers Ame"
+   "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -270,7 +270,7 @@
    },
    {
     "t": "Valorant: Akave Esports Black vs MIBR GC (BO3) - VCT Game Changers Ame",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: FlyQuest RED vs MIBR GC (BO3) - VCT Game Changers Americas L",
@@ -309,19 +309,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 421,
- "markets": 295,
- "markets_dropped_by_volume_floor": 2731,
+ "events": 420,
+ "markets": 292,
+ "markets_dropped_by_volume_floor": 2715,
  "day_file": "data/2026/10/2026-10-15T03.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 92,
- "trades_watchlist_markets": 68,
- "trades_collected": 983,
+ "trades_watchlist_markets": 69,
+ "trades_collected": 926,
  "anomalies_detected": 2,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 83,
+ "anomalies_new": 1,
+ "history_debug": [
+  {
+   "cid": "0x59042d69",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 79,
  "books_rows": 156,
  "status": "ok"
 }
