@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T21:36:39Z",
+ "ts": "2026-10-15T21:40:31Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 37,
+   "events_returned": 36,
    "err": null
   },
   {
@@ -147,12 +147,12 @@
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
    "Dota 2: PlayTime vs Skyreavers (BO3) - DreamLeague South America Close",
-   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A"
+   "Dota 2: PuckChamp vs Mena Warriors (BO3) - EPL Masters Play-In Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
    "Which teams will qualify to PGL Major Singapore 2026?",
-   "Will Team Falcons Make a Roster Change by December 31?"
+   "Thunderpick World Championship 2026: Winner"
   ],
   "tag_slug=counter-strike": [
    "Will Valve add sticker trade-ups before November?",
@@ -309,25 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 418,
- "markets": 330,
- "markets_dropped_by_volume_floor": 2467,
+ "events": 417,
+ "markets": 328,
+ "markets_dropped_by_volume_floor": 2486,
  "day_file": "data/2026/10/2026-10-15T21.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 135,
  "trades_watchlist_markets": 110,
- "trades_collected": 2159,
- "anomalies_detected": 33,
- "anomalies_new": 4,
+ "trades_collected": 2151,
+ "anomalies_detected": 37,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1054014116: HTTPError: HTTP Error 404: Not Found",
-  "4887185333: HTTPError: HTTP Error 404: Not Found",
-  "8534290114: HTTPError: HTTP Error 404: Not Found",
-  "1509424939: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 116,
+ "books_markets": 114,
  "books_rows": 158,
  "status": "ok"
 }
