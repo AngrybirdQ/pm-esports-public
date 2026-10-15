@@ -134,7 +134,13 @@ jobs:
                   if "Archive" not in n: mains.add(n)
           print(f"main pages: {len(mains)}", flush=True)
 
-          # 2) 子页发现: 对每个主页取wikitext找 [[子页]] 链接 + 常见阶段名直拼
+          # 2) 子页发现(结果缓存到lol_pages.json, 二次运行跳过)
+          import os as _os
+          if _os.path.exists("lol_pages.json"):
+              all_pages = set(json.load(open("lol_pages.json")))
+              print(f"pages from cache: {len(all_pages)}", flush=True)
+          else:
+              _discover_needed = True
           STAGES = ["Swiss_Stage", "Play-In_Stage", "Group_Stage", "Knockout_Stage",
                      "Spring", "Summer", "Winter", "Split_1", "Split_2", "Split_3",
                      "Season", "Playoffs", "Bracket_Stage", "Main_Event"]
@@ -160,6 +166,7 @@ jobs:
                   all_pages |= subs
               time.sleep(2)
           print(f"pages incl subpages: {len(all_pages)}", flush=True)
+          json.dump(sorted(all_pages), open("lol_pages.json", "w"))
 
           out = open("lp_results_full.jsonl", "a", buffering=1)
           total = ok = miss = 0
@@ -181,7 +188,7 @@ jobs:
       - name: Commit merged
         run: |
           git config user.name "lp" && git config user.email "lp@noreply"
-          git add lp_results_full.jsonl
+          git add lp_results_full.jsonl lol_pages.json
           git diff --cached --quiet && echo nothing || (git commit -m "LoL results backfill" && (git pull --rebase origin main || true) && git push) || (sleep 8 && git pull --rebase origin main && git push) || true
       - name: Upload artifact
         if: always()
