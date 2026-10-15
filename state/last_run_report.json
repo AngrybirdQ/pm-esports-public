@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T00:36:42Z",
+ "ts": "2026-10-15T00:43:51Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 50,
+   "events_returned": 49,
    "err": null
   },
   {
@@ -188,6 +188,7 @@
   ]
  },
  "winning_sources": [
+  "search:Valorant",
   "tag_slug=cs2",
   "tag_slug=dota-2",
   "tag_slug=esports",
@@ -309,19 +310,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 423,
- "markets": 304,
- "markets_dropped_by_volume_floor": 2722,
+ "events": 424,
+ "markets": 302,
+ "markets_dropped_by_volume_floor": 2718,
  "day_file": "data/2026/10/2026-10-15T00.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 109,
+ "trades_markets_queried": 108,
  "trades_watchlist_markets": 72,
- "trades_collected": 854,
- "anomalies_detected": 1,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 80,
- "books_rows": 126,
+ "trades_collected": 705,
+ "anomalies_detected": 5,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0x5095efd3",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 78,
+ "books_rows": 128,
  "status": "ok"
 }
