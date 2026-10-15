@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T14:37:30Z",
+ "ts": "2026-10-15T14:53:51Z",
  "sources": [
   {
    "url": "/tags",
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "LoL: Team WE vs HANJIN BRION (BO5) - Demacia Cup Global Invitational P",
    "Counter-Strike: 9z vs Team Falcons (BO3) - Thunderpick World Champions",
-   "Counter-Strike: MIBR vs BC.Game Esports (BO3) - Stake Pulse Beat III G"
+   "Worlds 2026: Winner"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -281,8 +281,8 @@
     "closed": false
    },
    {
-    "t": "Valorant: FlyQuest RED vs Akave Esports Black (BO3) - VCT Game Changer",
-    "closed": true
+    "t": "Most First Bloods at VALORANT Champions 2026",
+    "closed": false
    }
   ],
   "search:The International": [
@@ -309,31 +309,23 @@
   ]
  },
  "n_event_queries": 21,
- "events": 420,
- "markets": 388,
- "markets_dropped_by_volume_floor": 2452,
+ "events": 419,
+ "markets": 391,
+ "markets_dropped_by_volume_floor": 2442,
  "day_file": "data/2026/10/2026-10-15T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 146,
- "trades_watchlist_markets": 86,
- "trades_collected": 2636,
- "anomalies_detected": 37,
- "anomalies_new": 3,
+ "trades_markets_queried": 143,
+ "trades_watchlist_markets": 90,
+ "trades_collected": 2848,
+ "anomalies_detected": 25,
+ "anomalies_new": 11,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "2054651356: HTTPError: HTTP Error 404: Not Found",
-  "1106160944: HTTPError: HTTP Error 404: Not Found",
-  "3762456175: HTTPError: HTTP Error 404: Not Found",
-  "1041003004: HTTPError: HTTP Error 404: Not Found",
-  "1042891551: HTTPError: HTTP Error 404: Not Found",
-  "1829992457: HTTPError: HTTP Error 404: Not Found",
-  "1781078345: HTTPError: HTTP Error 404: Not Found",
-  "8667940120: HTTPError: HTTP Error 404: Not Found",
-  "4903983729: HTTPError: HTTP Error 404: Not Found",
-  "3151000416: HTTPError: HTTP Error 404: Not Found"
+  "6508479548: HTTPError: HTTP Error 404: Not Found",
+  "3056958873: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 127,
- "books_rows": 158,
+ "books_markets": 119,
+ "books_rows": 164,
  "status": "ok"
 }
