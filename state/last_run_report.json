@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T19:08:19Z",
+ "ts": "2026-10-15T19:35:49Z",
  "sources": [
   {
    "url": "/tags",
@@ -207,15 +207,15 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Kalmychata vs HULIGANI (BO3) - DreamLeague Eastern Europe Clos",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Yangon Galacticos vs InterActive Philippines (BO3) - DreamLeag",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Resilience vs Yakult Brothers (BO5) - DreamLeague China C",
+    "t": "Dota 2: PlayTime vs Skyreavers (BO3) - DreamLeague South America Close",
+    "closed": false
+   },
+   {
+    "t": "Dota 2: Kalmychata vs HULIGANI (BO3) - DreamLeague Eastern Europe Clos",
     "closed": true
    }
   ],
@@ -309,25 +309,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 419,
- "markets": 317,
- "markets_dropped_by_volume_floor": 2519,
+ "events": 418,
+ "markets": 323,
+ "markets_dropped_by_volume_floor": 2504,
  "day_file": "data/2026/10/2026-10-15T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 125,
- "trades_watchlist_markets": 94,
- "trades_collected": 2924,
- "anomalies_detected": 3,
- "anomalies_new": 3,
+ "trades_markets_queried": 130,
+ "trades_watchlist_markets": 95,
+ "trades_collected": 3013,
+ "anomalies_detected": 57,
+ "anomalies_new": 57,
  "history_debug": [
   {
-   "cid": "0x6487693b",
+   "cid": "0x5e232859",
    "pts": 3,
    "variant": "interval=all&fidelity=1000"
   }
  ],
  "history_conditions_new": 1,
- "books_markets": 96,
- "books_rows": 146,
+ "books_markets": 101,
+ "books_rows": 148,
  "status": "ok"
 }
