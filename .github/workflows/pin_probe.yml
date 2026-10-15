@@ -15,7 +15,7 @@ jobs:
     timeout-minutes: 6
     steps:
       - name: fetch probe via API
-        run: gh api "repos/${{ github.repository }}/contents/scripts/pin_worker_probe.py?ref=main" --jq .content | base64 -d > p.py
+        run: gh api "repos/${{ github.repository }}/contents/scripts/api_proxy_probe.py?ref=main" --jq .content | base64 -d > p.py
         env: { GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
       - run: python3 p.py
         env:
