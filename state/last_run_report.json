@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T22:58:33Z",
+ "ts": "2026-10-15T23:18:58Z",
  "sources": [
   {
    "url": "/tags",
@@ -269,19 +269,19 @@
     "closed": false
    },
    {
-    "t": "Valorant: Akave Esports Black vs MIBR GC (BO3) - VCT Game Changers Ame",
-    "closed": true
+    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
+    "closed": false
    },
    {
     "t": "Highest ACS at VALORANT Champions 2026",
     "closed": false
    },
    {
-    "t": "Most Kills at VALORANT Champions 2026",
-    "closed": false
+    "t": "Valorant: Akave Esports Black vs MIBR GC (BO3) - VCT Game Changers Ame",
+    "closed": true
    },
    {
-    "t": "Most First Bloods at VALORANT Champions 2026",
+    "t": "Most Kills at VALORANT Champions 2026",
     "closed": false
    }
   ],
@@ -309,19 +309,23 @@
   ]
  },
  "n_event_queries": 21,
- "events": 417,
- "markets": 338,
- "markets_dropped_by_volume_floor": 2453,
- "day_file": "data/2026/10/2026-10-15T22.jsonl",
+ "events": 416,
+ "markets": 341,
+ "markets_dropped_by_volume_floor": 2448,
+ "day_file": "data/2026/10/2026-10-15T23.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 152,
- "trades_watchlist_markets": 120,
- "trades_collected": 2001,
- "anomalies_detected": 31,
- "anomalies_new": 0,
+ "trades_markets_queried": 143,
+ "trades_watchlist_markets": 109,
+ "trades_collected": 1832,
+ "anomalies_detected": 14,
+ "anomalies_new": 14,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 116,
- "books_rows": 150,
+ "books_errors": [
+  "4660503610: HTTPError: HTTP Error 404: Not Found",
+  "4898774195: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 118,
+ "books_rows": 152,
  "status": "ok"
 }
