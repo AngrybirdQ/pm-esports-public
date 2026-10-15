@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T12:52:43Z",
+ "ts": "2026-10-15T13:08:14Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 35,
+   "events_returned": 36,
    "err": null
   },
   {
@@ -199,11 +199,11 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Team Resilience vs Yakult Brothers (BO3) - DreamLeague China C",
+    "t": "Dota 2: Kalmychata vs HULIGANI (BO3) - DreamLeague Eastern Europe Clos",
     "closed": true
    },
    {
-    "t": "Dota 2: Kalmychata vs HULIGANI (BO3) - DreamLeague Eastern Europe Clos",
+    "t": "Dota 2: Team Resilience vs Yakult Brothers (BO3) - DreamLeague China C",
     "closed": true
    },
    {
@@ -309,19 +309,30 @@
   ]
  },
  "n_event_queries": 21,
- "events": 421,
- "markets": 394,
- "markets_dropped_by_volume_floor": 2595,
- "day_file": "data/2026/10/2026-10-15T12.jsonl",
+ "events": 422,
+ "markets": 391,
+ "markets_dropped_by_volume_floor": 2632,
+ "day_file": "data/2026/10/2026-10-15T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 152,
- "trades_watchlist_markets": 101,
- "trades_collected": 3097,
- "anomalies_detected": 43,
- "anomalies_new": 4,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 130,
- "books_rows": 174,
+ "trades_markets_queried": 142,
+ "trades_watchlist_markets": 92,
+ "trades_collected": 2715,
+ "anomalies_detected": 50,
+ "anomalies_new": 50,
+ "history_debug": [
+  {
+   "cid": "0x3e649fa2",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x435257a2",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_markets": 126,
+ "books_rows": 170,
  "status": "ok"
 }
