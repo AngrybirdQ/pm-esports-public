@@ -1,0 +1,17 @@
+name = "api-proxy"
+main = "api-proxy-worker.js"
+compatibility_date = "2024-09-23"
+account_id = "555d6807c57df633162e675a4ab45a92"
+
+# CF cron备援(⑤): 每5分钟触发一次健康自检
+# 如果worker挂了, CF会自动重启; 同时作为Actions schedule的备份触发源
+[triggers]
+crons = ["*/5 * * * *"]
+
+[[kv_namespaces]]
+binding = "PIN_CACHE"
+id = "227da8d940394fb3b5ddfeb6e23bfd17"
+
+[[kv_namespaces]]
+binding = "PIN_CACHE"
+id = "227da8d940394fb3b5ddfeb6e23bfd17"
