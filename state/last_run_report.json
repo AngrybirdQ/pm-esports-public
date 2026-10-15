@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T19:39:11Z",
+ "ts": "2026-10-15T20:09:29Z",
  "sources": [
   {
    "url": "/tags",
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "LoL: Cloud9 vs Karmine Corp (BO5) - Worlds Play-In",
-   "Worlds 2026: Winner",
-   "Counter-Strike: Legacy vs FURIA (BO3) - Thunderpick World Championship"
+   "Counter-Strike: Legacy vs FURIA (BO3) - Thunderpick World Championship",
+   "Worlds 2026: Winner"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -207,15 +207,15 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Yangon Galacticos vs InterActive Philippines (BO3) - DreamLeag",
-    "closed": true
-   },
-   {
     "t": "Dota 2: PlayTime vs Skyreavers (BO3) - DreamLeague South America Close",
     "closed": false
    },
    {
-    "t": "Dota 2: Kalmychata vs HULIGANI (BO3) - DreamLeague Eastern Europe Clos",
+    "t": "Dota 2: Yangon Galacticos vs InterActive Philippines (BO3) - DreamLeag",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Team Resilience vs Yakult Brothers (BO5) - DreamLeague China C",
     "closed": true
    }
   ],
@@ -309,19 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 418,
- "markets": 325,
- "markets_dropped_by_volume_floor": 2504,
- "day_file": "data/2026/10/2026-10-15T19.jsonl",
+ "events": 417,
+ "markets": 330,
+ "markets_dropped_by_volume_floor": 2473,
+ "day_file": "data/2026/10/2026-10-15T20.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 134,
- "trades_watchlist_markets": 95,
- "trades_collected": 3184,
+ "trades_markets_queried": 131,
+ "trades_watchlist_markets": 92,
+ "trades_collected": 2834,
  "anomalies_detected": 61,
- "anomalies_new": 4,
+ "anomalies_new": 61,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 103,
- "books_rows": 150,
+ "books_markets": 110,
+ "books_rows": 144,
  "status": "ok"
 }
