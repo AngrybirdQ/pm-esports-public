@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T22:24:30Z",
+ "ts": "2026-10-15T22:28:48Z",
  "sources": [
   {
    "url": "/tags",
@@ -243,11 +243,11 @@
   ],
   "search:League of Legends": [
    {
-    "t": "League of Legends Global Power Rankings Post Worlds: Rank 1",
+    "t": "Will Faker become president of South Korea by the end of the year?",
     "closed": false
    },
    {
-    "t": "Will Faker become president of South Korea by the end of the year?",
+    "t": "League of Legends Global Power Rankings Post Worlds: Rank 1",
     "closed": false
    },
    {
@@ -310,45 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 416,
- "markets": 336,
- "markets_dropped_by_volume_floor": 2464,
+ "markets": 335,
+ "markets_dropped_by_volume_floor": 2451,
  "day_file": "data/2026/10/2026-10-15T22.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 155,
  "trades_watchlist_markets": 122,
- "trades_collected": 1892,
- "anomalies_detected": 39,
- "anomalies_new": 39,
- "history_debug": [
-  {
-   "cid": "0xbc11925d",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x74053933",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x826cbf19",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xf13f3625",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 4,
- "books_errors": [
-  "6987600694: HTTPError: HTTP Error 404: Not Found",
-  "4362799594: HTTPError: HTTP Error 404: Not Found",
-  "1669342914: HTTPError: HTTP Error 404: Not Found",
-  "8864167296: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 118,
- "books_rows": 150,
+ "trades_collected": 1810,
+ "anomalies_detected": 40,
+ "anomalies_new": 9,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 120,
+ "books_rows": 156,
  "status": "ok"
 }
