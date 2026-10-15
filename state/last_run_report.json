@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T15:31:08Z",
+ "ts": "2026-10-15T15:34:47Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 42,
+   "events_returned": 41,
    "err": null
   },
   {
@@ -309,23 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 425,
- "markets": 335,
- "markets_dropped_by_volume_floor": 2559,
+ "events": 423,
+ "markets": 333,
+ "markets_dropped_by_volume_floor": 2541,
  "day_file": "data/2026/10/2026-10-15T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 144,
+ "trades_markets_queried": 142,
  "trades_watchlist_markets": 91,
- "trades_collected": 2865,
- "anomalies_detected": 33,
- "anomalies_new": 29,
+ "trades_collected": 2691,
+ "anomalies_detected": 31,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "7501364915: HTTPError: HTTP Error 404: Not Found",
-  "9251661350: HTTPError: HTTP Error 404: Not Found"
- ],
  "books_markets": 112,
- "books_rows": 170,
+ "books_rows": 172,
  "status": "ok"
 }
