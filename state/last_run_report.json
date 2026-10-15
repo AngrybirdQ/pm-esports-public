@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T08:40:38Z",
+ "ts": "2026-10-15T09:23:30Z",
  "sources": [
   {
    "url": "/tags",
@@ -140,14 +140,14 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
+   "LoL: Team WE vs HANJIN BRION (BO5) - Demacia Cup Global Invitational P",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "LoL: Team WE vs HANJIN BRION (BO5) - Demacia Cup Global Invitational P"
+   "Counter-Strike: Aurora Gaming vs NIP (BO3) - Thunderpick World Champio"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
    "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
-   "Dota 2: Spirit Academy vs salamit (BO3) - EPL Masters Play-In Group B"
+   "Dota 2: Team Resilience vs Yakult Brothers (BO5) - DreamLeague China C"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -159,9 +159,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
+   "LoL: Team WE vs HANJIN BRION (BO5) - Demacia Cup Global Invitational P",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "LoL: Team WE vs HANJIN BRION (BO5) - Demacia Cup Global Invitational P"
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -211,11 +211,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Inner Circle vs Team Lynx (BO3) - EPL Masters Play-In Group A",
+    "t": "Dota 2: The Warriors vs Shadow Dance (BO3) - DreamLeague Eastern Europ",
     "closed": true
    },
    {
-    "t": "Dota 2: The Warriors vs Shadow Dance (BO3) - DreamLeague Eastern Europ",
+    "t": "Dota 2: CyberHero vs Kalmychata (BO3) - DreamLeague Eastern Europe Clo",
     "closed": true
    }
   ],
@@ -277,12 +277,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: FlyQuest RED vs Akave Esports Black (BO3) - VCT Game Changer",
-    "closed": true
-   },
-   {
     "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
     "closed": false
+   },
+   {
+    "t": "Valorant: FlyQuest RED vs Akave Esports Black (BO3) - VCT Game Changer",
+    "closed": true
    }
   ],
   "search:The International": [
@@ -309,19 +309,40 @@
   ]
  },
  "n_event_queries": 21,
- "events": 419,
- "markets": 316,
- "markets_dropped_by_volume_floor": 2690,
- "day_file": "data/2026/10/2026-10-15T08.jsonl",
+ "events": 420,
+ "markets": 327,
+ "markets_dropped_by_volume_floor": 2721,
+ "day_file": "data/2026/10/2026-10-15T09.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 113,
- "trades_watchlist_markets": 84,
- "trades_collected": 1712,
- "anomalies_detected": 16,
- "anomalies_new": 4,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 110,
- "books_rows": 212,
+ "trades_markets_queried": 118,
+ "trades_watchlist_markets": 91,
+ "trades_collected": 2160,
+ "anomalies_detected": 17,
+ "anomalies_new": 16,
+ "history_debug": [
+  {
+   "cid": "0xf45c1c9f",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x3b84e9d2",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xe33c538f",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xdd82bddd",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 4,
+ "books_markets": 114,
+ "books_rows": 202,
  "status": "ok"
 }
