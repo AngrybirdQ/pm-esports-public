@@ -161,36 +161,6 @@ jobs:
               time.sleep(2)
           print(f"pages incl subpages: {len(all_pages)}", flush=True)
 
-          # 3) 批量存在性验证(POST titles, 50/批)
-          def batch_exists(pages):
-              exists = set()
-              for off in range(0, len(pages), 40):
-                  batch = pages[off:off+40]
-                  data = urllib.parse.urlencode({"action": "query",
-                      "titles": "|".join(batch), "format": "json"}).encode()
-                  req = urllib.request.Request(
-                      "https://liquipedia.net/leagueoflegends/api.php", data=data,
-                      headers={"User-Agent": UA, "Accept": "application/json",
-                               "Accept-Encoding": "gzip", "Content-Type": "application/x-www-form-urlencoded"})
-                  try:
-                      with urllib.request.urlopen(req, timeout=45) as r:
-                          raw = r.read()
-                          if raw[:2] == b"\x1f\x8b": raw = gzip.decompress(raw)
-                          q = json.loads(raw).get("query", {})
-                          # normalize key: title 带下划线会被 normalize 成空格 — 双向匹配
-                          norm = {p.get("title","").replace(" ", "_"): p for p in q.get("pages", {}).values() if "missing" not in p}
-                          for p in pages:
-                              if p in norm or p.replace("_", " ") in {v.get("title","") for v in q.get("pages", {}).values() if "missing" not in v}:
-                                  exists.add(p)
-                  except Exception as e:
-                      print("batch err", str(e)[:50], flush=True)
-                  time.sleep(2)
-              return exists
-          all_pages = sorted(all_pages)
-          verified = batch_exists(all_pages)
-          print(f"verified existing: {len(verified)}/{len(all_pages)}", flush=True)
-          all_pages = [p for p in all_pages if p in verified]
-
           out = open("lp_results_full.jsonl", "a", buffering=1)
           total = ok = miss = 0
           for pi, page in enumerate(sorted(all_pages)):
@@ -204,7 +174,7 @@ jobs:
                   total += 1
               if rows: ok += 1
               print(f"[{pi+1}] {page[:50]}: {len(rows)} matches", flush=True)
-              time.sleep(2.2)
+              time.sleep(4)
           out.close()
           print(f"LOL DONE: pages={len(all_pages)} ok={ok} miss={miss} matches={total}", flush=True)
           PYEOF
