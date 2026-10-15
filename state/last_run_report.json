@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T15:34:47Z",
+ "ts": "2026-10-15T16:01:45Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 41,
+   "events_returned": 40,
    "err": null
   },
   {
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 69,
+   "events_returned": 68,
    "err": null
   },
   {
@@ -140,14 +140,14 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: Team WE vs HANJIN BRION (BO5) - Demacia Cup Global Invitational P",
    "Worlds 2026: Winner",
+   "Counter-Strike: PARIVISION vs BetBoom Team (BO3) - Thunderpick World C",
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Team Lynx vs Dawn Bulls (BO3) - DreamLeague Western Europe Clo",
-   "Dota 2: Yangon Galacticos vs InterActive Philippines (BO3) - DreamLeag"
+   "Dota 2: Yangon Galacticos vs InterActive Philippines (BO3) - DreamLeag",
+   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -159,9 +159,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: Team WE vs HANJIN BRION (BO5) - Demacia Cup Global Invitational P",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: KaBuM! Ilha das Lendas vs Golden Lions (BO5) - CBLOL Promotion Pl"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -208,7 +208,7 @@
    },
    {
     "t": "Dota 2: Team Lynx vs Dawn Bulls (BO3) - DreamLeague Western Europe Clo",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Yangon Galacticos vs InterActive Philippines (BO3) - DreamLeag",
@@ -309,19 +309,39 @@
   ]
  },
  "n_event_queries": 21,
- "events": 423,
- "markets": 333,
- "markets_dropped_by_volume_floor": 2541,
- "day_file": "data/2026/10/2026-10-15T15.jsonl",
+ "events": 422,
+ "markets": 326,
+ "markets_dropped_by_volume_floor": 2507,
+ "day_file": "data/2026/10/2026-10-15T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 142,
- "trades_watchlist_markets": 91,
- "trades_collected": 2691,
- "anomalies_detected": 31,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 112,
- "books_rows": 172,
+ "trades_markets_queried": 124,
+ "trades_watchlist_markets": 90,
+ "trades_collected": 2971,
+ "anomalies_detected": 41,
+ "anomalies_new": 39,
+ "history_debug": [
+  {
+   "cid": "0x3ab2c831",
+   "pts": 7,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x6adf3d26",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x7580654b",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 3,
+ "books_errors": [
+  "7338010002: HTTPError: HTTP Error 404: Not Found",
+  "2020275036: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 108,
+ "books_rows": 162,
  "status": "ok"
 }
