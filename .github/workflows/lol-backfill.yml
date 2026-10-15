@@ -1,0 +1,195 @@
+name: lol-results-backfill
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 100
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: LoL subpage discovery + Match2 parse
+        run: |
+          python3 << 'PYEOF'
+          import gzip, json, re, time, urllib.request, urllib.parse
+          UA = "pm-esports-research/1.0 (github.com/AngrybirdQ)"
+
+          def http(url, tries=3, timeout=45):
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": UA,
+                          "Accept": "application/json", "Accept-Encoding": "gzip"})
+                      with urllib.request.urlopen(req, timeout=timeout) as r:
+                          raw = r.read()
+                          if raw[:2] == b"\x1f\x8b": raw = gzip.decompress(raw)
+                          return r.status, raw.decode("utf-8", "replace")
+                  except urllib.error.HTTPError as e:
+                      if e.code in (429, 503) and i < tries-1: time.sleep(15); continue
+                      return e.code, ""
+                  except Exception as ex:
+                      if i < tries-1: time.sleep(6); continue
+                      return 0, str(ex)[:50]
+
+          def search(game, q):
+              st, d = http(f"https://liquipedia.net/{game}/api.php?" + urllib.parse.urlencode(
+                  {"action": "opensearch", "search": q, "limit": 20, "format": "json"}))
+              if st != 200: return []
+              try: return json.loads(d)[1]
+              except Exception: return []
+
+          def wikitext(game, page):
+              st, d = http(f"https://liquipedia.net/{game}/api.php?" + urllib.parse.urlencode(
+                  {"action": "parse", "page": page, "prop": "wikitext", "format": "json"}))
+              if st != 200: return None
+              try: return json.loads(d)["parse"]["wikitext"]["*"]
+              except Exception: return None
+
+          def find_tpl(wt, start):
+              depth = 0; i = start
+              while i < len(wt) - 1:
+                  if wt[i:i+2] == "{{": depth += 1; i += 2; continue
+                  if wt[i:i+2] == "}}":
+                      depth -= 1; i += 2
+                      if depth == 0: return i
+                      continue
+                  i += 1
+              return None
+
+          def split_params(tpl):
+              inner = tpl[2:-2]
+              parts = []; depth = 0; cur = ""; i = 0
+              while i < len(inner):
+                  if inner[i:i+2] == "{{": depth += 1; cur += "{{"; i += 2; continue
+                  if inner[i:i+2] == "}}":
+                      if depth > 0: depth -= 1
+                      cur += "}}"; i += 2; continue
+                  if inner[i] == "|" and depth == 0:
+                      parts.append(cur); cur = ""; i += 1; continue
+                  cur += inner[i]; i += 1
+              parts.append(cur)
+              return parts
+
+          def parse_match2(tpl, tournament):
+              """LoL 用 {{Match2|opponent1=...|opponent2=...|date=...|finished=|winner=|map1={{Map|...}}}}"""
+              parts = split_params(tpl)
+              opps = {}; date = None; winner = None; finished = False
+              maps = []
+              for p in parts[1:]:
+                  if "=" not in p: continue
+                  k, v = p.split("=", 1); k = k.strip(); v = v.strip()
+                  if k in ("opponent1", "opponent2"):
+                      m = re.search(r"TeamOpponent\|([^|}]+)", v)
+                      if m: opps[k] = m.group(1).strip()
+                  elif k == "date": date = re.sub(r"\{\{[^}]*\}\}", "", v).strip()
+                  elif k == "finished": finished = v.lower() == "true"
+                  elif k == "winner": winner = v
+                  elif re.match(r"map\d+$", k) and "{{Map" in v: maps.append(v)
+              t1 = opps.get("opponent1"); t2 = opps.get("opponent2")
+              if not t1 or not t2 or not finished: return None
+              s1 = s2 = 0
+              for mp in maps:
+                  # LoL Map: |winner=1/2 或 |score 数据
+                  wm = re.search(r"\|winner=(\d)", mp)
+                  if wm:
+                      if wm.group(1) == "1": s1 += 1
+                      elif wm.group(1) == "2": s2 += 1
+              if s1 == 0 and s2 == 0 and winner in ("1", "2"):
+                  s1, s2 = (1, 0) if winner == "1" else (0, 1)
+              ws = None
+              if winner == "1": ws = t1
+              elif winner == "2": ws = t2
+              elif s1 > s2: ws = t1
+              elif s2 > s1: ws = t2
+              return {"game": "leagueoflegends", "tournament": tournament,
+                      "team_a": t1, "team_b": t2, "score1": s1, "score2": s2,
+                      "date": date, "winner": ws}
+
+          def extract_from_wt(wt, tournament):
+              out = []
+              for pat_start in ("{{Match2", "{{Match"):
+                  i = 0
+                  while True:
+                      i = wt.find(pat_start, i)
+                      if i < 0: break
+                      if wt[i:i+11] in ("{{Matchlist",) or wt[i:i+9] == "{{Matchse":
+                          i += 2; continue
+                      end = find_tpl(wt, i)
+                      if not end: i += 2; continue
+                      tpl = wt[i:end]
+                      r = parse_match2(tpl, tournament)
+                      if r and (r["score1"] or r["score2"]):
+                          out.append(r)
+                      i = end
+              return out
+
+          # 1) 主页名发现
+          mains = set()
+          for q in ("World Championship", "MSI", "LPL", "LCK", "LEC"):
+              for n in search("leagueoflegends", q):
+                  if "Archive" not in n: mains.add(n)
+          print(f"main pages: {len(mains)}", flush=True)
+
+          # 2) 子页发现: 对每个主页取wikitext找 [[子页]] 链接 + 常见阶段名直拼
+          STAGES = ["Swiss_Stage", "Play-In_Stage", "Group_Stage", "Knockout_Stage",
+                     "Spring", "Summer", "Winter", "Split_1", "Split_2", "Split_3",
+                     "Season", "Playoffs", "Bracket_Stage", "Main_Event"]
+          def discover_subs(main, wt):
+              subs = set()
+              # wiki链接
+              for m in re.finditer(r"\[\[(" + re.escape(main) + r"/[^\]|#]+)", wt):
+                  subs.add(m.group(1))
+              # 阶段直拼(存在性由API验证)
+              for st in STAGES:
+                  subs.add(main + "/" + st)
+              return subs
+
+          all_pages = set()
+          for m in sorted(mains):
+              wt = wikitext("leagueoflegends", m)
+              if wt:
+                  all_pages.add(m)
+                  subs = discover_subs(m, wt)
+                  # 批量验证子页存在(用links API一次查)
+                  for sub in sorted(subs):
+                      pass  # 存在性由下一步 parse 失败自然过滤
+                  all_pages |= subs
+              time.sleep(2)
+          print(f"pages incl subpages: {len(all_pages)}", flush=True)
+
+          # 3) 逐页解析(不存在的页API 404自然跳过)
+          out = open("lp_results_full.jsonl", "a", buffering=1)
+          total = ok = miss = 0
+          for pi, page in enumerate(sorted(all_pages)):
+              wt = wikitext("leagueoflegends", page)
+              if not wt:
+                  miss += 1
+                  time.sleep(2.2)
+                  continue
+              rows = extract_from_wt(wt, page)
+              for r in rows:
+                  out.write(json.dumps(r, ensure_ascii=False) + "\n")
+                  total += 1
+              if rows: ok += 1
+              print(f"[{pi+1}] {page[:50]}: {len(rows)} matches", flush=True)
+              time.sleep(2.2)
+          out.close()
+          print(f"LOL DONE: pages={len(all_pages)} ok={ok} miss={miss} matches={total}", flush=True)
+          PYEOF
+      - name: Commit merged
+        run: |
+          git config user.name "lp" && git config user.email "lp@noreply"
+          git add lp_results_full.jsonl
+          git diff --cached --quiet && echo nothing || (git commit -m "LoL results backfill" && (git pull --rebase origin main || true) && git push) || (sleep 8 && git pull --rebase origin main && git push) || true
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lol-results
+          path: lp_results_full.jsonl
+          retention-days: 90
+          if-no-files-found: ignore
