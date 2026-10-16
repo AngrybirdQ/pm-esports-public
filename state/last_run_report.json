@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T07:45:06Z",
+ "ts": "2026-10-16T08:06:47Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 34,
+   "events_returned": 35,
    "err": null
   },
   {
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs"
+   "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -309,25 +309,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 413,
+ "events": 414,
  "markets": 334,
- "markets_dropped_by_volume_floor": 2336,
- "day_file": "data/2026/10/2026-10-16T07.jsonl",
+ "markets_dropped_by_volume_floor": 2353,
+ "day_file": "data/2026/10/2026-10-16T08.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 138,
- "trades_watchlist_markets": 108,
- "trades_collected": 1497,
- "anomalies_detected": 14,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "9224111042: HTTPError: HTTP Error 404: Not Found",
-  "6228264063: HTTPError: HTTP Error 404: Not Found",
-  "2523797365: HTTPError: HTTP Error 404: Not Found",
-  "8093877905: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 147,
+ "trades_watchlist_markets": 120,
+ "trades_collected": 1573,
+ "anomalies_detected": 24,
+ "anomalies_new": 24,
+ "history_debug": [
+  {
+   "cid": "0x238e4d9b",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 114,
- "books_rows": 208,
+ "history_conditions_new": 1,
+ "books_markets": 124,
+ "books_rows": 232,
  "status": "ok"
 }
