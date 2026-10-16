@@ -167,20 +167,29 @@ jobs:
               time.sleep(2)
           print(f"pages incl subpages: {len(all_pages)}", flush=True)
           json.dump(sorted(all_pages), open("lol_pages.json", "w"))
+          import subprocess as _sp
+          _sp.run('git config user.name "lp" && git config user.email "lp@noreply" && git add lol_pages.json && (git commit -m "lol pages cache" && (git pull --rebase origin main || true) && git push) || true', shell=True)
 
           out = open("lp_results_full.jsonl", "a", buffering=1)
           total = ok = miss = 0
           for pi, page in enumerate(sorted(all_pages)):
+              print(f"[{pi+1}/{len(all_pages)}] {page[:45]} fetching...", flush=True)
               wt = wikitext("leagueoflegends", page)
               if not wt:
                   miss += 1
+                  continue
+              if len(wt) > 2_500_000:
+                  print(f"    skip mega-page {len(wt)//1024}KB", flush=True)
+                  miss += 1
+                  continue
+              if "{{Match" not in wt and "{{Match2" not in wt:
                   continue
               rows = extract_from_wt(wt, page)
               for r in rows:
                   out.write(json.dumps(r, ensure_ascii=False) + "\n")
                   total += 1
               if rows: ok += 1
-              print(f"[{pi+1}] {page[:50]}: {len(rows)} matches", flush=True)
+              print(f"    {len(rows)} matches", flush=True)
               time.sleep(4)
           out.close()
           print(f"LOL DONE: pages={len(all_pages)} ok={ok} miss={miss} matches={total}", flush=True)
