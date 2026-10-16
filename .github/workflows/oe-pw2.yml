@@ -21,8 +21,8 @@ jobs:
           with sync_playwright() as pw:
               b = pw.chromium.launch(args=["--no-sandbox"])
               pg = b.new_page(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
-              pg.goto("https://oracleselixir.com/tools/downloads", wait_until="networkidle", timeout=90000)
-              time.sleep(10)
+              pg.goto("https://oracleselixir.com/tools/downloads", wait_until="domcontentloaded", timeout=60000)
+              time.sleep(25)
               html = pg.content()
               print("size:", len(html), flush=True)
               open("/tmp/oe_rendered.html", "w").write(html)
