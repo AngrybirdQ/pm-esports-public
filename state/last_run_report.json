@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T02:20:57Z",
+ "ts": "2026-10-16T02:41:10Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 34,
+   "events_returned": 37,
    "err": null
   },
   {
@@ -309,37 +309,45 @@
   ]
  },
  "n_event_queries": 21,
- "events": 416,
- "markets": 319,
- "markets_dropped_by_volume_floor": 2420,
+ "events": 419,
+ "markets": 314,
+ "markets_dropped_by_volume_floor": 2447,
  "day_file": "data/2026/10/2026-10-16T02.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 125,
- "trades_watchlist_markets": 75,
- "trades_collected": 1576,
- "anomalies_detected": 27,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "9791534680: HTTPError: HTTP Error 404: Not Found",
-  "5102615861: HTTPError: HTTP Error 404: Not Found",
-  "2711357595: HTTPError: HTTP Error 404: Not Found",
-  "6109099974: HTTPError: HTTP Error 404: Not Found",
-  "9369164582: HTTPError: HTTP Error 404: Not Found",
-  "2344261168: HTTPError: HTTP Error 404: Not Found",
-  "7349400090: HTTPError: HTTP Error 404: Not Found",
-  "4150881203: HTTPError: HTTP Error 404: Not Found",
-  "3145268015: HTTPError: HTTP Error 404: Not Found",
-  "1070063306: HTTPError: HTTP Error 404: Not Found",
-  "5716786748: HTTPError: HTTP Error 404: Not Found",
-  "4946706449: HTTPError: HTTP Error 404: Not Found",
-  "1437195246: HTTPError: HTTP Error 404: Not Found",
-  "6789162986: HTTPError: HTTP Error 404: Not Found",
-  "1061695704: HTTPError: HTTP Error 404: Not Found",
-  "4108595011: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 114,
+ "trades_watchlist_markets": 78,
+ "trades_collected": 1203,
+ "anomalies_detected": 10,
+ "anomalies_new": 9,
+ "history_debug": [
+  {
+   "cid": "0x9f2cc2a8",
+   "pts": 7,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x56b047cb",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xc2265745",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x18323dfb",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xf8150833",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 114,
- "books_rows": 154,
+ "history_conditions_new": 5,
+ "books_markets": 103,
+ "books_rows": 156,
  "status": "ok"
 }
