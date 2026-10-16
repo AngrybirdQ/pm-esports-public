@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T02:11:22Z",
+ "ts": "2026-10-16T02:20:57Z",
  "sources": [
   {
    "url": "/tags",
@@ -281,7 +281,7 @@
     "closed": false
    },
    {
-    "t": "Most First Bloods at VALORANT Champions 2026",
+    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
     "closed": false
    }
   ],
@@ -310,18 +310,36 @@
  },
  "n_event_queries": 21,
  "events": 416,
- "markets": 323,
- "markets_dropped_by_volume_floor": 2422,
+ "markets": 319,
+ "markets_dropped_by_volume_floor": 2420,
  "day_file": "data/2026/10/2026-10-16T02.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 129,
+ "trades_markets_queried": 125,
  "trades_watchlist_markets": 75,
- "trades_collected": 1694,
- "anomalies_detected": 29,
- "anomalies_new": 4,
+ "trades_collected": 1576,
+ "anomalies_detected": 27,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 118,
- "books_rows": 156,
+ "books_errors": [
+  "9791534680: HTTPError: HTTP Error 404: Not Found",
+  "5102615861: HTTPError: HTTP Error 404: Not Found",
+  "2711357595: HTTPError: HTTP Error 404: Not Found",
+  "6109099974: HTTPError: HTTP Error 404: Not Found",
+  "9369164582: HTTPError: HTTP Error 404: Not Found",
+  "2344261168: HTTPError: HTTP Error 404: Not Found",
+  "7349400090: HTTPError: HTTP Error 404: Not Found",
+  "4150881203: HTTPError: HTTP Error 404: Not Found",
+  "3145268015: HTTPError: HTTP Error 404: Not Found",
+  "1070063306: HTTPError: HTTP Error 404: Not Found",
+  "5716786748: HTTPError: HTTP Error 404: Not Found",
+  "4946706449: HTTPError: HTTP Error 404: Not Found",
+  "1437195246: HTTPError: HTTP Error 404: Not Found",
+  "6789162986: HTTPError: HTTP Error 404: Not Found",
+  "1061695704: HTTPError: HTTP Error 404: Not Found",
+  "4108595011: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 114,
+ "books_rows": 154,
  "status": "ok"
 }
