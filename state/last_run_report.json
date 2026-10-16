@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T11:23:50Z",
+ "ts": "2026-10-16T11:37:30Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 34,
+   "events_returned": 35,
    "err": null
   },
   {
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Counter-Strike: NIP vs Liquid (BO3) - Stake Pulse Beat III Playoffs",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -199,11 +199,11 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Team Lynx vs Dawn Bulls (BO3) - DreamLeague Western Europe Clo",
+    "t": "Dota 2: PlayTime vs Skyreavers (BO3) - DreamLeague South America Close",
     "closed": true
    },
    {
-    "t": "Dota 2: PlayTime vs Skyreavers (BO3) - DreamLeague South America Close",
+    "t": "Dota 2: Team Lynx vs Dawn Bulls (BO3) - DreamLeague Western Europe Clo",
     "closed": true
    },
    {
@@ -309,19 +309,30 @@
   ]
  },
  "n_event_queries": 21,
- "events": 417,
- "markets": 370,
- "markets_dropped_by_volume_floor": 2373,
+ "events": 418,
+ "markets": 367,
+ "markets_dropped_by_volume_floor": 2375,
  "day_file": "data/2026/10/2026-10-16T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 175,
- "trades_watchlist_markets": 144,
- "trades_collected": 2488,
- "anomalies_detected": 6,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 153,
- "books_rows": 238,
+ "trades_markets_queried": 174,
+ "trades_watchlist_markets": 143,
+ "trades_collected": 2762,
+ "anomalies_detected": 34,
+ "anomalies_new": 32,
+ "history_debug": [
+  {
+   "cid": "0xccaadf02",
+   "pts": 8,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xf8e0798b",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_markets": 151,
+ "books_rows": 242,
  "status": "ok"
 }
