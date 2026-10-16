@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T19:39:13Z",
+ "ts": "2026-10-16T19:56:05Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 27,
+   "events_returned": 30,
    "err": null
   },
   {
@@ -207,16 +207,16 @@
     "closed": true
    },
    {
+    "t": "Dota 2: OG vs LEGION (BO3) - DreamLeague Western Europe Closed Qualifi",
+    "closed": false
+   },
+   {
     "t": "Dota 2: PuckChamp vs Mena Warriors (BO3) - EPL Masters Play-In Group A",
     "closed": true
    },
    {
     "t": "Dota 2: Xipto Esports vs Execration (BO3) - DreamLeague Southeast Asia",
     "closed": true
-   },
-   {
-    "t": "Dota 2: OG vs LEGION (BO3) - DreamLeague Western Europe Closed Qualifi",
-    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -309,19 +309,23 @@
   ]
  },
  "n_event_queries": 21,
- "events": 406,
- "markets": 364,
- "markets_dropped_by_volume_floor": 2184,
+ "events": 408,
+ "markets": 352,
+ "markets_dropped_by_volume_floor": 2219,
  "day_file": "data/2026/10/2026-10-16T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 151,
- "trades_watchlist_markets": 121,
- "trades_collected": 3371,
- "anomalies_detected": 49,
- "anomalies_new": 3,
+ "trades_markets_queried": 149,
+ "trades_watchlist_markets": 122,
+ "trades_collected": 3065,
+ "anomalies_detected": 41,
+ "anomalies_new": 7,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 125,
+ "books_errors": [
+  "2291933425: HTTPError: HTTP Error 404: Not Found",
+  "9490944442: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 114,
  "books_rows": 150,
  "status": "ok"
 }
