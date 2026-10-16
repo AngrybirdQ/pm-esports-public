@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-15T23:53:21Z",
+ "ts": "2026-10-16T00:24:58Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 37,
+   "events_returned": 35,
    "err": null
   },
   {
@@ -146,8 +146,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: PlayTime vs Skyreavers (BO3) - DreamLeague South America Close",
-   "Dota 2: PuckChamp vs Mena Warriors (BO3) - EPL Masters Play-In Group A"
+   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
+   "Dota 2: Amaru Gaming vs Skyreavers (BO5) - DreamLeague South America C"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -208,7 +208,7 @@
    },
    {
     "t": "Dota 2: PlayTime vs Skyreavers (BO3) - DreamLeague South America Close",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Yangon Galacticos vs InterActive Philippines (BO3) - DreamLeag",
@@ -216,7 +216,7 @@
    },
    {
     "t": "Dota 2: PuckChamp vs Mena Warriors (BO3) - EPL Masters Play-In Group A",
-    "closed": false
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -269,6 +269,10 @@
     "closed": false
    },
    {
+    "t": "Valorant: FlyQuest RED vs MIBR GC (BO5) - VCT Game Changers Americas L",
+    "closed": false
+   },
+   {
     "t": "Highest ACS at VALORANT Champions 2026",
     "closed": false
    },
@@ -277,11 +281,7 @@
     "closed": false
    },
    {
-    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
-    "closed": false
-   },
-   {
-    "t": "Valorant: FlyQuest RED vs MIBR GC (BO5) - VCT Game Changers Americas L",
+    "t": "Most First Bloods at VALORANT Champions 2026",
     "closed": false
    }
   ],
@@ -310,24 +310,29 @@
  },
  "n_event_queries": 21,
  "events": 416,
- "markets": 338,
- "markets_dropped_by_volume_floor": 2429,
- "day_file": "data/2026/10/2026-10-15T23.jsonl",
- "retention_removed_files": 0,
- "trades_markets_queried": 125,
- "trades_watchlist_markets": 78,
- "trades_collected": 1724,
- "anomalies_detected": 29,
- "anomalies_new": 29,
+ "markets": 339,
+ "markets_dropped_by_volume_floor": 2414,
+ "day_file": "data/2026/10/2026-10-16T00.jsonl",
+ "retention_removed_files": 97,
+ "trades_markets_queried": 122,
+ "trades_watchlist_markets": 80,
+ "trades_collected": 1657,
+ "anomalies_detected": 34,
+ "anomalies_new": 34,
  "history_debug": [
   {
-   "cid": "0x7d00c9b0",
-   "pts": 1,
+   "cid": "0xcf107943",
+   "pts": 7,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x62549302",
+   "pts": 5,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 1,
- "books_markets": 113,
- "books_rows": 154,
+ "history_conditions_new": 2,
+ "books_markets": 110,
+ "books_rows": 156,
  "status": "ok"
 }
