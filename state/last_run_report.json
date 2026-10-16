@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T04:25:19Z",
+ "ts": "2026-10-16T04:37:00Z",
  "sources": [
   {
    "url": "/tags",
@@ -273,11 +273,11 @@
     "closed": true
    },
    {
-    "t": "Highest ACS at VALORANT Champions 2026",
+    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
     "closed": false
    },
    {
-    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
+    "t": "Highest ACS at VALORANT Champions 2026",
     "closed": false
    },
    {
@@ -310,18 +310,30 @@
  },
  "n_event_queries": 21,
  "events": 416,
- "markets": 315,
- "markets_dropped_by_volume_floor": 2405,
+ "markets": 316,
+ "markets_dropped_by_volume_floor": 2414,
  "day_file": "data/2026/10/2026-10-16T04.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 116,
- "trades_watchlist_markets": 87,
- "trades_collected": 1021,
- "anomalies_detected": 8,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 103,
- "books_rows": 162,
+ "trades_markets_queried": 113,
+ "trades_watchlist_markets": 82,
+ "trades_collected": 1026,
+ "anomalies_detected": 12,
+ "anomalies_new": 12,
+ "history_debug": [
+  {
+   "cid": "0xcc96f76c",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_errors": [
+  "8084605942: HTTPError: HTTP Error 404: Not Found",
+  "5452420616: HTTPError: HTTP Error 404: Not Found",
+  "6929983384: HTTPError: HTTP Error 404: Not Found",
+  "7713487286: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 101,
+ "books_rows": 158,
  "status": "ok"
 }
