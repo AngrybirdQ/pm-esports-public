@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T14:40:24Z",
+ "ts": "2026-10-16T14:51:22Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 34,
+   "events_returned": 33,
    "err": null
   },
   {
@@ -147,7 +147,7 @@
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
    "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
-   "Dota 2: Mena Warriors vs CyberHero (BO3) - EPL Masters Play-In Group A"
+   "Dota 2: Xipto Esports vs Execration (BO3) - DreamLeague Southeast Asia"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -211,12 +211,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Lynx vs LEGION (BO3) - DreamLeague Western Europe Closed ",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Xipto Esports vs Execration (BO3) - DreamLeague Southeast Asia",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Lynx vs LEGION (BO3) - DreamLeague Western Europe Closed ",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -281,7 +281,7 @@
     "closed": false
    },
    {
-    "t": "Highest ACS at VALORANT Champions 2026",
+    "t": "VALORANT Champions 2026 Winning Region",
     "closed": false
    }
   ],
@@ -310,18 +310,29 @@
  },
  "n_event_queries": 21,
  "events": 412,
- "markets": 387,
- "markets_dropped_by_volume_floor": 2293,
+ "markets": 388,
+ "markets_dropped_by_volume_floor": 2282,
  "day_file": "data/2026/10/2026-10-16T14.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 188,
  "trades_watchlist_markets": 149,
- "trades_collected": 3297,
- "anomalies_detected": 41,
- "anomalies_new": 10,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 147,
- "books_rows": 218,
+ "trades_collected": 3269,
+ "anomalies_detected": 56,
+ "anomalies_new": 13,
+ "history_debug": [
+  {
+   "cid": "0x12213a2b",
+   "pts": 8,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xf1159df2",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_markets": 145,
+ "books_rows": 216,
  "status": "ok"
 }
