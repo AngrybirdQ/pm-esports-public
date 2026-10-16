@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T08:40:59Z",
+ "ts": "2026-10-16T08:55:16Z",
  "sources": [
   {
    "url": "/tags",
@@ -269,12 +269,12 @@
     "closed": false
    },
    {
-    "t": "Valorant: FlyQuest RED vs MIBR GC (BO5) - VCT Game Changers Americas L",
-    "closed": true
-   },
-   {
     "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
     "closed": false
+   },
+   {
+    "t": "Valorant: FlyQuest RED vs MIBR GC (BO5) - VCT Game Changers Americas L",
+    "closed": true
    },
    {
     "t": "Highest ACS at VALORANT Champions 2026",
@@ -309,30 +309,60 @@
   ]
  },
  "n_event_queries": 21,
- "events": 418,
- "markets": 348,
- "markets_dropped_by_volume_floor": 2375,
+ "events": 417,
+ "markets": 347,
+ "markets_dropped_by_volume_floor": 2366,
  "day_file": "data/2026/10/2026-10-16T08.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 154,
+ "trades_markets_queried": 157,
  "trades_watchlist_markets": 120,
- "trades_collected": 1891,
- "anomalies_detected": 27,
- "anomalies_new": 27,
+ "trades_collected": 2138,
+ "anomalies_detected": 42,
+ "anomalies_new": 42,
  "history_debug": [
+  {
+   "cid": "0x05ebb1c7",
+   "pts": 10,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x29d8af79",
+   "pts": 8,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xcf107943",
+   "pts": 8,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x244f583c",
+   "pts": 8,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x9f2cc2a8",
+   "pts": 8,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xdf508a4a",
+   "pts": 7,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x52c90af8",
+   "pts": 6,
+   "variant": "interval=all&fidelity=1000"
+  },
   {
    "cid": "0xd7511926",
    "pts": 5,
    "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x9a0e510e",
-   "pts": 3,
-   "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 2,
- "books_markets": 134,
- "books_rows": 240,
+ "history_conditions_new": 40,
+ "books_markets": 137,
+ "books_rows": 242,
  "status": "ok"
 }
