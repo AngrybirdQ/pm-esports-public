@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T19:02:37Z",
+ "ts": "2026-10-16T19:05:30Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 29,
+   "events_returned": 28,
    "err": null
   },
   {
@@ -146,8 +146,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Team Synapse vs Dawn Bulls (BO3) - DreamLeague Western Europe ",
-   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A"
+   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
+   "Dota 2: OG vs LEGION (BO3) - DreamLeague Western Europe Closed Qualifi"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -200,7 +200,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: Team Synapse vs Dawn Bulls (BO3) - DreamLeague Western Europe ",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Amaru Gaming vs Skyreavers (BO5) - DreamLeague South America C",
@@ -316,12 +316,16 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 146,
  "trades_watchlist_markets": 122,
- "trades_collected": 3356,
+ "trades_collected": 3336,
  "anomalies_detected": 90,
- "anomalies_new": 19,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "1060952325: HTTPError: HTTP Error 404: Not Found",
+  "8477086275: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 123,
- "books_rows": 176,
+ "books_rows": 168,
  "status": "ok"
 }
