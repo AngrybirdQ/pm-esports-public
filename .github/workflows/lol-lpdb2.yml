@@ -1,0 +1,38 @@
+name: lol-lpdb-raw
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: LPDB raw response dump
+        run: |
+          python3 << 'PYEOF'
+          import gzip, json, time, urllib.request, urllib.parse
+          UA = "pm-esports-research/1.0 (github.com/AngrybirdQ)"
+          def api(params):
+              url = "https://liquipedia.net/leagueoflegends/api.php?" + urllib.parse.urlencode(params)
+              req = urllib.request.Request(url, headers={"User-Agent": UA,
+                  "Accept": "application/json", "Accept-Encoding": "gzip"})
+              with urllib.request.urlopen(req, timeout=60) as r:
+                  raw = r.read()
+                  if raw[:2] == b"\x1f\x8b": raw = gzip.decompress(raw)
+                  return raw.decode()
+          # raw响应看error信息
+          for params in (
+              {"action": "lpdb", "object": "match", "conditions": "", "limit": 2, "format": "json"},
+              {"action": "lpdb", "object": "match2", "conditions": "", "limit": 2, "format": "json"},
+          ):
+              try:
+                  d = api(params)
+                  print(f"== {params['object']}: {d[:500]}", flush=True)
+              except Exception as e:
+                  print(f"== {params['object']}: ERR {str(e)[:100]}", flush=True)
+              time.sleep(5)
+          PYEOF
