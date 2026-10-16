@@ -1,0 +1,50 @@
+name: oracleselixir-probe
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: OE data files discovery
+        run: |
+          python3 << 'PYEOF'
+          import json, re, time, urllib.request
+          UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+          def get(url, tries=3):
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
+                      with urllib.request.urlopen(req, timeout=40) as r:
+                          return r.status, r.read().decode("utf-8", "replace")
+                  except urllib.error.HTTPError as e:
+                      if e.code in (429, 503) and i < tries-1: time.sleep(10); continue
+                      return e.code, ""
+                  except Exception as ex:
+                      if i < tries-1: time.sleep(6); continue
+                      return 0, str(ex)[:60]
+          # 1) schema页(云端过CF)
+          st, h = get("https://oracleselixir.com/tools/schemas")
+          print("schema:", st, len(h), flush=True)
+          for pat in ("csv", "xlsx", "download", "s3", "amazonaws", "google"):
+              hits = re.findall(r'[^"\s]{0,80}' + pat + r'[^"\s]{0,80}', h, re.I)
+              if hits: print(f"  {pat}: {hits[:3]}", flush=True)
+          time.sleep(3)
+          # 2) S3 bucket 直探(常见命名变体)
+          for fn in ("2026_LoL_esports_match_data_from_OraclesElixir.csv",
+                     "2025_LoL_esports_match_data_from_OraclesElixir.csv",
+                     "2026_LoL_esports_match_data_from_OraclesElixir.csv",
+                     "index.csv"):
+              for bucket in ("oracleselixir-downloadable-data-files.s3-us-west-2.amazonaws.com",
+                             "oracleselixir-downloadable-data-files.s3.amazonaws.com"):
+                  st2, _ = get(f"https://{bucket}/{fn}")
+                  if st2 == 200:
+                      print(f"FOUND: {bucket}/{fn}", flush=True)
+                  time.sleep(1.5)
+          print("probe done", flush=True)
+          PYEOF
