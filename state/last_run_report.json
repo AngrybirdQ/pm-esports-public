@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T10:41:14Z",
+ "ts": "2026-10-16T11:16:16Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 33,
+   "events_returned": 34,
    "err": null
   },
   {
@@ -309,34 +309,40 @@
   ]
  },
  "n_event_queries": 21,
- "events": 416,
- "markets": 365,
- "markets_dropped_by_volume_floor": 2338,
- "day_file": "data/2026/10/2026-10-16T10.jsonl",
+ "events": 417,
+ "markets": 369,
+ "markets_dropped_by_volume_floor": 2370,
+ "day_file": "data/2026/10/2026-10-16T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 170,
- "trades_watchlist_markets": 133,
- "trades_collected": 2529,
- "anomalies_detected": 37,
- "anomalies_new": 37,
+ "trades_markets_queried": 175,
+ "trades_watchlist_markets": 144,
+ "trades_collected": 2453,
+ "anomalies_detected": 7,
+ "anomalies_new": 4,
  "history_debug": [
   {
-   "cid": "0x2cf6a649",
-   "pts": 3,
+   "cid": "0x60fd704b",
+   "pts": 4,
    "variant": "interval=all&fidelity=1000"
   },
   {
-   "cid": "0x6601f59f",
-   "pts": 3,
+   "cid": "0xc48f8b12",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xe5711644",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x4afc0991",
+   "pts": 2,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 2,
- "books_errors": [
-  "5473471925: HTTPError: HTTP Error 404: Not Found",
-  "2175482297: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 156,
- "books_rows": 246,
+ "history_conditions_new": 4,
+ "books_markets": 153,
+ "books_rows": 242,
  "status": "ok"
 }
