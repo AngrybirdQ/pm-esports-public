@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T17:11:23Z",
+ "ts": "2026-10-16T17:43:28Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 31,
+   "events_returned": 29,
    "err": null
   },
   {
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Counter-Strike: Astralis vs MIBR (BO3) - Stake Pulse Beat III Playoffs",
-   "LoL: MVK Esports vs Karmine Corp (BO5) - Worlds Play-In"
+   "Counter-Strike: Legacy vs BetBoom Team (BO3) - Thunderpick World Champ"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -199,8 +199,8 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: PlayTime vs Skyreavers (BO3) - DreamLeague South America Close",
-    "closed": true
+    "t": "Dota 2: Team Synapse vs Dawn Bulls (BO3) - DreamLeague Western Europe ",
+    "closed": false
    },
    {
     "t": "Dota 2: Amaru Gaming vs Skyreavers (BO5) - DreamLeague South America C",
@@ -215,8 +215,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Synapse vs Dawn Bulls (BO3) - DreamLeague Western Europe ",
-    "closed": false
+    "t": "Dota 2: PlayTime vs Skyreavers (BO3) - DreamLeague South America Close",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -309,30 +309,51 @@
   ]
  },
  "n_event_queries": 21,
- "events": 409,
- "markets": 361,
- "markets_dropped_by_volume_floor": 2209,
+ "events": 408,
+ "markets": 367,
+ "markets_dropped_by_volume_floor": 2185,
  "day_file": "data/2026/10/2026-10-16T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 170,
- "trades_watchlist_markets": 132,
- "trades_collected": 3065,
+ "trades_markets_queried": 163,
+ "trades_watchlist_markets": 135,
+ "trades_collected": 2931,
  "anomalies_detected": 52,
- "anomalies_new": 52,
+ "anomalies_new": 48,
  "history_debug": [
   {
-   "cid": "0xe73cd317",
+   "cid": "0x44bed5b0",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x38aae121",
    "pts": 2,
    "variant": "interval=all&fidelity=1000"
   },
   {
-   "cid": "0x35566c00",
+   "cid": "0x098f79dd",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xd96f22b5",
    "pts": 1,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 2,
- "books_markets": 127,
- "books_rows": 178,
+ "history_conditions_new": 4,
+ "books_errors": [
+  "7837570934: HTTPError: HTTP Error 404: Not Found",
+  "9851875978: HTTPError: HTTP Error 404: Not Found",
+  "2370949134: HTTPError: HTTP Error 404: Not Found",
+  "6498879823: HTTPError: HTTP Error 404: Not Found",
+  "9580295508: HTTPError: HTTP Error 404: Not Found",
+  "2113117556: HTTPError: HTTP Error 404: Not Found",
+  "3841665273: HTTPError: HTTP Error 404: Not Found",
+  "4767510603: HTTPError: HTTP Error 404: Not Found",
+  "1129152426: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 128,
+ "books_rows": 182,
  "status": "ok"
 }
