@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T16:04:02Z",
+ "ts": "2026-10-16T16:31:36Z",
  "sources": [
   {
    "url": "/tags",
@@ -140,9 +140,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Worlds 2026: Winner",
    "Counter-Strike: Aurora Gaming vs 9z (BO3) - Thunderpick World Champion",
-   "LoL: MVK Esports vs Karmine Corp (BO5) - Worlds Play-In"
+   "Worlds 2026: Winner",
+   "Counter-Strike: Astralis vs MIBR (BO3) - Stake Pulse Beat III Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -281,7 +281,7 @@
     "closed": false
    },
    {
-    "t": "VALORANT Champions 2026 Winning Region",
+    "t": "Valorant: Team Vitality vs 100 Thieves (BO5) - VCT Champions Playoffs",
     "closed": false
    }
   ],
@@ -309,23 +309,34 @@
   ]
  },
  "n_event_queries": 21,
- "events": 412,
- "markets": 379,
- "markets_dropped_by_volume_floor": 2293,
+ "events": 411,
+ "markets": 376,
+ "markets_dropped_by_volume_floor": 2270,
  "day_file": "data/2026/10/2026-10-16T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 170,
- "trades_watchlist_markets": 126,
- "trades_collected": 3299,
- "anomalies_detected": 53,
- "anomalies_new": 12,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "7773308400: HTTPError: HTTP Error 404: Not Found",
-  "9469049535: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 164,
+ "trades_watchlist_markets": 130,
+ "trades_collected": 3161,
+ "anomalies_detected": 58,
+ "anomalies_new": 55,
+ "history_debug": [
+  {
+   "cid": "0xe1636bbf",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x483e5e20",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 137,
- "books_rows": 190,
+ "history_conditions_new": 2,
+ "books_errors": [
+  "1018175461: HTTPError: HTTP Error 404: Not Found",
+  "3662826505: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 139,
+ "books_rows": 182,
  "status": "ok"
 }
