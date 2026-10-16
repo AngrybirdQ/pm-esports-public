@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T22:01:22Z",
+ "ts": "2026-10-16T22:27:02Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 31,
+   "events_returned": 29,
    "err": null
   },
   {
@@ -140,14 +140,14 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: MVK Esports vs Karmine Corp (BO5) - Worlds Play-In",
    "LoL: FURIA Esports vs Cloud9 (BO5) - Worlds Play-In",
+   "LoL: MVK Esports vs Karmine Corp (BO5) - Worlds Play-In",
    "Worlds 2026: Winner"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
    "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
-   "Dota 2: Xtreme Gaming vs Cloud Dawning (BO3) - BLAST Slam China Closed"
+   "Dota 2: salamit vs Yellow Submarine (BO3) - EPL Masters Play-In Group "
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -159,8 +159,8 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: MVK Esports vs Karmine Corp (BO5) - Worlds Play-In",
    "LoL: FURIA Esports vs Cloud9 (BO5) - Worlds Play-In",
+   "LoL: MVK Esports vs Karmine Corp (BO5) - Worlds Play-In",
    "Worlds 2026: Winner"
   ],
   "tag_slug=lol": [
@@ -207,11 +207,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Amaru Gaming vs Skyreavers (BO5) - DreamLeague South America C",
+    "t": "Dota 2: Xipto Esports vs Execration (BO3) - DreamLeague Southeast Asia",
     "closed": true
    },
    {
-    "t": "Dota 2: Xipto Esports vs Execration (BO3) - DreamLeague Southeast Asia",
+    "t": "Dota 2: Amaru Gaming vs Skyreavers (BO5) - DreamLeague South America C",
     "closed": true
    },
    {
@@ -309,35 +309,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 411,
- "markets": 325,
- "markets_dropped_by_volume_floor": 2186,
+ "events": 410,
+ "markets": 317,
+ "markets_dropped_by_volume_floor": 2180,
  "day_file": "data/2026/10/2026-10-16T22.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 116,
- "trades_watchlist_markets": 78,
- "trades_collected": 1983,
- "anomalies_detected": 27,
- "anomalies_new": 25,
+ "trades_markets_queried": 105,
+ "trades_watchlist_markets": 68,
+ "trades_collected": 1640,
+ "anomalies_detected": 29,
+ "anomalies_new": 18,
  "history_debug": [
   {
-   "cid": "0x754a4cdd",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x9b5ae81c",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x965688f8",
+   "cid": "0x3d77d9e4",
    "pts": 1,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 3,
- "books_markets": 83,
- "books_rows": 128,
+ "history_conditions_new": 1,
+ "books_markets": 79,
+ "books_rows": 126,
  "status": "ok"
 }
