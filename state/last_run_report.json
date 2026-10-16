@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T18:02:23Z",
+ "ts": "2026-10-16T18:16:14Z",
  "sources": [
   {
    "url": "/tags",
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "LoL: MVK Esports vs Karmine Corp (BO5) - Worlds Play-In",
-   "Counter-Strike: Legacy vs BetBoom Team (BO3) - Thunderpick World Champ"
+   "Counter-Strike: Legacy vs BetBoom Team (BO3) - Thunderpick World Champ",
+   "LoL: MVK Esports vs Karmine Corp (BO5) - Worlds Play-In"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -161,7 +161,7 @@
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
    "LoL: MVK Esports vs Karmine Corp (BO5) - Worlds Play-In",
-   "Worlds 2026 Winning Region"
+   "LoL: FURIA Esports vs Cloud9 (BO5) - Worlds Play-In"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -215,7 +215,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PlayTime vs Skyreavers (BO3) - DreamLeague South America Close",
+    "t": "Dota 2: Mena Warriors vs CyberHero (BO3) - EPL Masters Play-In Group A",
     "closed": true
    }
   ],
@@ -277,11 +277,11 @@
     "closed": true
    },
    {
-    "t": "VALORANT Champions 2026: Winner",
+    "t": "Valorant: Team Vitality vs 100 Thieves (BO5) - VCT Champions Playoffs",
     "closed": false
    },
    {
-    "t": "Valorant: Team Vitality vs 100 Thieves (BO5) - VCT Champions Playoffs",
+    "t": "VALORANT Champions 2026: Winner",
     "closed": false
    }
   ],
@@ -309,19 +309,27 @@
   ]
  },
  "n_event_queries": 21,
- "events": 407,
- "markets": 371,
- "markets_dropped_by_volume_floor": 2183,
+ "events": 408,
+ "markets": 368,
+ "markets_dropped_by_volume_floor": 2193,
  "day_file": "data/2026/10/2026-10-16T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 172,
- "trades_watchlist_markets": 135,
- "trades_collected": 2973,
- "anomalies_detected": 44,
- "anomalies_new": 39,
+ "trades_markets_queried": 175,
+ "trades_watchlist_markets": 146,
+ "trades_collected": 3123,
+ "anomalies_detected": 57,
+ "anomalies_new": 23,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "2801511167: HTTPError: HTTP Error 404: Not Found",
+  "1972347934: HTTPError: HTTP Error 404: Not Found",
+  "4368385021: HTTPError: HTTP Error 404: Not Found",
+  "9421973457: HTTPError: HTTP Error 404: Not Found",
+  "5936787108: HTTPError: HTTP Error 404: Not Found",
+  "1209477740: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 132,
- "books_rows": 194,
+ "books_rows": 190,
  "status": "ok"
 }
