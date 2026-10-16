@@ -1,0 +1,41 @@
+name: oe-playwright-dump
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Install playwright
+        run: pip install playwright && playwright install chromium --with-deps 2>&1 | tail -1
+      - name: Dump rendered downloads page
+        run: |
+          python3 << 'PYEOF'
+          import time, re
+          from playwright.sync_api import sync_playwright
+          with sync_playwright() as pw:
+              b = pw.chromium.launch(args=["--no-sandbox"])
+              pg = b.new_page(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
+              pg.goto("https://oracleselixir.com/tools/downloads", wait_until="networkidle", timeout=90000)
+              time.sleep(10)
+              html = pg.content()
+              print("size:", len(html), flush=True)
+              open("/tmp/oe_rendered.html", "w").write(html)
+              # 所有href(含相对)
+              hrefs = sorted(set(re.findall(r'href="([^"]{5,150})"', html)))
+              print(f"hrefs: {len(hrefs)}", flush=True)
+              for u in hrefs[:30]: print("  H:", u[:130], flush=True)
+              # CSV相关按钮/文本
+              for m in re.finditer(r'>([^<>]{0,60}(?:CSV|csv|Download|download|20\d\d)[^<>]{0,40})<', html):
+                  t = m.group(1).strip()
+                  if t and len(t) > 3: print("  T:", t[:90], flush=True)
+              # onclick
+              clicks = sorted(set(re.findall(r'onclick="([^"]{5,120})"', html)))[:10]
+              for c in clicks: print("  C:", c[:110], flush=True)
+              b.close()
+          PYEOF
