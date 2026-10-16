@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T19:56:05Z",
+ "ts": "2026-10-16T20:36:19Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 30,
+   "events_returned": 31,
    "err": null
   },
   {
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "LoL: MVK Esports vs Karmine Corp (BO5) - Worlds Play-In",
    "Counter-Strike: Legacy vs BetBoom Team (BO3) - Thunderpick World Champ",
-   "Worlds 2026: Winner"
+   "LoL: FURIA Esports vs Cloud9 (BO5) - Worlds Play-In"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -160,8 +160,8 @@
   ],
   "tag_slug=league-of-legends": [
    "LoL: MVK Esports vs Karmine Corp (BO5) - Worlds Play-In",
-   "Worlds 2026: Winner",
-   "LoL: FURIA Esports vs Cloud9 (BO5) - Worlds Play-In"
+   "LoL: FURIA Esports vs Cloud9 (BO5) - Worlds Play-In",
+   "Worlds 2026: Winner"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -203,19 +203,19 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Amaru Gaming vs Skyreavers (BO5) - DreamLeague South America C",
-    "closed": true
-   },
-   {
     "t": "Dota 2: OG vs LEGION (BO3) - DreamLeague Western Europe Closed Qualifi",
     "closed": false
    },
    {
-    "t": "Dota 2: PuckChamp vs Mena Warriors (BO3) - EPL Masters Play-In Group A",
+    "t": "Dota 2: Amaru Gaming vs Skyreavers (BO5) - DreamLeague South America C",
     "closed": true
    },
    {
     "t": "Dota 2: Xipto Esports vs Execration (BO3) - DreamLeague Southeast Asia",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Mena Warriors vs CyberHero (BO3) - EPL Masters Play-In Group A",
     "closed": true
    }
   ],
@@ -309,23 +309,30 @@
   ]
  },
  "n_event_queries": 21,
- "events": 408,
- "markets": 352,
- "markets_dropped_by_volume_floor": 2219,
- "day_file": "data/2026/10/2026-10-16T19.jsonl",
+ "events": 409,
+ "markets": 346,
+ "markets_dropped_by_volume_floor": 2213,
+ "day_file": "data/2026/10/2026-10-16T20.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 149,
- "trades_watchlist_markets": 122,
- "trades_collected": 3065,
- "anomalies_detected": 41,
- "anomalies_new": 7,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "2291933425: HTTPError: HTTP Error 404: Not Found",
-  "9490944442: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 154,
+ "trades_watchlist_markets": 120,
+ "trades_collected": 2873,
+ "anomalies_detected": 46,
+ "anomalies_new": 46,
+ "history_debug": [
+  {
+   "cid": "0x1b3e772f",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xfa315928",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 114,
- "books_rows": 150,
+ "history_conditions_new": 2,
+ "books_markets": 106,
+ "books_rows": 118,
  "status": "ok"
 }
