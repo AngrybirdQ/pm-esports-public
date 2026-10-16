@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T07:11:30Z",
+ "ts": "2026-10-16T07:31:19Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 35,
+   "events_returned": 34,
    "err": null
   },
   {
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua"
+   "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -310,24 +310,24 @@
  },
  "n_event_queries": 21,
  "events": 413,
- "markets": 334,
- "markets_dropped_by_volume_floor": 2362,
+ "markets": 333,
+ "markets_dropped_by_volume_floor": 2345,
  "day_file": "data/2026/10/2026-10-16T07.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 135,
- "trades_watchlist_markets": 104,
- "trades_collected": 1439,
- "anomalies_detected": 11,
- "anomalies_new": 10,
+ "trades_markets_queried": 138,
+ "trades_watchlist_markets": 108,
+ "trades_collected": 1587,
+ "anomalies_detected": 14,
+ "anomalies_new": 14,
  "history_debug": [
   {
-   "cid": "0xf7034871",
+   "cid": "0x7cfa5933",
    "pts": 2,
    "variant": "interval=all&fidelity=1000"
   }
  ],
  "history_conditions_new": 1,
- "books_markets": 115,
- "books_rows": 186,
+ "books_markets": 113,
+ "books_rows": 200,
  "status": "ok"
 }
