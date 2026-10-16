@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T09:20:57Z",
+ "ts": "2026-10-16T09:41:37Z",
  "sources": [
   {
    "url": "/tags",
@@ -199,11 +199,11 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Power Rangers vs Kalmychata (BO3) - DreamLeague Eastern Europe",
+    "t": "Dota 2: Team Lynx vs Dawn Bulls (BO3) - DreamLeague Western Europe Clo",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Lynx vs Dawn Bulls (BO3) - DreamLeague Western Europe Clo",
+    "t": "Dota 2: Power Rangers vs Kalmychata (BO3) - DreamLeague Eastern Europe",
     "closed": true
    },
    {
@@ -309,25 +309,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 417,
- "markets": 348,
- "markets_dropped_by_volume_floor": 2367,
+ "events": 418,
+ "markets": 359,
+ "markets_dropped_by_volume_floor": 2374,
  "day_file": "data/2026/10/2026-10-16T09.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 157,
- "trades_watchlist_markets": 126,
- "trades_collected": 2410,
- "anomalies_detected": 40,
- "anomalies_new": 14,
+ "trades_markets_queried": 163,
+ "trades_watchlist_markets": 130,
+ "trades_collected": 2610,
+ "anomalies_detected": 29,
+ "anomalies_new": 27,
  "history_debug": [
   {
-   "cid": "0x17ffdbdc",
+   "cid": "0xfa5f0563",
    "pts": 3,
    "variant": "interval=all&fidelity=1000"
   }
  ],
  "history_conditions_new": 1,
- "books_markets": 137,
- "books_rows": 248,
+ "books_markets": 149,
+ "books_rows": 246,
  "status": "ok"
 }
