@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T14:15:01Z",
+ "ts": "2026-10-16T14:37:21Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 36,
+   "events_returned": 34,
    "err": null
   },
   {
@@ -211,12 +211,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Yangon Galacticos vs InterActive Philippines (BO3) - DreamLeag",
+    "t": "Dota 2: Team Lynx vs LEGION (BO3) - DreamLeague Western Europe Closed ",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Lynx vs LEGION (BO3) - DreamLeague Western Europe Closed ",
-    "closed": true
+    "t": "Dota 2: Xipto Esports vs Execration (BO3) - DreamLeague Southeast Asia",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -309,19 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 414,
- "markets": 395,
- "markets_dropped_by_volume_floor": 2311,
+ "events": 412,
+ "markets": 385,
+ "markets_dropped_by_volume_floor": 2286,
  "day_file": "data/2026/10/2026-10-16T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 199,
- "trades_watchlist_markets": 154,
- "trades_collected": 3423,
- "anomalies_detected": 34,
- "anomalies_new": 2,
+ "trades_markets_queried": 186,
+ "trades_watchlist_markets": 149,
+ "trades_collected": 3199,
+ "anomalies_detected": 37,
+ "anomalies_new": 36,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 159,
- "books_rows": 238,
+ "books_markets": 146,
+ "books_rows": 222,
  "status": "ok"
 }
