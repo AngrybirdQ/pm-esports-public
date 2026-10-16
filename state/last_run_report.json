@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T00:36:13Z",
+ "ts": "2026-10-16T00:39:47Z",
  "sources": [
   {
    "url": "/tags",
@@ -140,9 +140,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: Cloud9 vs Karmine Corp (BO5) - Worlds Play-In",
    "LoL: FURIA Esports vs MVK Esports (BO5) - Worlds Play-In",
-   "Worlds 2026: Winner"
+   "Worlds 2026: Winner",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -309,23 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 416,
+ "events": 415,
  "markets": 339,
- "markets_dropped_by_volume_floor": 2414,
+ "markets_dropped_by_volume_floor": 2415,
  "day_file": "data/2026/10/2026-10-16T00.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 121,
+ "trades_markets_queried": 120,
  "trades_watchlist_markets": 79,
- "trades_collected": 1590,
- "anomalies_detected": 38,
- "anomalies_new": 38,
+ "trades_collected": 1564,
+ "anomalies_detected": 27,
+ "anomalies_new": 8,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1044001395: HTTPError: HTTP Error 404: Not Found",
-  "5404487115: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 110,
+ "books_markets": 109,
  "books_rows": 154,
  "status": "ok"
 }
