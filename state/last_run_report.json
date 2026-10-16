@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T21:36:45Z",
+ "ts": "2026-10-16T21:50:57Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 32,
+   "events_returned": 31,
    "err": null
   },
   {
@@ -146,8 +146,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: OG vs LEGION (BO3) - DreamLeague Western Europe Closed Qualifi",
-   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A"
+   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
+   "Dota 2: Xtreme Gaming vs Cloud Dawning (BO3) - BLAST Slam China Closed"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -310,18 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 410,
- "markets": 320,
- "markets_dropped_by_volume_floor": 2179,
+ "markets": 319,
+ "markets_dropped_by_volume_floor": 2173,
  "day_file": "data/2026/10/2026-10-16T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 110,
- "trades_watchlist_markets": 70,
- "trades_collected": 1752,
- "anomalies_detected": 21,
- "anomalies_new": 0,
+ "trades_markets_queried": 116,
+ "trades_watchlist_markets": 80,
+ "trades_collected": 1880,
+ "anomalies_detected": 22,
+ "anomalies_new": 10,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 66,
- "books_rows": 106,
+ "books_markets": 75,
+ "books_rows": 118,
  "status": "ok"
 }
