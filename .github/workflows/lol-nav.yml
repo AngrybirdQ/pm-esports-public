@@ -1,0 +1,30 @@
+name: lol-nav-inspect
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Inspect Worlds page wikitext structure
+        run: |
+          python3 << 'PYEOF'
+          import gzip, json, re, time, urllib.request, urllib.parse
+          UA = "pm-esports-research/1.0 (github.com/AngrybirdQ)"
+          url = "https://liquipedia.net/leagueoflegends/api.php?" + urllib.parse.urlencode(
+              {"action": "parse", "page": "World Championship/2025", "prop": "wikitext", "format": "json"})
+          req = urllib.request.Request(url, headers={"User-Agent": UA,
+              "Accept": "application/json", "Accept-Encoding": "gzip"})
+          with urllib.request.urlopen(req, timeout=60) as r:
+              raw = r.read()
+              if raw[:2] == b"\x1f\x8b": raw = gzip.decompress(raw)
+          wt = json.loads(raw)["parse"]["wikitext"]["*"]
+          print("FULL WIKITEXT Worlds/2025:", flush=True)
+          print(wt[:3000], flush=True)
+          print("===len:", len(wt), flush=True)
+          PYEOF
