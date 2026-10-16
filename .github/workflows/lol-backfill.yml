@@ -29,6 +29,7 @@ jobs:
                           if raw[:2] == b"\x1f\x8b": raw = gzip.decompress(raw)
                           return r.status, raw.decode("utf-8", "replace")
                   except urllib.error.HTTPError as e:
+                      if e.code == 404: return e.code, ""
                       if e.code in (429, 503) and i < tries-1: time.sleep(15); continue
                       return e.code, ""
                   except Exception as ex:
@@ -149,9 +150,7 @@ jobs:
               # wiki链接
               for m in re.finditer(r"\[\[(" + re.escape(main) + r"/[^\]|#]+)", wt):
                   subs.add(m.group(1))
-              # 阶段直拼(存在性由API验证)
-              for st in STAGES:
-                  subs.add(main + "/" + st)
+              # (STAGES直拼已移除: 大量虚构页引发429重试风暴)
               return subs
 
           all_pages = set()
@@ -190,7 +189,7 @@ jobs:
                   total += 1
               if rows: ok += 1
               print(f"    {len(rows)} matches", flush=True)
-              time.sleep(4)
+              time.sleep(2)
           out.close()
           print(f"LOL DONE: pages={len(all_pages)} ok={ok} miss={miss} matches={total}", flush=True)
           PYEOF
