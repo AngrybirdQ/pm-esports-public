@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T06:05:57Z",
+ "ts": "2026-10-16T06:35:46Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 64,
+   "events_returned": 63,
    "err": null
   },
   {
@@ -140,9 +140,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: FURIA Esports vs MVK Esports (BO5) - Worlds Play-In",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -159,9 +159,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: FURIA Esports vs MVK Esports (BO5) - Worlds Play-In",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: KaBuM! Ilha das Lendas vs Golden Lions (BO5) - CBLOL Promotion Pl"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -310,18 +310,34 @@
  },
  "n_event_queries": 21,
  "events": 413,
- "markets": 319,
- "markets_dropped_by_volume_floor": 2367,
+ "markets": 330,
+ "markets_dropped_by_volume_floor": 2379,
  "day_file": "data/2026/10/2026-10-16T06.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 126,
- "trades_watchlist_markets": 96,
- "trades_collected": 1180,
- "anomalies_detected": 17,
- "anomalies_new": 17,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 112,
- "books_rows": 188,
+ "trades_markets_queried": 129,
+ "trades_watchlist_markets": 99,
+ "trades_collected": 1369,
+ "anomalies_detected": 8,
+ "anomalies_new": 7,
+ "history_debug": [
+  {
+   "cid": "0xf15eac3a",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x1d3741bf",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x3360b347",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 3,
+ "books_markets": 113,
+ "books_rows": 186,
  "status": "ok"
 }
