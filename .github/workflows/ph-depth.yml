@@ -37,7 +37,7 @@ jobs:
               ("2026-07-01", "2026-07-10"),
           ]
           for lo, hi in WINDOWS:
-              q = urllib.parse.urlencode({"closed": "true", "limit": 6,
+              q = urllib.parse.urlencode({"closed": "true", "limit": 20,
                   "tag_slug": "esports", "tag_id": "1",
                   "end_date_min": lo + "T00:00:00Z", "end_date_max": hi + "T23:59:59Z"})
               st, body = get("https://gamma-api.polymarket.com/events?" + q)
@@ -49,7 +49,7 @@ jobs:
               for e in evs:
                   mk = (e.get("markets") or [{}])[0]
                   q_ = mk.get("question", "")
-                  if " vs " not in q_: continue
+                  if " vs " not in q_ and not any(g in q_ for g in ("Counter", "LoL", "Dota")): continue
                   try: tok = json.loads(mk.get("clobTokenIds", "[]"))[0]
                   except Exception: continue
                   st2, ph = get(f"https://clob.polymarket.com/prices-history?market={tok}&interval=all&fidelity=10")
@@ -57,7 +57,10 @@ jobs:
                   if st2 == 200 and ph:
                       h = json.loads(ph).get("history") or []
                       n = len(h)
-                      if h: rng = f'{h[0]["t"][:16]}~{h[-1]["t"][:16]}'
+                      if h:
+                      from datetime import datetime, timezone
+                      f = lambda t: datetime.fromtimestamp(int(t)/1000 if int(t) > 1e11 else int(t), tz=timezone.utc).strftime("%m-%d %H:%M")
+                      rng = f'{f(h[0]["t"])}~{f(h[-1]["t"])}'
                   print(f'  {lo[:10]} "{q_[:38]}" pts={n} {rng}', flush=True)
                   hit += 1
                   time.sleep(2.5)
