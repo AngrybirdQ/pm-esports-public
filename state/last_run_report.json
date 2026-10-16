@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T17:43:28Z",
+ "ts": "2026-10-16T17:58:47Z",
  "sources": [
   {
    "url": "/tags",
@@ -141,7 +141,7 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Counter-Strike: Astralis vs MIBR (BO3) - Stake Pulse Beat III Playoffs",
+   "LoL: MVK Esports vs Karmine Corp (BO5) - Worlds Play-In",
    "Counter-Strike: Legacy vs BetBoom Team (BO3) - Thunderpick World Champ"
   ],
   "tag_slug=dota-2": [
@@ -309,51 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 408,
- "markets": 367,
- "markets_dropped_by_volume_floor": 2185,
+ "events": 407,
+ "markets": 371,
+ "markets_dropped_by_volume_floor": 2187,
  "day_file": "data/2026/10/2026-10-16T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 163,
+ "trades_markets_queried": 172,
  "trades_watchlist_markets": 135,
- "trades_collected": 2931,
- "anomalies_detected": 52,
- "anomalies_new": 48,
- "history_debug": [
-  {
-   "cid": "0x44bed5b0",
-   "pts": 4,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x38aae121",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x098f79dd",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xd96f22b5",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 4,
- "books_errors": [
-  "7837570934: HTTPError: HTTP Error 404: Not Found",
-  "9851875978: HTTPError: HTTP Error 404: Not Found",
-  "2370949134: HTTPError: HTTP Error 404: Not Found",
-  "6498879823: HTTPError: HTTP Error 404: Not Found",
-  "9580295508: HTTPError: HTTP Error 404: Not Found",
-  "2113117556: HTTPError: HTTP Error 404: Not Found",
-  "3841665273: HTTPError: HTTP Error 404: Not Found",
-  "4767510603: HTTPError: HTTP Error 404: Not Found",
-  "1129152426: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 128,
- "books_rows": 182,
+ "trades_collected": 2956,
+ "anomalies_detected": 58,
+ "anomalies_new": 15,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 132,
+ "books_rows": 196,
  "status": "ok"
 }
