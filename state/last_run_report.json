@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T09:41:37Z",
+ "ts": "2026-10-16T10:41:14Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 54,
+   "events_returned": 53,
    "err": null
   },
   {
@@ -141,7 +141,7 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
+   "Counter-Strike: NIP vs Liquid (BO3) - Stake Pulse Beat III Playoffs",
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
@@ -169,9 +169,9 @@
    "Demacia Cup Global Invitational 2026: Winner"
   ],
   "tag_slug=valorant": [
-   "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
+   "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
    "VALORANT Champions 2026: Winner",
-   "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs"
+   "Most First Bloods at VALORANT Champions 2026"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -203,10 +203,6 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Power Rangers vs Kalmychata (BO3) - DreamLeague Eastern Europe",
-    "closed": true
-   },
-   {
     "t": "Dota 2: PlayTime vs Skyreavers (BO3) - DreamLeague South America Close",
     "closed": true
    },
@@ -216,6 +212,10 @@
    },
    {
     "t": "Dota 2: Amaru Gaming vs Skyreavers (BO5) - DreamLeague South America C",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: PuckChamp vs Mena Warriors (BO3) - EPL Masters Play-In Group A",
     "closed": true
    }
   ],
@@ -266,7 +266,7 @@
   "search:Valorant": [
    {
     "t": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
@@ -309,25 +309,34 @@
   ]
  },
  "n_event_queries": 21,
- "events": 418,
- "markets": 359,
- "markets_dropped_by_volume_floor": 2374,
- "day_file": "data/2026/10/2026-10-16T09.jsonl",
+ "events": 416,
+ "markets": 365,
+ "markets_dropped_by_volume_floor": 2338,
+ "day_file": "data/2026/10/2026-10-16T10.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 163,
- "trades_watchlist_markets": 130,
- "trades_collected": 2610,
- "anomalies_detected": 29,
- "anomalies_new": 27,
+ "trades_markets_queried": 170,
+ "trades_watchlist_markets": 133,
+ "trades_collected": 2529,
+ "anomalies_detected": 37,
+ "anomalies_new": 37,
  "history_debug": [
   {
-   "cid": "0xfa5f0563",
+   "cid": "0x2cf6a649",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x6601f59f",
    "pts": 3,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 1,
- "books_markets": 149,
+ "history_conditions_new": 2,
+ "books_errors": [
+  "5473471925: HTTPError: HTTP Error 404: Not Found",
+  "2175482297: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 156,
  "books_rows": 246,
  "status": "ok"
 }
