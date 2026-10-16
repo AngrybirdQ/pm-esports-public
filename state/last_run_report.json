@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T04:40:40Z",
+ "ts": "2026-10-16T05:00:49Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 37,
+   "events_returned": 36,
    "err": null
   },
   {
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 66,
+   "events_returned": 65,
    "err": null
   },
   {
@@ -146,8 +146,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Amaru Gaming vs Skyreavers (BO5) - DreamLeague South America C",
-   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A"
+   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
+   "Dota 2: Yakult Brothers vs Novus Gaming (BO3) - BLAST Slam China Close"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -216,7 +216,7 @@
    },
    {
     "t": "Dota 2: Amaru Gaming vs Skyreavers (BO5) - DreamLeague South America C",
-    "closed": false
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -309,25 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 416,
- "markets": 318,
- "markets_dropped_by_volume_floor": 2405,
- "day_file": "data/2026/10/2026-10-16T04.jsonl",
+ "events": 414,
+ "markets": 319,
+ "markets_dropped_by_volume_floor": 2387,
+ "day_file": "data/2026/10/2026-10-16T05.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 115,
- "trades_watchlist_markets": 82,
+ "trades_markets_queried": 116,
+ "trades_watchlist_markets": 86,
  "trades_collected": 1039,
- "anomalies_detected": 12,
- "anomalies_new": 0,
+ "anomalies_detected": 8,
+ "anomalies_new": 8,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1156832014: HTTPError: HTTP Error 404: Not Found",
-  "1092199545: HTTPError: HTTP Error 404: Not Found",
-  "1121971439: HTTPError: HTTP Error 404: Not Found",
-  "1981416927: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 105,
- "books_rows": 170,
+ "books_markets": 106,
+ "books_rows": 172,
  "status": "ok"
 }
