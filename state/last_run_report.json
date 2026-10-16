@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T13:51:44Z",
+ "ts": "2026-10-16T14:11:07Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 53,
+   "events_returned": 52,
    "err": null
   },
   {
@@ -140,9 +140,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -169,9 +169,9 @@
    "Demacia Cup Global Invitational 2026: Winner"
   ],
   "tag_slug=valorant": [
-   "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
    "VALORANT Champions 2026: Winner",
-   "Most First Bloods at VALORANT Champions 2026"
+   "Most First Bloods at VALORANT Champions 2026",
+   "VALORANT Champions 2026 Winning Region"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -266,7 +266,7 @@
   "search:Valorant": [
    {
     "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
@@ -310,43 +310,34 @@
  },
  "n_event_queries": 21,
  "events": 414,
- "markets": 383,
- "markets_dropped_by_volume_floor": 2332,
- "day_file": "data/2026/10/2026-10-16T13.jsonl",
+ "markets": 395,
+ "markets_dropped_by_volume_floor": 2311,
+ "day_file": "data/2026/10/2026-10-16T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 192,
- "trades_watchlist_markets": 155,
- "trades_collected": 3438,
- "anomalies_detected": 37,
- "anomalies_new": 35,
+ "trades_markets_queried": 199,
+ "trades_watchlist_markets": 154,
+ "trades_collected": 3467,
+ "anomalies_detected": 35,
+ "anomalies_new": 32,
  "history_debug": [
   {
-   "cid": "0x3744e0ce",
-   "pts": 8,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x25137fb4",
-   "pts": 3,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x6a9d80f1",
+   "cid": "0x2b74f0d7",
    "pts": 2,
    "variant": "interval=all&fidelity=1000"
   },
   {
-   "cid": "0xc9d16bcf",
+   "cid": "0xabcf1721",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xfaa54033",
    "pts": 1,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 4,
- "books_errors": [
-  "2494063182: HTTPError: HTTP Error 404: Not Found",
-  "9757300059: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 156,
+ "history_conditions_new": 3,
+ "books_markets": 159,
  "books_rows": 244,
  "status": "ok"
 }
