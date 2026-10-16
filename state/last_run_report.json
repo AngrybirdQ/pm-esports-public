@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T14:51:22Z",
+ "ts": "2026-10-16T15:41:41Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 52,
+   "events_returned": 53,
    "err": null
   },
   {
@@ -141,13 +141,13 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua"
+   "Counter-Strike: Aurora Gaming vs 9z (BO3) - Thunderpick World Champion",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
-   "Dota 2: Xipto Esports vs Execration (BO3) - DreamLeague Southeast Asia"
+   "Dota 2: Xipto Esports vs Execration (BO3) - DreamLeague Southeast Asia",
+   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -161,7 +161,7 @@
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: KaBuM! Ilha das Lendas vs Golden Lions (BO5) - CBLOL Promotion Pl"
+   "LoL: MVK Esports vs Karmine Corp (BO5) - Worlds Play-In"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -171,7 +171,7 @@
   "tag_slug=valorant": [
    "VALORANT Champions 2026: Winner",
    "Most First Bloods at VALORANT Champions 2026",
-   "VALORANT Champions 2026 Winning Region"
+   "Least Played Map at VALORANT Champions 2026"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -309,30 +309,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 412,
- "markets": 388,
- "markets_dropped_by_volume_floor": 2282,
- "day_file": "data/2026/10/2026-10-16T14.jsonl",
+ "events": 413,
+ "markets": 390,
+ "markets_dropped_by_volume_floor": 2320,
+ "day_file": "data/2026/10/2026-10-16T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 188,
- "trades_watchlist_markets": 149,
- "trades_collected": 3269,
- "anomalies_detected": 56,
- "anomalies_new": 13,
+ "trades_markets_queried": 178,
+ "trades_watchlist_markets": 133,
+ "trades_collected": 3638,
+ "anomalies_detected": 48,
+ "anomalies_new": 48,
  "history_debug": [
   {
-   "cid": "0x12213a2b",
-   "pts": 8,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xf1159df2",
-   "pts": 1,
+   "cid": "0x442c3ec9",
+   "pts": 5,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 2,
- "books_markets": 145,
- "books_rows": 216,
+ "history_conditions_new": 1,
+ "books_markets": 147,
+ "books_rows": 202,
  "status": "ok"
 }
