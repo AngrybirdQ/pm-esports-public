@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T13:21:32Z",
+ "ts": "2026-10-16T13:51:44Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 35,
+   "events_returned": 36,
    "err": null
   },
   {
@@ -277,11 +277,11 @@
     "closed": true
    },
    {
-    "t": "Highest ACS at VALORANT Champions 2026",
+    "t": "VALORANT Champions 2026: Winner",
     "closed": false
    },
    {
-    "t": "VALORANT Champions 2026: Winner",
+    "t": "Highest ACS at VALORANT Champions 2026",
     "closed": false
    }
   ],
@@ -309,25 +309,44 @@
   ]
  },
  "n_event_queries": 21,
- "events": 415,
- "markets": 367,
- "markets_dropped_by_volume_floor": 2360,
+ "events": 414,
+ "markets": 383,
+ "markets_dropped_by_volume_floor": 2332,
  "day_file": "data/2026/10/2026-10-16T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 183,
- "trades_watchlist_markets": 149,
- "trades_collected": 3279,
- "anomalies_detected": 5,
- "anomalies_new": 0,
+ "trades_markets_queried": 192,
+ "trades_watchlist_markets": 155,
+ "trades_collected": 3438,
+ "anomalies_detected": 37,
+ "anomalies_new": 35,
  "history_debug": [
   {
-   "cid": "0xa136529b",
+   "cid": "0x3744e0ce",
+   "pts": 8,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x25137fb4",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x6a9d80f1",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xc9d16bcf",
    "pts": 1,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 1,
- "books_markets": 158,
- "books_rows": 240,
+ "history_conditions_new": 4,
+ "books_errors": [
+  "2494063182: HTTPError: HTTP Error 404: Not Found",
+  "9757300059: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 156,
+ "books_rows": 244,
  "status": "ok"
 }
