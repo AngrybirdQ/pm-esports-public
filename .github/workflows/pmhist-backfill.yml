@@ -1,0 +1,112 @@
+name: pm-price-history-backfill
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 110
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Enumerate closed esports events + pull price histories
+        run: |
+          python3 << 'PYEOF'
+          import json, os, re, time, urllib.request, urllib.parse
+
+          def get(url, tries=4, timeout=45):
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": "pm-backfill/1.0"})
+                      with urllib.request.urlopen(req, timeout=timeout) as r:
+                          return r.status, r.read().decode("utf-8", "replace")
+                  except urllib.error.HTTPError as e:
+                      if e.code in (429, 503) and i < tries-1: time.sleep(12 + i*8); continue
+                      return e.code, ""
+                  except Exception:
+                      if i < tries-1: time.sleep(6); continue
+                      return 0, ""
+
+          # 1) Gamma 分页枚举: 9/1→now 已关闭电竞事件
+          markets = []
+          seen_ev = set()
+          for lo_d, hi_d in (("2026-09-01","2026-09-15"), ("2026-09-15","2026-10-01"),
+                             ("2026-10-01","2026-10-16")):
+              offset = 0
+              while True:
+                  q = urllib.parse.urlencode({"closed": "true", "limit": 100, "offset": offset,
+                      "tag_slug": "esports", "tag_id": "1",
+                      "end_date_min": lo_d + "T00:00:00Z", "end_date_max": hi_d + "T23:59:59Z",
+                      "order": "endDate", "ascending": "true"})
+                  st, body = get("https://gamma-api.polymarket.com/events?" + q)
+                  if st != 200 or not body:
+                      print(f"gamma {lo_d}+{offset}: {st}", flush=True); break
+                  evs = json.loads(body)
+                  if not evs: break
+                  for e in evs:
+                      eid = str(e.get("id"))
+                      if eid in seen_ev: continue
+                      seen_ev.add(eid)
+                      for mk in e.get("markets") or []:
+                          qq = mk.get("question", "")
+                          # 只要ML主盘: vs型且非子盘关键词
+                          if " vs " not in qq: continue
+                          if re.search(r"Map \d|Game \d|Rounds|Handicap|Total|Kills|First|Will |Series|Correct", qq, re.I): continue
+                          cid = mk.get("conditionId")
+                          tids = mk.get("clobTokenIds", "[]")
+                          try: tok = json.loads(tids)[0]
+                          except Exception: continue
+                          if not cid or not tok: continue
+                          markets.append({"cid": cid, "tok": tok, "eid": eid,
+                                          "q": qq, "slug": mk.get("slug", ""),
+                                          "outcomes": mk.get("outcomes", "[]")})
+                  offset += 100
+                  if offset >= 1500: break
+                  time.sleep(2.5)
+          print(f"ML markets enumerated: {len(markets)}", flush=True)
+
+          # 2) 逐市场拉 prices-history → data/history/jsonl(现成管道契约)
+          os.makedirs("data/history", exist_ok=True)
+          out = open("data/history/pmhist_backfill_20261016.jsonl", "w", buffering=1)
+          ok = empty = err = 0
+          total_pts = 0
+          for i, m in enumerate(markets):
+              st, ph = get("https://clob.polymarket.com/prices-history?market=" + m["tok"] + "&interval=all&fidelity=60")
+              pts = []
+              if st == 200 and ph:
+                  try:
+                      h = json.loads(ph).get("history") or []
+                      pts = [{"t": int(p["t"]) // 1000 if int(p["t"]) > 100000000000 else int(p["t"]),
+                              "p": p["p"]} for p in h]
+                  except Exception: pass
+              if pts:
+                  out.write(json.dumps({"condition_id": m["cid"], "event_id": m["eid"],
+                                        "points": pts}, ensure_ascii=False) + "\n")
+                  ok += 1; total_pts += len(pts)
+              elif st == 200:
+                  empty += 1
+              else:
+                  err += 1
+              if (i + 1) % 25 == 0:
+                  print(f"[{i+1}/{len(markets)}] ok={ok} empty={empty} err={err} pts={total_pts}", flush=True)
+              time.sleep(1.2)
+          out.close()
+          print(f"DONE: markets={len(markets)} ok={ok} empty={empty} err={err} total_points={total_pts}", flush=True)
+          PYEOF
+      - name: Commit
+        run: |
+          git config user.name "pm-backfill" && git config user.email "pmb@noreply"
+          git add data/history/
+          git diff --cached --quiet && echo nothing || (git commit -m "pm price history backfill 2026-09+ (fidelity 60m)" && (git pull --rebase origin main || true) && git push) || (sleep 8 && git pull --rebase origin main && git push) || true
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pm-price-history-backfill
+          path: data/history/
+          retention-days: 90
+          if-no-files-found: ignore
