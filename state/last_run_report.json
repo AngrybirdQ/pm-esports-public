@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T11:37:30Z",
+ "ts": "2026-10-16T11:51:25Z",
  "sources": [
   {
    "url": "/tags",
@@ -142,12 +142,12 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua"
+   "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
    "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
-   "Dota 2: Team Tidebound vs Resp Gaming (BO3) - BLAST Slam China Closed "
+   "Dota 2: Mena Warriors vs CyberHero (BO3) - EPL Masters Play-In Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -203,15 +203,15 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Lynx vs Dawn Bulls (BO3) - DreamLeague Western Europe Clo",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Yangon Galacticos vs InterActive Philippines (BO3) - DreamLeag",
     "closed": true
    },
    {
     "t": "Dota 2: Amaru Gaming vs Skyreavers (BO5) - DreamLeague South America C",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Team Lynx vs Dawn Bulls (BO3) - DreamLeague Western Europe Clo",
     "closed": true
    },
    {
@@ -310,29 +310,30 @@
  },
  "n_event_queries": 21,
  "events": 418,
- "markets": 367,
- "markets_dropped_by_volume_floor": 2375,
+ "markets": 363,
+ "markets_dropped_by_volume_floor": 2372,
  "day_file": "data/2026/10/2026-10-16T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 174,
+ "trades_markets_queried": 178,
  "trades_watchlist_markets": 143,
- "trades_collected": 2762,
- "anomalies_detected": 34,
- "anomalies_new": 32,
+ "trades_collected": 2924,
+ "anomalies_detected": 33,
+ "anomalies_new": 7,
  "history_debug": [
   {
-   "cid": "0xccaadf02",
-   "pts": 8,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xf8e0798b",
-   "pts": 1,
+   "cid": "0x10cb0625",
+   "pts": 5,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 2,
- "books_markets": 151,
- "books_rows": 242,
+ "history_conditions_new": 1,
+ "books_errors": [
+  "4853322419: HTTPError: HTTP Error 404: Not Found",
+  "8043658394: HTTPError: HTTP Error 404: Not Found",
+  "8163771847: HTTPError: HTTP Error 404: Not Found",
+  "5747131771: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 145,
+ "books_rows": 238,
  "status": "ok"
 }
