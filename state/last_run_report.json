@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T16:31:36Z",
+ "ts": "2026-10-16T17:11:23Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 33,
+   "events_returned": 31,
    "err": null
   },
   {
@@ -140,13 +140,13 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Counter-Strike: Aurora Gaming vs 9z (BO3) - Thunderpick World Champion",
    "Worlds 2026: Winner",
-   "Counter-Strike: Astralis vs MIBR (BO3) - Stake Pulse Beat III Playoffs"
+   "Counter-Strike: Astralis vs MIBR (BO3) - Stake Pulse Beat III Playoffs",
+   "LoL: MVK Esports vs Karmine Corp (BO5) - Worlds Play-In"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Xipto Esports vs Execration (BO3) - DreamLeague Southeast Asia",
+   "Dota 2: Team Synapse vs Dawn Bulls (BO3) - DreamLeague Western Europe ",
    "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A"
   ],
   "tag_slug=cs2": [
@@ -212,11 +212,11 @@
    },
    {
     "t": "Dota 2: Xipto Esports vs Execration (BO3) - DreamLeague Southeast Asia",
-    "closed": false
+    "closed": true
    },
    {
-    "t": "Dota 2: Team Lynx vs LEGION (BO3) - DreamLeague Western Europe Closed ",
-    "closed": true
+    "t": "Dota 2: Team Synapse vs Dawn Bulls (BO3) - DreamLeague Western Europe ",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -309,34 +309,30 @@
   ]
  },
  "n_event_queries": 21,
- "events": 411,
- "markets": 376,
- "markets_dropped_by_volume_floor": 2270,
- "day_file": "data/2026/10/2026-10-16T16.jsonl",
+ "events": 409,
+ "markets": 361,
+ "markets_dropped_by_volume_floor": 2209,
+ "day_file": "data/2026/10/2026-10-16T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 164,
- "trades_watchlist_markets": 130,
- "trades_collected": 3161,
- "anomalies_detected": 58,
- "anomalies_new": 55,
+ "trades_markets_queried": 170,
+ "trades_watchlist_markets": 132,
+ "trades_collected": 3065,
+ "anomalies_detected": 52,
+ "anomalies_new": 52,
  "history_debug": [
   {
-   "cid": "0xe1636bbf",
-   "pts": 3,
+   "cid": "0xe73cd317",
+   "pts": 2,
    "variant": "interval=all&fidelity=1000"
   },
   {
-   "cid": "0x483e5e20",
+   "cid": "0x35566c00",
    "pts": 1,
    "variant": "interval=all&fidelity=1000"
   }
  ],
  "history_conditions_new": 2,
- "books_errors": [
-  "1018175461: HTTPError: HTTP Error 404: Not Found",
-  "3662826505: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 139,
- "books_rows": 182,
+ "books_markets": 127,
+ "books_rows": 178,
  "status": "ok"
 }
