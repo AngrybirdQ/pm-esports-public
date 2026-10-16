@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T13:09:50Z",
+ "ts": "2026-10-16T13:21:32Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 33,
+   "events_returned": 35,
    "err": null
   },
   {
@@ -215,7 +215,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Lynx vs Dawn Bulls (BO3) - DreamLeague Western Europe Clo",
+    "t": "Dota 2: Team Lynx vs LEGION (BO3) - DreamLeague Western Europe Closed ",
     "closed": true
    }
   ],
@@ -309,19 +309,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 413,
+ "events": 415,
  "markets": 367,
- "markets_dropped_by_volume_floor": 2316,
+ "markets_dropped_by_volume_floor": 2360,
  "day_file": "data/2026/10/2026-10-16T13.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 183,
  "trades_watchlist_markets": 149,
- "trades_collected": 3231,
- "anomalies_detected": 47,
- "anomalies_new": 3,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_collected": 3279,
+ "anomalies_detected": 5,
+ "anomalies_new": 0,
+ "history_debug": [
+  {
+   "cid": "0xa136529b",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 158,
- "books_rows": 244,
+ "books_rows": 240,
  "status": "ok"
 }
