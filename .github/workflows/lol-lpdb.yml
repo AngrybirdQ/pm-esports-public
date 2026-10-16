@@ -1,0 +1,50 @@
+name: lol-lpdb-query
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Query LPDB for Worlds 2025 matches
+        run: |
+          python3 << 'PYEOF'
+          import gzip, json, time, urllib.request, urllib.parse
+          UA = "pm-esports-research/1.0 (github.com/AngrybirdQ)"
+          def api(params):
+              url = "https://liquipedia.net/leagueoflegends/api.php?" + urllib.parse.urlencode(params)
+              req = urllib.request.Request(url, headers={"User-Agent": UA,
+                  "Accept": "application/json", "Accept-Encoding": "gzip"})
+              with urllib.request.urlopen(req, timeout=60) as r:
+                  raw = r.read()
+                  if raw[:2] == b"\x1f\x8b": raw = gzip.decompress(raw)
+                  return json.loads(raw)
+          # LPDB: tournament=Worlds 2025 的 match 记录
+          for where in ('tournament:"Worlds 2025"', 'tournament:"World Championship 2025"',
+                        'parent:"World Championship/2025"'):
+              try:
+                  d = api({"action": "lpdb", "object": "match", "conditions": where,
+                           "limit": 3, "format": "json"})
+                  res = d.get("result") or []
+                  print(f"LPDB {where}: {len(res)} hits", flush=True)
+                  if res:
+                      print(json.dumps(res[0], ensure_ascii=False)[:600], flush=True)
+                      break
+              except Exception as e:
+                  print(f"LPDB {where}: ERR {str(e)[:80]}", flush=True)
+              time.sleep(4)
+          # 附: statistics对象
+          try:
+              d2 = api({"action": "lpdb", "object": "match", "conditions": 'game:"lol"',
+                        "limit": 2, "format": "json"})
+              res2 = d2.get("result") or []
+              print(f"LPDB game=lol: {len(res2)} hits", flush=True)
+              if res2: print(json.dumps(res2[0], ensure_ascii=False)[:400], flush=True)
+          except Exception as e:
+              print("LPDB game err:", str(e)[:80], flush=True)
+          PYEOF
