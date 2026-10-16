@@ -1,10 +1,10 @@
 {
- "ts": "2026-10-16T07:38:19Z",
+ "ts": "2026-10-16T07:41:51Z",
  "events": 413,
- "markets": 332,
+ "markets": 334,
  "lines": [
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1001461",
    "event_slug": "will-a-western-team-win-worlds-2026",
    "event_title": "Will a Western team win Worlds 2026?",
@@ -37,7 +37,7 @@
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029486",
    "event_slug": "valorant-champions-2026-winning-region",
    "event_title": "VALORANT Champions 2026 Winning Region",
@@ -60,16 +60,48 @@
     "No"
    ],
    "prices": [
-    0.615,
-    0.385
+    0.635,
+    0.365
    ],
-   "volume": 13294.919456,
-   "volume_24h": 1495.594945,
-   "liquidity": 228.2304,
+   "volume": 13396.335171,
+   "volume_24h": 1597.01066,
+   "liquidity": 203.1439,
    "market_end_date": "2026-10-20T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
+   "event_id": "1029486",
+   "event_slug": "valorant-champions-2026-winning-region",
+   "event_title": "VALORANT Champions 2026 Winning Region",
+   "event_start_date": "2026-09-15T19:10:26Z",
+   "event_end_date": "2026-10-20T03:59:00Z",
+   "sources": [
+    "tag_slug=esports",
+    "tag_slug=valorant"
+   ],
+   "market_slug": "will-a-team-from-another-region-win-valorant-champions-2026",
+   "question": "Will a team from another region win VALORANT Champions 2026?",
+   "group_item": "Other",
+   "condition_id": "0xe4b8460902e1a0ca2359a8c9e601710027229bd3b33e8dfeef5c56e88a3bab4e",
+   "token_ids": [
+    "37124312866899221294910714891651994137351313085050950822962137432402383384313",
+    "100250542187065851782426156700433599727498616997441326871488918922056174000828"
+   ],
+   "outcomes": [
+    "Yes",
+    "No"
+   ],
+   "prices": [
+    0.0005,
+    0.9995
+   ],
+   "volume": 912.92,
+   "volume_24h": 109.95,
+   "liquidity": 787.70038,
+   "market_end_date": "2026-10-20T03:59:00Z"
+  },
+  {
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029486",
    "event_slug": "valorant-champions-2026-winning-region",
    "event_title": "VALORANT Champions 2026 Winning Region",
@@ -92,16 +124,16 @@
     "No"
    ],
    "prices": [
-    0.357,
-    0.643
+    0.364,
+    0.636
    ],
-   "volume": 8986.761483,
-   "volume_24h": 911.234749,
-   "liquidity": 463.97232,
+   "volume": 9136.165553,
+   "volume_24h": 1060.638819,
+   "liquidity": 139.4861,
    "market_end_date": "2026-10-20T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029488",
    "event_slug": "valorant-champions-2026-winner",
    "event_title": "VALORANT Champions 2026: Winner",
@@ -124,16 +156,16 @@
     "No"
    ],
    "prices": [
-    0.275,
-    0.725
+    0.285,
+    0.715
    ],
-   "volume": 22202.028643,
-   "volume_24h": 872.026664,
-   "liquidity": 516.2406,
+   "volume": 22215.028643,
+   "volume_24h": 885.026664,
+   "liquidity": 243.1777,
    "market_end_date": "2026-10-20T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029488",
    "event_slug": "valorant-champions-2026-winner",
    "event_title": "VALORANT Champions 2026: Winner",
@@ -161,11 +193,11 @@
    ],
    "volume": 9984.300401,
    "volume_24h": 450.266818,
-   "liquidity": 2104.69048,
+   "liquidity": 1197.28592,
    "market_end_date": "2026-10-20T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029488",
    "event_slug": "valorant-champions-2026-winner",
    "event_title": "VALORANT Champions 2026: Winner",
@@ -188,16 +220,16 @@
     "No"
    ],
    "prices": [
-    0.266,
-    0.734
+    0.2575,
+    0.7425
    ],
    "volume": 9087.42328,
-   "volume_24h": 768.729083,
-   "liquidity": 412.03124,
+   "volume_24h": 728.719083,
+   "liquidity": 167.17367,
    "market_end_date": "2026-10-20T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029488",
    "event_slug": "valorant-champions-2026-winner",
    "event_title": "VALORANT Champions 2026: Winner",
@@ -220,16 +252,16 @@
     "No"
    ],
    "prices": [
-    0.313,
-    0.687
+    0.437,
+    0.563
    ],
    "volume": 11301.674538,
    "volume_24h": 3949.771519,
-   "liquidity": 338.9079,
+   "liquidity": 148.18894,
    "market_end_date": "2026-10-20T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029545",
    "event_slug": "most-kills-at-valorant-champions-2026",
    "event_title": "Most Kills at VALORANT Champions 2026",
@@ -258,11 +290,11 @@
    ],
    "volume": 123.0,
    "volume_24h": 102.0,
-   "liquidity": 2616.4577,
+   "liquidity": 2616.0675,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029545",
    "event_slug": "most-kills-at-valorant-champions-2026",
    "event_title": "Most Kills at VALORANT Champions 2026",
@@ -295,7 +327,7 @@
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029566",
    "event_slug": "most-kills-on-a-single-map-at-valorant-champions-2026",
    "event_title": "Most Kills on a Single Map at VALORANT Champions 2026",
@@ -323,11 +355,11 @@
    ],
    "volume": 576.06,
    "volume_24h": 193.49,
-   "liquidity": 668.35136,
+   "liquidity": 677.24139,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029566",
    "event_slug": "most-kills-on-a-single-map-at-valorant-champions-2026",
    "event_title": "Most Kills on a Single Map at VALORANT Champions 2026",
@@ -350,16 +382,16 @@
     "No"
    ],
    "prices": [
-    0.9845,
-    0.0155
+    0.985,
+    0.015
    ],
    "volume": 5988.24774,
    "volume_24h": 45.47,
-   "liquidity": 388.5272,
+   "liquidity": 359.28168,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029647",
    "event_slug": "most-first-bloods-at-valorant-champions-2026",
    "event_title": "Most First Bloods at VALORANT Champions 2026",
@@ -385,13 +417,13 @@
     0.3825,
     0.6175
    ],
-   "volume": 920.957431,
-   "volume_24h": 228.615716,
-   "liquidity": 445.88156,
+   "volume": 959.007431,
+   "volume_24h": 247.635716,
+   "liquidity": 514.85656,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029647",
    "event_slug": "most-first-bloods-at-valorant-champions-2026",
    "event_title": "Most First Bloods at VALORANT Champions 2026",
@@ -419,11 +451,11 @@
    ],
    "volume": 1295.56,
    "volume_24h": 586.3,
-   "liquidity": 703.37213,
+   "liquidity": 739.40347,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029667",
    "event_slug": "which-paper-rex-player-will-have-the-most-kills-at-valorant-champions-2026",
    "event_title": "Which Paper Rex player will have the most kills at VALORANT Champions 2026?",
@@ -451,11 +483,11 @@
    ],
    "volume": 4145.057215,
    "volume_24h": null,
-   "liquidity": 517.52287,
+   "liquidity": 518.71896,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029667",
    "event_slug": "which-paper-rex-player-will-have-the-most-kills-at-valorant-champions-2026",
    "event_title": "Which Paper Rex player will have the most kills at VALORANT Champions 2026?",
@@ -483,11 +515,11 @@
    ],
    "volume": 5514.957291,
    "volume_24h": null,
-   "liquidity": 1284.63651,
+   "liquidity": 1285.82651,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029667",
    "event_slug": "which-paper-rex-player-will-have-the-most-kills-at-valorant-champions-2026",
    "event_title": "Which Paper Rex player will have the most kills at VALORANT Champions 2026?",
@@ -519,7 +551,7 @@
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029670",
    "event_slug": "which-nrg-player-will-have-the-most-kills-at-valorant-champions-2026",
    "event_title": "Which NRG player will have the most kills at VALORANT Champions 2026?",
@@ -547,11 +579,11 @@
    ],
    "volume": 3215.983676,
    "volume_24h": 3.12,
-   "liquidity": 735.00224,
+   "liquidity": 735.40228,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029670",
    "event_slug": "which-nrg-player-will-have-the-most-kills-at-valorant-champions-2026",
    "event_title": "Which NRG player will have the most kills at VALORANT Champions 2026?",
@@ -583,7 +615,7 @@
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029670",
    "event_slug": "which-nrg-player-will-have-the-most-kills-at-valorant-champions-2026",
    "event_title": "Which NRG player will have the most kills at VALORANT Champions 2026?",
@@ -611,11 +643,11 @@
    ],
    "volume": 10302.688309,
    "volume_24h": 47.12,
-   "liquidity": 485.59236,
+   "liquidity": 486.51218,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029670",
    "event_slug": "which-nrg-player-will-have-the-most-kills-at-valorant-champions-2026",
    "event_title": "Which NRG player will have the most kills at VALORANT Champions 2026?",
@@ -647,7 +679,7 @@
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029674",
    "event_slug": "which-g2-esports-player-will-have-the-most-kills-at-valorant-champions-2026",
    "event_title": "Which G2 Esports player will have the most kills at VALORANT Champions 2026?",
@@ -675,11 +707,11 @@
    ],
    "volume": 5572.397052,
    "volume_24h": 503.742152,
-   "liquidity": 867.2649,
+   "liquidity": 953.4248,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029674",
    "event_slug": "which-g2-esports-player-will-have-the-most-kills-at-valorant-champions-2026",
    "event_title": "Which G2 Esports player will have the most kills at VALORANT Champions 2026?",
@@ -707,11 +739,11 @@
    ],
    "volume": 5885.329868,
    "volume_24h": 1376.608234,
-   "liquidity": 780.79095,
+   "liquidity": 875.88937,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029674",
    "event_slug": "which-g2-esports-player-will-have-the-most-kills-at-valorant-champions-2026",
    "event_title": "Which G2 Esports player will have the most kills at VALORANT Champions 2026?",
@@ -739,11 +771,11 @@
    ],
    "volume": 1618.553248,
    "volume_24h": 45.99,
-   "liquidity": 577.476,
+   "liquidity": 706.94301,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029674",
    "event_slug": "which-g2-esports-player-will-have-the-most-kills-at-valorant-champions-2026",
    "event_title": "Which G2 Esports player will have the most kills at VALORANT Champions 2026?",
@@ -771,11 +803,11 @@
    ],
    "volume": 2362.312043,
    "volume_24h": null,
-   "liquidity": 450.42624,
+   "liquidity": 587.13639,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029676",
    "event_slug": "most-played-map-at-valorant-champions-2026",
    "event_title": "Most Played Map at VALORANT Champions 2026",
@@ -803,11 +835,11 @@
    ],
    "volume": 415.27,
    "volume_24h": 116.44,
-   "liquidity": 707.45012,
+   "liquidity": 616.8958,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029676",
    "event_slug": "most-played-map-at-valorant-champions-2026",
    "event_title": "Most Played Map at VALORANT Champions 2026",
@@ -835,11 +867,11 @@
    ],
    "volume": 445.83,
    "volume_24h": 141.0,
-   "liquidity": 621.84301,
+   "liquidity": 617.64781,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029676",
    "event_slug": "most-played-map-at-valorant-champions-2026",
    "event_title": "Most Played Map at VALORANT Champions 2026",
@@ -867,11 +899,11 @@
    ],
    "volume": 3217.255916,
    "volume_24h": 60.7,
-   "liquidity": 537.87677,
+   "liquidity": 528.24745,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029676",
    "event_slug": "most-played-map-at-valorant-champions-2026",
    "event_title": "Most Played Map at VALORANT Champions 2026",
@@ -899,11 +931,11 @@
    ],
    "volume": 453.890167,
    "volume_24h": 155.935,
-   "liquidity": 697.72916,
+   "liquidity": 692.54962,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029676",
    "event_slug": "most-played-map-at-valorant-champions-2026",
    "event_title": "Most Played Map at VALORANT Champions 2026",
@@ -931,11 +963,11 @@
    ],
    "volume": 4041.856814,
    "volume_24h": 60.7,
-   "liquidity": 482.89036,
+   "liquidity": 473.67938,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029676",
    "event_slug": "most-played-map-at-valorant-champions-2026",
    "event_title": "Most Played Map at VALORANT Champions 2026",
@@ -958,16 +990,16 @@
     "No"
    ],
    "prices": [
-    0.0015,
-    0.9985
+    0.0045,
+    0.9955
    ],
    "volume": 2140.64142,
    "volume_24h": 32.92,
-   "liquidity": 796.13769,
+   "liquidity": 721.06649,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029676",
    "event_slug": "most-played-map-at-valorant-champions-2026",
    "event_title": "Most Played Map at VALORANT Champions 2026",
@@ -990,16 +1022,16 @@
     "No"
    ],
    "prices": [
-    0.9785,
-    0.0215
+    0.977,
+    0.023
    ],
    "volume": 6985.263042,
    "volume_24h": 62.0,
-   "liquidity": 280.04523,
+   "liquidity": 282.53954,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029685",
    "event_slug": "least-played-map-at-valorant-champions-2026",
    "event_title": "Least Played Map at VALORANT Champions 2026",
@@ -1027,11 +1059,11 @@
    ],
    "volume": 12047.681284,
    "volume_24h": 1979.694645,
-   "liquidity": 789.69622,
+   "liquidity": 875.29693,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029685",
    "event_slug": "least-played-map-at-valorant-champions-2026",
    "event_title": "Least Played Map at VALORANT Champions 2026",
@@ -1054,16 +1086,16 @@
     "No"
    ],
    "prices": [
-    0.0055,
-    0.9945
+    0.005,
+    0.995
    ],
    "volume": 2003.320514,
    "volume_24h": null,
-   "liquidity": 1138.70589,
+   "liquidity": 1454.8694,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029685",
    "event_slug": "least-played-map-at-valorant-champions-2026",
    "event_title": "Least Played Map at VALORANT Champions 2026",
@@ -1091,11 +1123,11 @@
    ],
    "volume": 5409.707792,
    "volume_24h": 203.000285,
-   "liquidity": 1107.04985,
+   "liquidity": 1197.77432,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029685",
    "event_slug": "least-played-map-at-valorant-champions-2026",
    "event_title": "Least Played Map at VALORANT Champions 2026",
@@ -1123,11 +1155,11 @@
    ],
    "volume": 6155.213755,
    "volume_24h": 1287.993084,
-   "liquidity": 1060.6878,
+   "liquidity": 1287.23378,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029685",
    "event_slug": "least-played-map-at-valorant-champions-2026",
    "event_title": "Least Played Map at VALORANT Champions 2026",
@@ -1155,11 +1187,11 @@
    ],
    "volume": 738.190696,
    "volume_24h": 135.252,
-   "liquidity": 892.81007,
+   "liquidity": 1314.92877,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029685",
    "event_slug": "least-played-map-at-valorant-champions-2026",
    "event_title": "Least Played Map at VALORANT Champions 2026",
@@ -1187,11 +1219,11 @@
    ],
    "volume": 1786.305359,
    "volume_24h": 40.14119,
-   "liquidity": 1243.9412,
+   "liquidity": 1621.883,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029685",
    "event_slug": "least-played-map-at-valorant-champions-2026",
    "event_title": "Least Played Map at VALORANT Champions 2026",
@@ -1219,11 +1251,11 @@
    ],
    "volume": 4372.651495,
    "volume_24h": 49.397,
-   "liquidity": 1007.83991,
+   "liquidity": 1062.53991,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029685",
    "event_slug": "least-played-map-at-valorant-champions-2026",
    "event_title": "Least Played Map at VALORANT Champions 2026",
@@ -1251,11 +1283,11 @@
    ],
    "volume": 770.497,
    "volume_24h": 129.447,
-   "liquidity": 918.74738,
+   "liquidity": 1042.11542,
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029696",
    "event_slug": "valorant-champions-2026-any-map-to-go-13-0",
    "event_title": "VALORANT Champions 2026: Any map to go 13-0?",
@@ -1286,7 +1318,7 @@
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1029698",
    "event_slug": "valorant-champions-2026-unbeaten-champion",
    "event_title": "VALORANT Champions 2026: Unbeaten Champion?",
@@ -1317,7 +1349,7 @@
    "market_end_date": "2026-11-18T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1038869",
    "event_slug": "canada-applies-for-full-eu-membership-byptptpt",
    "event_title": "Canada applies for full EU membership by...?",
@@ -1349,7 +1381,7 @@
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1039068",
    "event_slug": "esports-awards-2026-esports-commercial-partner-of-the-year",
    "event_title": "Esports Awards 2026: Esports Commercial Partner of the Year",
@@ -1376,11 +1408,11 @@
    ],
    "volume": 3842.718344,
    "volume_24h": null,
-   "liquidity": 1712.9079,
+   "liquidity": 1733.1079,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1039068",
    "event_slug": "esports-awards-2026-esports-commercial-partner-of-the-year",
    "event_title": "Esports Awards 2026: Esports Commercial Partner of the Year",
@@ -1407,11 +1439,11 @@
    ],
    "volume": 3135.840332,
    "volume_24h": null,
-   "liquidity": 1649.5929,
+   "liquidity": 1727.7074,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1039068",
    "event_slug": "esports-awards-2026-esports-commercial-partner-of-the-year",
    "event_title": "Esports Awards 2026: Esports Commercial Partner of the Year",
@@ -1438,11 +1470,11 @@
    ],
    "volume": 389.856418,
    "volume_24h": 212.38,
-   "liquidity": 380.59251,
+   "liquidity": 385.37751,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1039068",
    "event_slug": "esports-awards-2026-esports-commercial-partner-of-the-year",
    "event_title": "Esports Awards 2026: Esports Commercial Partner of the Year",
@@ -1469,11 +1501,11 @@
    ],
    "volume": 19238.612801,
    "volume_24h": null,
-   "liquidity": 10794.564,
+   "liquidity": 11511.195,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1039069",
    "event_slug": "esports-awards-2026-esports-tournament-organiser-of-the-year",
    "event_title": "Esports Awards 2026: Esports Tournament Organiser of the Year",
@@ -1500,11 +1532,11 @@
    ],
    "volume": 2028.890953,
    "volume_24h": null,
-   "liquidity": 1793.1198,
+   "liquidity": 1031.6134,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1039069",
    "event_slug": "esports-awards-2026-esports-tournament-organiser-of-the-year",
    "event_title": "Esports Awards 2026: Esports Tournament Organiser of the Year",
@@ -1531,11 +1563,11 @@
    ],
    "volume": 5508.091129,
    "volume_24h": null,
-   "liquidity": 2414.0053,
+   "liquidity": 2606.03051,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1039160",
    "event_slug": "esports-awards-2026-esports-supporting-service-of-the-year",
    "event_title": "Esports Awards 2026: Esports Supporting Service of the Year",
@@ -1562,11 +1594,11 @@
    ],
    "volume": 5114.82862,
    "volume_24h": null,
-   "liquidity": 5658.29216,
+   "liquidity": 5589.40216,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1039160",
    "event_slug": "esports-awards-2026-esports-supporting-service-of-the-year",
    "event_title": "Esports Awards 2026: Esports Supporting Service of the Year",
@@ -1593,11 +1625,11 @@
    ],
    "volume": 2259.122161,
    "volume_24h": null,
-   "liquidity": 1808.6728,
+   "liquidity": 1487.0571,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1065115",
    "event_slug": "will-broky-join-a-team-before-2027",
    "event_title": "Will broky join a team before 2027?",
@@ -1628,7 +1660,7 @@
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1070055",
    "event_slug": "lol-offseason-deft-next-team-1790107563296",
    "event_title": "LoL Offseason: Deft Next Team",
@@ -1657,11 +1689,11 @@
    ],
    "volume": 8447.856044,
    "volume_24h": 823.063629,
-   "liquidity": 549.4052,
+   "liquidity": 549.8651,
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1070134",
    "event_slug": "total-unique-champions-played-at-worlds-2026",
    "event_title": "Total Unique Champions Played at Worlds 2026",
@@ -1693,7 +1725,7 @@
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1070210",
    "event_slug": "which-teams-will-qualify-to-pgl-major-singapore-2026",
    "event_title": "Which teams will qualify to PGL Major Singapore 2026?",
@@ -1725,7 +1757,7 @@
    "market_end_date": "2027-01-13T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1070210",
    "event_slug": "which-teams-will-qualify-to-pgl-major-singapore-2026",
    "event_title": "Which teams will qualify to PGL Major Singapore 2026?",
@@ -1757,7 +1789,7 @@
    "market_end_date": "2027-01-13T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1070210",
    "event_slug": "which-teams-will-qualify-to-pgl-major-singapore-2026",
    "event_title": "Which teams will qualify to PGL Major Singapore 2026?",
@@ -1789,7 +1821,7 @@
    "market_end_date": "2027-01-13T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1070210",
    "event_slug": "which-teams-will-qualify-to-pgl-major-singapore-2026",
    "event_title": "Which teams will qualify to PGL Major Singapore 2026?",
@@ -1817,11 +1849,11 @@
    ],
    "volume": 1008.723629,
    "volume_24h": null,
-   "liquidity": 93.46418,
+   "liquidity": 92.20634,
    "market_end_date": "2027-01-13T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1110635",
    "event_slug": "israel-accuses-iranproxies-of-plane-stabbing-incident-by-oct-31",
    "event_title": "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
@@ -1853,7 +1885,7 @@
    "market_end_date": "2026-11-01T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1120118",
    "event_slug": "flavio-bolsonaro-charged-or-arrested-by-october-31-20261001003357876",
    "event_title": "Flávio Bolsonaro charged or arrested by October 31?",
@@ -1885,7 +1917,7 @@
    "market_end_date": "2026-11-01T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1120918",
    "event_slug": "most-kills-at-worlds-2026",
    "event_title": "Most Kills at Worlds 2026",
@@ -1914,11 +1946,11 @@
    ],
    "volume": 110.54,
    "volume_24h": 110.54,
-   "liquidity": 156.6237,
+   "liquidity": 160.1337,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1120939",
    "event_slug": "will-a-western-team-reach-the-worlds-2026-grand-final",
    "event_title": "Will a Western team reach the Worlds 2026 Grand Final?",
@@ -1950,7 +1982,7 @@
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1120940",
    "event_slug": "will-gen-g-and-t1-meet-in-the-worlds-2026-grand-final",
    "event_title": "Will Gen.G and T1 meet in the Worlds 2026 Grand Final?",
@@ -1982,7 +2014,7 @@
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1154301",
    "event_slug": "worlds-2026-team-to-reach-knockout-stage",
    "event_title": "Worlds 2026: Team to Reach Knockout Stage",
@@ -2014,7 +2046,7 @@
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1154306",
    "event_slug": "worlds-2026-teams-to-go-0-3-in-swiss-stage",
    "event_title": "Worlds 2026: Teams to Go 0-3 in Swiss Stage",
@@ -2046,7 +2078,7 @@
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1165026",
    "event_slug": "val-vit-loud-2026-10-16",
    "event_title": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
@@ -2070,16 +2102,16 @@
     "LOUD"
    ],
    "prices": [
-    0.75,
-    0.25
+    0.745,
+    0.255
    ],
-   "volume": 444241.062228,
-   "volume_24h": 323366.110775,
-   "liquidity": 25826.8717,
+   "volume": 473517.758297,
+   "volume_24h": 350855.529592,
+   "liquidity": 19251.8494,
    "market_end_date": "2026-10-16T12:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1165026",
    "event_slug": "val-vit-loud-2026-10-16",
    "event_title": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
@@ -2103,16 +2135,16 @@
     "LOUD"
    ],
    "prices": [
-    0.57,
-    0.43
+    0.615,
+    0.385
    ],
-   "volume": 31977.372951,
-   "volume_24h": 32151.616854,
-   "liquidity": 10603.8293,
+   "volume": 77792.45822,
+   "volume_24h": 77816.15822,
+   "liquidity": 11124.7708,
    "market_end_date": "2026-10-16T10:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1165026",
    "event_slug": "val-vit-loud-2026-10-16",
    "event_title": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
@@ -2136,16 +2168,16 @@
     "LOUD"
    ],
    "prices": [
-    0.57,
-    0.43
+    0.615,
+    0.385
    ],
-   "volume": 138.809524,
-   "volume_24h": 120.0,
-   "liquidity": 891.0516,
+   "volume": 172.142858,
+   "volume_24h": 139.533334,
+   "liquidity": 249.901,
    "market_end_date": "2026-10-16T12:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1165026",
    "event_slug": "val-vit-loud-2026-10-16",
    "event_title": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
@@ -2172,13 +2204,13 @@
     0.0005,
     0.9995
    ],
-   "volume": 28186.358744,
-   "volume_24h": 28073.375886,
-   "liquidity": 47804.0542,
+   "volume": 28449.308744,
+   "volume_24h": 28336.325886,
+   "liquidity": 47711.3542,
    "market_end_date": "2026-10-16T12:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1165026",
    "event_slug": "val-vit-loud-2026-10-16",
    "event_title": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
@@ -2202,16 +2234,16 @@
     "Under"
    ],
    "prices": [
-    0.425,
-    0.575
+    0.4,
+    0.6
    ],
-   "volume": 2507.666291,
-   "volume_24h": 2216.019232,
-   "liquidity": 1218.5249,
+   "volume": 2699.903195,
+   "volume_24h": 2408.256136,
+   "liquidity": 609.3755,
    "market_end_date": "2026-10-16T12:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1171349",
    "event_slug": "val-100t1-g21-2026-10-16",
    "event_title": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
@@ -2238,13 +2270,13 @@
     0.645,
     0.355
    ],
-   "volume": 67602.265892,
-   "volume_24h": 25149.850167,
-   "liquidity": 269969.8905,
+   "volume": 68135.529138,
+   "volume_24h": 25655.335635,
+   "liquidity": 274157.1535,
    "market_end_date": "2026-10-16T15:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1171349",
    "event_slug": "val-100t1-g21-2026-10-16",
    "event_title": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
@@ -2277,7 +2309,7 @@
    "market_end_date": "2026-10-16T15:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1171349",
    "event_slug": "val-100t1-g21-2026-10-16",
    "event_title": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
@@ -2304,13 +2336,13 @@
     0.595,
     0.405
    ],
-   "volume": 180.5,
-   "volume_24h": 180.5,
-   "liquidity": 23656.5017,
+   "volume": 205.5,
+   "volume_24h": 205.5,
+   "liquidity": 23583.0017,
    "market_end_date": "2026-10-16T13:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1171349",
    "event_slug": "val-100t1-g21-2026-10-16",
    "event_title": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
@@ -2339,11 +2371,11 @@
    ],
    "volume": 160.660528,
    "volume_24h": 160.660528,
-   "liquidity": 621.1845,
+   "liquidity": 811.6654,
    "market_end_date": "2026-10-16T15:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1171349",
    "event_slug": "val-100t1-g21-2026-10-16",
    "event_title": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
@@ -2367,16 +2399,16 @@
     "G2 Esports"
    ],
    "prices": [
-    0.43,
-    0.57
+    0.555,
+    0.445
    ],
    "volume": 189.716982,
    "volume_24h": 189.716982,
-   "liquidity": 1272.4904,
+   "liquidity": 1738.8291,
    "market_end_date": "2026-10-16T15:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1171349",
    "event_slug": "val-100t1-g21-2026-10-16",
    "event_title": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
@@ -2400,16 +2432,16 @@
     "Under"
    ],
    "prices": [
-    0.385,
-    0.615
+    0.39,
+    0.61
    ],
    "volume": 202.0,
    "volume_24h": 202.0,
-   "liquidity": 1137.2248,
+   "liquidity": 1102.7334,
    "market_end_date": "2026-10-16T15:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1171349",
    "event_slug": "val-100t1-g21-2026-10-16",
    "event_title": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
@@ -2436,13 +2468,13 @@
     0.375,
     0.625
    ],
-   "volume": 1872.800008,
-   "volume_24h": 1867.675905,
-   "liquidity": 37858.6273,
+   "volume": 1972.800008,
+   "volume_24h": 1967.675905,
+   "liquidity": 37853.9773,
    "market_end_date": "2026-10-16T15:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1171349",
    "event_slug": "val-100t1-g21-2026-10-16",
    "event_title": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
@@ -2466,16 +2498,16 @@
     "Under"
    ],
    "prices": [
-    0.475,
-    0.525
+    0.48,
+    0.52
    ],
-   "volume": 412.042519,
-   "volume_24h": 409.959185,
-   "liquidity": 21810.7776,
+   "volume": 620.159186,
+   "volume_24h": 618.075852,
+   "liquidity": 21695.5095,
    "market_end_date": "2026-10-16T15:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1173317",
    "event_slug": "cs2-voc-pha-2026-10-16",
    "event_title": "Counter-Strike: Voca vs Phantom (BO1) - Elisa BreakOut Series #2 Group B",
@@ -2500,13 +2532,13 @@
     0.455,
     0.545
    ],
-   "volume": 16963.234981,
-   "volume_24h": 16873.057202,
-   "liquidity": 57255.7825,
+   "volume": 17015.271345,
+   "volume_24h": 16925.093566,
+   "liquidity": 56958.5801,
    "market_end_date": "2026-10-16T14:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1173319",
    "event_slug": "cs2-voc-havu-2026-10-16",
    "event_title": "Counter-Strike: Voca vs HAVU (BO1) - Elisa BreakOut Series #2 Group B",
@@ -2531,13 +2563,13 @@
     0.575,
     0.425
    ],
-   "volume": 10482.926409,
-   "volume_24h": 10457.926409,
-   "liquidity": 41016.6807,
+   "volume": 10522.926409,
+   "volume_24h": 10497.926409,
+   "liquidity": 40114.463,
    "market_end_date": "2026-10-16T18:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1176854",
    "event_slug": "dota2-pckcp-ic-2026-10-13",
    "event_title": "Dota 2: PuckChamp vs Inner Circle (BO3) - EPL Masters Play-In Group A",
@@ -2568,7 +2600,7 @@
    "market_end_date": "2026-10-17T16:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1176854",
    "event_slug": "dota2-pckcp-ic-2026-10-13",
    "event_title": "Dota 2: PuckChamp vs Inner Circle (BO3) - EPL Masters Play-In Group A",
@@ -2599,7 +2631,7 @@
    "market_end_date": "2026-10-17T16:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1176854",
    "event_slug": "dota2-pckcp-ic-2026-10-13",
    "event_title": "Dota 2: PuckChamp vs Inner Circle (BO3) - EPL Masters Play-In Group A",
@@ -2630,7 +2662,7 @@
    "market_end_date": "2026-10-17T16:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1177629",
    "event_slug": "thunderpick-world-championship-2026-winner",
    "event_title": "Thunderpick World Championship 2026: Winner",
@@ -2658,11 +2690,11 @@
    ],
    "volume": 2897.838471,
    "volume_24h": 594.235295,
-   "liquidity": 7509.8816,
+   "liquidity": 7498.2816,
    "market_end_date": "2026-10-20T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1177629",
    "event_slug": "thunderpick-world-championship-2026-winner",
    "event_title": "Thunderpick World Championship 2026: Winner",
@@ -2690,11 +2722,11 @@
    ],
    "volume": 1924.442034,
    "volume_24h": 1235.96,
-   "liquidity": 5395.8739,
+   "liquidity": 5387.6739,
    "market_end_date": "2026-10-20T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1177629",
    "event_slug": "thunderpick-world-championship-2026-winner",
    "event_title": "Thunderpick World Championship 2026: Winner",
@@ -2722,11 +2754,11 @@
    ],
    "volume": 783.263158,
    "volume_24h": 300.0,
-   "liquidity": 5769.9735,
+   "liquidity": 5778.9735,
    "market_end_date": "2026-10-20T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1177849",
    "event_slug": "cs2-prv-mgc-2026-10-19",
    "event_title": "Counter-Strike: PARIVISION vs magic (BO3) - 1win Private Club #2 Playoffs",
@@ -2752,12 +2784,12 @@
     0.405
    ],
    "volume": 54625.43214,
-   "volume_24h": 4186.883674,
-   "liquidity": 25173.1494,
+   "volume_24h": 3945.067007,
+   "liquidity": 25175.1494,
    "market_end_date": "2026-10-20T00:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1177849",
    "event_slug": "cs2-prv-mgc-2026-10-19",
    "event_title": "Counter-Strike: PARIVISION vs magic (BO3) - 1win Private Club #2 Playoffs",
@@ -2784,11 +2816,11 @@
    ],
    "volume": 209.595,
    "volume_24h": 209.595,
-   "liquidity": 3677.4704,
+   "liquidity": 3678.4805,
    "market_end_date": "2026-10-20T00:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1182005",
    "event_slug": "lol-rb-g2h-2026-10-20",
    "event_title": "LoL: Vitality Rising Bees vs G2 HEL (BO5) - LGC Rising Playoffs",
@@ -2819,7 +2851,7 @@
    "market_end_date": "2026-10-20T22:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1182978",
    "event_slug": "cs2-cw1-rgg-2026-10-16",
    "event_title": "Counter-Strike: Copenhagen Wolves vs RoundsGG (BO3) - European Pro League Regular Playoffs",
@@ -2841,16 +2873,16 @@
     "RoundsGG"
    ],
    "prices": [
-    0.595,
-    0.405
+    0.605,
+    0.395
    ],
-   "volume": 7094.598948,
-   "volume_24h": 7006.80539,
-   "liquidity": 9224.0452,
+   "volume": 8198.838947,
+   "volume_24h": 8111.045389,
+   "liquidity": 9162.5604,
    "market_end_date": "2026-10-16T14:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1182978",
    "event_slug": "cs2-cw1-rgg-2026-10-16",
    "event_title": "Counter-Strike: Copenhagen Wolves vs RoundsGG (BO3) - European Pro League Regular Playoffs",
@@ -2877,11 +2909,11 @@
    ],
    "volume": 365.420715,
    "volume_24h": 365.420715,
-   "liquidity": 1040.1475,
+   "liquidity": 1087.1446,
    "market_end_date": "2026-10-16T12:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1182978",
    "event_slug": "cs2-cw1-rgg-2026-10-16",
    "event_title": "Counter-Strike: Copenhagen Wolves vs RoundsGG (BO3) - European Pro League Regular Playoffs",
@@ -2908,11 +2940,11 @@
    ],
    "volume": 2173.366727,
    "volume_24h": 2173.366727,
-   "liquidity": 1569.8058,
+   "liquidity": 1566.2897,
    "market_end_date": "2026-10-16T14:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1184549",
    "event_slug": "cs2-offseason-m0nesy-next-team-1791819577515",
    "event_title": "CS2 Offseason: m0NESY Next Team",
@@ -2943,7 +2975,7 @@
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1186062",
    "event_slug": "worlds-2026-team-to-advance-from-play-in",
    "event_title": "Worlds 2026: Team to Advance from Play-In",
@@ -2976,7 +3008,7 @@
    "market_end_date": "2026-10-20T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1186062",
    "event_slug": "worlds-2026-team-to-advance-from-play-in",
    "event_title": "Worlds 2026: Team to Advance from Play-In",
@@ -3005,11 +3037,11 @@
    ],
    "volume": 888.041179,
    "volume_24h": 888.041179,
-   "liquidity": 305.8996,
+   "liquidity": 306.6989,
    "market_end_date": "2026-10-20T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1189044",
    "event_slug": "dota2-tr7-zenith-2026-10-14",
    "event_title": "Dota 2: Team Resilience vs Zenith (BO3) - BLAST Slam China Closed Qualifier Playoffs",
@@ -3035,13 +3067,13 @@
     0.9995,
     0.0005
    ],
-   "volume": 16478.524371,
-   "volume_24h": 15662.652166,
+   "volume": 16798.064371,
+   "volume_24h": 15711.932166,
    "liquidity": 50792.89507,
    "market_end_date": "2026-10-16T11:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1189044",
    "event_slug": "dota2-tr7-zenith-2026-10-14",
    "event_title": "Dota 2: Team Resilience vs Zenith (BO3) - BLAST Slam China Closed Qualifier Playoffs",
@@ -3064,16 +3096,16 @@
     "Zenith"
    ],
    "prices": [
-    0.9995,
-    0.0005
+    0.9955,
+    0.0045
    ],
-   "volume": 789.549764,
-   "volume_24h": 784.549764,
-   "liquidity": 1985.06331,
+   "volume": 897.199764,
+   "volume_24h": 892.199764,
+   "liquidity": 1938.1539,
    "market_end_date": "2026-10-16T11:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1189044",
    "event_slug": "dota2-tr7-zenith-2026-10-14",
    "event_title": "Dota 2: Team Resilience vs Zenith (BO3) - BLAST Slam China Closed Qualifier Playoffs",
@@ -3105,7 +3137,7 @@
    "market_end_date": "2026-10-16T11:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1189044",
    "event_slug": "dota2-tr7-zenith-2026-10-14",
    "event_title": "Dota 2: Team Resilience vs Zenith (BO3) - BLAST Slam China Closed Qualifier Playoffs",
@@ -3137,7 +3169,7 @@
    "market_end_date": "2026-10-16T11:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1189046",
    "event_slug": "dota2-tt2-rg6-2026-10-15",
    "event_title": "Dota 2: Team Tidebound vs Resp Gaming (BO3) - BLAST Slam China Closed Qualifier Playoffs",
@@ -3160,16 +3192,16 @@
     "Resp Gaming"
    ],
    "prices": [
-    0.7,
-    0.3
+    0.79,
+    0.21
    ],
-   "volume": 43477.671945,
-   "volume_24h": 43401.668116,
-   "liquidity": 29784.9818,
+   "volume": 67045.837552,
+   "volume_24h": 67376.95345,
+   "liquidity": 38815.9198,
    "market_end_date": "2026-10-16T14:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1189046",
    "event_slug": "dota2-tt2-rg6-2026-10-15",
    "event_title": "Dota 2: Team Tidebound vs Resp Gaming (BO3) - BLAST Slam China Closed Qualifier Playoffs",
@@ -3192,16 +3224,16 @@
     "Resp Gaming"
    ],
    "prices": [
-    0.705,
-    0.295
+    0.815,
+    0.185
    ],
-   "volume": 14225.314327,
-   "volume_24h": 14511.024327,
-   "liquidity": 16550.9557,
+   "volume": 21103.845756,
+   "volume_24h": 27819.802841,
+   "liquidity": 26912.3923,
    "market_end_date": "2026-10-16T14:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1189649",
    "event_slug": "dota2-z10-ic-2026-10-15",
    "event_title": "Dota 2: Zero Tenacity vs Inner Circle (BO3) - EPL Masters Play-In Group A",
@@ -3233,7 +3265,7 @@
    "market_end_date": "2026-10-17T22:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1189649",
    "event_slug": "dota2-z10-ic-2026-10-15",
    "event_title": "Dota 2: Zero Tenacity vs Inner Circle (BO3) - EPL Masters Play-In Group A",
@@ -3265,7 +3297,7 @@
    "market_end_date": "2026-10-17T22:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1189649",
    "event_slug": "dota2-z10-ic-2026-10-15",
    "event_title": "Dota 2: Zero Tenacity vs Inner Circle (BO3) - EPL Masters Play-In Group A",
@@ -3297,7 +3329,7 @@
    "market_end_date": "2026-10-17T22:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1189649",
    "event_slug": "dota2-z10-ic-2026-10-15",
    "event_title": "Dota 2: Zero Tenacity vs Inner Circle (BO3) - EPL Masters Play-In Group A",
@@ -3329,7 +3361,7 @@
    "market_end_date": "2026-10-17T22:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1189649",
    "event_slug": "dota2-z10-ic-2026-10-15",
    "event_title": "Dota 2: Zero Tenacity vs Inner Circle (BO3) - EPL Masters Play-In Group A",
@@ -3361,7 +3393,7 @@
    "market_end_date": "2026-10-17T22:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1189649",
    "event_slug": "dota2-z10-ic-2026-10-15",
    "event_title": "Dota 2: Zero Tenacity vs Inner Circle (BO3) - EPL Masters Play-In Group A",
@@ -3393,7 +3425,7 @@
    "market_end_date": "2026-10-17T22:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1189651",
    "event_slug": "dota2-ic-menawa-2026-10-15",
    "event_title": "Dota 2: Inner Circle vs Mena Warriors (BO3) - EPL Masters Play-In Group A",
@@ -3424,7 +3456,7 @@
    "market_end_date": "2026-10-16T22:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1189651",
    "event_slug": "dota2-ic-menawa-2026-10-15",
    "event_title": "Dota 2: Inner Circle vs Mena Warriors (BO3) - EPL Masters Play-In Group A",
@@ -3455,7 +3487,7 @@
    "market_end_date": "2026-10-16T22:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1189651",
    "event_slug": "dota2-ic-menawa-2026-10-15",
    "event_title": "Dota 2: Inner Circle vs Mena Warriors (BO3) - EPL Masters Play-In Group A",
@@ -3486,7 +3518,7 @@
    "market_end_date": "2026-10-16T22:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1189651",
    "event_slug": "dota2-ic-menawa-2026-10-15",
    "event_title": "Dota 2: Inner Circle vs Mena Warriors (BO3) - EPL Masters Play-In Group A",
@@ -3517,7 +3549,7 @@
    "market_end_date": "2026-10-16T22:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1189898",
    "event_slug": "dota2-xtreme-cloudd-2026-10-15",
    "event_title": "Dota 2: Xtreme Gaming vs Cloud Dawning (BO3) - BLAST Slam China Closed Qualifier Playoffs",
@@ -3548,7 +3580,7 @@
    "market_end_date": "2026-10-16T17:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1189898",
    "event_slug": "dota2-xtreme-cloudd-2026-10-15",
    "event_title": "Dota 2: Xtreme Gaming vs Cloud Dawning (BO3) - BLAST Slam China Closed Qualifier Playoffs",
@@ -3579,7 +3611,7 @@
    "market_end_date": "2026-10-16T17:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1189898",
    "event_slug": "dota2-xtreme-cloudd-2026-10-15",
    "event_title": "Dota 2: Xtreme Gaming vs Cloud Dawning (BO3) - BLAST Slam China Closed Qualifier Playoffs",
@@ -3610,7 +3642,7 @@
    "market_end_date": "2026-10-16T17:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1189898",
    "event_slug": "dota2-xtreme-cloudd-2026-10-15",
    "event_title": "Dota 2: Xtreme Gaming vs Cloud Dawning (BO3) - BLAST Slam China Closed Qualifier Playoffs",
@@ -3641,7 +3673,7 @@
    "market_end_date": "2026-10-16T17:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1190751",
    "event_slug": "cs2-forzer-lavked-2026-10-16",
    "event_title": "Counter-Strike: FORZE Reload vs Lavked (BO3) - CCT Europe Series #11 Group Stage",
@@ -3666,13 +3698,13 @@
     0.73,
     0.27
    ],
-   "volume": 4643.065304,
-   "volume_24h": 4643.065304,
-   "liquidity": 11197.5089,
+   "volume": 4770.095304,
+   "volume_24h": 4770.095304,
+   "liquidity": 10716.2885,
    "market_end_date": "2026-10-16T20:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1192320",
    "event_slug": "val-fut1-ff3-2026-10-24",
    "event_title": "Valorant: FUT Esports vs Fire Flux Esports (BO3) - Monsters Reloaded Playoffs",
@@ -3703,7 +3735,7 @@
    "market_end_date": "2026-10-24T22:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1192325",
    "event_slug": "lol-gal-sly-2026-10-22",
    "event_title": "LoL: Galions vs Solary (BO5) - EMEA Masters Playoffs",
@@ -3726,16 +3758,16 @@
     "Solary"
    ],
    "prices": [
-    0.445,
-    0.555
+    0.44,
+    0.56
    ],
    "volume": 4403.631601,
    "volume_24h": 4403.631601,
-   "liquidity": 8617.5495,
+   "liquidity": 8628.2495,
    "market_end_date": "2026-10-22T18:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1192431",
    "event_slug": "cs2-sta6-thecha-2026-10-16",
    "event_title": "Counter-Strike: STATE vs TheChampionGG (BO3) - United21 Group B",
@@ -3760,13 +3792,13 @@
     0.505,
     0.495
    ],
-   "volume": 12090.519491,
-   "volume_24h": 12090.519491,
-   "liquidity": 48640.2853,
+   "volume": 12191.44106,
+   "volume_24h": 12191.44106,
+   "liquidity": 48768.8603,
    "market_end_date": "2026-10-16T16:30:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1192431",
    "event_slug": "cs2-sta6-thecha-2026-10-16",
    "event_title": "Counter-Strike: STATE vs TheChampionGG (BO3) - United21 Group B",
@@ -3797,7 +3829,7 @@
    "market_end_date": "2026-10-16T14:30:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1192431",
    "event_slug": "cs2-sta6-thecha-2026-10-16",
    "event_title": "Counter-Strike: STATE vs TheChampionGG (BO3) - United21 Group B",
@@ -3822,13 +3854,13 @@
     0.505,
     0.495
    ],
-   "volume": 1081.673536,
-   "volume_24h": 1081.673536,
-   "liquidity": 32109.1309,
+   "volume": 1090.353536,
+   "volume_24h": 1090.353536,
+   "liquidity": 32168.3677,
    "market_end_date": "2026-10-16T14:30:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1192431",
    "event_slug": "cs2-sta6-thecha-2026-10-16",
    "event_title": "Counter-Strike: STATE vs TheChampionGG (BO3) - United21 Group B",
@@ -3859,7 +3891,7 @@
    "market_end_date": "2026-10-16T16:30:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1192432",
    "event_slug": "cs2-jdt-youren-2026-10-16",
    "event_title": "Counter-Strike: Joga de terno vs your end (BO3) - CCT South America Series 7 Group Stage",
@@ -3886,11 +3918,11 @@
    ],
    "volume": 1840.732425,
    "volume_24h": 1840.732425,
-   "liquidity": 8286.6178,
+   "liquidity": 8034.0586,
    "market_end_date": "2026-10-16T19:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1192432",
    "event_slug": "cs2-jdt-youren-2026-10-16",
    "event_title": "Counter-Strike: Joga de terno vs your end (BO3) - CCT South America Series 7 Group Stage",
@@ -3917,11 +3949,11 @@
    ],
    "volume": 576.395153,
    "volume_24h": 576.395153,
-   "liquidity": 1979.1171,
+   "liquidity": 2517.9278,
    "market_end_date": "2026-10-16T17:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1192432",
    "event_slug": "cs2-jdt-youren-2026-10-16",
    "event_title": "Counter-Strike: Joga de terno vs your end (BO3) - CCT South America Series 7 Group Stage",
@@ -3946,13 +3978,13 @@
     0.55,
     0.45
    ],
-   "volume": 105.05,
-   "volume_24h": 105.05,
-   "liquidity": 3648.645,
+   "volume": 119.003489,
+   "volume_24h": 119.003489,
+   "liquidity": 3635.2756,
    "market_end_date": "2026-10-16T17:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194255",
    "event_slug": "lol-fox1-we-2026-10-17",
    "event_title": "LoL: BNK FEARX vs Team WE (BO5) - Demacia Cup Global Invitational Playoffs",
@@ -3978,13 +4010,13 @@
     0.675,
     0.325
    ],
-   "volume": 140914.029951,
-   "volume_24h": 140946.229951,
-   "liquidity": 88078.2094,
+   "volume": 148349.412301,
+   "volume_24h": 148381.612301,
+   "liquidity": 85986.0758,
    "market_end_date": "2026-10-17T15:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194255",
    "event_slug": "lol-fox1-we-2026-10-17",
    "event_title": "LoL: BNK FEARX vs Team WE (BO5) - Demacia Cup Global Invitational Playoffs",
@@ -4012,11 +4044,11 @@
    ],
    "volume": 3287.544124,
    "volume_24h": 3287.544124,
-   "liquidity": 27189.78,
+   "liquidity": 27170.7808,
    "market_end_date": "2026-10-17T15:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194255",
    "event_slug": "lol-fox1-we-2026-10-17",
    "event_title": "LoL: BNK FEARX vs Team WE (BO5) - Demacia Cup Global Invitational Playoffs",
@@ -4048,7 +4080,7 @@
    "market_end_date": "2026-10-17T15:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194255",
    "event_slug": "lol-fox1-we-2026-10-17",
    "event_title": "LoL: BNK FEARX vs Team WE (BO5) - Demacia Cup Global Invitational Playoffs",
@@ -4074,13 +4106,45 @@
     0.6,
     0.4
    ],
-   "volume": 1091.529025,
-   "volume_24h": 1091.529025,
-   "liquidity": 15208.7465,
+   "volume": 2050.870477,
+   "volume_24h": 2050.870477,
+   "liquidity": 15143.2265,
    "market_end_date": "2026-10-17T13:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
+   "event_id": "1194255",
+   "event_slug": "lol-fox1-we-2026-10-17",
+   "event_title": "LoL: BNK FEARX vs Team WE (BO5) - Demacia Cup Global Invitational Playoffs",
+   "event_start_date": "2026-10-15T13:50:17Z",
+   "event_end_date": "2026-10-17T15:00:00Z",
+   "sources": [
+    "tag_slug=esports",
+    "tag_slug=league-of-legends"
+   ],
+   "market_slug": "lol-fox1-we-2026-10-17-game2",
+   "question": "LoL: BNK FEARX vs Team WE - Game 2 Winner",
+   "group_item": "Game 2 Winner",
+   "condition_id": "0xf1ed6c1ca94297f10b1e52259b13afee1b93551205d4dd3828e83e68b5baa4b5",
+   "token_ids": [
+    "2403470752082287456486786408816148998234956856899335083483833963885929814645",
+    "94280861409754531062830141559041562722371857578326561078153522720850561244481"
+   ],
+   "outcomes": [
+    "BNK FEARX",
+    "Team WE"
+   ],
+   "prices": [
+    0.605,
+    0.395
+   ],
+   "volume": 969.132572,
+   "volume_24h": 969.132572,
+   "liquidity": 8757.1952,
+   "market_end_date": "2026-10-17T13:00:00Z"
+  },
+  {
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194255",
    "event_slug": "lol-fox1-we-2026-10-17",
    "event_title": "LoL: BNK FEARX vs Team WE (BO5) - Demacia Cup Global Invitational Playoffs",
@@ -4108,11 +4172,11 @@
    ],
    "volume": 130.0,
    "volume_24h": 130.0,
-   "liquidity": 8550.4371,
+   "liquidity": 8694.8371,
    "market_end_date": "2026-10-17T14:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194255",
    "event_slug": "lol-fox1-we-2026-10-17",
    "event_title": "LoL: BNK FEARX vs Team WE (BO5) - Demacia Cup Global Invitational Playoffs",
@@ -4140,11 +4204,11 @@
    ],
    "volume": 1246.116897,
    "volume_24h": 1246.116897,
-   "liquidity": 14588.9953,
+   "liquidity": 14586.0027,
    "market_end_date": "2026-10-17T15:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194255",
    "event_slug": "lol-fox1-we-2026-10-17",
    "event_title": "LoL: BNK FEARX vs Team WE (BO5) - Demacia Cup Global Invitational Playoffs",
@@ -4170,13 +4234,13 @@
     0.335,
     0.665
    ],
-   "volume": 135.263073,
-   "volume_24h": 135.263073,
+   "volume": 143.834502,
+   "volume_24h": 143.834502,
    "liquidity": 22119.6503,
    "market_end_date": "2026-10-17T15:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194412",
    "event_slug": "cs2-nip-tl1-2026-10-16",
    "event_title": "Counter-Strike: NIP vs Liquid (BO3) - Stake Pulse Beat III Playoffs",
@@ -4201,13 +4265,13 @@
     0.495,
     0.505
    ],
-   "volume": 52086.665613,
-   "volume_24h": 52092.05777,
-   "liquidity": 316795.3836,
+   "volume": 54880.480516,
+   "volume_24h": 54885.872673,
+   "liquidity": 325019.7837,
    "market_end_date": "2026-10-16T14:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194412",
    "event_slug": "cs2-nip-tl1-2026-10-16",
    "event_title": "Counter-Strike: NIP vs Liquid (BO3) - Stake Pulse Beat III Playoffs",
@@ -4232,13 +4296,13 @@
     0.535,
     0.465
    ],
-   "volume": 21461.297592,
-   "volume_24h": 21461.297592,
-   "liquidity": 24334.6211,
+   "volume": 21463.149444,
+   "volume_24h": 21463.149444,
+   "liquidity": 24459.4544,
    "market_end_date": "2026-10-16T12:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194412",
    "event_slug": "cs2-nip-tl1-2026-10-16",
    "event_title": "Counter-Strike: NIP vs Liquid (BO3) - Stake Pulse Beat III Playoffs",
@@ -4265,11 +4329,11 @@
    ],
    "volume": 37061.87209,
    "volume_24h": 37061.87209,
-   "liquidity": 13897.7652,
+   "liquidity": 13945.5601,
    "market_end_date": "2026-10-16T12:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194412",
    "event_slug": "cs2-nip-tl1-2026-10-16",
    "event_title": "Counter-Strike: NIP vs Liquid (BO3) - Stake Pulse Beat III Playoffs",
@@ -4296,11 +4360,11 @@
    ],
    "volume": 3520.945479,
    "volume_24h": 3520.945479,
-   "liquidity": 3464.9069,
+   "liquidity": 3465.865,
    "market_end_date": "2026-10-16T14:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194412",
    "event_slug": "cs2-nip-tl1-2026-10-16",
    "event_title": "Counter-Strike: NIP vs Liquid (BO3) - Stake Pulse Beat III Playoffs",
@@ -4325,13 +4389,13 @@
     0.26,
     0.74
    ],
-   "volume": 32659.449783,
-   "volume_24h": 32659.449783,
-   "liquidity": 7458.3961,
+   "volume": 32669.449783,
+   "volume_24h": 32669.449783,
+   "liquidity": 7457.4929,
    "market_end_date": "2026-10-16T14:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194412",
    "event_slug": "cs2-nip-tl1-2026-10-16",
    "event_title": "Counter-Strike: NIP vs Liquid (BO3) - Stake Pulse Beat III Playoffs",
@@ -4358,11 +4422,11 @@
    ],
    "volume": 117.711173,
    "volume_24h": 117.711173,
-   "liquidity": 5469.0141,
+   "liquidity": 5469.7164,
    "market_end_date": "2026-10-16T14:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194413",
    "event_slug": "cs2-100t-sng2-2026-10-16",
    "event_title": "Counter-Strike: 100 Thieves vs Sangal (BO3) - Stake Pulse Beat III Playoffs",
@@ -4389,11 +4453,11 @@
    ],
    "volume": 54348.413368,
    "volume_24h": 54348.413368,
-   "liquidity": 117025.416,
+   "liquidity": 119465.7793,
    "market_end_date": "2026-10-16T23:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194413",
    "event_slug": "cs2-100t-sng2-2026-10-16",
    "event_title": "Counter-Strike: 100 Thieves vs Sangal (BO3) - Stake Pulse Beat III Playoffs",
@@ -4420,11 +4484,11 @@
    ],
    "volume": 1163.681103,
    "volume_24h": 1163.681103,
-   "liquidity": 11974.3371,
+   "liquidity": 12126.7041,
    "market_end_date": "2026-10-16T21:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194413",
    "event_slug": "cs2-100t-sng2-2026-10-16",
    "event_title": "Counter-Strike: 100 Thieves vs Sangal (BO3) - Stake Pulse Beat III Playoffs",
@@ -4455,7 +4519,7 @@
    "market_end_date": "2026-10-16T23:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194471",
    "event_slug": "cs2-nem-ntr-2026-10-16",
    "event_title": "Counter-Strike: Team Nemesis vs Nuclear TigeRES (BO3) - PGL Bucharest Closed Qualifier Playoffs",
@@ -4480,13 +4544,13 @@
     0.565,
     0.435
    ],
-   "volume": 6611.468557,
-   "volume_24h": 6611.468557,
-   "liquidity": 59743.2992,
+   "volume": 6651.468557,
+   "volume_24h": 6651.468557,
+   "liquidity": 59394.3392,
    "market_end_date": "2026-10-16T17:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194512",
    "event_slug": "cs2-aur1-9z-2026-10-16",
    "event_title": "Counter-Strike: Aurora Gaming vs 9z (BO3) - Thunderpick World Championship Group A",
@@ -4511,13 +4575,13 @@
     0.695,
     0.305
    ],
-   "volume": 23598.814877,
-   "volume_24h": 23598.814877,
-   "liquidity": 100699.3977,
+   "volume": 23603.469254,
+   "volume_24h": 23603.469254,
+   "liquidity": 99968.5677,
    "market_end_date": "2026-10-16T20:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194512",
    "event_slug": "cs2-aur1-9z-2026-10-16",
    "event_title": "Counter-Strike: Aurora Gaming vs 9z (BO3) - Thunderpick World Championship Group A",
@@ -4548,7 +4612,7 @@
    "market_end_date": "2026-10-16T18:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194512",
    "event_slug": "cs2-aur1-9z-2026-10-16",
    "event_title": "Counter-Strike: Aurora Gaming vs 9z (BO3) - Thunderpick World Championship Group A",
@@ -4579,7 +4643,7 @@
    "market_end_date": "2026-10-16T20:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194512",
    "event_slug": "cs2-aur1-9z-2026-10-16",
    "event_title": "Counter-Strike: Aurora Gaming vs 9z (BO3) - Thunderpick World Championship Group A",
@@ -4601,16 +4665,16 @@
     "Under"
    ],
    "prices": [
-    0.45,
-    0.55
+    0.455,
+    0.545
    ],
    "volume": 178.43345,
    "volume_24h": 178.43345,
-   "liquidity": 39216.3111,
+   "liquidity": 37887.1975,
    "market_end_date": "2026-10-16T20:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194559",
    "event_slug": "dota2-ch1-z10-2026-10-16",
    "event_title": "Dota 2: CyberHero vs Zero Tenacity (BO3) - EPL Masters Play-In Group A",
@@ -4633,16 +4697,16 @@
     "Zero Tenacity"
    ],
    "prices": [
-    0.695,
-    0.305
+    0.715,
+    0.285
    ],
-   "volume": 6770.963901,
-   "volume_24h": 6770.963901,
-   "liquidity": 27451.9772,
+   "volume": 7108.21901,
+   "volume_24h": 7108.21901,
+   "liquidity": 26208.5039,
    "market_end_date": "2026-10-16T13:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194559",
    "event_slug": "dota2-ch1-z10-2026-10-16",
    "event_title": "Dota 2: CyberHero vs Zero Tenacity (BO3) - EPL Masters Play-In Group A",
@@ -4665,16 +4729,16 @@
     "Zero Tenacity"
    ],
    "prices": [
-    0.65,
-    0.35
+    0.67,
+    0.33
    ],
-   "volume": 5462.716354,
-   "volume_24h": 6048.66969,
-   "liquidity": 18310.8831,
+   "volume": 17643.437482,
+   "volume_24h": 17771.897482,
+   "liquidity": 22453.6053,
    "market_end_date": "2026-10-16T11:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194560",
    "event_slug": "dota2-dawnbu-pckcp-2026-10-16",
    "event_title": "Dota 2: Dawn Bulls vs PuckChamp (BO3) - DreamLeague Western Europe Closed Qualifier Playoffs",
@@ -4705,7 +4769,7 @@
    "market_end_date": "2026-10-16T16:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194561",
    "event_slug": "dota2-menawa-ch1-2026-10-16",
    "event_title": "Dota 2: Mena Warriors vs CyberHero (BO3) - EPL Masters Play-In Group A",
@@ -4736,7 +4800,7 @@
    "market_end_date": "2026-10-16T16:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194562",
    "event_slug": "dota2-nemiga-spirit1-2026-10-16",
    "event_title": "Dota 2: Nemiga Gaming vs Spirit Academy (BO3) - EPL Masters Play-In Group B",
@@ -4767,7 +4831,7 @@
    "market_end_date": "2026-10-16T19:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194589",
    "event_slug": "dota2-yes-thewar-2026-10-16",
    "event_title": "Dota 2: Yellow Submarine vs The Warriors (BO3) - EPL Masters Play-In Group B",
@@ -4798,7 +4862,7 @@
    "market_end_date": "2026-10-16T22:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194589",
    "event_slug": "dota2-yes-thewar-2026-10-16",
    "event_title": "Dota 2: Yellow Submarine vs The Warriors (BO3) - EPL Masters Play-In Group B",
@@ -4829,7 +4893,7 @@
    "market_end_date": "2026-10-16T20:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194590",
    "event_slug": "dota2-salami-yes-2026-10-16",
    "event_title": "Dota 2: salamit vs Yellow Submarine (BO3) - EPL Masters Play-In Group B",
@@ -4857,11 +4921,11 @@
    ],
    "volume": 923.74637,
    "volume_24h": 923.74637,
-   "liquidity": 8527.0345,
+   "liquidity": 8484.8199,
    "market_end_date": "2026-10-17T01:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194590",
    "event_slug": "dota2-salami-yes-2026-10-16",
    "event_title": "Dota 2: salamit vs Yellow Submarine (BO3) - EPL Masters Play-In Group B",
@@ -4889,11 +4953,11 @@
    ],
    "volume": 1835.135058,
    "volume_24h": 1835.135058,
-   "liquidity": 6532.9583,
+   "liquidity": 6733.5459,
    "market_end_date": "2026-10-17T01:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194590",
    "event_slug": "dota2-salami-yes-2026-10-16",
    "event_title": "Dota 2: salamit vs Yellow Submarine (BO3) - EPL Masters Play-In Group B",
@@ -4925,7 +4989,7 @@
    "market_end_date": "2026-10-16T23:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1194590",
    "event_slug": "dota2-salami-yes-2026-10-16",
    "event_title": "Dota 2: salamit vs Yellow Submarine (BO3) - EPL Masters Play-In Group B",
@@ -4957,7 +5021,7 @@
    "market_end_date": "2026-10-16T23:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1195262",
    "event_slug": "will-jynxzi-reach-unreal-rank-in-fortnite-by-2026",
    "event_title": "Will Jynxzi reach Unreal rank in Fortnite by...?",
@@ -4984,11 +5048,11 @@
    ],
    "volume": 1926.478078,
    "volume_24h": 1926.478078,
-   "liquidity": 412.6489,
+   "liquidity": 428.8581,
    "market_end_date": "2026-10-20T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1195262",
    "event_slug": "will-jynxzi-reach-unreal-rank-in-fortnite-by-2026",
    "event_title": "Will Jynxzi reach Unreal rank in Fortnite by...?",
@@ -5019,7 +5083,7 @@
    "market_end_date": "2026-10-24T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1195262",
    "event_slug": "will-jynxzi-reach-unreal-rank-in-fortnite-by-2026",
    "event_title": "Will Jynxzi reach Unreal rank in Fortnite by...?",
@@ -5050,7 +5114,7 @@
    "market_end_date": "2026-10-31T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1195339",
    "event_slug": "dota2-p-whites-2026-10-16",
    "event_title": "Dota 2: potn9ki vs White Sails (BO3) - DreamLeague Western Europe Closed Qualifier Playoffs",
@@ -5081,7 +5145,7 @@
    "market_end_date": "2026-10-16T16:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1196166",
    "event_slug": "cs2-fnc-hero-2026-10-16",
    "event_title": "Counter-Strike: fnatic vs Heroic (BO3) - Stake Pulse Beat III Playoffs",
@@ -5106,13 +5170,13 @@
     0.355,
     0.645
    ],
-   "volume": 26299.941361,
-   "volume_24h": 26299.941361,
-   "liquidity": 80437.0117,
+   "volume": 26341.936232,
+   "volume_24h": 26343.474694,
+   "liquidity": 67602.6355,
    "market_end_date": "2026-10-16T17:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1196166",
    "event_slug": "cs2-fnc-hero-2026-10-16",
    "event_title": "Counter-Strike: fnatic vs Heroic (BO3) - Stake Pulse Beat III Playoffs",
@@ -5139,11 +5203,11 @@
    ],
    "volume": 498.220405,
    "volume_24h": 498.220405,
-   "liquidity": 10127.523,
+   "liquidity": 10107.2141,
    "market_end_date": "2026-10-16T17:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1196166",
    "event_slug": "cs2-fnc-hero-2026-10-16",
    "event_title": "Counter-Strike: fnatic vs Heroic (BO3) - Stake Pulse Beat III Playoffs",
@@ -5168,13 +5232,13 @@
     0.365,
     0.635
    ],
-   "volume": 231.64336,
-   "volume_24h": 231.64336,
-   "liquidity": 21342.1107,
+   "volume": 260.781874,
+   "volume_24h": 260.781874,
+   "liquidity": 21417.711,
    "market_end_date": "2026-10-16T17:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1196576",
    "event_slug": "cs2-ast10-mibr-2026-10-16",
    "event_title": "Counter-Strike: Astralis vs MIBR (BO3) - Stake Pulse Beat III Playoffs",
@@ -5199,13 +5263,13 @@
     0.485,
     0.515
    ],
-   "volume": 75565.05405,
-   "volume_24h": 75565.05405,
-   "liquidity": 91777.0905,
+   "volume": 75649.145495,
+   "volume_24h": 75649.145495,
+   "liquidity": 92627.9974,
    "market_end_date": "2026-10-16T20:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1196576",
    "event_slug": "cs2-ast10-mibr-2026-10-16",
    "event_title": "Counter-Strike: Astralis vs MIBR (BO3) - Stake Pulse Beat III Playoffs",
@@ -5232,11 +5296,11 @@
    ],
    "volume": 9976.610771,
    "volume_24h": 9976.610771,
-   "liquidity": 12006.0052,
+   "liquidity": 12045.0852,
    "market_end_date": "2026-10-16T18:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1196576",
    "event_slug": "cs2-ast10-mibr-2026-10-16",
    "event_title": "Counter-Strike: Astralis vs MIBR (BO3) - Stake Pulse Beat III Playoffs",
@@ -5263,11 +5327,11 @@
    ],
    "volume": 140.32,
    "volume_24h": 140.32,
-   "liquidity": 11389.7344,
+   "liquidity": 11385.2444,
    "market_end_date": "2026-10-16T20:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1196668",
    "event_slug": "dota2-rb1-iac-2026-10-16",
    "event_title": "Dota 2: Royal Bear vs InterActive Philippines (BO3) - DreamLeague Southeast Asia Closed Qualifier Playoffs",
@@ -5298,7 +5362,7 @@
    "market_end_date": "2026-10-16T18:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1196696",
    "event_slug": "dota2-og-legion1-2026-10-16",
    "event_title": "Dota 2: OG vs LEGION (BO3) - DreamLeague Western Europe Closed Qualifier Playoffs",
@@ -5329,7 +5393,7 @@
    "market_end_date": "2026-10-17T00:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1196836",
    "event_slug": "cs2-lgc-bb3-2026-10-16",
    "event_title": "Counter-Strike: Legacy vs BetBoom Team (BO3) - Thunderpick World Championship Group B",
@@ -5354,13 +5418,13 @@
     0.635,
     0.365
    ],
-   "volume": 14405.530687,
-   "volume_24h": 14405.530687,
-   "liquidity": 91793.2392,
+   "volume": 15237.403187,
+   "volume_24h": 15237.403187,
+   "liquidity": 91067.125,
    "market_end_date": "2026-10-16T23:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1196836",
    "event_slug": "cs2-lgc-bb3-2026-10-16",
    "event_title": "Counter-Strike: Legacy vs BetBoom Team (BO3) - Thunderpick World Championship Group B",
@@ -5387,11 +5451,11 @@
    ],
    "volume": 284.417188,
    "volume_24h": 284.417188,
-   "liquidity": 20203.0653,
+   "liquidity": 20223.8039,
    "market_end_date": "2026-10-16T21:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1196836",
    "event_slug": "cs2-lgc-bb3-2026-10-16",
    "event_title": "Counter-Strike: Legacy vs BetBoom Team (BO3) - Thunderpick World Championship Group B",
@@ -5416,13 +5480,13 @@
     0.345,
     0.655
    ],
-   "volume": 6541.969793,
-   "volume_24h": 6541.969793,
-   "liquidity": 95684.2697,
+   "volume": 6666.429793,
+   "volume_24h": 6666.429793,
+   "liquidity": 95488.8527,
    "market_end_date": "2026-10-16T23:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1196836",
    "event_slug": "cs2-lgc-bb3-2026-10-16",
    "event_title": "Counter-Strike: Legacy vs BetBoom Team (BO3) - Thunderpick World Championship Group B",
@@ -5444,16 +5508,16 @@
     "Under"
    ],
    "prices": [
-    0.455,
-    0.545
+    0.45,
+    0.55
    ],
    "volume": 161.065218,
    "volume_24h": 161.065218,
-   "liquidity": 19097.1149,
+   "liquidity": 18792.7147,
    "market_end_date": "2026-10-16T23:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1196875",
    "event_slug": "dota2-kineti-xctn-2026-10-16",
    "event_title": "Dota 2: Team Kinetix vs Execration (BO3) - DreamLeague Southeast Asia Closed Qualifier Playoffs",
@@ -5479,13 +5543,13 @@
     0.0005,
     0.9995
    ],
-   "volume": 50372.081869,
-   "volume_24h": 50378.540418,
-   "liquidity": 99575.21043,
+   "volume": 55373.160211,
+   "volume_24h": 55373.160211,
+   "liquidity": 66305.08268,
    "market_end_date": "2026-10-16T10:10:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1196875",
    "event_slug": "dota2-kineti-xctn-2026-10-16",
    "event_title": "Dota 2: Team Kinetix vs Execration (BO3) - DreamLeague Southeast Asia Closed Qualifier Playoffs",
@@ -5511,13 +5575,13 @@
     0.9995,
     0.0005
    ],
-   "volume": 104.5,
-   "volume_24h": 104.5,
+   "volume": 269.22,
+   "volume_24h": 269.22,
    "liquidity": 227.48213,
    "market_end_date": "2026-10-16T10:10:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1197460",
    "event_slug": "lol-mvk-kc-2026-10-16",
    "event_title": "LoL: MVK Esports vs Karmine Corp (BO5) - Worlds Play-In",
@@ -5543,13 +5607,13 @@
     0.185,
     0.815
    ],
-   "volume": 59747.170082,
-   "volume_24h": 59749.639218,
-   "liquidity": 175867.3138,
+   "volume": 60222.535872,
+   "volume_24h": 60662.005008,
+   "liquidity": 175525.4537,
    "market_end_date": "2026-10-17T00:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1197460",
    "event_slug": "lol-mvk-kc-2026-10-16",
    "event_title": "LoL: MVK Esports vs Karmine Corp (BO5) - Worlds Play-In",
@@ -5575,13 +5639,13 @@
     0.675,
     0.325
    ],
-   "volume": 13063.445439,
-   "volume_24h": 13063.445439,
-   "liquidity": 126660.8943,
+   "volume": 13083.445439,
+   "volume_24h": 13083.445439,
+   "liquidity": 125000.8943,
    "market_end_date": "2026-10-17T00:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1197460",
    "event_slug": "lol-mvk-kc-2026-10-16",
    "event_title": "LoL: MVK Esports vs Karmine Corp (BO5) - Worlds Play-In",
@@ -5607,13 +5671,13 @@
     0.365,
     0.635
    ],
-   "volume": 21230.284073,
-   "volume_24h": 21230.284073,
+   "volume": 21525.77056,
+   "volume_24h": 21525.77056,
    "liquidity": 82550.2231,
    "market_end_date": "2026-10-17T00:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1197460",
    "event_slug": "lol-mvk-kc-2026-10-16",
    "event_title": "LoL: MVK Esports vs Karmine Corp (BO5) - Worlds Play-In",
@@ -5639,13 +5703,13 @@
     0.305,
     0.695
    ],
-   "volume": 3028.657989,
-   "volume_24h": 3028.657989,
-   "liquidity": 31443.7932,
+   "volume": 3061.115132,
+   "volume_24h": 3061.115132,
+   "liquidity": 31447.3617,
    "market_end_date": "2026-10-16T22:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1197460",
    "event_slug": "lol-mvk-kc-2026-10-16",
    "event_title": "LoL: MVK Esports vs Karmine Corp (BO5) - Worlds Play-In",
@@ -5677,7 +5741,7 @@
    "market_end_date": "2026-10-17T00:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1197460",
    "event_slug": "lol-mvk-kc-2026-10-16",
    "event_title": "LoL: MVK Esports vs Karmine Corp (BO5) - Worlds Play-In",
@@ -5705,11 +5769,11 @@
    ],
    "volume": 1991.083345,
    "volume_24h": 1991.083345,
-   "liquidity": 49048.3664,
+   "liquidity": 49047.6064,
    "market_end_date": "2026-10-17T00:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1197460",
    "event_slug": "lol-mvk-kc-2026-10-16",
    "event_title": "LoL: MVK Esports vs Karmine Corp (BO5) - Worlds Play-In",
@@ -5741,7 +5805,7 @@
    "market_end_date": "2026-10-17T00:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1197462",
    "event_slug": "lol-fur-c9-2026-10-16",
    "event_title": "LoL: FURIA Esports vs Cloud9 (BO5) - Worlds Play-In",
@@ -5767,13 +5831,13 @@
     0.185,
     0.815
    ],
-   "volume": 25108.12093,
-   "volume_24h": 25111.569206,
-   "liquidity": 77185.6553,
+   "volume": 25183.44506,
+   "volume_24h": 25186.893336,
+   "liquidity": 77194.6866,
    "market_end_date": "2026-10-17T05:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1197462",
    "event_slug": "lol-fur-c9-2026-10-16",
    "event_title": "LoL: FURIA Esports vs Cloud9 (BO5) - Worlds Play-In",
@@ -5796,16 +5860,16 @@
     "FURIA Esports"
    ],
    "prices": [
-    0.38,
-    0.62
+    0.375,
+    0.625
    ],
-   "volume": 5282.674989,
-   "volume_24h": 5607.756622,
-   "liquidity": 40984.9665,
+   "volume": 5546.316015,
+   "volume_24h": 5871.397648,
+   "liquidity": 41682.9815,
    "market_end_date": "2026-10-17T05:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1197462",
    "event_slug": "lol-fur-c9-2026-10-16",
    "event_title": "LoL: FURIA Esports vs Cloud9 (BO5) - Worlds Play-In",
@@ -5837,7 +5901,7 @@
    "market_end_date": "2026-10-17T03:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1197462",
    "event_slug": "lol-fur-c9-2026-10-16",
    "event_title": "LoL: FURIA Esports vs Cloud9 (BO5) - Worlds Play-In",
@@ -5865,11 +5929,11 @@
    ],
    "volume": 664.186462,
    "volume_24h": 664.186462,
-   "liquidity": 43612.7933,
+   "liquidity": 43583.2933,
    "market_end_date": "2026-10-17T05:00:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1197826",
    "event_slug": "cs2-offcho-gz1-2026-10-16",
    "event_title": "Counter-Strike: Off Chops vs Ground Zero (BO3) - Logitech G Pro Series Group B",
@@ -5891,16 +5955,16 @@
     "Ground Zero"
    ],
    "prices": [
-    0.835,
-    0.165
+    0.91,
+    0.09
    ],
-   "volume": 7180.296923,
-   "volume_24h": 7269.466923,
-   "liquidity": 6414.3738,
+   "volume": 9905.117993,
+   "volume_24h": 9946.117993,
+   "liquidity": 6771.5946,
    "market_end_date": "2026-10-16T10:40:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1197826",
    "event_slug": "cs2-offcho-gz1-2026-10-16",
    "event_title": "Counter-Strike: Off Chops vs Ground Zero (BO3) - Logitech G Pro Series Group B",
@@ -5931,7 +5995,7 @@
    "market_end_date": "2026-10-16T10:40:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1197827",
    "event_slug": "cs2-fly-abyssa-2026-10-16",
    "event_title": "Counter-Strike: FlyQuest vs Abyssal (BO3) - Logitech G Pro Series Group B",
@@ -5958,11 +6022,11 @@
    ],
    "volume": 6046.960692,
    "volume_24h": 6046.960692,
-   "liquidity": 25846.94349,
+   "liquidity": 25737.14349,
    "market_end_date": "2026-10-16T10:40:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1197827",
    "event_slug": "cs2-fly-abyssa-2026-10-16",
    "event_title": "Counter-Strike: FlyQuest vs Abyssal (BO3) - Logitech G Pro Series Group B",
@@ -5993,7 +6057,7 @@
    "market_end_date": "2026-10-16T10:40:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1197827",
    "event_slug": "cs2-fly-abyssa-2026-10-16",
    "event_title": "Counter-Strike: FlyQuest vs Abyssal (BO3) - Logitech G Pro Series Group B",
@@ -6024,7 +6088,7 @@
    "market_end_date": "2026-10-16T10:40:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "1197827",
    "event_slug": "cs2-fly-abyssa-2026-10-16",
    "event_title": "Counter-Strike: FlyQuest vs Abyssal (BO3) - Logitech G Pro Series Group B",
@@ -6051,11 +6115,11 @@
    ],
    "volume": 113.75,
    "volume_24h": 113.75,
-   "liquidity": 2731.42386,
+   "liquidity": 2721.42486,
    "market_end_date": "2026-10-16T10:40:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "131447",
    "event_slug": "lol-worlds-2026-winning-region-226",
    "event_title": "Worlds 2026 Winning Region",
@@ -6084,11 +6148,11 @@
    ],
    "volume": 60592.728362,
    "volume_24h": 3954.226667,
-   "liquidity": 57426.40147,
+   "liquidity": 56523.62749,
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "131447",
    "event_slug": "lol-worlds-2026-winning-region-226",
    "event_title": "Worlds 2026 Winning Region",
@@ -6117,11 +6181,11 @@
    ],
    "volume": 156361.465358,
    "volume_24h": 10072.288075,
-   "liquidity": 338645.5419,
+   "liquidity": 338740.5419,
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "131447",
    "event_slug": "lol-worlds-2026-winning-region-226",
    "event_title": "Worlds 2026 Winning Region",
@@ -6150,11 +6214,11 @@
    ],
    "volume": 194250.323151,
    "volume_24h": 1606.8195,
-   "liquidity": 30198.75168,
+   "liquidity": 29165.6977,
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "131447",
    "event_slug": "lol-worlds-2026-winning-region-226",
    "event_title": "Worlds 2026 Winning Region",
@@ -6183,11 +6247,11 @@
    ],
    "volume": 86784.267031,
    "volume_24h": 6378.644445,
-   "liquidity": 25131.41474,
+   "liquidity": 24053.05346,
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "131447",
    "event_slug": "lol-worlds-2026-winning-region-226",
    "event_title": "Worlds 2026 Winning Region",
@@ -6216,11 +6280,11 @@
    ],
    "volume": 72214.268874,
    "volume_24h": 4663.379033,
-   "liquidity": 26727.61652,
+   "liquidity": 25975.9151,
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "131447",
    "event_slug": "lol-worlds-2026-winning-region-226",
    "event_title": "Worlds 2026 Winning Region",
@@ -6247,13 +6311,13 @@
     0.235,
     0.765
    ],
-   "volume": 130612.879919,
-   "volume_24h": 2623.316318,
-   "liquidity": 166726.4245,
+   "volume": 130712.879919,
+   "volume_24h": 2723.316318,
+   "liquidity": 169907.4976,
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "206968",
    "event_slug": "will-t1-beat-grok-ai-in-2026",
    "event_title": "Will Grok AI beat T1 in 2026? ",
@@ -6282,11 +6346,11 @@
    ],
    "volume": 93178.704933,
    "volume_24h": 514.083,
-   "liquidity": 35506.44399,
+   "liquidity": 35654.49399,
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "244347",
    "event_slug": "will-faker-win-a-finals-mvp-award-at-an-international-event-in-2026",
    "event_title": "Will Faker win a Finals MVP Award at an international event in 2026?",
@@ -6315,11 +6379,11 @@
    ],
    "volume": 123864.148833,
    "volume_24h": 15356.01,
-   "liquidity": 23508.50397,
+   "liquidity": 24244.18597,
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "244564",
    "event_slug": "will-faze-win-a-tier-1-event-in-2026",
    "event_title": "Will FaZe win a Tier 1 event in 2026? ",
@@ -6351,7 +6415,7 @@
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "502899",
    "event_slug": "mlb-the-show-27-cover-athlete",
    "event_title": "MLB The Show 27: Cover Athlete",
@@ -6378,11 +6442,11 @@
    ],
    "volume": 2200.0,
    "volume_24h": null,
-   "liquidity": 31.0645,
+   "liquidity": 51.5645,
    "market_end_date": "2027-04-01T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "502899",
    "event_slug": "mlb-the-show-27-cover-athlete",
    "event_title": "MLB The Show 27: Cover Athlete",
@@ -6409,11 +6473,11 @@
    ],
    "volume": 4000.0,
    "volume_24h": null,
-   "liquidity": 43.8118,
+   "liquidity": 43.9558,
    "market_end_date": "2027-04-01T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "502899",
    "event_slug": "mlb-the-show-27-cover-athlete",
    "event_title": "MLB The Show 27: Cover Athlete",
@@ -6444,7 +6508,7 @@
    "market_end_date": "2027-04-01T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "502899",
    "event_slug": "mlb-the-show-27-cover-athlete",
    "event_title": "MLB The Show 27: Cover Athlete",
@@ -6466,16 +6530,16 @@
     "No"
    ],
    "prices": [
-    0.125,
-    0.875
+    0.13,
+    0.87
    ],
    "volume": 3999.98,
    "volume_24h": null,
-   "liquidity": 45.3978,
+   "liquidity": 52.0995,
    "market_end_date": "2027-04-01T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "502899",
    "event_slug": "mlb-the-show-27-cover-athlete",
    "event_title": "MLB The Show 27: Cover Athlete",
@@ -6506,7 +6570,7 @@
    "market_end_date": "2027-04-01T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "502899",
    "event_slug": "mlb-the-show-27-cover-athlete",
    "event_title": "MLB The Show 27: Cover Athlete",
@@ -6537,7 +6601,7 @@
    "market_end_date": "2027-04-01T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "502899",
    "event_slug": "mlb-the-show-27-cover-athlete",
    "event_title": "MLB The Show 27: Cover Athlete",
@@ -6564,11 +6628,11 @@
    ],
    "volume": 3015.0,
    "volume_24h": null,
-   "liquidity": 40.1845,
+   "liquidity": 44.3845,
    "market_end_date": "2027-04-01T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "506356",
    "event_slug": "fnatic-mergeracquisition-announced-by",
    "event_title": "Fnatic merger/acquisition announced by...?",
@@ -6596,11 +6660,11 @@
    ],
    "volume": 438.437273,
    "volume_24h": 423.437273,
-   "liquidity": 64.1949,
+   "liquidity": 39.1974,
    "market_end_date": "2026-12-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "506356",
    "event_slug": "fnatic-mergeracquisition-announced-by",
    "event_title": "Fnatic merger/acquisition announced by...?",
@@ -6628,11 +6692,11 @@
    ],
    "volume": 463.121618,
    "volume_24h": 463.121618,
-   "liquidity": 65.6474,
+   "liquidity": 61.0274,
    "market_end_date": "2026-11-01T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "509848",
    "event_slug": "will-the-philippine-senate-convict-sara-duterte",
    "event_title": "Will the Philippine Senate convict Sara Duterte? ",
@@ -6664,7 +6728,7 @@
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "514523",
    "event_slug": "will-zywoo-reach-36-hltv-mvp-awards-by-december-31-2026",
    "event_title": "Will ZywOo reach 36 HLTV MVP awards by December 31, 2026?",
@@ -6691,11 +6755,11 @@
    ],
    "volume": 59085.274072,
    "volume_24h": 10.0,
-   "liquidity": 9847.23402,
+   "liquidity": 9462.61427,
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "541562",
    "event_slug": "cs2-lph-unity-2026-06-02",
    "event_title": "Counter-Strike: LPH Gaming vs UNiTY esports (BO3) - United21 Group B",
@@ -6726,7 +6790,7 @@
    "market_end_date": "2026-06-10T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "574158",
    "event_slug": "will-valve-add-sticker-trade-ups-before-november-20260608173609897",
    "event_title": "Will Valve add sticker trade-ups before November?",
@@ -6758,7 +6822,7 @@
    "market_end_date": "2026-11-01T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "580279",
    "event_slug": "will-trump-announce-an-acquisition-of-part-of-the-chagos-islands-before-2027-20260609184517049",
    "event_title": "Will Trump announce an acquisition of part of the Chagos Islands before 2027? ",
@@ -6790,7 +6854,7 @@
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "588441",
    "event_slug": "will-ukraine-sign-an-eu-accession-treaty-by-december-31-2027-20260611204943691",
    "event_title": "Will Ukraine sign an EU accession treaty by December 31, 2027?",
@@ -6822,7 +6886,7 @@
    "market_end_date": "2028-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "598412",
    "event_slug": "will-valve-officially-release-deadlock-before-2027-20260615174246158",
    "event_title": "Will Valve officially release Deadlock before 2027?",
@@ -6844,16 +6908,16 @@
     "No"
    ],
    "prices": [
-    0.217,
-    0.783
+    0.198,
+    0.802
    ],
    "volume": 27709.552205,
    "volume_24h": null,
-   "liquidity": 484.19785,
+   "liquidity": 485.88031,
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "613770",
    "event_slug": "will-faker-win-an-international-title-in-2026-20260620014711222",
    "event_title": "Will Faker Win an International Title in 2026?",
@@ -6885,7 +6949,7 @@
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "652048",
    "event_slug": "valorant-team-to-win-an-international-in-2026-20260630153803890",
    "event_title": "Valorant Team to Win an International in 2026",
@@ -6917,7 +6981,7 @@
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "652048",
    "event_slug": "valorant-team-to-win-an-international-in-2026-20260630153803890",
    "event_title": "Valorant Team to Win an International in 2026",
@@ -6940,16 +7004,16 @@
     "No"
    ],
    "prices": [
-    0.0055,
-    0.9945
+    0.005,
+    0.995
    ],
    "volume": 3734.112083,
    "volume_24h": null,
-   "liquidity": 514.09602,
+   "liquidity": 516.54643,
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "652048",
    "event_slug": "valorant-team-to-win-an-international-in-2026-20260630153803890",
    "event_title": "Valorant Team to Win an International in 2026",
@@ -6972,16 +7036,16 @@
     "No"
    ],
    "prices": [
-    0.0135,
-    0.9865
+    0.019,
+    0.981
    ],
    "volume": 3188.019136,
    "volume_24h": null,
-   "liquidity": 304.62051,
+   "liquidity": 290.41909,
    "market_end_date": null
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "656338",
    "event_slug": "us-announces-military-base-in-israel-in-2026-20260630144955258",
    "event_title": "US announces military base in Israel in 2026?",
@@ -7013,7 +7077,7 @@
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "674593",
    "event_slug": "imran-khan-released-from-prison-by-december-31-2026-20260706202533140",
    "event_title": "Imran Khan released from prison by December 31, 2026?",
@@ -7045,7 +7109,7 @@
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "714869",
    "event_slug": "will-arrowcs-eat-a-bug-on-stream-by-december-31-20260715213055256",
    "event_title": "Will ArrowCS eat a bug on stream by December 31?",
@@ -7076,7 +7140,7 @@
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "715320",
    "event_slug": "will-tenz-be-elected-the-new-riot-games-ceo-in-2026-20260715203936418",
    "event_title": "Will TenZ be elected the new Riot Games CEO in 2026?",
@@ -7104,11 +7168,11 @@
    ],
    "volume": 2463.044085,
    "volume_24h": null,
-   "liquidity": 157.40309,
+   "liquidity": 177.90309,
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "753216",
    "event_slug": "dota2-avi-dxk-2026-07-30",
    "event_title": "Dota 2: avice Team vs Daxak Team (BO3) - BetBoom Streamers Battle Group B",
@@ -7140,7 +7204,7 @@
    "market_end_date": "2026-08-07T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -7170,11 +7234,11 @@
    ],
    "volume": 6454.269451,
    "volume_24h": null,
-   "liquidity": 2771.18117,
+   "liquidity": 2743.19117,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -7204,11 +7268,11 @@
    ],
    "volume": 3040.780833,
    "volume_24h": null,
-   "liquidity": 1159.52791,
+   "liquidity": 1140.92791,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -7233,16 +7297,16 @@
     "No"
    ],
    "prices": [
-    0.28,
-    0.72
+    0.275,
+    0.725
    ],
    "volume": 14891.816358,
    "volume_24h": 29.0,
-   "liquidity": 796.677,
+   "liquidity": 844.227,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -7272,11 +7336,11 @@
    ],
    "volume": 1633.071112,
    "volume_24h": null,
-   "liquidity": 2242.87711,
+   "liquidity": 2241.25711,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -7306,11 +7370,11 @@
    ],
    "volume": 8480.133852,
    "volume_24h": null,
-   "liquidity": 2304.43668,
+   "liquidity": 2276.69268,
    "market_end_date": "2027-01-15T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -7335,16 +7399,16 @@
     "No"
    ],
    "prices": [
-    0.03,
-    0.97
+    0.0325,
+    0.9675
    ],
    "volume": 9146.85918,
    "volume_24h": null,
-   "liquidity": 937.04166,
+   "liquidity": 935.8799,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -7374,11 +7438,11 @@
    ],
    "volume": 2784.85,
    "volume_24h": null,
-   "liquidity": 1220.58743,
+   "liquidity": 1225.34743,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -7403,16 +7467,16 @@
     "No"
    ],
    "prices": [
-    0.0745,
-    0.9255
+    0.073,
+    0.927
    ],
    "volume": 6459.814735,
    "volume_24h": null,
-   "liquidity": 567.28752,
+   "liquidity": 585.45488,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -7446,7 +7510,7 @@
    "market_end_date": "2027-01-15T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -7476,11 +7540,11 @@
    ],
    "volume": 31849.260385,
    "volume_24h": 32.04,
-   "liquidity": 2291.4455,
+   "liquidity": 2629.1665,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -7510,11 +7574,11 @@
    ],
    "volume": 8642.274875,
    "volume_24h": 67.523334,
-   "liquidity": 998.0144,
+   "liquidity": 889.8756,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -7544,11 +7608,11 @@
    ],
    "volume": 6145.695922,
    "volume_24h": null,
-   "liquidity": 474.04677,
+   "liquidity": 468.20677,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -7578,11 +7642,11 @@
    ],
    "volume": 3360.28,
    "volume_24h": null,
-   "liquidity": 2598.11508,
+   "liquidity": 2606.96508,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -7612,11 +7676,11 @@
    ],
    "volume": 8200.54542,
    "volume_24h": null,
-   "liquidity": 940.17065,
+   "liquidity": 963.17065,
    "market_end_date": "2027-01-15T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -7646,11 +7710,11 @@
    ],
    "volume": 3981.078889,
    "volume_24h": null,
-   "liquidity": 1680.325,
+   "liquidity": 1681.475,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -7680,11 +7744,11 @@
    ],
    "volume": 8454.527888,
    "volume_24h": null,
-   "liquidity": 1085.12824,
+   "liquidity": 1096.45672,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -7714,11 +7778,11 @@
    ],
    "volume": 4967.42,
    "volume_24h": null,
-   "liquidity": 2697.33729,
+   "liquidity": 2678.68729,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -7748,11 +7812,11 @@
    ],
    "volume": 6786.097519,
    "volume_24h": null,
-   "liquidity": 1885.61713,
+   "liquidity": 1951.88633,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -7782,11 +7846,11 @@
    ],
    "volume": 9537.420661,
    "volume_24h": null,
-   "liquidity": 1333.0505,
+   "liquidity": 1266.8505,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -7820,7 +7884,7 @@
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -7850,11 +7914,11 @@
    ],
    "volume": 6010.465795,
    "volume_24h": null,
-   "liquidity": 2118.93316,
+   "liquidity": 2134.35316,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -7884,11 +7948,11 @@
    ],
    "volume": 2335.900612,
    "volume_24h": null,
-   "liquidity": 2113.55045,
+   "liquidity": 2148.05045,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -7918,11 +7982,11 @@
    ],
    "volume": 7874.844362,
    "volume_24h": null,
-   "liquidity": 884.43134,
+   "liquidity": 865.83134,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "796527",
    "event_slug": "will-faker-become-president-of-south-korea-by-the-end-of-the-year-20260803154756715",
    "event_title": "Will Faker become president of South Korea by the end of the year?",
@@ -7955,7 +8019,7 @@
    "market_end_date": "2026-12-31T14:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "806410",
    "event_slug": "which-teams-will-make-a-roster-change-before-december-20260806154016844",
    "event_title": "Which Teams Will Make a Roster Change Before December?",
@@ -7988,7 +8052,7 @@
    "market_end_date": "2026-12-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "806410",
    "event_slug": "which-teams-will-make-a-roster-change-before-december-20260806154016844",
    "event_title": "Which Teams Will Make a Roster Change Before December?",
@@ -8012,16 +8076,16 @@
     "No"
    ],
    "prices": [
-    0.63,
-    0.37
+    0.625,
+    0.375
    ],
    "volume": 1528.073205,
    "volume_24h": null,
-   "liquidity": 93.9173,
+   "liquidity": 94.1173,
    "market_end_date": "2026-12-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "806410",
    "event_slug": "which-teams-will-make-a-roster-change-before-december-20260806154016844",
    "event_title": "Which Teams Will Make a Roster Change Before December?",
@@ -8054,7 +8118,7 @@
    "market_end_date": null
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "806410",
    "event_slug": "which-teams-will-make-a-roster-change-before-december-20260806154016844",
    "event_title": "Which Teams Will Make a Roster Change Before December?",
@@ -8078,16 +8142,16 @@
     "No"
    ],
    "prices": [
-    0.51,
-    0.49
+    0.645,
+    0.355
    ],
    "volume": 2921.749012,
    "volume_24h": 151.47,
-   "liquidity": 59.1805,
+   "liquidity": 51.9972,
    "market_end_date": "2026-12-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "806410",
    "event_slug": "which-teams-will-make-a-roster-change-before-december-20260806154016844",
    "event_title": "Which Teams Will Make a Roster Change Before December?",
@@ -8111,16 +8175,16 @@
     "No"
    ],
    "prices": [
-    0.55,
-    0.45
+    0.495,
+    0.505
    ],
    "volume": 1621.879711,
    "volume_24h": 40.0,
-   "liquidity": 94.1194,
+   "liquidity": 108.8382,
    "market_end_date": "2026-12-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "806410",
    "event_slug": "which-teams-will-make-a-roster-change-before-december-20260806154016844",
    "event_title": "Which Teams Will Make a Roster Change Before December?",
@@ -8153,7 +8217,7 @@
    "market_end_date": "2026-12-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "806410",
    "event_slug": "which-teams-will-make-a-roster-change-before-december-20260806154016844",
    "event_title": "Which Teams Will Make a Roster Change Before December?",
@@ -8186,7 +8250,7 @@
    "market_end_date": "2026-12-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "806410",
    "event_slug": "which-teams-will-make-a-roster-change-before-december-20260806154016844",
    "event_title": "Which Teams Will Make a Roster Change Before December?",
@@ -8219,7 +8283,7 @@
    "market_end_date": "2026-12-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "812666",
    "event_slug": "esports-awards-2026-esports-game-of-the-year-20260806164106509",
    "event_title": "Esports Awards 2026: Esports Game of the Year",
@@ -8246,11 +8310,11 @@
    ],
    "volume": 19525.319394,
    "volume_24h": 910.49,
-   "liquidity": 3723.2145,
+   "liquidity": 3688.099,
    "market_end_date": null
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "812666",
    "event_slug": "esports-awards-2026-esports-game-of-the-year-20260806164106509",
    "event_title": "Esports Awards 2026: Esports Game of the Year",
@@ -8277,11 +8341,11 @@
    ],
    "volume": 1145.38,
    "volume_24h": null,
-   "liquidity": 454.46005,
+   "liquidity": 445.16643,
    "market_end_date": null
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "812666",
    "event_slug": "esports-awards-2026-esports-game-of-the-year-20260806164106509",
    "event_title": "Esports Awards 2026: Esports Game of the Year",
@@ -8308,11 +8372,11 @@
    ],
    "volume": 26871.035709,
    "volume_24h": 8.12,
-   "liquidity": 1391.8647,
+   "liquidity": 1420.1237,
    "market_end_date": null
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "812666",
    "event_slug": "esports-awards-2026-esports-game-of-the-year-20260806164106509",
    "event_title": "Esports Awards 2026: Esports Game of the Year",
@@ -8339,11 +8403,11 @@
    ],
    "volume": 1834.606454,
    "volume_24h": null,
-   "liquidity": 646.47733,
+   "liquidity": 697.26751,
    "market_end_date": null
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "836446",
    "event_slug": "esports-awards-esports-content-creator-of-the-year-20260806165627995",
    "event_title": "Esports Awards: Esports Content Creator of the Year",
@@ -8365,16 +8429,16 @@
     "No"
    ],
    "prices": [
-    0.58,
-    0.42
+    0.585,
+    0.415
    ],
    "volume": 36069.859574,
    "volume_24h": 291.668373,
-   "liquidity": 605.1102,
+   "liquidity": 584.6051,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "836446",
    "event_slug": "esports-awards-esports-content-creator-of-the-year-20260806165627995",
    "event_title": "Esports Awards: Esports Content Creator of the Year",
@@ -8401,11 +8465,11 @@
    ],
    "volume": 30772.915304,
    "volume_24h": 720.24,
-   "liquidity": 2007.1426,
+   "liquidity": 2022.5199,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "836447",
    "event_slug": "esports-awards-esports-content-group-of-the-year-20260806165240383",
    "event_title": "Esports Awards: Esports Content Group of the Year",
@@ -8432,11 +8496,11 @@
    ],
    "volume": 1039.24109,
    "volume_24h": null,
-   "liquidity": 290.27778,
+   "liquidity": 268.69838,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "836447",
    "event_slug": "esports-awards-esports-content-group-of-the-year-20260806165240383",
    "event_title": "Esports Awards: Esports Content Group of the Year",
@@ -8463,11 +8527,11 @@
    ],
    "volume": 1367.879805,
    "volume_24h": null,
-   "liquidity": 1199.37353,
+   "liquidity": 1298.43353,
    "market_end_date": null
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "836447",
    "event_slug": "esports-awards-esports-content-group-of-the-year-20260806165240383",
    "event_title": "Esports Awards: Esports Content Group of the Year",
@@ -8494,11 +8558,11 @@
    ],
    "volume": 60610.365838,
    "volume_24h": null,
-   "liquidity": 5685.1484,
+   "liquidity": 5518.0922,
    "market_end_date": null
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "836447",
    "event_slug": "esports-awards-esports-content-group-of-the-year-20260806165240383",
    "event_title": "Esports Awards: Esports Content Group of the Year",
@@ -8520,16 +8584,16 @@
     "No"
    ],
    "prices": [
-    0.0525,
-    0.9475
+    0.047,
+    0.953
    ],
    "volume": 1576.677387,
    "volume_24h": null,
-   "liquidity": 173.73383,
+   "liquidity": 169.52417,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "836448",
    "event_slug": "esports-awards-streamer-of-the-year-20260806165104112",
    "event_title": "Esports Awards: Streamer of the Year",
@@ -8551,16 +8615,16 @@
     "No"
    ],
    "prices": [
-    0.048,
-    0.952
+    0.0475,
+    0.9525
    ],
    "volume": 1279.944821,
    "volume_24h": 19.01,
-   "liquidity": 543.42046,
+   "liquidity": 441.75832,
    "market_end_date": null
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "836448",
    "event_slug": "esports-awards-streamer-of-the-year-20260806165104112",
    "event_title": "Esports Awards: Streamer of the Year",
@@ -8587,11 +8651,11 @@
    ],
    "volume": 26155.398236,
    "volume_24h": null,
-   "liquidity": 12029.4448,
+   "liquidity": 12324.9029,
    "market_end_date": null
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "836448",
    "event_slug": "esports-awards-streamer-of-the-year-20260806165104112",
    "event_title": "Esports Awards: Streamer of the Year",
@@ -8613,16 +8677,16 @@
     "No"
    ],
    "prices": [
-    0.0585,
-    0.9415
+    0.058,
+    0.942
    ],
    "volume": 1993.293721,
    "volume_24h": null,
-   "liquidity": 226.75585,
+   "liquidity": 204.27002,
    "market_end_date": null
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "836448",
    "event_slug": "esports-awards-streamer-of-the-year-20260806165104112",
    "event_title": "Esports Awards: Streamer of the Year",
@@ -8649,11 +8713,11 @@
    ],
    "volume": 1228.503631,
    "volume_24h": null,
-   "liquidity": 362.70075,
+   "liquidity": 367.74123,
    "market_end_date": null
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "836449",
    "event_slug": "esports-awards-esports-personality-of-the-year-20260806164938421",
    "event_title": "Esports Awards: Esports Personality of the Year",
@@ -8680,11 +8744,11 @@
    ],
    "volume": 22195.502921,
    "volume_24h": null,
-   "liquidity": 1189.855,
+   "liquidity": 1100.4194,
    "market_end_date": null
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "836449",
    "event_slug": "esports-awards-esports-personality-of-the-year-20260806164938421",
    "event_title": "Esports Awards: Esports Personality of the Year",
@@ -8706,16 +8770,16 @@
     "No"
    ],
    "prices": [
-    0.11,
-    0.89
+    0.109,
+    0.891
    ],
    "volume": 3576.822456,
    "volume_24h": null,
-   "liquidity": 1493.09295,
+   "liquidity": 1427.33189,
    "market_end_date": null
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "836449",
    "event_slug": "esports-awards-esports-personality-of-the-year-20260806164938421",
    "event_title": "Esports Awards: Esports Personality of the Year",
@@ -8742,11 +8806,11 @@
    ],
    "volume": 1432.57,
    "volume_24h": null,
-   "liquidity": 325.64104,
+   "liquidity": 327.77438,
    "market_end_date": null
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "836449",
    "event_slug": "esports-awards-esports-personality-of-the-year-20260806164938421",
    "event_title": "Esports Awards: Esports Personality of the Year",
@@ -8773,11 +8837,11 @@
    ],
    "volume": 6701.85,
    "volume_24h": null,
-   "liquidity": 536.48124,
+   "liquidity": 525.21324,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "836449",
    "event_slug": "esports-awards-esports-personality-of-the-year-20260806164938421",
    "event_title": "Esports Awards: Esports Personality of the Year",
@@ -8804,11 +8868,11 @@
    ],
    "volume": 22610.817693,
    "volume_24h": null,
-   "liquidity": 8365.4465,
+   "liquidity": 8281.5056,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "836458",
    "event_slug": "esports-awards-mobile-game-of-the-year-20260806164529015",
    "event_title": "Esports Awards: Mobile Game of the Year",
@@ -8830,16 +8894,16 @@
     "No"
    ],
    "prices": [
-    0.0365,
-    0.9635
+    0.037,
+    0.963
    ],
    "volume": 2240.524698,
    "volume_24h": null,
-   "liquidity": 1040.28552,
+   "liquidity": 1040.4545,
    "market_end_date": null
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "836458",
    "event_slug": "esports-awards-mobile-game-of-the-year-20260806164529015",
    "event_title": "Esports Awards: Mobile Game of the Year",
@@ -8866,11 +8930,11 @@
    ],
    "volume": 21897.984404,
    "volume_24h": 2.13,
-   "liquidity": 2406.8755,
+   "liquidity": 2305.9021,
    "market_end_date": null
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "836458",
    "event_slug": "esports-awards-mobile-game-of-the-year-20260806164529015",
    "event_title": "Esports Awards: Mobile Game of the Year",
@@ -8897,11 +8961,11 @@
    ],
    "volume": 19280.985881,
    "volume_24h": null,
-   "liquidity": 1327.76055,
+   "liquidity": 1256.14924,
    "market_end_date": null
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "868855",
    "event_slug": "valorant-champions-2026-tier-2-team-to-qualify",
    "event_title": "VALORANT Champions 2026: Tier 2 Team to Qualify?",
@@ -8933,7 +8997,7 @@
    "market_end_date": "2026-10-19T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "872544",
    "event_slug": "us-canada-diplomatic-agreement-to-lower-tariffs-by-august-31",
    "event_title": "US-Canada diplomatic agreement to lower tariffs by...?",
@@ -8965,7 +9029,7 @@
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "872544",
    "event_slug": "us-canada-diplomatic-agreement-to-lower-tariffs-by-august-31",
    "event_title": "US-Canada diplomatic agreement to lower tariffs by...?",
@@ -8997,7 +9061,7 @@
    "market_end_date": "2026-11-01T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "927653",
    "event_slug": "will-team-spirit-make-a-roster-change-by-december-31",
    "event_title": "Will Team Spirit Make a Roster Change by December 31?",
@@ -9028,7 +9092,7 @@
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "927654",
    "event_slug": "will-team-falcons-make-a-roster-change-by-december-31",
    "event_title": "Will Team Falcons Make a Roster Change by December 31?",
@@ -9060,7 +9124,7 @@
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "927655",
    "event_slug": "will-mouz-make-a-roster-change-by-december-31",
    "event_title": "Will MOUZ Make a Roster Change by December 31?",
@@ -9088,11 +9152,11 @@
    ],
    "volume": 3580.913436,
    "volume_24h": 371.97,
-   "liquidity": 349.3689,
+   "liquidity": 352.1485,
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "928355",
    "event_slug": "will-natus-vincere-make-a-roster-change-by-december-31",
    "event_title": "Will Natus Vincere Make a Roster Change by December 31?",
@@ -9123,7 +9187,7 @@
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "928366",
    "event_slug": "will-team-aurora-make-a-roster-change-by-december-31",
    "event_title": "Will Team Aurora Make a Roster Change by December 31?",
@@ -9154,7 +9218,7 @@
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "957767",
    "event_slug": "valorant-offseason-zekken-next-team-1788364450495",
    "event_title": "VALORANT Offseason: zekken Next Team",
@@ -9182,11 +9246,11 @@
    ],
    "volume": 1071.179125,
    "volume_24h": null,
-   "liquidity": 560.55481,
+   "liquidity": 560.39481,
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "957767",
    "event_slug": "valorant-offseason-zekken-next-team-1788364450495",
    "event_title": "VALORANT Offseason: zekken Next Team",
@@ -9214,11 +9278,11 @@
    ],
    "volume": 1191.377693,
    "volume_24h": null,
-   "liquidity": 1378.6993,
+   "liquidity": 1358.7993,
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "962604",
    "event_slug": "valorant-offseason-primmie-next-team-1788364450495",
    "event_title": "VALORANT Offseason: primmie Next Team",
@@ -9246,11 +9310,11 @@
    ],
    "volume": 3095.523334,
    "volume_24h": 20.0,
-   "liquidity": 520.16016,
+   "liquidity": 523.33932,
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "962604",
    "event_slug": "valorant-offseason-primmie-next-team-1788364450495",
    "event_title": "VALORANT Offseason: primmie Next Team",
@@ -9278,11 +9342,11 @@
    ],
    "volume": 1067.652346,
    "volume_24h": 81.42,
-   "liquidity": 3272.95198,
+   "liquidity": 3251.56631,
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "962630",
    "event_slug": "valorant-offseason-chronicle-next-team-1788364450495",
    "event_title": "VALORANT Offseason: Chronicle Next Team",
@@ -9305,16 +9369,16 @@
     "No"
    ],
    "prices": [
-    0.016,
-    0.984
+    0.017,
+    0.983
    ],
    "volume": 1658.167133,
    "volume_24h": null,
-   "liquidity": 684.48778,
+   "liquidity": 600.75242,
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "962630",
    "event_slug": "valorant-offseason-chronicle-next-team-1788364450495",
    "event_title": "VALORANT Offseason: Chronicle Next Team",
@@ -9337,16 +9401,16 @@
     "No"
    ],
    "prices": [
-    0.9665,
-    0.0335
+    0.968,
+    0.032
    ],
    "volume": 1505.1,
    "volume_24h": null,
-   "liquidity": 207.95409,
+   "liquidity": 208.24814,
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "962632",
    "event_slug": "valorant-offseason-oxy-next-team-1788364450495",
    "event_title": "VALORANT Offseason: OXY Next Team",
@@ -9369,16 +9433,16 @@
     "No"
    ],
    "prices": [
-    0.685,
-    0.315
+    0.69,
+    0.31
    ],
    "volume": 6931.87535,
    "volume_24h": 223.84,
-   "liquidity": 215.0245,
+   "liquidity": 212.8245,
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "962632",
    "event_slug": "valorant-offseason-oxy-next-team-1788364450495",
    "event_title": "VALORANT Offseason: OXY Next Team",
@@ -9406,11 +9470,11 @@
    ],
    "volume": 1120.954766,
    "volume_24h": null,
-   "liquidity": 536.70451,
+   "liquidity": 528.02983,
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "962632",
    "event_slug": "valorant-offseason-oxy-next-team-1788364450495",
    "event_title": "VALORANT Offseason: OXY Next Team",
@@ -9433,16 +9497,16 @@
     "No"
    ],
    "prices": [
-    0.271,
-    0.729
+    0.264,
+    0.736
    ],
    "volume": 3356.590238,
    "volume_24h": 1011.197354,
-   "liquidity": 288.61787,
+   "liquidity": 361.10928,
    "market_end_date": "2027-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991810",
    "event_slug": "worlds-2026-winner",
    "event_title": "Worlds 2026: Winner",
@@ -9469,13 +9533,13 @@
     0.0515,
     0.9485
    ],
-   "volume": 67271.079152,
-   "volume_24h": 11565.198277,
-   "liquidity": 42400.63772,
+   "volume": 67371.079152,
+   "volume_24h": 11588.679297,
+   "liquidity": 42400.64735,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991810",
    "event_slug": "worlds-2026-winner",
    "event_title": "Worlds 2026: Winner",
@@ -9502,13 +9566,13 @@
     0.185,
     0.815
    ],
-   "volume": 93851.694042,
-   "volume_24h": 7282.2243,
-   "liquidity": 248602.7195,
+   "volume": 95243.483516,
+   "volume_24h": 8611.693774,
+   "liquidity": 247222.2962,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991810",
    "event_slug": "worlds-2026-winner",
    "event_title": "Worlds 2026: Winner",
@@ -9536,12 +9600,12 @@
     0.9985
    ],
    "volume": 65256.245167,
-   "volume_24h": 6370.0115,
+   "volume_24h": 6293.4955,
    "liquidity": 27139.33788,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991810",
    "event_slug": "worlds-2026-winner",
    "event_title": "Worlds 2026: Winner",
@@ -9569,12 +9633,12 @@
     0.9985
    ],
    "volume": 26178.113572,
-   "volume_24h": 3580.409,
+   "volume_24h": 3453.893,
    "liquidity": 34687.18894,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991810",
    "event_slug": "worlds-2026-winner",
    "event_title": "Worlds 2026: Winner",
@@ -9602,12 +9666,12 @@
     0.9525
    ],
    "volume": 67937.512071,
-   "volume_24h": 8849.565122,
+   "volume_24h": 8773.048395,
    "liquidity": 37997.77466,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991810",
    "event_slug": "worlds-2026-winner",
    "event_title": "Worlds 2026: Winner",
@@ -9635,12 +9699,12 @@
     0.954
    ],
    "volume": 88525.789166,
-   "volume_24h": 16507.807191,
-   "liquidity": 26351.39592,
+   "volume_24h": 16431.286366,
+   "liquidity": 26327.39592,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991810",
    "event_slug": "worlds-2026-winner",
    "event_title": "Worlds 2026: Winner",
@@ -9668,12 +9732,12 @@
     0.685
    ],
    "volume": 108220.333286,
-   "volume_24h": 23184.299738,
-   "liquidity": 376135.8885,
+   "volume_24h": 22970.128608,
+   "liquidity": 366273.5492,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991810",
    "event_slug": "worlds-2026-winner",
    "event_title": "Worlds 2026: Winner",
@@ -9701,12 +9765,12 @@
     0.815
    ],
    "volume": 70341.607847,
-   "volume_24h": 8399.622114,
-   "liquidity": 267640.6627,
+   "volume_24h": 7273.220595,
+   "liquidity": 264567.9091,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991810",
    "event_slug": "worlds-2026-winner",
    "event_title": "Worlds 2026: Winner",
@@ -9733,13 +9797,13 @@
     0.0225,
     0.9775
    ],
-   "volume": 65456.664084,
-   "volume_24h": 14465.041809,
-   "liquidity": 23130.44081,
+   "volume": 65556.664084,
+   "volume_24h": 14488.525434,
+   "liquidity": 22097.68104,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991810",
    "event_slug": "worlds-2026-winner",
    "event_title": "Worlds 2026: Winner",
@@ -9767,12 +9831,12 @@
     0.9935
    ],
    "volume": 100077.3483,
-   "volume_24h": 13143.849427,
-   "liquidity": 27163.76761,
+   "volume_24h": 13067.330427,
+   "liquidity": 27695.56761,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991810",
    "event_slug": "worlds-2026-winner",
    "event_title": "Worlds 2026: Winner",
@@ -9805,7 +9869,7 @@
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991810",
    "event_slug": "worlds-2026-winner",
    "event_title": "Worlds 2026: Winner",
@@ -9833,12 +9897,12 @@
     0.989
    ],
    "volume": 79988.398393,
-   "volume_24h": 22691.647134,
-   "liquidity": 33496.80955,
+   "volume_24h": 22615.124534,
+   "liquidity": 32980.76946,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991810",
    "event_slug": "worlds-2026-winner",
    "event_title": "Worlds 2026: Winner",
@@ -9866,12 +9930,12 @@
     0.9985
    ],
    "volume": 58245.104438,
-   "volume_24h": 4922.3045,
-   "liquidity": 35328.74379,
+   "volume_24h": 4845.7815,
+   "liquidity": 35364.74379,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991810",
    "event_slug": "worlds-2026-winner",
    "event_title": "Worlds 2026: Winner",
@@ -9900,11 +9964,11 @@
    ],
    "volume": 29068.1725,
    "volume_24h": 27743.507,
-   "liquidity": 3497.48141,
+   "liquidity": 4093.73141,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991810",
    "event_slug": "worlds-2026-winner",
    "event_title": "Worlds 2026: Winner",
@@ -9932,12 +9996,12 @@
     0.835
    ],
    "volume": 81769.870671,
-   "volume_24h": 7622.972755,
-   "liquidity": 219962.5456,
+   "volume_24h": 7572.972755,
+   "liquidity": 218889.2296,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991810",
    "event_slug": "worlds-2026-winner",
    "event_title": "Worlds 2026: Winner",
@@ -9965,12 +10029,12 @@
     0.99
    ],
    "volume": 70725.375698,
-   "volume_24h": 6138.039106,
-   "liquidity": 33789.88673,
+   "volume_24h": 6061.513906,
+   "liquidity": 33821.88673,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991810",
    "event_slug": "worlds-2026-winner",
    "event_title": "Worlds 2026: Winner",
@@ -9998,12 +10062,12 @@
     0.9985
    ],
    "volume": 40322.112,
-   "volume_24h": 5097.439,
+   "volume_24h": 4970.923,
    "liquidity": 33097.37323,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991810",
    "event_slug": "worlds-2026-winner",
    "event_title": "Worlds 2026: Winner",
@@ -10030,13 +10094,13 @@
     0.0075,
     0.9925
    ],
-   "volume": 64035.2427,
-   "volume_24h": 9742.127379,
-   "liquidity": 22113.64026,
+   "volume": 64135.2427,
+   "volume_24h": 9715.608379,
+   "liquidity": 22113.46797,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991811",
    "event_slug": "demacia-cup-global-invitational-2026-winner",
    "event_title": "Demacia Cup Global Invitational 2026: Winner",
@@ -10060,16 +10124,16 @@
     "No"
    ],
    "prices": [
-    0.675,
-    0.325
+    0.68,
+    0.32
    ],
    "volume": 45728.461461,
    "volume_24h": 7901.295851,
-   "liquidity": 19915.8277,
+   "liquidity": 20208.1828,
    "market_end_date": "2026-11-01T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991811",
    "event_slug": "demacia-cup-global-invitational-2026-winner",
    "event_title": "Demacia Cup Global Invitational 2026: Winner",
@@ -10098,11 +10162,11 @@
    ],
    "volume": 26223.452689,
    "volume_24h": 9418.028183,
-   "liquidity": 27719.27789,
+   "liquidity": 27339.57376,
    "market_end_date": "2026-11-01T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991821",
    "event_slug": "worlds-2026-finals-mvp",
    "event_title": "Worlds 2026: Finals MVP",
@@ -10131,11 +10195,11 @@
    ],
    "volume": 913.544163,
    "volume_24h": 120.0,
-   "liquidity": 6601.09576,
+   "liquidity": 6134.83876,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991821",
    "event_slug": "worlds-2026-finals-mvp",
    "event_title": "Worlds 2026: Finals MVP",
@@ -10164,11 +10228,11 @@
    ],
    "volume": 3251.21288,
    "volume_24h": 824.06185,
-   "liquidity": 6686.078,
+   "liquidity": 6591.4275,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991821",
    "event_slug": "worlds-2026-finals-mvp",
    "event_title": "Worlds 2026: Finals MVP",
@@ -10197,11 +10261,11 @@
    ],
    "volume": 2325.214433,
    "volume_24h": 1825.25689,
-   "liquidity": 6399.81023,
+   "liquidity": 6038.65662,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991821",
    "event_slug": "worlds-2026-finals-mvp",
    "event_title": "Worlds 2026: Finals MVP",
@@ -10230,11 +10294,11 @@
    ],
    "volume": 8138.855907,
    "volume_24h": 6877.213375,
-   "liquidity": 10894.87271,
+   "liquidity": 11080.31522,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991821",
    "event_slug": "worlds-2026-finals-mvp",
    "event_title": "Worlds 2026: Finals MVP",
@@ -10263,11 +10327,11 @@
    ],
    "volume": 12901.867454,
    "volume_24h": 8999.57,
-   "liquidity": 16419.9072,
+   "liquidity": 15894.8856,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991821",
    "event_slug": "worlds-2026-finals-mvp",
    "event_title": "Worlds 2026: Finals MVP",
@@ -10296,11 +10360,11 @@
    ],
    "volume": 513.556035,
    "volume_24h": 122.005515,
-   "liquidity": 5276.39622,
+   "liquidity": 7172.53402,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991821",
    "event_slug": "worlds-2026-finals-mvp",
    "event_title": "Worlds 2026: Finals MVP",
@@ -10324,16 +10388,16 @@
     "No"
    ],
    "prices": [
-    0.0575,
-    0.9425
+    0.0545,
+    0.9455
    ],
    "volume": 1586.96482,
    "volume_24h": 51.0,
-   "liquidity": 2195.97723,
+   "liquidity": 2159.19574,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991821",
    "event_slug": "worlds-2026-finals-mvp",
    "event_title": "Worlds 2026: Finals MVP",
@@ -10362,11 +10426,11 @@
    ],
    "volume": 1399.312706,
    "volume_24h": null,
-   "liquidity": 4026.46629,
+   "liquidity": 3269.41421,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991821",
    "event_slug": "worlds-2026-finals-mvp",
    "event_title": "Worlds 2026: Finals MVP",
@@ -10395,11 +10459,11 @@
    ],
    "volume": 2837.3445,
    "volume_24h": 15.873016,
-   "liquidity": 1591.23726,
+   "liquidity": 1716.89726,
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991832",
    "event_slug": "worlds-2026-team-to-make-grand-finals",
    "event_title": "Worlds 2026: Team to Make Grand Finals",
@@ -10431,7 +10495,7 @@
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991832",
    "event_slug": "worlds-2026-team-to-make-grand-finals",
    "event_title": "Worlds 2026: Team to Make Grand Finals",
@@ -10463,7 +10527,7 @@
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991835",
    "event_slug": "lol-demacia-cup-global-invitational-2026-winning-region",
    "event_title": "Demacia Cup Global Invitational 2026 Winning Region",
@@ -10496,7 +10560,7 @@
    "market_end_date": "2026-11-01T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "991863",
    "event_slug": "will-a-western-team-beat-an-lck-lpl-or-lcp-team-in-a-bo5-at-worlds-2026",
    "event_title": "Will a Western team beat an LCK, LPL, or LCP team in a Bo5 at Worlds 2026?",
@@ -10528,7 +10592,7 @@
    "market_end_date": "2026-11-29T04:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "999803",
    "event_slug": "trump-announces-canada-tariff-increase-byptptpt",
    "event_title": "Trump announces Canada tariff increase by...?",
@@ -10560,7 +10624,7 @@
    "market_end_date": "2026-11-01T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "999803",
    "event_slug": "trump-announces-canada-tariff-increase-byptptpt",
    "event_title": "Trump announces Canada tariff increase by...?",
@@ -10592,7 +10656,7 @@
    "market_end_date": "2026-10-01T03:59:00Z"
   },
   {
-   "ts": "2026-10-16T07:38:19Z",
+   "ts": "2026-10-16T07:41:51Z",
    "event_id": "999804",
    "event_slug": "trump-announces-canada-tariff-decrease-byptptpt",
    "event_title": "Trump announces Canada tariff decrease by...?",
