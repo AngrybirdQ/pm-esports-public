@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T03:35:08Z",
+ "ts": "2026-10-16T03:56:48Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 51,
+   "events_returned": 50,
    "err": null
   },
   {
@@ -270,18 +270,18 @@
    },
    {
     "t": "Valorant: FlyQuest RED vs MIBR GC (BO5) - VCT Game Changers Americas L",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Highest ACS at VALORANT Champions 2026",
     "closed": false
    },
    {
-    "t": "Most Kills at VALORANT Champions 2026",
+    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
     "closed": false
    },
    {
-    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
+    "t": "Most Kills at VALORANT Champions 2026",
     "closed": false
    }
   ],
@@ -310,18 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 417,
- "markets": 311,
- "markets_dropped_by_volume_floor": 2425,
+ "markets": 314,
+ "markets_dropped_by_volume_floor": 2409,
  "day_file": "data/2026/10/2026-10-16T03.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 115,
- "trades_watchlist_markets": 84,
- "trades_collected": 943,
- "anomalies_detected": 8,
- "anomalies_new": 4,
+ "trades_watchlist_markets": 85,
+ "trades_collected": 959,
+ "anomalies_detected": 6,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 103,
- "books_rows": 162,
+ "books_rows": 166,
  "status": "ok"
 }
