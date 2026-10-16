@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T12:55:07Z",
+ "ts": "2026-10-16T13:06:06Z",
  "sources": [
   {
    "url": "/tags",
@@ -140,8 +140,8 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Worlds 2026: Winner",
    "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
+   "Worlds 2026: Winner",
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
@@ -265,12 +265,12 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
-    "closed": true
-   },
-   {
     "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
     "closed": false
+   },
+   {
+    "t": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
+    "closed": true
    },
    {
     "t": "Valorant: FlyQuest RED vs MIBR GC (BO5) - VCT Game Changers Americas L",
@@ -309,19 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 414,
- "markets": 363,
- "markets_dropped_by_volume_floor": 2328,
- "day_file": "data/2026/10/2026-10-16T12.jsonl",
+ "events": 413,
+ "markets": 365,
+ "markets_dropped_by_volume_floor": 2316,
+ "day_file": "data/2026/10/2026-10-16T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 179,
- "trades_watchlist_markets": 137,
- "trades_collected": 3262,
- "anomalies_detected": 37,
- "anomalies_new": 4,
+ "trades_markets_queried": 182,
+ "trades_watchlist_markets": 149,
+ "trades_collected": 3280,
+ "anomalies_detected": 50,
+ "anomalies_new": 48,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 151,
- "books_rows": 248,
+ "books_markets": 157,
+ "books_rows": 240,
  "status": "ok"
 }
