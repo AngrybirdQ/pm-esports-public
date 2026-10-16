@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T22:40:07Z",
+ "ts": "2026-10-16T23:31:30Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 29,
+   "events_returned": 33,
    "err": null
   },
   {
@@ -146,8 +146,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
-   "Dota 2: salamit vs Yellow Submarine (BO3) - EPL Masters Play-In Group "
+   "Dota 2: salamit vs Yellow Submarine (BO3) - EPL Masters Play-In Group ",
+   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -207,15 +207,15 @@
     "closed": true
    },
    {
+    "t": "Dota 2: salamit vs Yellow Submarine (BO3) - EPL Masters Play-In Group ",
+    "closed": false
+   },
+   {
     "t": "Dota 2: Xipto Esports vs Execration (BO3) - DreamLeague Southeast Asia",
     "closed": true
    },
    {
     "t": "Dota 2: Amaru Gaming vs Skyreavers (BO5) - DreamLeague South America C",
-    "closed": true
-   },
-   {
-    "t": "Dota 2: Mena Warriors vs CyberHero (BO3) - EPL Masters Play-In Group A",
     "closed": true
    }
   ],
@@ -277,12 +277,12 @@
     "closed": false
    },
    {
-    "t": "Valorant: FlyQuest RED vs MIBR GC (BO5) - VCT Game Changers Americas L",
-    "closed": true
-   },
-   {
     "t": "VALORANT Champions 2026: Winner",
     "closed": false
+   },
+   {
+    "t": "Valorant: FlyQuest RED vs MIBR GC (BO5) - VCT Game Changers Americas L",
+    "closed": true
    }
   ],
   "search:The International": [
@@ -309,19 +309,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 410,
- "markets": 317,
- "markets_dropped_by_volume_floor": 2180,
- "day_file": "data/2026/10/2026-10-16T22.jsonl",
+ "events": 412,
+ "markets": 314,
+ "markets_dropped_by_volume_floor": 2251,
+ "day_file": "data/2026/10/2026-10-16T23.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 105,
- "trades_watchlist_markets": 68,
- "trades_collected": 1655,
- "anomalies_detected": 32,
- "anomalies_new": 0,
+ "trades_watchlist_markets": 75,
+ "trades_collected": 1335,
+ "anomalies_detected": 23,
+ "anomalies_new": 23,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 79,
- "books_rows": 120,
+ "books_errors": [
+  "1750941326: HTTPError: HTTP Error 404: Not Found",
+  "5480890691: HTTPError: HTTP Error 404: Not Found",
+  "1563986409: HTTPError: HTTP Error 404: Not Found",
+  "8902285800: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 77,
+ "books_rows": 112,
  "status": "ok"
 }
