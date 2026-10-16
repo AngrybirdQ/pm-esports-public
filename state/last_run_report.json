@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T01:25:45Z",
+ "ts": "2026-10-16T01:46:19Z",
  "sources": [
   {
    "url": "/tags",
@@ -215,8 +215,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PuckChamp vs Mena Warriors (BO3) - EPL Masters Play-In Group A",
-    "closed": true
+    "t": "Dota 2: Amaru Gaming vs Skyreavers (BO5) - DreamLeague South America C",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -310,18 +310,24 @@
  },
  "n_event_queries": 21,
  "events": 414,
- "markets": 317,
- "markets_dropped_by_volume_floor": 2369,
+ "markets": 320,
+ "markets_dropped_by_volume_floor": 2371,
  "day_file": "data/2026/10/2026-10-16T01.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 123,
- "trades_watchlist_markets": 89,
- "trades_collected": 1673,
+ "trades_markets_queried": 126,
+ "trades_watchlist_markets": 91,
+ "trades_collected": 1751,
  "anomalies_detected": 22,
- "anomalies_new": 5,
+ "anomalies_new": 22,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 114,
- "books_rows": 160,
+ "books_errors": [
+  "8031128269: HTTPError: HTTP Error 404: Not Found",
+  "7771476932: HTTPError: HTTP Error 404: Not Found",
+  "1014271651: HTTPError: HTTP Error 404: Not Found",
+  "1848248124: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 115,
+ "books_rows": 144,
  "status": "ok"
 }
