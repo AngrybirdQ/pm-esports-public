@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T08:33:14Z",
+ "ts": "2026-10-17T08:49:36Z",
  "sources": [
   {
    "url": "/tags",
@@ -147,7 +147,7 @@
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
    "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
-   "Dota 2: Xtreme Gaming vs Yakult Brothers (BO3) - BLAST Slam China Clos"
+   "Dota 2: Team Tidebound vs Team Resilience (BO3) - BLAST Slam China Clo"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -309,19 +309,30 @@
   ]
  },
  "n_event_queries": 21,
- "events": 415,
- "markets": 357,
- "markets_dropped_by_volume_floor": 2407,
+ "events": 416,
+ "markets": 365,
+ "markets_dropped_by_volume_floor": 2423,
  "day_file": "data/2026/10/2026-10-17T08.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 131,
- "trades_watchlist_markets": 91,
- "trades_collected": 2258,
- "anomalies_detected": 32,
- "anomalies_new": 32,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 101,
+ "trades_markets_queried": 132,
+ "trades_watchlist_markets": 104,
+ "trades_collected": 2584,
+ "anomalies_detected": 29,
+ "anomalies_new": 15,
+ "history_debug": [
+  {
+   "cid": "0xa9b20ba5",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x96867f03",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_markets": 103,
  "books_rows": 172,
  "status": "ok"
 }
