@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T22:10:14Z",
+ "ts": "2026-10-17T22:21:38Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 29,
+   "events_returned": 28,
    "err": null
   },
   {
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 58,
+   "events_returned": 57,
    "err": null
   },
   {
@@ -309,19 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 401,
- "markets": 336,
- "markets_dropped_by_volume_floor": 2035,
+ "events": 398,
+ "markets": 339,
+ "markets_dropped_by_volume_floor": 2014,
  "day_file": "data/2026/10/2026-10-17T22.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 66,
- "trades_watchlist_markets": 28,
- "trades_collected": 1155,
- "anomalies_detected": 36,
- "anomalies_new": 0,
+ "trades_markets_queried": 58,
+ "trades_watchlist_markets": 24,
+ "trades_collected": 922,
+ "anomalies_detected": 39,
+ "anomalies_new": 8,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 39,
- "books_rows": 34,
+ "books_markets": 40,
+ "books_rows": 36,
  "status": "ok"
 }
