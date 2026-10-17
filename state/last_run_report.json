@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T05:51:15Z",
+ "ts": "2026-10-17T06:10:26Z",
  "sources": [
   {
    "url": "/tags",
@@ -243,11 +243,11 @@
   ],
   "search:League of Legends": [
    {
-    "t": "Will Jynxzi reach Gold rank in League of Legends by...?",
+    "t": "League of Legends Global Power Rankings Post Worlds: Rank 1",
     "closed": false
    },
    {
-    "t": "League of Legends Global Power Rankings Post Worlds: Rank 1",
+    "t": "Will Jynxzi reach Gold rank in League of Legends by...?",
     "closed": false
    },
    {
@@ -281,7 +281,7 @@
     "closed": false
    },
    {
-    "t": "VALORANT Champions 2026 Winning Region",
+    "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
     "closed": false
    }
   ],
@@ -310,18 +310,24 @@
  },
  "n_event_queries": 21,
  "events": 408,
- "markets": 334,
- "markets_dropped_by_volume_floor": 2211,
- "day_file": "data/2026/10/2026-10-17T05.jsonl",
+ "markets": 338,
+ "markets_dropped_by_volume_floor": 2201,
+ "day_file": "data/2026/10/2026-10-17T06.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 95,
- "trades_watchlist_markets": 67,
- "trades_collected": 1116,
+ "trades_markets_queried": 106,
+ "trades_watchlist_markets": 73,
+ "trades_collected": 1273,
  "anomalies_detected": 11,
- "anomalies_new": 3,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 75,
- "books_rows": 134,
+ "anomalies_new": 11,
+ "history_debug": [
+  {
+   "cid": "0xab76d6b5",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 85,
+ "books_rows": 148,
  "status": "ok"
 }
