@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T21:40:03Z",
+ "ts": "2026-10-17T21:56:17Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 57,
+   "events_returned": 58,
    "err": null
   },
   {
@@ -170,8 +170,8 @@
   ],
   "tag_slug=valorant": [
    "VALORANT Champions 2026: Winner",
-   "Least Played Map at VALORANT Champions 2026",
-   "Most First Bloods at VALORANT Champions 2026"
+   "Valorant: LOUD vs Team Vitality (BO5) - VCT Champions Playoffs",
+   "Least Played Map at VALORANT Champions 2026"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -309,25 +309,30 @@
   ]
  },
  "n_event_queries": 21,
- "events": 399,
- "markets": 337,
- "markets_dropped_by_volume_floor": 1999,
+ "events": 402,
+ "markets": 334,
+ "markets_dropped_by_volume_floor": 2041,
  "day_file": "data/2026/10/2026-10-17T21.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 66,
- "trades_watchlist_markets": 24,
- "trades_collected": 1303,
- "anomalies_detected": 33,
- "anomalies_new": 2,
+ "trades_watchlist_markets": 28,
+ "trades_collected": 1192,
+ "anomalies_detected": 40,
+ "anomalies_new": 8,
  "history_debug": [
   {
-   "cid": "0xa2e72d3d",
-   "pts": 1,
+   "cid": "0xe08c2416",
+   "pts": 4,
    "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xa650f920",
+   "pts": 0,
+   "variant": "none"
   }
  ],
  "history_conditions_new": 1,
- "books_markets": 43,
- "books_rows": 38,
+ "books_markets": 39,
+ "books_rows": 34,
  "status": "ok"
 }
