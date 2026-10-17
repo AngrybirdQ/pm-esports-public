@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T10:08:29Z",
+ "ts": "2026-10-17T10:19:36Z",
  "sources": [
   {
    "url": "/tags",
@@ -199,6 +199,10 @@
  "search_samples": {
   "search:Dota 2": [
    {
+    "t": "Dota 2: Team Tidebound vs Team Resilience (BO3) - BLAST Slam China Clo",
+    "closed": false
+   },
+   {
     "t": "Dota 2: Team Synapse vs Dawn Bulls (BO3) - DreamLeague Western Europe ",
     "closed": true
    },
@@ -207,16 +211,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: salamit vs Yellow Submarine (BO3) - EPL Masters Play-In Group ",
-    "closed": true
-   },
-   {
-    "t": "Dota 2: Team Tidebound vs Team Resilience (BO3) - BLAST Slam China Clo",
-    "closed": false
-   },
-   {
     "t": "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia",
     "closed": false
+   },
+   {
+    "t": "Dota 2: salamit vs Yellow Submarine (BO3) - EPL Masters Play-In Group ",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -310,18 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 416,
- "markets": 375,
- "markets_dropped_by_volume_floor": 2431,
+ "markets": 380,
+ "markets_dropped_by_volume_floor": 2418,
  "day_file": "data/2026/10/2026-10-17T10.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 152,
- "trades_watchlist_markets": 120,
- "trades_collected": 3320,
- "anomalies_detected": 64,
- "anomalies_new": 0,
+ "trades_markets_queried": 158,
+ "trades_watchlist_markets": 119,
+ "trades_collected": 3319,
+ "anomalies_detected": 39,
+ "anomalies_new": 22,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 115,
- "books_rows": 158,
+ "books_markets": 128,
+ "books_rows": 156,
  "status": "ok"
 }
