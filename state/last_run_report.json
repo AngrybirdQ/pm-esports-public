@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T10:31:00Z",
+ "ts": "2026-10-17T10:50:41Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 38,
+   "events_returned": 39,
    "err": null
   },
   {
@@ -203,12 +203,12 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Team Synapse vs Dawn Bulls (BO3) - DreamLeague Western Europe ",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Synapse vs Dawn Bulls (BO3) - DreamLeague Western Europe ",
+    "closed": true
    },
    {
     "t": "Dota 2: OG vs LEGION (BO3) - DreamLeague Western Europe Closed Qualifi",
@@ -309,25 +309,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 416,
- "markets": 382,
- "markets_dropped_by_volume_floor": 2396,
+ "events": 417,
+ "markets": 387,
+ "markets_dropped_by_volume_floor": 2420,
  "day_file": "data/2026/10/2026-10-17T10.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 161,
- "trades_watchlist_markets": 119,
- "trades_collected": 3153,
- "anomalies_detected": 51,
- "anomalies_new": 51,
+ "trades_markets_queried": 162,
+ "trades_watchlist_markets": 127,
+ "trades_collected": 3081,
+ "anomalies_detected": 52,
+ "anomalies_new": 15,
  "history_debug": [
   {
-   "cid": "0x7bec343b",
+   "cid": "0xe1aa9e31",
    "pts": 2,
    "variant": "interval=all&fidelity=1000"
   }
  ],
  "history_conditions_new": 1,
- "books_markets": 130,
- "books_rows": 154,
+ "books_markets": 131,
+ "books_rows": 158,
  "status": "ok"
 }
