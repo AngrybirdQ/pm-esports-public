@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T09:40:53Z",
+ "ts": "2026-10-17T09:50:17Z",
  "sources": [
   {
    "url": "/tags",
@@ -140,9 +140,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
+   "LoL: BNK FEARX vs Team WE (BO5) - Demacia Cup Global Invitational Play",
    "Valorant: Team Vitality vs 100 Thieves (BO5) - VCT Champions Playoffs",
-   "Worlds 2026: Winner",
-   "LoL: BNK FEARX vs Team WE (BO5) - Demacia Cup Global Invitational Play"
+   "Worlds 2026: Winner"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -211,12 +211,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Xipto Esports vs Execration (BO3) - DreamLeague Southeast Asia",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Tidebound vs Team Resilience (BO3) - BLAST Slam China Clo",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Xipto Esports vs Execration (BO3) - DreamLeague Southeast Asia",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -310,18 +310,24 @@
  },
  "n_event_queries": 21,
  "events": 416,
- "markets": 375,
- "markets_dropped_by_volume_floor": 2425,
+ "markets": 378,
+ "markets_dropped_by_volume_floor": 2431,
  "day_file": "data/2026/10/2026-10-17T09.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 151,
- "trades_watchlist_markets": 111,
- "trades_collected": 3469,
- "anomalies_detected": 81,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_watchlist_markets": 120,
+ "trades_collected": 3408,
+ "anomalies_detected": 84,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0xae31eaef",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 117,
- "books_rows": 172,
+ "books_rows": 160,
  "status": "ok"
 }
