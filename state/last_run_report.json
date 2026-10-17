@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T13:50:00Z",
+ "ts": "2026-10-17T14:04:39Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 52,
+   "events_returned": 53,
    "err": null
   },
   {
@@ -211,12 +211,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: OG vs LEGION (BO3) - DreamLeague Western Europe Closed Qualifi",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Resilience vs Xtreme Gaming (BO3) - BLAST Slam China Clos",
     "closed": false
+   },
+   {
+    "t": "Dota 2: OG vs LEGION (BO3) - DreamLeague Western Europe Closed Qualifi",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -273,15 +273,15 @@
     "closed": false
    },
    {
-    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
-    "closed": true
-   },
-   {
     "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
     "closed": false
    },
    {
     "t": "Least Played Map at VALORANT Champions 2026",
+    "closed": false
+   },
+   {
+    "t": "Most First Bloods at VALORANT Champions 2026",
     "closed": false
    }
   ],
@@ -310,22 +310,40 @@
  },
  "n_event_queries": 21,
  "events": 410,
- "markets": 376,
- "markets_dropped_by_volume_floor": 2278,
- "day_file": "data/2026/10/2026-10-17T13.jsonl",
+ "markets": 378,
+ "markets_dropped_by_volume_floor": 2296,
+ "day_file": "data/2026/10/2026-10-17T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 134,
- "trades_watchlist_markets": 107,
- "trades_collected": 2968,
- "anomalies_detected": 37,
- "anomalies_new": 18,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "4583710406: HTTPError: HTTP Error 404: Not Found",
-  "3870028575: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 148,
+ "trades_watchlist_markets": 115,
+ "trades_collected": 2949,
+ "anomalies_detected": 34,
+ "anomalies_new": 34,
+ "history_debug": [
+  {
+   "cid": "0x9841d746",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x636955e4",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xdf40fe4d",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 106,
- "books_rows": 108,
+ "history_conditions_new": 3,
+ "books_errors": [
+  "1136877865: HTTPError: HTTP Error 404: Not Found",
+  "1024560658: HTTPError: HTTP Error 404: Not Found",
+  "4888885672: HTTPError: HTTP Error 404: Not Found",
+  "4029761418: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 116,
+ "books_rows": 124,
  "status": "ok"
 }
