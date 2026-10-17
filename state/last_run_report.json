@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T17:38:56Z",
+ "ts": "2026-10-17T17:50:10Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 33,
+   "events_returned": 32,
    "err": null
   },
   {
@@ -277,11 +277,11 @@
     "closed": false
    },
    {
-    "t": "Least Played Map at VALORANT Champions 2026",
+    "t": "Valorant: LOUD vs Team Vitality (BO5) - VCT Champions Playoffs",
     "closed": false
    },
    {
-    "t": "Most First Bloods at VALORANT Champions 2026",
+    "t": "Least Played Map at VALORANT Champions 2026",
     "closed": false
    }
   ],
@@ -310,18 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 405,
- "markets": 325,
- "markets_dropped_by_volume_floor": 2153,
+ "markets": 323,
+ "markets_dropped_by_volume_floor": 2127,
  "day_file": "data/2026/10/2026-10-17T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 116,
+ "trades_markets_queried": 115,
  "trades_watchlist_markets": 85,
- "trades_collected": 2021,
- "anomalies_detected": 45,
- "anomalies_new": 6,
+ "trades_collected": 2159,
+ "anomalies_detected": 54,
+ "anomalies_new": 20,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 74,
- "books_rows": 90,
+ "books_rows": 82,
  "status": "ok"
 }
