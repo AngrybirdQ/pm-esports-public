@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T11:32:56Z",
+ "ts": "2026-10-17T11:50:12Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 39,
+   "events_returned": 38,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 53,
+   "events_returned": 52,
    "err": null
   },
   {
@@ -141,13 +141,13 @@
  "tag_samples": {
   "tag_slug=esports": [
    "LoL: BNK FEARX vs Team WE (BO5) - Demacia Cup Global Invitational Play",
-   "Valorant: Team Vitality vs 100 Thieves (BO5) - VCT Champions Playoffs",
-   "Worlds 2026: Winner"
+   "Worlds 2026: Winner",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia",
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Team Tidebound vs Team Resilience (BO3) - BLAST Slam China Clo"
+   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -169,9 +169,9 @@
    "Demacia Cup Global Invitational 2026: Winner"
   ],
   "tag_slug=valorant": [
-   "Valorant: Team Vitality vs 100 Thieves (BO5) - VCT Champions Playoffs",
    "VALORANT Champions 2026: Winner",
-   "Least Played Map at VALORANT Champions 2026"
+   "Least Played Map at VALORANT Champions 2026",
+   "Most First Bloods at VALORANT Champions 2026"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -204,7 +204,7 @@
    },
    {
     "t": "Dota 2: Team Tidebound vs Team Resilience (BO3) - BLAST Slam China Clo",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Synapse vs Dawn Bulls (BO3) - DreamLeague Western Europe ",
@@ -309,35 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 412,
- "markets": 381,
- "markets_dropped_by_volume_floor": 2372,
+ "events": 411,
+ "markets": 375,
+ "markets_dropped_by_volume_floor": 2345,
  "day_file": "data/2026/10/2026-10-17T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 175,
+ "trades_markets_queried": 159,
  "trades_watchlist_markets": 132,
- "trades_collected": 3530,
- "anomalies_detected": 59,
- "anomalies_new": 58,
+ "trades_collected": 3139,
+ "anomalies_detected": 60,
+ "anomalies_new": 22,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "3872577671: HTTPError: HTTP Error 404: Not Found",
-  "1143498329: HTTPError: HTTP Error 404: Not Found",
-  "7538701397: HTTPError: HTTP Error 404: Not Found",
-  "1280327115: HTTPError: HTTP Error 404: Not Found",
-  "4842390655: HTTPError: HTTP Error 404: Not Found",
-  "4139737366: HTTPError: HTTP Error 404: Not Found",
-  "7976558025: HTTPError: HTTP Error 404: Not Found",
-  "4708795349: HTTPError: HTTP Error 404: Not Found",
-  "1132202570: HTTPError: HTTP Error 404: Not Found",
-  "1029283636: HTTPError: HTTP Error 404: Not Found",
-  "3478218539: HTTPError: HTTP Error 404: Not Found",
-  "1822363206: HTTPError: HTTP Error 404: Not Found",
-  "2606476317: HTTPError: HTTP Error 404: Not Found",
-  "9924241494: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 123,
- "books_rows": 144,
+ "books_markets": 115,
+ "books_rows": 142,
  "status": "ok"
 }
