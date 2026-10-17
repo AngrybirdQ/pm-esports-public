@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T00:49:58Z",
+ "ts": "2026-10-17T01:00:26Z",
  "sources": [
   {
    "url": "/tags",
@@ -281,8 +281,8 @@
     "closed": false
    },
    {
-    "t": "Valorant: FlyQuest RED vs MIBR GC (BO5) - VCT Game Changers Americas L",
-    "closed": true
+    "t": "VALORANT Champions 2026 Winning Region",
+    "closed": false
    }
   ],
   "search:The International": [
@@ -310,18 +310,40 @@
  },
  "n_event_queries": 21,
  "events": 409,
- "markets": 320,
- "markets_dropped_by_volume_floor": 2254,
- "day_file": "data/2026/10/2026-10-17T00.jsonl",
+ "markets": 322,
+ "markets_dropped_by_volume_floor": 2249,
+ "day_file": "data/2026/10/2026-10-17T01.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 98,
+ "trades_markets_queried": 100,
  "trades_watchlist_markets": 66,
- "trades_collected": 1026,
- "anomalies_detected": 30,
- "anomalies_new": 29,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 76,
+ "trades_collected": 935,
+ "anomalies_detected": 29,
+ "anomalies_new": 28,
+ "history_debug": [
+  {
+   "cid": "0x276b505d",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_errors": [
+  "1386449026: HTTPError: HTTP Error 404: Not Found",
+  "1027935714: HTTPError: HTTP Error 404: Not Found",
+  "4963730322: HTTPError: HTTP Error 404: Not Found",
+  "8842014371: HTTPError: HTTP Error 404: Not Found",
+  "1826132269: HTTPError: HTTP Error 404: Not Found",
+  "6676850698: HTTPError: HTTP Error 404: Not Found",
+  "7505617351: HTTPError: HTTP Error 404: Not Found",
+  "5269635267: HTTPError: HTTP Error 404: Not Found",
+  "1457934803: HTTPError: HTTP Error 404: Not Found",
+  "2257979908: HTTPError: HTTP Error 404: Not Found",
+  "1545657471: HTTPError: HTTP Error 404: Not Found",
+  "2734184755: HTTPError: HTTP Error 404: Not Found",
+  "1051150049: HTTPError: HTTP Error 404: Not Found",
+  "5650598819: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 75,
  "books_rows": 102,
  "status": "ok"
 }
