@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T09:56:18Z",
+ "ts": "2026-10-17T09:59:13Z",
  "sources": [
   {
    "url": "/tags",
@@ -215,8 +215,8 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Xipto Esports vs Execration (BO3) - DreamLeague Southeast Asia",
-    "closed": true
+    "t": "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -265,15 +265,11 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
-    "closed": true
-   },
-   {
     "t": "Valorant: Team Vitality vs 100 Thieves (BO5) - VCT Champions Playoffs",
     "closed": false
    },
    {
-    "t": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
+    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
     "closed": true
    },
    {
@@ -282,6 +278,10 @@
    },
    {
     "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
+    "closed": false
+   },
+   {
+    "t": "Least Played Map at VALORANT Champions 2026",
     "closed": false
    }
   ],
@@ -316,17 +316,15 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 153,
  "trades_watchlist_markets": 120,
- "trades_collected": 3494,
+ "trades_collected": 3503,
  "anomalies_detected": 82,
- "anomalies_new": 2,
- "history_debug": [
-  {
-   "cid": "0xcb5996a8",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
+ "anomalies_new": 0,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_errors": [
+  "2049602935: HTTPError: HTTP Error 404: Not Found",
+  "1039073970: HTTPError: HTTP Error 404: Not Found"
  ],
- "history_conditions_new": 1,
  "books_markets": 118,
  "books_rows": 160,
  "status": "ok"
