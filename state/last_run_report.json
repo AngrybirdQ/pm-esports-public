@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T09:53:21Z",
+ "ts": "2026-10-17T09:56:18Z",
  "sources": [
   {
    "url": "/tags",
@@ -147,12 +147,12 @@
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
    "Dota 2: Team Tidebound vs Team Resilience (BO3) - BLAST Slam China Clo",
-   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A"
+   "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
-   "Which teams will qualify to PGL Major Singapore 2026?",
-   "Thunderpick World Championship 2026: Winner"
+   "Thunderpick World Championship 2026: Winner",
+   "Which teams will qualify to PGL Major Singapore 2026?"
   ],
   "tag_slug=counter-strike": [
    "Will Valve add sticker trade-ups before November?",
@@ -310,22 +310,24 @@
  },
  "n_event_queries": 21,
  "events": 416,
- "markets": 378,
- "markets_dropped_by_volume_floor": 2431,
+ "markets": 380,
+ "markets_dropped_by_volume_floor": 2432,
  "day_file": "data/2026/10/2026-10-17T09.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 151,
+ "trades_markets_queried": 153,
  "trades_watchlist_markets": 120,
- "trades_collected": 3434,
- "anomalies_detected": 84,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "8721527655: HTTPError: HTTP Error 404: Not Found",
-  "5013961925: HTTPError: HTTP Error 404: Not Found"
+ "trades_collected": 3494,
+ "anomalies_detected": 82,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0xcb5996a8",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 117,
+ "history_conditions_new": 1,
+ "books_markets": 118,
  "books_rows": 160,
  "status": "ok"
 }
