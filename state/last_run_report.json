@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T22:42:41Z",
+ "ts": "2026-10-17T23:00:56Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 28,
+   "events_returned": 29,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 53,
+   "events_returned": 51,
    "err": null
   },
   {
@@ -309,19 +309,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 398,
- "markets": 328,
- "markets_dropped_by_volume_floor": 1993,
- "day_file": "data/2026/10/2026-10-17T22.jsonl",
+ "events": 399,
+ "markets": 322,
+ "markets_dropped_by_volume_floor": 2027,
+ "day_file": "data/2026/10/2026-10-17T23.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 47,
+ "trades_markets_queried": 48,
  "trades_watchlist_markets": 24,
- "trades_collected": 607,
- "anomalies_detected": 11,
- "anomalies_new": 4,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 40,
- "books_rows": 56,
+ "trades_collected": 590,
+ "anomalies_detected": 13,
+ "anomalies_new": 13,
+ "history_debug": [
+  {
+   "cid": "0x2bc5f36b",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 39,
+ "books_rows": 54,
  "status": "ok"
 }
