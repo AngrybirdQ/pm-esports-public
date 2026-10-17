@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T07:09:30Z",
+ "ts": "2026-10-17T07:11:56Z",
  "sources": [
   {
    "url": "/tags",
@@ -269,12 +269,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
-    "closed": true
-   },
-   {
     "t": "Valorant: Team Vitality vs 100 Thieves (BO5) - VCT Champions Playoffs",
     "closed": false
+   },
+   {
+    "t": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Playoffs",
+    "closed": true
    },
    {
     "t": "VALORANT Champions 2026: Winner",
@@ -310,28 +310,22 @@
  },
  "n_event_queries": 21,
  "events": 409,
- "markets": 342,
- "markets_dropped_by_volume_floor": 2232,
+ "markets": 341,
+ "markets_dropped_by_volume_floor": 2234,
  "day_file": "data/2026/10/2026-10-17T07.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 115,
+ "trades_markets_queried": 114,
  "trades_watchlist_markets": 84,
- "trades_collected": 1440,
+ "trades_collected": 1438,
  "anomalies_detected": 2,
  "anomalies_new": 0,
- "history_debug": [
-  {
-   "cid": "0x475f8935",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_errors": [
-  "1347832212: HTTPError: HTTP Error 404: Not Found",
-  "1695077353: HTTPError: HTTP Error 404: Not Found"
+  "7683024062: HTTPError: HTTP Error 404: Not Found",
+  "6105152074: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 93,
+ "books_markets": 92,
  "books_rows": 156,
  "status": "ok"
 }
