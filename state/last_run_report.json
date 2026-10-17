@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T17:21:09Z",
+ "ts": "2026-10-17T17:25:56Z",
  "sources": [
   {
    "url": "/tags",
@@ -200,7 +200,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Resilience vs Xtreme Gaming (BO3) - BLAST Slam China Clos",
@@ -309,37 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 406,
- "markets": 341,
- "markets_dropped_by_volume_floor": 2171,
+ "events": 405,
+ "markets": 333,
+ "markets_dropped_by_volume_floor": 2158,
  "day_file": "data/2026/10/2026-10-17T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 116,
+ "trades_markets_queried": 117,
  "trades_watchlist_markets": 85,
- "trades_collected": 2460,
- "anomalies_detected": 35,
- "anomalies_new": 4,
+ "trades_collected": 2399,
+ "anomalies_detected": 47,
+ "anomalies_new": 30,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "7028348496: HTTPError: HTTP Error 404: Not Found",
-  "3517643215: HTTPError: HTTP Error 404: Not Found",
-  "6093068799: HTTPError: HTTP Error 404: Not Found",
-  "1533212826: HTTPError: HTTP Error 404: Not Found",
-  "1534922227: HTTPError: HTTP Error 404: Not Found",
-  "4506979372: HTTPError: HTTP Error 404: Not Found",
-  "7028319230: HTTPError: HTTP Error 404: Not Found",
-  "1960749453: HTTPError: HTTP Error 404: Not Found",
-  "2486767759: HTTPError: HTTP Error 404: Not Found",
-  "3457993289: HTTPError: HTTP Error 404: Not Found",
-  "1019775653: HTTPError: HTTP Error 404: Not Found",
-  "2920599175: HTTPError: HTTP Error 404: Not Found",
-  "3060061226: HTTPError: HTTP Error 404: Not Found",
-  "3306955597: HTTPError: HTTP Error 404: Not Found",
-  "7985096402: HTTPError: HTTP Error 404: Not Found",
-  "9381944182: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 82,
+ "books_markets": 74,
  "books_rows": 88,
  "status": "ok"
 }
