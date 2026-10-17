@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T11:10:34Z",
+ "ts": "2026-10-17T11:24:56Z",
  "sources": [
   {
    "url": "/tags",
@@ -146,8 +146,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Team Tidebound vs Team Resilience (BO3) - BLAST Slam China Clo",
-   "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia"
+   "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia",
+   "Dota 2: Team Tidebound vs Team Resilience (BO3) - BLAST Slam China Clo"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -199,11 +199,11 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Team Tidebound vs Team Resilience (BO3) - BLAST Slam China Clo",
+    "t": "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia",
     "closed": false
    },
    {
-    "t": "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia",
+    "t": "Dota 2: Team Tidebound vs Team Resilience (BO3) - BLAST Slam China Clo",
     "closed": false
    },
    {
@@ -309,23 +309,27 @@
   ]
  },
  "n_event_queries": 21,
- "events": 415,
- "markets": 388,
- "markets_dropped_by_volume_floor": 2398,
+ "events": 414,
+ "markets": 384,
+ "markets_dropped_by_volume_floor": 2383,
  "day_file": "data/2026/10/2026-10-17T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 170,
+ "trades_markets_queried": 175,
  "trades_watchlist_markets": 132,
- "trades_collected": 3226,
- "anomalies_detected": 36,
- "anomalies_new": 35,
+ "trades_collected": 3447,
+ "anomalies_detected": 56,
+ "anomalies_new": 56,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "7580117129: HTTPError: HTTP Error 404: Not Found",
-  "5500233743: HTTPError: HTTP Error 404: Not Found"
+  "5620501959: HTTPError: HTTP Error 404: Not Found",
+  "4175417733: HTTPError: HTTP Error 404: Not Found",
+  "4980814519: HTTPError: HTTP Error 404: Not Found",
+  "1125432098: HTTPError: HTTP Error 404: Not Found",
+  "5138576460: HTTPError: HTTP Error 404: Not Found",
+  "7905119177: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 135,
- "books_rows": 158,
+ "books_markets": 130,
+ "books_rows": 152,
  "status": "ok"
 }
