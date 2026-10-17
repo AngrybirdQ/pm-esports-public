@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T10:19:36Z",
+ "ts": "2026-10-17T10:31:00Z",
  "sources": [
   {
    "url": "/tags",
@@ -207,12 +207,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: OG vs LEGION (BO3) - DreamLeague Western Europe Closed Qualifi",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia",
     "closed": false
+   },
+   {
+    "t": "Dota 2: OG vs LEGION (BO3) - DreamLeague Western Europe Closed Qualifi",
+    "closed": true
    },
    {
     "t": "Dota 2: salamit vs Yellow Submarine (BO3) - EPL Masters Play-In Group ",
@@ -310,18 +310,24 @@
  },
  "n_event_queries": 21,
  "events": 416,
- "markets": 380,
- "markets_dropped_by_volume_floor": 2418,
+ "markets": 382,
+ "markets_dropped_by_volume_floor": 2396,
  "day_file": "data/2026/10/2026-10-17T10.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 158,
+ "trades_markets_queried": 161,
  "trades_watchlist_markets": 119,
- "trades_collected": 3319,
- "anomalies_detected": 39,
- "anomalies_new": 22,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 128,
- "books_rows": 156,
+ "trades_collected": 3153,
+ "anomalies_detected": 51,
+ "anomalies_new": 51,
+ "history_debug": [
+  {
+   "cid": "0x7bec343b",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 130,
+ "books_rows": 154,
  "status": "ok"
 }
