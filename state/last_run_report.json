@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T16:06:38Z",
+ "ts": "2026-10-17T16:40:35Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 35,
+   "events_returned": 34,
    "err": null
   },
   {
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "Counter-Strike: FURIA vs Aurora Gaming (BO3) - Thunderpick World Champ",
    "Worlds 2026: Winner",
-   "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia"
+   "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia",
@@ -310,18 +310,33 @@
  },
  "n_event_queries": 21,
  "events": 406,
- "markets": 333,
- "markets_dropped_by_volume_floor": 2209,
+ "markets": 336,
+ "markets_dropped_by_volume_floor": 2169,
  "day_file": "data/2026/10/2026-10-17T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 109,
- "trades_watchlist_markets": 83,
- "trades_collected": 2611,
- "anomalies_detected": 53,
+ "trades_markets_queried": 118,
+ "trades_watchlist_markets": 79,
+ "trades_collected": 2322,
+ "anomalies_detected": 51,
  "anomalies_new": 51,
- "history_debug": [],
+ "history_debug": [
+  {
+   "cid": "0x4103789d",
+   "pts": 0,
+   "variant": "none"
+  },
+  {
+   "cid": "0x3dec1e7d",
+   "pts": 0,
+   "variant": "none"
+  }
+ ],
  "history_conditions_new": 0,
- "books_markets": 90,
+ "books_errors": [
+  "1291919323: HTTPError: HTTP Error 404: Not Found",
+  "1294334310: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 83,
  "books_rows": 90,
  "status": "ok"
 }
