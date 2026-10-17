@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T12:40:03Z",
+ "ts": "2026-10-17T12:50:34Z",
  "sources": [
   {
    "url": "/tags",
@@ -147,7 +147,7 @@
   "tag_slug=dota-2": [
    "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia",
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A"
+   "Dota 2: Dawn Bulls vs Team Lynx (BO3) - DreamLeague Western Europe Clo"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -310,22 +310,34 @@
  },
  "n_event_queries": 21,
  "events": 411,
- "markets": 401,
- "markets_dropped_by_volume_floor": 2315,
+ "markets": 407,
+ "markets_dropped_by_volume_floor": 2319,
  "day_file": "data/2026/10/2026-10-17T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 143,
- "trades_watchlist_markets": 92,
- "trades_collected": 3637,
- "anomalies_detected": 39,
- "anomalies_new": 11,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "1143372060: HTTPError: HTTP Error 404: Not Found",
-  "6906454148: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 135,
+ "trades_watchlist_markets": 86,
+ "trades_collected": 3389,
+ "anomalies_detected": 50,
+ "anomalies_new": 17,
+ "history_debug": [
+  {
+   "cid": "0xf729ae84",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xa2b14bbc",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x6ce7c522",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 120,
- "books_rows": 138,
+ "history_conditions_new": 3,
+ "books_markets": 117,
+ "books_rows": 134,
  "status": "ok"
 }
