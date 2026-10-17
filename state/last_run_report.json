@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T05:17:19Z",
+ "ts": "2026-10-17T05:35:40Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 62,
+   "events_returned": 61,
    "err": null
   },
   {
@@ -140,9 +140,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: FURIA Esports vs Cloud9 (BO5) - Worlds Play-In",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -159,9 +159,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: FURIA Esports vs Cloud9 (BO5) - Worlds Play-In",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: KaBuM! Ilha das Lendas vs Golden Lions (BO5) - CBLOL Promotion Pl"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -310,18 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 408,
- "markets": 328,
- "markets_dropped_by_volume_floor": 2219,
+ "markets": 334,
+ "markets_dropped_by_volume_floor": 2211,
  "day_file": "data/2026/10/2026-10-17T05.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 92,
- "trades_watchlist_markets": 65,
- "trades_collected": 861,
- "anomalies_detected": 16,
- "anomalies_new": 0,
+ "trades_markets_queried": 93,
+ "trades_watchlist_markets": 67,
+ "trades_collected": 1032,
+ "anomalies_detected": 14,
+ "anomalies_new": 14,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 70,
- "books_rows": 130,
+ "books_markets": 71,
+ "books_rows": 132,
  "status": "ok"
 }
