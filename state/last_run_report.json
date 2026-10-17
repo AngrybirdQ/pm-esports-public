@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T07:25:24Z",
+ "ts": "2026-10-17T07:28:19Z",
  "sources": [
   {
    "url": "/tags",
@@ -171,7 +171,7 @@
   "tag_slug=valorant": [
    "Valorant: Team Vitality vs 100 Thieves (BO5) - VCT Champions Playoffs",
    "VALORANT Champions 2026: Winner",
-   "Most First Bloods at VALORANT Champions 2026"
+   "Least Played Map at VALORANT Champions 2026"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -310,18 +310,24 @@
  },
  "n_event_queries": 21,
  "events": 417,
- "markets": 337,
- "markets_dropped_by_volume_floor": 2412,
+ "markets": 339,
+ "markets_dropped_by_volume_floor": 2416,
  "day_file": "data/2026/10/2026-10-17T07.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 114,
  "trades_watchlist_markets": 88,
- "trades_collected": 1402,
- "anomalies_detected": 12,
+ "trades_collected": 1406,
+ "anomalies_detected": 8,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 89,
- "books_rows": 156,
+ "history_debug": [
+  {
+   "cid": "0xfb64e0c1",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 90,
+ "books_rows": 158,
  "status": "ok"
 }
