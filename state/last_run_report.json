@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T15:20:41Z",
+ "ts": "2026-10-17T15:30:56Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 38,
+   "events_returned": 37,
    "err": null
   },
   {
@@ -212,7 +212,7 @@
    },
    {
     "t": "Dota 2: Dawn Bulls vs Team Lynx (BO3) - DreamLeague Western Europe Clo",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: OG vs LEGION (BO3) - DreamLeague Western Europe Closed Qualifi",
@@ -310,26 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 408,
- "markets": 343,
- "markets_dropped_by_volume_floor": 2230,
+ "markets": 342,
+ "markets_dropped_by_volume_floor": 2219,
  "day_file": "data/2026/10/2026-10-17T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 141,
- "trades_watchlist_markets": 106,
- "trades_collected": 2495,
- "anomalies_detected": 44,
- "anomalies_new": 14,
+ "trades_markets_queried": 137,
+ "trades_watchlist_markets": 100,
+ "trades_collected": 2514,
+ "anomalies_detected": 42,
+ "anomalies_new": 42,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "4633150531: HTTPError: HTTP Error 404: Not Found",
-  "5551880116: HTTPError: HTTP Error 404: Not Found",
-  "1107656347: HTTPError: HTTP Error 404: Not Found",
-  "6075696748: HTTPError: HTTP Error 404: Not Found",
-  "5163312251: HTTPError: HTTP Error 404: Not Found",
-  "4316615183: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 96,
- "books_rows": 110,
+ "books_markets": 94,
+ "books_rows": 106,
  "status": "ok"
 }
