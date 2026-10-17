@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T15:30:56Z",
+ "ts": "2026-10-17T15:50:09Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 37,
+   "events_returned": 36,
    "err": null
   },
   {
@@ -140,8 +140,8 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Worlds 2026: Winner",
    "Counter-Strike: FURIA vs Aurora Gaming (BO3) - Thunderpick World Champ",
+   "Worlds 2026: Winner",
    "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia"
   ],
   "tag_slug=dota-2": [
@@ -310,18 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 408,
- "markets": 342,
- "markets_dropped_by_volume_floor": 2219,
+ "markets": 333,
+ "markets_dropped_by_volume_floor": 2213,
  "day_file": "data/2026/10/2026-10-17T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 137,
- "trades_watchlist_markets": 100,
- "trades_collected": 2514,
- "anomalies_detected": 42,
- "anomalies_new": 42,
+ "trades_markets_queried": 110,
+ "trades_watchlist_markets": 85,
+ "trades_collected": 2604,
+ "anomalies_detected": 32,
+ "anomalies_new": 19,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 94,
- "books_rows": 106,
+ "books_markets": 91,
+ "books_rows": 102,
  "status": "ok"
 }
