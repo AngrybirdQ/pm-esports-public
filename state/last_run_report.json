@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T11:29:10Z",
+ "ts": "2026-10-17T11:32:56Z",
  "sources": [
   {
    "url": "/tags",
@@ -266,7 +266,7 @@
   "search:Valorant": [
    {
     "t": "Valorant: Team Vitality vs 100 Thieves (BO5) - VCT Champions Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
@@ -316,12 +316,28 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 175,
  "trades_watchlist_markets": 132,
- "trades_collected": 3532,
- "anomalies_detected": 60,
- "anomalies_new": 8,
+ "trades_collected": 3530,
+ "anomalies_detected": 59,
+ "anomalies_new": 58,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "3872577671: HTTPError: HTTP Error 404: Not Found",
+  "1143498329: HTTPError: HTTP Error 404: Not Found",
+  "7538701397: HTTPError: HTTP Error 404: Not Found",
+  "1280327115: HTTPError: HTTP Error 404: Not Found",
+  "4842390655: HTTPError: HTTP Error 404: Not Found",
+  "4139737366: HTTPError: HTTP Error 404: Not Found",
+  "7976558025: HTTPError: HTTP Error 404: Not Found",
+  "4708795349: HTTPError: HTTP Error 404: Not Found",
+  "1132202570: HTTPError: HTTP Error 404: Not Found",
+  "1029283636: HTTPError: HTTP Error 404: Not Found",
+  "3478218539: HTTPError: HTTP Error 404: Not Found",
+  "1822363206: HTTPError: HTTP Error 404: Not Found",
+  "2606476317: HTTPError: HTTP Error 404: Not Found",
+  "9924241494: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 123,
- "books_rows": 146,
+ "books_rows": 144,
  "status": "ok"
 }
