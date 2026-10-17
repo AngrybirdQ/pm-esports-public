@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T20:54:18Z",
+ "ts": "2026-10-17T21:05:49Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 31,
+   "events_returned": 30,
    "err": null
   },
   {
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "LoL: MVK Esports vs FURIA Esports (BO5) - Worlds Play-In",
-   "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World",
-   "Worlds 2026: Winner"
+   "Worlds 2026: Winner",
+   "Dota 2: Team Resilience vs Xtreme Gaming (BO3) - BLAST Slam China Clos"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Resilience vs Xtreme Gaming (BO3) - BLAST Slam China Clos",
@@ -281,7 +281,7 @@
     "closed": false
    },
    {
-    "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
+    "t": "Most First Bloods at VALORANT Champions 2026",
     "closed": false
    }
   ],
@@ -309,19 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 402,
- "markets": 304,
- "markets_dropped_by_volume_floor": 2068,
- "day_file": "data/2026/10/2026-10-17T20.jsonl",
+ "events": 399,
+ "markets": 297,
+ "markets_dropped_by_volume_floor": 2049,
+ "day_file": "data/2026/10/2026-10-17T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 96,
- "trades_watchlist_markets": 69,
- "trades_collected": 2109,
- "anomalies_detected": 38,
- "anomalies_new": 2,
+ "trades_markets_queried": 95,
+ "trades_watchlist_markets": 55,
+ "trades_collected": 1860,
+ "anomalies_detected": 31,
+ "anomalies_new": 31,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 64,
- "books_rows": 60,
+ "books_markets": 42,
+ "books_rows": 44,
  "status": "ok"
 }
