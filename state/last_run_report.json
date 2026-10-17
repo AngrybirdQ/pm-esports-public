@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T08:49:36Z",
+ "ts": "2026-10-17T09:01:24Z",
  "sources": [
   {
    "url": "/tags",
@@ -161,7 +161,7 @@
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: KaBuM! Ilha das Lendas vs Golden Lions (BO5) - CBLOL Promotion Pl"
+   "LoL: BNK FEARX vs Team WE (BO5) - Demacia Cup Global Invitational Play"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -310,29 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 416,
- "markets": 365,
- "markets_dropped_by_volume_floor": 2423,
- "day_file": "data/2026/10/2026-10-17T08.jsonl",
+ "markets": 368,
+ "markets_dropped_by_volume_floor": 2427,
+ "day_file": "data/2026/10/2026-10-17T09.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 132,
- "trades_watchlist_markets": 104,
- "trades_collected": 2584,
- "anomalies_detected": 29,
- "anomalies_new": 15,
- "history_debug": [
-  {
-   "cid": "0xa9b20ba5",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x96867f03",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 2,
- "books_markets": 103,
- "books_rows": 172,
+ "trades_markets_queried": 139,
+ "trades_watchlist_markets": 108,
+ "trades_collected": 2807,
+ "anomalies_detected": 47,
+ "anomalies_new": 45,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 110,
+ "books_rows": 164,
  "status": "ok"
 }
