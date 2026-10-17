@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T13:39:14Z",
+ "ts": "2026-10-17T13:50:00Z",
  "sources": [
   {
    "url": "/tags",
@@ -215,8 +215,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: salamit vs Yellow Submarine (BO3) - EPL Masters Play-In Group ",
-    "closed": true
+    "t": "Dota 2: Team Resilience vs Xtreme Gaming (BO3) - BLAST Slam China Clos",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -269,12 +269,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
-    "closed": true
-   },
-   {
     "t": "VALORANT Champions 2026: Winner",
     "closed": false
+   },
+   {
+    "t": "Valorant: 100 Thieves vs G2 Esports (BO3) - VCT Champions Playoffs",
+    "closed": true
    },
    {
     "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
@@ -310,24 +310,22 @@
  },
  "n_event_queries": 21,
  "events": 410,
- "markets": 389,
- "markets_dropped_by_volume_floor": 2279,
+ "markets": 376,
+ "markets_dropped_by_volume_floor": 2278,
  "day_file": "data/2026/10/2026-10-17T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 135,
- "trades_watchlist_markets": 104,
- "trades_collected": 3065,
- "anomalies_detected": 49,
- "anomalies_new": 0,
+ "trades_markets_queried": 134,
+ "trades_watchlist_markets": 107,
+ "trades_collected": 2968,
+ "anomalies_detected": 37,
+ "anomalies_new": 18,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "5902862761: HTTPError: HTTP Error 404: Not Found",
-  "2345858316: HTTPError: HTTP Error 404: Not Found",
-  "3941739927: HTTPError: HTTP Error 404: Not Found",
-  "1921400342: HTTPError: HTTP Error 404: Not Found"
+  "4583710406: HTTPError: HTTP Error 404: Not Found",
+  "3870028575: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 112,
- "books_rows": 110,
+ "books_markets": 106,
+ "books_rows": 108,
  "status": "ok"
 }
