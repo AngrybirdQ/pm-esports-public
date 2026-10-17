@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T16:43:15Z",
+ "ts": "2026-10-17T16:46:15Z",
  "sources": [
   {
    "url": "/tags",
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Counter-Strike: FURIA vs Aurora Gaming (BO3) - Thunderpick World Champ",
-   "Worlds 2026: Winner",
-   "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World"
+   "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World",
+   "Worlds 2026: Winner"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia",
@@ -310,15 +310,15 @@
  },
  "n_event_queries": 21,
  "events": 406,
- "markets": 336,
+ "markets": 335,
  "markets_dropped_by_volume_floor": 2169,
  "day_file": "data/2026/10/2026-10-17T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 118,
+ "trades_markets_queried": 117,
  "trades_watchlist_markets": 79,
- "trades_collected": 2314,
- "anomalies_detected": 51,
- "anomalies_new": 0,
+ "trades_collected": 2265,
+ "anomalies_detected": 50,
+ "anomalies_new": 3,
  "history_debug": [
   {
    "cid": "0x4103789d",
@@ -332,11 +332,7 @@
   }
  ],
  "history_conditions_new": 0,
- "books_errors": [
-  "1291919323: HTTPError: HTTP Error 404: Not Found",
-  "1294334310: HTTPError: HTTP Error 404: Not Found"
- ],
  "books_markets": 83,
- "books_rows": 90,
+ "books_rows": 92,
  "status": "ok"
 }
