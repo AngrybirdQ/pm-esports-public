@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T14:26:06Z",
+ "ts": "2026-10-17T14:49:46Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 58,
+   "events_returned": 57,
    "err": null
   },
   {
@@ -140,14 +140,14 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: BNK FEARX vs Team WE (BO5) - Demacia Cup Global Invitational Play",
    "Worlds 2026: Winner",
-   "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia"
+   "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia",
+   "Counter-Strike: FURIA vs Aurora Gaming (BO3) - Thunderpick World Champ"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia",
-   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Team Resilience vs Xtreme Gaming (BO3) - BLAST Slam China Clos"
+   "Dota 2: Team Resilience vs Xtreme Gaming (BO3) - BLAST Slam China Clos",
+   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -159,9 +159,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: BNK FEARX vs Team WE (BO5) - Demacia Cup Global Invitational Play",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: KaBuM! Ilha das Lendas vs Golden Lions (BO5) - CBLOL Promotion Pl"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -203,20 +203,20 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Team Tidebound vs Team Resilience (BO3) - BLAST Slam China Clo",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Resilience vs Xtreme Gaming (BO3) - BLAST Slam China Clos",
     "closed": false
    },
    {
-    "t": "Dota 2: Team Synapse vs Dawn Bulls (BO3) - DreamLeague Western Europe ",
+    "t": "Dota 2: Team Tidebound vs Team Resilience (BO3) - BLAST Slam China Clo",
     "closed": true
    },
    {
     "t": "Dota 2: Dawn Bulls vs Team Lynx (BO3) - DreamLeague Western Europe Clo",
     "closed": false
+   },
+   {
+    "t": "Dota 2: OG vs LEGION (BO3) - DreamLeague Western Europe Closed Qualifi",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -310,24 +310,44 @@
  },
  "n_event_queries": 21,
  "events": 409,
- "markets": 357,
- "markets_dropped_by_volume_floor": 2274,
+ "markets": 358,
+ "markets_dropped_by_volume_floor": 2262,
  "day_file": "data/2026/10/2026-10-17T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 140,
- "trades_watchlist_markets": 109,
- "trades_collected": 2874,
- "anomalies_detected": 30,
- "anomalies_new": 10,
+ "trades_markets_queried": 136,
+ "trades_watchlist_markets": 105,
+ "trades_collected": 2642,
+ "anomalies_detected": 22,
+ "anomalies_new": 22,
  "history_debug": [
   {
-   "cid": "0x845db091",
+   "cid": "0xa46ba22d",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x160b0edb",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x005ffb1f",
    "pts": 1,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 1,
- "books_markets": 110,
- "books_rows": 122,
+ "history_conditions_new": 3,
+ "books_errors": [
+  "1109204678: HTTPError: HTTP Error 404: Not Found",
+  "7217057401: HTTPError: HTTP Error 404: Not Found",
+  "1259714619: HTTPError: HTTP Error 404: Not Found",
+  "1085808013: HTTPError: HTTP Error 404: Not Found",
+  "1596391265: HTTPError: HTTP Error 404: Not Found",
+  "6115484145: HTTPError: HTTP Error 404: Not Found",
+  "1448692072: HTTPError: HTTP Error 404: Not Found",
+  "8478595240: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 109,
+ "books_rows": 112,
  "status": "ok"
 }
