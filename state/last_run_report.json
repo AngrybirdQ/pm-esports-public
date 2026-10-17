@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T17:25:56Z",
+ "ts": "2026-10-17T17:28:58Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 34,
+   "events_returned": 33,
    "err": null
   },
   {
@@ -142,12 +142,12 @@
   "tag_slug=esports": [
    "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World",
    "Worlds 2026: Winner",
-   "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia"
+   "Dota 2: Team Resilience vs Xtreme Gaming (BO3) - BLAST Slam China Clos"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia",
    "Dota 2: Team Resilience vs Xtreme Gaming (BO3) - BLAST Slam China Clos",
-   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua"
+   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
+   "Dota 2: LEGION vs Team Lynx (BO3) - DreamLeague Western Europe Closed "
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -311,17 +311,21 @@
  "n_event_queries": 21,
  "events": 405,
  "markets": 333,
- "markets_dropped_by_volume_floor": 2158,
+ "markets_dropped_by_volume_floor": 2159,
  "day_file": "data/2026/10/2026-10-17T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 117,
+ "trades_markets_queried": 118,
  "trades_watchlist_markets": 85,
- "trades_collected": 2399,
- "anomalies_detected": 47,
- "anomalies_new": 30,
+ "trades_collected": 2331,
+ "anomalies_detected": 46,
+ "anomalies_new": 1,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "5713022754: HTTPError: HTTP Error 404: Not Found",
+  "7839554335: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 74,
- "books_rows": 88,
+ "books_rows": 84,
  "status": "ok"
 }
