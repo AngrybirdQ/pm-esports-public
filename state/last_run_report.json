@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T13:25:19Z",
+ "ts": "2026-10-17T13:36:04Z",
  "sources": [
   {
    "url": "/tags",
@@ -147,7 +147,7 @@
   "tag_slug=dota-2": [
    "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia",
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Dawn Bulls vs Team Lynx (BO3) - DreamLeague Western Europe Clo"
+   "Dota 2: Team Resilience vs Xtreme Gaming (BO3) - BLAST Slam China Clos"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -310,24 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 410,
- "markets": 396,
- "markets_dropped_by_volume_floor": 2284,
+ "markets": 389,
+ "markets_dropped_by_volume_floor": 2279,
  "day_file": "data/2026/10/2026-10-17T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 131,
- "trades_watchlist_markets": 96,
- "trades_collected": 3198,
- "anomalies_detected": 50,
- "anomalies_new": 27,
- "history_debug": [
-  {
-   "cid": "0xd1925cf1",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
- "books_markets": 106,
- "books_rows": 110,
+ "trades_markets_queried": 135,
+ "trades_watchlist_markets": 104,
+ "trades_collected": 3121,
+ "anomalies_detected": 49,
+ "anomalies_new": 49,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 112,
+ "books_rows": 114,
  "status": "ok"
 }
