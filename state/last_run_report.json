@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T14:04:39Z",
+ "ts": "2026-10-17T14:15:13Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 37,
+   "events_returned": 38,
    "err": null
   },
   {
@@ -51,13 +51,13 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 61,
+   "events_returned": 59,
    "err": null
   },
   {
    "url": "tag_slug=lol",
    "ok": true,
-   "events_returned": 44,
+   "events_returned": 42,
    "err": null
   },
   {
@@ -166,7 +166,7 @@
   "tag_slug=lol": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Demacia Cup Global Invitational 2026: Winner"
+   "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
    "VALORANT Champions 2026: Winner",
@@ -207,16 +207,16 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Synapse vs Dawn Bulls (BO3) - DreamLeague Western Europe ",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Resilience vs Xtreme Gaming (BO3) - BLAST Slam China Clos",
     "closed": false
    },
    {
-    "t": "Dota 2: OG vs LEGION (BO3) - DreamLeague Western Europe Closed Qualifi",
+    "t": "Dota 2: Team Synapse vs Dawn Bulls (BO3) - DreamLeague Western Europe ",
     "closed": true
+   },
+   {
+    "t": "Dota 2: Dawn Bulls vs Team Lynx (BO3) - DreamLeague Western Europe Clo",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -310,40 +310,24 @@
  },
  "n_event_queries": 21,
  "events": 410,
- "markets": 378,
+ "markets": 356,
  "markets_dropped_by_volume_floor": 2296,
  "day_file": "data/2026/10/2026-10-17T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 148,
+ "trades_markets_queried": 147,
  "trades_watchlist_markets": 115,
- "trades_collected": 2949,
- "anomalies_detected": 34,
- "anomalies_new": 34,
+ "trades_collected": 2971,
+ "anomalies_detected": 22,
+ "anomalies_new": 6,
  "history_debug": [
   {
-   "cid": "0x9841d746",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x636955e4",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xdf40fe4d",
-   "pts": 1,
+   "cid": "0x4e447c1a",
+   "pts": 2,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 3,
- "books_errors": [
-  "1136877865: HTTPError: HTTP Error 404: Not Found",
-  "1024560658: HTTPError: HTTP Error 404: Not Found",
-  "4888885672: HTTPError: HTTP Error 404: Not Found",
-  "4029761418: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 116,
- "books_rows": 124,
+ "history_conditions_new": 1,
+ "books_markets": 114,
+ "books_rows": 120,
  "status": "ok"
 }
