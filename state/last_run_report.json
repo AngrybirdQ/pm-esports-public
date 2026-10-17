@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T12:09:46Z",
+ "ts": "2026-10-17T12:31:01Z",
  "sources": [
   {
    "url": "/tags",
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "LoL: BNK FEARX vs Team WE (BO5) - Demacia Cup Global Invitational Play",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia",
@@ -309,33 +309,35 @@
   ]
  },
  "n_event_queries": 21,
- "events": 410,
- "markets": 385,
- "markets_dropped_by_volume_floor": 2342,
+ "events": 411,
+ "markets": 398,
+ "markets_dropped_by_volume_floor": 2322,
  "day_file": "data/2026/10/2026-10-17T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 168,
- "trades_watchlist_markets": 132,
- "trades_collected": 3820,
- "anomalies_detected": 55,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "2037486931: HTTPError: HTTP Error 404: Not Found",
-  "2371643004: HTTPError: HTTP Error 404: Not Found",
-  "5880425762: HTTPError: HTTP Error 404: Not Found",
-  "7983440971: HTTPError: HTTP Error 404: Not Found",
-  "5595959841: HTTPError: HTTP Error 404: Not Found",
-  "7425932895: HTTPError: HTTP Error 404: Not Found",
-  "5378305773: HTTPError: HTTP Error 404: Not Found",
-  "3201603492: HTTPError: HTTP Error 404: Not Found",
-  "6378339489: HTTPError: HTTP Error 404: Not Found",
-  "3242825982: HTTPError: HTTP Error 404: Not Found",
-  "3899840504: HTTPError: HTTP Error 404: Not Found",
-  "7681872193: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 142,
+ "trades_watchlist_markets": 92,
+ "trades_collected": 3668,
+ "anomalies_detected": 54,
+ "anomalies_new": 53,
+ "history_debug": [
+  {
+   "cid": "0xa5b98c36",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x03f298b3",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xa1cc350f",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 119,
- "books_rows": 134,
+ "history_conditions_new": 3,
+ "books_markets": 117,
+ "books_rows": 136,
  "status": "ok"
 }
