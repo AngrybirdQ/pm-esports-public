@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T18:37:34Z",
+ "ts": "2026-10-17T18:59:53Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 32,
+   "events_returned": 33,
    "err": null
   },
   {
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - Thunderpick World",
-   "Worlds 2026: Winner",
-   "LoL: MVK Esports vs FURIA Esports (BO5) - Worlds Play-In"
+   "LoL: MVK Esports vs FURIA Esports (BO5) - Worlds Play-In",
+   "Worlds 2026: Winner"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Resilience vs Xtreme Gaming (BO3) - BLAST Slam China Clos",
@@ -159,8 +159,8 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "Worlds 2026: Winner",
    "LoL: MVK Esports vs FURIA Esports (BO5) - Worlds Play-In",
+   "Worlds 2026: Winner",
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
@@ -273,15 +273,15 @@
     "closed": false
    },
    {
-    "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
-    "closed": false
-   },
-   {
     "t": "Valorant: LOUD vs Team Vitality (BO5) - VCT Champions Playoffs",
     "closed": false
    },
    {
     "t": "Least Played Map at VALORANT Champions 2026",
+    "closed": false
+   },
+   {
+    "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
     "closed": false
    }
   ],
@@ -310,18 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 405,
- "markets": 324,
- "markets_dropped_by_volume_floor": 2126,
+ "markets": 322,
+ "markets_dropped_by_volume_floor": 2137,
  "day_file": "data/2026/10/2026-10-17T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 116,
- "trades_watchlist_markets": 83,
- "trades_collected": 2865,
- "anomalies_detected": 44,
- "anomalies_new": 1,
+ "trades_markets_queried": 93,
+ "trades_watchlist_markets": 62,
+ "trades_collected": 2650,
+ "anomalies_detected": 39,
+ "anomalies_new": 39,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 74,
- "books_rows": 90,
+ "books_markets": 75,
+ "books_rows": 88,
  "status": "ok"
 }
