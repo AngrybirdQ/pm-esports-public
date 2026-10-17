@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T09:01:24Z",
+ "ts": "2026-10-17T09:30:15Z",
  "sources": [
   {
    "url": "/tags",
@@ -140,9 +140,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Worlds 2026: Winner",
    "Valorant: Team Vitality vs 100 Thieves (BO5) - VCT Champions Playoffs",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026: Winner",
+   "LoL: BNK FEARX vs Team WE (BO5) - Demacia Cup Global Invitational Play"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -160,8 +160,8 @@
   ],
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "LoL: BNK FEARX vs Team WE (BO5) - Demacia Cup Global Invitational Play"
+   "LoL: BNK FEARX vs Team WE (BO5) - Demacia Cup Global Invitational Play",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -215,8 +215,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Mena Warriors vs CyberHero (BO3) - EPL Masters Play-In Group A",
-    "closed": true
+    "t": "Dota 2: Team Tidebound vs Team Resilience (BO3) - BLAST Slam China Clo",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -310,18 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 416,
- "markets": 368,
- "markets_dropped_by_volume_floor": 2427,
+ "markets": 369,
+ "markets_dropped_by_volume_floor": 2421,
  "day_file": "data/2026/10/2026-10-17T09.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 139,
- "trades_watchlist_markets": 108,
- "trades_collected": 2807,
- "anomalies_detected": 47,
- "anomalies_new": 45,
+ "trades_markets_queried": 146,
+ "trades_watchlist_markets": 111,
+ "trades_collected": 3354,
+ "anomalies_detected": 61,
+ "anomalies_new": 60,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 110,
- "books_rows": 164,
+ "books_markets": 114,
+ "books_rows": 172,
  "status": "ok"
 }
