@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T22:31:55Z",
+ "ts": "2026-10-17T22:40:45Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 57,
+   "events_returned": 56,
    "err": null
   },
   {
@@ -140,14 +140,14 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: MVK Esports vs FURIA Esports (BO5) - Worlds Play-In",
    "Worlds 2026: Winner",
-   "Dota 2: Team Resilience vs Xtreme Gaming (BO3) - BLAST Slam China Clos"
+   "Dota 2: Team Resilience vs Xtreme Gaming (BO3) - BLAST Slam China Clos",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Resilience vs Xtreme Gaming (BO3) - BLAST Slam China Clos",
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A"
+   "Dota 2: CyberHero vs Inner Circle (BO3) - EPL Masters Play-In Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -159,9 +159,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: MVK Esports vs FURIA Esports (BO5) - Worlds Play-In",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -311,21 +311,17 @@
  "n_event_queries": 21,
  "events": 398,
  "markets": 328,
- "markets_dropped_by_volume_floor": 1999,
+ "markets_dropped_by_volume_floor": 1993,
  "day_file": "data/2026/10/2026-10-17T22.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 46,
+ "trades_markets_queried": 47,
  "trades_watchlist_markets": 24,
- "trades_collected": 578,
- "anomalies_detected": 13,
- "anomalies_new": 0,
+ "trades_collected": 604,
+ "anomalies_detected": 15,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "8951541583: HTTPError: HTTP Error 404: Not Found",
-  "1017948958: HTTPError: HTTP Error 404: Not Found"
- ],
  "books_markets": 40,
- "books_rows": 54,
+ "books_rows": 56,
  "status": "ok"
 }
