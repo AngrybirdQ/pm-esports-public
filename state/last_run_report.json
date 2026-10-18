@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T08:42:53Z",
+ "ts": "2026-10-18T08:59:20Z",
  "sources": [
   {
    "url": "/tags",
@@ -171,7 +171,7 @@
   "tag_slug=valorant": [
    "Valorant: LOUD vs Team Vitality (BO5) - VCT Champions Playoffs",
    "VALORANT Champions 2026: Winner",
-   "Least Played Map at VALORANT Champions 2026"
+   "Most First Bloods at VALORANT Champions 2026"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -207,15 +207,15 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Tidebound vs Team Resilience (BO3) - BLAST Slam China Clo",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Dawn Bulls vs Team Lynx (BO3) - DreamLeague Western Europe Clo",
     "closed": true
    },
    {
     "t": "Dota 2: LEGION vs Team Lynx (BO3) - DreamLeague Western Europe Closed ",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: CyberHero vs Inner Circle (BO3) - EPL Masters Play-In Group A",
     "closed": true
    }
   ],
@@ -281,7 +281,7 @@
     "closed": false
    },
    {
-    "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
+    "t": "Most Kills at VALORANT Champions 2026",
     "closed": false
    }
   ],
@@ -309,19 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 400,
- "markets": 305,
- "markets_dropped_by_volume_floor": 2036,
+ "events": 401,
+ "markets": 310,
+ "markets_dropped_by_volume_floor": 2032,
  "day_file": "data/2026/10/2026-10-18T08.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 83,
- "trades_watchlist_markets": 67,
- "trades_collected": 1033,
- "anomalies_detected": 9,
- "anomalies_new": 2,
+ "trades_markets_queried": 92,
+ "trades_watchlist_markets": 73,
+ "trades_collected": 1366,
+ "anomalies_detected": 21,
+ "anomalies_new": 10,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 83,
- "books_rows": 142,
+ "books_markets": 85,
+ "books_rows": 154,
  "status": "ok"
 }
