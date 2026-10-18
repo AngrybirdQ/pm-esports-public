@@ -1,0 +1,94 @@
+name: liquipedia-standings
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  standings:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pull standings tables for long leagues
+        run: |
+          python3 << 'PYEOF'
+          import gzip, json, re, time, urllib.request, urllib.parse
+          UA = "pm-esports-research/1.0 (github.com/AngrybirdQ)"
+          def wt(game, page, tries=4):
+              url = f"https://liquipedia.net/{game}/api.php?" + urllib.parse.urlencode(
+                  {"action": "parse", "page": page, "prop": "wikitext", "format": "json"})
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": UA,
+                          "Accept": "application/json", "Accept-Encoding": "gzip"})
+                      with urllib.request.urlopen(req, timeout=50) as r:
+                          raw = r.read()
+                          if raw[:2] == b"\x1f\x8b": raw = gzip.decompress(raw)
+                          return json.loads(raw)["parse"]["wikitext"]["*"]
+                  except urllib.error.HTTPError as e:
+                      if e.code == 404: return None
+                      time.sleep(15 + i*10)
+                  except Exception:
+                      time.sleep(8)
+              return None
+
+          # 先用opensearch发现真实页名(季节长联赛)
+          def search(game, q):
+              url = f"https://liquipedia.net/{game}/api.php?" + urllib.parse.urlencode(
+                  {"action": "opensearch", "search": q, "limit": 10, "format": "json"})
+              try:
+                  req = urllib.request.Request(url, headers={"User-Agent": UA,
+                      "Accept": "application/json", "Accept-Encoding": "gzip"})
+                  with urllib.request.urlopen(req, timeout=40) as r:
+                      raw = r.read()
+                      if raw[:2] == b"\x1f\x8b": raw = gzip.decompress(raw)
+                  return json.loads(raw)[1]
+              except Exception:
+                  return []
+
+          # CS: ESL Pro League 小组+BLAST Premier 春秋(长); Dota2: DPC Div1
+          QUERIES = {
+            "counterstrike": ["ESL Pro League Season 24", "ESL Pro League Season 23",
+                              "BLAST Premier", "Dota Pro Circuit"],
+            "dota2": ["Dota Pro Circuit 2021-22", "Dota Pro Circuit 2023", "DreamLeague"],
+          }
+          out = open("lp_standings.txt", "w", buffering=1)
+          for game, qs in QUERIES.items():
+              for q in qs:
+                  names = search(game, q)
+                  print(f"{game} '{q}':", [n[:30] for n in names[:4]], flush=True)
+                  time.sleep(4)
+                  # 取前2个页名拉wikitext, 找Standings表
+                  for page in names[:2]:
+                      w = wt(game, page)
+                      if not w: continue
+                      has = ("{{StandingsStart" in w or "{{GroupTableStart" in w
+                             or "{{Bracket|Bracket" in w)
+                      print(f"  {page[:36]}: {len(w)//1024}KB standings={has}", flush=True)
+                      if has:
+                          # 提取standings段(到StandingsEnd/GroupTableEnd)
+                          m = re.search(r"\{\{StandingsStart[\s\S]{0,12000}?\{\{StandingsEnd", w) \
+                              or re.search(r"\{\{GroupTableStart[\s\S]{0,12000}", w)
+                          if m:
+                              seg = m.group(0)
+                              # 解析每行: |place=N |bg=up/down/stay |team=X
+                              rows = re.findall(
+                                  r"\|\s*place\s*=\s*(\d+)[\s\S]{0,400}?\|\s*bg\s*=\s*(\w+)[\s\S]{0,600}?\|\s*team\s*=\s*([^|\n}]+)",
+                                  seg)
+                              print(f"    standings行: {len(rows)}; 前5:", flush=True)
+                              for pl, bg, tm in rows[:5]:
+                                  line = f"  place={pl} status={bg} team={tm.strip()}"
+                                  print("   ", line, flush=True)
+                                  out.write(f"{game}\t{page}\t{line}\n")
+                      time.sleep(5)
+          out.close()
+          print("STANDINGS DONE", flush=True)
+          PYEOF
+      - name: Commit
+        run: |
+          git config user.name "lp" && git config user.email "lp@noreply"
+          git add lp_standings.txt
+          git diff --cached --quiet && echo nothing || (git commit -m "liquipedia standings" && (git pull --rebase origin main || true) && git push) || true
