@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T20:09:26Z",
+ "ts": "2026-10-18T20:12:00Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 30,
+   "events_returned": 29,
    "err": null
   },
   {
@@ -142,8 +142,8 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Counter-Strike: FURIA vs BetBoom Team (BO5) - Thunderpick World Champi",
    "LoL: Karmine Corp vs MVK Esports (BO5) - Worlds Play-In",
+   "Counter-Strike: FURIA vs BetBoom Team (BO5) - Thunderpick World Champi",
    "Worlds 2026: Winner"
   ],
   "tag_slug=dota-2": [
@@ -171,9 +171,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant Team to Win an International in 2026",
    "VALORANT Offseason: OXY Next Team",
-   "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang"
+   "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
+   "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -312,14 +312,14 @@
  },
  "n_event_queries": 21,
  "events": 387,
- "markets": 268,
- "markets_dropped_by_volume_floor": 1940,
+ "markets": 266,
+ "markets_dropped_by_volume_floor": 1939,
  "day_file": "data/2026/10/2026-10-18T20.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 90,
+ "trades_markets_queried": 91,
  "trades_watchlist_markets": 62,
- "trades_collected": 2037,
- "books_markets": 69,
+ "trades_collected": 2070,
+ "books_markets": 68,
  "books_rows": 72,
  "status": "ok"
 }
