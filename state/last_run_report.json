@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T11:27:00Z",
+ "ts": "2026-10-18T11:29:36Z",
  "sources": [
   {
    "url": "/tags",
@@ -215,7 +215,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Dawn Bulls vs Team Lynx (BO3) - DreamLeague Western Europe Clo",
+    "t": "Dota 2: Yellow Submarine vs Spirit Academy (BO3) - EPL Masters Play-In",
     "closed": true
    }
   ],
@@ -269,16 +269,16 @@
     "closed": true
    },
    {
-    "t": "Valorant: Team Vitality vs 100 Thieves (BO5) - VCT Champions Playoffs",
-    "closed": true
-   },
-   {
     "t": "VALORANT Champions 2026: Winner",
     "closed": false
    },
    {
     "t": "Most First Bloods at VALORANT Champions 2026",
     "closed": false
+   },
+   {
+    "t": "Valorant: Team Vitality vs 100 Thieves (BO5) - VCT Champions Playoffs",
+    "closed": true
    },
    {
     "t": "Most Kills at VALORANT Champions 2026",
@@ -309,29 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 399,
- "markets": 345,
- "markets_dropped_by_volume_floor": 2020,
+ "events": 400,
+ "markets": 346,
+ "markets_dropped_by_volume_floor": 2022,
  "day_file": "data/2026/10/2026-10-18T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 85,
+ "trades_markets_queried": 88,
  "trades_watchlist_markets": 70,
- "trades_collected": 1249,
+ "trades_collected": 1436,
  "anomalies_detected": 16,
- "anomalies_new": 3,
- "history_debug": [
-  {
-   "cid": "0x9c2e5c7d",
-   "pts": 3,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
- "books_errors": [
-  "1009685463: HTTPError: HTTP Error 404: Not Found",
-  "3308631751: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 89,
- "books_rows": 138,
+ "anomalies_new": 2,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 91,
+ "books_rows": 146,
  "status": "ok"
 }
