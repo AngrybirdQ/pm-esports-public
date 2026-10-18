@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T09:17:44Z",
+ "ts": "2026-10-18T09:20:25Z",
  "sources": [
   {
    "url": "/tags",
@@ -133,7 +133,9 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "trades 0x08d56c24: HTTPError: HTTP Error 429: Too Many Requests"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -316,9 +318,9 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 92,
  "trades_watchlist_markets": 74,
- "trades_collected": 1287,
- "anomalies_detected": 24,
- "anomalies_new": 8,
+ "trades_collected": 1266,
+ "anomalies_detected": 28,
+ "anomalies_new": 4,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 85,
