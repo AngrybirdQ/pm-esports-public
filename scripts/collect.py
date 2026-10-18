@@ -509,7 +509,21 @@ def detect_anomalies(lines, trades, frames, report):
     # 产生异动。lines来自本轮active events查询——已闭市/下架的清仓期市场不在其中,
     # 其大单/单边流是赛后清仓噪声, 不产生任何异动记录。
     active_cids = {l.get("condition_id") for l in lines if l.get("condition_id")}
-    trades = [t for t in trades if t.get("condition_id") in active_cids]
+    # 10-19二修: "赛毕未闭市"死盘(active=true但两腿全在极值)也产生清仓噪声。
+    # 判定: 该condition在本轮lines里的两腿价全部≥0.98或≤0.02 → 视为死盘, 不产异动。
+    dead_cids = set()
+    price_by_cid = {}
+    for l in lines:
+        cid = l.get("condition_id")
+        if not cid:
+            continue
+        prs = [p for p in (l.get("prices") or []) if isinstance(p, (int, float))]
+        if prs:
+            price_by_cid[cid] = prs
+    trades = [t for t in trades if t.get("condition_id") in active_cids
+              and not all(all(p >= 0.98 or p <= 0.02 for p in price_by_cid.get(c, [0.5]))
+                          for c in [t.get("condition_id")] if c in price_by_cid)
+              ] if price_by_cid else trades
     for t in trades:
         px = t.get("price") or 0
         if (t["cost_usd"] >= BIG_TRADE_USD
