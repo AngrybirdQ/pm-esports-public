@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T15:39:13Z",
+ "ts": "2026-10-18T15:41:57Z",
  "sources": [
   {
    "url": "/tags",
@@ -144,7 +144,7 @@
   "tag_slug=esports": [
    "Counter-Strike: Aurora Gaming vs Team Falcons (BO3) - Thunderpick Worl",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Counter-Strike: FURIA vs BetBoom Team (BO5) - Thunderpick World Champi"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -201,12 +201,12 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: CyberHero vs Inner Circle (BO3) - EPL Masters Play-In Group A",
-    "closed": true
-   },
-   {
     "t": "Dota 2: CyberHero vs Team Synapse (BO3) - EPL Masters Group B",
     "closed": false
+   },
+   {
+    "t": "Dota 2: CyberHero vs Inner Circle (BO3) - EPL Masters Play-In Group A",
+    "closed": true
    },
    {
     "t": "Dota 2: ALOHADANCE Team vs Stariy bog Team (BO3) - 1win Streamers Leag",
@@ -311,15 +311,15 @@
   ]
  },
  "n_event_queries": 21,
- "events": 387,
- "markets": 299,
- "markets_dropped_by_volume_floor": 1954,
+ "events": 386,
+ "markets": 293,
+ "markets_dropped_by_volume_floor": 1950,
  "day_file": "data/2026/10/2026-10-18T15.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 120,
  "trades_watchlist_markets": 95,
- "trades_collected": 2629,
- "books_markets": 104,
+ "trades_collected": 2655,
+ "books_markets": 98,
  "books_rows": 124,
  "status": "ok"
 }
