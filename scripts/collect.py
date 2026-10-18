@@ -520,13 +520,15 @@ def detect_anomalies(lines, trades, frames, report):
         prs = [p for p in (l.get("prices") or []) if isinstance(p, (int, float))]
         if prs:
             price_by_cid[cid] = prs
-            if len(prs) >= 2 and all(p >= 0.98 or p <= 0.02 for p in prs):
-                dead_cids.add(cid)
     trades = [t for t in trades if t.get("condition_id") in active_cids
-              and t.get("condition_id") not in dead_cids
               and not all(all(p >= 0.98 or p <= 0.02 for p in price_by_cid.get(c, [0.5]))
                           for c in [t.get("condition_id")] if c in price_by_cid)
               ] if price_by_cid else trades
+    # 10-18三修: Odd/Even + Total O/U + Total Kills/Rounds类子盘的异动是毒信号
+    # (768条历史胜率0-2%, outcome解析与结算winner语义错位), 全部跳过不产异动
+    import re as _re
+    _TOXIC_Q = _re.compile(r"(odd/even|total kills|total rounds|games total|o/u \d|over/under", _re.I)
+    trades = [t for t in trades if not _TOXIC_Q.search(t.get("question") or "")]
     for t in trades:
         px = t.get("price") or 0
         if (t["cost_usd"] >= BIG_TRADE_USD
@@ -574,7 +576,7 @@ def detect_anomalies(lines, trades, frames, report):
             })
     for line in lines:
         cid = line.get("condition_id")
-        if not cid or cid in dead_cids:
+        if not cid:
             continue
         for oc, pr in zip(line.get("outcomes") or [], line.get("prices") or []):
             old = frames.get((cid, str(oc)))
