@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T12:52:07Z",
+ "ts": "2026-10-18T13:01:17Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 34,
+   "events_returned": 33,
    "err": null
   },
   {
@@ -282,7 +282,7 @@
    },
    {
     "t": "VALORANT Champions 2026 MVP",
-    "closed": false
+    "closed": true
    }
   ],
   "search:The International": [
@@ -310,18 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 389,
- "markets": 296,
- "markets_dropped_by_volume_floor": 2036,
- "day_file": "data/2026/10/2026-10-18T12.jsonl",
+ "markets": 288,
+ "markets_dropped_by_volume_floor": 1963,
+ "day_file": "data/2026/10/2026-10-18T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 90,
- "trades_watchlist_markets": 74,
- "trades_collected": 2327,
- "anomalies_detected": 16,
- "anomalies_new": 0,
+ "trades_markets_queried": 91,
+ "trades_watchlist_markets": 78,
+ "trades_collected": 2551,
+ "anomalies_detected": 25,
+ "anomalies_new": 25,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 91,
- "books_rows": 126,
+ "books_markets": 94,
+ "books_rows": 132,
  "status": "ok"
 }
