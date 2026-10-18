@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T11:06:55Z",
+ "ts": "2026-10-18T11:16:01Z",
  "sources": [
   {
    "url": "/tags",
@@ -207,11 +207,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia",
+    "t": "Dota 2: CyberHero vs Inner Circle (BO3) - EPL Masters Play-In Group A",
     "closed": true
    },
    {
-    "t": "Dota 2: CyberHero vs Inner Circle (BO3) - EPL Masters Play-In Group A",
+    "t": "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia",
     "closed": true
    },
    {
@@ -310,17 +310,23 @@
  },
  "n_event_queries": 21,
  "events": 399,
- "markets": 342,
- "markets_dropped_by_volume_floor": 2011,
+ "markets": 345,
+ "markets_dropped_by_volume_floor": 2015,
  "day_file": "data/2026/10/2026-10-18T11.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 84,
  "trades_watchlist_markets": 69,
- "trades_collected": 1095,
- "anomalies_detected": 19,
- "anomalies_new": 9,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_collected": 1122,
+ "anomalies_detected": 16,
+ "anomalies_new": 16,
+ "history_debug": [
+  {
+   "cid": "0x6ec42f4d",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 89,
  "books_rows": 140,
  "status": "ok"
