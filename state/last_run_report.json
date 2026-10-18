@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T02:30:15Z",
+ "ts": "2026-10-18T04:48:37Z",
  "sources": [
   {
    "url": "/tags",
@@ -169,8 +169,8 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "VALORANT Champions 2026: Winner",
    "Valorant: LOUD vs Team Vitality (BO5) - VCT Champions Playoffs",
+   "VALORANT Champions 2026: Winner",
    "Least Played Map at VALORANT Champions 2026"
   ],
   "tag_slug=starcraft-2": [
@@ -281,7 +281,7 @@
     "closed": false
    },
    {
-    "t": "Most First Bloods at VALORANT Champions 2026",
+    "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
     "closed": false
    }
   ],
@@ -310,18 +310,24 @@
  },
  "n_event_queries": 21,
  "events": 400,
- "markets": 266,
- "markets_dropped_by_volume_floor": 2047,
- "day_file": "data/2026/10/2026-10-18T02.jsonl",
+ "markets": 267,
+ "markets_dropped_by_volume_floor": 2050,
+ "day_file": "data/2026/10/2026-10-18T04.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 38,
- "trades_watchlist_markets": 18,
- "trades_collected": 243,
- "anomalies_detected": 2,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 36,
- "books_rows": 70,
+ "trades_markets_queried": 47,
+ "trades_watchlist_markets": 30,
+ "trades_collected": 372,
+ "anomalies_detected": 0,
+ "anomalies_new": 0,
+ "history_debug": [
+  {
+   "cid": "0x0dc09834",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 53,
+ "books_rows": 104,
  "status": "ok"
 }
