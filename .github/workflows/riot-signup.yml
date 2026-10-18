@@ -1,0 +1,19 @@
+name: riot-signup-reach
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Direct reachability to Riot signup from Actions
+        run: |
+          for u in "https://signup.riotgames.com/" "https://developer.riotgames.com/" "https://auth.riotgames.com/login"; do
+            code=$(curl -s --max-time 20 -o /tmp/rs.out -w "%{http_code}" -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131 Safari/537.36" "$u")
+            echo "$code $(wc -c < /tmp/rs.out)B $u"
+          done
