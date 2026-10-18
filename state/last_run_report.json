@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T12:30:56Z",
+ "ts": "2026-10-18T12:38:04Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 49,
+   "events_returned": 47,
    "err": null
   },
   {
@@ -169,9 +169,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "VALORANT Champions 2026: Winner",
    "Most First Bloods at VALORANT Champions 2026",
-   "Least Played Map at VALORANT Champions 2026"
+   "Least Played Map at VALORANT Champions 2026",
+   "Most Kills at VALORANT Champions 2026"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -270,7 +270,7 @@
    },
    {
     "t": "VALORANT Champions 2026: Winner",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Most First Bloods at VALORANT Champions 2026",
@@ -309,19 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 401,
- "markets": 355,
- "markets_dropped_by_volume_floor": 2048,
+ "events": 400,
+ "markets": 343,
+ "markets_dropped_by_volume_floor": 2050,
  "day_file": "data/2026/10/2026-10-18T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 94,
+ "trades_markets_queried": 93,
  "trades_watchlist_markets": 78,
- "trades_collected": 2140,
- "anomalies_detected": 10,
+ "trades_collected": 2168,
+ "anomalies_detected": 20,
  "anomalies_new": 10,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 101,
- "books_rows": 146,
+ "books_markets": 100,
+ "books_rows": 140,
  "status": "ok"
 }
