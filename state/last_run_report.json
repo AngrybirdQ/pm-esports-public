@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T09:20:25Z",
+ "ts": "2026-10-18T09:30:11Z",
  "sources": [
   {
    "url": "/tags",
@@ -133,9 +133,7 @@
    "err": null
   }
  ],
- "errors": [
-  "trades 0x08d56c24: HTTPError: HTTP Error 429: Too Many Requests"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -312,18 +310,24 @@
  },
  "n_event_queries": 21,
  "events": 401,
- "markets": 311,
- "markets_dropped_by_volume_floor": 2039,
+ "markets": 314,
+ "markets_dropped_by_volume_floor": 2045,
  "day_file": "data/2026/10/2026-10-18T09.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 92,
- "trades_watchlist_markets": 74,
- "trades_collected": 1266,
- "anomalies_detected": 28,
- "anomalies_new": 4,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 85,
+ "trades_markets_queried": 85,
+ "trades_watchlist_markets": 62,
+ "trades_collected": 1227,
+ "anomalies_detected": 26,
+ "anomalies_new": 24,
+ "history_debug": [
+  {
+   "cid": "0xcc79e3ce",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 84,
  "books_rows": 148,
  "status": "ok"
 }
