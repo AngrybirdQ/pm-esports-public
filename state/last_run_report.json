@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T18:42:19Z",
+ "ts": "2026-10-18T19:04:55Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 27,
+   "events_returned": 26,
    "err": null
   },
   {
@@ -148,8 +148,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: CyberHero vs Team Synapse (BO3) - EPL Masters Group B",
-   "Dota 2: Power Rangers vs Nemiga Gaming (BO3) - EPL Masters Group A"
+   "Dota 2: Power Rangers vs Nemiga Gaming (BO3) - EPL Masters Group A",
+   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -202,7 +202,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: CyberHero vs Team Synapse (BO3) - EPL Masters Group B",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: CyberHero vs Inner Circle (BO3) - EPL Masters Play-In Group A",
@@ -312,14 +312,14 @@
  },
  "n_event_queries": 21,
  "events": 385,
- "markets": 277,
- "markets_dropped_by_volume_floor": 1910,
- "day_file": "data/2026/10/2026-10-18T18.jsonl",
+ "markets": 274,
+ "markets_dropped_by_volume_floor": 1914,
+ "day_file": "data/2026/10/2026-10-18T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 83,
- "trades_watchlist_markets": 65,
- "trades_collected": 2617,
- "books_markets": 87,
- "books_rows": 106,
+ "trades_markets_queried": 75,
+ "trades_watchlist_markets": 55,
+ "trades_collected": 2360,
+ "books_markets": 73,
+ "books_rows": 76,
  "status": "ok"
 }
