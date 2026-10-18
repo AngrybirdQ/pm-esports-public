@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T21:42:12Z",
+ "ts": "2026-10-18T21:51:30Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 28,
+   "events_returned": 27,
    "err": null
   },
   {
@@ -147,9 +147,9 @@
    "Worlds 2026: Winner"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
    "Dota 2: Gorgc Team vs Stariy bog Team (BO5) - 1win Streamers League #3",
-   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A"
+   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
+   "Dota 2: salamit vs Power Rangers (BO3) - EPL Masters Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -311,14 +311,14 @@
   ]
  },
  "n_event_queries": 21,
- "events": 394,
+ "events": 393,
  "markets": 243,
- "markets_dropped_by_volume_floor": 1923,
+ "markets_dropped_by_volume_floor": 1920,
  "day_file": "data/2026/10/2026-10-18T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 56,
- "trades_watchlist_markets": 29,
- "trades_collected": 929,
+ "trades_markets_queried": 51,
+ "trades_watchlist_markets": 24,
+ "trades_collected": 830,
  "books_markets": 41,
  "books_rows": 56,
  "status": "ok"
