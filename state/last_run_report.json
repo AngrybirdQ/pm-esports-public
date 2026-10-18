@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T16:51:27Z",
+ "ts": "2026-10-18T16:59:48Z",
  "sources": [
   {
    "url": "/tags",
@@ -142,8 +142,8 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Worlds 2026: Winner",
    "Counter-Strike: FURIA vs BetBoom Team (BO5) - Thunderpick World Champi",
+   "Worlds 2026: Winner",
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
@@ -311,19 +311,15 @@
   ]
  },
  "n_event_queries": 21,
- "events": 386,
+ "events": 385,
  "markets": 286,
- "markets_dropped_by_volume_floor": 1949,
+ "markets_dropped_by_volume_floor": 1929,
  "day_file": "data/2026/10/2026-10-18T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 99,
- "trades_watchlist_markets": 85,
- "trades_collected": 2155,
- "books_errors": [
-  "3305408118: HTTPError: HTTP Error 404: Not Found",
-  "7664774558: HTTPError: HTTP Error 404: Not Found"
- ],
+ "trades_markets_queried": 102,
+ "trades_watchlist_markets": 86,
+ "trades_collected": 2326,
  "books_markets": 94,
- "books_rows": 114,
+ "books_rows": 120,
  "status": "ok"
 }
