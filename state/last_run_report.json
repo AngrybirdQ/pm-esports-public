@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T13:56:41Z",
+ "ts": "2026-10-18T14:14:28Z",
  "sources": [
   {
    "url": "/tags",
@@ -133,7 +133,9 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "sensor: error: missing ), unterminated subpattern at position 0"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -207,16 +209,16 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Resilience vs Xtreme Gaming (BO3) - BLAST Slam China Clos",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Yellow Submarine vs Spirit Academy (BO3) - EPL Masters Play-In",
     "closed": true
    },
    {
-    "t": "Dota 2: Stray Team vs Stariy bog Team (BO3) - 1win Streamers League #3",
+    "t": "Dota 2: Team Resilience vs Xtreme Gaming (BO3) - BLAST Slam China Clos",
     "closed": true
+   },
+   {
+    "t": "Dota 2: ALOHADANCE Team vs Stariy bog Team (BO3) - 1win Streamers Leag",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -243,11 +245,11 @@
   ],
   "search:League of Legends": [
    {
-    "t": "League of Legends Global Power Rankings Post Worlds: Rank 1",
+    "t": "Will Faker become president of South Korea by the end of the year?",
     "closed": false
    },
    {
-    "t": "Will Faker become president of South Korea by the end of the year?",
+    "t": "League of Legends Global Power Rankings Post Worlds: Rank 1",
     "closed": false
    },
    {
@@ -310,22 +312,18 @@
  },
  "n_event_queries": 21,
  "events": 385,
- "markets": 285,
- "markets_dropped_by_volume_floor": 1947,
- "day_file": "data/2026/10/2026-10-18T13.jsonl",
+ "markets": 278,
+ "markets_dropped_by_volume_floor": 1933,
+ "day_file": "data/2026/10/2026-10-18T14.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 101,
- "trades_watchlist_markets": 86,
- "trades_collected": 1980,
- "anomalies_detected": 12,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_watchlist_markets": 88,
+ "trades_collected": 1775,
  "books_errors": [
-  "2918685853: HTTPError: HTTP Error 404: Not Found",
-  "5836696524: HTTPError: HTTP Error 404: Not Found"
+  "9875226765: HTTPError: HTTP Error 404: Not Found",
+  "4434032114: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 101,
- "books_rows": 122,
+ "books_markets": 94,
+ "books_rows": 116,
  "status": "ok"
 }
