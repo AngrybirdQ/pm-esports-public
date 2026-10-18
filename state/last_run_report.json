@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T16:34:52Z",
+ "ts": "2026-10-18T16:37:49Z",
  "sources": [
   {
    "url": "/tags",
@@ -210,7 +210,7 @@
    },
    {
     "t": "Dota 2: ALOHADANCE Team vs Stariy bog Team (BO3) - 1win Streamers Leag",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Stray Team vs Stariy bog Team (BO3) - 1win Streamers League #3",
@@ -312,20 +312,18 @@
  },
  "n_event_queries": 21,
  "events": 386,
- "markets": 292,
- "markets_dropped_by_volume_floor": 1951,
+ "markets": 290,
+ "markets_dropped_by_volume_floor": 1952,
  "day_file": "data/2026/10/2026-10-18T16.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 100,
  "trades_watchlist_markets": 86,
- "trades_collected": 2294,
+ "trades_collected": 2316,
  "books_errors": [
-  "5109286895: HTTPError: HTTP Error 404: Not Found",
-  "9096640553: HTTPError: HTTP Error 404: Not Found",
-  "1145178383: HTTPError: HTTP Error 404: Not Found",
-  "1780584712: HTTPError: HTTP Error 404: Not Found"
+  "3093072442: HTTPError: HTTP Error 404: Not Found",
+  "1522895581: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 95,
+ "books_markets": 93,
  "books_rows": 118,
  "status": "ok"
 }
