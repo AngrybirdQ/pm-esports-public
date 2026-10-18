@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T16:37:49Z",
+ "ts": "2026-10-18T16:51:27Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 28,
+   "events_returned": 27,
    "err": null
   },
   {
@@ -213,11 +213,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Stray Team vs Stariy bog Team (BO3) - 1win Streamers League #3",
+    "t": "Dota 2: Nix Team vs Stariy bog Team (BO3) - 1win Streamers League #3 P",
     "closed": true
    },
    {
-    "t": "Dota 2: Nix Team vs Stariy bog Team (BO3) - 1win Streamers League #3 P",
+    "t": "Dota 2: Stray Team vs Stariy bog Team (BO3) - 1win Streamers League #3",
     "closed": true
    }
   ],
@@ -312,18 +312,18 @@
  },
  "n_event_queries": 21,
  "events": 386,
- "markets": 290,
- "markets_dropped_by_volume_floor": 1952,
+ "markets": 286,
+ "markets_dropped_by_volume_floor": 1949,
  "day_file": "data/2026/10/2026-10-18T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 100,
- "trades_watchlist_markets": 86,
- "trades_collected": 2316,
+ "trades_markets_queried": 99,
+ "trades_watchlist_markets": 85,
+ "trades_collected": 2155,
  "books_errors": [
-  "3093072442: HTTPError: HTTP Error 404: Not Found",
-  "1522895581: HTTPError: HTTP Error 404: Not Found"
+  "3305408118: HTTPError: HTTP Error 404: Not Found",
+  "7664774558: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 93,
- "books_rows": 118,
+ "books_markets": 94,
+ "books_rows": 114,
  "status": "ok"
 }
