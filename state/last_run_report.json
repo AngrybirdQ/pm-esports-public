@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T18:01:49Z",
+ "ts": "2026-10-18T18:19:39Z",
  "sources": [
   {
    "url": "/tags",
@@ -283,7 +283,7 @@
     "closed": true
    },
    {
-    "t": "VALORANT Champions 2026 MVP",
+    "t": "Highest ACS at VALORANT Champions 2026",
     "closed": true
    }
   ],
@@ -312,18 +312,14 @@
  },
  "n_event_queries": 21,
  "events": 385,
- "markets": 276,
- "markets_dropped_by_volume_floor": 1924,
+ "markets": 272,
+ "markets_dropped_by_volume_floor": 1902,
  "day_file": "data/2026/10/2026-10-18T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 100,
- "trades_watchlist_markets": 86,
- "trades_collected": 2554,
- "books_errors": [
-  "3257015897: HTTPError: HTTP Error 404: Not Found",
-  "5476536760: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 84,
- "books_rows": 110,
+ "trades_markets_queried": 102,
+ "trades_watchlist_markets": 87,
+ "trades_collected": 2745,
+ "books_markets": 80,
+ "books_rows": 108,
  "status": "ok"
 }
