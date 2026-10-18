@@ -1,0 +1,66 @@
+name: riot-api-probe
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Probe Riot public endpoints (no key)
+        run: |
+          python3 << 'PYEOF'
+          import json, time, urllib.request, urllib.error
+
+          def get(url, tries=2):
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={
+                          "User-Agent": "pm-esports-research/1.0 (github.com/AngrybirdQ)",
+                          "Accept": "application/json"})
+                      with urllib.request.urlopen(req, timeout=30) as r:
+                          return r.status, r.read().decode("utf-8", "replace")
+                  except urllib.error.HTTPError as e:
+                      return e.code, e.read().decode("utf-8", "replace")[:200]
+                  except Exception as ex:
+                      if i < tries-1: time.sleep(4); continue
+                      return 0, str(ex)[:60]
+
+          # 1) LoL Esports Data API (公共, 无key, 官方赛事数据)
+          print("=== lol-esports-data (公共无key) ===", flush=True)
+          # 赛程: league = LCK/LPL/LEC/LCS
+          for league in ("lck", "lpl", "lec"):
+              st, d = get(f"https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId={league}")
+              print(f"  schedule {league}: {st} {len(d)}B", flush=True)
+              time.sleep(2)
+          # 2) fetch window (赛事数据的时间窗, 公共)
+          st, d = get("https://esports-api.lolesports.com/persisted/gw/getLeagues?hl=en-US")
+          print(f"  leagues list: {st}", flush=True)
+          if st == 200:
+              try:
+                  leagues = json.loads(d)
+                  names = [l.get("slug") for l in leagues.get("data", {}).get("leagues", [])][:15]
+                  print(f"  leagues: {names}", flush=True)
+              except Exception as e:
+                  print(f"  parse err {e}", flush=True)
+          time.sleep(2)
+          # 3) 实际拉LCK赛程样本(含队伍vs/时间/状态)
+          st, d = get("https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=lck")
+          if st == 200:
+              try:
+                  sch = json.loads(d)
+                  events = sch.get("data", {}).get("schedule", {}).get("events", [])
+                  print(f"  LCK events: {len(events)}", flush=True)
+                  for e in events[:3]:
+                      print(f"    {e.get('startTime','?')[:16]} {e.get('match',{}).get('teams',[{}])[0].get('code','?')} vs "
+                            f"{e.get('match',{}).get('teams',[{}])[1].get('code','?')} state={e.get('state')}", flush=True)
+              except Exception as ex:
+                  print(f"  parse: {str(ex)[:60]}", flush=True)
+          else:
+              print("  LCK schedule raw:", d[:150], flush=True)
+          print("RIOT PROBE DONE", flush=True)
+          PYEOF
