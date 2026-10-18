@@ -520,7 +520,10 @@ def detect_anomalies(lines, trades, frames, report):
         prs = [p for p in (l.get("prices") or []) if isinstance(p, (int, float))]
         if prs:
             price_by_cid[cid] = prs
+            if len(prs) >= 2 and all(p >= 0.98 or p <= 0.02 for p in prs):
+                dead_cids.add(cid)
     trades = [t for t in trades if t.get("condition_id") in active_cids
+              and t.get("condition_id") not in dead_cids
               and not all(all(p >= 0.98 or p <= 0.02 for p in price_by_cid.get(c, [0.5]))
                           for c in [t.get("condition_id")] if c in price_by_cid)
               ] if price_by_cid else trades
@@ -571,7 +574,7 @@ def detect_anomalies(lines, trades, frames, report):
             })
     for line in lines:
         cid = line.get("condition_id")
-        if not cid:
+        if not cid or cid in dead_cids:
             continue
         for oc, pr in zip(line.get("outcomes") or [], line.get("prices") or []):
             old = frames.get((cid, str(oc)))
