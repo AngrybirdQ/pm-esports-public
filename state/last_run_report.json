@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T08:03:47Z",
+ "ts": "2026-10-18T08:18:53Z",
  "sources": [
   {
    "url": "/tags",
@@ -140,8 +140,8 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Worlds 2026: Winner",
    "Valorant: LOUD vs Team Vitality (BO5) - VCT Champions Playoffs",
+   "Worlds 2026: Winner",
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
@@ -277,11 +277,11 @@
     "closed": false
    },
    {
-    "t": "Most First Bloods at VALORANT Champions 2026",
+    "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
     "closed": false
    },
    {
-    "t": "Least Played Map at VALORANT Champions 2026",
+    "t": "Most First Bloods at VALORANT Champions 2026",
     "closed": false
    }
   ],
@@ -311,27 +311,28 @@
  "n_event_queries": 21,
  "events": 398,
  "markets": 295,
- "markets_dropped_by_volume_floor": 2038,
+ "markets_dropped_by_volume_floor": 2028,
  "day_file": "data/2026/10/2026-10-18T08.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 72,
- "trades_watchlist_markets": 51,
- "trades_collected": 1083,
- "anomalies_detected": 24,
- "anomalies_new": 6,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "7392726685: HTTPError: HTTP Error 404: Not Found",
-  "6130429329: HTTPError: HTTP Error 404: Not Found",
-  "7617621335: HTTPError: HTTP Error 404: Not Found",
-  "9188261168: HTTPError: HTTP Error 404: Not Found",
-  "9694465235: HTTPError: HTTP Error 404: Not Found",
-  "9169945075: HTTPError: HTTP Error 404: Not Found",
-  "3596498033: HTTPError: HTTP Error 404: Not Found",
-  "4686916225: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 77,
+ "trades_watchlist_markets": 61,
+ "trades_collected": 1064,
+ "anomalies_detected": 16,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0x9437a6ad",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xc425aba9",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 78,
- "books_rows": 136,
+ "history_conditions_new": 2,
+ "books_markets": 77,
+ "books_rows": 142,
  "status": "ok"
 }
