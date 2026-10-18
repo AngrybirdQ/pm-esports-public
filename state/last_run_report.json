@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T10:40:09Z",
+ "ts": "2026-10-18T11:04:42Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,19 +51,19 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 56,
+   "events_returned": 55,
    "err": null
   },
   {
    "url": "tag_slug=lol",
    "ok": true,
-   "events_returned": 41,
+   "events_returned": 40,
    "err": null
   },
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 50,
+   "events_returned": 49,
    "err": null
   },
   {
@@ -140,9 +140,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Valorant: LOUD vs Team Vitality (BO5) - VCT Champions Playoffs",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -169,9 +169,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: LOUD vs Team Vitality (BO5) - VCT Champions Playoffs",
    "VALORANT Champions 2026: Winner",
-   "Most First Bloods at VALORANT Champions 2026"
+   "Most First Bloods at VALORANT Champions 2026",
+   "Least Played Map at VALORANT Champions 2026"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -203,19 +203,19 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia",
-    "closed": true
-   },
-   {
-    "t": "Dota 2: Dawn Bulls vs Team Lynx (BO3) - DreamLeague Western Europe Clo",
-    "closed": true
-   },
-   {
     "t": "Dota 2: LEGION vs Team Lynx (BO3) - DreamLeague Western Europe Closed ",
     "closed": true
    },
    {
+    "t": "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia",
+    "closed": true
+   },
+   {
     "t": "Dota 2: CyberHero vs Inner Circle (BO3) - EPL Masters Play-In Group A",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Dawn Bulls vs Team Lynx (BO3) - DreamLeague Western Europe Clo",
     "closed": true
    }
   ],
@@ -266,7 +266,7 @@
   "search:Valorant": [
    {
     "t": "Valorant: LOUD vs Team Vitality (BO5) - VCT Champions Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Team Vitality vs 100 Thieves (BO5) - VCT Champions Playoffs",
@@ -309,19 +309,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 400,
- "markets": 337,
- "markets_dropped_by_volume_floor": 2021,
- "day_file": "data/2026/10/2026-10-18T10.jsonl",
+ "events": 399,
+ "markets": 342,
+ "markets_dropped_by_volume_floor": 2009,
+ "day_file": "data/2026/10/2026-10-18T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 89,
+ "trades_markets_queried": 84,
  "trades_watchlist_markets": 69,
- "trades_collected": 1350,
+ "trades_collected": 1085,
  "anomalies_detected": 12,
- "anomalies_new": 4,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 88,
- "books_rows": 134,
+ "anomalies_new": 12,
+ "history_debug": [
+  {
+   "cid": "0x8e625c52",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 89,
+ "books_rows": 140,
  "status": "ok"
 }
