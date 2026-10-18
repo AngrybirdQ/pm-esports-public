@@ -16,6 +16,6 @@ jobs:
           W="https://pinnacle-anchor.577813472.workers.dev"
           for u in "https://developer.riotgames.com/" "https://esports-api.lolesports.com/persisted/gw/getLeagues?hl=en-US" "https://signup.riotgames.com/"; do
             code=$(curl -s --max-time 25 -o /tmp/rt.out -w "%{http_code}" "$W/?url=$(python3 -c "import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1],safe=''))" "$u")")
-            echo "$code ${#$(cat /tmp/rt.out)}B $u"
+            echo "$code $(wc -c < /tmp/rt.out)B $u"
             head -c 120 /tmp/rt.out; echo
           done
