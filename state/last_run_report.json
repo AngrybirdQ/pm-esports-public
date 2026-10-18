@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T12:14:16Z",
+ "ts": "2026-10-18T12:16:47Z",
  "sources": [
   {
    "url": "/tags",
@@ -281,7 +281,7 @@
     "closed": false
    },
    {
-    "t": "Highest ACS at VALORANT Champions 2026",
+    "t": "VALORANT Champions 2026 MVP",
     "closed": false
    }
   ],
@@ -311,28 +311,17 @@
  "n_event_queries": 21,
  "events": 401,
  "markets": 354,
- "markets_dropped_by_volume_floor": 2039,
+ "markets_dropped_by_volume_floor": 2042,
  "day_file": "data/2026/10/2026-10-18T12.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 93,
  "trades_watchlist_markets": 78,
- "trades_collected": 1614,
- "anomalies_detected": 22,
- "anomalies_new": 14,
- "history_debug": [
-  {
-   "cid": "0xc34fafb1",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xb958c8be",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 2,
+ "trades_collected": 1625,
+ "anomalies_detected": 28,
+ "anomalies_new": 4,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 100,
- "books_rows": 146,
+ "books_rows": 148,
  "status": "ok"
 }
