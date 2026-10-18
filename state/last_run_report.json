@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T12:04:32Z",
+ "ts": "2026-10-18T12:14:16Z",
  "sources": [
   {
    "url": "/tags",
@@ -215,7 +215,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Dawn Bulls vs Team Lynx (BO3) - DreamLeague Western Europe Clo",
+    "t": "Dota 2: Royal Bear vs Xipto Esports (BO5) - DreamLeague Southeast Asia",
     "closed": true
    }
   ],
@@ -309,19 +309,30 @@
   ]
  },
  "n_event_queries": 21,
- "events": 400,
- "markets": 347,
- "markets_dropped_by_volume_floor": 2034,
+ "events": 401,
+ "markets": 354,
+ "markets_dropped_by_volume_floor": 2039,
  "day_file": "data/2026/10/2026-10-18T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 89,
- "trades_watchlist_markets": 76,
- "trades_collected": 1555,
- "anomalies_detected": 16,
- "anomalies_new": 16,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 96,
- "books_rows": 144,
+ "trades_markets_queried": 93,
+ "trades_watchlist_markets": 78,
+ "trades_collected": 1614,
+ "anomalies_detected": 22,
+ "anomalies_new": 14,
+ "history_debug": [
+  {
+   "cid": "0xc34fafb1",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xb958c8be",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_markets": 100,
+ "books_rows": 146,
  "status": "ok"
 }
