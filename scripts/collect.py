@@ -505,6 +505,11 @@ def detect_anomalies(lines, trades, frames, report):
     """Three sensors: big single trade / 1h one-side net flow / sharp move."""
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     anoms = []
+    # 10-18修复(已结束比赛轰炸根因): 只对"当前active市场清单"(lines)里的condition
+    # 产生异动。lines来自本轮active events查询——已闭市/下架的清仓期市场不在其中,
+    # 其大单/单边流是赛后清仓噪声, 不产生任何异动记录。
+    active_cids = {l.get("condition_id") for l in lines if l.get("condition_id")}
+    trades = [t for t in trades if t.get("condition_id") in active_cids]
     for t in trades:
         px = t.get("price") or 0
         if (t["cost_usd"] >= BIG_TRADE_USD
