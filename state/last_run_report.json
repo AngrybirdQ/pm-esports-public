@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T12:40:40Z",
+ "ts": "2026-10-18T12:49:43Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 47,
+   "events_returned": 34,
    "err": null
   },
   {
@@ -169,9 +169,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Most First Bloods at VALORANT Champions 2026",
-   "Least Played Map at VALORANT Champions 2026",
-   "Most Kills at VALORANT Champions 2026"
+   "Valorant Team to Win an International in 2026",
+   "VALORANT Offseason: OXY Next Team",
+   "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -274,11 +274,11 @@
    },
    {
     "t": "Most First Bloods at VALORANT Champions 2026",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Most Kills at VALORANT Champions 2026",
-    "closed": false
+    "closed": true
    },
    {
     "t": "VALORANT Champions 2026 MVP",
@@ -309,19 +309,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 400,
- "markets": 343,
- "markets_dropped_by_volume_floor": 2050,
+ "events": 389,
+ "markets": 296,
+ "markets_dropped_by_volume_floor": 2036,
  "day_file": "data/2026/10/2026-10-18T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 93,
- "trades_watchlist_markets": 78,
- "trades_collected": 2192,
- "anomalies_detected": 21,
- "anomalies_new": 6,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 100,
- "books_rows": 140,
+ "trades_markets_queried": 90,
+ "trades_watchlist_markets": 74,
+ "trades_collected": 2339,
+ "anomalies_detected": 16,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0xfb0204cb",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 91,
+ "books_rows": 126,
  "status": "ok"
 }
