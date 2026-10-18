@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T20:24:08Z",
+ "ts": "2026-10-18T20:26:04Z",
  "sources": [
   {
    "url": "/tags",
@@ -206,7 +206,7 @@
    },
    {
     "t": "Dota 2: Power Rangers vs Nemiga Gaming (BO3) - EPL Masters Group A",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: CyberHero vs Inner Circle (BO3) - EPL Masters Play-In Group A",
@@ -318,8 +318,18 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 82,
  "trades_watchlist_markets": 54,
- "trades_collected": 1954,
+ "trades_collected": 1964,
+ "books_errors": [
+  "9767843254: HTTPError: HTTP Error 404: Not Found",
+  "7075926264: HTTPError: HTTP Error 404: Not Found",
+  "1120155910: HTTPError: HTTP Error 404: Not Found",
+  "2062161422: HTTPError: HTTP Error 404: Not Found",
+  "5347640619: HTTPError: HTTP Error 404: Not Found",
+  "6876068689: HTTPError: HTTP Error 404: Not Found",
+  "9927069173: HTTPError: HTTP Error 404: Not Found",
+  "1535527821: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 60,
- "books_rows": 56,
+ "books_rows": 54,
  "status": "ok"
 }
