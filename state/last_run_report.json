@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T07:05:24Z",
+ "ts": "2026-10-18T07:18:49Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 29,
+   "events_returned": 28,
    "err": null
   },
   {
@@ -141,13 +141,13 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Dota 2: Team Resilience vs Xtreme Gaming (BO3) - BLAST Slam China Clos",
-   "Worlds 2026 Winning Region"
+   "Valorant: LOUD vs Team Vitality (BO5) - VCT Champions Playoffs",
+   "Dota 2: Team Resilience vs Xtreme Gaming (BO3) - BLAST Slam China Clos"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Resilience vs Xtreme Gaming (BO3) - BLAST Slam China Clos",
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
-   "Dota 2: CyberHero vs Inner Circle (BO3) - EPL Masters Play-In Group A"
+   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -281,7 +281,7 @@
     "closed": false
    },
    {
-    "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
+    "t": "Most First Bloods at VALORANT Champions 2026",
     "closed": false
    }
   ],
@@ -310,18 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 399,
- "markets": 280,
- "markets_dropped_by_volume_floor": 2040,
+ "markets": 281,
+ "markets_dropped_by_volume_floor": 2045,
  "day_file": "data/2026/10/2026-10-18T07.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 63,
- "trades_watchlist_markets": 45,
- "trades_collected": 884,
- "anomalies_detected": 13,
- "anomalies_new": 2,
+ "trades_watchlist_markets": 50,
+ "trades_collected": 918,
+ "anomalies_detected": 14,
+ "anomalies_new": 6,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 69,
- "books_rows": 132,
+ "books_markets": 70,
+ "books_rows": 134,
  "status": "ok"
 }
