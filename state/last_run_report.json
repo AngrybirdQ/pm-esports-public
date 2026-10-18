@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T17:56:16Z",
+ "ts": "2026-10-18T17:58:50Z",
  "sources": [
   {
    "url": "/tags",
@@ -144,7 +144,7 @@
   "tag_slug=esports": [
    "Counter-Strike: FURIA vs BetBoom Team (BO5) - Thunderpick World Champi",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "LoL: Karmine Corp vs MVK Esports (BO5) - Worlds Play-In"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Yellow Submarine vs Blasterbl (BO3) - PARI Universe Closed Qua",
@@ -312,20 +312,18 @@
  },
  "n_event_queries": 21,
  "events": 385,
- "markets": 278,
- "markets_dropped_by_volume_floor": 1918,
+ "markets": 276,
+ "markets_dropped_by_volume_floor": 1924,
  "day_file": "data/2026/10/2026-10-18T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 101,
+ "trades_markets_queried": 100,
  "trades_watchlist_markets": 86,
- "trades_collected": 2534,
+ "trades_collected": 2537,
  "books_errors": [
-  "3586008435: HTTPError: HTTP Error 404: Not Found",
-  "3571299901: HTTPError: HTTP Error 404: Not Found",
-  "2750815523: HTTPError: HTTP Error 404: Not Found",
-  "2909605208: HTTPError: HTTP Error 404: Not Found"
+  "3257015897: HTTPError: HTTP Error 404: Not Found",
+  "5476536760: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 86,
+ "books_markets": 84,
  "books_rows": 112,
  "status": "ok"
 }
