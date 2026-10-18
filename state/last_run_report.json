@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-18T15:22:02Z",
+ "ts": "2026-10-18T15:39:13Z",
  "sources": [
   {
    "url": "/tags",
@@ -205,10 +205,6 @@
     "closed": true
    },
    {
-    "t": "Dota 2: LEGION vs Team Lynx (BO3) - DreamLeague Western Europe Closed ",
-    "closed": true
-   },
-   {
     "t": "Dota 2: CyberHero vs Team Synapse (BO3) - EPL Masters Group B",
     "closed": false
    },
@@ -218,6 +214,10 @@
    },
    {
     "t": "Dota 2: Yellow Submarine vs Spirit Academy (BO3) - EPL Masters Play-In",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Stray Team vs Stariy bog Team (BO3) - 1win Streamers League #3",
     "closed": true
    }
   ],
@@ -312,14 +312,14 @@
  },
  "n_event_queries": 21,
  "events": 387,
- "markets": 292,
- "markets_dropped_by_volume_floor": 1956,
+ "markets": 299,
+ "markets_dropped_by_volume_floor": 1954,
  "day_file": "data/2026/10/2026-10-18T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 110,
- "trades_watchlist_markets": 88,
- "trades_collected": 2088,
- "books_markets": 89,
- "books_rows": 114,
+ "trades_markets_queried": 120,
+ "trades_watchlist_markets": 95,
+ "trades_collected": 2629,
+ "books_markets": 104,
+ "books_rows": 124,
  "status": "ok"
 }
