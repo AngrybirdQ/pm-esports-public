@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19T13:11:17Z",
+ "ts": "2026-10-19T13:20:35Z",
  "sources": [
   {
    "url": "/tags",
@@ -213,12 +213,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: CyberHero vs Team Synapse (BO3) - EPL Masters Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Yellow Submarine vs Zero Tenacity (BO3) - EPL Masters Group B",
     "closed": false
+   },
+   {
+    "t": "Dota 2: CyberHero vs Team Synapse (BO3) - EPL Masters Group B",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -311,15 +311,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 385,
- "markets": 288,
+ "events": 386,
+ "markets": 290,
  "markets_dropped_by_volume_floor": 1917,
  "day_file": "data/2026/10/2026-10-19T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 128,
- "trades_watchlist_markets": 88,
- "trades_collected": 2058,
- "books_markets": 90,
+ "trades_markets_queried": 129,
+ "trades_watchlist_markets": 89,
+ "trades_collected": 2153,
+ "books_errors": [
+  "1742869263: HTTPError: HTTP Error 404: Not Found",
+  "7114794043: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 89,
  "books_rows": 134,
  "status": "ok"
 }
