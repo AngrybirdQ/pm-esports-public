@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19T12:51:23Z",
+ "ts": "2026-10-19T12:58:29Z",
  "sources": [
   {
    "url": "/tags",
@@ -209,11 +209,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: CyberHero vs Team Synapse (BO3) - EPL Masters Group B",
+    "t": "Dota 2: salamit vs Power Rangers (BO3) - EPL Masters Group A",
     "closed": true
    },
    {
-    "t": "Dota 2: salamit vs Power Rangers (BO3) - EPL Masters Group A",
+    "t": "Dota 2: CyberHero vs Team Synapse (BO3) - EPL Masters Group B",
     "closed": true
    },
    {
@@ -311,15 +311,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 386,
- "markets": 289,
- "markets_dropped_by_volume_floor": 1921,
+ "events": 385,
+ "markets": 288,
+ "markets_dropped_by_volume_floor": 1919,
  "day_file": "data/2026/10/2026-10-19T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 123,
- "trades_watchlist_markets": 81,
- "trades_collected": 2020,
- "books_markets": 88,
- "books_rows": 128,
+ "trades_markets_queried": 127,
+ "trades_watchlist_markets": 87,
+ "trades_collected": 2082,
+ "books_errors": [
+  "1007142085: HTTPError: HTTP Error 404: Not Found",
+  "4543657742: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 90,
+ "books_rows": 138,
  "status": "ok"
 }
