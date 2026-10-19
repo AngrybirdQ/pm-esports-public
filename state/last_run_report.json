@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19T17:21:30Z",
+ "ts": "2026-10-19T17:30:36Z",
  "sources": [
   {
    "url": "/tags",
@@ -205,12 +205,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - EPL Masters Group A",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Dawn Bulls vs CyberHero (BO3) - EPL Masters Group B",
     "closed": false
+   },
+   {
+    "t": "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - EPL Masters Group A",
+    "closed": true
    },
    {
     "t": "Dota 2: salamit vs Power Rangers (BO3) - EPL Masters Group A",
@@ -312,18 +312,30 @@
  },
  "n_event_queries": 21,
  "events": 388,
- "markets": 268,
- "markets_dropped_by_volume_floor": 1917,
+ "markets": 269,
+ "markets_dropped_by_volume_floor": 1914,
  "day_file": "data/2026/10/2026-10-19T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 101,
- "trades_watchlist_markets": 69,
- "trades_collected": 2705,
+ "trades_markets_queried": 104,
+ "trades_watchlist_markets": 71,
+ "trades_collected": 2681,
  "books_errors": [
-  "1200393812: HTTPError: HTTP Error 404: Not Found",
-  "7390552539: HTTPError: HTTP Error 404: Not Found"
+  "8583951150: HTTPError: HTTP Error 404: Not Found",
+  "8056451755: HTTPError: HTTP Error 404: Not Found",
+  "7922965042: HTTPError: HTTP Error 404: Not Found",
+  "7521716881: HTTPError: HTTP Error 404: Not Found",
+  "1670320513: HTTPError: HTTP Error 404: Not Found",
+  "5560038624: HTTPError: HTTP Error 404: Not Found",
+  "6215468157: HTTPError: HTTP Error 404: Not Found",
+  "8823786551: HTTPError: HTTP Error 404: Not Found",
+  "1076744398: HTTPError: HTTP Error 404: Not Found",
+  "5504785418: HTTPError: HTTP Error 404: Not Found",
+  "3345769656: HTTPError: HTTP Error 404: Not Found",
+  "1039297358: HTTPError: HTTP Error 404: Not Found",
+  "9689560120: HTTPError: HTTP Error 404: Not Found",
+  "4496635680: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 69,
- "books_rows": 76,
+ "books_markets": 70,
+ "books_rows": 80,
  "status": "ok"
 }
