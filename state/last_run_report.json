@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19T12:10:30Z",
+ "ts": "2026-10-19T12:19:12Z",
  "sources": [
   {
    "url": "/tags",
@@ -275,11 +275,11 @@
     "closed": false
    },
    {
-    "t": "VALORANT Champions 2026: Winner",
+    "t": "VALORANT Champions 2026 Winning Region",
     "closed": true
    },
    {
-    "t": "VALORANT Champions 2026 Winning Region",
+    "t": "VALORANT Champions 2026: Winner",
     "closed": true
    },
    {
@@ -311,15 +311,23 @@
   ]
  },
  "n_event_queries": 21,
- "events": 386,
- "markets": 295,
- "markets_dropped_by_volume_floor": 1933,
+ "events": 385,
+ "markets": 296,
+ "markets_dropped_by_volume_floor": 1924,
  "day_file": "data/2026/10/2026-10-19T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 123,
+ "trades_markets_queried": 126,
  "trades_watchlist_markets": 92,
- "trades_collected": 2074,
- "books_markets": 97,
- "books_rows": 130,
+ "trades_collected": 2361,
+ "books_errors": [
+  "8801180066: HTTPError: HTTP Error 404: Not Found",
+  "2652729314: HTTPError: HTTP Error 404: Not Found",
+  "3882126412: HTTPError: HTTP Error 404: Not Found",
+  "1094641247: HTTPError: HTTP Error 404: Not Found",
+  "7234277534: HTTPError: HTTP Error 404: Not Found",
+  "3561512138: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 93,
+ "books_rows": 132,
  "status": "ok"
 }
