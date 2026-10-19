@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19T14:39:05Z",
+ "ts": "2026-10-19T14:49:42Z",
  "sources": [
   {
    "url": "/tags",
@@ -311,31 +311,27 @@
   ]
  },
  "n_event_queries": 21,
- "events": 384,
- "markets": 284,
- "markets_dropped_by_volume_floor": 1905,
+ "events": 382,
+ "markets": 279,
+ "markets_dropped_by_volume_floor": 1903,
  "day_file": "data/2026/10/2026-10-19T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 129,
- "trades_watchlist_markets": 86,
- "trades_collected": 2529,
+ "trades_markets_queried": 128,
+ "trades_watchlist_markets": 90,
+ "trades_collected": 2495,
  "books_errors": [
-  "1011717190: HTTPError: HTTP Error 404: Not Found",
-  "1162426330: HTTPError: HTTP Error 404: Not Found",
-  "1540531736: HTTPError: HTTP Error 404: Not Found",
-  "6920019762: HTTPError: HTTP Error 404: Not Found",
-  "2748455728: HTTPError: HTTP Error 404: Not Found",
-  "9141284885: HTTPError: HTTP Error 404: Not Found",
-  "5925958656: HTTPError: HTTP Error 404: Not Found",
-  "4070240565: HTTPError: HTTP Error 404: Not Found",
-  "1868539400: HTTPError: HTTP Error 404: Not Found",
-  "2279593544: HTTPError: HTTP Error 404: Not Found",
-  "1153257740: HTTPError: HTTP Error 404: Not Found",
-  "3807431735: HTTPError: HTTP Error 404: Not Found",
-  "6798246467: HTTPError: HTTP Error 404: Not Found",
-  "9976897517: HTTPError: HTTP Error 404: Not Found"
+  "5973122086: HTTPError: HTTP Error 404: Not Found",
+  "4404484832: HTTPError: HTTP Error 404: Not Found",
+  "5995042951: HTTPError: HTTP Error 404: Not Found",
+  "1041069158: HTTPError: HTTP Error 404: Not Found",
+  "7154112213: HTTPError: HTTP Error 404: Not Found",
+  "5527854804: HTTPError: HTTP Error 404: Not Found",
+  "3192401868: HTTPError: HTTP Error 404: Not Found",
+  "3446294148: HTTPError: HTTP Error 404: Not Found",
+  "3000459749: HTTPError: HTTP Error 404: Not Found",
+  "1080222847: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 86,
- "books_rows": 104,
+ "books_markets": 80,
+ "books_rows": 106,
  "status": "ok"
 }
