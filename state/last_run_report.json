@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19T13:23:15Z",
+ "ts": "2026-10-19T13:26:03Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 26,
+   "events_returned": 25,
    "err": null
   },
   {
@@ -147,9 +147,9 @@
    "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Yellow Submarine vs Zero Tenacity (BO3) - EPL Masters Group B",
    "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
-   "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - EPL Masters Group A"
+   "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - EPL Masters Group A",
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -275,15 +275,15 @@
     "closed": false
    },
    {
+    "t": "Total Tech Pauses in the VALORANT Champions 2026 Playoffs",
+    "closed": false
+   },
+   {
     "t": "Valorant: FENNEL Female vs MIBR GC (BO3) - VCT Game Changers Champions",
     "closed": false
    },
    {
     "t": "Valorant: LOUD vs Team Vitality (BO5) - VCT Champions Playoffs",
-    "closed": true
-   },
-   {
-    "t": "Valorant: G2 Esports vs Paper Rex (BO3) - VCT Champions Group C",
     "closed": true
    }
   ],
@@ -311,19 +311,15 @@
   ]
  },
  "n_event_queries": 21,
- "events": 385,
- "markets": 283,
- "markets_dropped_by_volume_floor": 1894,
+ "events": 383,
+ "markets": 278,
+ "markets_dropped_by_volume_floor": 1893,
  "day_file": "data/2026/10/2026-10-19T13.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 131,
  "trades_watchlist_markets": 89,
- "trades_collected": 2264,
- "books_errors": [
-  "1742869263: HTTPError: HTTP Error 404: Not Found",
-  "7114794043: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 89,
- "books_rows": 132,
+ "trades_collected": 2304,
+ "books_markets": 83,
+ "books_rows": 122,
  "status": "ok"
 }
