@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19T01:09:12Z",
+ "ts": "2026-10-19T01:11:14Z",
  "sources": [
   {
    "url": "/tags",
@@ -152,8 +152,8 @@
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
-   "Will FaZe win a Tier 1 event in 2026? ",
    "Will FalleN Win an S-Tier Event in 2026?",
+   "Will FaZe win a Tier 1 event in 2026? ",
    "Which teams will qualify to PGL Major Singapore 2026?"
   ],
   "tag_slug=counter-strike": [
@@ -312,18 +312,14 @@
  },
  "n_event_queries": 21,
  "events": 389,
- "markets": 224,
- "markets_dropped_by_volume_floor": 1932,
+ "markets": 222,
+ "markets_dropped_by_volume_floor": 1930,
  "day_file": "data/2026/10/2026-10-19T01.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 54,
  "trades_watchlist_markets": 26,
- "trades_collected": 551,
- "books_errors": [
-  "7078344123: HTTPError: HTTP Error 404: Not Found",
-  "3604074941: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 47,
+ "trades_collected": 507,
+ "books_markets": 46,
  "books_rows": 74,
  "status": "ok"
 }
