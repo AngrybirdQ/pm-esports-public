@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19T10:53:44Z",
+ "ts": "2026-10-19T10:57:10Z",
  "sources": [
   {
    "url": "/tags",
@@ -267,10 +267,6 @@
   ],
   "search:Valorant": [
    {
-    "t": "VALORANT Champions 2026 MVP",
-    "closed": true
-   },
-   {
     "t": "Valorant: NRG vs Fnatic (BO5)",
     "closed": true
    },
@@ -279,12 +275,16 @@
     "closed": true
    },
    {
+    "t": "Total Overtimes at VALORANT Champions 2026",
+    "closed": true
+   },
+   {
     "t": "Most First Bloods at VALORANT Champions 2026",
     "closed": true
    },
    {
-    "t": "Highest ACS at VALORANT Champions 2026",
-    "closed": true
+    "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
+    "closed": false
    }
   ],
   "search:The International": [
@@ -312,22 +312,18 @@
  },
  "n_event_queries": 21,
  "events": 386,
- "markets": 299,
- "markets_dropped_by_volume_floor": 1932,
+ "markets": 296,
+ "markets_dropped_by_volume_floor": 1926,
  "day_file": "data/2026/10/2026-10-19T10.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 115,
  "trades_watchlist_markets": 84,
- "trades_collected": 2599,
+ "trades_collected": 2536,
  "books_errors": [
-  "8147985901: HTTPError: HTTP Error 404: Not Found",
-  "3558156631: HTTPError: HTTP Error 404: Not Found",
-  "1777642386: HTTPError: HTTP Error 404: Not Found",
-  "6520270131: HTTPError: HTTP Error 404: Not Found",
-  "6746874297: HTTPError: HTTP Error 404: Not Found",
-  "9462531445: HTTPError: HTTP Error 404: Not Found"
+  "8064571296: HTTPError: HTTP Error 404: Not Found",
+  "9825505630: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 103,
- "books_rows": 146,
+ "books_markets": 100,
+ "books_rows": 144,
  "status": "ok"
 }
