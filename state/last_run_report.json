@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19T17:08:47Z",
+ "ts": "2026-10-19T17:19:06Z",
  "sources": [
   {
    "url": "/tags",
@@ -147,8 +147,8 @@
    "Counter-Strike: PARIVISION vs magic (BO3) - 1win Private Club #2 Playo"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
    "Dota 2: Dawn Bulls vs CyberHero (BO3) - EPL Masters Group B",
+   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
@@ -209,16 +209,16 @@
     "closed": true
    },
    {
+    "t": "Dota 2: Dawn Bulls vs CyberHero (BO3) - EPL Masters Group B",
+    "closed": false
+   },
+   {
     "t": "Dota 2: salamit vs Power Rangers (BO3) - EPL Masters Group A",
     "closed": true
    },
    {
     "t": "Dota 2: Yellow Submarine vs Zero Tenacity (BO3) - EPL Masters Group B",
     "closed": true
-   },
-   {
-    "t": "Dota 2: Dawn Bulls vs CyberHero (BO3) - EPL Masters Group B",
-    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -312,22 +312,14 @@
  },
  "n_event_queries": 21,
  "events": 388,
- "markets": 272,
- "markets_dropped_by_volume_floor": 1939,
+ "markets": 268,
+ "markets_dropped_by_volume_floor": 1918,
  "day_file": "data/2026/10/2026-10-19T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 102,
+ "trades_markets_queried": 101,
  "trades_watchlist_markets": 69,
- "trades_collected": 2778,
- "books_errors": [
-  "9430094681: HTTPError: HTTP Error 404: Not Found",
-  "4582567982: HTTPError: HTTP Error 404: Not Found",
-  "1775460298: HTTPError: HTTP Error 404: Not Found",
-  "8748967709: HTTPError: HTTP Error 404: Not Found",
-  "1155375875: HTTPError: HTTP Error 404: Not Found",
-  "5158997378: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 71,
- "books_rows": 82,
+ "trades_collected": 2672,
+ "books_markets": 69,
+ "books_rows": 76,
  "status": "ok"
 }
