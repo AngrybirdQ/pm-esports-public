@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19T10:57:10Z",
+ "ts": "2026-10-19T11:00:23Z",
  "sources": [
   {
    "url": "/tags",
@@ -312,18 +312,18 @@
  },
  "n_event_queries": 21,
  "events": 386,
- "markets": 296,
- "markets_dropped_by_volume_floor": 1926,
- "day_file": "data/2026/10/2026-10-19T10.jsonl",
+ "markets": 298,
+ "markets_dropped_by_volume_floor": 1927,
+ "day_file": "data/2026/10/2026-10-19T11.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 115,
  "trades_watchlist_markets": 84,
- "trades_collected": 2536,
+ "trades_collected": 2489,
  "books_errors": [
-  "8064571296: HTTPError: HTTP Error 404: Not Found",
-  "9825505630: HTTPError: HTTP Error 404: Not Found"
+  "1144228010: HTTPError: HTTP Error 404: Not Found",
+  "8902988368: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 100,
+ "books_markets": 99,
  "books_rows": 144,
  "status": "ok"
 }
