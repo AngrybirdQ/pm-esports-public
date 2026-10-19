@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19T15:21:31Z",
+ "ts": "2026-10-19T15:27:37Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 25,
+   "events_returned": 24,
    "err": null
   },
   {
@@ -144,12 +144,12 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
+   "Counter-Strike: fnatic vs Liquid (BO3) - 1win Private Club #2 Playoffs"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - EPL Masters Group A",
    "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -210,7 +210,7 @@
    },
    {
     "t": "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - EPL Masters Group A",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: salamit vs Power Rangers (BO3) - EPL Masters Group A",
@@ -279,11 +279,11 @@
     "closed": false
    },
    {
-    "t": "Valorant: KRÜ Blaze vs Gen.G GC (BO3) - VCT Game Changers Championship",
+    "t": "Valorant: FENNEL Female vs MIBR GC (BO3) - VCT Game Changers Champions",
     "closed": false
    },
    {
-    "t": "Valorant: FENNEL Female vs MIBR GC (BO3) - VCT Game Changers Champions",
+    "t": "Valorant: KRÜ Blaze vs Gen.G GC (BO3) - VCT Game Changers Championship",
     "closed": false
    }
   ],
@@ -312,14 +312,14 @@
  },
  "n_event_queries": 21,
  "events": 382,
- "markets": 277,
- "markets_dropped_by_volume_floor": 1913,
+ "markets": 282,
+ "markets_dropped_by_volume_floor": 1910,
  "day_file": "data/2026/10/2026-10-19T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 124,
- "trades_watchlist_markets": 88,
- "trades_collected": 3051,
- "books_markets": 71,
+ "trades_markets_queried": 123,
+ "trades_watchlist_markets": 87,
+ "trades_collected": 3374,
+ "books_markets": 74,
  "books_rows": 102,
  "status": "ok"
 }
