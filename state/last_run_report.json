@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19T14:49:42Z",
+ "ts": "2026-10-19T15:00:00Z",
  "sources": [
   {
    "url": "/tags",
@@ -279,12 +279,12 @@
     "closed": false
    },
    {
-    "t": "Valorant: FENNEL Female vs MIBR GC (BO3) - VCT Game Changers Champions",
+    "t": "Valorant: KRÜ Blaze vs Gen.G GC (BO3) - VCT Game Changers Championship",
     "closed": false
    },
    {
-    "t": "Valorant: LOUD vs Team Vitality (BO5) - VCT Champions Playoffs",
-    "closed": true
+    "t": "Valorant: FENNEL Female vs MIBR GC (BO3) - VCT Game Changers Champions",
+    "closed": false
    }
   ],
   "search:The International": [
@@ -312,26 +312,14 @@
  },
  "n_event_queries": 21,
  "events": 382,
- "markets": 279,
- "markets_dropped_by_volume_floor": 1903,
- "day_file": "data/2026/10/2026-10-19T14.jsonl",
+ "markets": 275,
+ "markets_dropped_by_volume_floor": 1899,
+ "day_file": "data/2026/10/2026-10-19T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 128,
- "trades_watchlist_markets": 90,
- "trades_collected": 2495,
- "books_errors": [
-  "5973122086: HTTPError: HTTP Error 404: Not Found",
-  "4404484832: HTTPError: HTTP Error 404: Not Found",
-  "5995042951: HTTPError: HTTP Error 404: Not Found",
-  "1041069158: HTTPError: HTTP Error 404: Not Found",
-  "7154112213: HTTPError: HTTP Error 404: Not Found",
-  "5527854804: HTTPError: HTTP Error 404: Not Found",
-  "3192401868: HTTPError: HTTP Error 404: Not Found",
-  "3446294148: HTTPError: HTTP Error 404: Not Found",
-  "3000459749: HTTPError: HTTP Error 404: Not Found",
-  "1080222847: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 80,
+ "trades_markets_queried": 125,
+ "trades_watchlist_markets": 89,
+ "trades_collected": 2524,
+ "books_markets": 76,
  "books_rows": 106,
  "status": "ok"
 }
