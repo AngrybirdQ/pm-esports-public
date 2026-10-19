@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19T12:31:26Z",
+ "ts": "2026-10-19T12:38:20Z",
  "sources": [
   {
    "url": "/tags",
@@ -275,15 +275,15 @@
     "closed": false
    },
    {
-    "t": "VALORANT Champions 2026 Winning Region",
-    "closed": true
-   },
-   {
     "t": "Valorant: FENNEL Female vs MIBR GC (BO3) - VCT Game Changers Champions",
     "closed": false
    },
    {
     "t": "Valorant: LOUD vs Team Vitality (BO5) - VCT Champions Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Valorant: G2 Esports vs Paper Rex (BO3) - VCT Champions Group C",
     "closed": true
    }
   ],
@@ -312,14 +312,20 @@
  },
  "n_event_queries": 21,
  "events": 386,
- "markets": 292,
- "markets_dropped_by_volume_floor": 1919,
+ "markets": 291,
+ "markets_dropped_by_volume_floor": 1922,
  "day_file": "data/2026/10/2026-10-19T12.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 120,
- "trades_watchlist_markets": 83,
- "trades_collected": 2439,
- "books_markets": 90,
- "books_rows": 130,
+ "trades_watchlist_markets": 81,
+ "trades_collected": 2320,
+ "books_errors": [
+  "3869434536: HTTPError: HTTP Error 404: Not Found",
+  "1071527803: HTTPError: HTTP Error 404: Not Found",
+  "2024460464: HTTPError: HTTP Error 404: Not Found",
+  "5592302501: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 89,
+ "books_rows": 128,
  "status": "ok"
 }
