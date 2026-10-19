@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19T12:19:12Z",
+ "ts": "2026-10-19T12:28:04Z",
  "sources": [
   {
    "url": "/tags",
@@ -279,12 +279,12 @@
     "closed": true
    },
    {
-    "t": "VALORANT Champions 2026: Winner",
-    "closed": true
-   },
-   {
     "t": "Valorant: FENNEL Female vs MIBR GC (BO3) - VCT Game Changers Champions",
     "closed": false
+   },
+   {
+    "t": "Valorant: LOUD vs Team Vitality (BO5) - VCT Champions Playoffs",
+    "closed": true
    }
   ],
   "search:The International": [
@@ -311,23 +311,15 @@
   ]
  },
  "n_event_queries": 21,
- "events": 385,
- "markets": 296,
- "markets_dropped_by_volume_floor": 1924,
+ "events": 386,
+ "markets": 292,
+ "markets_dropped_by_volume_floor": 1917,
  "day_file": "data/2026/10/2026-10-19T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 126,
- "trades_watchlist_markets": 92,
- "trades_collected": 2361,
- "books_errors": [
-  "8801180066: HTTPError: HTTP Error 404: Not Found",
-  "2652729314: HTTPError: HTTP Error 404: Not Found",
-  "3882126412: HTTPError: HTTP Error 404: Not Found",
-  "1094641247: HTTPError: HTTP Error 404: Not Found",
-  "7234277534: HTTPError: HTTP Error 404: Not Found",
-  "3561512138: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 93,
- "books_rows": 132,
+ "trades_markets_queried": 120,
+ "trades_watchlist_markets": 83,
+ "trades_collected": 2439,
+ "books_markets": 90,
+ "books_rows": 130,
  "status": "ok"
 }
