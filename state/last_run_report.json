@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19T10:40:10Z",
+ "ts": "2026-10-19T10:53:44Z",
  "sources": [
   {
    "url": "/tags",
@@ -267,7 +267,11 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: LOUD vs Team Vitality (BO5) - VCT Champions Playoffs",
+    "t": "VALORANT Champions 2026 MVP",
+    "closed": true
+   },
+   {
+    "t": "Valorant: NRG vs Fnatic (BO5)",
     "closed": true
    },
    {
@@ -280,10 +284,6 @@
    },
    {
     "t": "Highest ACS at VALORANT Champions 2026",
-    "closed": true
-   },
-   {
-    "t": "VALORANT Champions 2026 MVP",
     "closed": true
    }
   ],
@@ -313,13 +313,21 @@
  "n_event_queries": 21,
  "events": 386,
  "markets": 299,
- "markets_dropped_by_volume_floor": 1935,
+ "markets_dropped_by_volume_floor": 1932,
  "day_file": "data/2026/10/2026-10-19T10.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 114,
- "trades_watchlist_markets": 80,
- "trades_collected": 2771,
+ "trades_markets_queried": 115,
+ "trades_watchlist_markets": 84,
+ "trades_collected": 2599,
+ "books_errors": [
+  "8147985901: HTTPError: HTTP Error 404: Not Found",
+  "3558156631: HTTPError: HTTP Error 404: Not Found",
+  "1777642386: HTTPError: HTTP Error 404: Not Found",
+  "6520270131: HTTPError: HTTP Error 404: Not Found",
+  "6746874297: HTTPError: HTTP Error 404: Not Found",
+  "9462531445: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 103,
- "books_rows": 150,
+ "books_rows": 146,
  "status": "ok"
 }
