@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19T16:53:30Z",
+ "ts": "2026-10-19T16:56:23Z",
  "sources": [
   {
    "url": "/tags",
@@ -217,8 +217,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Power Rangers vs Nemiga Gaming (BO3) - EPL Masters Group A",
-    "closed": true
+    "t": "Dota 2: Dawn Bulls vs CyberHero (BO3) - EPL Masters Group B",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -249,6 +249,10 @@
     "closed": false
    },
    {
+    "t": "Will Jynxzi reach Gold rank in League of Legends by...?",
+    "closed": false
+   },
+   {
     "t": "LoL: Dplus KIA Challengers vs KT Rolster Challengers (BO5) - LCK Chall",
     "closed": true
    },
@@ -258,10 +262,6 @@
    },
    {
     "t": "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO5) - LCK Challengers",
-    "closed": true
-   },
-   {
-    "t": "LoL: DN SOOPers Challengers vs Nongshim Esports Academy (BO5) - LCK Ch",
     "closed": true
    }
   ],
@@ -312,22 +312,14 @@
  },
  "n_event_queries": 21,
  "events": 388,
- "markets": 280,
- "markets_dropped_by_volume_floor": 1950,
+ "markets": 279,
+ "markets_dropped_by_volume_floor": 1941,
  "day_file": "data/2026/10/2026-10-19T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 99,
+ "trades_markets_queried": 102,
  "trades_watchlist_markets": 69,
- "trades_collected": 2817,
- "books_errors": [
-  "7571384419: HTTPError: HTTP Error 404: Not Found",
-  "7598070467: HTTPError: HTTP Error 404: Not Found",
-  "5874572470: HTTPError: HTTP Error 404: Not Found",
-  "8342673107: HTTPError: HTTP Error 404: Not Found",
-  "7197023511: HTTPError: HTTP Error 404: Not Found",
-  "6462191589: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 79,
+ "trades_collected": 2861,
+ "books_markets": 78,
  "books_rows": 86,
  "status": "ok"
 }
