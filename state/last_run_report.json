@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19T17:05:09Z",
+ "ts": "2026-10-19T17:08:47Z",
  "sources": [
   {
    "url": "/tags",
@@ -143,8 +143,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Counter-Strike: fnatic vs Liquid (BO3) - 1win Private Club #2 Playoffs",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "Counter-Strike: PARIVISION vs magic (BO3) - 1win Private Club #2 Playo"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
@@ -312,32 +312,22 @@
  },
  "n_event_queries": 21,
  "events": 388,
- "markets": 279,
- "markets_dropped_by_volume_floor": 1942,
+ "markets": 272,
+ "markets_dropped_by_volume_floor": 1939,
  "day_file": "data/2026/10/2026-10-19T17.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 102,
  "trades_watchlist_markets": 69,
- "trades_collected": 2817,
+ "trades_collected": 2778,
  "books_errors": [
-  "6297586566: HTTPError: HTTP Error 404: Not Found",
-  "1060375716: HTTPError: HTTP Error 404: Not Found",
-  "1936983248: HTTPError: HTTP Error 404: Not Found",
-  "8910362819: HTTPError: HTTP Error 404: Not Found",
-  "1883027185: HTTPError: HTTP Error 404: Not Found",
-  "9174803683: HTTPError: HTTP Error 404: Not Found",
-  "9280146581: HTTPError: HTTP Error 404: Not Found",
-  "2107299997: HTTPError: HTTP Error 404: Not Found",
-  "9502436837: HTTPError: HTTP Error 404: Not Found",
-  "7432388352: HTTPError: HTTP Error 404: Not Found",
-  "2470568092: HTTPError: HTTP Error 404: Not Found",
-  "8958658717: HTTPError: HTTP Error 404: Not Found",
-  "2088275875: HTTPError: HTTP Error 404: Not Found",
-  "8840986506: HTTPError: HTTP Error 404: Not Found",
+  "9430094681: HTTPError: HTTP Error 404: Not Found",
+  "4582567982: HTTPError: HTTP Error 404: Not Found",
   "1775460298: HTTPError: HTTP Error 404: Not Found",
-  "8748967709: HTTPError: HTTP Error 404: Not Found"
+  "8748967709: HTTPError: HTTP Error 404: Not Found",
+  "1155375875: HTTPError: HTTP Error 404: Not Found",
+  "5158997378: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 78,
+ "books_markets": 71,
  "books_rows": 82,
  "status": "ok"
 }
