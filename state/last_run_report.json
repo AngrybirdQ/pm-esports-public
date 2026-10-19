@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19T16:01:49Z",
+ "ts": "2026-10-19T16:40:05Z",
  "sources": [
   {
    "url": "/tags",
@@ -205,10 +205,6 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Power Rangers vs Nemiga Gaming (BO3) - EPL Masters Group A",
-    "closed": true
-   },
-   {
     "t": "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - EPL Masters Group A",
     "closed": true
    },
@@ -218,6 +214,10 @@
    },
    {
     "t": "Dota 2: Yellow Submarine vs Zero Tenacity (BO3) - EPL Masters Group B",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Power Rangers vs Nemiga Gaming (BO3) - EPL Masters Group A",
     "closed": true
    }
   ],
@@ -311,15 +311,21 @@
   ]
  },
  "n_event_queries": 21,
- "events": 389,
- "markets": 284,
- "markets_dropped_by_volume_floor": 1975,
+ "events": 388,
+ "markets": 282,
+ "markets_dropped_by_volume_floor": 1950,
  "day_file": "data/2026/10/2026-10-19T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 113,
- "trades_watchlist_markets": 80,
- "trades_collected": 3124,
- "books_markets": 78,
- "books_rows": 102,
+ "trades_markets_queried": 101,
+ "trades_watchlist_markets": 63,
+ "trades_collected": 3100,
+ "books_errors": [
+  "1368422123: HTTPError: HTTP Error 404: Not Found",
+  "1115531173: HTTPError: HTTP Error 404: Not Found",
+  "2413504830: HTTPError: HTTP Error 404: Not Found",
+  "7749681082: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 81,
+ "books_rows": 86,
  "status": "ok"
 }
