@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19T16:40:05Z",
+ "ts": "2026-10-19T16:53:30Z",
  "sources": [
   {
    "url": "/tags",
@@ -143,8 +143,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "Counter-Strike: fnatic vs Liquid (BO3) - 1win Private Club #2 Playoffs"
+   "Counter-Strike: fnatic vs Liquid (BO3) - 1win Private Club #2 Playoffs",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
@@ -312,20 +312,22 @@
  },
  "n_event_queries": 21,
  "events": 388,
- "markets": 282,
+ "markets": 280,
  "markets_dropped_by_volume_floor": 1950,
  "day_file": "data/2026/10/2026-10-19T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 101,
- "trades_watchlist_markets": 63,
- "trades_collected": 3100,
+ "trades_markets_queried": 99,
+ "trades_watchlist_markets": 69,
+ "trades_collected": 2817,
  "books_errors": [
-  "1368422123: HTTPError: HTTP Error 404: Not Found",
-  "1115531173: HTTPError: HTTP Error 404: Not Found",
-  "2413504830: HTTPError: HTTP Error 404: Not Found",
-  "7749681082: HTTPError: HTTP Error 404: Not Found"
+  "7571384419: HTTPError: HTTP Error 404: Not Found",
+  "7598070467: HTTPError: HTTP Error 404: Not Found",
+  "5874572470: HTTPError: HTTP Error 404: Not Found",
+  "8342673107: HTTPError: HTTP Error 404: Not Found",
+  "7197023511: HTTPError: HTTP Error 404: Not Found",
+  "6462191589: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 81,
+ "books_markets": 79,
  "books_rows": 86,
  "status": "ok"
 }
