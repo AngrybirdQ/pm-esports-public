@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19T21:41:34Z",
+ "ts": "2026-10-19T21:58:49Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 28,
+   "events_returned": 27,
    "err": null
   },
   {
@@ -147,9 +147,9 @@
    "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Team Synapse vs TheBot$ (BO3) - EPL Masters Group B",
    "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -312,14 +312,18 @@
  },
  "n_event_queries": 21,
  "events": 391,
- "markets": 238,
- "markets_dropped_by_volume_floor": 1907,
+ "markets": 237,
+ "markets_dropped_by_volume_floor": 1908,
  "day_file": "data/2026/10/2026-10-19T21.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 64,
  "trades_watchlist_markets": 29,
- "trades_collected": 1068,
- "books_markets": 37,
- "books_rows": 40,
+ "trades_collected": 738,
+ "books_errors": [
+  "2107563140: HTTPError: HTTP Error 404: Not Found",
+  "4616088798: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 36,
+ "books_rows": 32,
  "status": "ok"
 }
