@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19T01:25:51Z",
+ "ts": "2026-10-19T01:38:07Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 27,
+   "events_returned": 26,
    "err": null
   },
   {
@@ -147,9 +147,9 @@
    "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Gorgc Team vs Stariy bog Team (BO5) - 1win Streamers League #3",
    "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "Will FalleN Win an S-Tier Event in 2026?",
@@ -311,14 +311,14 @@
   ]
  },
  "n_event_queries": 21,
- "events": 390,
- "markets": 236,
- "markets_dropped_by_volume_floor": 1915,
+ "events": 389,
+ "markets": 237,
+ "markets_dropped_by_volume_floor": 1909,
  "day_file": "data/2026/10/2026-10-19T01.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 53,
- "trades_watchlist_markets": 26,
- "trades_collected": 282,
+ "trades_watchlist_markets": 28,
+ "trades_collected": 273,
  "books_markets": 46,
  "books_rows": 76,
  "status": "ok"
