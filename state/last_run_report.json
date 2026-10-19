@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19T18:08:33Z",
+ "ts": "2026-10-19T18:10:46Z",
  "sources": [
   {
    "url": "/tags",
@@ -201,12 +201,12 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Gorgc Team vs Stariy bog Team (BO5) - 1win Streamers League #3",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Dawn Bulls vs CyberHero (BO3) - EPL Masters Group B",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Gorgc Team vs Stariy bog Team (BO5) - 1win Streamers League #3",
+    "closed": true
    },
    {
     "t": "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - EPL Masters Group A",
@@ -318,7 +318,15 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 110,
  "trades_watchlist_markets": 79,
- "trades_collected": 2296,
+ "trades_collected": 2278,
+ "books_errors": [
+  "2002056528: HTTPError: HTTP Error 404: Not Found",
+  "4157564463: HTTPError: HTTP Error 404: Not Found",
+  "6407388326: HTTPError: HTTP Error 404: Not Found",
+  "1021136915: HTTPError: HTTP Error 404: Not Found",
+  "8464158474: HTTPError: HTTP Error 404: Not Found",
+  "1004736530: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 55,
  "books_rows": 74,
  "status": "ok"
