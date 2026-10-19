@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19T21:02:32Z",
+ "ts": "2026-10-19T21:19:22Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 25,
+   "events_returned": 28,
    "err": null
   },
   {
@@ -271,11 +271,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
+    "t": "Total Tech Pauses in the VALORANT Champions 2026 Playoffs",
     "closed": false
    },
    {
-    "t": "Total Tech Pauses in the VALORANT Champions 2026 Playoffs",
+    "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
     "closed": false
    },
    {
@@ -311,15 +311,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 388,
- "markets": 247,
- "markets_dropped_by_volume_floor": 1855,
+ "events": 391,
+ "markets": 242,
+ "markets_dropped_by_volume_floor": 1913,
  "day_file": "data/2026/10/2026-10-19T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 77,
- "trades_watchlist_markets": 40,
- "trades_collected": 1574,
- "books_markets": 45,
- "books_rows": 38,
+ "trades_markets_queried": 67,
+ "trades_watchlist_markets": 33,
+ "trades_collected": 1207,
+ "books_errors": [
+  "5787675715: HTTPError: HTTP Error 404: Not Found",
+  "9574400006: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 44,
+ "books_rows": 42,
  "status": "ok"
 }
