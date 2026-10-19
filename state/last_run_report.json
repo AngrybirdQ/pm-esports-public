@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-19T18:32:54Z",
+ "ts": "2026-10-19T18:39:47Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 26,
+   "events_returned": 25,
    "err": null
   },
   {
@@ -147,9 +147,9 @@
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Dawn Bulls vs CyberHero (BO3) - EPL Masters Group B",
    "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -202,7 +202,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: Dawn Bulls vs CyberHero (BO3) - EPL Masters Group B",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Gorgc Team vs Stariy bog Team (BO5) - 1win Streamers League #3",
@@ -313,17 +313,13 @@
  "n_event_queries": 21,
  "events": 387,
  "markets": 249,
- "markets_dropped_by_volume_floor": 1889,
+ "markets_dropped_by_volume_floor": 1878,
  "day_file": "data/2026/10/2026-10-19T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 101,
+ "trades_markets_queried": 105,
  "trades_watchlist_markets": 69,
- "trades_collected": 2149,
- "books_errors": [
-  "7180103121: HTTPError: HTTP Error 404: Not Found",
-  "7463573348: HTTPError: HTTP Error 404: Not Found"
- ],
+ "trades_collected": 2157,
  "books_markets": 48,
- "books_rows": 72,
+ "books_rows": 76,
  "status": "ok"
 }
