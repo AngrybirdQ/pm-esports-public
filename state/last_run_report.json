@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20T13:41:18Z",
+ "ts": "2026-10-20T13:53:47Z",
  "sources": [
   {
    "url": "/tags",
@@ -201,12 +201,12 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Dawn Bulls vs CyberHero (BO3) - EPL Masters Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Lynx vs Power Rangers (BO3) - EPL Masters Group A",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Dawn Bulls vs CyberHero (BO3) - EPL Masters Group B",
+    "closed": true
    },
    {
     "t": "Dota 2: Power Rangers vs HULIGANI (BO3) - EPL Masters Group A",
@@ -312,14 +312,26 @@
  },
  "n_event_queries": 21,
  "events": 390,
- "markets": 313,
- "markets_dropped_by_volume_floor": 1957,
+ "markets": 305,
+ "markets_dropped_by_volume_floor": 1949,
  "day_file": "data/2026/10/2026-10-20T13.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 143,
- "trades_watchlist_markets": 109,
- "trades_collected": 2915,
- "books_markets": 116,
- "books_rows": 150,
+ "trades_watchlist_markets": 117,
+ "trades_collected": 2904,
+ "books_errors": [
+  "2375194145: HTTPError: HTTP Error 404: Not Found",
+  "7412814666: HTTPError: HTTP Error 404: Not Found",
+  "6935969828: HTTPError: HTTP Error 404: Not Found",
+  "1793935294: HTTPError: HTTP Error 404: Not Found",
+  "7317835246: HTTPError: HTTP Error 404: Not Found",
+  "6133314302: HTTPError: HTTP Error 404: Not Found",
+  "8886366972: HTTPError: HTTP Error 404: Not Found",
+  "2460428306: HTTPError: HTTP Error 404: Not Found",
+  "2845468184: HTTPError: HTTP Error 404: Not Found",
+  "9634393243: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 114,
+ "books_rows": 148,
  "status": "ok"
 }
