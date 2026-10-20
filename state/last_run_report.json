@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20T19:17:10Z",
+ "ts": "2026-10-20T19:58:39Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 29,
+   "events_returned": 28,
    "err": null
   },
   {
@@ -147,9 +147,9 @@
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Team Synapse vs Yellow Submarine (BO3) - EPL Masters Group B",
    "Dota 2: TheBot$ vs Dawn Bulls (BO3) - EPL Masters Group B",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -206,6 +206,10 @@
    },
    {
     "t": "Dota 2: Team Synapse vs Yellow Submarine (BO3) - EPL Masters Group B",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: TheBot$ vs Dawn Bulls (BO3) - EPL Masters Group B",
     "closed": false
    },
    {
@@ -215,10 +219,6 @@
    {
     "t": "Dota 2: Team Synapse vs TheBot$ (BO3) - EPL Masters Group B",
     "closed": true
-   },
-   {
-    "t": "Dota 2: TheBot$ vs Dawn Bulls (BO3) - EPL Masters Group B",
-    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -312,14 +312,18 @@
  },
  "n_event_queries": 21,
  "events": 394,
- "markets": 285,
- "markets_dropped_by_volume_floor": 1953,
+ "markets": 284,
+ "markets_dropped_by_volume_floor": 1942,
  "day_file": "data/2026/10/2026-10-20T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 100,
- "trades_watchlist_markets": 67,
- "trades_collected": 2229,
- "books_markets": 65,
+ "trades_markets_queried": 93,
+ "trades_watchlist_markets": 56,
+ "trades_collected": 2230,
+ "books_errors": [
+  "7113306023: HTTPError: HTTP Error 404: Not Found",
+  "7313904228: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 67,
  "books_rows": 70,
  "status": "ok"
 }
