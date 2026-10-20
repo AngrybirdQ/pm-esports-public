@@ -1,0 +1,16 @@
+name: get-cloudflared
+on: [workflow_dispatch]
+permissions: {contents: write}
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: |
+          curl -sSL -o cloudflared "https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64"
+          chmod +x cloudflared
+          ./cloudflared --version
+          # base64后PUT到repo(大于1MB不能用contents API, 用release)
+          gh release create cf-bin cloudflared --title cloudflared --notes latest || \
+          gh release upload cf-bin cloudflared --clobber
+        env: {GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}'}
