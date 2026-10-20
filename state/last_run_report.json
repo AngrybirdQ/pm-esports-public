@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20T13:53:47Z",
+ "ts": "2026-10-20T13:58:02Z",
  "sources": [
   {
    "url": "/tags",
@@ -143,8 +143,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "Counter-Strike: Liquid vs magic (BO3) - 1win Private Club Playoffs"
+   "Counter-Strike: Liquid vs magic (BO3) - 1win Private Club Playoffs",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Lynx vs Power Rangers (BO3) - EPL Masters Group A",
@@ -271,11 +271,11 @@
     "closed": false
    },
    {
-    "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
+    "t": "Valorant: Wolves Esports vs A Team (BO3) - VCT Threshold China Week 1",
     "closed": false
    },
    {
-    "t": "Valorant: Wolves Esports vs A Team (BO3) - VCT Threshold China Week 1",
+    "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
     "closed": false
    },
    {
@@ -312,26 +312,14 @@
  },
  "n_event_queries": 21,
  "events": 390,
- "markets": 305,
- "markets_dropped_by_volume_floor": 1949,
+ "markets": 299,
+ "markets_dropped_by_volume_floor": 1934,
  "day_file": "data/2026/10/2026-10-20T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 143,
+ "trades_markets_queried": 144,
  "trades_watchlist_markets": 117,
- "trades_collected": 2904,
- "books_errors": [
-  "2375194145: HTTPError: HTTP Error 404: Not Found",
-  "7412814666: HTTPError: HTTP Error 404: Not Found",
-  "6935969828: HTTPError: HTTP Error 404: Not Found",
-  "1793935294: HTTPError: HTTP Error 404: Not Found",
-  "7317835246: HTTPError: HTTP Error 404: Not Found",
-  "6133314302: HTTPError: HTTP Error 404: Not Found",
-  "8886366972: HTTPError: HTTP Error 404: Not Found",
-  "2460428306: HTTPError: HTTP Error 404: Not Found",
-  "2845468184: HTTPError: HTTP Error 404: Not Found",
-  "9634393243: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 114,
- "books_rows": 148,
+ "trades_collected": 2784,
+ "books_markets": 107,
+ "books_rows": 149,
  "status": "ok"
 }
