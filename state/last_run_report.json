@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20T18:52:50Z",
+ "ts": "2026-10-20T18:56:32Z",
  "sources": [
   {
    "url": "/tags",
@@ -143,8 +143,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "Counter-Strike: fnatic vs PARIVISION (BO3) - 1win Private Club Playoff"
+   "Counter-Strike: fnatic vs PARIVISION (BO3) - 1win Private Club Playoff",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Synapse vs Yellow Submarine (BO3) - EPL Masters Group B",
@@ -313,21 +313,13 @@
  "n_event_queries": 21,
  "events": 394,
  "markets": 284,
- "markets_dropped_by_volume_floor": 1941,
+ "markets_dropped_by_volume_floor": 1945,
  "day_file": "data/2026/10/2026-10-20T18.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 107,
  "trades_watchlist_markets": 75,
- "trades_collected": 2437,
- "books_errors": [
-  "1509687183: HTTPError: HTTP Error 404: Not Found",
-  "1475728654: HTTPError: HTTP Error 404: Not Found",
-  "8578428860: HTTPError: HTTP Error 404: Not Found",
-  "1329681980: HTTPError: HTTP Error 404: Not Found",
-  "5281772925: HTTPError: HTTP Error 404: Not Found",
-  "1626736707: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 68,
- "books_rows": 76,
+ "trades_collected": 2396,
+ "books_markets": 65,
+ "books_rows": 74,
  "status": "ok"
 }
