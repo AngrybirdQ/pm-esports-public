@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20T12:40:25Z",
+ "ts": "2026-10-20T12:51:36Z",
  "sources": [
   {
    "url": "/tags",
@@ -148,8 +148,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: Team Lynx vs Power Rangers (BO3) - EPL Masters Group A",
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -205,15 +205,15 @@
     "closed": true
    },
    {
-    "t": "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - EPL Masters Group A",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Power Rangers vs HULIGANI (BO3) - EPL Masters Group A",
     "closed": true
    },
    {
     "t": "Dota 2: Team Synapse vs TheBot$ (BO3) - EPL Masters Group B",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - EPL Masters Group A",
     "closed": true
    },
    {
@@ -311,15 +311,23 @@
   ]
  },
  "n_event_queries": 21,
- "events": 393,
- "markets": 312,
- "markets_dropped_by_volume_floor": 2000,
+ "events": 392,
+ "markets": 317,
+ "markets_dropped_by_volume_floor": 1984,
  "day_file": "data/2026/10/2026-10-20T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 133,
+ "trades_markets_queried": 140,
  "trades_watchlist_markets": 94,
- "trades_collected": 3455,
- "books_markets": 96,
- "books_rows": 148,
+ "trades_collected": 3461,
+ "books_errors": [
+  "8017074793: HTTPError: HTTP Error 404: Not Found",
+  "6883482253: HTTPError: HTTP Error 404: Not Found",
+  "7996255715: HTTPError: HTTP Error 404: Not Found",
+  "1037432288: HTTPError: HTTP Error 404: Not Found",
+  "9645448673: HTTPError: HTTP Error 404: Not Found",
+  "7733873485: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 103,
+ "books_rows": 160,
  "status": "ok"
 }
