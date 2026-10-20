@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20T11:25:24Z",
+ "ts": "2026-10-20T11:28:10Z",
  "sources": [
   {
    "url": "/tags",
@@ -267,12 +267,12 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: NRG vs Fnatic (BO5)",
-    "closed": true
-   },
-   {
     "t": "Valorant: Wolves Esports vs A Team (BO3) - VCT Threshold China Week 1",
     "closed": false
+   },
+   {
+    "t": "Valorant: NRG vs Fnatic (BO5)",
+    "closed": true
    },
    {
     "t": "Total Tech Pauses in the VALORANT Champions 2026 Playoffs",
@@ -316,10 +316,24 @@
  "markets_dropped_by_volume_floor": 1982,
  "day_file": "data/2026/10/2026-10-20T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 126,
+ "trades_markets_queried": 127,
  "trades_watchlist_markets": 84,
- "trades_collected": 2237,
- "books_markets": 104,
+ "trades_collected": 2285,
+ "books_errors": [
+  "9380643010: HTTPError: HTTP Error 404: Not Found",
+  "1148385497: HTTPError: HTTP Error 404: Not Found",
+  "9707268011: HTTPError: HTTP Error 404: Not Found",
+  "8879380547: HTTPError: HTTP Error 404: Not Found",
+  "1089593084: HTTPError: HTTP Error 404: Not Found",
+  "4826145302: HTTPError: HTTP Error 404: Not Found",
+  "8079687176: HTTPError: HTTP Error 404: Not Found",
+  "1253866326: HTTPError: HTTP Error 404: Not Found",
+  "7363541056: HTTPError: HTTP Error 404: Not Found",
+  "7928904787: HTTPError: HTTP Error 404: Not Found",
+  "6856448631: HTTPError: HTTP Error 404: Not Found",
+  "9704208074: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 105,
  "books_rows": 162,
  "status": "ok"
 }
