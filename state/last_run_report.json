@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20T14:11:25Z",
+ "ts": "2026-10-20T14:37:23Z",
  "sources": [
   {
    "url": "/tags",
@@ -143,8 +143,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Counter-Strike: Liquid vs magic (BO3) - 1win Private Club Playoffs",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "Dota 2: Team Lynx vs Power Rangers (BO3) - EPL Masters Group A"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Lynx vs Power Rangers (BO3) - EPL Masters Group A",
@@ -311,29 +311,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 390,
- "markets": 302,
- "markets_dropped_by_volume_floor": 1927,
+ "events": 388,
+ "markets": 294,
+ "markets_dropped_by_volume_floor": 1919,
  "day_file": "data/2026/10/2026-10-20T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 147,
- "trades_watchlist_markets": 117,
- "trades_collected": 2452,
+ "trades_markets_queried": 156,
+ "trades_watchlist_markets": 129,
+ "trades_collected": 2467,
  "books_errors": [
-  "1075510966: HTTPError: HTTP Error 404: Not Found",
-  "1965918806: HTTPError: HTTP Error 404: Not Found",
-  "1057279901: HTTPError: HTTP Error 404: Not Found",
-  "4663920776: HTTPError: HTTP Error 404: Not Found",
-  "5540904311: HTTPError: HTTP Error 404: Not Found",
-  "2087690853: HTTPError: HTTP Error 404: Not Found",
-  "7987685603: HTTPError: HTTP Error 404: Not Found",
-  "3785144400: HTTPError: HTTP Error 404: Not Found",
-  "5935248531: HTTPError: HTTP Error 404: Not Found",
-  "1217905939: HTTPError: HTTP Error 404: Not Found",
-  "5944941370: HTTPError: HTTP Error 404: Not Found",
-  "3177681737: HTTPError: HTTP Error 404: Not Found"
+  "9506725748: HTTPError: HTTP Error 404: Not Found",
+  "9077855723: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 109,
- "books_rows": 142,
+ "books_markets": 107,
+ "books_rows": 162,
  "status": "ok"
 }
