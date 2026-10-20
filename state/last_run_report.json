@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20T17:22:15Z",
+ "ts": "2026-10-20T17:26:51Z",
  "sources": [
   {
    "url": "/tags",
@@ -217,8 +217,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Dawn Bulls vs CyberHero (BO3) - EPL Masters Group B",
-    "closed": true
+    "t": "Dota 2: TheBot$ vs Dawn Bulls (BO3) - EPL Masters Group B",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -311,31 +311,21 @@
   ]
  },
  "n_event_queries": 21,
- "events": 390,
- "markets": 280,
- "markets_dropped_by_volume_floor": 1948,
+ "events": 391,
+ "markets": 281,
+ "markets_dropped_by_volume_floor": 1955,
  "day_file": "data/2026/10/2026-10-20T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 121,
+ "trades_markets_queried": 123,
  "trades_watchlist_markets": 97,
- "trades_collected": 2874,
+ "trades_collected": 2924,
  "books_errors": [
-  "4657344407: HTTPError: HTTP Error 404: Not Found",
-  "4343874691: HTTPError: HTTP Error 404: Not Found",
-  "7985480550: HTTPError: HTTP Error 404: Not Found",
-  "1044920136: HTTPError: HTTP Error 404: Not Found",
-  "9063174367: HTTPError: HTTP Error 404: Not Found",
-  "6922408365: HTTPError: HTTP Error 404: Not Found",
-  "1859823331: HTTPError: HTTP Error 404: Not Found",
-  "1567743998: HTTPError: HTTP Error 404: Not Found",
-  "8565532611: HTTPError: HTTP Error 404: Not Found",
-  "1227836030: HTTPError: HTTP Error 404: Not Found",
-  "6053501702: HTTPError: HTTP Error 404: Not Found",
-  "1051839042: HTTPError: HTTP Error 404: Not Found",
-  "9207280082: HTTPError: HTTP Error 404: Not Found",
-  "1875009002: HTTPError: HTTP Error 404: Not Found"
+  "4252907163: HTTPError: HTTP Error 404: Not Found",
+  "2232379765: HTTPError: HTTP Error 404: Not Found",
+  "7518041383: HTTPError: HTTP Error 404: Not Found",
+  "3479046528: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 88,
- "books_rows": 108,
+ "books_markets": 84,
+ "books_rows": 112,
  "status": "ok"
 }
