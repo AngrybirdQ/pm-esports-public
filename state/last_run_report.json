@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20T11:28:10Z",
+ "ts": "2026-10-20T11:32:25Z",
  "sources": [
   {
    "url": "/tags",
@@ -144,7 +144,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Counter-Strike: Alliance vs PRIVATE (BO3) - 1win Private Club Playoffs"
+   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
@@ -209,12 +209,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Synapse vs TheBot$ (BO3) - EPL Masters Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Power Rangers vs HULIGANI (BO3) - EPL Masters Group A",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Synapse vs TheBot$ (BO3) - EPL Masters Group B",
+    "closed": true
    },
    {
     "t": "Dota 2: Yellow Submarine vs Zero Tenacity (BO3) - EPL Masters Group B",
@@ -312,28 +312,14 @@
  },
  "n_event_queries": 21,
  "events": 393,
- "markets": 304,
- "markets_dropped_by_volume_floor": 1982,
+ "markets": 298,
+ "markets_dropped_by_volume_floor": 1980,
  "day_file": "data/2026/10/2026-10-20T11.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 127,
  "trades_watchlist_markets": 84,
- "trades_collected": 2285,
- "books_errors": [
-  "9380643010: HTTPError: HTTP Error 404: Not Found",
-  "1148385497: HTTPError: HTTP Error 404: Not Found",
-  "9707268011: HTTPError: HTTP Error 404: Not Found",
-  "8879380547: HTTPError: HTTP Error 404: Not Found",
-  "1089593084: HTTPError: HTTP Error 404: Not Found",
-  "4826145302: HTTPError: HTTP Error 404: Not Found",
-  "8079687176: HTTPError: HTTP Error 404: Not Found",
-  "1253866326: HTTPError: HTTP Error 404: Not Found",
-  "7363541056: HTTPError: HTTP Error 404: Not Found",
-  "7928904787: HTTPError: HTTP Error 404: Not Found",
-  "6856448631: HTTPError: HTTP Error 404: Not Found",
-  "9704208074: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 105,
+ "trades_collected": 2281,
+ "books_markets": 99,
  "books_rows": 162,
  "status": "ok"
 }
