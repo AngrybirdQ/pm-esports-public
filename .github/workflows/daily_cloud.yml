@@ -3,7 +3,7 @@ name: daily-cloud-pack
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: '41 1,13 * * *'   # UTC 01:41/13:41 = BJT 09:41/21:41
+    - cron: '41 1,7,13,19 * * *'   # UTC 01:41/13:41 = BJT 09:41/21:41
 
 permissions:
   contents: write
