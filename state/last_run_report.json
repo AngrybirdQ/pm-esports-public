@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20T13:23:24Z",
+ "ts": "2026-10-20T13:26:08Z",
  "sources": [
   {
    "url": "/tags",
@@ -205,12 +205,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Power Rangers vs HULIGANI (BO3) - EPL Masters Group A",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Lynx vs Power Rangers (BO3) - EPL Masters Group A",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Power Rangers vs HULIGANI (BO3) - EPL Masters Group A",
+    "closed": true
    },
    {
     "t": "Dota 2: Team Synapse vs TheBot$ (BO3) - EPL Masters Group B",
@@ -283,8 +283,8 @@
     "closed": true
    },
    {
-    "t": "Will VALORANT Viewership Surpass CS2 Viewership at a Major in 2026?",
-    "closed": true
+    "t": "Total Tech Pauses in the VALORANT Champions 2026 Playoffs",
+    "closed": false
    }
   ],
   "search:The International": [
@@ -311,19 +311,15 @@
   ]
  },
  "n_event_queries": 21,
- "events": 391,
- "markets": 312,
- "markets_dropped_by_volume_floor": 1969,
+ "events": 390,
+ "markets": 313,
+ "markets_dropped_by_volume_floor": 1956,
  "day_file": "data/2026/10/2026-10-20T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 141,
+ "trades_markets_queried": 143,
  "trades_watchlist_markets": 109,
- "trades_collected": 3233,
- "books_errors": [
-  "3584457079: HTTPError: HTTP Error 404: Not Found",
-  "1116159313: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 115,
- "books_rows": 166,
+ "trades_collected": 3196,
+ "books_markets": 119,
+ "books_rows": 168,
  "status": "ok"
 }
