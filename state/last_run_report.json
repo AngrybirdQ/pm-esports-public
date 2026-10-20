@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20T10:05:43Z",
+ "ts": "2026-10-20T10:21:41Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 32,
+   "events_returned": 31,
    "err": null
   },
   {
@@ -149,7 +149,7 @@
   "tag_slug=dota-2": [
    "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: Power Rangers vs HULIGANI (BO3) - EPL Masters Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -284,7 +284,7 @@
    },
    {
     "t": "Will VALORANT Viewership Surpass CS2 Viewership at a Major in 2026?",
-    "closed": false
+    "closed": true
    }
   ],
   "search:The International": [
@@ -311,15 +311,15 @@
   ]
  },
  "n_event_queries": 21,
- "events": 394,
- "markets": 284,
- "markets_dropped_by_volume_floor": 1990,
+ "events": 393,
+ "markets": 283,
+ "markets_dropped_by_volume_floor": 1992,
  "day_file": "data/2026/10/2026-10-20T10.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 107,
+ "trades_markets_queried": 110,
  "trades_watchlist_markets": 79,
- "trades_collected": 1959,
+ "trades_collected": 1913,
  "books_markets": 97,
- "books_rows": 160,
+ "books_rows": 158,
  "status": "ok"
 }
