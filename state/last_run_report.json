@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20T13:11:45Z",
+ "ts": "2026-10-20T13:23:24Z",
  "sources": [
   {
    "url": "/tags",
@@ -283,8 +283,8 @@
     "closed": true
    },
    {
-    "t": "Total Tech Pauses in the VALORANT Champions 2026 Playoffs",
-    "closed": false
+    "t": "Will VALORANT Viewership Surpass CS2 Viewership at a Major in 2026?",
+    "closed": true
    }
   ],
   "search:The International": [
@@ -311,14 +311,18 @@
   ]
  },
  "n_event_queries": 21,
- "events": 392,
- "markets": 314,
- "markets_dropped_by_volume_floor": 1972,
+ "events": 391,
+ "markets": 312,
+ "markets_dropped_by_volume_floor": 1969,
  "day_file": "data/2026/10/2026-10-20T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 152,
- "trades_watchlist_markets": 116,
- "trades_collected": 3479,
+ "trades_markets_queried": 141,
+ "trades_watchlist_markets": 109,
+ "trades_collected": 3233,
+ "books_errors": [
+  "3584457079: HTTPError: HTTP Error 404: Not Found",
+  "1116159313: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 115,
  "books_rows": 166,
  "status": "ok"
