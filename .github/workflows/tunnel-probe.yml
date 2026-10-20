@@ -1,0 +1,13 @@
+name: tunnel-probe
+on:
+  workflow_dispatch: {}
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: curl tunnel
+        run: |
+            set -x
+            curl -sS -m 20 -w "\nHTTP=%{http_code}\n" https://wto-tennessee-itunes-anywhere.trycloudflare.com/health || echo CURL_FAIL
+            curl -sS -m 20 -w "\nHTTP=%{http_code}\n" "https://wto-tennessee-itunes-anywhere.trycloudflare.com/pin/meta" || echo CURL_FAIL
+            getent hosts wto-tennessee-itunes-anywhere.trycloudflare.com || echo DNS_FAIL
