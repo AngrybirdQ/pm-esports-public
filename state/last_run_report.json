@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20T20:54:53Z",
+ "ts": "2026-10-20T20:57:50Z",
  "sources": [
   {
    "url": "/tags",
@@ -217,8 +217,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Synapse vs TheBot$ (BO3) - EPL Masters Group B",
-    "closed": true
+    "t": "Dota 2 patch 7.42 released by...?",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -311,15 +311,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 390,
- "markets": 269,
- "markets_dropped_by_volume_floor": 1889,
+ "events": 391,
+ "markets": 267,
+ "markets_dropped_by_volume_floor": 1887,
  "day_file": "data/2026/10/2026-10-20T20.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 95,
+ "trades_markets_queried": 94,
  "trades_watchlist_markets": 61,
- "trades_collected": 1676,
- "books_markets": 53,
+ "trades_collected": 1617,
+ "books_errors": [
+  "4530023515: HTTPError: HTTP Error 404: Not Found",
+  "9769882676: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 52,
  "books_rows": 58,
  "status": "ok"
 }
