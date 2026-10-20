@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20T12:51:36Z",
+ "ts": "2026-10-20T13:00:21Z",
  "sources": [
   {
    "url": "/tags",
@@ -144,7 +144,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
+   "Counter-Strike: Liquid vs magic (BO3) - 1win Private Club Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
@@ -213,12 +213,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - EPL Masters Group A",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Lynx vs Power Rangers (BO3) - EPL Masters Group A",
     "closed": false
+   },
+   {
+    "t": "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - EPL Masters Group A",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -312,22 +312,14 @@
  },
  "n_event_queries": 21,
  "events": 392,
- "markets": 317,
- "markets_dropped_by_volume_floor": 1984,
- "day_file": "data/2026/10/2026-10-20T12.jsonl",
+ "markets": 314,
+ "markets_dropped_by_volume_floor": 1979,
+ "day_file": "data/2026/10/2026-10-20T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 140,
- "trades_watchlist_markets": 94,
- "trades_collected": 3461,
- "books_errors": [
-  "8017074793: HTTPError: HTTP Error 404: Not Found",
-  "6883482253: HTTPError: HTTP Error 404: Not Found",
-  "7996255715: HTTPError: HTTP Error 404: Not Found",
-  "1037432288: HTTPError: HTTP Error 404: Not Found",
-  "9645448673: HTTPError: HTTP Error 404: Not Found",
-  "7733873485: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 103,
- "books_rows": 160,
+ "trades_markets_queried": 145,
+ "trades_watchlist_markets": 101,
+ "trades_collected": 3484,
+ "books_markets": 109,
+ "books_rows": 164,
  "status": "ok"
 }
