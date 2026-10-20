@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20T18:56:32Z",
+ "ts": "2026-10-20T19:06:07Z",
  "sources": [
   {
    "url": "/tags",
@@ -148,8 +148,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Synapse vs Yellow Submarine (BO3) - EPL Masters Group B",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: TheBot$ vs Dawn Bulls (BO3) - EPL Masters Group B",
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -312,13 +312,17 @@
  },
  "n_event_queries": 21,
  "events": 394,
- "markets": 284,
- "markets_dropped_by_volume_floor": 1945,
- "day_file": "data/2026/10/2026-10-20T18.jsonl",
+ "markets": 283,
+ "markets_dropped_by_volume_floor": 1952,
+ "day_file": "data/2026/10/2026-10-20T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 107,
- "trades_watchlist_markets": 75,
- "trades_collected": 2396,
+ "trades_markets_queried": 101,
+ "trades_watchlist_markets": 69,
+ "trades_collected": 2379,
+ "books_errors": [
+  "2558473429: HTTPError: HTTP Error 404: Not Found",
+  "1110651850: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 65,
  "books_rows": 74,
  "status": "ok"
