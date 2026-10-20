@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20T13:38:22Z",
+ "ts": "2026-10-20T13:41:18Z",
  "sources": [
   {
    "url": "/tags",
@@ -147,8 +147,8 @@
    "Counter-Strike: Liquid vs magic (BO3) - 1win Private Club Playoffs"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
    "Dota 2: Team Lynx vs Power Rangers (BO3) - EPL Masters Group A",
+   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
@@ -312,18 +312,14 @@
  },
  "n_event_queries": 21,
  "events": 390,
- "markets": 311,
- "markets_dropped_by_volume_floor": 1961,
+ "markets": 313,
+ "markets_dropped_by_volume_floor": 1957,
  "day_file": "data/2026/10/2026-10-20T13.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 143,
  "trades_watchlist_markets": 109,
- "trades_collected": 3063,
- "books_errors": [
-  "9020357614: HTTPError: HTTP Error 404: Not Found",
-  "1641001441: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 115,
- "books_rows": 153,
+ "trades_collected": 2915,
+ "books_markets": 116,
+ "books_rows": 150,
  "status": "ok"
 }
