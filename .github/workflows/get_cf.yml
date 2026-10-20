@@ -6,11 +6,31 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - run: |
+      - name: download and upload as release asset
+        run: |
+          set -x
           curl -sSL -o cloudflared "https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64"
-          chmod +x cloudflared
-          ./cloudflared --version
-          # base64后PUT到repo(大于1MB不能用contents API, 用release)
-          gh release create cf-bin cloudflared --title cloudflared --notes latest || \
-          gh release upload cf-bin cloudflared --clobber
-        env: {GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}'}
+          ls -la cloudflared
+          ./cloudflared --version || true
+          # 创建release(如无)
+          RESP=$(curl -sS -X POST \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/releases" \
+            -d '{"tag_name":"cf-bin-latest","name":"cloudflared"}' 2>&1 || true)
+          echo "$RESP" | head -c 200
+          # 获取upload_url(可能已存在)
+          UPLOAD_URL=$(curl -sS \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/${{ github.repository }}/releases/tags/cf-bin-latest" \
+            | python3 -c "import json,sys; d=json.load(sys.stdin); print(d.get('upload_url','').split('{')[0])")
+          echo "upload_url=$UPLOAD_URL"
+          # 删旧asset再传
+          curl -sS -X DELETE \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/${{ github.repository }}/releases/assets/$(curl -sS -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/repos/${{ github.repository }}/releases/tags/cf-bin-latest" | python3 -c "import json,sys; a=json.load(sys.stdin).get('assets',[]); print(a[0]['id'] if a else 0)")" || true
+          curl -sS -X POST \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Content-Type: application/octet-stream" \
+            --data-binary @cloudflared \
+            "${UPLOAD_URL}?name=cloudflared" | head -c 200
