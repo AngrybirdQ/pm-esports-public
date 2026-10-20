@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20T10:37:31Z",
+ "ts": "2026-10-20T11:22:22Z",
  "sources": [
   {
    "url": "/tags",
@@ -144,7 +144,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
+   "Counter-Strike: Alliance vs PRIVATE (BO3) - 1win Private Club Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
@@ -213,12 +213,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Yellow Submarine vs Zero Tenacity (BO3) - EPL Masters Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Power Rangers vs HULIGANI (BO3) - EPL Masters Group A",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Yellow Submarine vs Zero Tenacity (BO3) - EPL Masters Group B",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -275,16 +275,16 @@
     "closed": false
    },
    {
-    "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
-    "closed": false
-   },
-   {
     "t": "Total Tech Pauses in the VALORANT Champions 2026 Playoffs",
     "closed": false
    },
    {
     "t": "Will VALORANT Viewership Surpass CS2 Viewership at a Major in 2026?",
     "closed": true
+   },
+   {
+    "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
+    "closed": false
    }
   ],
   "search:The International": [
@@ -312,22 +312,14 @@
  },
  "n_event_queries": 21,
  "events": 393,
- "markets": 291,
- "markets_dropped_by_volume_floor": 1994,
- "day_file": "data/2026/10/2026-10-20T10.jsonl",
+ "markets": 298,
+ "markets_dropped_by_volume_floor": 1991,
+ "day_file": "data/2026/10/2026-10-20T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 111,
- "trades_watchlist_markets": 79,
- "trades_collected": 1872,
- "books_errors": [
-  "4088683982: HTTPError: HTTP Error 404: Not Found",
-  "7847037622: HTTPError: HTTP Error 404: Not Found",
-  "1138997357: HTTPError: HTTP Error 404: Not Found",
-  "4167902873: HTTPError: HTTP Error 404: Not Found",
-  "2170320800: HTTPError: HTTP Error 404: Not Found",
-  "2968112129: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 98,
- "books_rows": 162,
+ "trades_markets_queried": 120,
+ "trades_watchlist_markets": 84,
+ "trades_collected": 1968,
+ "books_markets": 102,
+ "books_rows": 158,
  "status": "ok"
 }
