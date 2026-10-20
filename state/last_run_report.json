@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20T20:22:03Z",
+ "ts": "2026-10-20T20:31:44Z",
  "sources": [
   {
    "url": "/tags",
@@ -267,11 +267,11 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: Dragon Ranger Gaming vs Rare Atom (BO3) - VCT Threshold Chin",
+    "t": "Valorant: Wolves Esports vs A Team (BO3) - VCT Threshold China Week 1",
     "closed": false
    },
    {
-    "t": "Valorant: Wolves Esports vs A Team (BO3) - VCT Threshold China Week 1",
+    "t": "Valorant: Dragon Ranger Gaming vs Rare Atom (BO3) - VCT Threshold Chin",
     "closed": false
    },
    {
@@ -279,12 +279,12 @@
     "closed": false
    },
    {
-    "t": "Valorant: NRG vs Fnatic (BO5)",
-    "closed": true
-   },
-   {
     "t": "Valorant: Eintracht Frankfurt vs Habos Babos (BO3) - Project Blender P",
     "closed": false
+   },
+   {
+    "t": "Valorant: NRG vs Fnatic (BO5)",
+    "closed": true
    }
   ],
   "search:The International": [
@@ -312,13 +312,21 @@
  },
  "n_event_queries": 21,
  "events": 394,
- "markets": 285,
- "markets_dropped_by_volume_floor": 1937,
+ "markets": 284,
+ "markets_dropped_by_volume_floor": 1931,
  "day_file": "data/2026/10/2026-10-20T20.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 91,
- "trades_watchlist_markets": 56,
- "trades_collected": 1838,
+ "trades_markets_queried": 97,
+ "trades_watchlist_markets": 60,
+ "trades_collected": 1951,
+ "books_errors": [
+  "7277691619: HTTPError: HTTP Error 404: Not Found",
+  "4261490413: HTTPError: HTTP Error 404: Not Found",
+  "4489097553: HTTPError: HTTP Error 404: Not Found",
+  "3339978067: HTTPError: HTTP Error 404: Not Found",
+  "5884639279: HTTPError: HTTP Error 404: Not Found",
+  "9219639697: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 65,
  "books_rows": 60,
  "status": "ok"
