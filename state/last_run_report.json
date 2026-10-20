@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20T12:26:00Z",
+ "ts": "2026-10-20T12:37:45Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 28,
+   "events_returned": 27,
    "err": null
   },
   {
@@ -148,8 +148,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
-   "Dota 2: Power Rangers vs HULIGANI (BO3) - EPL Masters Group A",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -311,15 +311,15 @@
   ]
  },
  "n_event_queries": 21,
- "events": 394,
+ "events": 393,
  "markets": 312,
- "markets_dropped_by_volume_floor": 2002,
+ "markets_dropped_by_volume_floor": 2000,
  "day_file": "data/2026/10/2026-10-20T12.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 133,
- "trades_watchlist_markets": 92,
- "trades_collected": 3466,
- "books_markets": 95,
- "books_rows": 156,
+ "trades_watchlist_markets": 94,
+ "trades_collected": 3434,
+ "books_markets": 96,
+ "books_rows": 148,
  "status": "ok"
 }
