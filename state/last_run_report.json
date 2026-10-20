@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20T11:40:15Z",
+ "ts": "2026-10-20T11:51:53Z",
  "sources": [
   {
    "url": "/tags",
@@ -267,6 +267,10 @@
   ],
   "search:Valorant": [
    {
+    "t": "Valorant: Dragon Ranger Gaming vs Rare Atom (BO3) - VCT Threshold Chin",
+    "closed": false
+   },
+   {
     "t": "Valorant: Wolves Esports vs A Team (BO3) - VCT Threshold China Week 1",
     "closed": false
    },
@@ -281,10 +285,6 @@
    {
     "t": "Will VALORANT Viewership Surpass CS2 Viewership at a Major in 2026?",
     "closed": true
-   },
-   {
-    "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
-    "closed": false
    }
   ],
   "search:The International": [
@@ -312,18 +312,14 @@
  },
  "n_event_queries": 21,
  "events": 393,
- "markets": 298,
- "markets_dropped_by_volume_floor": 1984,
+ "markets": 302,
+ "markets_dropped_by_volume_floor": 1998,
  "day_file": "data/2026/10/2026-10-20T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 127,
- "trades_watchlist_markets": 84,
- "trades_collected": 2330,
- "books_errors": [
-  "9618722817: HTTPError: HTTP Error 404: Not Found",
-  "7400143737: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 99,
- "books_rows": 158,
+ "trades_markets_queried": 133,
+ "trades_watchlist_markets": 100,
+ "trades_collected": 2685,
+ "books_markets": 106,
+ "books_rows": 164,
  "status": "ok"
 }
