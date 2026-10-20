@@ -5,9 +5,11 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: curl tunnel
+      - name: curl tunnel via vars
         run: |
             set -x
-            curl -sS -m 20 -w "\nHTTP=%{http_code}\n" https://wto-tennessee-itunes-anywhere.trycloudflare.com/health || echo CURL_FAIL
-            curl -sS -m 20 -w "\nHTTP=%{http_code}\n" "https://wto-tennessee-itunes-anywhere.trycloudflare.com/pin/meta" || echo CURL_FAIL
-            getent hosts wto-tennessee-itunes-anywhere.trycloudflare.com || echo DNS_FAIL
+            echo "TUNNEL_URL=${TUNNEL_URL}"
+            curl -sS -m 20 -w "\nHTTP=%{http_code}\n" "$TUNNEL_URL/health" || echo CURL_FAIL
+            curl -sS -m 20 -w "\nHTTP=%{http_code}\n" "$TUNNEL_URL/pin/meta" || echo CURL_FAIL
+        env:
+          TUNNEL_URL: ${{ vars.TUNNEL_URL }}
