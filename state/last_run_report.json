@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20T21:23:43Z",
+ "ts": "2026-10-20T21:26:59Z",
  "sources": [
   {
    "url": "/tags",
@@ -144,7 +144,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
+   "Dota 2: TheBot$ vs Dawn Bulls (BO3) - EPL Masters Group B"
   ],
   "tag_slug=dota-2": [
    "Dota 2: TheBot$ vs Dawn Bulls (BO3) - EPL Masters Group B",
@@ -311,21 +311,15 @@
   ]
  },
  "n_event_queries": 21,
- "events": 392,
- "markets": 260,
- "markets_dropped_by_volume_floor": 1938,
+ "events": 391,
+ "markets": 256,
+ "markets_dropped_by_volume_floor": 1928,
  "day_file": "data/2026/10/2026-10-20T21.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 84,
  "trades_watchlist_markets": 55,
- "trades_collected": 1382,
- "books_errors": [
-  "5424414634: HTTPError: HTTP Error 404: Not Found",
-  "9214818392: HTTPError: HTTP Error 404: Not Found",
-  "8794582698: HTTPError: HTTP Error 404: Not Found",
-  "2026169634: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 50,
+ "trades_collected": 1374,
+ "books_markets": 48,
  "books_rows": 62,
  "status": "ok"
 }
