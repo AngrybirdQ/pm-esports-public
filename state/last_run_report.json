@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-20T17:33:50Z",
+ "ts": "2026-10-20T17:44:23Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 27,
+   "events_returned": 26,
    "err": null
   },
   {
@@ -144,12 +144,12 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Dota 2: Team Lynx vs Power Rangers (BO3) - EPL Masters Group A"
+   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Team Lynx vs Power Rangers (BO3) - EPL Masters Group A",
    "Dota 2: Team Synapse vs Yellow Submarine (BO3) - EPL Masters Group B",
-   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A"
+   "Dota 2: Amaru Gaming vs Nemiga Gaming (BO3) - EPL Masters Group A",
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -202,7 +202,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: Team Lynx vs Power Rangers (BO3) - EPL Masters Group A",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Synapse vs Yellow Submarine (BO3) - EPL Masters Group B",
@@ -312,14 +312,20 @@
  },
  "n_event_queries": 21,
  "events": 390,
- "markets": 277,
- "markets_dropped_by_volume_floor": 1938,
+ "markets": 280,
+ "markets_dropped_by_volume_floor": 1949,
  "day_file": "data/2026/10/2026-10-20T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 122,
- "trades_watchlist_markets": 97,
- "trades_collected": 2979,
- "books_markets": 80,
+ "trades_markets_queried": 127,
+ "trades_watchlist_markets": 103,
+ "trades_collected": 2750,
+ "books_errors": [
+  "7912218498: HTTPError: HTTP Error 404: Not Found",
+  "5115054166: HTTPError: HTTP Error 404: Not Found",
+  "9100665891: HTTPError: HTTP Error 404: Not Found",
+  "1079175009: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 82,
  "books_rows": 106,
  "status": "ok"
 }
