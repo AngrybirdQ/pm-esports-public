@@ -22,7 +22,7 @@ jobs:
           PIN_KEY: '${{ secrets.PIN_KEY }}'
       - name: commit result
         run: |
-          F=state/pin_worker_probe.json
+          F=state/kv_test_result.json
           SHA=$(gh api "repos/${{ github.repository }}/contents/$F?ref=main" --jq .sha 2>/dev/null || echo "")
           ARGS=(--method PUT "repos/${{ github.repository }}/contents/$F" -f message="pin probe $(date -u +%H:%MZ)" -f content="$(base64 -w0 $F)" -f branch=main)
           [ -n "$SHA" ] && ARGS+=(-f sha="$SHA")
