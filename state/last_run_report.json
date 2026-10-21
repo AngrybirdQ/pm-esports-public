@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T11:35:23Z",
+ "ts": "2026-10-21T11:47:24Z",
  "sources": [
   {
    "url": "/tags",
@@ -207,16 +207,16 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Synapse vs Yellow Submarine (BO3) - EPL Masters Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Power Rangers vs Inner Circle (BO3) - EPL Masters Group A",
     "closed": false
    },
    {
-    "t": "Dota 2: Power Rangers vs HULIGANI (BO3) - EPL Masters Group A",
+    "t": "Dota 2: Team Synapse vs Yellow Submarine (BO3) - EPL Masters Group B",
     "closed": true
+   },
+   {
+    "t": "Which Dota 2 Teams Will Make a Roster Change Before 2027?",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -310,18 +310,24 @@
  },
  "n_event_queries": 21,
  "events": 412,
- "markets": 327,
- "markets_dropped_by_volume_floor": 2124,
+ "markets": 330,
+ "markets_dropped_by_volume_floor": 2137,
  "day_file": "data/2026/10/2026-10-21T11.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 130,
- "trades_watchlist_markets": 102,
- "trades_collected": 2870,
- "anomalies_detected": 49,
- "anomalies_new": 22,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 108,
- "books_rows": 154,
+ "trades_watchlist_markets": 100,
+ "trades_collected": 2819,
+ "anomalies_detected": 57,
+ "anomalies_new": 18,
+ "history_debug": [
+  {
+   "cid": "0x512bc8f4",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 107,
+ "books_rows": 150,
  "status": "ok"
 }
