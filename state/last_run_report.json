@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T11:28:13Z",
+ "ts": "2026-10-21T11:30:56Z",
  "sources": [
   {
    "url": "/tags",
@@ -274,7 +274,7 @@
    },
    {
     "t": "Valorant: Unsettled Resentment vs Octagonal Disposition Gaming (BO3) -",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Dragon Ranger Gaming vs Rare Atom (BO3) - VCT Threshold Chin",
@@ -316,17 +316,25 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 130,
  "trades_watchlist_markets": 102,
- "trades_collected": 2978,
+ "trades_collected": 2931,
  "anomalies_detected": 43,
- "anomalies_new": 6,
- "history_debug": [
-  {
-   "cid": "0x9004c364",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
+ "anomalies_new": 41,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_errors": [
+  "3881343366: HTTPError: HTTP Error 404: Not Found",
+  "9903768163: HTTPError: HTTP Error 404: Not Found",
+  "6446468933: HTTPError: HTTP Error 404: Not Found",
+  "3447235395: HTTPError: HTTP Error 404: Not Found",
+  "9941581083: HTTPError: HTTP Error 404: Not Found",
+  "9691878099: HTTPError: HTTP Error 404: Not Found",
+  "9802224562: HTTPError: HTTP Error 404: Not Found",
+  "7118930295: HTTPError: HTTP Error 404: Not Found",
+  "7118982229: HTTPError: HTTP Error 404: Not Found",
+  "7856210797: HTTPError: HTTP Error 404: Not Found",
+  "7991645545: HTTPError: HTTP Error 404: Not Found",
+  "7551557571: HTTPError: HTTP Error 404: Not Found"
  ],
- "history_conditions_new": 1,
  "books_markets": 114,
  "books_rows": 158,
  "status": "ok"
