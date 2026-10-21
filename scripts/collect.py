@@ -1035,8 +1035,12 @@ def main():
     with open(os.path.join(state_dir, report_name), "w",
               encoding="utf-8") as f:
         json.dump(report, f, ensure_ascii=False, indent=1, default=str)
-    print(json.dumps({k: report[k] for k in
-                      ("ts", "status", "events", "markets") if k in report}))
+    _keys = ("ts", "status", "events", "markets", "trades_markets_queried",
+             "trades_collected", "anomalies_detected", "anomalies_new",
+             "books_rows")
+    print(json.dumps({k: report[k] for k in _keys if k in report}))
+    if report.get("errors"):
+        print("ERRORS:", json.dumps(report["errors"][:8]))
     # Always exit 0: the report must be committed so failures stay visible
     # in the repo even when every source errored.
     raise SystemExit(0)
