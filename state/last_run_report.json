@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T11:30:56Z",
+ "ts": "2026-10-21T11:35:23Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 49,
+   "events_returned": 48,
    "err": null
   },
   {
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Counter-Strike: magic vs TheMongolz (BO3) - 1win Private Club Playoffs"
+   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Power Rangers vs Inner Circle (BO3) - EPL Masters Group A",
@@ -169,9 +169,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: Unsettled Resentment vs Octagonal Disposition Gaming (BO3) -",
    "VALORANT Offseason: OXY Next Team",
-   "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang"
+   "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
+   "Valorant: Dragon Ranger Gaming vs Rare Atom (BO3) - VCT Threshold Chin"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -309,33 +309,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 413,
- "markets": 333,
- "markets_dropped_by_volume_floor": 2133,
+ "events": 412,
+ "markets": 327,
+ "markets_dropped_by_volume_floor": 2124,
  "day_file": "data/2026/10/2026-10-21T11.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 130,
  "trades_watchlist_markets": 102,
- "trades_collected": 2931,
- "anomalies_detected": 43,
- "anomalies_new": 41,
+ "trades_collected": 2870,
+ "anomalies_detected": 49,
+ "anomalies_new": 22,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "3881343366: HTTPError: HTTP Error 404: Not Found",
-  "9903768163: HTTPError: HTTP Error 404: Not Found",
-  "6446468933: HTTPError: HTTP Error 404: Not Found",
-  "3447235395: HTTPError: HTTP Error 404: Not Found",
-  "9941581083: HTTPError: HTTP Error 404: Not Found",
-  "9691878099: HTTPError: HTTP Error 404: Not Found",
-  "9802224562: HTTPError: HTTP Error 404: Not Found",
-  "7118930295: HTTPError: HTTP Error 404: Not Found",
-  "7118982229: HTTPError: HTTP Error 404: Not Found",
-  "7856210797: HTTPError: HTTP Error 404: Not Found",
-  "7991645545: HTTPError: HTTP Error 404: Not Found",
-  "7551557571: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 114,
- "books_rows": 158,
+ "books_markets": 108,
+ "books_rows": 154,
  "status": "ok"
 }
