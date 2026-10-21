@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T21:59:40Z",
+ "ts": "2026-10-21T22:02:31Z",
  "sources": [
   {
    "url": "/tags",
@@ -133,9 +133,7 @@
    "err": null
   }
  ],
- "errors": [
-  "trades 0xe4cc67ed: HTTPError: HTTP Error 429: Too Many Requests"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -314,20 +312,22 @@
  "events": 407,
  "markets": 338,
  "markets_dropped_by_volume_floor": 1995,
- "day_file": "data/2026/10/2026-10-21T21.jsonl",
+ "day_file": "data/2026/10/2026-10-21T22.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 107,
  "trades_watchlist_markets": 52,
- "trades_collected": 1471,
- "anomalies_detected": 38,
- "anomalies_new": 38,
+ "trades_collected": 1459,
+ "anomalies_detected": 26,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
+  "9562490231: HTTPError: HTTP Error 404: Not Found",
+  "5007086902: HTTPError: HTTP Error 404: Not Found",
   "5276868955: HTTPError: HTTP Error 404: Not Found",
   "1141225592: HTTPError: HTTP Error 404: Not Found"
  ],
  "books_markets": 56,
- "books_rows": 82,
+ "books_rows": 80,
  "status": "ok"
 }
