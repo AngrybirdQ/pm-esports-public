@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T19:02:01Z",
+ "ts": "2026-10-21T19:13:04Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 49,
+   "events_returned": 48,
    "err": null
   },
   {
@@ -147,7 +147,7 @@
   "tag_slug=dota-2": [
    "Dota 2: Dawn Bulls vs Zero Tenacity (BO3) - EPL Masters Group B",
    "Dota 2: salamit vs HULIGANI (BO3) - EPL Masters Group A",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Yellow Submarine vs TheBot$ (BO3) - EPL Masters Group B"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -309,29 +309,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 408,
- "markets": 358,
- "markets_dropped_by_volume_floor": 2039,
+ "events": 409,
+ "markets": 354,
+ "markets_dropped_by_volume_floor": 2045,
  "day_file": "data/2026/10/2026-10-21T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 147,
- "trades_watchlist_markets": 82,
- "trades_collected": 2274,
+ "trades_markets_queried": 129,
+ "trades_watchlist_markets": 78,
+ "trades_collected": 2457,
  "anomalies_detected": 54,
- "anomalies_new": 52,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "1043197898: HTTPError: HTTP Error 404: Not Found",
-  "2996520854: HTTPError: HTTP Error 404: Not Found",
-  "7843857357: HTTPError: HTTP Error 404: Not Found",
-  "7371441072: HTTPError: HTTP Error 404: Not Found",
-  "1087053396: HTTPError: HTTP Error 404: Not Found",
-  "3037769065: HTTPError: HTTP Error 404: Not Found",
-  "1312836021: HTTPError: HTTP Error 404: Not Found",
-  "2712468573: HTTPError: HTTP Error 404: Not Found"
+ "anomalies_new": 54,
+ "history_debug": [
+  {
+   "cid": "0x6cc40ba1",
+   "pts": 0,
+   "variant": "none"
+  }
  ],
- "books_markets": 82,
- "books_rows": 88,
+ "history_conditions_new": 0,
+ "books_markets": 71,
+ "books_rows": 86,
  "status": "ok"
 }
