@@ -2,64 +2,63 @@
  {
   "name": "pinnacle_api",
   "ok": false,
-  "ms": 358,
-  "err": "HTTPError: HTTP Error 404: Not Found"
+  "ms": 132,
+  "err": "HTTPError: HTTP Error 451: Unavailable For Legal Reasons"
  },
  {
   "name": "pinnacle_guest_odds",
   "ok": false,
-  "ms": 79,
+  "ms": 45,
   "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
  },
  {
   "name": "pinnacle_guest_matchups",
   "ok": false,
-  "ms": 95,
+  "ms": 60,
   "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
  },
  {
   "name": "theoddsapi",
   "ok": false,
-  "ms": 255,
+  "ms": 313,
   "err": "HTTPError: HTTP Error 401: Unauthorized"
  },
  {
   "name": "sofascore_esports",
   "ok": false,
-  "ms": 72,
+  "ms": 71,
   "err": "HTTPError: HTTP Error 403: Forbidden"
  },
  {
   "name": "bet365_home",
   "ok": false,
-  "ms": 280,
+  "ms": 83,
   "err": "HTTPError: HTTP Error 403: Forbidden"
  },
  {
   "name": "marathonbet",
-  "ok": true,
-  "code": 200,
-  "ms": 6485,
-  "head": "<!DOCTYPE html><html class=\"u-large-scrollbar u-theme-light\" lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-s"
+  "ok": false,
+  "ms": 81,
+  "err": "HTTPError: HTTP Error 403: Forbidden"
  },
  {
   "name": "ggbench",
   "ok": false,
-  "ms": 759,
+  "ms": 343,
   "err": "HTTPError: HTTP Error 404: Not Found"
  },
  {
   "name": "polymarket_gamma",
   "ok": true,
   "code": 200,
-  "ms": 184,
+  "ms": 115,
   "head": "[{\"id\":\"2890\",\"ticker\":\"nba-will-the-mavericks-beat-the-grizzlies-by-more-than-5pt5-points-in-their-december-4-matchup\",\"slug\":\"nba-will-the-mavericks-beat-the-"
  },
  {
   "name": "kalshi",
   "ok": true,
   "code": 200,
-  "ms": 181,
-  "head": "{\"cursor\":\"CgwI8PHj1gYQgJH_rwISMktYTVZFQ1JPU1NDQVRFR09SWS1TMjAyNjIzTFA0VUNXSUdJSDRJS0UtTElCMk1SSE9O\",\"markets\":[{\"can_close_early\":true,\"close_time\":\"2026-10-27"
+  "ms": 121,
+  "head": "{\"cursor\":\"CgsItOzk1gYQqPXmOhIyS1hNVkVDUk9TU0NBVEVHT1JZLVMyMDI2VkpQWUg1TkJRU09XSFpOSi1XTzNYVE9XRTU\",\"markets\":[{\"can_close_early\":true,\"close_time\":\"2026-10-24T"
  }
 ]
