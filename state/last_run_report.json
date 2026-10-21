@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T19:15:36Z",
+ "ts": "2026-10-21T19:18:32Z",
  "sources": [
   {
    "url": "/tags",
@@ -200,7 +200,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: Dawn Bulls vs Zero Tenacity (BO3) - EPL Masters Group B",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: TheBot$ vs Dawn Bulls (BO3) - EPL Masters Group B",
@@ -266,7 +266,7 @@
   "search:Valorant": [
    {
     "t": "Valorant: CGN Esports vs Joblife (BO3) - Project Blender Phase 2 Group",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Wolves Esports vs A Team (BO3) - VCT Threshold China Week 1",
@@ -316,17 +316,19 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 128,
  "trades_watchlist_markets": 78,
- "trades_collected": 2428,
- "anomalies_detected": 52,
- "anomalies_new": 4,
- "history_debug": [
-  {
-   "cid": "0x6cc40ba1",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  }
+ "trades_collected": 2322,
+ "anomalies_detected": 51,
+ "anomalies_new": 0,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_errors": [
+  "3498910710: HTTPError: HTTP Error 404: Not Found",
+  "6015413217: HTTPError: HTTP Error 404: Not Found",
+  "2639692774: HTTPError: HTTP Error 404: Not Found",
+  "1093947185: HTTPError: HTTP Error 404: Not Found",
+  "7844312276: HTTPError: HTTP Error 404: Not Found",
+  "5023049255: HTTPError: HTTP Error 404: Not Found"
  ],
- "history_conditions_new": 1,
  "books_markets": 70,
  "books_rows": 88,
  "status": "ok"
