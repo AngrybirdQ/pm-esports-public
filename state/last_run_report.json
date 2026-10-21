@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T20:56:00Z",
+ "ts": "2026-10-21T20:59:08Z",
  "sources": [
   {
    "url": "/tags",
@@ -208,7 +208,7 @@
    },
    {
     "t": "Dota 2: salamit vs HULIGANI (BO3) - EPL Masters Group A",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Yellow Submarine vs TheBot$ (BO3) - EPL Masters Group B",
@@ -316,47 +316,21 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 104,
  "trades_watchlist_markets": 52,
- "trades_collected": 1589,
+ "trades_collected": 1572,
  "anomalies_detected": 36,
- "anomalies_new": 36,
+ "anomalies_new": 0,
  "history_debug": [
-  {
-   "cid": "0x2b901cbc",
-   "pts": 7,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x806470a8",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xc9860063",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x229b0d43",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
   {
    "cid": "0xa5ae6a29",
    "pts": 0,
    "variant": "none"
-  },
-  {
-   "cid": "0x1b2bfb66",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x6b5cdde9",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 6,
+ "history_conditions_new": 0,
+ "books_errors": [
+  "9241940166: HTTPError: HTTP Error 404: Not Found",
+  "1042198827: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 64,
  "books_rows": 88,
  "status": "ok"
