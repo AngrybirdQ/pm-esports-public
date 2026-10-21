@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T02:54:56Z",
+ "ts": "2026-10-21T03:06:33Z",
  "sources": [
   {
    "url": "/tags",
@@ -133,9 +133,7 @@
    "err": null
   }
  ],
- "errors": [
-  "sensor: error: missing ), unterminated subpattern at position 0"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -314,11 +312,56 @@
  "events": 411,
  "markets": 261,
  "markets_dropped_by_volume_floor": 2095,
- "day_file": "data/2026/10/2026-10-21T02.jsonl",
+ "day_file": "data/2026/10/2026-10-21T03.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 60,
- "trades_watchlist_markets": 34,
- "trades_collected": 339,
+ "trades_watchlist_markets": 35,
+ "trades_collected": 354,
+ "anomalies_detected": 0,
+ "anomalies_new": 0,
+ "history_debug": [
+  {
+   "cid": "0x870272bc",
+   "pts": 7,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x8ab6457e",
+   "pts": 5,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xf5fb2e05",
+   "pts": 5,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x45497358",
+   "pts": 6,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x98057b05",
+   "pts": 5,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x26f92ac5",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x51a31fa5",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x6dccd54a",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 30,
  "books_markets": 51,
  "books_rows": 102,
  "status": "ok"
