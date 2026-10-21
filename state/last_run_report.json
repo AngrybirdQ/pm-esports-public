@@ -1,8 +1,13 @@
 {
- "ts": "2026-10-21T15:26:37Z",
+ "ts": "2026-10-21T15:30:51Z",
  "sources": [
   {
    "url": "/tags",
+   "ok": false,
+   "err": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "url": "/tags?limit=500",
    "ok": true,
    "err": null
   },
@@ -146,7 +151,7 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 100,
  "trades_watchlist_markets": 100,
- "trades_collected": 1629,
+ "trades_collected": 1607,
  "anomalies_detected": 0,
  "anomalies_new": 0,
  "history_debug": [],
