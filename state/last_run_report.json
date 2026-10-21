@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T11:25:51Z",
+ "ts": "2026-10-21T11:28:13Z",
  "sources": [
   {
    "url": "/tags",
@@ -281,7 +281,7 @@
     "closed": false
    },
    {
-    "t": "Valorant: Eintracht Frankfurt vs Habos Babos (BO3) - Project Blender P",
+    "t": "Valorant: CGN Esports vs Joblife (BO3) - Project Blender Phase 2 Group",
     "closed": false
    }
   ],
@@ -309,19 +309,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 412,
- "markets": 330,
- "markets_dropped_by_volume_floor": 2123,
+ "events": 413,
+ "markets": 333,
+ "markets_dropped_by_volume_floor": 2133,
  "day_file": "data/2026/10/2026-10-21T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 129,
+ "trades_markets_queried": 130,
  "trades_watchlist_markets": 102,
- "trades_collected": 2859,
- "anomalies_detected": 39,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 115,
- "books_rows": 160,
+ "trades_collected": 2978,
+ "anomalies_detected": 43,
+ "anomalies_new": 6,
+ "history_debug": [
+  {
+   "cid": "0x9004c364",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 114,
+ "books_rows": 158,
  "status": "ok"
 }
