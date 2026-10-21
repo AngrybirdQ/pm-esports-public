@@ -116,6 +116,26 @@ def end_dates_for(eids, root):
     return found
 
 
+def _persist_state(root, state_p):
+    """[v3.1] 状态自持久化: flow模式job无git commit步(longrun才有),
+    runner上写的状态随job蒸发→去重跨轮失效→活事件重复推送。
+    用checkout持久化的凭据自己commit单文件; 失败不挡主流程(下次重写)。"""
+    import subprocess
+    try:
+        subprocess.run(["git", "-C", root, "add",
+                        os.path.relpath(state_p, root)],
+                       timeout=30, capture_output=True)
+        r = subprocess.run(
+            ["git", "-C", root, "commit", "-m",
+             "state: wecom_pushed (v3.1 self-persist)"],
+            timeout=30, capture_output=True, text=True)
+        if r.returncode == 0:
+            subprocess.run(["git", "-C", root, "push"],
+                           timeout=60, capture_output=True)
+    except Exception:
+        pass
+
+
 def main():
     webhook = os.environ.get("WECOM_WEBHOOK", "")
     if not webhook:
@@ -157,7 +177,7 @@ def main():
     if not groups:
         json.dump({**pushed, "_last_push": pushed.get("_last_push", 0)},
                   open(state_p, "w", encoding="utf-8"))
-        return
+        return  # 无新组: 状态无变化, 不必持久化
 
     # ★死活闸: 快照查event_end_date; 已到期→跳过, 查无→跳过(fail-closed)
     eids = {str(ev_of(g[0]) if g else "?") for g in groups.values()}
@@ -175,6 +195,7 @@ def main():
             pushed[k] = now
         json.dump({**pushed, "_last_push": pushed.get("_last_push", 0)},
                   open(state_p, "w", encoding="utf-8"))
+        _persist_state(root, state_p)         # 死单钥匙必须跨轮存活
         print("wecom_alert: all %d groups dead/stale, none pushed" % dead)
         return
 
@@ -213,6 +234,7 @@ def main():
             pushed[akey_an(a)] = now
     with open(state_p, "w", encoding="utf-8") as f:
         json.dump({**pushed, "_last_push": now}, f)
+    _persist_state(root, state_p)             # [v3.1] flow模式无commit步
     err = send("\n".join(segs)[:3800])
     print("wecom_alert: pushed %d events (+%d quiet, %d dead-blocked) "
           "errcode=%s" % (len(events), quiet, dead, err))
