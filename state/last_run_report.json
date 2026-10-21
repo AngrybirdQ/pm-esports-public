@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T09:21:50Z",
+ "ts": "2026-10-21T09:36:52Z",
  "sources": [
   {
    "url": "/tags",
@@ -270,7 +270,7 @@
    },
    {
     "t": "Valorant: Any Questions Gaming vs World Sports Invictus Gaming (BO3) -",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Dragon Ranger Gaming vs Rare Atom (BO3) - VCT Threshold Chin",
@@ -311,17 +311,23 @@
  "n_event_queries": 21,
  "events": 412,
  "markets": 319,
- "markets_dropped_by_volume_floor": 2119,
+ "markets_dropped_by_volume_floor": 2125,
  "day_file": "data/2026/10/2026-10-21T09.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 118,
- "trades_watchlist_markets": 88,
- "trades_collected": 1772,
+ "trades_markets_queried": 121,
+ "trades_watchlist_markets": 96,
+ "trades_collected": 2121,
  "anomalies_detected": 18,
- "anomalies_new": 12,
+ "anomalies_new": 18,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 104,
- "books_rows": 194,
+ "books_errors": [
+  "8935865229: HTTPError: HTTP Error 404: Not Found",
+  "5656242345: HTTPError: HTTP Error 404: Not Found",
+  "1087960552: HTTPError: HTTP Error 404: Not Found",
+  "1065607235: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 108,
+ "books_rows": 198,
  "status": "ok"
 }
