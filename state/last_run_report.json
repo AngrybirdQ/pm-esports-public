@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T15:30:51Z",
+ "ts": "2026-10-21T15:35:16Z",
  "sources": [
   {
    "url": "/tags",
@@ -127,15 +127,15 @@
   },
   {
    "url": "search:Valorant",
-   "ok": false,
-   "events_returned": 0,
-   "err": "HTTPError: HTTP Error 404: Not Found"
+   "ok": true,
+   "events_returned": 5,
+   "err": null
   },
   {
    "url": "search:The International",
-   "ok": false,
-   "events_returned": 0,
-   "err": "HTTPError: HTTP Error 404: Not Found"
+   "ok": true,
+   "events_returned": 5,
+   "err": null
   }
  ],
  "errors": [],
@@ -143,20 +143,69 @@
  "tags_discovered": [
   "international-affairs"
  ],
+ "search_samples": {
+  "search:Valorant": [
+   {
+    "t": "Valorant: CGN Esports vs Joblife (BO3) - Project Blender Phase 2 Group",
+    "closed": false
+   },
+   {
+    "t": "Valorant: Wolves Esports vs A Team (BO3) - VCT Threshold China Week 1",
+    "closed": true
+   },
+   {
+    "t": "Valorant: Any Questions Gaming vs World Sports Invictus Gaming (BO3) -",
+    "closed": true
+   },
+   {
+    "t": "Valorant: Dragon Ranger Gaming vs Rare Atom (BO3) - VCT Threshold Chin",
+    "closed": true
+   },
+   {
+    "t": "Valorant: Unsettled Resentment vs Octagonal Disposition Gaming (BO3) -",
+    "closed": true
+   }
+  ],
+  "search:The International": [
+   {
+    "t": "The International 2026: Winner",
+    "closed": true
+   },
+   {
+    "t": "The International 2026: Winning Region",
+    "closed": true
+   },
+   {
+    "t": "The International 2026: Most Picked Hero",
+    "closed": true
+   },
+   {
+    "t": "The International 2026: Total Rampages",
+    "closed": true
+   },
+   {
+    "t": "The International 2026: Will Any Team Field a Stand-in?",
+    "closed": true
+   }
+  ]
+ },
+ "winning_sources": [
+  "search:Valorant"
+ ],
  "n_event_queries": 21,
- "events": 0,
- "markets": 0,
- "markets_dropped_by_volume_floor": 0,
+ "events": 1,
+ "markets": 1,
+ "markets_dropped_by_volume_floor": 14,
  "day_file": "data/2026/10/2026-10-21T15.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 100,
  "trades_watchlist_markets": 100,
- "trades_collected": 1607,
+ "trades_collected": 1542,
  "anomalies_detected": 0,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 0,
- "books_rows": 0,
- "status": "ok_empty"
+ "books_markets": 1,
+ "books_rows": 2,
+ "status": "ok"
 }
