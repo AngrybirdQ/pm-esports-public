@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T20:59:08Z",
+ "ts": "2026-10-21T21:02:08Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 33,
+   "events_returned": 32,
    "err": null
   },
   {
@@ -145,9 +145,9 @@
    "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: salamit vs HULIGANI (BO3) - EPL Masters Group A",
    "Dota 2: Yellow Submarine vs TheBot$ (BO3) - EPL Masters Group B",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -269,11 +269,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: Wolves Esports vs A Team (BO3) - VCT Threshold China Week 1",
+    "t": "Valorant: Any Questions Gaming vs World Sports Invictus Gaming (BO3) -",
     "closed": true
    },
    {
-    "t": "Valorant: Any Questions Gaming vs World Sports Invictus Gaming (BO3) -",
+    "t": "Valorant: Wolves Esports vs A Team (BO3) - VCT Threshold China Week 1",
     "closed": true
    },
    {
@@ -310,27 +310,23 @@
  },
  "n_event_queries": 21,
  "events": 408,
- "markets": 345,
- "markets_dropped_by_volume_floor": 2025,
- "day_file": "data/2026/10/2026-10-21T20.jsonl",
+ "markets": 343,
+ "markets_dropped_by_volume_floor": 2024,
+ "day_file": "data/2026/10/2026-10-21T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 104,
+ "trades_markets_queried": 103,
  "trades_watchlist_markets": 52,
- "trades_collected": 1572,
- "anomalies_detected": 36,
+ "trades_collected": 1537,
+ "anomalies_detected": 0,
  "anomalies_new": 0,
  "history_debug": [
   {
    "cid": "0xa5ae6a29",
-   "pts": 0,
-   "variant": "none"
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 0,
- "books_errors": [
-  "9241940166: HTTPError: HTTP Error 404: Not Found",
-  "1042198827: HTTPError: HTTP Error 404: Not Found"
- ],
+ "history_conditions_new": 1,
  "books_markets": 64,
  "books_rows": 88,
  "status": "ok"
