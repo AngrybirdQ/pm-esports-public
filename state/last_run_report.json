@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T06:36:38Z",
+ "ts": "2026-10-21T07:00:55Z",
  "sources": [
   {
    "url": "/tags",
@@ -277,11 +277,11 @@
     "closed": false
    },
    {
-    "t": "Valorant: Dragon Ranger Gaming vs Rare Atom (BO3) - VCT Threshold Chin",
+    "t": "Valorant: CGN Esports vs Joblife (BO3) - Project Blender Phase 2 Group",
     "closed": false
    },
    {
-    "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
+    "t": "Valorant: Dragon Ranger Gaming vs Rare Atom (BO3) - VCT Threshold Chin",
     "closed": false
    }
   ],
@@ -310,18 +310,37 @@
  },
  "n_event_queries": 21,
  "events": 413,
- "markets": 297,
- "markets_dropped_by_volume_floor": 2105,
- "day_file": "data/2026/10/2026-10-21T06.jsonl",
+ "markets": 303,
+ "markets_dropped_by_volume_floor": 2107,
+ "day_file": "data/2026/10/2026-10-21T07.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 91,
- "trades_watchlist_markets": 70,
- "trades_collected": 1050,
+ "trades_markets_queried": 101,
+ "trades_watchlist_markets": 73,
+ "trades_collected": 1198,
  "anomalies_detected": 8,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 83,
- "books_rows": 150,
+ "anomalies_new": 7,
+ "history_debug": [
+  {
+   "cid": "0x4b4fa203",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x99e917e8",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_errors": [
+  "2366206273: HTTPError: HTTP Error 404: Not Found",
+  "5078677217: HTTPError: HTTP Error 404: Not Found",
+  "4786748926: HTTPError: HTTP Error 404: Not Found",
+  "9631544286: HTTPError: HTTP Error 404: Not Found",
+  "3478830156: HTTPError: HTTP Error 404: Not Found",
+  "3523733375: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 89,
+ "books_rows": 160,
  "status": "ok"
 }
