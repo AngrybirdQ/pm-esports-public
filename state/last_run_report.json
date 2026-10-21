@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T21:49:41Z",
+ "ts": "2026-10-21T21:52:06Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 32,
+   "events_returned": 31,
    "err": null
   },
   {
@@ -145,9 +145,9 @@
    "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Yellow Submarine vs TheBot$ (BO3) - EPL Masters Group B",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A",
+   "Dota 2: Stray Team vs Rostik Team (BO3) - BetBoom Streamers Battle Gro"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -310,18 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 407,
- "markets": 340,
- "markets_dropped_by_volume_floor": 2001,
+ "markets": 338,
+ "markets_dropped_by_volume_floor": 1999,
  "day_file": "data/2026/10/2026-10-21T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 108,
+ "trades_markets_queried": 107,
  "trades_watchlist_markets": 52,
- "trades_collected": 1702,
+ "trades_collected": 1558,
  "anomalies_detected": 26,
  "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 56,
- "books_rows": 80,
+ "books_rows": 82,
  "status": "ok"
 }
