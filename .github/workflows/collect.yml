@@ -178,7 +178,13 @@ jobs:
       - name: pm price-history backfill (research fuel)
         run: python3 scripts/price_history_backfill.py
       - name: data integrity guard
+        env:
+          WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
         run: python3 scripts/data_guard.py
+      - name: sensor sentinel (silent-death guard)
+        env:
+          WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+        run: python3 scripts/sensor_sentinel.py
       - name: channel probe
         run: python3 scripts/channel_probe.py
       - name: commit (single writer — no race)
