@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T09:36:52Z",
+ "ts": "2026-10-21T09:40:22Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 50,
+   "events_returned": 49,
    "err": null
   },
   {
@@ -169,9 +169,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: Any Questions Gaming vs World Sports Invictus Gaming (BO3) -",
    "VALORANT Offseason: OXY Next Team",
-   "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang"
+   "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
+   "VALORANT Offseason: primmie Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -277,11 +277,11 @@
     "closed": false
    },
    {
-    "t": "Valorant: Eintracht Frankfurt vs Habos Babos (BO3) - Project Blender P",
+    "t": "Valorant: Unsettled Resentment vs Octagonal Disposition Gaming (BO3) -",
     "closed": false
    },
    {
-    "t": "Valorant: CGN Esports vs Joblife (BO3) - Project Blender Phase 2 Group",
+    "t": "Valorant: Eintracht Frankfurt vs Habos Babos (BO3) - Project Blender P",
     "closed": false
    }
   ],
@@ -311,23 +311,23 @@
  "n_event_queries": 21,
  "events": 412,
  "markets": 319,
- "markets_dropped_by_volume_floor": 2125,
+ "markets_dropped_by_volume_floor": 2117,
  "day_file": "data/2026/10/2026-10-21T09.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 121,
  "trades_watchlist_markets": 96,
- "trades_collected": 2121,
- "anomalies_detected": 18,
- "anomalies_new": 18,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "8935865229: HTTPError: HTTP Error 404: Not Found",
-  "5656242345: HTTPError: HTTP Error 404: Not Found",
-  "1087960552: HTTPError: HTTP Error 404: Not Found",
-  "1065607235: HTTPError: HTTP Error 404: Not Found"
+ "trades_collected": 2156,
+ "anomalies_detected": 14,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0x5c15498b",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 108,
+ "history_conditions_new": 1,
+ "books_markets": 106,
  "books_rows": 198,
  "status": "ok"
 }
