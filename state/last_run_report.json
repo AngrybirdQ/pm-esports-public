@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T21:22:50Z",
+ "ts": "2026-10-21T21:25:55Z",
  "sources": [
   {
    "url": "/tags",
@@ -278,7 +278,7 @@
    },
    {
     "t": "Valorant: Team George vs Natus Vincere (BO3) - Project Blender Phase 2",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Dragon Ranger Gaming vs Rare Atom (BO3) - VCT Threshold Chin",
@@ -316,12 +316,20 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 110,
  "trades_watchlist_markets": 52,
- "trades_collected": 2031,
+ "trades_collected": 2012,
  "anomalies_detected": 0,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "5229144940: HTTPError: HTTP Error 404: Not Found",
+  "6131094450: HTTPError: HTTP Error 404: Not Found",
+  "8663599019: HTTPError: HTTP Error 404: Not Found",
+  "1126035187: HTTPError: HTTP Error 404: Not Found",
+  "4316879465: HTTPError: HTTP Error 404: Not Found",
+  "9905127779: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 65,
- "books_rows": 88,
+ "books_rows": 86,
  "status": "ok"
 }
