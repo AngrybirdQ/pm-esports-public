@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T12:41:35Z",
+ "ts": "2026-10-21T13:22:59Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 48,
+   "events_returned": 50,
    "err": null
   },
   {
@@ -142,12 +142,12 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Dota 2: Power Rangers vs Inner Circle (BO3) - EPL Masters Group A"
+   "Counter-Strike: PRIVATE vs fnatic (BO3) - 1win Private Club Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Power Rangers vs Inner Circle (BO3) - EPL Masters Group A",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: Dawn Bulls vs Zero Tenacity (BO3) - EPL Masters Group B",
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -309,19 +309,30 @@
   ]
  },
  "n_event_queries": 21,
- "events": 410,
- "markets": 334,
- "markets_dropped_by_volume_floor": 2136,
- "day_file": "data/2026/10/2026-10-21T12.jsonl",
+ "events": 412,
+ "markets": 327,
+ "markets_dropped_by_volume_floor": 2145,
+ "day_file": "data/2026/10/2026-10-21T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 143,
- "trades_watchlist_markets": 107,
- "trades_collected": 3799,
- "anomalies_detected": 48,
- "anomalies_new": 8,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 116,
+ "trades_markets_queried": 140,
+ "trades_watchlist_markets": 102,
+ "trades_collected": 3572,
+ "anomalies_detected": 59,
+ "anomalies_new": 58,
+ "history_debug": [
+  {
+   "cid": "0xe2178723",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x252658be",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_markets": 104,
  "books_rows": 152,
  "status": "ok"
 }
