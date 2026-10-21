@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T14:44:36Z",
+ "ts": "2026-10-21T14:48:36Z",
  "sources": [
   {
    "url": "/tags",
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Counter-Strike: PRIVATE vs fnatic (BO3) - 1win Private Club Playoffs",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "Dota 2: Dawn Bulls vs Zero Tenacity (BO3) - EPL Masters Group B"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Dawn Bulls vs Zero Tenacity (BO3) - EPL Masters Group B",
@@ -310,30 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 410,
- "markets": 328,
- "markets_dropped_by_volume_floor": 2102,
+ "markets": 323,
+ "markets_dropped_by_volume_floor": 2095,
  "day_file": "data/2026/10/2026-10-21T14.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 143,
  "trades_watchlist_markets": 100,
- "trades_collected": 2822,
- "anomalies_detected": 29,
- "anomalies_new": 0,
+ "trades_collected": 2907,
+ "anomalies_detected": 28,
+ "anomalies_new": 6,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "5270461145: HTTPError: HTTP Error 404: Not Found",
-  "4035830372: HTTPError: HTTP Error 404: Not Found",
-  "5788455221: HTTPError: HTTP Error 404: Not Found",
-  "1149951327: HTTPError: HTTP Error 404: Not Found",
-  "7966280442: HTTPError: HTTP Error 404: Not Found",
-  "3686140176: HTTPError: HTTP Error 404: Not Found",
-  "3624851902: HTTPError: HTTP Error 404: Not Found",
-  "2305419894: HTTPError: HTTP Error 404: Not Found",
-  "1230246798: HTTPError: HTTP Error 404: Not Found",
-  "5845151552: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 101,
+ "books_markets": 96,
  "books_rows": 140,
  "status": "ok"
 }
