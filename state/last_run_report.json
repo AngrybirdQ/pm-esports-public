@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T06:23:00Z",
+ "ts": "2026-10-21T06:25:12Z",
  "sources": [
   {
    "url": "/tags",
@@ -269,11 +269,11 @@
     "closed": false
    },
    {
-    "t": "Valorant: Eintracht Frankfurt vs Habos Babos (BO3) - Project Blender P",
+    "t": "Valorant: Any Questions Gaming vs World Sports Invictus Gaming (BO3) -",
     "closed": false
    },
    {
-    "t": "Valorant: Any Questions Gaming vs World Sports Invictus Gaming (BO3) -",
+    "t": "Valorant: Eintracht Frankfurt vs Habos Babos (BO3) - Project Blender P",
     "closed": false
    },
    {
@@ -309,18 +309,24 @@
   ]
  },
  "n_event_queries": 21,
- "events": 412,
- "markets": 294,
- "markets_dropped_by_volume_floor": 2100,
+ "events": 413,
+ "markets": 297,
+ "markets_dropped_by_volume_floor": 2105,
  "day_file": "data/2026/10/2026-10-21T06.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 91,
  "trades_watchlist_markets": 70,
- "trades_collected": 983,
- "anomalies_detected": 4,
+ "trades_collected": 972,
+ "anomalies_detected": 6,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "history_debug": [
+  {
+   "cid": "0x0fe614f9",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 83,
  "books_rows": 152,
  "status": "ok"
