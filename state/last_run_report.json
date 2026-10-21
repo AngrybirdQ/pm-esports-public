@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T10:21:50Z",
+ "ts": "2026-10-21T10:24:34Z",
  "sources": [
   {
    "url": "/tags",
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
+   "Counter-Strike: magic vs TheMongolz (BO3) - 1win Private Club Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Power Rangers vs Inner Circle (BO3) - EPL Masters Group A",
@@ -310,22 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 412,
- "markets": 324,
- "markets_dropped_by_volume_floor": 2125,
+ "markets": 325,
+ "markets_dropped_by_volume_floor": 2123,
  "day_file": "data/2026/10/2026-10-21T10.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 122,
+ "trades_markets_queried": 124,
  "trades_watchlist_markets": 98,
- "trades_collected": 2379,
- "anomalies_detected": 44,
- "anomalies_new": 4,
+ "trades_collected": 2391,
+ "anomalies_detected": 38,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "8842927037: HTTPError: HTTP Error 404: Not Found",
-  "8825385280: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 112,
- "books_rows": 180,
+ "books_markets": 113,
+ "books_rows": 184,
  "status": "ok"
 }
