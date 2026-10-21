@@ -77,6 +77,25 @@ jobs:
     timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
+      - name: preflight (syntax+regex gate, 10-21事故根治)
+        run: |
+          python3 - << 'EOF'
+          import ast, glob, re, sys
+          bad = []
+          for f in glob.glob('scripts/*.py'):
+              src = open(f).read()
+              try:
+                  ast.parse(src)
+              except SyntaxError as e:
+                  bad.append('%s: %s' % (f, e)); continue
+              for m in re.finditer(r're\.compile\(\s*r?(["\'])(.*?)\1', src):
+                  try:
+                      re.compile(m.group(2))
+                  except re.error as e:
+                      bad.append('%s regex: %s' % (f, e))
+          if bad:
+              print('\n'.join(bad)); sys.exit(1)
+          EOF
       - name: collect snapshots + markets.json
         run: python3 scripts/collect.py --stage snap
       - uses: actions/upload-artifact@v4
