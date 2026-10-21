@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T08:55:05Z",
+ "ts": "2026-10-21T08:57:49Z",
  "sources": [
   {
    "url": "/tags",
@@ -273,15 +273,15 @@
     "closed": false
    },
    {
+    "t": "Valorant: Dragon Ranger Gaming vs Rare Atom (BO3) - VCT Threshold Chin",
+    "closed": false
+   },
+   {
     "t": "Valorant: Eintracht Frankfurt vs Habos Babos (BO3) - Project Blender P",
     "closed": false
    },
    {
     "t": "Valorant: CGN Esports vs Joblife (BO3) - Project Blender Phase 2 Group",
-    "closed": false
-   },
-   {
-    "t": "Valorant: Dragon Ranger Gaming vs Rare Atom (BO3) - VCT Threshold Chin",
     "closed": false
    }
   ],
@@ -310,18 +310,24 @@
  },
  "n_event_queries": 21,
  "events": 412,
- "markets": 312,
- "markets_dropped_by_volume_floor": 2108,
+ "markets": 318,
+ "markets_dropped_by_volume_floor": 2111,
  "day_file": "data/2026/10/2026-10-21T08.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 111,
+ "trades_markets_queried": 113,
  "trades_watchlist_markets": 80,
- "trades_collected": 1486,
+ "trades_collected": 1470,
  "anomalies_detected": 13,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 100,
- "books_rows": 184,
+ "history_debug": [
+  {
+   "cid": "0x00970439",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 103,
+ "books_rows": 186,
  "status": "ok"
 }
