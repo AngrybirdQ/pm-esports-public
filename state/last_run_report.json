@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T15:03:01Z",
+ "ts": "2026-10-21T15:10:36Z",
  "sources": [
   {
    "url": "/tags",
@@ -199,12 +199,12 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: TheBot$ vs Dawn Bulls (BO3) - EPL Masters Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Dawn Bulls vs Zero Tenacity (BO3) - EPL Masters Group B",
     "closed": false
+   },
+   {
+    "t": "Dota 2: TheBot$ vs Dawn Bulls (BO3) - EPL Masters Group B",
+    "closed": true
    },
    {
     "t": "Dota 2: Power Rangers vs Inner Circle (BO3) - EPL Masters Group A",
@@ -215,8 +215,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Lynx vs Power Rangers (BO3) - EPL Masters Group A",
-    "closed": true
+    "t": "Dota 2: salamit vs HULIGANI (BO3) - EPL Masters Group A",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -310,18 +310,29 @@
  },
  "n_event_queries": 21,
  "events": 410,
- "markets": 333,
- "markets_dropped_by_volume_floor": 2098,
+ "markets": 331,
+ "markets_dropped_by_volume_floor": 2092,
  "day_file": "data/2026/10/2026-10-21T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 149,
+ "trades_markets_queried": 152,
  "trades_watchlist_markets": 100,
- "trades_collected": 2965,
- "anomalies_detected": 33,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 99,
- "books_rows": 142,
+ "trades_collected": 3179,
+ "anomalies_detected": 27,
+ "anomalies_new": 6,
+ "history_debug": [
+  {
+   "cid": "0x25252c80",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xa030e71d",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_markets": 92,
+ "books_rows": 138,
  "status": "ok"
 }
