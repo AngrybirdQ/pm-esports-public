@@ -520,10 +520,14 @@ def detect_anomalies(lines, trades, frames, report):
         prs = [p for p in (l.get("prices") or []) if isinstance(p, (int, float))]
         if prs:
             price_by_cid[cid] = prs
+    # 10-21三修(异动归零事故): 原嵌套生成器写法把"无价数据市场的交易"全部误杀
+    # (all()对空序列=True→not True=False)。明确两分支: 无价数据=按非死盘放行。
+    def _is_dead(cid):
+        prs = price_by_cid.get(cid)
+        return bool(prs and len(prs) >= 2
+                    and all(p >= 0.98 or p <= 0.02 for p in prs))
     trades = [t for t in trades if t.get("condition_id") in active_cids
-              and not all(all(p >= 0.98 or p <= 0.02 for p in price_by_cid.get(c, [0.5]))
-                          for c in [t.get("condition_id")] if c in price_by_cid)
-              ] if price_by_cid else trades
+              and not _is_dead(t.get("condition_id"))]
     # 10-18三修: Odd/Even + Total O/U + Total Kills/Rounds类子盘的异动是毒信号
     # (768条历史胜率0-2%, outcome解析与结算winner语义错位), 全部跳过不产异动
     import re as _re
