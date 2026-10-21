@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T13:56:50Z",
+ "ts": "2026-10-21T13:59:38Z",
  "sources": [
   {
    "url": "/tags",
@@ -207,12 +207,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Synapse vs Yellow Submarine (BO3) - EPL Masters Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Dawn Bulls vs Zero Tenacity (BO3) - EPL Masters Group B",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Synapse vs Yellow Submarine (BO3) - EPL Masters Group B",
+    "closed": true
    },
    {
     "t": "Dota 2: Team Lynx vs Power Rangers (BO3) - EPL Masters Group A",
@@ -310,24 +310,18 @@
  },
  "n_event_queries": 21,
  "events": 410,
- "markets": 322,
+ "markets": 321,
  "markets_dropped_by_volume_floor": 2114,
  "day_file": "data/2026/10/2026-10-21T13.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 134,
  "trades_watchlist_markets": 100,
- "trades_collected": 3218,
+ "trades_collected": 3210,
  "anomalies_detected": 34,
- "anomalies_new": 4,
- "history_debug": [
-  {
-   "cid": "0x6c1c202d",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
+ "anomalies_new": 33,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 102,
- "books_rows": 158,
+ "books_rows": 156,
  "status": "ok"
 }
