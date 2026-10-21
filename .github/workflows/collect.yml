@@ -11,19 +11,36 @@ on:
 
 permissions:
   contents: write
+  actions: read
 
+# [10-21绞杀链修复] KV通道*/5 dispatch × cancel-in-progress=true = 10-20以来
+# 100个run里98个被中途绞杀, commit job几乎从不执行(=日~460min黑窗根因)。
+# 改false+decide自跳过: 活跃管线在场时新run快速空转退出, 不再互杀。
 concurrency:
   group: collect-esports-v2
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   decide:
     runs-on: ubuntu-latest
     outputs:
       mode: ${{ steps.m.outputs.mode }}
+      skip: ${{ steps.m.outputs.skip }}
     steps:
       - id: m
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
+          set -e
+          # 活跃管线检测: 已有本workflow的其他run在跑 → 本轮空转跳过
+          # (配合cancel-in-progress=false, 旧管线得以完整跑完commit)
+          ACTIVE=$(gh api "repos/${{ github.repository }}/actions/runs?status=in_progress&per_page=30"             --jq "[.workflow_runs[] | select(.name == \"collect-polymarket-esports\" and .id != ${{ github.run_id }})] | length" 2>/dev/null || echo 0)
+          if [ "${ACTIVE:-0}" -gt 0 ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "active pipeline in-flight ($ACTIVE) — skipping this run"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
           MODE=tick
           if [ -f "$GITHUB_EVENT_PATH" ]; then
             M=$(python3 -c "import json,sys;print(json.load(open(sys.argv[1])).get('client_payload',{}).get('mode','tick'))" "$GITHUB_EVENT_PATH" 2>/dev/null || echo tick)
@@ -34,7 +51,7 @@ jobs:
   # ── A2 长跑模式: live窗口下单job内部循环 ~100min×90s ≈ 2-3min级新鲜度,
   #    每轮独立commit(单写者无竞态); dispatcher见in_progress的longrun会避让
   longrun:
-    if: needs.decide.outputs.mode == 'longrun'
+    if: needs.decide.outputs.mode == 'longrun' && needs.decide.outputs.skip != 'true'
     needs: decide
     runs-on: ubuntu-latest
     timeout-minutes: 115
@@ -71,7 +88,7 @@ jobs:
   # ── A1 并行矩阵 (tick模式): snap→flow 依赖经artifact交接, side独立,
   #    commit单写者收口 — 四job并行, wall time ~1min
   snap:
-    if: needs.decide.outputs.mode != 'longrun'
+    if: needs.decide.outputs.mode != 'longrun' && needs.decide.outputs.skip != 'true'
     needs: decide
     runs-on: ubuntu-latest
     timeout-minutes: 8
@@ -108,7 +125,7 @@ jobs:
           if-no-files-found: warn
 
   flow:
-    if: needs.decide.outputs.mode != 'longrun'
+    if: needs.decide.outputs.mode != 'longrun' && needs.decide.outputs.skip != 'true'
     needs: snap
     runs-on: ubuntu-latest
     timeout-minutes: 8
@@ -143,7 +160,7 @@ jobs:
           if-no-files-found: warn
 
   side:
-    if: needs.decide.outputs.mode != 'longrun'
+    if: needs.decide.outputs.mode != 'longrun' && needs.decide.outputs.skip != 'true'
     needs: decide
     runs-on: ubuntu-latest
     timeout-minutes: 6
@@ -159,7 +176,7 @@ jobs:
           if-no-files-found: warn
 
   commit:
-    if: needs.decide.outputs.mode != 'longrun'
+    if: needs.decide.outputs.mode != 'longrun' && needs.decide.outputs.skip != 'true'
     needs: [snap, flow, side]
     runs-on: ubuntu-latest
     timeout-minutes: 6
