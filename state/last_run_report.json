@@ -1,129 +1,124 @@
 {
- "ts": "2026-10-21T15:35:16Z",
+ "ts": "2026-10-21T15:45:18Z",
  "sources": [
   {
    "url": "/tags",
-   "ok": false,
-   "err": "HTTPError: HTTP Error 404: Not Found"
-  },
-  {
-   "url": "/tags?limit=500",
    "ok": true,
    "err": null
   },
   {
    "url": "tag_slug=esports",
-   "ok": false,
-   "events_returned": 0,
-   "err": "HTTPError: HTTP Error 404: Not Found"
+   "ok": true,
+   "events_returned": 300,
+   "err": null
   },
   {
    "url": "tag_slug=e-sports",
-   "ok": false,
+   "ok": true,
    "events_returned": 0,
-   "err": "HTTPError: HTTP Error 404: Not Found"
+   "err": null
   },
   {
    "url": "tag_slug=dota-2",
-   "ok": false,
-   "events_returned": 0,
-   "err": "HTTPError: HTTP Error 404: Not Found"
+   "ok": true,
+   "events_returned": 34,
+   "err": null
   },
   {
    "url": "tag_slug=dota2",
-   "ok": false,
+   "ok": true,
    "events_returned": 0,
-   "err": "HTTPError: HTTP Error 404: Not Found"
+   "err": null
   },
   {
    "url": "tag_slug=cs2",
-   "ok": false,
-   "events_returned": 0,
-   "err": "HTTPError: HTTP Error 404: Not Found"
+   "ok": true,
+   "events_returned": 26,
+   "err": null
   },
   {
    "url": "tag_slug=counter-strike",
-   "ok": false,
-   "events_returned": 0,
-   "err": "HTTPError: HTTP Error 404: Not Found"
+   "ok": true,
+   "events_returned": 2,
+   "err": null
   },
   {
    "url": "tag_slug=csgo",
-   "ok": false,
+   "ok": true,
    "events_returned": 0,
-   "err": "HTTPError: HTTP Error 404: Not Found"
+   "err": null
   },
   {
    "url": "tag_slug=league-of-legends",
-   "ok": false,
-   "events_returned": 0,
-   "err": "HTTPError: HTTP Error 404: Not Found"
+   "ok": true,
+   "events_returned": 59,
+   "err": null
   },
   {
    "url": "tag_slug=lol",
-   "ok": false,
-   "events_returned": 0,
-   "err": "HTTPError: HTTP Error 404: Not Found"
+   "ok": true,
+   "events_returned": 39,
+   "err": null
   },
   {
    "url": "tag_slug=valorant",
-   "ok": false,
-   "events_returned": 0,
-   "err": "HTTPError: HTTP Error 404: Not Found"
+   "ok": true,
+   "events_returned": 49,
+   "err": null
   },
   {
    "url": "tag_slug=starcraft-2",
-   "ok": false,
-   "events_returned": 0,
-   "err": "HTTPError: HTTP Error 404: Not Found"
+   "ok": true,
+   "events_returned": 1,
+   "err": null
   },
   {
    "url": "tag_slug=rocket-league",
-   "ok": false,
+   "ok": true,
    "events_returned": 0,
-   "err": "HTTPError: HTTP Error 404: Not Found"
+   "err": null
   },
   {
    "url": "tag_slug=the-international",
-   "ok": false,
+   "ok": true,
    "events_returned": 0,
-   "err": "HTTPError: HTTP Error 404: Not Found"
+   "err": null
   },
   {
    "url": "tag_slug=ti",
-   "ok": false,
+   "ok": true,
    "events_returned": 0,
-   "err": "HTTPError: HTTP Error 404: Not Found"
+   "err": null
   },
   {
    "url": "tag_slug=international-affairs",
-   "ok": false,
-   "events_returned": 0,
-   "err": "HTTPError: HTTP Error 404: Not Found"
+   "ok": true,
+   "events_returned": 11,
+   "err": null
   },
   {
    "url": "tag_id[international-affairs]",
-   "ok": false,
-   "events_returned": 0,
-   "err": "HTTPError: HTTP Error 404: Not Found"
+   "ok": true,
+   "events_returned": 11,
+   "err": null
   },
   {
    "url": "search:Dota 2",
-   "ok": false,
-   "events_returned": 0,
-   "err": "HTTPError: HTTP Error 404: Not Found"
+   "ok": true,
+   "events_returned": 5,
+   "err": null
   },
   {
    "url": "search:Counter-Strike",
-   "ok": false,
-   "events_returned": 0,
-   "err": "HTTPError: HTTP Error 404: Not Found"
+   "ok": true,
+   "events_returned": 5,
+   "err": null
   },
   {
    "url": "search:League of Legends",
-   "ok": false,
-   "events_returned": 0,
-   "err": "HTTPError: HTTP Error 404: Not Found"
+   "ok": true,
+   "events_returned": 5,
+   "err": null
   },
   {
    "url": "search:Valorant",
@@ -143,7 +138,131 @@
  "tags_discovered": [
   "international-affairs"
  ],
+ "tag_samples": {
+  "tag_slug=esports": [
+   "Worlds 2026: Winner",
+   "Worlds 2026 Winning Region",
+   "Dota 2: Dawn Bulls vs Zero Tenacity (BO3) - EPL Masters Group B"
+  ],
+  "tag_slug=dota-2": [
+   "Dota 2: Dawn Bulls vs Zero Tenacity (BO3) - EPL Masters Group B",
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+  ],
+  "tag_slug=cs2": [
+   "Will FaZe win a Tier 1 event in 2026? ",
+   "Which teams will qualify to PGL Major Singapore 2026?",
+   "Will Team Falcons Make a Roster Change by December 31?"
+  ],
+  "tag_slug=counter-strike": [
+   "Will Valve add sticker trade-ups before November?",
+   "Will Valve add sticker trade-ups by...?"
+  ],
+  "tag_slug=league-of-legends": [
+   "Worlds 2026: Winner",
+   "Worlds 2026 Winning Region",
+   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
+  ],
+  "tag_slug=lol": [
+   "Worlds 2026: Winner",
+   "Worlds 2026 Winning Region",
+   "League of Legends Global Power Rankings Post Worlds: Rank 1"
+  ],
+  "tag_slug=valorant": [
+   "Valorant: CGN Esports vs Joblife (BO3) - Project Blender Phase 2 Group",
+   "VALORANT Offseason: OXY Next Team",
+   "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang"
+  ],
+  "tag_slug=starcraft-2": [
+   "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
+  ],
+  "tag_slug=international-affairs": [
+   "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
+   "US-Canada diplomatic agreement to lower tariffs by...?",
+   "Will the Philippine Senate convict Sara Duterte? "
+  ],
+  "tag_id[international-affairs]": [
+   "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
+   "US-Canada diplomatic agreement to lower tariffs by...?",
+   "Will the Philippine Senate convict Sara Duterte? "
+  ]
+ },
+ "winning_sources": [
+  "tag_slug=cs2",
+  "tag_slug=dota-2",
+  "tag_slug=esports",
+  "tag_slug=international-affairs",
+  "tag_slug=league-of-legends",
+  "tag_slug=starcraft-2",
+  "tag_slug=valorant"
+ ],
  "search_samples": {
+  "search:Dota 2": [
+   {
+    "t": "Dota 2: Dawn Bulls vs Zero Tenacity (BO3) - EPL Masters Group B",
+    "closed": false
+   },
+   {
+    "t": "Dota 2: TheBot$ vs Dawn Bulls (BO3) - EPL Masters Group B",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Power Rangers vs Inner Circle (BO3) - EPL Masters Group A",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Team Synapse vs Yellow Submarine (BO3) - EPL Masters Group B",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: salamit vs HULIGANI (BO3) - EPL Masters Group A",
+    "closed": false
+   }
+  ],
+  "search:Counter-Strike": [
+   {
+    "t": "ESL Counter-Strike Quarterfinals: G2 vs Liquid",
+    "closed": true
+   },
+   {
+    "t": "ESL Counter-Strike Semifinals: G2 vs Natus Vincere",
+    "closed": true
+   },
+   {
+    "t": "ESL Counter-Strike Quarterfinals: Spirit vs Natus Vincere",
+    "closed": true
+   },
+   {
+    "t": "ESL Counter-Strike Semifinals: Eternal Fire vs MIBR",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike 2 ESL Challenger Atlanta Winner",
+    "closed": true
+   }
+  ],
+  "search:League of Legends": [
+   {
+    "t": "League of Legends Global Power Rankings Post Worlds: Rank 1",
+    "closed": false
+   },
+   {
+    "t": "LoL: Dplus KIA Challengers vs KT Rolster Challengers (BO5) - LCK Chall",
+    "closed": true
+   },
+   {
+    "t": "LoL: T1 Academy vs KT Rolster Challengers (BO5) - LCK Challengers Leag",
+    "closed": true
+   },
+   {
+    "t": "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO5) - LCK Challengers",
+    "closed": true
+   },
+   {
+    "t": "LoL: DN SOOPers Challengers vs Nongshim Esports Academy (BO5) - LCK Ch",
+    "closed": true
+   }
+  ],
   "search:Valorant": [
    {
     "t": "Valorant: CGN Esports vs Joblife (BO3) - Project Blender Phase 2 Group",
@@ -189,23 +308,20 @@
    }
   ]
  },
- "winning_sources": [
-  "search:Valorant"
- ],
  "n_event_queries": 21,
- "events": 1,
- "markets": 1,
- "markets_dropped_by_volume_floor": 14,
+ "events": 410,
+ "markets": 333,
+ "markets_dropped_by_volume_floor": 2113,
  "day_file": "data/2026/10/2026-10-21T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 100,
- "trades_watchlist_markets": 100,
- "trades_collected": 1542,
- "anomalies_detected": 0,
- "anomalies_new": 0,
+ "trades_markets_queried": 169,
+ "trades_watchlist_markets": 122,
+ "trades_collected": 3129,
+ "anomalies_detected": 38,
+ "anomalies_new": 38,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 1,
- "books_rows": 2,
+ "books_markets": 95,
+ "books_rows": 142,
  "status": "ok"
 }
