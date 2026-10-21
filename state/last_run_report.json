@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T13:26:36Z",
+ "ts": "2026-10-21T13:29:14Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 35,
+   "events_returned": 34,
    "err": null
   },
   {
@@ -145,9 +145,9 @@
    "Counter-Strike: PRIVATE vs fnatic (BO3) - 1win Private Club Playoffs"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Power Rangers vs Inner Circle (BO3) - EPL Masters Group A",
    "Dota 2: Dawn Bulls vs Zero Tenacity (BO3) - EPL Masters Group B",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -204,7 +204,7 @@
    },
    {
     "t": "Dota 2: Power Rangers vs Inner Circle (BO3) - EPL Masters Group A",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Synapse vs Yellow Submarine (BO3) - EPL Masters Group B",
@@ -310,15 +310,15 @@
  },
  "n_event_queries": 21,
  "events": 412,
- "markets": 327,
- "markets_dropped_by_volume_floor": 2145,
+ "markets": 328,
+ "markets_dropped_by_volume_floor": 2154,
  "day_file": "data/2026/10/2026-10-21T13.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 140,
  "trades_watchlist_markets": 102,
- "trades_collected": 3541,
- "anomalies_detected": 59,
- "anomalies_new": 0,
+ "trades_collected": 3539,
+ "anomalies_detected": 42,
+ "anomalies_new": 3,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 104,
