@@ -531,7 +531,7 @@ def detect_anomalies(lines, trades, frames, report):
     # 10-18三修: Odd/Even + Total O/U + Total Kills/Rounds类子盘的异动是毒信号
     # (768条历史胜率0-2%, outcome解析与结算winner语义错位), 全部跳过不产异动
     import re as _re
-    _TOXIC_Q = _re.compile(r"(odd/even|total kills|total rounds|games total|o/u \d|over/under", _re.I)
+    _TOXIC_Q = _re.compile(r"(odd/even|total kills|total rounds|games total|o/u \d|over/under)", _re.I)
     trades = [t for t in trades if not _TOXIC_Q.search(t.get("question") or "")]
     for t in trades:
         px = t.get("price") or 0
