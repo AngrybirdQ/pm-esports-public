@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T12:06:05Z",
+ "ts": "2026-10-21T12:17:21Z",
  "sources": [
   {
    "url": "/tags",
@@ -171,7 +171,7 @@
   "tag_slug=valorant": [
    "Valorant: CGN Esports vs Joblife (BO3) - Project Blender Phase 2 Group",
    "VALORANT Offseason: OXY Next Team",
-   "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang"
+   "Valorant: Dragon Ranger Gaming vs Rare Atom (BO3) - VCT Threshold Chin"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -215,7 +215,7 @@
     "closed": true
    },
    {
-    "t": "Which Dota 2 Teams Will Make a Roster Change Before 2027?",
+    "t": "Dota 2: Team Liquid vs 1win (BO3) - PARI Universe Group A",
     "closed": false
    }
   ],
@@ -310,18 +310,24 @@
  },
  "n_event_queries": 21,
  "events": 412,
- "markets": 332,
+ "markets": 328,
  "markets_dropped_by_volume_floor": 2144,
  "day_file": "data/2026/10/2026-10-21T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 134,
- "trades_watchlist_markets": 100,
- "trades_collected": 3210,
- "anomalies_detected": 75,
- "anomalies_new": 4,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 109,
- "books_rows": 150,
+ "trades_markets_queried": 138,
+ "trades_watchlist_markets": 111,
+ "trades_collected": 3577,
+ "anomalies_detected": 72,
+ "anomalies_new": 7,
+ "history_debug": [
+  {
+   "cid": "0x31d9250b",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 110,
+ "books_rows": 162,
  "status": "ok"
 }
