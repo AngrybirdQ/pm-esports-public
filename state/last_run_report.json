@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T14:20:06Z",
+ "ts": "2026-10-22T14:23:25Z",
  "sources": [
   {
    "url": "/tags",
@@ -141,13 +141,13 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "LoL: Galions vs Solary (BO5) - EMEA Masters Playoffs"
+   "LoL: Galions vs Solary (BO5) - EMEA Masters Playoffs",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Group B",
    "Dota 2: HULIGANI vs Team Lynx (BO3) - EPL Masters Group A",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Team Liquid vs 1win (BO3) - PARI Universe Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -160,8 +160,8 @@
   ],
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "LoL: Galions vs Solary (BO5) - EMEA Masters Playoffs"
+   "LoL: Galions vs Solary (BO5) - EMEA Masters Playoffs",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -311,23 +311,35 @@
   ]
  },
  "n_event_queries": 21,
- "events": 414,
- "markets": 371,
- "markets_dropped_by_volume_floor": 2167,
+ "events": 413,
+ "markets": 377,
+ "markets_dropped_by_volume_floor": 2159,
  "day_file": "data/2026/10/2026-10-22T14.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 161,
  "trades_watchlist_markets": 92,
- "trades_collected": 3279,
- "anomalies_detected": 56,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "4436261643: HTTPError: HTTP Error 404: Not Found",
-  "1039455759: HTTPError: HTTP Error 404: Not Found"
+ "trades_collected": 3395,
+ "anomalies_detected": 57,
+ "anomalies_new": 4,
+ "history_debug": [
+  {
+   "cid": "0x40b7b04b",
+   "pts": 9,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xc7c70665",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x5f614819",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 128,
- "books_rows": 164,
+ "history_conditions_new": 3,
+ "books_markets": 127,
+ "books_rows": 166,
  "status": "ok"
 }
