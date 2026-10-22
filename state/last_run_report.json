@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T09:40:15Z",
+ "ts": "2026-10-22T09:43:53Z",
  "sources": [
   {
    "url": "/tags",
@@ -201,12 +201,12 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Dawn Bulls vs Zero Tenacity (BO3) - EPL Masters Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - PARI Universe Group A",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Dawn Bulls vs Zero Tenacity (BO3) - EPL Masters Group B",
+    "closed": true
    },
    {
     "t": "Dota 2: Power Rangers vs Inner Circle (BO3) - EPL Masters Group A",
@@ -311,25 +311,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 418,
- "markets": 343,
- "markets_dropped_by_volume_floor": 2219,
+ "events": 417,
+ "markets": 341,
+ "markets_dropped_by_volume_floor": 2213,
  "day_file": "data/2026/10/2026-10-22T09.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 117,
+ "trades_markets_queried": 116,
  "trades_watchlist_markets": 75,
- "trades_collected": 1845,
- "anomalies_detected": 2,
- "anomalies_new": 0,
+ "trades_collected": 1849,
+ "anomalies_detected": 3,
+ "anomalies_new": 1,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "7101454131: HTTPError: HTTP Error 404: Not Found",
-  "9966547282: HTTPError: HTTP Error 404: Not Found",
-  "9019574272: HTTPError: HTTP Error 404: Not Found",
-  "1451677905: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 109,
+ "books_markets": 107,
  "books_rows": 192,
  "status": "ok"
 }
