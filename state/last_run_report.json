@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T07:07:36Z",
+ "ts": "2026-10-22T07:10:35Z",
  "sources": [
   {
    "url": "/tags",
@@ -146,8 +146,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A",
-   "Dota 2: Stray Team vs Rostik Team (BO3) - BetBoom Streamers Battle Gro"
+   "Dota 2: Team Yandex vs GamerLegion (BO3) - PARI Universe Group A",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -310,17 +310,33 @@
  },
  "n_event_queries": 21,
  "events": 417,
- "markets": 303,
- "markets_dropped_by_volume_floor": 2182,
+ "markets": 307,
+ "markets_dropped_by_volume_floor": 2185,
  "day_file": "data/2026/10/2026-10-22T07.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 89,
+ "trades_markets_queried": 88,
  "trades_watchlist_markets": 53,
- "trades_collected": 920,
+ "trades_collected": 921,
  "anomalies_detected": 10,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "history_debug": [
+  {
+   "cid": "0x95ad6ef5",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xc01e72f8",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x49c75c17",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 3,
  "books_markets": 79,
  "books_rows": 158,
  "status": "ok"
