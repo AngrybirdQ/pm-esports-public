@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T13:24:13Z",
+ "ts": "2026-10-22T13:27:15Z",
  "sources": [
   {
    "url": "/tags",
@@ -69,7 +69,7 @@
   {
    "url": "tag_slug=starcraft-2",
    "ok": true,
-   "events_returned": 7,
+   "events_returned": 6,
    "err": null
   },
   {
@@ -161,7 +161,7 @@
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
+   "LoL: Galions vs Solary (BO5) - EMEA Masters Playoffs"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -175,8 +175,8 @@
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
-   "StarCraft II: Reynor vs Rogue (BO3) - IntoTheTV x SOOP SC2 League Prem",
-   "StarCraft II: Zoun vs Neeb (BO3) - IntoTheTV x SOOP SC2 League Premier"
+   "StarCraft II: Zoun vs Neeb (BO3) - IntoTheTV x SOOP SC2 League Premier",
+   "StarCraft II: Clem vs Classic (BO3) - IntoTheTV x SOOP SC2 League Prem"
   ],
   "tag_slug=international-affairs": [
    "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
@@ -217,8 +217,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Yellow Submarine vs TheBot$ (BO3) - EPL Masters Group B",
-    "closed": true
+    "t": "Dota 2: HULIGANI vs Team Lynx (BO3) - EPL Masters Group A",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -311,19 +311,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 414,
- "markets": 357,
- "markets_dropped_by_volume_floor": 2159,
+ "events": 413,
+ "markets": 362,
+ "markets_dropped_by_volume_floor": 2154,
  "day_file": "data/2026/10/2026-10-22T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 145,
+ "trades_markets_queried": 154,
  "trades_watchlist_markets": 92,
- "trades_collected": 3020,
+ "trades_collected": 3415,
  "anomalies_detected": 4,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 123,
- "books_rows": 188,
+ "history_debug": [
+  {
+   "cid": "0x0b73896f",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 129,
+ "books_rows": 196,
  "status": "ok"
 }
