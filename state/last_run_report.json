@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T10:41:56Z",
+ "ts": "2026-10-22T10:45:51Z",
  "sources": [
   {
    "url": "/tags",
@@ -147,7 +147,7 @@
   "tag_slug=dota-2": [
    "Dota 2: Team Yandex vs GamerLegion (BO3) - PARI Universe Group A",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: Inner Circle vs salamit (BO3) - EPL Masters Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -169,9 +169,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
+   "Valorant: KeepBest Gaming vs Wolves Esports (BO3) - VCT Threshold Chin",
    "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
-   "VALORANT Offseason: OXY Next Team",
-   "Valorant: KeepBest Gaming vs Wolves Esports (BO3) - VCT Threshold Chin"
+   "VALORANT Offseason: OXY Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -213,11 +213,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Power Rangers vs Inner Circle (BO3) - EPL Masters Group A",
+    "t": "Dota 2: Yellow Submarine vs TheBot$ (BO3) - EPL Masters Group B",
     "closed": true
    },
    {
-    "t": "Dota 2: Yellow Submarine vs TheBot$ (BO3) - EPL Masters Group B",
+    "t": "Dota 2: Power Rangers vs Inner Circle (BO3) - EPL Masters Group A",
     "closed": true
    }
   ],
@@ -312,28 +312,18 @@
  },
  "n_event_queries": 21,
  "events": 416,
- "markets": 345,
- "markets_dropped_by_volume_floor": 2179,
+ "markets": 340,
+ "markets_dropped_by_volume_floor": 2168,
  "day_file": "data/2026/10/2026-10-22T10.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 125,
  "trades_watchlist_markets": 75,
- "trades_collected": 2221,
- "anomalies_detected": 25,
- "anomalies_new": 0,
+ "trades_collected": 2216,
+ "anomalies_detected": 21,
+ "anomalies_new": 10,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "7823504145: HTTPError: HTTP Error 404: Not Found",
-  "1176315770: HTTPError: HTTP Error 404: Not Found",
-  "3100854425: HTTPError: HTTP Error 404: Not Found",
-  "1070608724: HTTPError: HTTP Error 404: Not Found",
-  "1007806004: HTTPError: HTTP Error 404: Not Found",
-  "7945246121: HTTPError: HTTP Error 404: Not Found",
-  "8375739581: HTTPError: HTTP Error 404: Not Found",
-  "1058356633: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 110,
- "books_rows": 194,
+ "books_markets": 106,
+ "books_rows": 192,
  "status": "ok"
 }
