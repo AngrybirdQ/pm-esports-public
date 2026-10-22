@@ -1,15 +1,43 @@
 {
- "ts": "2026-10-21T01:50:05Z",
+ "ts": "2026-10-22T04:55:23Z",
  "sources": [],
- "errors": [
-  "sensor: error: missing ), unterminated subpattern at position 0"
- ],
+ "errors": [],
  "stage": "flow",
- "markets": 262,
- "trades_markets_queried": 33,
+ "markets": 295,
+ "trades_markets_queried": 42,
  "trades_watchlist_markets": 0,
- "trades_collected": 232,
+ "trades_collected": 241,
+ "anomalies_detected": 0,
+ "anomalies_new": 0,
+ "history_debug": [
+  {
+   "cid": "0x6b4b0f6a",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xef4d0e6d",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xcfb7f1e1",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xfb5be0cc",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x9fc60cee",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 5,
  "books_markets": 20,
- "books_rows": 36,
+ "books_rows": 40,
  "status": "ok"
 }
