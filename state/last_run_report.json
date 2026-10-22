@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T13:07:46Z",
+ "ts": "2026-10-22T13:11:16Z",
  "sources": [
   {
    "url": "/tags",
@@ -318,48 +318,12 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 146,
  "trades_watchlist_markets": 92,
- "trades_collected": 3078,
+ "trades_collected": 3113,
  "anomalies_detected": 4,
- "anomalies_new": 4,
- "history_debug": [
-  {
-   "cid": "0x90f1173e",
-   "pts": 3,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x59a6402a",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x7e65eb0c",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x6ae8e9d4",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x6a8aac9d",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x3d87594b",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x4b4baad2",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 7,
+ "anomalies_new": 0,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 124,
- "books_rows": 198,
+ "books_rows": 196,
  "status": "ok"
 }
