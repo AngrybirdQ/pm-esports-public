@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T13:11:16Z",
+ "ts": "2026-10-22T13:14:37Z",
  "sources": [
   {
    "url": "/tags",
@@ -170,8 +170,8 @@
   ],
   "tag_slug=valorant": [
    "Valorant: Nova Esports vs Any Questions Gaming (BO3) - VCT Threshold C",
-   "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
-   "VALORANT Offseason: OXY Next Team"
+   "Valorant: CGN Esports vs Habos Babos (BO3) - Project Blender Phase 2 G",
+   "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -311,19 +311,35 @@
   ]
  },
  "n_event_queries": 21,
- "events": 413,
- "markets": 356,
- "markets_dropped_by_volume_floor": 2133,
+ "events": 414,
+ "markets": 359,
+ "markets_dropped_by_volume_floor": 2159,
  "day_file": "data/2026/10/2026-10-22T13.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 146,
  "trades_watchlist_markets": 92,
- "trades_collected": 3113,
+ "trades_collected": 3128,
  "anomalies_detected": 4,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "history_debug": [
+  {
+   "cid": "0xb3a4cf2a",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x521d68c4",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x92f910be",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 3,
  "books_markets": 124,
- "books_rows": 196,
+ "books_rows": 194,
  "status": "ok"
 }
