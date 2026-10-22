@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T10:38:44Z",
+ "ts": "2026-10-22T10:41:56Z",
  "sources": [
   {
    "url": "/tags",
@@ -271,12 +271,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: Team George vs Natus Vincere (BO3) - Project Blender Phase 2",
-    "closed": true
-   },
-   {
     "t": "Valorant: KeepBest Gaming vs Wolves Esports (BO3) - VCT Threshold Chin",
     "closed": false
+   },
+   {
+    "t": "Valorant: Team George vs Natus Vincere (BO3) - Project Blender Phase 2",
+    "closed": true
    },
    {
     "t": "Valorant: Dragon Ranger Gaming vs Rare Atom (BO3) - VCT Threshold Chin",
@@ -318,12 +318,22 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 125,
  "trades_watchlist_markets": 75,
- "trades_collected": 2156,
+ "trades_collected": 2221,
  "anomalies_detected": 25,
- "anomalies_new": 7,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "7823504145: HTTPError: HTTP Error 404: Not Found",
+  "1176315770: HTTPError: HTTP Error 404: Not Found",
+  "3100854425: HTTPError: HTTP Error 404: Not Found",
+  "1070608724: HTTPError: HTTP Error 404: Not Found",
+  "1007806004: HTTPError: HTTP Error 404: Not Found",
+  "7945246121: HTTPError: HTTP Error 404: Not Found",
+  "8375739581: HTTPError: HTTP Error 404: Not Found",
+  "1058356633: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 110,
- "books_rows": 196,
+ "books_rows": 194,
  "status": "ok"
 }
