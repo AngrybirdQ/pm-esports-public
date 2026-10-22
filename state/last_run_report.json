@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T11:34:35Z",
+ "ts": "2026-10-22T13:07:46Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 34,
+   "events_returned": 33,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 54,
+   "events_returned": 51,
    "err": null
   },
   {
@@ -142,11 +142,11 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
+   "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Group B"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Inner Circle vs salamit (BO3) - EPL Masters Group A",
    "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Group B",
+   "Dota 2: HULIGANI vs Team Lynx (BO3) - EPL Masters Group A",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
@@ -169,14 +169,14 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: KeepBest Gaming vs Wolves Esports (BO3) - VCT Threshold Chin",
+   "Valorant: Nova Esports vs Any Questions Gaming (BO3) - VCT Threshold C",
    "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
    "VALORANT Offseason: OXY Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
-   "StarCraft II: Clem vs Classic (BO3) - IntoTheTV x SOOP SC2 League Prem",
-   "StarCraft II: SHIN vs GuMiHo (BO3) - IntoTheTV x SOOP SC2 League Premi"
+   "StarCraft II: Reynor vs Rogue (BO3) - IntoTheTV x SOOP SC2 League Prem",
+   "StarCraft II: Zoun vs Neeb (BO3) - IntoTheTV x SOOP SC2 League Premier"
   ],
   "tag_slug=international-affairs": [
    "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
@@ -205,6 +205,10 @@
     "closed": true
    },
    {
+    "t": "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Group B",
+    "closed": false
+   },
+   {
     "t": "Dota 2: Dawn Bulls vs Zero Tenacity (BO3) - EPL Masters Group B",
     "closed": true
    },
@@ -215,10 +219,6 @@
    {
     "t": "Dota 2: Yellow Submarine vs TheBot$ (BO3) - EPL Masters Group B",
     "closed": true
-   },
-   {
-    "t": "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Group B",
-    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -267,24 +267,24 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: CGN Esports vs Joblife (BO3) - Project Blender Phase 2 Group",
-    "closed": true
+    "t": "Valorant: Nova Esports vs Any Questions Gaming (BO3) - VCT Threshold C",
+    "closed": false
    },
    {
     "t": "Valorant: KeepBest Gaming vs Wolves Esports (BO3) - VCT Threshold Chin",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Team George vs Natus Vincere (BO3) - Project Blender Phase 2",
     "closed": true
    },
    {
-    "t": "Valorant: Eternal Fire vs Blezz (BO3) - Project Blender Phase 2 Group ",
-    "closed": true
-   },
-   {
     "t": "Valorant: CGN Esports vs Habos Babos (BO3) - Project Blender Phase 2 G",
     "closed": false
+   },
+   {
+    "t": "Valorant: CGN Esports vs Joblife (BO3) - Project Blender Phase 2 Group",
+    "closed": true
    }
   ],
   "search:The International": [
@@ -311,19 +311,55 @@
   ]
  },
  "n_event_queries": 21,
- "events": 415,
- "markets": 344,
- "markets_dropped_by_volume_floor": 2168,
- "day_file": "data/2026/10/2026-10-22T11.jsonl",
+ "events": 413,
+ "markets": 356,
+ "markets_dropped_by_volume_floor": 2133,
+ "day_file": "data/2026/10/2026-10-22T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 145,
- "trades_watchlist_markets": 113,
- "trades_collected": 2583,
- "anomalies_detected": 23,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_markets_queried": 146,
+ "trades_watchlist_markets": 92,
+ "trades_collected": 3078,
+ "anomalies_detected": 4,
+ "anomalies_new": 4,
+ "history_debug": [
+  {
+   "cid": "0x90f1173e",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x59a6402a",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x7e65eb0c",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x6ae8e9d4",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x6a8aac9d",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x3d87594b",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x4b4baad2",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 7,
  "books_markets": 124,
- "books_rows": 192,
+ "books_rows": 198,
  "status": "ok"
 }
