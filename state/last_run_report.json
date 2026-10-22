@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T15:10:47Z",
+ "ts": "2026-10-22T15:14:25Z",
  "sources": [
   {
    "url": "/tags",
@@ -205,12 +205,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Liquid vs 1win (BO3) - PARI Universe Group A",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Group B",
+    "closed": true
    },
    {
     "t": "Dota 2: salamit vs HULIGANI (BO3) - EPL Masters Group A",
@@ -312,18 +312,28 @@
  },
  "n_event_queries": 21,
  "events": 411,
- "markets": 374,
- "markets_dropped_by_volume_floor": 2161,
+ "markets": 380,
+ "markets_dropped_by_volume_floor": 2151,
  "day_file": "data/2026/10/2026-10-22T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 191,
+ "trades_markets_queried": 196,
  "trades_watchlist_markets": 158,
- "trades_collected": 4173,
- "anomalies_detected": 70,
- "anomalies_new": 12,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 152,
- "books_rows": 200,
+ "trades_collected": 4485,
+ "anomalies_detected": 55,
+ "anomalies_new": 4,
+ "history_debug": [
+  {
+   "cid": "0x62e9276d",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_errors": [
+  "1040987188: HTTPError: HTTP Error 404: Not Found",
+  "7550313313: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 151,
+ "books_rows": 206,
  "status": "ok"
 }
