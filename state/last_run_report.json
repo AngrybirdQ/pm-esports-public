@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T08:00:52Z",
+ "ts": "2026-10-22T08:03:40Z",
  "sources": [
   {
    "url": "/tags",
@@ -69,7 +69,7 @@
   {
    "url": "tag_slug=starcraft-2",
    "ok": true,
-   "events_returned": 1,
+   "events_returned": 7,
    "err": null
   },
   {
@@ -174,7 +174,9 @@
    "VALORANT Offseason: primmie Next Team"
   ],
   "tag_slug=starcraft-2": [
-   "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
+   "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
+   "StarCraft II: Clem vs Classic (BO3) - IntoTheTV x SOOP SC2 League Prem",
+   "StarCraft II: SHIN vs GuMiHo (BO3) - IntoTheTV x SOOP SC2 League Premi"
   ],
   "tag_slug=international-affairs": [
    "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
@@ -309,16 +311,16 @@
   ]
  },
  "n_event_queries": 21,
- "events": 416,
+ "events": 422,
  "markets": 316,
- "markets_dropped_by_volume_floor": 2189,
+ "markets_dropped_by_volume_floor": 2215,
  "day_file": "data/2026/10/2026-10-22T08.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 96,
  "trades_watchlist_markets": 66,
- "trades_collected": 1134,
+ "trades_collected": 1191,
  "anomalies_detected": 12,
- "anomalies_new": 11,
+ "anomalies_new": 4,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 91,
