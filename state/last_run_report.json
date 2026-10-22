@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T10:28:51Z",
+ "ts": "2026-10-22T10:32:02Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 55,
+   "events_returned": 54,
    "err": null
   },
   {
@@ -311,19 +311,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 417,
- "markets": 345,
- "markets_dropped_by_volume_floor": 2174,
+ "events": 416,
+ "markets": 343,
+ "markets_dropped_by_volume_floor": 2181,
  "day_file": "data/2026/10/2026-10-22T10.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 123,
  "trades_watchlist_markets": 75,
- "trades_collected": 2165,
- "anomalies_detected": 28,
- "anomalies_new": 0,
+ "trades_collected": 2159,
+ "anomalies_detected": 22,
+ "anomalies_new": 22,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 110,
+ "books_markets": 108,
  "books_rows": 194,
  "status": "ok"
 }
