@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T15:24:56Z",
+ "ts": "2026-10-22T15:28:36Z",
  "sources": [
   {
    "url": "/tags",
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "LoL: Galions vs Solary (BO5) - EMEA Masters Playoffs",
-   "Worlds 2026 Winning Region"
+   "Dota 2: Team Liquid vs 1win (BO3) - PARI Universe Group A"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Liquid vs 1win (BO3) - PARI Universe Group A",
@@ -312,24 +312,18 @@
  },
  "n_event_queries": 21,
  "events": 411,
- "markets": 382,
- "markets_dropped_by_volume_floor": 2153,
+ "markets": 379,
+ "markets_dropped_by_volume_floor": 2161,
  "day_file": "data/2026/10/2026-10-22T15.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 199,
  "trades_watchlist_markets": 158,
- "trades_collected": 4514,
- "anomalies_detected": 65,
- "anomalies_new": 4,
+ "trades_collected": 4363,
+ "anomalies_detected": 61,
+ "anomalies_new": 11,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1001581896: HTTPError: HTTP Error 404: Not Found",
-  "9750180609: HTTPError: HTTP Error 404: Not Found",
-  "9123859740: HTTPError: HTTP Error 404: Not Found",
-  "3264962149: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 153,
- "books_rows": 202,
+ "books_markets": 150,
+ "books_rows": 196,
  "status": "ok"
 }
