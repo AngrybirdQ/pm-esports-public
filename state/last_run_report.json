@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T18:55:19Z",
+ "ts": "2026-10-22T18:58:31Z",
  "sources": [
   {
    "url": "/tags",
@@ -147,7 +147,7 @@
   "tag_slug=dota-2": [
    "Dota 2: PARIVISION vs Astra Invicta (BO3) - PARI Universe Group B",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: TheBot$ vs Zero Tenacity (BO3) - EPL Masters Group B"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -312,18 +312,29 @@
  },
  "n_event_queries": 21,
  "events": 406,
- "markets": 306,
- "markets_dropped_by_volume_floor": 2005,
+ "markets": 307,
+ "markets_dropped_by_volume_floor": 2011,
  "day_file": "data/2026/10/2026-10-22T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 119,
+ "trades_markets_queried": 118,
  "trades_watchlist_markets": 80,
- "trades_collected": 2387,
- "anomalies_detected": 0,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 93,
- "books_rows": 138,
+ "trades_collected": 2267,
+ "anomalies_detected": 1,
+ "anomalies_new": 1,
+ "history_debug": [
+  {
+   "cid": "0xe6372cda",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x36edf7cf",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_markets": 91,
+ "books_rows": 136,
  "status": "ok"
 }
