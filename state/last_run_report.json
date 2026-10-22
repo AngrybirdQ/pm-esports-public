@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T19:01:37Z",
+ "ts": "2026-10-22T19:09:48Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 29,
+   "events_returned": 33,
    "err": null
   },
   {
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 60,
+   "events_returned": 59,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 47,
+   "events_returned": 48,
    "err": null
   },
   {
@@ -140,14 +140,14 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: Galions vs Solary (BO5) - EMEA Masters Playoffs",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "Dota 2: PARIVISION vs Astra Invicta (BO3) - PARI Universe Group B"
   ],
   "tag_slug=dota-2": [
    "Dota 2: PARIVISION vs Astra Invicta (BO3) - PARI Universe Group B",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: TheBot$ vs Zero Tenacity (BO3) - EPL Masters Group B"
+   "Dota 2: TheBot$ vs Zero Tenacity (BO3) - EPL Masters Group B",
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -159,9 +159,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: Galions vs Solary (BO5) - EMEA Masters Playoffs",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -170,7 +170,7 @@
   ],
   "tag_slug=valorant": [
    "Valorant: Blezz vs Natus Vincere (BO3) - Project Blender Phase 2 Group",
-   "Valorant: Eternal Fire vs Team George (BO3) - Project Blender Phase 2 ",
+   "Valorant: FENNEL Female vs MIBR GC (BO3) - VCT Game Changers Champions",
    "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang"
   ],
   "tag_slug=starcraft-2": [
@@ -249,6 +249,10 @@
     "closed": false
    },
    {
+    "t": "Will Jynxzi reach Gold rank in League of Legends by...?",
+    "closed": false
+   },
+   {
     "t": "LoL: Dplus KIA Challengers vs KT Rolster Challengers (BO5) - LCK Chall",
     "closed": true
    },
@@ -258,10 +262,6 @@
    },
    {
     "t": "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO5) - LCK Challengers",
-    "closed": true
-   },
-   {
-    "t": "LoL: DN SOOPers Challengers vs Nongshim Esports Academy (BO5) - LCK Ch",
     "closed": true
    }
   ],
@@ -284,7 +284,7 @@
    },
    {
     "t": "Valorant: Eternal Fire vs Team George (BO3) - Project Blender Phase 2 ",
-    "closed": false
+    "closed": true
    }
   ],
   "search:The International": [
@@ -311,19 +311,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 406,
- "markets": 307,
- "markets_dropped_by_volume_floor": 2011,
+ "events": 412,
+ "markets": 305,
+ "markets_dropped_by_volume_floor": 2092,
  "day_file": "data/2026/10/2026-10-22T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 118,
+ "trades_markets_queried": 120,
  "trades_watchlist_markets": 80,
- "trades_collected": 2245,
- "anomalies_detected": 1,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 91,
+ "trades_collected": 2283,
+ "anomalies_detected": 2,
+ "anomalies_new": 1,
+ "history_debug": [
+  {
+   "cid": "0x231a2141",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 89,
  "books_rows": 132,
  "status": "ok"
 }
