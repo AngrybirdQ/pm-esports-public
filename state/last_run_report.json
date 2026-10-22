@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T08:03:40Z",
+ "ts": "2026-10-22T09:37:22Z",
  "sources": [
   {
    "url": "/tags",
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
+   "Dota 2: Team Yandex vs GamerLegion (BO3) - PARI Universe Group A"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Yandex vs GamerLegion (BO3) - PARI Universe Group A",
@@ -205,6 +205,10 @@
     "closed": true
    },
    {
+    "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - PARI Universe Group A",
+    "closed": false
+   },
+   {
     "t": "Dota 2: Power Rangers vs Inner Circle (BO3) - EPL Masters Group A",
     "closed": true
    },
@@ -215,10 +219,6 @@
    {
     "t": "Dota 2: Yellow Submarine vs TheBot$ (BO3) - EPL Masters Group B",
     "closed": true
-   },
-   {
-    "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - PARI Universe Group A",
-    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -311,19 +311,50 @@
   ]
  },
  "n_event_queries": 21,
- "events": 422,
- "markets": 316,
- "markets_dropped_by_volume_floor": 2215,
- "day_file": "data/2026/10/2026-10-22T08.jsonl",
+ "events": 418,
+ "markets": 343,
+ "markets_dropped_by_volume_floor": 2219,
+ "day_file": "data/2026/10/2026-10-22T09.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 96,
- "trades_watchlist_markets": 66,
- "trades_collected": 1191,
- "anomalies_detected": 12,
- "anomalies_new": 4,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 91,
- "books_rows": 176,
+ "trades_markets_queried": 117,
+ "trades_watchlist_markets": 75,
+ "trades_collected": 1840,
+ "anomalies_detected": 2,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0x077c4777",
+   "pts": 6,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x70b5a29f",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xdb2158f0",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x7acc44e5",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xa64839cd",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x2e19a0fa",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 6,
+ "books_markets": 109,
+ "books_rows": 194,
  "status": "ok"
 }
