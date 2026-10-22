@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T11:24:15Z",
+ "ts": "2026-10-22T11:26:48Z",
  "sources": [
   {
    "url": "/tags",
@@ -146,8 +146,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Inner Circle vs salamit (BO3) - EPL Masters Group A",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Group B",
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -217,8 +217,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Power Rangers vs Inner Circle (BO3) - EPL Masters Group A",
-    "closed": true
+    "t": "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Group B",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -283,8 +283,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: Dragon Ranger Gaming vs Rare Atom (BO3) - VCT Threshold Chin",
-    "closed": true
+    "t": "Valorant: CGN Esports vs Habos Babos (BO3) - Project Blender Phase 2 G",
+    "closed": false
    }
   ],
   "search:The International": [
@@ -312,17 +312,23 @@
  },
  "n_event_queries": 21,
  "events": 415,
- "markets": 343,
- "markets_dropped_by_volume_floor": 2160,
+ "markets": 344,
+ "markets_dropped_by_volume_floor": 2167,
  "day_file": "data/2026/10/2026-10-22T11.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 145,
  "trades_watchlist_markets": 113,
- "trades_collected": 2589,
- "anomalies_detected": 30,
- "anomalies_new": 30,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_collected": 2594,
+ "anomalies_detected": 35,
+ "anomalies_new": 8,
+ "history_debug": [
+  {
+   "cid": "0x97dc5101",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 124,
  "books_rows": 198,
  "status": "ok"
