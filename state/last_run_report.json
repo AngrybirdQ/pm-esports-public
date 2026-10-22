@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T11:07:26Z",
+ "ts": "2026-10-22T11:10:56Z",
  "sources": [
   {
    "url": "/tags",
@@ -202,7 +202,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - PARI Universe Group A",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Dawn Bulls vs Zero Tenacity (BO3) - EPL Masters Group B",
@@ -318,12 +318,16 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 126,
  "trades_watchlist_markets": 75,
- "trades_collected": 2279,
- "anomalies_detected": 25,
- "anomalies_new": 10,
+ "trades_collected": 2320,
+ "anomalies_detected": 23,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "4117406810: HTTPError: HTTP Error 404: Not Found",
+  "1147668172: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 105,
- "books_rows": 186,
+ "books_rows": 182,
  "status": "ok"
 }
