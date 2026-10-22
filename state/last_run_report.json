@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T17:04:47Z",
+ "ts": "2026-10-22T18:38:28Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 31,
+   "events_returned": 29,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 48,
+   "events_returned": 47,
    "err": null
   },
   {
@@ -142,12 +142,12 @@
   "tag_slug=esports": [
    "LoL: Galions vs Solary (BO5) - EMEA Masters Playoffs",
    "Worlds 2026: Winner",
-   "Dota 2: Team Liquid vs 1win (BO3) - PARI Universe Group A"
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Team Liquid vs 1win (BO3) - PARI Universe Group A",
-   "Dota 2: CyberHero vs Yellow Submarine (BO3) - EPL Masters Group B",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: PARIVISION vs Astra Invicta (BO3) - PARI Universe Group B",
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -170,8 +170,8 @@
   ],
   "tag_slug=valorant": [
    "Valorant: Blezz vs Natus Vincere (BO3) - Project Blender Phase 2 Group",
-   "Valorant: CGN Esports vs Habos Babos (BO3) - Project Blender Phase 2 G",
-   "Valorant: Eternal Fire vs Team George (BO3) - Project Blender Phase 2 "
+   "Valorant: Eternal Fire vs Team George (BO3) - Project Blender Phase 2 ",
+   "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -202,7 +202,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: Team Liquid vs 1win (BO3) - PARI Universe Group A",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - PARI Universe Group A",
@@ -213,11 +213,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: HULIGANI vs Team Lynx (BO3) - EPL Masters Group A",
-    "closed": true
+    "t": "Dota 2: PARIVISION vs Astra Invicta (BO3) - PARI Universe Group B",
+    "closed": false
    },
    {
-    "t": "Dota 2: Yellow Submarine vs TheBot$ (BO3) - EPL Masters Group B",
+    "t": "Dota 2: CyberHero vs Yellow Submarine (BO3) - EPL Masters Group B",
     "closed": true
    }
   ],
@@ -280,7 +280,7 @@
    },
    {
     "t": "Valorant: CGN Esports vs Habos Babos (BO3) - Project Blender Phase 2 G",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Eternal Fire vs Team George (BO3) - Project Blender Phase 2 ",
@@ -311,23 +311,45 @@
   ]
  },
  "n_event_queries": 21,
- "events": 410,
- "markets": 377,
- "markets_dropped_by_volume_floor": 2087,
- "day_file": "data/2026/10/2026-10-22T17.jsonl",
+ "events": 407,
+ "markets": 312,
+ "markets_dropped_by_volume_floor": 2012,
+ "day_file": "data/2026/10/2026-10-22T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 189,
- "trades_watchlist_markets": 138,
- "trades_collected": 3997,
- "anomalies_detected": 59,
- "anomalies_new": 4,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "9574155280: HTTPError: HTTP Error 404: Not Found",
-  "7611133731: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 118,
+ "trades_watchlist_markets": 80,
+ "trades_collected": 2550,
+ "anomalies_detected": 0,
+ "anomalies_new": 0,
+ "history_debug": [
+  {
+   "cid": "0xa5e25bf2",
+   "pts": 9,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x679f03f9",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x0061902f",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x9ee4fd2c",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xbe2e0748",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 152,
- "books_rows": 162,
+ "history_conditions_new": 5,
+ "books_markets": 96,
+ "books_rows": 150,
  "status": "ok"
 }
