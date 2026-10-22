@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T15:31:56Z",
+ "ts": "2026-10-22T15:40:10Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 32,
+   "events_returned": 31,
    "err": null
   },
   {
@@ -146,8 +146,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Liquid vs 1win (BO3) - PARI Universe Group A",
-   "Dota 2: HULIGANI vs Team Lynx (BO3) - EPL Masters Group A",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -218,7 +218,7 @@
    },
    {
     "t": "Dota 2: HULIGANI vs Team Lynx (BO3) - EPL Masters Group A",
-    "closed": false
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -311,19 +311,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 411,
- "markets": 379,
- "markets_dropped_by_volume_floor": 2161,
+ "events": 410,
+ "markets": 385,
+ "markets_dropped_by_volume_floor": 2156,
  "day_file": "data/2026/10/2026-10-22T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 199,
+ "trades_markets_queried": 209,
  "trades_watchlist_markets": 158,
- "trades_collected": 4277,
- "anomalies_detected": 61,
- "anomalies_new": 61,
+ "trades_collected": 4390,
+ "anomalies_detected": 70,
+ "anomalies_new": 17,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 150,
- "books_rows": 196,
+ "books_markets": 157,
+ "books_rows": 192,
  "status": "ok"
 }
