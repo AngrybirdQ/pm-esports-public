@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T19:52:32Z",
+ "ts": "2026-10-22T20:00:26Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 47,
+   "events_returned": 48,
    "err": null
   },
   {
@@ -133,7 +133,9 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "trades 0x3e1c1565: HTTPError: HTTP Error 429: Too Many Requests"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -275,16 +277,16 @@
     "closed": true
    },
    {
+    "t": "Valorant: FENNEL Female vs MIBR GC (BO3) - VCT Game Changers Champions",
+    "closed": false
+   },
+   {
     "t": "Valorant: KeepBest Gaming vs Wolves Esports (BO3) - VCT Threshold Chin",
     "closed": true
    },
    {
     "t": "Valorant: CGN Esports vs Habos Babos (BO3) - Project Blender Phase 2 G",
     "closed": true
-   },
-   {
-    "t": "Valorant: FENNEL Female vs MIBR GC (BO3) - VCT Game Changers Champions",
-    "closed": false
    }
   ],
   "search:The International": [
@@ -311,19 +313,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 415,
- "markets": 290,
- "markets_dropped_by_volume_floor": 2135,
- "day_file": "data/2026/10/2026-10-22T19.jsonl",
+ "events": 417,
+ "markets": 291,
+ "markets_dropped_by_volume_floor": 2143,
+ "day_file": "data/2026/10/2026-10-22T20.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 116,
+ "trades_markets_queried": 117,
  "trades_watchlist_markets": 80,
- "trades_collected": 1813,
- "anomalies_detected": 32,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 84,
+ "trades_collected": 1645,
+ "anomalies_detected": 44,
+ "anomalies_new": 44,
+ "history_debug": [
+  {
+   "cid": "0xac36409e",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 85,
  "books_rows": 126,
  "status": "ok"
 }
