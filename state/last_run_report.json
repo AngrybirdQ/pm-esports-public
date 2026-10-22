@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T14:06:16Z",
+ "ts": "2026-10-22T14:09:53Z",
  "sources": [
   {
    "url": "/tags",
@@ -69,7 +69,7 @@
   {
    "url": "tag_slug=starcraft-2",
    "ok": true,
-   "events_returned": 7,
+   "events_returned": 6,
    "err": null
   },
   {
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Group B"
+   "LoL: Galions vs Solary (BO5) - EMEA Masters Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Group B",
@@ -175,8 +175,8 @@
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
-   "StarCraft II: Zoun vs Neeb (BO3) - IntoTheTV x SOOP SC2 League Premier",
-   "StarCraft II: Rogue vs Zoun (BO5) - IntoTheTV x SOOP SC2 League Premie"
+   "StarCraft II: Rogue vs Zoun (BO5) - IntoTheTV x SOOP SC2 League Premie",
+   "StarCraft II: Clem vs Classic (BO3) - IntoTheTV x SOOP SC2 League Prem"
   ],
   "tag_slug=international-affairs": [
    "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
@@ -312,22 +312,29 @@
  },
  "n_event_queries": 21,
  "events": 414,
- "markets": 363,
- "markets_dropped_by_volume_floor": 2161,
+ "markets": 371,
+ "markets_dropped_by_volume_floor": 2162,
  "day_file": "data/2026/10/2026-10-22T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 160,
+ "trades_markets_queried": 161,
  "trades_watchlist_markets": 92,
- "trades_collected": 3501,
- "anomalies_detected": 55,
+ "trades_collected": 3296,
+ "anomalies_detected": 57,
  "anomalies_new": 4,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "5866870262: HTTPError: HTTP Error 404: Not Found",
-  "1849490906: HTTPError: HTTP Error 404: Not Found"
+ "history_debug": [
+  {
+   "cid": "0x0fb62d7c",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x8abd4024",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 127,
- "books_rows": 176,
+ "history_conditions_new": 2,
+ "books_markets": 128,
+ "books_rows": 172,
  "status": "ok"
 }
