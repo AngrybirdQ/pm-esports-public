@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T07:41:23Z",
+ "ts": "2026-10-22T07:44:39Z",
  "sources": [
   {
    "url": "/tags",
@@ -145,8 +145,8 @@
    "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
    "Dota 2: Team Yandex vs GamerLegion (BO3) - PARI Universe Group A",
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
    "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
@@ -310,17 +310,23 @@
  },
  "n_event_queries": 21,
  "events": 417,
- "markets": 312,
- "markets_dropped_by_volume_floor": 2189,
+ "markets": 313,
+ "markets_dropped_by_volume_floor": 2194,
  "day_file": "data/2026/10/2026-10-22T07.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 92,
  "trades_watchlist_markets": 53,
- "trades_collected": 974,
- "anomalies_detected": 7,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_collected": 1020,
+ "anomalies_detected": 10,
+ "anomalies_new": 4,
+ "history_debug": [
+  {
+   "cid": "0x62a01461",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 83,
  "books_rows": 162,
  "status": "ok"
