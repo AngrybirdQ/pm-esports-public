@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T15:53:52Z",
+ "ts": "2026-10-22T15:57:20Z",
  "sources": [
   {
    "url": "/tags",
@@ -201,23 +201,23 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - PARI Universe Group A",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Liquid vs 1win (BO3) - PARI Universe Group A",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - PARI Universe Group A",
+    "closed": true
    },
    {
     "t": "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Group B",
     "closed": true
    },
    {
-    "t": "Dota 2: salamit vs HULIGANI (BO3) - EPL Masters Group A",
+    "t": "Dota 2: HULIGANI vs Team Lynx (BO3) - EPL Masters Group A",
     "closed": true
    },
    {
-    "t": "Dota 2: HULIGANI vs Team Lynx (BO3) - EPL Masters Group A",
+    "t": "Dota 2: salamit vs HULIGANI (BO3) - EPL Masters Group A",
     "closed": true
    }
   ],
@@ -267,16 +267,16 @@
   ],
   "search:Valorant": [
    {
+    "t": "Valorant: Blezz vs Natus Vincere (BO3) - Project Blender Phase 2 Group",
+    "closed": false
+   },
+   {
     "t": "Valorant: Nova Esports vs Any Questions Gaming (BO3) - VCT Threshold C",
     "closed": true
    },
    {
     "t": "Valorant: KeepBest Gaming vs Wolves Esports (BO3) - VCT Threshold Chin",
     "closed": true
-   },
-   {
-    "t": "Valorant: Blezz vs Natus Vincere (BO3) - Project Blender Phase 2 Group",
-    "closed": false
    },
    {
     "t": "Valorant: CGN Esports vs Habos Babos (BO3) - Project Blender Phase 2 G",
@@ -318,17 +318,11 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 211,
  "trades_watchlist_markets": 158,
- "trades_collected": 4204,
+ "trades_collected": 4165,
  "anomalies_detected": 80,
- "anomalies_new": 12,
- "history_debug": [
-  {
-   "cid": "0xac7fb661",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
+ "anomalies_new": 0,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 155,
  "books_rows": 178,
  "status": "ok"
