@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-21T22:34:32Z",
+ "ts": "2026-10-22T00:24:58Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 31,
+   "events_returned": 35,
    "err": null
   },
   {
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
+   "Counter-Strike: Eternal Fire vs BC.Game Esports (BO3) - DraculaN Playo"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
@@ -215,7 +215,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Liquid vs 1win (BO3) - PARI Universe Group A",
+    "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - PARI Universe Group A",
     "closed": false
    }
   ],
@@ -273,11 +273,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: Wolves Esports vs A Team (BO3) - VCT Threshold China Week 1",
+    "t": "Valorant: Team George vs Natus Vincere (BO3) - Project Blender Phase 2",
     "closed": true
    },
    {
-    "t": "Valorant: Team George vs Natus Vincere (BO3) - Project Blender Phase 2",
+    "t": "Valorant: Wolves Esports vs A Team (BO3) - VCT Threshold China Week 1",
     "closed": true
    },
    {
@@ -309,19 +309,55 @@
   ]
  },
  "n_event_queries": 21,
- "events": 417,
- "markets": 317,
- "markets_dropped_by_volume_floor": 2036,
- "day_file": "data/2026/10/2026-10-21T22.jsonl",
- "retention_removed_files": 0,
- "trades_markets_queried": 101,
- "trades_watchlist_markets": 52,
- "trades_collected": 1197,
- "anomalies_detected": 18,
+ "events": 418,
+ "markets": 302,
+ "markets_dropped_by_volume_floor": 2083,
+ "day_file": "data/2026/10/2026-10-22T00.jsonl",
+ "retention_removed_files": 117,
+ "trades_markets_queried": 81,
+ "trades_watchlist_markets": 41,
+ "trades_collected": 562,
+ "anomalies_detected": 0,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 54,
- "books_rows": 80,
+ "history_debug": [
+  {
+   "cid": "0xc8c23bb9",
+   "pts": 9,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x5a97235f",
+   "pts": 8,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x5b3c18bb",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x64e04e8f",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xb2903207",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x2f15682b",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x0c3f3b1d",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 7,
+ "books_markets": 61,
+ "books_rows": 96,
  "status": "ok"
 }
