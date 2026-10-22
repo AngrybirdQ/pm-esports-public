@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T20:11:32Z",
+ "ts": "2026-10-22T20:15:14Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 48,
+   "events_returned": 47,
    "err": null
   },
   {
@@ -169,9 +169,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: FENNEL Female vs MIBR GC (BO3) - VCT Game Changers Champions",
    "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
-   "VALORANT Offseason: OXY Next Team"
+   "VALORANT Offseason: OXY Next Team",
+   "Valorant: SK Nebula vs Nova Esports GC (BO3) - VCT Game Changers Champ"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -276,7 +276,7 @@
    },
    {
     "t": "Valorant: FENNEL Female vs MIBR GC (BO3) - VCT Game Changers Champions",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: KeepBest Gaming vs Wolves Esports (BO3) - VCT Threshold Chin",
@@ -311,31 +311,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 417,
- "markets": 294,
- "markets_dropped_by_volume_floor": 2135,
+ "events": 415,
+ "markets": 285,
+ "markets_dropped_by_volume_floor": 2102,
  "day_file": "data/2026/10/2026-10-22T20.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 121,
+ "trades_markets_queried": 118,
  "trades_watchlist_markets": 80,
- "trades_collected": 1903,
- "anomalies_detected": 36,
- "anomalies_new": 0,
+ "trades_collected": 1889,
+ "anomalies_detected": 32,
+ "anomalies_new": 6,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1068870634: HTTPError: HTTP Error 404: Not Found",
-  "2892407600: HTTPError: HTTP Error 404: Not Found",
-  "4162306384: HTTPError: HTTP Error 404: Not Found",
-  "6963421366: HTTPError: HTTP Error 404: Not Found",
-  "8306323885: HTTPError: HTTP Error 404: Not Found",
-  "3932656209: HTTPError: HTTP Error 404: Not Found",
-  "8418704010: HTTPError: HTTP Error 404: Not Found",
-  "3921794741: HTTPError: HTTP Error 404: Not Found",
-  "7789983692: HTTPError: HTTP Error 404: Not Found",
-  "5568406372: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 86,
+ "books_markets": 80,
  "books_rows": 130,
  "status": "ok"
 }
