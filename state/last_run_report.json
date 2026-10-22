@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T19:25:23Z",
+ "ts": "2026-10-22T19:28:42Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 48,
+   "events_returned": 47,
    "err": null
   },
   {
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "Dota 2: PARIVISION vs Astra Invicta (BO3) - PARI Universe Group B"
+   "Dota 2: PARIVISION vs Astra Invicta (BO3) - PARI Universe Group B",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: PARIVISION vs Astra Invicta (BO3) - PARI Universe Group B",
@@ -169,9 +169,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: Blezz vs Natus Vincere (BO3) - Project Blender Phase 2 Group",
    "Valorant: FENNEL Female vs MIBR GC (BO3) - VCT Game Changers Champions",
-   "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang"
+   "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
+   "VALORANT Offseason: OXY Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -209,12 +209,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: PARIVISION vs Astra Invicta (BO3) - PARI Universe Group B",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Group B",
+    "closed": true
    },
    {
     "t": "Dota 2: CyberHero vs Yellow Submarine (BO3) - EPL Masters Group B",
@@ -268,7 +268,7 @@
   "search:Valorant": [
    {
     "t": "Valorant: Blezz vs Natus Vincere (BO3) - Project Blender Phase 2 Group",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Nova Esports vs Any Questions Gaming (BO3) - VCT Threshold C",
@@ -313,21 +313,21 @@
  "n_event_queries": 21,
  "events": 416,
  "markets": 301,
- "markets_dropped_by_volume_floor": 2178,
+ "markets_dropped_by_volume_floor": 2180,
  "day_file": "data/2026/10/2026-10-22T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 117,
+ "trades_markets_queried": 118,
  "trades_watchlist_markets": 80,
- "trades_collected": 2197,
- "anomalies_detected": 41,
- "anomalies_new": 40,
+ "trades_collected": 2190,
+ "anomalies_detected": 39,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "3846465780: HTTPError: HTTP Error 404: Not Found",
-  "3382130667: HTTPError: HTTP Error 404: Not Found"
+  "6097740190: HTTPError: HTTP Error 404: Not Found",
+  "8581808577: HTTPError: HTTP Error 404: Not Found"
  ],
  "books_markets": 86,
- "books_rows": 132,
+ "books_rows": 128,
  "status": "ok"
 }
