@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-23T23:41:55Z",
+ "ts": "2026-10-23T23:45:17Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 54,
+   "events_returned": 53,
    "err": null
   },
   {
@@ -133,7 +133,9 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "trades 0xf1a47841: HTTPError: HTTP Error 429: Too Many Requests"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -141,7 +143,7 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "LoL: Team Liquid vs CTBC Flying Oyster (BO1) - Worlds Group Stage",
+   "LoL: LOS vs T1 (BO1) - Worlds Group Stage",
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
@@ -160,7 +162,7 @@
   ],
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
-   "LoL: Team Liquid vs CTBC Flying Oyster (BO1) - Worlds Group Stage",
+   "LoL: LOS vs T1 (BO1) - Worlds Group Stage",
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
@@ -311,27 +313,19 @@
   ]
  },
  "n_event_queries": 21,
- "events": 407,
- "markets": 337,
+ "events": 406,
+ "markets": 334,
  "markets_dropped_by_volume_floor": 1976,
  "day_file": "data/2026/10/2026-10-23T23.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 110,
+ "trades_markets_queried": 107,
  "trades_watchlist_markets": 75,
- "trades_collected": 1353,
- "anomalies_detected": 2,
- "anomalies_new": 1,
+ "trades_collected": 1369,
+ "anomalies_detected": 0,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1367999685: HTTPError: HTTP Error 404: Not Found",
-  "2938992401: HTTPError: HTTP Error 404: Not Found",
-  "9467403771: HTTPError: HTTP Error 404: Not Found",
-  "2017719945: HTTPError: HTTP Error 404: Not Found",
-  "6253616890: HTTPError: HTTP Error 404: Not Found",
-  "5721077315: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 78,
- "books_rows": 136,
+ "books_markets": 75,
+ "books_rows": 134,
  "status": "ok"
 }
