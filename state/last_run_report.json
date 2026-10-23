@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-23T21:34:39Z",
+ "ts": "2026-10-23T23:06:48Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 33,
+   "events_returned": 37,
    "err": null
   },
   {
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 56,
+   "events_returned": 54,
    "err": null
   },
   {
@@ -140,8 +140,8 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: Anyone's Legend vs Karmine Corp (BO1) - Worlds Group Stage",
    "Worlds 2026: Winner",
+   "LoL: Team Liquid vs CTBC Flying Oyster (BO1) - Worlds Group Stage",
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
@@ -159,8 +159,8 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: Anyone's Legend vs Karmine Corp (BO1) - Worlds Group Stage",
    "Worlds 2026: Winner",
+   "LoL: Team Liquid vs CTBC Flying Oyster (BO1) - Worlds Group Stage",
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
@@ -275,12 +275,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
-    "closed": true
-   },
-   {
     "t": "Valorant: KRÜ Blaze vs Gen.G GC (BO3) - VCT Game Changers Championship",
     "closed": false
+   },
+   {
+    "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
+    "closed": true
    },
    {
     "t": "Valorant: TEC Esports vs Unsettled Resentment (BO3) - VCT Threshold Ch",
@@ -311,19 +311,35 @@
   ]
  },
  "n_event_queries": 21,
- "events": 408,
- "markets": 360,
- "markets_dropped_by_volume_floor": 1954,
- "day_file": "data/2026/10/2026-10-23T21.jsonl",
+ "events": 409,
+ "markets": 349,
+ "markets_dropped_by_volume_floor": 1986,
+ "day_file": "data/2026/10/2026-10-23T23.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 145,
- "trades_watchlist_markets": 107,
- "trades_collected": 2308,
- "anomalies_detected": 45,
- "anomalies_new": 6,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 96,
- "books_rows": 156,
+ "trades_markets_queried": 116,
+ "trades_watchlist_markets": 75,
+ "trades_collected": 1571,
+ "anomalies_detected": 4,
+ "anomalies_new": 4,
+ "history_debug": [
+  {
+   "cid": "0x1cb4289a",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x9062c160",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x0a476624",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 3,
+ "books_markets": 88,
+ "books_rows": 138,
  "status": "ok"
 }
