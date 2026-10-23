@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-23T11:05:45Z",
+ "ts": "2026-10-23T11:09:00Z",
  "sources": [
   {
    "url": "/tags",
@@ -146,8 +146,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: 1win vs OG (BO3) - PARI Universe Group A",
-   "Dota 2: Team Liquid vs GamerLegion (BO3) - PARI Universe Group A",
-   "Dota 2: salamit vs Nemiga Gaming (BO3) - EPL Masters Group A"
+   "Dota 2: salamit vs Nemiga Gaming (BO3) - EPL Masters Group A",
+   "Dota 2: Team Liquid vs GamerLegion (BO3) - PARI Universe Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -312,18 +312,34 @@
  },
  "n_event_queries": 21,
  "events": 412,
- "markets": 324,
- "markets_dropped_by_volume_floor": 2067,
+ "markets": 332,
+ "markets_dropped_by_volume_floor": 2069,
  "day_file": "data/2026/10/2026-10-23T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 107,
+ "trades_markets_queried": 114,
  "trades_watchlist_markets": 72,
- "trades_collected": 1980,
- "anomalies_detected": 0,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 96,
- "books_rows": 156,
+ "trades_collected": 2175,
+ "anomalies_detected": 18,
+ "anomalies_new": 18,
+ "history_debug": [
+  {
+   "cid": "0x891b595e",
+   "pts": 11,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xc1b914a5",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xe8169645",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 3,
+ "books_markets": 99,
+ "books_rows": 160,
  "status": "ok"
 }
