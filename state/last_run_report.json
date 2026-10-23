@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-23T14:04:08Z",
+ "ts": "2026-10-23T14:16:59Z",
  "sources": [
   {
    "url": "/tags",
@@ -169,8 +169,8 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: Eternal Fire vs Eintracht Frankfurt (BO3) - Project Blender ",
    "Valorant: FunPlus Phoenix vs Dragon Ranger Gaming (BO3) - VCT Threshol",
+   "Valorant: Eternal Fire vs Eintracht Frankfurt (BO3) - Project Blender ",
    "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang"
   ],
   "tag_slug=starcraft-2": [
@@ -267,11 +267,11 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: Eternal Fire vs Eintracht Frankfurt (BO3) - Project Blender ",
+    "t": "Valorant: FunPlus Phoenix vs Dragon Ranger Gaming (BO3) - VCT Threshol",
     "closed": false
    },
    {
-    "t": "Valorant: FunPlus Phoenix vs Dragon Ranger Gaming (BO3) - VCT Threshol",
+    "t": "Valorant: Eternal Fire vs Eintracht Frankfurt (BO3) - Project Blender ",
     "closed": false
    },
    {
@@ -312,18 +312,29 @@
  },
  "n_event_queries": 21,
  "events": 410,
- "markets": 350,
- "markets_dropped_by_volume_floor": 2029,
+ "markets": 352,
+ "markets_dropped_by_volume_floor": 2025,
  "day_file": "data/2026/10/2026-10-23T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 142,
- "trades_watchlist_markets": 101,
- "trades_collected": 2638,
- "anomalies_detected": 31,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 108,
- "books_rows": 164,
+ "trades_markets_queried": 132,
+ "trades_watchlist_markets": 92,
+ "trades_collected": 2763,
+ "anomalies_detected": 36,
+ "anomalies_new": 6,
+ "history_debug": [
+  {
+   "cid": "0x094a3d65",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x8ae4d3f8",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_markets": 110,
+ "books_rows": 170,
  "status": "ok"
 }
