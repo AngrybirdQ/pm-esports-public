@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-23T19:56:46Z",
+ "ts": "2026-10-23T20:00:37Z",
  "sources": [
   {
    "url": "/tags",
@@ -213,12 +213,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Synapse vs Dawn Bulls (BO3) - EPL Masters Group B",
-    "closed": true
+    "t": "Dota 2: Inner Circle vs HULIGANI (BO3) - EPL Masters Group A",
+    "closed": false
    },
    {
-    "t": "Dota 2: PARIVISION vs LEGION (BO3) - PARI Universe Group B",
-    "closed": false
+    "t": "Dota 2: Team Synapse vs Dawn Bulls (BO3) - EPL Masters Group B",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -275,15 +275,15 @@
     "closed": true
    },
    {
-    "t": "Valorant: SK Nebula vs Nova Esports GC (BO3) - VCT Game Changers Champ",
-    "closed": true
-   },
-   {
     "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
     "closed": false
    },
    {
     "t": "Valorant: TEC Esports vs Unsettled Resentment (BO3) - VCT Threshold Ch",
+    "closed": true
+   },
+   {
+    "t": "Valorant: SK Nebula vs Nova Esports GC (BO3) - VCT Game Changers Champ",
     "closed": true
    }
   ],
@@ -314,22 +314,16 @@
  "events": 409,
  "markets": 380,
  "markets_dropped_by_volume_floor": 1993,
- "day_file": "data/2026/10/2026-10-23T19.jsonl",
+ "day_file": "data/2026/10/2026-10-23T20.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 141,
  "trades_watchlist_markets": 82,
- "trades_collected": 3307,
- "anomalies_detected": 4,
- "anomalies_new": 3,
- "history_debug": [
-  {
-   "cid": "0x90b546c7",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
+ "trades_collected": 3327,
+ "anomalies_detected": 6,
+ "anomalies_new": 4,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 105,
- "books_rows": 162,
+ "books_rows": 164,
  "status": "ok"
 }
