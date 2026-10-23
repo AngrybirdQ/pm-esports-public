@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-23T19:40:37Z",
+ "ts": "2026-10-23T19:44:16Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 58,
+   "events_returned": 57,
    "err": null
   },
   {
@@ -140,9 +140,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: Hanwha Life Esports vs Top Esports (BO1) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "LoL: Bilibili Gaming vs Movistar KOI (BO1) - Worlds Group Stage"
+   "LoL: Bilibili Gaming vs Movistar KOI (BO1) - Worlds Group Stage",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: PARIVISION vs LEGION (BO3) - PARI Universe Group B",
@@ -159,9 +159,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: Hanwha Life Esports vs Top Esports (BO1) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "LoL: Bilibili Gaming vs Movistar KOI (BO1) - Worlds Group Stage"
+   "LoL: Bilibili Gaming vs Movistar KOI (BO1) - Worlds Group Stage",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -217,8 +217,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: salamit vs Nemiga Gaming (BO3) - EPL Masters Group A",
-    "closed": true
+    "t": "Dota 2: PARIVISION vs LEGION (BO3) - PARI Universe Group B",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -311,19 +311,23 @@
   ]
  },
  "n_event_queries": 21,
- "events": 410,
- "markets": 384,
- "markets_dropped_by_volume_floor": 2019,
+ "events": 409,
+ "markets": 383,
+ "markets_dropped_by_volume_floor": 2013,
  "day_file": "data/2026/10/2026-10-23T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 141,
+ "trades_markets_queried": 140,
  "trades_watchlist_markets": 82,
- "trades_collected": 3658,
+ "trades_collected": 3586,
  "anomalies_detected": 3,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 110,
+ "books_errors": [
+  "8072202825: HTTPError: HTTP Error 404: Not Found",
+  "6048579924: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 109,
  "books_rows": 174,
  "status": "ok"
 }
