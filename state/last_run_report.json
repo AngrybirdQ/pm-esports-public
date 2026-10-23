@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-23T23:26:39Z",
+ "ts": "2026-10-23T23:29:44Z",
  "sources": [
   {
    "url": "/tags",
@@ -214,7 +214,7 @@
    },
    {
     "t": "Dota 2: Inner Circle vs HULIGANI (BO3) - EPL Masters Group A",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Synapse vs Dawn Bulls (BO3) - EPL Masters Group B",
@@ -319,10 +319,18 @@
  "trades_markets_queried": 112,
  "trades_watchlist_markets": 75,
  "trades_collected": 1344,
- "anomalies_detected": 0,
- "anomalies_new": 0,
+ "anomalies_detected": 6,
+ "anomalies_new": 6,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "7833633684: HTTPError: HTTP Error 404: Not Found",
+  "8854569854: HTTPError: HTTP Error 404: Not Found",
+  "8650805709: HTTPError: HTTP Error 404: Not Found",
+  "3243810479: HTTPError: HTTP Error 404: Not Found",
+  "8312200236: HTTPError: HTTP Error 404: Not Found",
+  "6054837860: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 84,
  "books_rows": 138,
  "status": "ok"
