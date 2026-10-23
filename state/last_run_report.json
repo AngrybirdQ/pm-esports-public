@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-23T10:40:26Z",
+ "ts": "2026-10-23T10:43:44Z",
  "sources": [
   {
    "url": "/tags",
@@ -147,7 +147,7 @@
   "tag_slug=dota-2": [
    "Dota 2: 1win vs OG (BO3) - PARI Universe Group A",
    "Dota 2: Team Liquid vs GamerLegion (BO3) - PARI Universe Group A",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: salamit vs Nemiga Gaming (BO3) - EPL Masters Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -170,8 +170,8 @@
   ],
   "tag_slug=valorant": [
    "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
-   "Valorant: CGN Esports vs Natus Vincere (BO3) - Project Blender Phase 2",
-   "Valorant: TEC Esports vs Unsettled Resentment (BO3) - VCT Threshold Ch"
+   "Valorant: TEC Esports vs Unsettled Resentment (BO3) - VCT Threshold Ch",
+   "Valorant: CGN Esports vs Natus Vincere (BO3) - Project Blender Phase 2"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -271,11 +271,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: Nova Esports vs Any Questions Gaming (BO3) - VCT Threshold C",
+    "t": "Valorant: SK Nebula vs Nova Esports GC (BO3) - VCT Game Changers Champ",
     "closed": true
    },
    {
-    "t": "Valorant: SK Nebula vs Nova Esports GC (BO3) - VCT Game Changers Champ",
+    "t": "Valorant: Nova Esports vs Any Questions Gaming (BO3) - VCT Threshold C",
     "closed": true
    },
    {
@@ -311,18 +311,29 @@
   ]
  },
  "n_event_queries": 21,
- "events": 410,
- "markets": 318,
- "markets_dropped_by_volume_floor": 2067,
+ "events": 412,
+ "markets": 321,
+ "markets_dropped_by_volume_floor": 2075,
  "day_file": "data/2026/10/2026-10-23T10.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 105,
  "trades_watchlist_markets": 72,
- "trades_collected": 2123,
+ "trades_collected": 2110,
  "anomalies_detected": 0,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "history_debug": [
+  {
+   "cid": "0x0dbd57d0",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x550e2dae",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
  "books_markets": 94,
  "books_rows": 160,
  "status": "ok"
