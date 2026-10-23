@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-23T19:52:09Z",
+ "ts": "2026-10-23T19:56:46Z",
  "sources": [
   {
    "url": "/tags",
@@ -140,13 +140,13 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Worlds 2026: Winner",
    "LoL: Bilibili Gaming vs Movistar KOI (BO1) - Worlds Group Stage",
+   "Worlds 2026: Winner",
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: PARIVISION vs LEGION (BO3) - PARI Universe Group B",
    "Dota 2: Inner Circle vs HULIGANI (BO3) - EPL Masters Group A",
+   "Dota 2: PARIVISION vs LEGION (BO3) - PARI Universe Group B",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
@@ -159,8 +159,8 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "Worlds 2026: Winner",
    "LoL: Bilibili Gaming vs Movistar KOI (BO1) - Worlds Group Stage",
+   "Worlds 2026: Winner",
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
@@ -312,28 +312,24 @@
  },
  "n_event_queries": 21,
  "events": 409,
- "markets": 382,
- "markets_dropped_by_volume_floor": 2006,
+ "markets": 380,
+ "markets_dropped_by_volume_floor": 1993,
  "day_file": "data/2026/10/2026-10-23T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 139,
+ "trades_markets_queried": 141,
  "trades_watchlist_markets": 82,
- "trades_collected": 3312,
- "anomalies_detected": 1,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "4832025515: HTTPError: HTTP Error 404: Not Found",
-  "1424120951: HTTPError: HTTP Error 404: Not Found",
-  "6555208508: HTTPError: HTTP Error 404: Not Found",
-  "5569265707: HTTPError: HTTP Error 404: Not Found",
-  "1477693619: HTTPError: HTTP Error 404: Not Found",
-  "8620947599: HTTPError: HTTP Error 404: Not Found",
-  "1069964299: HTTPError: HTTP Error 404: Not Found",
-  "6333573425: HTTPError: HTTP Error 404: Not Found"
+ "trades_collected": 3307,
+ "anomalies_detected": 4,
+ "anomalies_new": 3,
+ "history_debug": [
+  {
+   "cid": "0x90b546c7",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 108,
+ "history_conditions_new": 1,
+ "books_markets": 105,
  "books_rows": 162,
  "status": "ok"
 }
