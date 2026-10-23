@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-23T16:53:32Z",
+ "ts": "2026-10-23T16:57:00Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 36,
+   "events_returned": 35,
    "err": null
   },
   {
@@ -146,8 +146,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: BetBoom Team vs Astra Invicta (BO3) - PARI Universe Group B",
-   "Dota 2: Team Synapse vs Dawn Bulls (BO3) - EPL Masters Group B",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -161,7 +161,7 @@
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
+   "LoL: Gen.G vs Invictus Gaming (BO1) - Worlds Group Stage"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -171,7 +171,7 @@
   "tag_slug=valorant": [
    "Valorant: Eternal Fire vs Eintracht Frankfurt (BO3) - Project Blender ",
    "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
-   "VALORANT Offseason: OXY Next Team"
+   "Valorant: KRÜ Blaze vs Gen.G GC (BO3) - VCT Game Changers Championship"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -218,7 +218,7 @@
    },
    {
     "t": "Dota 2: Team Synapse vs Dawn Bulls (BO3) - EPL Masters Group B",
-    "closed": false
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -312,18 +312,18 @@
  },
  "n_event_queries": 21,
  "events": 413,
- "markets": 371,
- "markets_dropped_by_volume_floor": 2067,
+ "markets": 370,
+ "markets_dropped_by_volume_floor": 2068,
  "day_file": "data/2026/10/2026-10-23T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 136,
+ "trades_markets_queried": 139,
  "trades_watchlist_markets": 88,
- "trades_collected": 3211,
- "anomalies_detected": 32,
- "anomalies_new": 6,
+ "trades_collected": 3349,
+ "anomalies_detected": 28,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 110,
- "books_rows": 172,
+ "books_markets": 109,
+ "books_rows": 170,
  "status": "ok"
 }
