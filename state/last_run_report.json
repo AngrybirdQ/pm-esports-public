@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-23T12:48:10Z",
+ "ts": "2026-10-23T12:56:20Z",
  "sources": [
   {
    "url": "/tags",
@@ -169,9 +169,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
+   "Valorant: Eternal Fire vs Eintracht Frankfurt (BO3) - Project Blender ",
    "Valorant: FunPlus Phoenix vs Dragon Ranger Gaming (BO3) - VCT Threshol",
-   "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
-   "Valorant: Eternal Fire vs Eintracht Frankfurt (BO3) - Project Blender "
+   "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -209,12 +209,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs Astra Invicta (BO3) - PARI Universe Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Liquid vs GamerLegion (BO3) - PARI Universe Group A",
     "closed": false
+   },
+   {
+    "t": "Dota 2: PARIVISION vs Astra Invicta (BO3) - PARI Universe Group B",
+    "closed": true
    },
    {
     "t": "Dota 2: CyberHero vs Yellow Submarine (BO3) - EPL Masters Group B",
@@ -312,22 +312,24 @@
  },
  "n_event_queries": 21,
  "events": 411,
- "markets": 328,
- "markets_dropped_by_volume_floor": 2062,
+ "markets": 338,
+ "markets_dropped_by_volume_floor": 2046,
  "day_file": "data/2026/10/2026-10-23T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 132,
+ "trades_markets_queried": 136,
  "trades_watchlist_markets": 101,
- "trades_collected": 2564,
- "anomalies_detected": 23,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "7106067340: HTTPError: HTTP Error 404: Not Found",
-  "1100792566: HTTPError: HTTP Error 404: Not Found"
+ "trades_collected": 2428,
+ "anomalies_detected": 31,
+ "anomalies_new": 10,
+ "history_debug": [
+  {
+   "cid": "0xc57e207f",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 105,
- "books_rows": 170,
+ "history_conditions_new": 1,
+ "books_markets": 104,
+ "books_rows": 172,
  "status": "ok"
 }
