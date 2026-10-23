@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-23T12:56:20Z",
+ "ts": "2026-10-23T12:59:28Z",
  "sources": [
   {
    "url": "/tags",
@@ -271,11 +271,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: FunPlus Phoenix vs Dragon Ranger Gaming (BO3) - VCT Threshol",
+    "t": "Valorant: Eternal Fire vs Eintracht Frankfurt (BO3) - Project Blender ",
     "closed": false
    },
    {
-    "t": "Valorant: Eternal Fire vs Eintracht Frankfurt (BO3) - Project Blender ",
+    "t": "Valorant: FunPlus Phoenix vs Dragon Ranger Gaming (BO3) - VCT Threshol",
     "closed": false
    },
    {
@@ -318,18 +318,16 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 136,
  "trades_watchlist_markets": 101,
- "trades_collected": 2428,
- "anomalies_detected": 31,
- "anomalies_new": 10,
- "history_debug": [
-  {
-   "cid": "0xc57e207f",
-   "pts": 3,
-   "variant": "interval=all&fidelity=1000"
-  }
+ "trades_collected": 2463,
+ "anomalies_detected": 32,
+ "anomalies_new": 1,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_errors": [
+  "8276865370: HTTPError: HTTP Error 404: Not Found",
+  "2723578513: HTTPError: HTTP Error 404: Not Found"
  ],
- "history_conditions_new": 1,
  "books_markets": 104,
- "books_rows": 172,
+ "books_rows": 170,
  "status": "ok"
 }
