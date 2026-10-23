@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-23T16:12:01Z",
+ "ts": "2026-10-23T16:16:01Z",
  "sources": [
   {
    "url": "/tags",
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "Dota 2: BetBoom Team vs Astra Invicta (BO3) - PARI Universe Group B"
+   "Dota 2: BetBoom Team vs Astra Invicta (BO3) - PARI Universe Group B",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: BetBoom Team vs Astra Invicta (BO3) - PARI Universe Group B",
@@ -312,24 +312,18 @@
  },
  "n_event_queries": 21,
  "events": 409,
- "markets": 374,
- "markets_dropped_by_volume_floor": 1990,
+ "markets": 372,
+ "markets_dropped_by_volume_floor": 1986,
  "day_file": "data/2026/10/2026-10-23T16.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 135,
  "trades_watchlist_markets": 88,
- "trades_collected": 3038,
- "anomalies_detected": 3,
+ "trades_collected": 3035,
+ "anomalies_detected": 1,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "2241742871: HTTPError: HTTP Error 404: Not Found",
-  "1176430954: HTTPError: HTTP Error 404: Not Found",
-  "5678984886: HTTPError: HTTP Error 404: Not Found",
-  "6170940232: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 115,
+ "books_markets": 113,
  "books_rows": 188,
  "status": "ok"
 }
