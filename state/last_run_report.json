@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-23T16:39:10Z",
+ "ts": "2026-10-23T16:42:54Z",
  "sources": [
   {
    "url": "/tags",
@@ -205,20 +205,20 @@
     "closed": true
    },
    {
-    "t": "Dota 2: 1win vs OG (BO3) - PARI Universe Group A",
-    "closed": true
-   },
-   {
     "t": "Dota 2: BetBoom Team vs Astra Invicta (BO3) - PARI Universe Group B",
     "closed": false
+   },
+   {
+    "t": "Dota 2: 1win vs OG (BO3) - PARI Universe Group A",
+    "closed": true
    },
    {
     "t": "Dota 2: PARIVISION vs Astra Invicta (BO3) - PARI Universe Group B",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Liquid vs 1win (BO3) - PARI Universe Group A",
-    "closed": true
+    "t": "Dota 2: Team Synapse vs Dawn Bulls (BO3) - EPL Masters Group B",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -312,24 +312,18 @@
  },
  "n_event_queries": 21,
  "events": 413,
- "markets": 372,
- "markets_dropped_by_volume_floor": 2083,
+ "markets": 373,
+ "markets_dropped_by_volume_floor": 2066,
  "day_file": "data/2026/10/2026-10-23T16.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 136,
  "trades_watchlist_markets": 88,
- "trades_collected": 3053,
+ "trades_collected": 3120,
  "anomalies_detected": 1,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "3459380917: HTTPError: HTTP Error 404: Not Found",
-  "3231916408: HTTPError: HTTP Error 404: Not Found",
-  "1253713983: HTTPError: HTTP Error 404: Not Found",
-  "6012598986: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 112,
+ "books_markets": 110,
  "books_rows": 182,
  "status": "ok"
 }
