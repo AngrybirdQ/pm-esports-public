@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-23T17:38:29Z",
+ "ts": "2026-10-23T19:32:49Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 35,
+   "events_returned": 33,
    "err": null
   },
   {
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 59,
+   "events_returned": 58,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 46,
+   "events_returned": 45,
    "err": null
   },
   {
@@ -140,13 +140,13 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
+   "LoL: Hanwha Life Esports vs Top Esports (BO1) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "Dota 2: BetBoom Team vs Astra Invicta (BO3) - PARI Universe Group B",
-   "Worlds 2026 Winning Region"
+   "LoL: Bilibili Gaming vs Movistar KOI (BO1) - Worlds Group Stage"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: BetBoom Team vs Astra Invicta (BO3) - PARI Universe Group B",
-   "Dota 2: Team Lynx vs Inner Circle (BO3) - EPL Masters Group A",
+   "Dota 2: PARIVISION vs LEGION (BO3) - PARI Universe Group B",
+   "Dota 2: Inner Circle vs HULIGANI (BO3) - EPL Masters Group A",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
@@ -159,9 +159,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
+   "LoL: Hanwha Life Esports vs Top Esports (BO1) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "LoL: Gen.G vs Invictus Gaming (BO1) - Worlds Group Stage"
+   "LoL: Bilibili Gaming vs Movistar KOI (BO1) - Worlds Group Stage"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -169,9 +169,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: Eternal Fire vs Eintracht Frankfurt (BO3) - Project Blender ",
    "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
-   "Valorant: KRÜ Blaze vs Gen.G GC (BO3) - VCT Game Changers Championship"
+   "Valorant: KRÜ Blaze vs Gen.G GC (BO3) - VCT Game Changers Championship",
+   "VALORANT Offseason: OXY Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -206,18 +206,18 @@
    },
    {
     "t": "Dota 2: BetBoom Team vs Astra Invicta (BO3) - PARI Universe Group B",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: 1win vs OG (BO3) - PARI Universe Group A",
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs Astra Invicta (BO3) - PARI Universe Group B",
+    "t": "Dota 2: Team Synapse vs Dawn Bulls (BO3) - EPL Masters Group B",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Synapse vs Dawn Bulls (BO3) - EPL Masters Group B",
+    "t": "Dota 2: salamit vs Nemiga Gaming (BO3) - EPL Masters Group A",
     "closed": true
    }
   ],
@@ -272,7 +272,7 @@
    },
    {
     "t": "Valorant: Eternal Fire vs Eintracht Frankfurt (BO3) - Project Blender ",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: SK Nebula vs Nova Esports GC (BO3) - VCT Game Changers Champ",
@@ -283,8 +283,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: FENNEL Female vs MIBR GC (BO3) - VCT Game Changers Champions",
-    "closed": true
+    "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
+    "closed": false
    }
   ],
   "search:The International": [
@@ -311,19 +311,40 @@
   ]
  },
  "n_event_queries": 21,
- "events": 412,
- "markets": 370,
- "markets_dropped_by_volume_floor": 2036,
- "day_file": "data/2026/10/2026-10-23T17.jsonl",
+ "events": 410,
+ "markets": 381,
+ "markets_dropped_by_volume_floor": 2027,
+ "day_file": "data/2026/10/2026-10-23T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 137,
- "trades_watchlist_markets": 88,
- "trades_collected": 2659,
- "anomalies_detected": 32,
- "anomalies_new": 6,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 100,
- "books_rows": 162,
+ "trades_markets_queried": 136,
+ "trades_watchlist_markets": 82,
+ "trades_collected": 3589,
+ "anomalies_detected": 3,
+ "anomalies_new": 3,
+ "history_debug": [
+  {
+   "cid": "0x5c3e69bd",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x4ad1ad74",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x8ff0a9a4",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xcfafb7ee",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 4,
+ "books_markets": 107,
+ "books_rows": 168,
  "status": "ok"
 }
