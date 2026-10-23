@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-23T13:24:11Z",
+ "ts": "2026-10-23T13:27:07Z",
  "sources": [
   {
    "url": "/tags",
@@ -147,7 +147,7 @@
   "tag_slug=dota-2": [
    "Dota 2: Team Liquid vs GamerLegion (BO3) - PARI Universe Group A",
    "Dota 2: salamit vs Nemiga Gaming (BO3) - EPL Masters Group A",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Team Synapse vs Dawn Bulls (BO3) - EPL Masters Group B"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -169,8 +169,8 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: FunPlus Phoenix vs Dragon Ranger Gaming (BO3) - VCT Threshol",
    "Valorant: Eternal Fire vs Eintracht Frankfurt (BO3) - Project Blender ",
+   "Valorant: FunPlus Phoenix vs Dragon Ranger Gaming (BO3) - VCT Threshol",
    "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang"
   ],
   "tag_slug=starcraft-2": [
@@ -267,16 +267,16 @@
   ],
   "search:Valorant": [
    {
+    "t": "Valorant: Eternal Fire vs Eintracht Frankfurt (BO3) - Project Blender ",
+    "closed": false
+   },
+   {
     "t": "Valorant: FunPlus Phoenix vs Dragon Ranger Gaming (BO3) - VCT Threshol",
     "closed": false
    },
    {
     "t": "Valorant: Blezz vs Natus Vincere (BO3) - Project Blender Phase 2 Group",
     "closed": true
-   },
-   {
-    "t": "Valorant: Eternal Fire vs Eintracht Frankfurt (BO3) - Project Blender ",
-    "closed": false
    },
    {
     "t": "Valorant: SK Nebula vs Nova Esports GC (BO3) - VCT Game Changers Champ",
@@ -311,19 +311,25 @@
   ]
  },
  "n_event_queries": 21,
- "events": 411,
- "markets": 339,
- "markets_dropped_by_volume_floor": 2040,
+ "events": 410,
+ "markets": 343,
+ "markets_dropped_by_volume_floor": 2036,
  "day_file": "data/2026/10/2026-10-23T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 136,
+ "trades_markets_queried": 140,
  "trades_watchlist_markets": 101,
- "trades_collected": 2477,
- "anomalies_detected": 32,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 105,
- "books_rows": 176,
+ "trades_collected": 2538,
+ "anomalies_detected": 35,
+ "anomalies_new": 5,
+ "history_debug": [
+  {
+   "cid": "0x2ced77c5",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 108,
+ "books_rows": 178,
  "status": "ok"
 }
