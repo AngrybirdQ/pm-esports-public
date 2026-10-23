@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-23T17:07:37Z",
+ "ts": "2026-10-23T17:11:23Z",
  "sources": [
   {
    "url": "/tags",
@@ -147,7 +147,7 @@
   "tag_slug=dota-2": [
    "Dota 2: BetBoom Team vs Astra Invicta (BO3) - PARI Universe Group B",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: Team Lynx vs Inner Circle (BO3) - EPL Masters Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -312,24 +312,28 @@
  },
  "n_event_queries": 21,
  "events": 413,
- "markets": 367,
- "markets_dropped_by_volume_floor": 2063,
+ "markets": 372,
+ "markets_dropped_by_volume_floor": 2053,
  "day_file": "data/2026/10/2026-10-23T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 139,
+ "trades_markets_queried": 140,
  "trades_watchlist_markets": 88,
- "trades_collected": 3331,
- "anomalies_detected": 44,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_collected": 3356,
+ "anomalies_detected": 38,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0x9c42d2ae",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_errors": [
-  "1310483645: HTTPError: HTTP Error 404: Not Found",
-  "5107059712: HTTPError: HTTP Error 404: Not Found",
-  "7834618533: HTTPError: HTTP Error 404: Not Found",
-  "8893324000: HTTPError: HTTP Error 404: Not Found"
+  "1124630553: HTTPError: HTTP Error 404: Not Found",
+  "5241139005: HTTPError: HTTP Error 404: Not Found"
  ],
  "books_markets": 106,
- "books_rows": 164,
+ "books_rows": 166,
  "status": "ok"
 }
