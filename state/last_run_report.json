@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-23T11:59:17Z",
+ "ts": "2026-10-23T12:02:45Z",
  "sources": [
   {
    "url": "/tags",
@@ -280,7 +280,7 @@
    },
    {
     "t": "Valorant: TEC Esports vs Unsettled Resentment (BO3) - VCT Threshold Ch",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: FENNEL Female vs MIBR GC (BO3) - VCT Game Changers Champions",
@@ -314,16 +314,26 @@
  "events": 412,
  "markets": 333,
  "markets_dropped_by_volume_floor": 2063,
- "day_file": "data/2026/10/2026-10-23T11.jsonl",
+ "day_file": "data/2026/10/2026-10-23T12.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 120,
  "trades_watchlist_markets": 72,
- "trades_collected": 2917,
- "anomalies_detected": 27,
- "anomalies_new": 0,
+ "trades_collected": 2920,
+ "anomalies_detected": 16,
+ "anomalies_new": 15,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "2355726114: HTTPError: HTTP Error 404: Not Found",
+  "7973708772: HTTPError: HTTP Error 404: Not Found",
+  "1000388765: HTTPError: HTTP Error 404: Not Found",
+  "5524400786: HTTPError: HTTP Error 404: Not Found",
+  "1070451738: HTTPError: HTTP Error 404: Not Found",
+  "1154024392: HTTPError: HTTP Error 404: Not Found",
+  "7289244925: HTTPError: HTTP Error 404: Not Found",
+  "8743837611: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 97,
- "books_rows": 159,
+ "books_rows": 158,
  "status": "ok"
 }
