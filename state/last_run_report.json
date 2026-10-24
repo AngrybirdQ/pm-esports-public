@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T08:02:30Z",
+ "ts": "2026-10-24T09:44:39Z",
  "sources": [
   {
    "url": "/tags",
@@ -160,12 +160,12 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
+   "Counter-Strike: Aurora Gaming vs TheMongolz (BO3) - PGL Masters Buchar"
   ],
   "tag_slug=dota-2": [
+   "Dota 2: 1win vs GamerLegion (BO3) - PARI Universe Group A",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A",
-   "Dota 2: Stray Team vs Rostik Team (BO3) - BetBoom Streamers Battle Gro"
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -239,15 +239,15 @@
     "closed": true
    },
    {
-    "t": "Dota 2: 1win vs OG (BO3) - PARI Universe Group A",
-    "closed": true
+    "t": "Dota 2: 1win vs GamerLegion (BO3) - PARI Universe Group A",
+    "closed": false
    },
    {
     "t": "Dota 2: Inner Circle vs HULIGANI (BO3) - EPL Masters Group A",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Synapse vs Dawn Bulls (BO3) - EPL Masters Group B",
+    "t": "Dota 2: 1win vs OG (BO3) - PARI Universe Group A",
     "closed": true
    }
   ],
@@ -363,19 +363,55 @@
   ]
  },
  "n_event_queries": 24,
- "events": 771,
- "markets": 692,
- "markets_dropped_by_volume_floor": 6733,
- "day_file": "data/2026/10/2026-10-24T08.jsonl",
+ "events": 774,
+ "markets": 725,
+ "markets_dropped_by_volume_floor": 6995,
+ "day_file": "data/2026/10/2026-10-24T09.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 163,
- "trades_watchlist_markets": 75,
- "trades_collected": 2576,
- "anomalies_detected": 48,
- "anomalies_new": 42,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 124,
- "books_rows": 236,
+ "trades_markets_queried": 176,
+ "trades_watchlist_markets": 78,
+ "trades_collected": 2747,
+ "anomalies_detected": 3,
+ "anomalies_new": 3,
+ "history_debug": [
+  {
+   "cid": "0x5aeb89fd",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x750ecc28",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x8c25670d",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x25df5ab6",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x249c7af9",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xd175ba11",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x0bf1f5f5",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 7,
+ "books_markets": 119,
+ "books_rows": 216,
  "status": "ok"
 }
