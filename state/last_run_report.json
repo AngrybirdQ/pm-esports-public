@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T21:52:12Z",
+ "ts": "2026-10-24T21:54:56Z",
  "sources": [
   {
    "url": "/tags",
@@ -177,9 +177,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
+   "LoL: Invictus Gaming vs Team Secret Whales (BO1) - Worlds Group Stage",
    "LoL: LYON vs Karmine Corp (BO1) - Worlds Group Stage",
-   "Worlds 2026: Winner",
-   "LoL: Invictus Gaming vs Team Secret Whales (BO1) - Worlds Group Stage"
+   "Worlds 2026: Winner"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -204,7 +204,7 @@
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "WNBA: 2026 Champion"
+   "Heat vs. Hornets"
   ],
   "tag_slug=international-affairs": [
    "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
@@ -364,18 +364,34 @@
  },
  "n_event_queries": 24,
  "events": 764,
- "markets": 892,
- "markets_dropped_by_volume_floor": 8950,
+ "markets": 917,
+ "markets_dropped_by_volume_floor": 9025,
  "day_file": "data/2026/10/2026-10-24T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 213,
+ "trades_markets_queried": 217,
  "trades_watchlist_markets": 67,
- "trades_collected": 3149,
- "anomalies_detected": 40,
- "anomalies_new": 1,
- "history_debug": [],
+ "trades_collected": 3174,
+ "anomalies_detected": 45,
+ "anomalies_new": 12,
+ "history_debug": [
+  {
+   "cid": "0x25adeee0",
+   "pts": 0,
+   "variant": "none"
+  },
+  {
+   "cid": "0x16df78be",
+   "pts": 0,
+   "variant": "none"
+  },
+  {
+   "cid": "0xd88a606f",
+   "pts": 0,
+   "variant": "none"
+  }
+ ],
  "history_conditions_new": 0,
  "books_markets": 76,
- "books_rows": 96,
+ "books_rows": 94,
  "status": "ok"
 }
