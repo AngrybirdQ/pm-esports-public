@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T21:18:31Z",
+ "ts": "2026-10-24T21:21:12Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 56,
+   "events_returned": 55,
    "err": null
   },
   {
@@ -158,9 +158,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: G2 Esports vs LOS (BO1) - Worlds Group Stage",
    "LoL: LYON vs Karmine Corp (BO1) - Worlds Group Stage",
-   "Worlds 2026: Winner"
+   "Worlds 2026: Winner",
+   "Dota 2: Astra Invicta vs LEGION (BO3) - PARI Universe Group B"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Astra Invicta vs LEGION (BO3) - PARI Universe Group B",
@@ -177,9 +177,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: G2 Esports vs LOS (BO1) - Worlds Group Stage",
    "LoL: LYON vs Karmine Corp (BO1) - Worlds Group Stage",
-   "Worlds 2026: Winner"
+   "Worlds 2026: Winner",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -363,16 +363,16 @@
   ]
  },
  "n_event_queries": 24,
- "events": 764,
+ "events": 763,
  "markets": 881,
- "markets_dropped_by_volume_floor": 8886,
+ "markets_dropped_by_volume_floor": 8885,
  "day_file": "data/2026/10/2026-10-24T21.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 201,
  "trades_watchlist_markets": 67,
- "trades_collected": 3296,
- "anomalies_detected": 83,
- "anomalies_new": 3,
+ "trades_collected": 3270,
+ "anomalies_detected": 75,
+ "anomalies_new": 8,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 75,
