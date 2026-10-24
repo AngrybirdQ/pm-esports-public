@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T16:53:48Z",
+ "ts": "2026-10-24T16:58:58Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,7 +151,9 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "trades 0xe4b7d3a6: HTTPError: HTTP Error 429: Too Many Requests"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -188,8 +190,8 @@
   ],
   "tag_slug=valorant": [
    "Valorant: FUT Esports vs Fire Flux Esports (BO3) - Monsters Reloaded P",
-   "VALORANT Offseason: OXY Next Team",
-   "Valorant: CGN Esports vs Eintracht Frankfurt (BO3) - Project Blender P"
+   "Valorant: Shopify Rebellion Gold vs SK Nebula (BO3) - VCT Game Changer",
+   "VALORANT Offseason: OXY Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -199,7 +201,7 @@
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Heat vs. Hornets"
+   "Nets vs. Cavaliers"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
@@ -313,8 +315,8 @@
     "closed": false
    },
    {
-    "t": "Valorant: KeepBest Gaming vs Nova Esports (BO3) - VCT Threshold China ",
-    "closed": true
+    "t": "Valorant: TEC Esports vs Dragon Ranger Gaming (BO3) - VCT Threshold Ch",
+    "closed": false
    }
   ],
   "search:NBA": [
@@ -363,31 +365,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 771,
- "markets": 836,
- "markets_dropped_by_volume_floor": 8390,
+ "events": 768,
+ "markets": 835,
+ "markets_dropped_by_volume_floor": 8315,
  "day_file": "data/2026/10/2026-10-24T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 231,
+ "trades_markets_queried": 230,
  "trades_watchlist_markets": 92,
- "trades_collected": 5040,
- "anomalies_detected": 12,
- "anomalies_new": 6,
+ "trades_collected": 5196,
+ "anomalies_detected": 56,
+ "anomalies_new": 49,
  "history_debug": [
   {
-   "cid": "0x2dc785ae",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
+   "cid": "0xa420f964",
+   "pts": 0,
+   "variant": "none"
   }
  ],
- "history_conditions_new": 1,
- "books_errors": [
-  "1138183598: HTTPError: HTTP Error 404: Not Found",
-  "5361348393: HTTPError: HTTP Error 404: Not Found",
-  "3958302287: HTTPError: HTTP Error 404: Not Found",
-  "6350081566: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 129,
+ "history_conditions_new": 0,
+ "books_markets": 127,
  "books_rows": 180,
  "status": "ok"
 }
