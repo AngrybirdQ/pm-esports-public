@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T19:39:54Z",
+ "ts": "2026-10-24T19:43:32Z",
  "sources": [
   {
    "url": "/tags",
@@ -159,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "LoL: CTBC Flying Oyster vs Movistar KOI (BO1) - Worlds Group Stage",
-   "LoL: G2 Esports vs LOS (BO1) - Worlds Group Stage"
+   "LoL: G2 Esports vs LOS (BO1) - Worlds Group Stage",
+   "LoL: CTBC Flying Oyster vs Movistar KOI (BO1) - Worlds Group Stage"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Astra Invicta vs LEGION (BO3) - PARI Universe Group B",
@@ -178,8 +178,8 @@
   ],
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
-   "LoL: CTBC Flying Oyster vs Movistar KOI (BO1) - Worlds Group Stage",
-   "LoL: G2 Esports vs LOS (BO1) - Worlds Group Stage"
+   "LoL: G2 Esports vs LOS (BO1) - Worlds Group Stage",
+   "LoL: CTBC Flying Oyster vs Movistar KOI (BO1) - Worlds Group Stage"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -364,13 +364,13 @@
  },
  "n_event_queries": 24,
  "events": 768,
- "markets": 876,
- "markets_dropped_by_volume_floor": 8775,
+ "markets": 882,
+ "markets_dropped_by_volume_floor": 8764,
  "day_file": "data/2026/10/2026-10-24T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 235,
+ "trades_markets_queried": 239,
  "trades_watchlist_markets": 80,
- "trades_collected": 4292,
+ "trades_collected": 4383,
  "anomalies_detected": 14,
  "anomalies_new": 1,
  "history_debug": [
@@ -381,11 +381,7 @@
   }
  ],
  "history_conditions_new": 0,
- "books_errors": [
-  "1289077741: HTTPError: HTTP Error 404: Not Found",
-  "5224682371: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 108,
+ "books_markets": 105,
  "books_rows": 154,
  "status": "ok"
 }
