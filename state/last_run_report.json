@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T00:39:24Z",
+ "ts": "2026-10-24T00:42:58Z",
  "sources": [
   {
    "url": "/tags",
@@ -142,7 +142,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "LoL: LOS vs T1 (BO1) - Worlds Group Stage",
-   "Worlds 2026 Winning Region"
+   "LoL: Team Secret Whales vs LYON (BO1) - Worlds Group Stage"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
@@ -161,7 +161,7 @@
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
    "LoL: LOS vs T1 (BO1) - Worlds Group Stage",
-   "Worlds 2026 Winning Region"
+   "LoL: Team Secret Whales vs LYON (BO1) - Worlds Group Stage"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -312,26 +312,18 @@
  },
  "n_event_queries": 21,
  "events": 405,
- "markets": 332,
- "markets_dropped_by_volume_floor": 1949,
+ "markets": 329,
+ "markets_dropped_by_volume_floor": 1943,
  "day_file": "data/2026/10/2026-10-24T00.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 111,
  "trades_watchlist_markets": 75,
- "trades_collected": 1244,
- "anomalies_detected": 23,
- "anomalies_new": 3,
+ "trades_collected": 1279,
+ "anomalies_detected": 22,
+ "anomalies_new": 4,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "2933333401: HTTPError: HTTP Error 404: Not Found",
-  "3251291310: HTTPError: HTTP Error 404: Not Found",
-  "7802805118: HTTPError: HTTP Error 404: Not Found",
-  "1070896129: HTTPError: HTTP Error 404: Not Found",
-  "9553046838: HTTPError: HTTP Error 404: Not Found",
-  "1035657037: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 76,
- "books_rows": 132,
+ "books_markets": 73,
+ "books_rows": 130,
  "status": "ok"
 }
