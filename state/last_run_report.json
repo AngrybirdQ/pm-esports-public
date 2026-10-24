@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T17:50:59Z",
+ "ts": "2026-10-24T19:00:49Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 31,
+   "events_returned": 33,
    "err": null
   },
   {
@@ -160,12 +160,12 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "LoL: Top Esports vs Anyone's Legend (BO1) - Worlds Group Stage",
-   "Dota 2: Team Spirit vs BetBoom Team (BO3) - PARI Universe Group B"
+   "LoL: CTBC Flying Oyster vs Movistar KOI (BO1) - Worlds Group Stage"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Team Spirit vs BetBoom Team (BO3) - PARI Universe Group B",
+   "Dota 2: Astra Invicta vs LEGION (BO3) - PARI Universe Group B",
    "Dota 2: Yellow Submarine vs Dawn Bulls (BO3) - EPL Masters Group B",
-   "Dota 2: Astra Invicta vs LEGION (BO3) - PARI Universe Group B"
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -179,7 +179,7 @@
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
    "LoL: Top Esports vs Anyone's Legend (BO1) - Worlds Group Stage",
-   "Worlds 2026 Winning Region"
+   "LoL: CTBC Flying Oyster vs Movistar KOI (BO1) - Worlds Group Stage"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -187,9 +187,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: FUT Esports vs Fire Flux Esports (BO3) - Monsters Reloaded P",
+   "Valorant: Shopify Rebellion Gold vs SK Nebula (BO3) - VCT Game Changer",
    "VALORANT Offseason: OXY Next Team",
-   "Valorant: Shopify Rebellion Gold vs SK Nebula (BO3) - VCT Game Changer"
+   "Valorant: G2 Gozen vs MIBR GC (BO3) - VCT Game Changers Championship P"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -236,7 +236,7 @@
    },
    {
     "t": "Dota 2: Team Spirit vs BetBoom Team (BO3) - PARI Universe Group B",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: 1win vs GamerLegion (BO3) - PARI Universe Group A",
@@ -247,8 +247,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Synapse vs Zero Tenacity (BO3) - EPL Masters Group B",
-    "closed": true
+    "t": "Dota 2: Astra Invicta vs LEGION (BO3) - PARI Universe Group B",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -302,19 +302,19 @@
    },
    {
     "t": "Valorant: FUT Esports vs Fire Flux Esports (BO3) - Monsters Reloaded P",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
     "closed": true
    },
    {
-    "t": "Valorant: CGN Esports vs Eintracht Frankfurt (BO3) - Project Blender P",
-    "closed": true
+    "t": "Valorant: G2 Gozen vs MIBR GC (BO3) - VCT Game Changers Championship P",
+    "closed": false
    },
    {
-    "t": "Valorant: TEC Esports vs Dragon Ranger Gaming (BO3) - VCT Threshold Ch",
-    "closed": false
+    "t": "Valorant: CGN Esports vs Eintracht Frankfurt (BO3) - Project Blender P",
+    "closed": true
    }
   ],
   "search:NBA": [
@@ -363,23 +363,30 @@
   ]
  },
  "n_event_queries": 24,
- "events": 766,
- "markets": 829,
- "markets_dropped_by_volume_floor": 8321,
- "day_file": "data/2026/10/2026-10-24T17.jsonl",
+ "events": 768,
+ "markets": 867,
+ "markets_dropped_by_volume_floor": 8753,
+ "day_file": "data/2026/10/2026-10-24T19.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 233,
- "trades_watchlist_markets": 92,
- "trades_collected": 5563,
- "anomalies_detected": 84,
- "anomalies_new": 15,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "1884628393: HTTPError: HTTP Error 404: Not Found",
-  "2069368741: HTTPError: HTTP Error 404: Not Found"
+ "trades_watchlist_markets": 80,
+ "trades_collected": 5084,
+ "anomalies_detected": 103,
+ "anomalies_new": 101,
+ "history_debug": [
+  {
+   "cid": "0xd428f583",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x523f21e7",
+   "pts": 0,
+   "variant": "none"
+  }
  ],
- "books_markets": 109,
- "books_rows": 172,
+ "history_conditions_new": 1,
+ "books_markets": 110,
+ "books_rows": 176,
  "status": "ok"
 }
