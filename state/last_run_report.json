@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T20:04:59Z",
+ "ts": "2026-10-24T21:01:59Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 33,
+   "events_returned": 32,
    "err": null
   },
   {
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 57,
+   "events_returned": 56,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 44,
+   "events_returned": 43,
    "err": null
   },
   {
@@ -160,12 +160,12 @@
   "tag_slug=esports": [
    "LoL: G2 Esports vs LOS (BO1) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "LoL: CTBC Flying Oyster vs Movistar KOI (BO1) - Worlds Group Stage"
+   "LoL: LYON vs Karmine Corp (BO1) - Worlds Group Stage"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Astra Invicta vs LEGION (BO3) - PARI Universe Group B",
-   "Dota 2: Yellow Submarine vs Dawn Bulls (BO3) - EPL Masters Group B",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -179,7 +179,7 @@
   "tag_slug=league-of-legends": [
    "LoL: G2 Esports vs LOS (BO1) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "LoL: CTBC Flying Oyster vs Movistar KOI (BO1) - Worlds Group Stage"
+   "LoL: LYON vs Karmine Corp (BO1) - Worlds Group Stage"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -239,15 +239,15 @@
     "closed": true
    },
    {
-    "t": "Dota 2: 1win vs GamerLegion (BO3) - PARI Universe Group A",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Astra Invicta vs LEGION (BO3) - PARI Universe Group B",
     "closed": false
    },
    {
-    "t": "Dota 2: Inner Circle vs HULIGANI (BO3) - EPL Masters Group A",
+    "t": "Dota 2: 1win vs GamerLegion (BO3) - PARI Universe Group A",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Yellow Submarine vs Dawn Bulls (BO3) - EPL Masters Group B",
     "closed": true
    }
   ],
@@ -309,11 +309,11 @@
     "closed": false
    },
    {
-    "t": "Valorant: CGN Esports vs Eintracht Frankfurt (BO3) - Project Blender P",
-    "closed": true
+    "t": "Valorant: Shopify Rebellion Gold vs SK Nebula (BO3) - VCT Game Changer",
+    "closed": false
    },
    {
-    "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
+    "t": "Valorant: CGN Esports vs Eintracht Frankfurt (BO3) - Project Blender P",
     "closed": true
    }
   ],
@@ -363,29 +363,30 @@
   ]
  },
  "n_event_queries": 24,
- "events": 767,
- "markets": 889,
- "markets_dropped_by_volume_floor": 8877,
- "day_file": "data/2026/10/2026-10-24T20.jsonl",
+ "events": 764,
+ "markets": 870,
+ "markets_dropped_by_volume_floor": 8899,
+ "day_file": "data/2026/10/2026-10-24T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 217,
- "trades_watchlist_markets": 83,
- "trades_collected": 4250,
+ "trades_markets_queried": 201,
+ "trades_watchlist_markets": 67,
+ "trades_collected": 3536,
  "anomalies_detected": 76,
- "anomalies_new": 67,
+ "anomalies_new": 76,
  "history_debug": [
   {
    "cid": "0x16052964",
-   "pts": 0,
-   "variant": "none"
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xdf27a51a",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 0,
- "books_errors": [
-  "4874002858: HTTPError: HTTP Error 404: Not Found",
-  "8256016494: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 79,
- "books_rows": 104,
+ "history_conditions_new": 2,
+ "books_markets": 81,
+ "books_rows": 102,
  "status": "ok"
 }
