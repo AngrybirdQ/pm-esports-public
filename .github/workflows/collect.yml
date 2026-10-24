@@ -54,7 +54,7 @@ jobs:
     if: needs.decide.outputs.mode == 'longrun' && needs.decide.outputs.skip != 'true'
     needs: decide
     runs-on: ubuntu-latest
-    timeout-minutes: 115
+    timeout-minutes: 60  # 10-24: 115→60, iterate挂死(实测67min零提交)黑窗上限减半
     env:
       WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
       PINNACLE_KEY: ${{ secrets.PINNACLE_KEY }}
