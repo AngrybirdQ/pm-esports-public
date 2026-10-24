@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T00:46:08Z",
+ "ts": "2026-10-24T00:56:20Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 53,
+   "events_returned": 52,
    "err": null
   },
   {
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "LoL: LOS vs T1 (BO1) - Worlds Group Stage",
-   "LoL: Team Secret Whales vs LYON (BO1) - Worlds Group Stage"
+   "LoL: Team Secret Whales vs LYON (BO1) - Worlds Group Stage",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
@@ -160,8 +160,8 @@
   ],
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
-   "LoL: LOS vs T1 (BO1) - Worlds Group Stage",
-   "LoL: Team Secret Whales vs LYON (BO1) - Worlds Group Stage"
+   "LoL: Team Secret Whales vs LYON (BO1) - Worlds Group Stage",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -312,18 +312,18 @@
  },
  "n_event_queries": 21,
  "events": 405,
- "markets": 329,
- "markets_dropped_by_volume_floor": 1943,
+ "markets": 331,
+ "markets_dropped_by_volume_floor": 1940,
  "day_file": "data/2026/10/2026-10-24T00.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 111,
- "trades_watchlist_markets": 75,
- "trades_collected": 1370,
- "anomalies_detected": 20,
- "anomalies_new": 0,
+ "trades_markets_queried": 112,
+ "trades_watchlist_markets": 86,
+ "trades_collected": 1379,
+ "anomalies_detected": 22,
+ "anomalies_new": 22,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 73,
- "books_rows": 130,
+ "books_markets": 78,
+ "books_rows": 134,
  "status": "ok"
 }
