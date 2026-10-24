@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T10:26:05Z",
+ "ts": "2026-10-24T10:29:16Z",
  "sources": [
   {
    "url": "/tags",
@@ -159,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "Dota 2: 1win vs GamerLegion (BO3) - PARI Universe Group A"
+   "Dota 2: 1win vs GamerLegion (BO3) - PARI Universe Group A",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: 1win vs GamerLegion (BO3) - PARI Universe Group A",
@@ -247,7 +247,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: 1win vs OG (BO3) - PARI Universe Group A",
+    "t": "Dota 2: Team Synapse vs Dawn Bulls (BO3) - EPL Masters Group B",
     "closed": true
    }
   ],
@@ -364,18 +364,22 @@
  },
  "n_event_queries": 24,
  "events": 774,
- "markets": 733,
- "markets_dropped_by_volume_floor": 7166,
+ "markets": 734,
+ "markets_dropped_by_volume_floor": 7178,
  "day_file": "data/2026/10/2026-10-24T10.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 180,
+ "trades_markets_queried": 182,
  "trades_watchlist_markets": 78,
- "trades_collected": 2926,
+ "trades_collected": 3063,
  "anomalies_detected": 6,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 123,
- "books_rows": 206,
+ "books_errors": [
+  "8183775238: HTTPError: HTTP Error 404: Not Found",
+  "1048680459: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 124,
+ "books_rows": 202,
  "status": "ok"
 }
