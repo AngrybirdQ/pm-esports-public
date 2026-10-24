@@ -25,11 +25,13 @@ CANDIDATE_SLUGS = [
     "esports", "e-sports", "dota-2", "dota2", "cs2", "counter-strike", "csgo",
     "league-of-legends", "lol", "valorant", "starcraft-2", "rocket-league",
     "the-international", "ti",
+    # 10-24: NBA常规赛开打, 采集纳入(打法探索数据喂养)
+    "nba", "basketball",
 ]
 TAG_KEYWORDS = ("esport", "dota", "counter-strike", "cs2", "csgo", "valorant",
                 "league-of-legends", "starcraft", "rocket-league",
-                "international")
-SEARCH_KEYWORDS = ["Dota 2", "Counter-Strike", "League of Legends", "Valorant",
+                "international", "nba", "basketball")
+SEARCH_KEYWORDS = ["Dota 2", "Counter-Strike", "League of Legends", "Valorant", "NBA",
                    "The International"]
 # Volume floor: the long tail of zero-liquidity match markets is noise for
 # CLV work. Keep a market if it cleared either bar.
