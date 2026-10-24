@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T21:34:53Z",
+ "ts": "2026-10-24T21:37:30Z",
  "sources": [
   {
    "url": "/tags",
@@ -363,45 +363,45 @@
   ]
  },
  "n_event_queries": 24,
- "events": 765,
- "markets": 887,
- "markets_dropped_by_volume_floor": 8919,
+ "events": 763,
+ "markets": 894,
+ "markets_dropped_by_volume_floor": 8928,
  "day_file": "data/2026/10/2026-10-24T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 204,
+ "trades_markets_queried": 212,
  "trades_watchlist_markets": 67,
- "trades_collected": 3090,
- "anomalies_detected": 74,
- "anomalies_new": 0,
+ "trades_collected": 3184,
+ "anomalies_detected": 13,
+ "anomalies_new": 1,
  "history_debug": [
   {
    "cid": "0x2f041805",
-   "pts": 0,
-   "variant": "none"
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
   },
   {
    "cid": "0xf2517041",
-   "pts": 0,
-   "variant": "none"
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
   },
   {
    "cid": "0x209e2621",
-   "pts": 0,
-   "variant": "none"
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
   },
   {
    "cid": "0x8ed2af44",
-   "pts": 0,
-   "variant": "none"
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
   },
   {
    "cid": "0x94963cdd",
-   "pts": 0,
-   "variant": "none"
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 0,
- "books_markets": 75,
- "books_rows": 102,
+ "history_conditions_new": 5,
+ "books_markets": 76,
+ "books_rows": 104,
  "status": "ok"
 }
