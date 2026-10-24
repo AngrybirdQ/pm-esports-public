@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T17:40:12Z",
+ "ts": "2026-10-24T17:45:20Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 45,
+   "events_returned": 44,
    "err": null
   },
   {
@@ -159,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Dota 2: Team Spirit vs BetBoom Team (BO3) - PARI Universe Group B",
-   "Counter-Strike: Vitality vs 9z (BO3) - PGL Masters Bucharest Group Sta"
+   "LoL: Top Esports vs Anyone's Legend (BO1) - Worlds Group Stage",
+   "Dota 2: Team Spirit vs BetBoom Team (BO3) - PARI Universe Group B"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Spirit vs BetBoom Team (BO3) - PARI Universe Group B",
@@ -363,25 +363,23 @@
   ]
  },
  "n_event_queries": 24,
- "events": 768,
- "markets": 839,
- "markets_dropped_by_volume_floor": 8346,
+ "events": 766,
+ "markets": 833,
+ "markets_dropped_by_volume_floor": 8329,
  "day_file": "data/2026/10/2026-10-24T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 235,
+ "trades_markets_queried": 233,
  "trades_watchlist_markets": 92,
- "trades_collected": 5567,
- "anomalies_detected": 77,
- "anomalies_new": 17,
+ "trades_collected": 5568,
+ "anomalies_detected": 100,
+ "anomalies_new": 22,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "3024826459: HTTPError: HTTP Error 404: Not Found",
-  "7219346520: HTTPError: HTTP Error 404: Not Found",
-  "1049794693: HTTPError: HTTP Error 404: Not Found",
-  "8517927220: HTTPError: HTTP Error 404: Not Found"
+  "1071665196: HTTPError: HTTP Error 404: Not Found",
+  "7286632282: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 120,
- "books_rows": 172,
+ "books_markets": 113,
+ "books_rows": 170,
  "status": "ok"
 }
