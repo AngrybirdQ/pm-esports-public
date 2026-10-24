@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T21:54:56Z",
+ "ts": "2026-10-24T22:06:19Z",
  "sources": [
   {
    "url": "/tags",
@@ -158,9 +158,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
+   "LoL: Invictus Gaming vs Team Secret Whales (BO1) - Worlds Group Stage",
    "LoL: LYON vs Karmine Corp (BO1) - Worlds Group Stage",
-   "Worlds 2026: Winner",
-   "LoL: Invictus Gaming vs Team Secret Whales (BO1) - Worlds Group Stage"
+   "Worlds 2026: Winner"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Astra Invicta vs LEGION (BO3) - PARI Universe Group B",
@@ -297,16 +297,16 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: KRÜ Blaze vs Gen.G GC (BO3) - VCT Game Changers Championship",
-    "closed": true
+    "t": "Valorant: Shopify Rebellion Gold vs SK Nebula (BO3) - VCT Game Changer",
+    "closed": false
    },
    {
     "t": "Valorant: FUT Esports vs Fire Flux Esports (BO3) - Monsters Reloaded P",
     "closed": true
    },
    {
-    "t": "Valorant: Shopify Rebellion Gold vs SK Nebula (BO3) - VCT Game Changer",
-    "closed": false
+    "t": "Valorant: KRÜ Blaze vs Gen.G GC (BO3) - VCT Game Changers Championship",
+    "closed": true
    },
    {
     "t": "Valorant: G2 Gozen vs MIBR GC (BO3) - VCT Game Changers Championship P",
@@ -363,35 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 764,
- "markets": 917,
- "markets_dropped_by_volume_floor": 9025,
- "day_file": "data/2026/10/2026-10-24T21.jsonl",
+ "events": 765,
+ "markets": 919,
+ "markets_dropped_by_volume_floor": 9034,
+ "day_file": "data/2026/10/2026-10-24T22.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 217,
- "trades_watchlist_markets": 67,
- "trades_collected": 3174,
- "anomalies_detected": 45,
- "anomalies_new": 12,
- "history_debug": [
-  {
-   "cid": "0x25adeee0",
-   "pts": 0,
-   "variant": "none"
-  },
-  {
-   "cid": "0x16df78be",
-   "pts": 0,
-   "variant": "none"
-  },
-  {
-   "cid": "0xd88a606f",
-   "pts": 0,
-   "variant": "none"
-  }
- ],
+ "trades_markets_queried": 222,
+ "trades_watchlist_markets": 61,
+ "trades_collected": 3170,
+ "anomalies_detected": 58,
+ "anomalies_new": 58,
+ "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 76,
- "books_rows": 94,
+ "books_markets": 86,
+ "books_rows": 118,
  "status": "ok"
 }
