@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T06:50:44Z",
+ "ts": "2026-10-24T06:54:31Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 47,
+   "events_returned": 46,
    "err": null
   },
   {
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 158,
+   "events_returned": 160,
    "err": null
   },
   {
@@ -187,9 +187,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: KRÜ Blaze vs Gen.G GC (BO3) - VCT Game Changers Championship",
    "VALORANT Offseason: OXY Next Team",
-   "Valorant: Shopify Rebellion Gold vs SK Nebula (BO3) - VCT Game Changer"
+   "Valorant: Shopify Rebellion Gold vs SK Nebula (BO3) - VCT Game Changer",
+   "VALORANT Offseason: primmie Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -306,7 +306,7 @@
    },
    {
     "t": "Valorant: KRÜ Blaze vs Gen.G GC (BO3) - VCT Game Changers Championship",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Team Liquid Brazil vs Gentle Mates GC (BO3) - VCT Game Chang",
@@ -363,19 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 767,
- "markets": 671,
- "markets_dropped_by_volume_floor": 6301,
+ "events": 769,
+ "markets": 677,
+ "markets_dropped_by_volume_floor": 6647,
  "day_file": "data/2026/10/2026-10-24T06.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 183,
+ "trades_markets_queried": 187,
  "trades_watchlist_markets": 66,
- "trades_collected": 1575,
- "anomalies_detected": 1,
- "anomalies_new": 0,
+ "trades_collected": 1809,
+ "anomalies_detected": 19,
+ "anomalies_new": 18,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 137,
- "books_rows": 266,
+ "books_markets": 140,
+ "books_rows": 270,
  "status": "ok"
 }
