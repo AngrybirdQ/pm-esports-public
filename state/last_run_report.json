@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T21:23:56Z",
+ "ts": "2026-10-24T21:31:27Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 43,
+   "events_returned": 42,
    "err": null
   },
   {
@@ -187,9 +187,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: G2 Gozen vs MIBR GC (BO3) - VCT Game Changers Championship P",
    "Valorant: Shopify Rebellion Gold vs SK Nebula (BO3) - VCT Game Changer",
-   "VALORANT Offseason: OXY Next Team"
+   "VALORANT Offseason: OXY Next Team",
+   "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -283,15 +283,15 @@
     "closed": true
    },
    {
+    "t": "Will Caedrel Reach Challenger Before the End of the Year?",
+    "closed": false
+   },
+   {
     "t": "LoL: Dplus KIA Challengers vs KT Rolster Challengers (BO5) - LCK Chall",
     "closed": true
    },
    {
     "t": "LoL: T1 Academy vs KT Rolster Challengers (BO5) - LCK Challengers Leag",
-    "closed": true
-   },
-   {
-    "t": "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO5) - LCK Challengers",
     "closed": true
    }
   ],
@@ -306,7 +306,7 @@
    },
    {
     "t": "Valorant: G2 Gozen vs MIBR GC (BO3) - VCT Game Changers Championship P",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Shopify Rebellion Gold vs SK Nebula (BO3) - VCT Game Changer",
@@ -363,17 +363,43 @@
   ]
  },
  "n_event_queries": 24,
- "events": 763,
- "markets": 881,
- "markets_dropped_by_volume_floor": 8885,
+ "events": 765,
+ "markets": 887,
+ "markets_dropped_by_volume_floor": 8919,
  "day_file": "data/2026/10/2026-10-24T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 201,
+ "trades_markets_queried": 204,
  "trades_watchlist_markets": 67,
- "trades_collected": 3218,
+ "trades_collected": 3121,
  "anomalies_detected": 74,
- "anomalies_new": 1,
- "history_debug": [],
+ "anomalies_new": 67,
+ "history_debug": [
+  {
+   "cid": "0x2f041805",
+   "pts": 0,
+   "variant": "none"
+  },
+  {
+   "cid": "0xf2517041",
+   "pts": 0,
+   "variant": "none"
+  },
+  {
+   "cid": "0x209e2621",
+   "pts": 0,
+   "variant": "none"
+  },
+  {
+   "cid": "0x8ed2af44",
+   "pts": 0,
+   "variant": "none"
+  },
+  {
+   "cid": "0x94963cdd",
+   "pts": 0,
+   "variant": "none"
+  }
+ ],
  "history_conditions_new": 0,
  "books_markets": 75,
  "books_rows": 102,
