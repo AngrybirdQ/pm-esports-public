@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T01:05:03Z",
+ "ts": "2026-10-24T02:36:48Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 52,
+   "events_returned": 59,
    "err": null
   },
   {
@@ -141,8 +141,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "LoL: Team Secret Whales vs LYON (BO1) - Worlds Group Stage",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
@@ -160,8 +160,8 @@
   ],
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
-   "LoL: Team Secret Whales vs LYON (BO1) - Worlds Group Stage",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -311,19 +311,60 @@
   ]
  },
  "n_event_queries": 21,
- "events": 405,
- "markets": 329,
- "markets_dropped_by_volume_floor": 1942,
- "day_file": "data/2026/10/2026-10-24T01.jsonl",
+ "events": 407,
+ "markets": 333,
+ "markets_dropped_by_volume_floor": 1971,
+ "day_file": "data/2026/10/2026-10-24T02.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 112,
- "trades_watchlist_markets": 86,
- "trades_collected": 1517,
- "anomalies_detected": 24,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 78,
- "books_rows": 132,
+ "trades_markets_queried": 116,
+ "trades_watchlist_markets": 73,
+ "trades_collected": 778,
+ "anomalies_detected": 0,
+ "anomalies_new": 0,
+ "history_debug": [
+  {
+   "cid": "0x07e74906",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x3dc6f8d4",
+   "pts": 0,
+   "variant": "none"
+  },
+  {
+   "cid": "0xad2b65e8",
+   "pts": 0,
+   "variant": "none"
+  },
+  {
+   "cid": "0xd7f88d46",
+   "pts": 0,
+   "variant": "none"
+  },
+  {
+   "cid": "0xfa645c74",
+   "pts": 0,
+   "variant": "none"
+  },
+  {
+   "cid": "0xbcb48b2f",
+   "pts": 0,
+   "variant": "none"
+  },
+  {
+   "cid": "0x2c88ce62",
+   "pts": 0,
+   "variant": "none"
+  },
+  {
+   "cid": "0xdaee8471",
+   "pts": 0,
+   "variant": "none"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 84,
+ "books_rows": 166,
  "status": "ok"
 }
