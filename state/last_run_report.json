@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T11:15:36Z",
+ "ts": "2026-10-24T11:18:47Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 35,
+   "events_returned": 34,
    "err": null
   },
   {
@@ -159,13 +159,13 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Dota 2: 1win vs GamerLegion (BO3) - PARI Universe Group A",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "Counter-Strike: MOUZ vs Liquid (BO3) - PGL Masters Bucharest Group Sta"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: 1win vs GamerLegion (BO3) - PARI Universe Group A",
    "Dota 2: Team Lynx vs Nemiga Gaming (BO3) - EPL Masters Group A",
-   "Dota 2: Team Yandex vs OG (BO3) - PARI Universe Group A"
+   "Dota 2: Team Yandex vs OG (BO3) - PARI Universe Group A",
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -240,7 +240,7 @@
    },
    {
     "t": "Dota 2: 1win vs GamerLegion (BO3) - PARI Universe Group A",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Inner Circle vs HULIGANI (BO3) - EPL Masters Group A",
@@ -363,15 +363,15 @@
   ]
  },
  "n_event_queries": 24,
- "events": 773,
+ "events": 772,
  "markets": 720,
- "markets_dropped_by_volume_floor": 7388,
+ "markets_dropped_by_volume_floor": 7390,
  "day_file": "data/2026/10/2026-10-24T11.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 178,
  "trades_watchlist_markets": 78,
- "trades_collected": 2744,
- "anomalies_detected": 29,
+ "trades_collected": 2754,
+ "anomalies_detected": 33,
  "anomalies_new": 6,
  "history_debug": [],
  "history_conditions_new": 0,
