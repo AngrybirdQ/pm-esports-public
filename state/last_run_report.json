@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T14:36:01Z",
+ "ts": "2026-10-24T14:39:50Z",
  "sources": [
   {
    "url": "/tags",
@@ -309,12 +309,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: FunPlus Phoenix vs Dragon Ranger Gaming (BO3) - VCT Threshol",
-    "closed": true
-   },
-   {
     "t": "Valorant: FUT Esports vs Fire Flux Esports (BO3) - Monsters Reloaded P",
     "closed": false
+   },
+   {
+    "t": "Valorant: FunPlus Phoenix vs Dragon Ranger Gaming (BO3) - VCT Threshol",
+    "closed": true
    }
   ],
   "search:NBA": [
@@ -364,18 +364,34 @@
  },
  "n_event_queries": 24,
  "events": 772,
- "markets": 792,
- "markets_dropped_by_volume_floor": 8299,
+ "markets": 795,
+ "markets_dropped_by_volume_floor": 8302,
  "day_file": "data/2026/10/2026-10-24T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 204,
+ "trades_markets_queried": 207,
  "trades_watchlist_markets": 82,
- "trades_collected": 3745,
- "anomalies_detected": 29,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_collected": 3768,
+ "anomalies_detected": 40,
+ "anomalies_new": 21,
+ "history_debug": [
+  {
+   "cid": "0x66c5e109",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_errors": [
+  "6275267027: HTTPError: HTTP Error 404: Not Found",
+  "4164374024: HTTPError: HTTP Error 404: Not Found",
+  "2974400628: HTTPError: HTTP Error 404: Not Found",
+  "4079828616: HTTPError: HTTP Error 404: Not Found",
+  "1959946049: HTTPError: HTTP Error 404: Not Found",
+  "6323080196: HTTPError: HTTP Error 404: Not Found",
+  "3064907157: HTTPError: HTTP Error 404: Not Found",
+  "7744860124: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 117,
- "books_rows": 192,
+ "books_rows": 186,
  "status": "ok"
 }
