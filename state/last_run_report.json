@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T10:52:49Z",
+ "ts": "2026-10-24T10:58:05Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 160,
+   "events_returned": 159,
    "err": null
   },
   {
@@ -160,12 +160,12 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Dota 2: 1win vs GamerLegion (BO3) - PARI Universe Group A",
-   "Counter-Strike: Aurora Gaming vs TheMongolz (BO3) - PGL Masters Buchar"
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: 1win vs GamerLegion (BO3) - PARI Universe Group A",
    "Dota 2: Team Lynx vs Nemiga Gaming (BO3) - EPL Masters Group A",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Team Yandex vs OG (BO3) - PARI Universe Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -199,7 +199,7 @@
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Clippers vs. Lakers"
+   "NBA: 2027 Eastern Conference Champion"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
@@ -297,11 +297,11 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: Eternal Fire vs Eintracht Frankfurt (BO3) - Project Blender ",
+    "t": "Valorant: FunPlus Phoenix vs Dragon Ranger Gaming (BO3) - VCT Threshol",
     "closed": true
    },
    {
-    "t": "Valorant: FunPlus Phoenix vs Dragon Ranger Gaming (BO3) - VCT Threshol",
+    "t": "Valorant: Eternal Fire vs Eintracht Frankfurt (BO3) - Project Blender ",
     "closed": true
    },
    {
@@ -363,41 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 773,
- "markets": 731,
- "markets_dropped_by_volume_floor": 7195,
+ "events": 772,
+ "markets": 723,
+ "markets_dropped_by_volume_floor": 7335,
  "day_file": "data/2026/10/2026-10-24T10.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 180,
+ "trades_markets_queried": 177,
  "trades_watchlist_markets": 78,
- "trades_collected": 2855,
- "anomalies_detected": 46,
+ "trades_collected": 2687,
+ "anomalies_detected": 33,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "7372885121: HTTPError: HTTP Error 404: Not Found",
-  "2433749837: HTTPError: HTTP Error 404: Not Found",
-  "2390224684: HTTPError: HTTP Error 404: Not Found",
-  "4020112546: HTTPError: HTTP Error 404: Not Found",
-  "9279141609: HTTPError: HTTP Error 404: Not Found",
-  "3097928760: HTTPError: HTTP Error 404: Not Found",
-  "2815514797: HTTPError: HTTP Error 404: Not Found",
-  "1010200628: HTTPError: HTTP Error 404: Not Found",
-  "1336694452: HTTPError: HTTP Error 404: Not Found",
-  "7946976277: HTTPError: HTTP Error 404: Not Found",
-  "7032066239: HTTPError: HTTP Error 404: Not Found",
-  "6561821306: HTTPError: HTTP Error 404: Not Found",
-  "4693065732: HTTPError: HTTP Error 404: Not Found",
-  "2131774013: HTTPError: HTTP Error 404: Not Found",
-  "3683170945: HTTPError: HTTP Error 404: Not Found",
-  "9162448703: HTTPError: HTTP Error 404: Not Found",
-  "9866588871: HTTPError: HTTP Error 404: Not Found",
-  "3360030578: HTTPError: HTTP Error 404: Not Found",
-  "5690243073: HTTPError: HTTP Error 404: Not Found",
-  "4128903510: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 124,
- "books_rows": 206,
+ "books_markets": 115,
+ "books_rows": 208,
  "status": "ok"
 }
