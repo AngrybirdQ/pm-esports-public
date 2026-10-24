@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T21:05:38Z",
+ "ts": "2026-10-24T21:09:09Z",
  "sources": [
   {
    "url": "/tags",
@@ -159,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "LoL: G2 Esports vs LOS (BO1) - Worlds Group Stage",
-   "Worlds 2026: Winner",
-   "LoL: LYON vs Karmine Corp (BO1) - Worlds Group Stage"
+   "LoL: LYON vs Karmine Corp (BO1) - Worlds Group Stage",
+   "Worlds 2026: Winner"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Astra Invicta vs LEGION (BO3) - PARI Universe Group B",
@@ -178,8 +178,8 @@
   ],
   "tag_slug=league-of-legends": [
    "LoL: G2 Esports vs LOS (BO1) - Worlds Group Stage",
-   "Worlds 2026: Winner",
-   "LoL: LYON vs Karmine Corp (BO1) - Worlds Group Stage"
+   "LoL: LYON vs Karmine Corp (BO1) - Worlds Group Stage",
+   "Worlds 2026: Winner"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -364,24 +364,18 @@
  },
  "n_event_queries": 24,
  "events": 764,
- "markets": 870,
- "markets_dropped_by_volume_floor": 8899,
+ "markets": 886,
+ "markets_dropped_by_volume_floor": 8904,
  "day_file": "data/2026/10/2026-10-24T21.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 201,
  "trades_watchlist_markets": 67,
- "trades_collected": 3520,
- "anomalies_detected": 74,
- "anomalies_new": 0,
+ "trades_collected": 3431,
+ "anomalies_detected": 76,
+ "anomalies_new": 6,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "3987894960: HTTPError: HTTP Error 404: Not Found",
-  "4869259233: HTTPError: HTTP Error 404: Not Found",
-  "7766589297: HTTPError: HTTP Error 404: Not Found",
-  "1027833464: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 81,
- "books_rows": 100,
+ "books_markets": 79,
+ "books_rows": 98,
  "status": "ok"
 }
