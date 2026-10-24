@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T17:35:49Z",
+ "ts": "2026-10-24T17:40:12Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 32,
+   "events_returned": 31,
    "err": null
   },
   {
@@ -164,8 +164,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Spirit vs BetBoom Team (BO3) - PARI Universe Group B",
-   "Dota 2: Team Synapse vs Zero Tenacity (BO3) - EPL Masters Group B",
-   "Dota 2: Yellow Submarine vs Dawn Bulls (BO3) - EPL Masters Group B"
+   "Dota 2: Yellow Submarine vs Dawn Bulls (BO3) - EPL Masters Group B",
+   "Dota 2: Astra Invicta vs LEGION (BO3) - PARI Universe Group B"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -248,7 +248,7 @@
    },
    {
     "t": "Dota 2: Team Synapse vs Zero Tenacity (BO3) - EPL Masters Group B",
-    "closed": false
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -310,7 +310,7 @@
    },
    {
     "t": "Valorant: CGN Esports vs Eintracht Frankfurt (BO3) - Project Blender P",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: TEC Esports vs Dragon Ranger Gaming (BO3) - VCT Threshold Ch",
@@ -363,19 +363,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 765,
- "markets": 830,
- "markets_dropped_by_volume_floor": 8329,
+ "events": 768,
+ "markets": 839,
+ "markets_dropped_by_volume_floor": 8346,
  "day_file": "data/2026/10/2026-10-24T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 234,
+ "trades_markets_queried": 235,
  "trades_watchlist_markets": 92,
- "trades_collected": 5617,
- "anomalies_detected": 93,
- "anomalies_new": 4,
+ "trades_collected": 5567,
+ "anomalies_detected": 77,
+ "anomalies_new": 17,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 119,
- "books_rows": 176,
+ "books_errors": [
+  "3024826459: HTTPError: HTTP Error 404: Not Found",
+  "7219346520: HTTPError: HTTP Error 404: Not Found",
+  "1049794693: HTTPError: HTTP Error 404: Not Found",
+  "8517927220: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 120,
+ "books_rows": 172,
  "status": "ok"
 }
