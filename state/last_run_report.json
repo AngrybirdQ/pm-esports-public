@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T23:21:14Z",
+ "ts": "2026-10-24T23:29:11Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 55,
+   "events_returned": 54,
    "err": null
   },
   {
@@ -158,9 +158,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: Invictus Gaming vs Team Secret Whales (BO1) - Worlds Group Stage",
    "LoL: LYON vs Karmine Corp (BO1) - Worlds Group Stage",
-   "Worlds 2026: Winner"
+   "Worlds 2026: Winner",
+   "LoL: Hanwha Life Esports vs Gen.G (BO1) - Worlds Group Stage"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
@@ -177,9 +177,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: Invictus Gaming vs Team Secret Whales (BO1) - Worlds Group Stage",
    "LoL: LYON vs Karmine Corp (BO1) - Worlds Group Stage",
-   "Worlds 2026: Winner"
+   "Worlds 2026: Winner",
+   "LoL: Hanwha Life Esports vs Gen.G (BO1) - Worlds Group Stage"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -363,19 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 763,
- "markets": 967,
- "markets_dropped_by_volume_floor": 8984,
+ "events": 762,
+ "markets": 983,
+ "markets_dropped_by_volume_floor": 8968,
  "day_file": "data/2026/10/2026-10-24T23.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 225,
+ "trades_markets_queried": 231,
  "trades_watchlist_markets": 44,
- "trades_collected": 4154,
- "anomalies_detected": 113,
- "anomalies_new": 8,
+ "trades_collected": 4437,
+ "anomalies_detected": 110,
+ "anomalies_new": 99,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 82,
- "books_rows": 138,
+ "books_markets": 83,
+ "books_rows": 140,
  "status": "ok"
 }
