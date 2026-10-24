@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T21:40:30Z",
+ "ts": "2026-10-24T21:43:30Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 42,
+   "events_returned": 43,
    "err": null
   },
   {
@@ -160,7 +160,7 @@
   "tag_slug=esports": [
    "LoL: LYON vs Karmine Corp (BO1) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "Dota 2: Astra Invicta vs LEGION (BO3) - PARI Universe Group B"
+   "LoL: Invictus Gaming vs Team Secret Whales (BO1) - Worlds Group Stage"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Astra Invicta vs LEGION (BO3) - PARI Universe Group B",
@@ -179,7 +179,7 @@
   "tag_slug=league-of-legends": [
    "LoL: LYON vs Karmine Corp (BO1) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "LoL: Invictus Gaming vs Team Secret Whales (BO1) - Worlds Group Stage"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -189,7 +189,7 @@
   "tag_slug=valorant": [
    "Valorant: Shopify Rebellion Gold vs SK Nebula (BO3) - VCT Game Changer",
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team"
+   "VALORANT Offseason: primmie Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -363,18 +363,24 @@
   ]
  },
  "n_event_queries": 24,
- "events": 763,
- "markets": 894,
- "markets_dropped_by_volume_floor": 8928,
+ "events": 764,
+ "markets": 892,
+ "markets_dropped_by_volume_floor": 8947,
  "day_file": "data/2026/10/2026-10-24T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 212,
+ "trades_markets_queried": 213,
  "trades_watchlist_markets": 67,
- "trades_collected": 3153,
+ "trades_collected": 3177,
  "anomalies_detected": 13,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
+ "anomalies_new": 0,
+ "history_debug": [
+  {
+   "cid": "0xcd55f4cd",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 76,
  "books_rows": 104,
  "status": "ok"
