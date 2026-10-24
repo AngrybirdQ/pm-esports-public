@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T04:16:27Z",
+ "ts": "2026-10-24T06:07:21Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 59,
+   "events_returned": 58,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 45,
+   "events_returned": 47,
    "err": null
   },
   {
@@ -88,6 +88,18 @@
    "url": "tag_slug=ti",
    "ok": true,
    "events_returned": 0,
+   "err": null
+  },
+  {
+   "url": "tag_slug=nba",
+   "ok": true,
+   "events_returned": 159,
+   "err": null
+  },
+  {
+   "url": "tag_slug=basketball",
+   "ok": true,
+   "events_returned": 300,
    "err": null
   },
   {
@@ -122,6 +134,12 @@
   },
   {
    "url": "search:Valorant",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:NBA",
    "ok": true,
    "events_returned": 5,
    "err": null
@@ -178,6 +196,16 @@
    "StarCraft II: SHIN vs GuMiHo (BO3) - IntoTheTV x SOOP SC2 League Premi",
    "StarCraft II: Clem vs Classic (BO3) - IntoTheTV x SOOP SC2 League Prem"
   ],
+  "tag_slug=nba": [
+   "NBA: 2027 Champion",
+   "NBA: 2026-27 Rookie of the Year",
+   "Knicks vs. Celtics"
+  ],
+  "tag_slug=basketball": [
+   "NBA: 2027 Champion",
+   "NBA: 2026-27 Rookie of the Year",
+   "Knicks vs. Celtics"
+  ],
   "tag_slug=international-affairs": [
    "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
    "US-Canada diplomatic agreement to lower tariffs by...?",
@@ -190,11 +218,13 @@
   ]
  },
  "winning_sources": [
+  "tag_slug=basketball",
   "tag_slug=cs2",
   "tag_slug=dota-2",
   "tag_slug=esports",
   "tag_slug=international-affairs",
   "tag_slug=league-of-legends",
+  "tag_slug=nba",
   "tag_slug=starcraft-2",
   "tag_slug=valorant"
  ],
@@ -250,7 +280,7 @@
    },
    {
     "t": "Will Jynxzi reach Gold rank in League of Legends by...?",
-    "closed": false
+    "closed": true
    },
    {
     "t": "LoL: Dplus KIA Challengers vs KT Rolster Challengers (BO5) - LCK Chall",
@@ -287,6 +317,28 @@
     "closed": true
    }
   ],
+  "search:NBA": [
+   {
+    "t": "NBA",
+    "closed": true
+   },
+   {
+    "t": "NBA",
+    "closed": true
+   },
+   {
+    "t": "NBA",
+    "closed": true
+   },
+   {
+    "t": "NBA",
+    "closed": true
+   },
+   {
+    "t": "NBA",
+    "closed": true
+   }
+  ],
   "search:The International": [
    {
     "t": "The International 2026: Winner",
@@ -310,20 +362,20 @@
    }
   ]
  },
- "n_event_queries": 21,
- "events": 406,
- "markets": 343,
- "markets_dropped_by_volume_floor": 1959,
- "day_file": "data/2026/10/2026-10-24T04.jsonl",
+ "n_event_queries": 24,
+ "events": 767,
+ "markets": 686,
+ "markets_dropped_by_volume_floor": 6303,
+ "day_file": "data/2026/10/2026-10-24T06.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 126,
- "trades_watchlist_markets": 73,
- "trades_collected": 1335,
- "anomalies_detected": 12,
- "anomalies_new": 0,
+ "trades_markets_queried": 182,
+ "trades_watchlist_markets": 66,
+ "trades_collected": 1686,
+ "anomalies_detected": 1,
+ "anomalies_new": 1,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 91,
- "books_rows": 178,
+ "books_markets": 138,
+ "books_rows": 264,
  "status": "ok"
 }
