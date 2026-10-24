@@ -23,8 +23,10 @@ const PIN_ESPORTS_KW = [
   "counter-strike", "dota", "valorant", "vct", "lec", "lck", "lpl",
   "blast", "esl", "iem", "overwatch", "starcraft", "rocket league",
   "call of duty", "king of glory", "mlbb", "arena of valor",
+  // 10-24: NBA常规赛开打, 优先级保位(此前被≥6个电竞联赛挤出→10-21起锚断流)
+  "nba", "basketball",
 ];
-const PIN_LEAGUE_CAP = 6;
+const PIN_LEAGUE_CAP = 8;
 const PIN_MU_CAP = 5;
 
 function amerToDec(a) {
@@ -34,15 +36,27 @@ function amerToDec(a) {
 }
 
 async function pinSweep(env) {
-  const H = {"Accept": "application/json", "User-Agent": "api-proxy-worker/1.0"};
+  // 10-24: arcadia guest API 开始要求x-api-key(公开guest密钥, 开源pinnacle采集器通用)
+  const H = {"Accept": "application/json", "User-Agent": "api-proxy-worker/1.0",
+    "x-api-key": "CQCVQKM5-Cf4AeyUcU4e36TCPfGGyYPh",
+    "Content-Type": "application/json"};
   const lgResp = await fetch(PIN_BASE + "/sports/12/leagues?featured=true", {headers: H});
-  if (lgResp.status !== 200) return {error: "leagues http " + lgResp.status};
+  if (lgResp.status !== 200) {
+    // 10-24: 错误路径落KV(此前静默return导致tick正常但零产出无法诊断)
+    try { await env.PIN_CACHE.put("pin:meta",
+      JSON.stringify({ts: Date.now(), error: "leagues http " + lgResp.status}),
+      {expirationTtl: 10800}); } catch (e) {}
+    return {error: "leagues http " + lgResp.status};
+  }
   const leagues = await lgResp.json();
   const live = (leagues || []).filter(l =>
     ((l.eventCount || 0) + (l.matchupCount || 0)) > 0);
   // 电竞关键词优先, 其余热门联赛补位(大满贯期间featured含电竞)
+  // 10-24: NBA单独保位排最前(优先组电竞联赛可达7+, NBA排后会被slice掐掉)
+  const isNBA = l => ["nba", "basketball"].some(k => (l.name || "").toLowerCase().includes(k));
   const isEsports = l => PIN_ESPORTS_KW.some(k => (l.name || "").toLowerCase().includes(k));
-  const picked = [...live.filter(isEsports), ...live.filter(l => !isEsports(l))]
+  const picked = [...live.filter(isNBA), ...live.filter(l => !isNBA(l) && isEsports(l)),
+    ...live.filter(l => !isNBA(l) && !isEsports(l))]
     .slice(0, PIN_LEAGUE_CAP);
   const rows = [];
   let nMu = 0, nErr = 0;
@@ -97,40 +111,50 @@ async function pinSweep(env) {
 export default {
   async scheduled(event, env, ctx) {
     console.log("cron tick", new Date(event.scheduledTime).toISOString());
-    // 心跳自报(10-20排查): 无论后续成败, 先落KV证明tick已触发
-    try { await env.PIN_CACHE.put("pin:hb",
-      JSON.stringify({t: Date.now(), sched: event.scheduledTime}),
-      {expirationTtl: 1800}); } catch (e) {}
+    // 心跳自报: 每30min一次(10-24二降: KV免费层1000写/天, rows+meta每10min=
+    // 288写/天, hb从每5min降到每30min再省192写/天 → 全天~336写=34%配额)
+    const mi0 = new Date(event.scheduledTime).getUTCMinutes();
+    if (mi0 % 30 === 0) {
+      try { await env.PIN_CACHE.put("pin:hb",
+        JSON.stringify({t: Date.now(), sched: event.scheduledTime}),
+        {expirationTtl: 3900}); } catch (e) {}
+    }
+    // 10-24限流退避: sweep降频10min + 失败后冷却20min(arcadia间歇403,
+    // 高频重试只会加剧限流; 本地消费者pin_kv_rest本就是10min粒度)
+    const d0 = new Date(event.scheduledTime);
+    if (d0.getUTCMinutes() % 10 !== 0) return;
+    try {
+      const cool = await env.PIN_CACHE.get("pin:cool", "json");
+      if (cool && Date.now() < cool.until) {
+        console.log("cooling until", new Date(cool.until).toISOString());
+        return;
+      }
+    } catch (e) {}
     // 全链预填(10-20): cron侧CF内部拉Pinnacle全链写KV(pin:rows:*),
     // 本地REST直读 → 不依赖workers.dev HTTP可达性
     if (env.PIN_CACHE) {
       try {
         const meta = await pinSweep(env);
         console.log("pinSweep", JSON.stringify(meta));
+        if (meta && meta.error) {
+          try { await env.PIN_CACHE.put("pin:cool",
+            JSON.stringify({until: Date.now() + 20 * 60 * 1000,
+              because: meta.error}), {expirationTtl: 1800}); } catch (e) {}
+        }
       } catch (e) {
         console.log("pinSweep fail", e.message, e.stack);
         try { await env.PIN_CACHE.put("pin:meta",
           JSON.stringify({ts: Date.now(), error: String(e && e.message),
             stack: String(e && e.stack).slice(0, 500)}),
           {expirationTtl: 10800}); } catch (e2) {}
+        try { await env.PIN_CACHE.put("pin:cool",
+          JSON.stringify({until: Date.now() + 20 * 60 * 1000,
+            because: String(e && e.message)}), {expirationTtl: 1800}); } catch (e3) {}
       }
     }
-    // ⑥ Actions schedule备援: 每小时第5分触发collect dispatch
-    const d = new Date(event.scheduledTime);
-    if (d.getUTCMinutes() < 5 && d.getUTCHours() % 1 === 0) {
-      try {
-        const tok = env.GH_DISPATCH_TOKEN;
-        if (tok) {
-          await fetch(
-            "https://api.github.com/repos/AngrybirdQ/pm-esports-public/dispatches",
-            {method: "POST",
-             headers: {"Authorization": `Bearer ${tok}`,
-                        "Accept": "application/vnd.github+json"},
-             body: JSON.stringify({event_type: "collect",
-               client_payload: {mode: "tick", source: "cf-cron-backup"}})});
-        }
-      } catch(e) { console.log("dispatch fail", e.message); }
-    }
+    // ⑥ collect dispatch已移除(10-24): 与本地pm_dispatch(5min, 队列感知, 带watchlist)
+    // 重复; 盲dispatch在longrun在场时只产生被GitHub并发组自动cancel的pending
+    // (近100 run 23 cancelled的噪声源), 且payload无watchlist=无效任务
   },
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
