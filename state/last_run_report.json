@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T22:06:19Z",
+ "ts": "2026-10-24T23:03:13Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 32,
+   "events_returned": 30,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 43,
+   "events_returned": 44,
    "err": null
   },
   {
@@ -163,9 +163,9 @@
    "Worlds 2026: Winner"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Astra Invicta vs LEGION (BO3) - PARI Universe Group B",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A",
+   "Dota 2: Stray Team vs Rostik Team (BO3) - BetBoom Streamers Battle Gro"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -240,7 +240,7 @@
    },
    {
     "t": "Dota 2: Astra Invicta vs LEGION (BO3) - PARI Universe Group B",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: 1win vs GamerLegion (BO3) - PARI Universe Group A",
@@ -305,11 +305,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: KRÜ Blaze vs Gen.G GC (BO3) - VCT Game Changers Championship",
+    "t": "Valorant: G2 Gozen vs MIBR GC (BO3) - VCT Game Changers Championship P",
     "closed": true
    },
    {
-    "t": "Valorant: G2 Gozen vs MIBR GC (BO3) - VCT Game Changers Championship P",
+    "t": "Valorant: KRÜ Blaze vs Gen.G GC (BO3) - VCT Game Changers Championship",
     "closed": true
    },
    {
@@ -363,19 +363,30 @@
   ]
  },
  "n_event_queries": 24,
- "events": 765,
- "markets": 919,
- "markets_dropped_by_volume_floor": 9034,
- "day_file": "data/2026/10/2026-10-24T22.jsonl",
+ "events": 764,
+ "markets": 959,
+ "markets_dropped_by_volume_floor": 8999,
+ "day_file": "data/2026/10/2026-10-24T23.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 222,
- "trades_watchlist_markets": 61,
- "trades_collected": 3170,
- "anomalies_detected": 58,
- "anomalies_new": 58,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_markets_queried": 220,
+ "trades_watchlist_markets": 44,
+ "trades_collected": 3744,
+ "anomalies_detected": 69,
+ "anomalies_new": 63,
+ "history_debug": [
+  {
+   "cid": "0xdcddd70d",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xaf93d92b",
+   "pts": 0,
+   "variant": "none"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 86,
- "books_rows": 118,
+ "books_rows": 136,
  "status": "ok"
 }
