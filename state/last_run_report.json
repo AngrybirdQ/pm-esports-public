@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T10:27:16Z",
+ "ts": "2026-10-25T10:41:28Z",
  "sources": [
   {
    "url": "/tags",
@@ -159,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Group A"
+   "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Group A",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Group A",
@@ -235,16 +235,16 @@
     "closed": true
    },
    {
+    "t": "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Group A",
+    "closed": false
+   },
+   {
     "t": "Dota 2: Team Spirit vs BetBoom Team (BO3) - PARI Universe Group B",
     "closed": true
    },
    {
     "t": "Dota 2: Astra Invicta vs LEGION (BO3) - PARI Universe Group B",
     "closed": true
-   },
-   {
-    "t": "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Group A",
-    "closed": false
    },
    {
     "t": "Dota 2: Yellow Submarine vs Dawn Bulls (BO3) - EPL Masters Group B",
@@ -364,18 +364,22 @@
  },
  "n_event_queries": 24,
  "events": 767,
- "markets": 707,
- "markets_dropped_by_volume_floor": 6987,
+ "markets": 713,
+ "markets_dropped_by_volume_floor": 6989,
  "day_file": "data/2026/10/2026-10-25T10.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 184,
- "trades_watchlist_markets": 79,
- "trades_collected": 3188,
- "anomalies_detected": 37,
- "anomalies_new": 11,
+ "trades_markets_queried": 219,
+ "trades_watchlist_markets": 89,
+ "trades_collected": 3305,
+ "anomalies_detected": 40,
+ "anomalies_new": 40,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 107,
- "books_rows": 202,
+ "books_errors": [
+  "9496004891: HTTPError: HTTP Error 404: Not Found",
+  "6290868136: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 142,
+ "books_rows": 264,
  "status": "ok"
 }
