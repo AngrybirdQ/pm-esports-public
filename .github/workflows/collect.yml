@@ -69,13 +69,15 @@ jobs:
           while [ $SECONDS -lt $END ]; do
             i=$((i+1))
             echo "== longrun iter $i $(date -u '+%H:%M:%S') =="
-            python3 scripts/collect.py || echo "collect failed (next iter retries)"
-            if [ $((i % 15)) -eq 1 ]; then python3 scripts/lowfreq_sweep.py || true; fi
-            if [ $((i % 15)) -eq 8 ]; then PH_BUDGET_S=300 python3 scripts/pinnacle_history_sweep.py || true; fi
-            python3 scripts/pinnacle_anchor_collect.py || echo "pinnacle failed (next iter retries)"
-            python3 scripts/wecom_alert.py || echo "wecom failed (next iter retries)"
-            python3 scripts/collect_side.py || echo "side failed (next iter retries)"
-            if [ $((i % 15)) -eq 1 ]; then python3 scripts/twin_and_settle.py || echo 'twin failed (next iter retries)'; fi
+            # 10-24看门狗: 每脚本timeout包装 — fetch挂死被杀, 本iter继续走到
+            # git commit, 黑窗上限从~67min(实测)压到~3-5min(一个iter周期)
+            timeout 240 python3 scripts/collect.py || echo "collect failed/killed (next iter retries)"
+            if [ $((i % 15)) -eq 1 ]; then timeout 300 python3 scripts/lowfreq_sweep.py || true; fi
+            if [ $((i % 15)) -eq 8 ]; then PH_BUDGET_S=300 timeout 330 python3 scripts/pinnacle_history_sweep.py || true; fi
+            timeout 120 python3 scripts/pinnacle_anchor_collect.py || echo "pinnacle failed/killed (next iter retries)"
+            timeout 60 python3 scripts/wecom_alert.py || echo "wecom failed/killed (next iter retries)"
+            timeout 120 python3 scripts/collect_side.py || echo "side failed/killed (next iter retries)"
+            if [ $((i % 15)) -eq 1 ]; then timeout 180 python3 scripts/twin_and_settle.py || echo 'twin failed/killed (next iter retries)'; fi
             git add -A data state
             if ! git diff --cached --quiet; then
               git commit -m "data: longrun $(date -u '+%Y-%m-%dT%H:%M:%SZ') iter$i"
