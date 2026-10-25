@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T13:54:06Z",
+ "ts": "2026-10-25T13:57:19Z",
  "sources": [
   {
    "url": "/tags",
@@ -243,8 +243,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Yandex vs OG (BO3) - PARI Universe Group A",
-    "closed": true
+    "t": "Dota 2: Team Yandex vs 1win (BO3) - PARI Universe Group A",
+    "closed": false
    },
    {
     "t": "Dota 2: Yellow Submarine vs Dawn Bulls (BO3) - EPL Masters Group B",
@@ -364,18 +364,22 @@
  },
  "n_event_queries": 24,
  "events": 764,
- "markets": 731,
- "markets_dropped_by_volume_floor": 7664,
+ "markets": 739,
+ "markets_dropped_by_volume_floor": 7928,
  "day_file": "data/2026/10/2026-10-25T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 248,
+ "trades_markets_queried": 257,
  "trades_watchlist_markets": 99,
- "trades_collected": 3778,
- "anomalies_detected": 69,
- "anomalies_new": 2,
+ "trades_collected": 3932,
+ "anomalies_detected": 78,
+ "anomalies_new": 17,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 164,
- "books_rows": 308,
+ "books_errors": [
+  "7018364695: HTTPError: HTTP Error 404: Not Found",
+  "1077400544: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 171,
+ "books_rows": 310,
  "status": "ok"
 }
