@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T11:01:00Z",
+ "ts": "2026-10-25T11:38:15Z",
  "sources": [
   {
    "url": "/tags",
@@ -160,7 +160,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Group A",
-   "Worlds 2026 Winning Region"
+   "Counter-Strike: BetBoom Team vs Nemiga (BO3) - PGL Masters Bucharest G"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Group A",
@@ -189,7 +189,7 @@
   "tag_slug=valorant": [
    "Valorant: Dragon Ranger Gaming vs Nova Esports (BO5) - VCT Threshold C",
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team"
+   "Valorant: BBL Esports vs Fire Flux Esports (BO5) - Monsters Reloaded P"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -305,12 +305,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: G2 Gozen vs MIBR GC (BO3) - VCT Game Changers Championship P",
-    "closed": true
-   },
-   {
     "t": "Valorant: Dragon Ranger Gaming vs Nova Esports (BO5) - VCT Threshold C",
     "closed": false
+   },
+   {
+    "t": "Valorant: G2 Gozen vs MIBR GC (BO3) - VCT Game Changers Championship P",
+    "closed": true
    },
    {
     "t": "Valorant: CGN Esports vs Eintracht Frankfurt (BO3) - Project Blender P",
@@ -363,24 +363,35 @@
   ]
  },
  "n_event_queries": 24,
- "events": 767,
- "markets": 719,
- "markets_dropped_by_volume_floor": 6990,
+ "events": 769,
+ "markets": 738,
+ "markets_dropped_by_volume_floor": 6989,
  "day_file": "data/2026/10/2026-10-25T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 221,
- "trades_watchlist_markets": 89,
- "trades_collected": 3330,
- "anomalies_detected": 44,
- "anomalies_new": 43,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "8322827377: HTTPError: HTTP Error 404: Not Found",
-  "9143804015: HTTPError: HTTP Error 404: Not Found",
-  "2067126629: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 222,
+ "trades_watchlist_markets": 110,
+ "trades_collected": 3396,
+ "anomalies_detected": 29,
+ "anomalies_new": 28,
+ "history_debug": [
+  {
+   "cid": "0xbe22c13a",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x3a3b870d",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xffdb3e7d",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 142,
- "books_rows": 266,
+ "history_conditions_new": 3,
+ "books_markets": 136,
+ "books_rows": 226,
  "status": "ok"
 }
