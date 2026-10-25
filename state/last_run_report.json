@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T02:24:03Z",
+ "ts": "2026-10-25T02:29:11Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 172,
+   "events_returned": 171,
    "err": null
   },
   {
@@ -279,10 +279,6 @@
     "closed": false
    },
    {
-    "t": "Will Jynxzi reach Gold rank in League of Legends by...?",
-    "closed": true
-   },
-   {
     "t": "Will Caedrel Reach Challenger Before the End of the Year?",
     "closed": false
    },
@@ -292,6 +288,10 @@
    },
    {
     "t": "LoL: T1 Academy vs KT Rolster Challengers (BO5) - LCK Challengers Leag",
+    "closed": true
+   },
+   {
+    "t": "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO5) - LCK Challengers",
     "closed": true
    }
   ],
@@ -363,29 +363,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 778,
- "markets": 979,
- "markets_dropped_by_volume_floor": 7964,
+ "events": 776,
+ "markets": 963,
+ "markets_dropped_by_volume_floor": 7891,
  "day_file": "data/2026/10/2026-10-25T02.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 28,
- "trades_collected": 7221,
- "anomalies_detected": 327,
- "anomalies_new": 52,
+ "trades_collected": 7089,
+ "anomalies_detected": 289,
+ "anomalies_new": 289,
  "history_debug": [
   {
    "cid": "0xfc0fb3ce",
-   "pts": 0,
-   "variant": "none"
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 0,
- "books_errors": [
-  "7382914255: HTTPError: HTTP Error 404: Not Found",
-  "1047484548: HTTPError: HTTP Error 404: Not Found"
- ],
+ "history_conditions_new": 1,
  "books_markets": 139,
- "books_rows": 178,
+ "books_rows": 116,
  "status": "ok"
 }
