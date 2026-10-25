@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T17:36:54Z",
+ "ts": "2026-10-25T17:40:59Z",
  "sources": [
   {
    "url": "/tags",
@@ -159,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Dota 2: Team Spirit vs Astra Invicta (BO3) - PARI Universe Group B",
-   "Counter-Strike: FURIA vs Natus Vincere (BO3) - PGL Masters Bucharest G"
+   "LoL: Hanwha Life Esports vs Invictus Gaming (BO1) - Worlds Group Stage",
+   "Dota 2: Team Spirit vs Astra Invicta (BO3) - PARI Universe Group B"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Spirit vs Astra Invicta (BO3) - PARI Universe Group B",
@@ -363,23 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 763,
- "markets": 806,
- "markets_dropped_by_volume_floor": 7887,
+ "events": 761,
+ "markets": 815,
+ "markets_dropped_by_volume_floor": 7873,
  "day_file": "data/2026/10/2026-10-25T17.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 98,
- "trades_collected": 4112,
- "anomalies_detected": 19,
- "anomalies_new": 2,
+ "trades_collected": 4049,
+ "anomalies_detected": 96,
+ "anomalies_new": 78,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "5442406415: HTTPError: HTTP Error 404: Not Found",
-  "2162377382: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 197,
- "books_rows": 336,
+ "books_markets": 200,
+ "books_rows": 342,
  "status": "ok"
 }
