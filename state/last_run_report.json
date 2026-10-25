@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T08:58:58Z",
+ "ts": "2026-10-25T09:36:55Z",
  "sources": [
   {
    "url": "/tags",
@@ -188,8 +188,8 @@
   ],
   "tag_slug=valorant": [
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team",
-   "VALORANT Offseason: primmie Next Team"
+   "Valorant: Dragon Ranger Gaming vs Nova Esports (BO5) - VCT Threshold C",
+   "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -247,8 +247,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Yellow Submarine vs Dawn Bulls (BO3) - EPL Masters Group B",
-    "closed": true
+    "t": "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Group A",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -309,11 +309,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: CGN Esports vs Eintracht Frankfurt (BO3) - Project Blender P",
-    "closed": true
+    "t": "Valorant: Dragon Ranger Gaming vs Nova Esports (BO5) - VCT Threshold C",
+    "closed": false
    },
    {
-    "t": "Valorant: TEC Esports vs Dragon Ranger Gaming (BO3) - VCT Threshold Ch",
+    "t": "Valorant: CGN Esports vs Eintracht Frankfurt (BO3) - Project Blender P",
     "closed": true
    }
   ],
@@ -364,18 +364,24 @@
  },
  "n_event_queries": 24,
  "events": 767,
- "markets": 687,
- "markets_dropped_by_volume_floor": 6973,
- "day_file": "data/2026/10/2026-10-25T08.jsonl",
+ "markets": 698,
+ "markets_dropped_by_volume_floor": 6975,
+ "day_file": "data/2026/10/2026-10-25T09.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 161,
- "trades_watchlist_markets": 65,
- "trades_collected": 2429,
- "anomalies_detected": 38,
- "anomalies_new": 22,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 95,
- "books_rows": 168,
+ "trades_markets_queried": 177,
+ "trades_watchlist_markets": 79,
+ "trades_collected": 2553,
+ "anomalies_detected": 29,
+ "anomalies_new": 29,
+ "history_debug": [
+  {
+   "cid": "0xf43b54fb",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 111,
+ "books_rows": 204,
  "status": "ok"
 }
