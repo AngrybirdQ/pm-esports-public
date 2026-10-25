@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T20:51:55Z",
+ "ts": "2026-10-25T20:55:56Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 28,
+   "events_returned": 27,
    "err": null
   },
   {
@@ -160,12 +160,12 @@
   "tag_slug=esports": [
    "LoL: Dplus KIA vs Movistar KOI (BO3) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "Dota 2: PARIVISION vs BetBoom Team (BO3) - PARI Universe Group B"
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: PARIVISION vs BetBoom Team (BO3) - PARI Universe Group B",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A",
+   "Dota 2: Stray Team vs Rostik Team (BO3) - BetBoom Streamers Battle Gro"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -189,7 +189,7 @@
   "tag_slug=valorant": [
    "Valorant: Gen.G GC vs FENNEL Female (BO3) - VCT Game Changers Champion",
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team"
+   "Valorant: Team Liquid Brazil vs Nova Esports GC (BO3) - VCT Game Chang"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -364,22 +364,24 @@
  },
  "n_event_queries": 24,
  "events": 762,
- "markets": 851,
- "markets_dropped_by_volume_floor": 8193,
+ "markets": 866,
+ "markets_dropped_by_volume_floor": 8187,
  "day_file": "data/2026/10/2026-10-25T20.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 93,
- "trades_collected": 3688,
- "anomalies_detected": 86,
- "anomalies_new": 4,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "9242545433: HTTPError: HTTP Error 404: Not Found",
-  "3861836625: HTTPError: HTTP Error 404: Not Found"
+ "trades_collected": 3657,
+ "anomalies_detected": 61,
+ "anomalies_new": 11,
+ "history_debug": [
+  {
+   "cid": "0xf03f535d",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 207,
- "books_rows": 360,
+ "history_conditions_new": 1,
+ "books_markets": 212,
+ "books_rows": 370,
  "status": "ok"
 }
