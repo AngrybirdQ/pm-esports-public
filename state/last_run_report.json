@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T01:29:39Z",
+ "ts": "2026-10-25T01:40:33Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 51,
+   "events_returned": 59,
    "err": null
   },
   {
@@ -363,65 +363,30 @@
   ]
  },
  "n_event_queries": 24,
- "events": 772,
- "markets": 1022,
- "markets_dropped_by_volume_floor": 8398,
+ "events": 780,
+ "markets": 1012,
+ "markets_dropped_by_volume_floor": 8434,
  "day_file": "data/2026/10/2026-10-25T01.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 34,
- "trades_collected": 7340,
- "anomalies_detected": 137,
- "anomalies_new": 133,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "7698582668: HTTPError: HTTP Error 404: Not Found",
-  "8688617141: HTTPError: HTTP Error 404: Not Found",
-  "8300362793: HTTPError: HTTP Error 404: Not Found",
-  "5413616264: HTTPError: HTTP Error 404: Not Found",
-  "8941782421: HTTPError: HTTP Error 404: Not Found",
-  "1141322183: HTTPError: HTTP Error 404: Not Found",
-  "2211672848: HTTPError: HTTP Error 404: Not Found",
-  "5422057387: HTTPError: HTTP Error 404: Not Found",
-  "3869620107: HTTPError: HTTP Error 404: Not Found",
-  "1397090117: HTTPError: HTTP Error 404: Not Found",
-  "3524466943: HTTPError: HTTP Error 404: Not Found",
-  "3725664184: HTTPError: HTTP Error 404: Not Found",
-  "3608995574: HTTPError: HTTP Error 404: Not Found",
-  "1463233308: HTTPError: HTTP Error 404: Not Found",
-  "3514017983: HTTPError: HTTP Error 404: Not Found",
-  "7230345155: HTTPError: HTTP Error 404: Not Found",
-  "1546078675: HTTPError: HTTP Error 404: Not Found",
-  "3175053836: HTTPError: HTTP Error 404: Not Found",
-  "5622570164: HTTPError: HTTP Error 404: Not Found",
-  "5288234206: HTTPError: HTTP Error 404: Not Found",
-  "1243871408: HTTPError: HTTP Error 404: Not Found",
-  "6849382315: HTTPError: HTTP Error 404: Not Found",
-  "4490639525: HTTPError: HTTP Error 404: Not Found",
-  "5886314937: HTTPError: HTTP Error 404: Not Found",
-  "6959270091: HTTPError: HTTP Error 404: Not Found",
-  "8195185596: HTTPError: HTTP Error 404: Not Found",
-  "6216026437: HTTPError: HTTP Error 404: Not Found",
-  "7570038834: HTTPError: HTTP Error 404: Not Found",
-  "4218113714: HTTPError: HTTP Error 404: Not Found",
-  "9364553946: HTTPError: HTTP Error 404: Not Found",
-  "1014354990: HTTPError: HTTP Error 404: Not Found",
-  "2244330643: HTTPError: HTTP Error 404: Not Found",
-  "7308105370: HTTPError: HTTP Error 404: Not Found",
-  "9590108561: HTTPError: HTTP Error 404: Not Found",
-  "6775183514: HTTPError: HTTP Error 404: Not Found",
-  "2970116342: HTTPError: HTTP Error 404: Not Found",
-  "1335866068: HTTPError: HTTP Error 404: Not Found",
-  "1164627388: HTTPError: HTTP Error 404: Not Found",
-  "5399226469: HTTPError: HTTP Error 404: Not Found",
-  "1332751264: HTTPError: HTTP Error 404: Not Found",
-  "3694772682: HTTPError: HTTP Error 404: Not Found",
-  "4151912496: HTTPError: HTTP Error 404: Not Found",
-  "5438842966: HTTPError: HTTP Error 404: Not Found",
-  "9448524655: HTTPError: HTTP Error 404: Not Found"
+ "trades_collected": 7931,
+ "anomalies_detected": 252,
+ "anomalies_new": 183,
+ "history_debug": [
+  {
+   "cid": "0x9c63e49f",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x77857649",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 151,
- "books_rows": 203,
+ "history_conditions_new": 2,
+ "books_markets": 128,
+ "books_rows": 201,
  "status": "ok"
 }
