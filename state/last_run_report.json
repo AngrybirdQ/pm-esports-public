@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T13:39:50Z",
+ "ts": "2026-10-25T13:49:49Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 33,
+   "events_returned": 32,
    "err": null
   },
   {
@@ -159,11 +159,11 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Group A",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "Counter-Strike: G2 vs Aurora Gaming (BO3) - PGL Masters Bucharest Grou"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Group A",
+   "Dota 2: Team Yandex vs 1win (BO3) - PARI Universe Group A",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
    "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
@@ -232,14 +232,14 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Group A",
-    "closed": false
-   },
-   {
-    "t": "Dota 2: Team Spirit vs BetBoom Team (BO3) - PARI Universe Group B",
     "closed": true
    },
    {
     "t": "Dota 2: Astra Invicta vs LEGION (BO3) - PARI Universe Group B",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Team Spirit vs BetBoom Team (BO3) - PARI Universe Group B",
     "closed": true
    },
    {
@@ -305,11 +305,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: FUT Esports vs Fire Flux Esports (BO3) - Monsters Reloaded P",
+    "t": "Valorant: G2 Gozen vs MIBR GC (BO3) - VCT Game Changers Championship P",
     "closed": true
    },
    {
-    "t": "Valorant: G2 Gozen vs MIBR GC (BO3) - VCT Game Changers Championship P",
+    "t": "Valorant: FUT Esports vs Fire Flux Esports (BO3) - Monsters Reloaded P",
     "closed": true
    },
    {
@@ -363,19 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 766,
- "markets": 733,
- "markets_dropped_by_volume_floor": 7657,
+ "events": 764,
+ "markets": 731,
+ "markets_dropped_by_volume_floor": 7664,
  "day_file": "data/2026/10/2026-10-25T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 237,
- "trades_watchlist_markets": 110,
- "trades_collected": 3731,
+ "trades_markets_queried": 248,
+ "trades_watchlist_markets": 99,
+ "trades_collected": 3782,
  "anomalies_detected": 67,
- "anomalies_new": 0,
+ "anomalies_new": 12,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 133,
- "books_rows": 248,
+ "books_markets": 164,
+ "books_rows": 306,
  "status": "ok"
 }
