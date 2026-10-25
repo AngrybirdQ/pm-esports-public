@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T10:00:14Z",
+ "ts": "2026-10-25T10:09:48Z",
  "sources": [
   {
    "url": "/tags",
@@ -160,7 +160,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Counter-Strike: FUT Esports vs Liquid (BO3) - PGL Masters Bucharest Gr"
+   "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Group A"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Group A",
@@ -363,35 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 769,
- "markets": 706,
- "markets_dropped_by_volume_floor": 6999,
+ "events": 768,
+ "markets": 704,
+ "markets_dropped_by_volume_floor": 6996,
  "day_file": "data/2026/10/2026-10-25T10.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 179,
+ "trades_markets_queried": 182,
  "trades_watchlist_markets": 79,
- "trades_collected": 2976,
- "anomalies_detected": 43,
- "anomalies_new": 43,
+ "trades_collected": 3009,
+ "anomalies_detected": 42,
+ "anomalies_new": 32,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "5008706410: HTTPError: HTTP Error 404: Not Found",
-  "2855720981: HTTPError: HTTP Error 404: Not Found",
-  "1016248703: HTTPError: HTTP Error 404: Not Found",
-  "2604755120: HTTPError: HTTP Error 404: Not Found",
-  "8701706547: HTTPError: HTTP Error 404: Not Found",
-  "1491879075: HTTPError: HTTP Error 404: Not Found",
-  "3135107804: HTTPError: HTTP Error 404: Not Found",
-  "3010130414: HTTPError: HTTP Error 404: Not Found",
-  "1075105168: HTTPError: HTTP Error 404: Not Found",
-  "8716071699: HTTPError: HTTP Error 404: Not Found",
-  "5073527279: HTTPError: HTTP Error 404: Not Found",
-  "1096781301: HTTPError: HTTP Error 404: Not Found",
-  "1101555136: HTTPError: HTTP Error 404: Not Found",
-  "1148418611: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 115,
- "books_rows": 200,
+ "books_markets": 111,
+ "books_rows": 202,
  "status": "ok"
 }
