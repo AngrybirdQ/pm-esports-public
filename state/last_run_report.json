@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
  "ts": "2026-10-25T17:40:59Z",
+=======
+ "ts": "2026-10-25T17:52:45Z",
+>>>>>>> ee26747 (data: longrun 2026-10-25T17:56:55Z iter1)
  "sources": [
   {
    "url": "/tags",
@@ -364,6 +368,7 @@
  },
  "n_event_queries": 24,
  "events": 761,
+<<<<<<< HEAD
  "markets": 815,
  "markets_dropped_by_volume_floor": 7873,
  "day_file": "data/2026/10/2026-10-25T17.jsonl",
@@ -377,5 +382,20 @@
  "history_conditions_new": 0,
  "books_markets": 200,
  "books_rows": 342,
+=======
+ "markets": 821,
+ "markets_dropped_by_volume_floor": 7869,
+ "day_file": "data/2026/10/2026-10-25T17.jsonl",
+ "retention_removed_files": 0,
+ "trades_markets_queried": 270,
+ "trades_watchlist_markets": 96,
+ "trades_collected": 4337,
+ "anomalies_detected": 105,
+ "anomalies_new": 88,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 195,
+ "books_rows": 344,
+>>>>>>> ee26747 (data: longrun 2026-10-25T17:56:55Z iter1)
  "status": "ok"
 }
