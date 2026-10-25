@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T01:52:08Z",
+ "ts": "2026-10-25T01:55:34Z",
  "sources": [
   {
    "url": "/tags",
@@ -313,7 +313,7 @@
     "closed": true
    },
    {
-    "t": "Valorant: TEC Esports vs Dragon Ranger Gaming (BO3) - VCT Threshold Ch",
+    "t": "Valorant: KeepBest Gaming vs Nova Esports (BO3) - VCT Threshold China ",
     "closed": true
    }
   ],
@@ -364,18 +364,44 @@
  },
  "n_event_queries": 24,
  "events": 780,
- "markets": 1009,
- "markets_dropped_by_volume_floor": 8437,
+ "markets": 1033,
+ "markets_dropped_by_volume_floor": 8413,
  "day_file": "data/2026/10/2026-10-25T01.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 34,
- "trades_collected": 7523,
- "anomalies_detected": 223,
- "anomalies_new": 3,
- "history_debug": [],
+ "trades_collected": 7811,
+ "anomalies_detected": 274,
+ "anomalies_new": 26,
+ "history_debug": [
+  {
+   "cid": "0xc99c2b27",
+   "pts": 0,
+   "variant": "none"
+  },
+  {
+   "cid": "0xa9fc0215",
+   "pts": 0,
+   "variant": "none"
+  },
+  {
+   "cid": "0x88533cb3",
+   "pts": 0,
+   "variant": "none"
+  },
+  {
+   "cid": "0xfc0fb3ce",
+   "pts": 0,
+   "variant": "none"
+  },
+  {
+   "cid": "0x0c8c7e41",
+   "pts": 0,
+   "variant": "none"
+  }
+ ],
  "history_conditions_new": 0,
- "books_markets": 128,
- "books_rows": 200,
+ "books_markets": 129,
+ "books_rows": 206,
  "status": "ok"
 }
