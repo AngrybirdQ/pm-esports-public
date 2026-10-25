@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T21:15:11Z",
+ "ts": "2026-10-25T21:18:52Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 41,
+   "events_returned": 40,
    "err": null
   },
   {
@@ -187,9 +187,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: Gen.G GC vs FENNEL Female (BO3) - VCT Game Changers Champion",
    "VALORANT Offseason: OXY Next Team",
-   "Valorant: Team Liquid Brazil vs Nova Esports GC (BO3) - VCT Game Chang"
+   "Valorant: Team Liquid Brazil vs Nova Esports GC (BO3) - VCT Game Chang",
+   "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -279,10 +279,6 @@
     "closed": false
    },
    {
-    "t": "Will Caedrel Reach Challenger Before the End of the Year?",
-    "closed": false
-   },
-   {
     "t": "LoL: Dplus KIA Challengers vs KT Rolster Challengers (BO5) - LCK Chall",
     "closed": true
    },
@@ -292,6 +288,10 @@
    },
    {
     "t": "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO5) - LCK Challengers",
+    "closed": true
+   },
+   {
+    "t": "LoL: DN SOOPers Challengers vs Nongshim Esports Academy (BO5) - LCK Ch",
     "closed": true
    }
   ],
@@ -363,19 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 762,
- "markets": 877,
- "markets_dropped_by_volume_floor": 8186,
+ "events": 761,
+ "markets": 868,
+ "markets_dropped_by_volume_floor": 8164,
  "day_file": "data/2026/10/2026-10-25T21.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 70,
- "trades_collected": 4082,
- "anomalies_detected": 77,
- "anomalies_new": 3,
+ "trades_collected": 4097,
+ "anomalies_detected": 78,
+ "anomalies_new": 11,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 212,
- "books_rows": 382,
+ "books_markets": 203,
+ "books_rows": 360,
  "status": "ok"
 }
