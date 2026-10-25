@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T12:27:32Z",
+ "ts": "2026-10-25T12:49:03Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 43,
+   "events_returned": 42,
    "err": null
   },
   {
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 161,
+   "events_returned": 158,
    "err": null
   },
   {
@@ -187,9 +187,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: Dragon Ranger Gaming vs Nova Esports (BO5) - VCT Threshold C",
    "VALORANT Offseason: OXY Next Team",
-   "Valorant: BBL Esports vs Fire Flux Esports (BO5) - Monsters Reloaded P"
+   "Valorant: BBL Esports vs Fire Flux Esports (BO5) - Monsters Reloaded P",
+   "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -199,12 +199,12 @@
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Wizards vs. Bulls"
+   "Nets vs. Cavaliers"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Wizards vs. Bulls"
+   "Nets vs. Cavaliers"
   ],
   "tag_slug=international-affairs": [
    "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
@@ -302,7 +302,7 @@
    },
    {
     "t": "Valorant: Dragon Ranger Gaming vs Nova Esports (BO5) - VCT Threshold C",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: FUT Esports vs Fire Flux Esports (BO3) - Monsters Reloaded P",
@@ -364,18 +364,18 @@
  },
  "n_event_queries": 24,
  "events": 768,
- "markets": 738,
- "markets_dropped_by_volume_floor": 6977,
+ "markets": 727,
+ "markets_dropped_by_volume_floor": 7027,
  "day_file": "data/2026/10/2026-10-25T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 242,
+ "trades_markets_queried": 229,
  "trades_watchlist_markets": 110,
- "trades_collected": 3592,
- "anomalies_detected": 53,
- "anomalies_new": 14,
+ "trades_collected": 3651,
+ "anomalies_detected": 43,
+ "anomalies_new": 40,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 132,
- "books_rows": 234,
+ "books_markets": 136,
+ "books_rows": 244,
  "status": "ok"
 }
