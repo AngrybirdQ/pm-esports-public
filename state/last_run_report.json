@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T15:58:36Z",
+ "ts": "2026-10-25T16:51:59Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 31,
+   "events_returned": 30,
    "err": null
   },
   {
@@ -159,13 +159,13 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Counter-Strike: G2 vs Aurora Gaming (BO3) - PGL Masters Bucharest Grou",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "Dota 2: Team Spirit vs Astra Invicta (BO3) - PARI Universe Group B"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Spirit vs Astra Invicta (BO3) - PARI Universe Group B",
-   "Dota 2: Nemiga Gaming vs Inner Circle (BO3) - EPL Masters Group A",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -243,12 +243,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs BetBoom Team (BO3) - PARI Universe Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Spirit vs Astra Invicta (BO3) - PARI Universe Group B",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Yellow Submarine vs Dawn Bulls (BO3) - EPL Masters Group B",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -305,12 +305,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: G2 Gozen vs MIBR GC (BO3) - VCT Game Changers Championship P",
-    "closed": true
-   },
-   {
     "t": "Valorant: BBL Esports vs Fire Flux Esports (BO5) - Monsters Reloaded P",
     "closed": false
+   },
+   {
+    "t": "Valorant: G2 Gozen vs MIBR GC (BO3) - VCT Game Changers Championship P",
+    "closed": true
    },
    {
     "t": "Valorant: FUT Esports vs Fire Flux Esports (BO3) - Monsters Reloaded P",
@@ -364,22 +364,29 @@
  },
  "n_event_queries": 24,
  "events": 763,
- "markets": 757,
- "markets_dropped_by_volume_floor": 7948,
- "day_file": "data/2026/10/2026-10-25T15.jsonl",
+ "markets": 788,
+ "markets_dropped_by_volume_floor": 7901,
+ "day_file": "data/2026/10/2026-10-25T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 263,
- "trades_watchlist_markets": 100,
- "trades_collected": 3820,
- "anomalies_detected": 64,
- "anomalies_new": 15,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "4999242080: HTTPError: HTTP Error 404: Not Found",
-  "4747841172: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 270,
+ "trades_watchlist_markets": 98,
+ "trades_collected": 3919,
+ "anomalies_detected": 69,
+ "anomalies_new": 65,
+ "history_debug": [
+  {
+   "cid": "0xd02a027e",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x876a15c7",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 182,
- "books_rows": 318,
+ "history_conditions_new": 2,
+ "books_markets": 192,
+ "books_rows": 350,
  "status": "ok"
 }
