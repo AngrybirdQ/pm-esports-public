@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T22:45:38Z",
+ "ts": "2026-10-25T22:50:23Z",
  "sources": [
   {
    "url": "/tags",
@@ -310,7 +310,7 @@
    },
    {
     "t": "Valorant: Team Liquid Brazil vs Nova Esports GC (BO3) - VCT Game Chang",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Shopify Rebellion Gold vs SK Nebula (BO3) - VCT Game Changer",
@@ -370,17 +370,11 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 73,
- "trades_collected": 5248,
- "anomalies_detected": 136,
- "anomalies_new": 17,
- "history_debug": [
-  {
-   "cid": "0x9dc8196d",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
+ "trades_collected": 5196,
+ "anomalies_detected": 134,
+ "anomalies_new": 2,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_errors": [
   "6347517085: HTTPError: HTTP Error 404: Not Found",
   "8184219035: HTTPError: HTTP Error 404: Not Found",
@@ -390,6 +384,6 @@
   "1717064512: HTTPError: HTTP Error 404: Not Found"
  ],
  "books_markets": 264,
- "books_rows": 398,
+ "books_rows": 396,
  "status": "ok"
 }
