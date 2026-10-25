@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T14:37:28Z",
+ "ts": "2026-10-25T14:50:13Z",
  "sources": [
   {
    "url": "/tags",
@@ -164,8 +164,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Yandex vs 1win (BO3) - PARI Universe Group A",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: Nemiga Gaming vs Inner Circle (BO3) - EPL Masters Group A",
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -364,28 +364,22 @@
  },
  "n_event_queries": 24,
  "events": 764,
- "markets": 747,
- "markets_dropped_by_volume_floor": 7916,
+ "markets": 745,
+ "markets_dropped_by_volume_floor": 7901,
  "day_file": "data/2026/10/2026-10-25T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 264,
- "trades_watchlist_markets": 99,
- "trades_collected": 3903,
- "anomalies_detected": 40,
- "anomalies_new": 0,
+ "trades_markets_queried": 270,
+ "trades_watchlist_markets": 113,
+ "trades_collected": 3860,
+ "anomalies_detected": 37,
+ "anomalies_new": 11,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "8479381847: HTTPError: HTTP Error 404: Not Found",
-  "9850152477: HTTPError: HTTP Error 404: Not Found",
-  "7041775892: HTTPError: HTTP Error 404: Not Found",
-  "6133450065: HTTPError: HTTP Error 404: Not Found",
-  "5710758352: HTTPError: HTTP Error 404: Not Found",
-  "3676592541: HTTPError: HTTP Error 404: Not Found",
-  "8005415676: HTTPError: HTTP Error 404: Not Found",
-  "9038435236: HTTPError: HTTP Error 404: Not Found"
+  "6397565431: HTTPError: HTTP Error 404: Not Found",
+  "3622763744: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 173,
- "books_rows": 300,
+ "books_markets": 180,
+ "books_rows": 310,
  "status": "ok"
 }
