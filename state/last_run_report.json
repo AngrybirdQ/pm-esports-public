@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T13:07:41Z",
+ "ts": "2026-10-25T13:11:08Z",
  "sources": [
   {
    "url": "/tags",
@@ -187,8 +187,8 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "VALORANT Offseason: OXY Next Team",
    "Valorant: BBL Esports vs Fire Flux Esports (BO5) - Monsters Reloaded P",
+   "VALORANT Offseason: OXY Next Team",
    "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
@@ -363,19 +363,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 768,
- "markets": 731,
- "markets_dropped_by_volume_floor": 7672,
+ "events": 767,
+ "markets": 733,
+ "markets_dropped_by_volume_floor": 7682,
  "day_file": "data/2026/10/2026-10-25T13.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 231,
  "trades_watchlist_markets": 110,
- "trades_collected": 3771,
- "anomalies_detected": 68,
- "anomalies_new": 1,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 138,
- "books_rows": 244,
+ "trades_collected": 3876,
+ "anomalies_detected": 66,
+ "anomalies_new": 8,
+ "history_debug": [
+  {
+   "cid": "0x33e272af",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 136,
+ "books_rows": 242,
  "status": "ok"
 }
