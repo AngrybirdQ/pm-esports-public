@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T19:07:53Z",
+ "ts": "2026-10-25T19:11:58Z",
  "sources": [
   {
    "url": "/tags",
@@ -164,8 +164,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Spirit vs Astra Invicta (BO3) - PARI Universe Group B",
-   "Dota 2: CyberHero vs Zero Tenacity (BO3) - EPL Masters Group B",
-   "Dota 2: PARIVISION vs BetBoom Team (BO3) - PARI Universe Group B"
+   "Dota 2: PARIVISION vs BetBoom Team (BO3) - PARI Universe Group B",
+   "Dota 2: CyberHero vs Zero Tenacity (BO3) - EPL Masters Group B"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -188,8 +188,8 @@
   ],
   "tag_slug=valorant": [
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team",
-   "VALORANT Offseason: primmie Next Team"
+   "Valorant: Gen.G GC vs FENNEL Female (BO3) - VCT Game Changers Champion",
+   "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -247,7 +247,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: CyberHero vs Zero Tenacity (BO3) - EPL Masters Group B",
+    "t": "Dota 2: PARIVISION vs BetBoom Team (BO3) - PARI Universe Group B",
     "closed": false
    }
   ],
@@ -363,29 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 761,
- "markets": 828,
- "markets_dropped_by_volume_floor": 8112,
+ "events": 760,
+ "markets": 832,
+ "markets_dropped_by_volume_floor": 8091,
  "day_file": "data/2026/10/2026-10-25T19.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 97,
- "trades_collected": 4992,
+ "trades_collected": 4759,
  "anomalies_detected": 86,
- "anomalies_new": 2,
+ "anomalies_new": 13,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "3057825042: HTTPError: HTTP Error 404: Not Found",
-  "3999383204: HTTPError: HTTP Error 404: Not Found",
-  "2266057403: HTTPError: HTTP Error 404: Not Found",
-  "7327161385: HTTPError: HTTP Error 404: Not Found",
-  "7276000157: HTTPError: HTTP Error 404: Not Found",
-  "4453916746: HTTPError: HTTP Error 404: Not Found",
-  "1591005324: HTTPError: HTTP Error 404: Not Found",
-  "2632499244: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 200,
- "books_rows": 354,
+ "books_markets": 203,
+ "books_rows": 370,
  "status": "ok"
 }
