@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T15:21:33Z",
+ "ts": "2026-10-25T15:30:37Z",
  "sources": [
   {
    "url": "/tags",
@@ -239,12 +239,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs BetBoom Team (BO3) - PARI Universe Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Yandex vs 1win (BO3) - PARI Universe Group A",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Spirit vs BetBoom Team (BO3) - PARI Universe Group B",
+    "closed": true
    },
    {
     "t": "Dota 2: Yellow Submarine vs Dawn Bulls (BO3) - EPL Masters Group B",
@@ -364,22 +364,26 @@
  },
  "n_event_queries": 24,
  "events": 764,
- "markets": 749,
- "markets_dropped_by_volume_floor": 7881,
+ "markets": 742,
+ "markets_dropped_by_volume_floor": 7913,
  "day_file": "data/2026/10/2026-10-25T15.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 113,
- "trades_collected": 3670,
- "anomalies_detected": 39,
- "anomalies_new": 0,
+ "trades_collected": 3682,
+ "anomalies_detected": 45,
+ "anomalies_new": 44,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "2643622832: HTTPError: HTTP Error 404: Not Found",
-  "9434270406: HTTPError: HTTP Error 404: Not Found"
+  "3257558324: HTTPError: HTTP Error 404: Not Found",
+  "4191924622: HTTPError: HTTP Error 404: Not Found",
+  "1122766335: HTTPError: HTTP Error 404: Not Found",
+  "6645462537: HTTPError: HTTP Error 404: Not Found",
+  "7637856092: HTTPError: HTTP Error 404: Not Found",
+  "8481169893: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 177,
- "books_rows": 302,
+ "books_markets": 183,
+ "books_rows": 308,
  "status": "ok"
 }
