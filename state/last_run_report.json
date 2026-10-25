@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T11:42:23Z",
+ "ts": "2026-10-25T11:45:34Z",
  "sources": [
   {
    "url": "/tags",
@@ -235,15 +235,15 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Team Yandex vs OG (BO3) - PARI Universe Group A",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Spirit vs BetBoom Team (BO3) - PARI Universe Group B",
     "closed": true
    },
    {
     "t": "Dota 2: Astra Invicta vs LEGION (BO3) - PARI Universe Group B",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Team Yandex vs OG (BO3) - PARI Universe Group A",
     "closed": true
    },
    {
@@ -363,19 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 769,
- "markets": 738,
- "markets_dropped_by_volume_floor": 6989,
+ "events": 768,
+ "markets": 737,
+ "markets_dropped_by_volume_floor": 6981,
  "day_file": "data/2026/10/2026-10-25T11.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 222,
  "trades_watchlist_markets": 110,
- "trades_collected": 3383,
- "anomalies_detected": 29,
- "anomalies_new": 0,
+ "trades_collected": 3347,
+ "anomalies_detected": 32,
+ "anomalies_new": 7,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 136,
- "books_rows": 226,
+ "books_markets": 135,
+ "books_rows": 224,
  "status": "ok"
 }
