@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T22:50:23Z",
+ "ts": "2026-10-25T22:54:19Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 40,
+   "events_returned": 39,
    "err": null
   },
   {
@@ -187,9 +187,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: Team Liquid Brazil vs Nova Esports GC (BO3) - VCT Game Chang",
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team"
+   "VALORANT Offseason: zekken Next Team",
+   "VALORANT Offseason: primmie Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -363,27 +363,23 @@
   ]
  },
  "n_event_queries": 24,
- "events": 758,
- "markets": 927,
- "markets_dropped_by_volume_floor": 8179,
+ "events": 757,
+ "markets": 940,
+ "markets_dropped_by_volume_floor": 8218,
  "day_file": "data/2026/10/2026-10-25T22.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 73,
- "trades_collected": 5196,
- "anomalies_detected": 134,
- "anomalies_new": 2,
+ "trades_collected": 5263,
+ "anomalies_detected": 116,
+ "anomalies_new": 14,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "6347517085: HTTPError: HTTP Error 404: Not Found",
-  "8184219035: HTTPError: HTTP Error 404: Not Found",
-  "1034118483: HTTPError: HTTP Error 404: Not Found",
-  "2795889936: HTTPError: HTTP Error 404: Not Found",
-  "7447299148: HTTPError: HTTP Error 404: Not Found",
-  "1717064512: HTTPError: HTTP Error 404: Not Found"
+  "6384652181: HTTPError: HTTP Error 404: Not Found",
+  "1027812477: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 264,
- "books_rows": 396,
+ "books_markets": 276,
+ "books_rows": 406,
  "status": "ok"
 }
