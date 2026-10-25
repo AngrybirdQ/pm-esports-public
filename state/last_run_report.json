@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T06:24:56Z",
+ "ts": "2026-10-25T06:27:48Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 44,
+   "events_returned": 43,
    "err": null
   },
   {
@@ -187,9 +187,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: Shopify Rebellion Gold vs SK Nebula (BO3) - VCT Game Changer",
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team"
+   "VALORANT Offseason: zekken Next Team",
+   "VALORANT Offseason: primmie Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -298,7 +298,7 @@
   "search:Valorant": [
    {
     "t": "Valorant: Shopify Rebellion Gold vs SK Nebula (BO3) - VCT Game Changer",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: FUT Esports vs Fire Flux Esports (BO3) - Monsters Reloaded P",
@@ -363,18 +363,24 @@
   ]
  },
  "n_event_queries": 24,
- "events": 765,
- "markets": 650,
- "markets_dropped_by_volume_floor": 6985,
+ "events": 764,
+ "markets": 653,
+ "markets_dropped_by_volume_floor": 6981,
  "day_file": "data/2026/10/2026-10-25T06.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 138,
  "trades_watchlist_markets": 49,
- "trades_collected": 1256,
- "anomalies_detected": 28,
- "anomalies_new": 10,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_collected": 1364,
+ "anomalies_detected": 32,
+ "anomalies_new": 12,
+ "history_debug": [
+  {
+   "cid": "0xef2490c3",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 76,
  "books_rows": 148,
  "status": "ok"
