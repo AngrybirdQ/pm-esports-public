@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T01:08:00Z",
+ "ts": "2026-10-25T01:18:17Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 53,
+   "events_returned": 52,
    "err": null
   },
   {
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 166,
+   "events_returned": 165,
    "err": null
   },
   {
@@ -159,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "LoL: Dplus KIA vs T1 (BO1) - Worlds Group Stage",
-   "LoL: LYON vs Karmine Corp (BO1) - Worlds Group Stage",
-   "Worlds 2026: Winner"
+   "Worlds 2026: Winner",
+   "LoL: Team Liquid vs Bilibili Gaming (BO1) - Worlds Group Stage"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
@@ -178,8 +178,8 @@
   ],
   "tag_slug=league-of-legends": [
    "LoL: Dplus KIA vs T1 (BO1) - Worlds Group Stage",
-   "LoL: LYON vs Karmine Corp (BO1) - Worlds Group Stage",
-   "Worlds 2026: Winner"
+   "Worlds 2026: Winner",
+   "LoL: Team Liquid vs Bilibili Gaming (BO1) - Worlds Group Stage"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -364,18 +364,30 @@
  },
  "n_event_queries": 24,
  "events": 768,
- "markets": 1084,
- "markets_dropped_by_volume_floor": 8825,
+ "markets": 1030,
+ "markets_dropped_by_volume_floor": 8719,
  "day_file": "data/2026/10/2026-10-25T01.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
- "trades_watchlist_markets": 44,
- "trades_collected": 8204,
- "anomalies_detected": 324,
- "anomalies_new": 0,
- "history_debug": [],
+ "trades_watchlist_markets": 34,
+ "trades_collected": 6940,
+ "anomalies_detected": 333,
+ "anomalies_new": 112,
+ "history_debug": [
+  {
+   "cid": "0xa27c5c13",
+   "pts": 0,
+   "variant": "none"
+  }
+ ],
  "history_conditions_new": 0,
- "books_markets": 87,
- "books_rows": 136,
+ "books_errors": [
+  "9560650708: HTTPError: HTTP Error 404: Not Found",
+  "1118336045: HTTPError: HTTP Error 404: Not Found",
+  "6831792063: HTTPError: HTTP Error 404: Not Found",
+  "6932112724: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 151,
+ "books_rows": 196,
  "status": "ok"
 }
