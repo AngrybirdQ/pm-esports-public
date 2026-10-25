@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T02:00:09Z",
+ "ts": "2026-10-25T02:18:21Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 59,
+   "events_returned": 58,
    "err": null
   },
   {
@@ -159,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "LoL: Team Liquid vs Bilibili Gaming (BO1) - Worlds Group Stage",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
@@ -178,8 +178,8 @@
   ],
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
-   "LoL: Team Liquid vs Bilibili Gaming (BO1) - Worlds Group Stage",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -363,31 +363,41 @@
   ]
  },
  "n_event_queries": 24,
- "events": 780,
- "markets": 1032,
- "markets_dropped_by_volume_floor": 8409,
+ "events": 778,
+ "markets": 1018,
+ "markets_dropped_by_volume_floor": 8246,
  "day_file": "data/2026/10/2026-10-25T02.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
- "trades_watchlist_markets": 34,
- "trades_collected": 7760,
- "anomalies_detected": 272,
- "anomalies_new": 270,
+ "trades_watchlist_markets": 28,
+ "trades_collected": 8163,
+ "anomalies_detected": 382,
+ "anomalies_new": 175,
  "history_debug": [
   {
    "cid": "0xc99c2b27",
-   "pts": 0,
-   "variant": "none"
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
   },
   {
    "cid": "0xa9fc0215",
-   "pts": 0,
-   "variant": "none"
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
   },
   {
    "cid": "0x88533cb3",
-   "pts": 0,
-   "variant": "none"
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x395a5405",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x625a989c",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
   },
   {
    "cid": "0xfc0fb3ce",
@@ -396,16 +406,20 @@
   },
   {
    "cid": "0x0c8c7e41",
-   "pts": 0,
-   "variant": "none"
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 0,
+ "history_conditions_new": 6,
  "books_errors": [
-  "1775366766: HTTPError: HTTP Error 404: Not Found",
-  "2780199669: HTTPError: HTTP Error 404: Not Found"
+  "1066470566: HTTPError: HTTP Error 404: Not Found",
+  "9147943053: HTTPError: HTTP Error 404: Not Found",
+  "5072800316: HTTPError: HTTP Error 404: Not Found",
+  "4356166957: HTTPError: HTTP Error 404: Not Found",
+  "6698842946: HTTPError: HTTP Error 404: Not Found",
+  "6420260711: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 128,
- "books_rows": 198,
+ "books_markets": 136,
+ "books_rows": 186,
  "status": "ok"
 }
