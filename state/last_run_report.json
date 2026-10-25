@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T15:54:37Z",
+ "ts": "2026-10-25T15:58:36Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 32,
+   "events_returned": 31,
    "err": null
   },
   {
@@ -160,10 +160,10 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Counter-Strike: G2 vs Aurora Gaming (BO3) - PGL Masters Bucharest Grou",
-   "Dota 2: Team Yandex vs 1win (BO3) - PARI Universe Group A"
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Team Yandex vs 1win (BO3) - PARI Universe Group A",
+   "Dota 2: Team Spirit vs Astra Invicta (BO3) - PARI Universe Group B",
    "Dota 2: Nemiga Gaming vs Inner Circle (BO3) - EPL Masters Group A",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
@@ -179,7 +179,7 @@
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
+   "LoL: Hanwha Life Esports vs Invictus Gaming (BO1) - Worlds Group Stage"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -240,15 +240,15 @@
    },
    {
     "t": "Dota 2: Team Yandex vs 1win (BO3) - PARI Universe Group A",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Spirit vs BetBoom Team (BO3) - PARI Universe Group B",
     "closed": true
    },
    {
-    "t": "Dota 2: Yellow Submarine vs Dawn Bulls (BO3) - EPL Masters Group B",
-    "closed": true
+    "t": "Dota 2: Team Spirit vs Astra Invicta (BO3) - PARI Universe Group B",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -363,19 +363,23 @@
   ]
  },
  "n_event_queries": 24,
- "events": 764,
- "markets": 742,
- "markets_dropped_by_volume_floor": 7952,
+ "events": 763,
+ "markets": 757,
+ "markets_dropped_by_volume_floor": 7948,
  "day_file": "data/2026/10/2026-10-25T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 254,
+ "trades_markets_queried": 263,
  "trades_watchlist_markets": 100,
- "trades_collected": 3805,
- "anomalies_detected": 59,
- "anomalies_new": 59,
+ "trades_collected": 3820,
+ "anomalies_detected": 64,
+ "anomalies_new": 15,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 174,
- "books_rows": 304,
+ "books_errors": [
+  "4999242080: HTTPError: HTTP Error 404: Not Found",
+  "4747841172: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 182,
+ "books_rows": 318,
  "status": "ok"
 }
