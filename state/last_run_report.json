@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T19:40:35Z",
+ "ts": "2026-10-25T20:10:16Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 29,
+   "events_returned": 28,
    "err": null
   },
   {
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 57,
+   "events_returned": 56,
    "err": null
   },
   {
@@ -158,14 +158,14 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
+   "LoL: Dplus KIA vs Movistar KOI (BO3) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "LoL: Top Esports vs G2 Esports (BO1) - Worlds Group Stage",
-   "LoL: Dplus KIA vs Movistar KOI (BO3) - Worlds Group Stage"
+   "Dota 2: PARIVISION vs BetBoom Team (BO3) - PARI Universe Group B"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Team Spirit vs Astra Invicta (BO3) - PARI Universe Group B",
    "Dota 2: PARIVISION vs BetBoom Team (BO3) - PARI Universe Group B",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -177,9 +177,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
+   "LoL: Dplus KIA vs Movistar KOI (BO3) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "LoL: Top Esports vs G2 Esports (BO1) - Worlds Group Stage",
-   "LoL: Dplus KIA vs Movistar KOI (BO3) - Worlds Group Stage"
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -236,7 +236,7 @@
    },
    {
     "t": "Dota 2: Team Spirit vs Astra Invicta (BO3) - PARI Universe Group B",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Yandex vs 1win (BO3) - PARI Universe Group A",
@@ -363,29 +363,40 @@
   ]
  },
  "n_event_queries": 24,
- "events": 760,
- "markets": 831,
- "markets_dropped_by_volume_floor": 8115,
- "day_file": "data/2026/10/2026-10-25T19.jsonl",
+ "events": 759,
+ "markets": 838,
+ "markets_dropped_by_volume_floor": 8159,
+ "day_file": "data/2026/10/2026-10-25T20.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
- "trades_watchlist_markets": 97,
- "trades_collected": 4378,
- "anomalies_detected": 72,
- "anomalies_new": 1,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "1153076269: HTTPError: HTTP Error 404: Not Found",
-  "8511955952: HTTPError: HTTP Error 404: Not Found",
-  "7000076971: HTTPError: HTTP Error 404: Not Found",
-  "6985370513: HTTPError: HTTP Error 404: Not Found",
-  "7208021415: HTTPError: HTTP Error 404: Not Found",
-  "5501432748: HTTPError: HTTP Error 404: Not Found",
-  "4309196432: HTTPError: HTTP Error 404: Not Found",
-  "1104207308: HTTPError: HTTP Error 404: Not Found"
+ "trades_watchlist_markets": 93,
+ "trades_collected": 4518,
+ "anomalies_detected": 83,
+ "anomalies_new": 72,
+ "history_debug": [
+  {
+   "cid": "0x4ef3be32",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x892d47fc",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x8b7a921e",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x429326ce",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 199,
- "books_rows": 368,
+ "history_conditions_new": 4,
+ "books_markets": 206,
+ "books_rows": 364,
  "status": "ok"
 }
