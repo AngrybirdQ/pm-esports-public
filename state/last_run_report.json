@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T21:59:19Z",
+ "ts": "2026-10-25T22:28:44Z",
  "sources": [
   {
    "url": "/tags",
@@ -158,8 +158,8 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Worlds 2026: Winner",
    "LoL: Gen.G vs LYON (BO3) - Worlds Group Stage",
+   "Worlds 2026: Winner",
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
@@ -177,8 +177,8 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "Worlds 2026: Winner",
    "LoL: Gen.G vs LYON (BO3) - Worlds Group Stage",
+   "Worlds 2026: Winner",
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
@@ -187,8 +187,8 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "VALORANT Offseason: OXY Next Team",
    "Valorant: Team Liquid Brazil vs Nova Esports GC (BO3) - VCT Game Chang",
+   "VALORANT Offseason: OXY Next Team",
    "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
@@ -199,12 +199,12 @@
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Pacers vs. Nets"
+   "Raptors vs. Timberwolves"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Pacers vs. Nets"
+   "Raptors vs. Timberwolves"
   ],
   "tag_slug=international-affairs": [
    "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
@@ -305,16 +305,16 @@
     "closed": true
    },
    {
-    "t": "Valorant: Shopify Rebellion Gold vs SK Nebula (BO3) - VCT Game Changer",
-    "closed": true
-   },
-   {
     "t": "Valorant: Gen.G GC vs FENNEL Female (BO3) - VCT Game Changers Champion",
     "closed": true
    },
    {
     "t": "Valorant: Team Liquid Brazil vs Nova Esports GC (BO3) - VCT Game Chang",
     "closed": false
+   },
+   {
+    "t": "Valorant: Shopify Rebellion Gold vs SK Nebula (BO3) - VCT Game Changer",
+    "closed": true
    }
   ],
   "search:NBA": [
@@ -363,35 +363,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 760,
- "markets": 904,
- "markets_dropped_by_volume_floor": 8269,
- "day_file": "data/2026/10/2026-10-25T21.jsonl",
+ "events": 758,
+ "markets": 942,
+ "markets_dropped_by_volume_floor": 8255,
+ "day_file": "data/2026/10/2026-10-25T22.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
- "trades_watchlist_markets": 70,
- "trades_collected": 4032,
- "anomalies_detected": 152,
- "anomalies_new": 143,
+ "trades_watchlist_markets": 73,
+ "trades_collected": 4966,
+ "anomalies_detected": 128,
+ "anomalies_new": 43,
  "history_debug": [
   {
-   "cid": "0xbf37c467",
+   "cid": "0xdfd21b94",
    "pts": 1,
    "variant": "interval=all&fidelity=1000"
   }
  ],
  "history_conditions_new": 1,
- "books_errors": [
-  "3340567293: HTTPError: HTTP Error 404: Not Found",
-  "1058604876: HTTPError: HTTP Error 404: Not Found",
-  "6959806047: HTTPError: HTTP Error 404: Not Found",
-  "1369292215: HTTPError: HTTP Error 404: Not Found",
-  "7380947833: HTTPError: HTTP Error 404: Not Found",
-  "3818398560: HTTPError: HTTP Error 404: Not Found",
-  "2295073809: HTTPError: HTTP Error 404: Not Found",
-  "2313763745: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 245,
- "books_rows": 417,
+ "books_markets": 275,
+ "books_rows": 418,
  "status": "ok"
 }
