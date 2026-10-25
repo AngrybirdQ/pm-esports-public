@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T09:56:46Z",
+ "ts": "2026-10-25T10:00:14Z",
  "sources": [
   {
    "url": "/tags",
@@ -247,7 +247,7 @@
     "closed": false
    },
    {
-    "t": "Dota 2: 1win vs GamerLegion (BO3) - PARI Universe Group A",
+    "t": "Dota 2: Yellow Submarine vs Dawn Bulls (BO3) - EPL Masters Group B",
     "closed": true
    }
   ],
@@ -366,32 +366,32 @@
  "events": 769,
  "markets": 706,
  "markets_dropped_by_volume_floor": 6999,
- "day_file": "data/2026/10/2026-10-25T09.jsonl",
+ "day_file": "data/2026/10/2026-10-25T10.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 179,
  "trades_watchlist_markets": 79,
- "trades_collected": 2969,
+ "trades_collected": 2976,
  "anomalies_detected": 43,
- "anomalies_new": 33,
- "history_debug": [
-  {
-   "cid": "0x8885dc11",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x72ed9bdf",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xe9b3e785",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
+ "anomalies_new": 43,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_errors": [
+  "5008706410: HTTPError: HTTP Error 404: Not Found",
+  "2855720981: HTTPError: HTTP Error 404: Not Found",
+  "1016248703: HTTPError: HTTP Error 404: Not Found",
+  "2604755120: HTTPError: HTTP Error 404: Not Found",
+  "8701706547: HTTPError: HTTP Error 404: Not Found",
+  "1491879075: HTTPError: HTTP Error 404: Not Found",
+  "3135107804: HTTPError: HTTP Error 404: Not Found",
+  "3010130414: HTTPError: HTTP Error 404: Not Found",
+  "1075105168: HTTPError: HTTP Error 404: Not Found",
+  "8716071699: HTTPError: HTTP Error 404: Not Found",
+  "5073527279: HTTPError: HTTP Error 404: Not Found",
+  "1096781301: HTTPError: HTTP Error 404: Not Found",
+  "1101555136: HTTPError: HTTP Error 404: Not Found",
+  "1148418611: HTTPError: HTTP Error 404: Not Found"
  ],
- "history_conditions_new": 3,
  "books_markets": 115,
- "books_rows": 204,
+ "books_rows": 200,
  "status": "ok"
 }
