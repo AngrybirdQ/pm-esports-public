@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T21:54:13Z",
+ "ts": "2026-10-25T21:59:19Z",
  "sources": [
   {
    "url": "/tags",
@@ -301,11 +301,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: Shopify Rebellion Gold vs SK Nebula (BO3) - VCT Game Changer",
+    "t": "Valorant: BBL Esports vs Fire Flux Esports (BO5) - Monsters Reloaded P",
     "closed": true
    },
    {
-    "t": "Valorant: BBL Esports vs Fire Flux Esports (BO5) - Monsters Reloaded P",
+    "t": "Valorant: Shopify Rebellion Gold vs SK Nebula (BO3) - VCT Game Changer",
     "closed": true
    },
    {
@@ -364,26 +364,34 @@
  },
  "n_event_queries": 24,
  "events": 760,
- "markets": 905,
- "markets_dropped_by_volume_floor": 8264,
+ "markets": 904,
+ "markets_dropped_by_volume_floor": 8269,
  "day_file": "data/2026/10/2026-10-25T21.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 70,
- "trades_collected": 3982,
- "anomalies_detected": 149,
- "anomalies_new": 10,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_collected": 4032,
+ "anomalies_detected": 152,
+ "anomalies_new": 143,
+ "history_debug": [
+  {
+   "cid": "0xbf37c467",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_errors": [
   "3340567293: HTTPError: HTTP Error 404: Not Found",
   "1058604876: HTTPError: HTTP Error 404: Not Found",
-  "7969684502: HTTPError: HTTP Error 404: Not Found",
-  "5956601787: HTTPError: HTTP Error 404: Not Found",
-  "1052303295: HTTPError: HTTP Error 404: Not Found",
-  "1048345324: HTTPError: HTTP Error 404: Not Found"
+  "6959806047: HTTPError: HTTP Error 404: Not Found",
+  "1369292215: HTTPError: HTTP Error 404: Not Found",
+  "7380947833: HTTPError: HTTP Error 404: Not Found",
+  "3818398560: HTTPError: HTTP Error 404: Not Found",
+  "2295073809: HTTPError: HTTP Error 404: Not Found",
+  "2313763745: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 247,
- "books_rows": 430,
+ "books_markets": 245,
+ "books_rows": 417,
  "status": "ok"
 }
