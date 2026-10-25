@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T00:29:29Z",
+ "ts": "2026-10-25T00:32:34Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 30,
+   "events_returned": 34,
    "err": null
   },
   {
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 54,
+   "events_returned": 53,
    "err": null
   },
   {
@@ -363,23 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 762,
- "markets": 1054,
- "markets_dropped_by_volume_floor": 8816,
+ "events": 765,
+ "markets": 1052,
+ "markets_dropped_by_volume_floor": 8890,
  "day_file": "data/2026/10/2026-10-25T00.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 267,
+ "trades_markets_queried": 266,
  "trades_watchlist_markets": 44,
- "trades_collected": 7459,
- "anomalies_detected": 162,
- "anomalies_new": 155,
+ "trades_collected": 7523,
+ "anomalies_detected": 209,
+ "anomalies_new": 63,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1127949794: HTTPError: HTTP Error 404: Not Found",
-  "6739007742: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 90,
- "books_rows": 146,
+ "books_markets": 89,
+ "books_rows": 140,
  "status": "ok"
 }
