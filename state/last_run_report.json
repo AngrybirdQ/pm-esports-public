@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T16:51:59Z",
+ "ts": "2026-10-25T16:56:25Z",
  "sources": [
   {
    "url": "/tags",
@@ -239,12 +239,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Yandex vs 1win (BO3) - PARI Universe Group A",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Spirit vs Astra Invicta (BO3) - PARI Universe Group B",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Yandex vs 1win (BO3) - PARI Universe Group A",
+    "closed": true
    },
    {
     "t": "Dota 2: Yellow Submarine vs Dawn Bulls (BO3) - EPL Masters Group B",
@@ -370,22 +370,11 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 98,
- "trades_collected": 3919,
- "anomalies_detected": 69,
- "anomalies_new": 65,
- "history_debug": [
-  {
-   "cid": "0xd02a027e",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x876a15c7",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 2,
+ "trades_collected": 3956,
+ "anomalies_detected": 64,
+ "anomalies_new": 0,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 192,
  "books_rows": 350,
  "status": "ok"
