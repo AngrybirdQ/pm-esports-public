@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T01:18:17Z",
+ "ts": "2026-10-25T01:23:56Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 52,
+   "events_returned": 51,
    "err": null
   },
   {
@@ -158,9 +158,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: Dplus KIA vs T1 (BO1) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "LoL: Team Liquid vs Bilibili Gaming (BO1) - Worlds Group Stage"
+   "LoL: Team Liquid vs Bilibili Gaming (BO1) - Worlds Group Stage",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
@@ -177,9 +177,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: Dplus KIA vs T1 (BO1) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "LoL: Team Liquid vs Bilibili Gaming (BO1) - Worlds Group Stage"
+   "LoL: Team Liquid vs Bilibili Gaming (BO1) - Worlds Group Stage",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -363,31 +363,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 768,
- "markets": 1030,
- "markets_dropped_by_volume_floor": 8719,
+ "events": 766,
+ "markets": 1032,
+ "markets_dropped_by_volume_floor": 8398,
  "day_file": "data/2026/10/2026-10-25T01.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 34,
- "trades_collected": 6940,
- "anomalies_detected": 333,
- "anomalies_new": 112,
+ "trades_collected": 7004,
+ "anomalies_detected": 276,
+ "anomalies_new": 28,
  "history_debug": [
   {
    "cid": "0xa27c5c13",
-   "pts": 0,
-   "variant": "none"
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 0,
- "books_errors": [
-  "9560650708: HTTPError: HTTP Error 404: Not Found",
-  "1118336045: HTTPError: HTTP Error 404: Not Found",
-  "6831792063: HTTPError: HTTP Error 404: Not Found",
-  "6932112724: HTTPError: HTTP Error 404: Not Found"
- ],
+ "history_conditions_new": 1,
  "books_markets": 151,
- "books_rows": 196,
+ "books_rows": 201,
  "status": "ok"
 }
