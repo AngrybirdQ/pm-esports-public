@@ -1,0 +1,46 @@
+name: results-reconcile
+# 10-24新建: data_guard/sensor_sentinel/channel_probe/arb_scan只在非longrun路径
+# 运行 — longrun统治(~100min/轮, 全天)期间四守卫实际停摆。本工作流6h一班补位。
+on:
+  schedule:
+    - cron: '7 */6 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: results-reconcile
+  cancel-in-progress: false
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: data integrity guard
+        env:
+          WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+        run: timeout 300 python3 scripts/data_guard.py || echo "guard failed (next run retries)"
+      - name: sensor sentinel (silent-death guard)
+        env:
+          WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+        run: timeout 300 python3 scripts/sensor_sentinel.py || echo "sentinel failed (next run retries)"
+      - name: channel probe
+        run: timeout 180 python3 scripts/channel_probe.py || echo "probe failed (next run retries)"
+      - name: arb scan (research fuel)
+        run: timeout 300 python3 scripts/arb_scan.py || echo "arb failed (next run retries)"
+      - name: commit (single writer)
+        run: |
+          git config user.name "pm-esports-collector"
+                    git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data state
+          if git diff --cached --quiet; then
+            echo "nothing new"
+          else
+            git commit -m "data: reconcile $(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+            git pull --rebase --autostash origin main || true
+            git push origin HEAD:main || echo "push race - next run retries"
+          fi
