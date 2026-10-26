@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-26T16:26:09Z",
+ "ts": "2026-10-26T16:29:41Z",
  "sources": [
   {
    "url": "/tags",
@@ -305,16 +305,16 @@
     "closed": true
    },
    {
-    "t": "Valorant: BBL Esports vs Fire Flux Esports (BO5) - Monsters Reloaded P",
-    "closed": true
-   },
-   {
     "t": "Valorant: G2 Gozen vs Team Liquid Brazil (BO3) - VCT Game Changers Cha",
     "closed": false
    },
    {
     "t": "Valorant: Wolves Esports vs World Sports Invictus Gaming (BO3) - VCT T",
     "closed": false
+   },
+   {
+    "t": "Valorant: NRG vs Fnatic (BO5)",
+    "closed": true
    }
   ],
   "search:NBA": [
@@ -370,11 +370,15 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 89,
- "trades_collected": 3949,
- "anomalies_detected": 45,
- "anomalies_new": 14,
+ "trades_collected": 4026,
+ "anomalies_detected": 46,
+ "anomalies_new": 39,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "1497042560: HTTPError: HTTP Error 404: Not Found",
+  "6120659178: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 196,
  "books_rows": 342,
  "status": "ok"
