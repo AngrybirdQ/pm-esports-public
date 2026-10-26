@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-26T11:58:57Z",
+ "ts": "2026-10-26T12:15:34Z",
  "sources": [
   {
    "url": "/tags",
@@ -239,15 +239,15 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Group A",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Yandex vs 1win (BO3) - PARI Universe Group A",
     "closed": true
    },
    {
     "t": "Dota 2: PARIVISION vs BetBoom Team (BO3) - PARI Universe Group B",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Group A",
     "closed": true
    }
   ],
@@ -309,12 +309,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: Dragon Ranger Gaming vs Nova Esports (BO5) - VCT Threshold C",
+    "t": "Valorant: NRG vs Fnatic (BO5)",
     "closed": true
    },
    {
-    "t": "Valorant: NRG vs Fnatic (BO5)",
-    "closed": true
+    "t": "Valorant: G2 Gozen vs Team Liquid Brazil (BO3) - VCT Game Changers Cha",
+    "closed": false
    }
   ],
   "search:NBA": [
@@ -364,18 +364,28 @@
  },
  "n_event_queries": 24,
  "events": 758,
- "markets": 797,
- "markets_dropped_by_volume_floor": 7491,
- "day_file": "data/2026/10/2026-10-26T11.jsonl",
+ "markets": 804,
+ "markets_dropped_by_volume_floor": 7489,
+ "day_file": "data/2026/10/2026-10-26T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 242,
- "trades_watchlist_markets": 107,
- "trades_collected": 3797,
- "anomalies_detected": 37,
- "anomalies_new": 5,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 147,
- "books_rows": 260,
+ "trades_markets_queried": 247,
+ "trades_watchlist_markets": 116,
+ "trades_collected": 3897,
+ "anomalies_detected": 50,
+ "anomalies_new": 49,
+ "history_debug": [
+  {
+   "cid": "0x7294201a",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_errors": [
+  "1071764795: HTTPError: HTTP Error 404: Not Found",
+  "5531308544: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 149,
+ "books_rows": 256,
  "status": "ok"
 }
