@@ -1,15 +1,14 @@
 {
- "ts": "2026-10-26T06:56:39Z",
+ "ts": "2026-10-26T14:33:30Z",
  "tests": [
   {
    "step": "first",
-   "code": 510,
-   "location": "",
-   "has_token": false
+   "code": 200
   },
   {
    "step": "api",
-   "err": "HTTPError: HTTP Error 510: "
+   "code": 200,
+   "body": "{\"code\":50000,\"msg\":\"token\",\"data\":\"token\",\"ts\":\"0\",\"status\":\"false\",\"sucess\":false}\r\n"
   }
  ]
 }
