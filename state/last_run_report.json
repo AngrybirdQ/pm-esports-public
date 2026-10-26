@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-26T09:37:20Z",
+ "ts": "2026-10-26T09:40:19Z",
  "sources": [
   {
    "url": "/tags",
@@ -247,8 +247,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: CyberHero vs Zero Tenacity (BO3) - EPL Masters Group B",
-    "closed": true
+    "t": "Dota 2: OG vs GamerLegion (BO3) - PARI Universe Group A",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -370,11 +370,17 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 194,
  "trades_watchlist_markets": 79,
- "trades_collected": 3039,
+ "trades_collected": 3057,
  "anomalies_detected": 3,
- "anomalies_new": 1,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "8497012288: HTTPError: HTTP Error 404: Not Found",
+  "3107946526: HTTPError: HTTP Error 404: Not Found",
+  "6773786887: HTTPError: HTTP Error 404: Not Found",
+  "5377479322: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 130,
  "books_rows": 254,
  "status": "ok"
