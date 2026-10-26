@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-26T19:32:44Z",
+ "ts": "2026-10-26T20:21:42Z",
  "sources": [
   {
    "url": "/tags",
@@ -57,7 +57,7 @@
   {
    "url": "tag_slug=lol",
    "ok": true,
-   "events_returned": 38,
+   "events_returned": 39,
    "err": null
   },
   {
@@ -159,13 +159,13 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Dota 2: Team Spirit vs PARIVISION (BO3) - PARI Universe Group B",
-   "LoL: Karmine Corp vs Bilibili Gaming (BO1) - Worlds Group Stage"
+   "LoL: LOS vs Team Secret Whales (BO3) - Worlds Group Stage",
+   "Dota 2: Team Spirit vs PARIVISION (BO3) - PARI Universe Group B"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Spirit vs PARIVISION (BO3) - PARI Universe Group B",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: BetBoom Team vs LEGION (BO3) - PARI Universe Group B",
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -178,8 +178,8 @@
   ],
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
-   "LoL: Karmine Corp vs Bilibili Gaming (BO1) - Worlds Group Stage",
-   "LoL: LOS vs Team Secret Whales (BO3) - Worlds Group Stage"
+   "LoL: LOS vs Team Secret Whales (BO3) - Worlds Group Stage",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -189,7 +189,7 @@
   "tag_slug=valorant": [
    "VALORANT Offseason: OXY Next Team",
    "VALORANT Offseason: zekken Next Team",
-   "VALORANT Offseason: primmie Next Team"
+   "Valorant: G2 Gozen vs Team Liquid Brazil (BO3) - VCT Game Changers Cha"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -204,7 +204,7 @@
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "WNBA: 2026 Champion"
+   "Timberwolves vs. Cavaliers"
   ],
   "tag_slug=international-affairs": [
    "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
@@ -243,12 +243,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs BetBoom Team (BO3) - PARI Universe Group B",
+    "t": "Dota 2: No Hoodwink vs Zero Tenacity (BO3) - Esports Pro Circuit  Grou",
     "closed": true
    },
    {
-    "t": "Dota 2: No Hoodwink vs Zero Tenacity (BO3) - Esports Pro Circuit  Grou",
-    "closed": true
+    "t": "Dota 2: BetBoom Team vs LEGION (BO3) - PARI Universe Group B",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -301,16 +301,16 @@
     "closed": true
    },
    {
-    "t": "Valorant: Gen.G GC vs FENNEL Female (BO3) - VCT Game Changers Champion",
-    "closed": true
-   },
-   {
     "t": "Valorant: G2 Gozen vs Team Liquid Brazil (BO3) - VCT Game Changers Cha",
     "closed": false
    },
    {
     "t": "Valorant: SK Nebula vs FENNEL Female (BO3) - VCT Game Changers Champio",
     "closed": false
+   },
+   {
+    "t": "Valorant: Gen.G GC vs FENNEL Female (BO3) - VCT Game Changers Champion",
+    "closed": true
    },
    {
     "t": "Valorant: Wolves Esports vs World Sports Invictus Gaming (BO3) - VCT T",
@@ -363,33 +363,35 @@
   ]
  },
  "n_event_queries": 24,
- "events": 752,
- "markets": 939,
- "markets_dropped_by_volume_floor": 8715,
- "day_file": "data/2026/10/2026-10-26T19.jsonl",
+ "events": 753,
+ "markets": 934,
+ "markets_dropped_by_volume_floor": 8689,
+ "day_file": "data/2026/10/2026-10-26T20.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
- "trades_watchlist_markets": 86,
- "trades_collected": 4459,
- "anomalies_detected": 104,
- "anomalies_new": 93,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "1008004064: HTTPError: HTTP Error 404: Not Found",
-  "8569757615: HTTPError: HTTP Error 404: Not Found",
-  "7209441296: HTTPError: HTTP Error 404: Not Found",
-  "8838493858: HTTPError: HTTP Error 404: Not Found",
-  "4168631244: HTTPError: HTTP Error 404: Not Found",
-  "2639607666: HTTPError: HTTP Error 404: Not Found",
-  "1112395616: HTTPError: HTTP Error 404: Not Found",
-  "9831849491: HTTPError: HTTP Error 404: Not Found",
-  "5468745525: HTTPError: HTTP Error 404: Not Found",
-  "1111014913: HTTPError: HTTP Error 404: Not Found",
-  "1010273296: HTTPError: HTTP Error 404: Not Found",
-  "3488114527: HTTPError: HTTP Error 404: Not Found"
+ "trades_watchlist_markets": 92,
+ "trades_collected": 3992,
+ "anomalies_detected": 75,
+ "anomalies_new": 71,
+ "history_debug": [
+  {
+   "cid": "0xa1b831a3",
+   "pts": 16,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x5c279bff",
+   "pts": 8,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x94f6ae64",
+   "pts": 6,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 236,
- "books_rows": 426,
+ "history_conditions_new": 3,
+ "books_markets": 242,
+ "books_rows": 442,
  "status": "ok"
 }
