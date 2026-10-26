@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-26T20:21:42Z",
+ "ts": "2026-10-26T20:26:39Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,7 +151,9 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "trades 0x8d09086e: HTTPError: HTTP Error 429: Too Many Requests"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -243,12 +245,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: No Hoodwink vs Zero Tenacity (BO3) - Esports Pro Circuit  Grou",
-    "closed": true
-   },
-   {
     "t": "Dota 2: BetBoom Team vs LEGION (BO3) - PARI Universe Group B",
     "closed": false
+   },
+   {
+    "t": "Dota 2: No Hoodwink vs Zero Tenacity (BO3) - Esports Pro Circuit  Grou",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -370,27 +372,11 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 92,
- "trades_collected": 3992,
- "anomalies_detected": 75,
- "anomalies_new": 71,
- "history_debug": [
-  {
-   "cid": "0xa1b831a3",
-   "pts": 16,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x5c279bff",
-   "pts": 8,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x94f6ae64",
-   "pts": 6,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 3,
+ "trades_collected": 3938,
+ "anomalies_detected": 73,
+ "anomalies_new": 1,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 242,
  "books_rows": 442,
  "status": "ok"
