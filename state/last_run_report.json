@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-26T08:03:36Z",
+ "ts": "2026-10-26T09:09:22Z",
  "sources": [
   {
    "url": "/tags",
@@ -163,9 +163,9 @@
    "Counter-Strike: Nemiga vs Aurora Gaming (BO3) - PGL Masters Bucharest "
   ],
   "tag_slug=dota-2": [
+   "Dota 2: OG vs GamerLegion (BO3) - PARI Universe Group A",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A",
-   "Dota 2: Stray Team vs Rostik Team (BO3) - BetBoom Streamers Battle Gro"
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -199,7 +199,7 @@
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "NBA: 2027 Eastern Conference Champion"
+   "Timberwolves vs. Cavaliers"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
@@ -363,19 +363,40 @@
   ]
  },
  "n_event_queries": 24,
- "events": 754,
- "markets": 718,
- "markets_dropped_by_volume_floor": 7122,
- "day_file": "data/2026/10/2026-10-26T08.jsonl",
+ "events": 755,
+ "markets": 743,
+ "markets_dropped_by_volume_floor": 7340,
+ "day_file": "data/2026/10/2026-10-26T09.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 181,
+ "trades_markets_queried": 190,
  "trades_watchlist_markets": 79,
- "trades_collected": 1894,
- "anomalies_detected": 22,
- "anomalies_new": 22,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 123,
- "books_rows": 244,
+ "trades_collected": 2307,
+ "anomalies_detected": 26,
+ "anomalies_new": 24,
+ "history_debug": [
+  {
+   "cid": "0x4bab84c6",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x7feb46db",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xc538a0e0",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x5fabd194",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 4,
+ "books_markets": 130,
+ "books_rows": 248,
  "status": "ok"
 }
