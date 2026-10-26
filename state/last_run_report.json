@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-26T12:21:14Z",
+ "ts": "2026-10-26T12:26:30Z",
  "sources": [
   {
    "url": "/tags",
@@ -160,12 +160,12 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Dota 2: OG vs GamerLegion (BO3) - PARI Universe Group A",
-   "Worlds 2026 Winning Region"
+   "Counter-Strike: Vitality vs FUT Esports (BO3) - PGL Masters Bucharest "
   ],
   "tag_slug=dota-2": [
    "Dota 2: OG vs GamerLegion (BO3) - PARI Universe Group A",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: Team Yandex vs Team Liquid (BO3) - PARI Universe Group A"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -364,24 +364,18 @@
  },
  "n_event_queries": 24,
  "events": 758,
- "markets": 803,
- "markets_dropped_by_volume_floor": 7482,
+ "markets": 822,
+ "markets_dropped_by_volume_floor": 7455,
  "day_file": "data/2026/10/2026-10-26T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 247,
+ "trades_markets_queried": 252,
  "trades_watchlist_markets": 116,
- "trades_collected": 4086,
- "anomalies_detected": 42,
- "anomalies_new": 4,
+ "trades_collected": 4147,
+ "anomalies_detected": 44,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "6392353888: HTTPError: HTTP Error 404: Not Found",
-  "5879398219: HTTPError: HTTP Error 404: Not Found",
-  "9547153512: HTTPError: HTTP Error 404: Not Found",
-  "1066375671: HTTPError: HTTP Error 404: Not Found"
- ],
  "books_markets": 148,
- "books_rows": 254,
+ "books_rows": 256,
  "status": "ok"
 }
