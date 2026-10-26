@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-26T01:42:35Z",
+ "ts": "2026-10-26T01:47:38Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 157,
+   "events_returned": 156,
    "err": null
   },
   {
@@ -199,12 +199,12 @@
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Raptors vs. Timberwolves"
+   "Pistons vs. 76ers"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Raptors vs. Timberwolves"
+   "Pistons vs. 76ers"
   ],
   "tag_slug=international-affairs": [
    "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
@@ -363,33 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 758,
- "markets": 940,
- "markets_dropped_by_volume_floor": 7048,
+ "events": 756,
+ "markets": 880,
+ "markets_dropped_by_volume_floor": 6751,
  "day_file": "data/2026/10/2026-10-26T01.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 59,
- "trades_collected": 5860,
- "anomalies_detected": 209,
- "anomalies_new": 207,
+ "trades_collected": 5486,
+ "anomalies_detected": 173,
+ "anomalies_new": 49,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "5263463971: HTTPError: HTTP Error 404: Not Found",
-  "3828902744: HTTPError: HTTP Error 404: Not Found",
-  "5471933231: HTTPError: HTTP Error 404: Not Found",
-  "5064494721: HTTPError: HTTP Error 404: Not Found",
-  "4274722942: HTTPError: HTTP Error 404: Not Found",
-  "8129605126: HTTPError: HTTP Error 404: Not Found",
-  "7146928954: HTTPError: HTTP Error 404: Not Found",
-  "1026841592: HTTPError: HTTP Error 404: Not Found",
-  "5763364996: HTTPError: HTTP Error 404: Not Found",
-  "5643544639: HTTPError: HTTP Error 404: Not Found",
-  "4480186154: HTTPError: HTTP Error 404: Not Found",
-  "8255362261: HTTPError: HTTP Error 404: Not Found"
- ],
  "books_markets": 152,
- "books_rows": 220,
+ "books_rows": 214,
  "status": "ok"
 }
