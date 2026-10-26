@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-26T15:55:51Z",
+ "ts": "2026-10-26T15:59:05Z",
  "sources": [
   {
    "url": "/tags",
@@ -165,7 +165,7 @@
   "tag_slug=dota-2": [
    "Dota 2: Team Yandex vs Team Liquid (BO3) - PARI Universe Group A",
    "Dota 2: No Hoodwink vs Zero Tenacity (BO3) - Esports Pro Circuit  Grou",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Team Spirit vs PARIVISION (BO3) - PARI Universe Group B"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -363,23 +363,30 @@
   ]
  },
  "n_event_queries": 24,
- "events": 755,
- "markets": 855,
- "markets_dropped_by_volume_floor": 8672,
+ "events": 756,
+ "markets": 867,
+ "markets_dropped_by_volume_floor": 8698,
  "day_file": "data/2026/10/2026-10-26T15.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 95,
- "trades_collected": 3448,
- "anomalies_detected": 46,
- "anomalies_new": 1,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "7292325577: HTTPError: HTTP Error 404: Not Found",
-  "6572741009: HTTPError: HTTP Error 404: Not Found"
+ "trades_collected": 3497,
+ "anomalies_detected": 52,
+ "anomalies_new": 6,
+ "history_debug": [
+  {
+   "cid": "0x2e449a94",
+   "pts": 14,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xe896608c",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 190,
- "books_rows": 338,
+ "history_conditions_new": 2,
+ "books_markets": 198,
+ "books_rows": 350,
  "status": "ok"
 }
