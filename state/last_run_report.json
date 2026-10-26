@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-26T11:28:04Z",
+ "ts": "2026-10-26T11:35:48Z",
  "sources": [
   {
    "url": "/tags",
@@ -231,12 +231,12 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Team Spirit vs Astra Invicta (BO3) - PARI Universe Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: OG vs GamerLegion (BO3) - PARI Universe Group A",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Spirit vs Astra Invicta (BO3) - PARI Universe Group B",
+    "closed": true
    },
    {
     "t": "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Group A",
@@ -363,19 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 753,
- "markets": 788,
- "markets_dropped_by_volume_floor": 7420,
+ "events": 754,
+ "markets": 789,
+ "markets_dropped_by_volume_floor": 7428,
  "day_file": "data/2026/10/2026-10-26T11.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 235,
  "trades_watchlist_markets": 107,
- "trades_collected": 3935,
- "anomalies_detected": 58,
- "anomalies_new": 1,
+ "trades_collected": 3758,
+ "anomalies_detected": 60,
+ "anomalies_new": 58,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 146,
- "books_rows": 260,
+ "books_rows": 252,
  "status": "ok"
 }
