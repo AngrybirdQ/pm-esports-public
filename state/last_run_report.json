@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-26T23:41:32Z",
+ "ts": "2026-10-26T23:52:09Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 27,
+   "events_returned": 30,
    "err": null
   },
   {
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 57,
+   "events_returned": 56,
    "err": null
   },
   {
@@ -158,9 +158,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: Team Liquid vs Anyone's Legend (BO3) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
@@ -177,9 +177,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: Team Liquid vs Anyone's Legend (BO3) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -363,40 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 760,
- "markets": 1102,
- "markets_dropped_by_volume_floor": 8941,
+ "events": 763,
+ "markets": 1094,
+ "markets_dropped_by_volume_floor": 9077,
  "day_file": "data/2026/10/2026-10-26T23.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 69,
- "trades_collected": 3402,
- "anomalies_detected": 128,
- "anomalies_new": 15,
- "history_debug": [
-  {
-   "cid": "0xcd8f56f7",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x53c9ffd7",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xce7c38bc",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x31808826",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 4,
- "books_markets": 383,
- "books_rows": 686,
+ "trades_collected": 3988,
+ "anomalies_detected": 169,
+ "anomalies_new": 46,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 382,
+ "books_rows": 628,
  "status": "ok"
 }
