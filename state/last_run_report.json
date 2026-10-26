@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-26T22:30:24Z",
+ "ts": "2026-10-26T23:41:32Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 25,
+   "events_returned": 27,
    "err": null
   },
   {
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 51,
+   "events_returned": 57,
    "err": null
   },
   {
@@ -160,12 +160,12 @@
   "tag_slug=esports": [
    "LoL: Team Liquid vs Anyone's Legend (BO3) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "Dota 2: BetBoom Team vs LEGION (BO3) - PARI Universe Group B"
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: BetBoom Team vs LEGION (BO3) - PARI Universe Group B",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A",
+   "Dota 2: Stray Team vs Rostik Team (BO3) - BetBoom Streamers Battle Gro"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -244,7 +244,7 @@
    },
    {
     "t": "Dota 2: BetBoom Team vs LEGION (BO3) - PARI Universe Group B",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: No Hoodwink vs Zero Tenacity (BO3) - Esports Pro Circuit  Grou",
@@ -309,12 +309,12 @@
     "closed": false
    },
    {
-    "t": "Valorant: Team Liquid Brazil vs Nova Esports GC (BO3) - VCT Game Chang",
+    "t": "Valorant: NRG vs Fnatic (BO5)",
     "closed": true
    },
    {
-    "t": "Valorant: NRG vs Fnatic (BO5)",
-    "closed": true
+    "t": "Valorant: Unsettled Resentment vs Victory No Limits (BO3) - VCT Thresh",
+    "closed": false
    }
   ],
   "search:NBA": [
@@ -363,45 +363,40 @@
   ]
  },
  "n_event_queries": 24,
- "events": 751,
- "markets": 986,
- "markets_dropped_by_volume_floor": 8868,
- "day_file": "data/2026/10/2026-10-26T22.jsonl",
+ "events": 760,
+ "markets": 1102,
+ "markets_dropped_by_volume_floor": 8941,
+ "day_file": "data/2026/10/2026-10-26T23.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
- "trades_watchlist_markets": 73,
- "trades_collected": 3224,
- "anomalies_detected": 53,
- "anomalies_new": 53,
+ "trades_watchlist_markets": 69,
+ "trades_collected": 3402,
+ "anomalies_detected": 128,
+ "anomalies_new": 15,
  "history_debug": [
   {
-   "cid": "0x1496db34",
-   "pts": 9,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x3a924699",
-   "pts": 8,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xd765ef80",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x8989cb82",
+   "cid": "0xcd8f56f7",
    "pts": 1,
    "variant": "interval=all&fidelity=1000"
   },
   {
-   "cid": "0xb3190794",
+   "cid": "0x53c9ffd7",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xce7c38bc",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x31808826",
    "pts": 1,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 5,
- "books_markets": 322,
- "books_rows": 606,
+ "history_conditions_new": 4,
+ "books_markets": 383,
+ "books_rows": 686,
  "status": "ok"
 }
