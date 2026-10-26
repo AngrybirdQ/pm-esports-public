@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-26T05:47:17Z",
+ "ts": "2026-10-26T06:59:16Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 41,
+   "events_returned": 45,
    "err": null
   },
   {
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 146,
+   "events_returned": 148,
    "err": null
   },
   {
@@ -363,19 +363,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 744,
- "markets": 676,
- "markets_dropped_by_volume_floor": 6181,
- "day_file": "data/2026/10/2026-10-26T05.jsonl",
+ "events": 750,
+ "markets": 706,
+ "markets_dropped_by_volume_floor": 7127,
+ "day_file": "data/2026/10/2026-10-26T06.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 161,
- "trades_watchlist_markets": 66,
- "trades_collected": 1318,
- "anomalies_detected": 6,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 112,
- "books_rows": 212,
+ "trades_markets_queried": 177,
+ "trades_watchlist_markets": 74,
+ "trades_collected": 1329,
+ "anomalies_detected": 12,
+ "anomalies_new": 12,
+ "history_debug": [
+  {
+   "cid": "0x9f81ed37",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 118,
+ "books_rows": 234,
  "status": "ok"
 }
