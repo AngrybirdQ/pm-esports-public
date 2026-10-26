@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-26T13:50:26Z",
+ "ts": "2026-10-26T13:55:27Z",
  "sources": [
   {
    "url": "/tags",
@@ -159,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Counter-Strike: Vitality vs FUT Esports (BO3) - PGL Masters Bucharest ",
-   "Counter-Strike: 9z vs TYLOO (BO3) - PGL Masters Bucharest Group Stage"
+   "Counter-Strike: 9z vs TYLOO (BO3) - PGL Masters Bucharest Group Stage",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Yandex vs Team Liquid (BO3) - PARI Universe Group A",
@@ -364,30 +364,24 @@
  },
  "n_event_queries": 24,
  "events": 756,
- "markets": 854,
- "markets_dropped_by_volume_floor": 8134,
+ "markets": 851,
+ "markets_dropped_by_volume_floor": 8137,
  "day_file": "data/2026/10/2026-10-26T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 260,
+ "trades_markets_queried": 262,
  "trades_watchlist_markets": 105,
- "trades_collected": 4182,
+ "trades_collected": 4185,
  "anomalies_detected": 41,
- "anomalies_new": 5,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "2687720035: HTTPError: HTTP Error 404: Not Found",
-  "7223822605: HTTPError: HTTP Error 404: Not Found",
-  "2501132953: HTTPError: HTTP Error 404: Not Found",
-  "8819523597: HTTPError: HTTP Error 404: Not Found",
-  "2832749713: HTTPError: HTTP Error 404: Not Found",
-  "1569927659: HTTPError: HTTP Error 404: Not Found",
-  "8487188158: HTTPError: HTTP Error 404: Not Found",
-  "6751101494: HTTPError: HTTP Error 404: Not Found",
-  "1628156743: HTTPError: HTTP Error 404: Not Found",
-  "3728006027: HTTPError: HTTP Error 404: Not Found"
+ "anomalies_new": 4,
+ "history_debug": [
+  {
+   "cid": "0xc9e7d8e3",
+   "pts": 15,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 151,
- "books_rows": 256,
+ "history_conditions_new": 1,
+ "books_markets": 147,
+ "books_rows": 258,
  "status": "ok"
 }
