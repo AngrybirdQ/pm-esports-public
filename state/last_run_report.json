@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-26T17:24:47Z",
+ "ts": "2026-10-26T17:28:11Z",
  "sources": [
   {
    "url": "/tags",
@@ -160,7 +160,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Counter-Strike: G2 vs DENDELE CS (BO3) - PGL Masters Bucharest Group S"
+   "LoL: T1 vs CTBC Flying Oyster (BO1) - Worlds Group Stage"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Spirit vs PARIVISION (BO3) - PARI Universe Group B",
@@ -364,18 +364,24 @@
  },
  "n_event_queries": 24,
  "events": 753,
- "markets": 866,
- "markets_dropped_by_volume_floor": 8740,
+ "markets": 878,
+ "markets_dropped_by_volume_floor": 8732,
  "day_file": "data/2026/10/2026-10-26T17.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 86,
- "trades_collected": 4686,
- "anomalies_detected": 50,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 192,
- "books_rows": 358,
+ "trades_collected": 4713,
+ "anomalies_detected": 63,
+ "anomalies_new": 13,
+ "history_debug": [
+  {
+   "cid": "0x5a28319a",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 199,
+ "books_rows": 368,
  "status": "ok"
 }
