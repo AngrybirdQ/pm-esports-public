@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-26T13:58:57Z",
+ "ts": "2026-10-26T14:16:40Z",
  "sources": [
   {
    "url": "/tags",
@@ -159,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Counter-Strike: 9z vs TYLOO (BO3) - PGL Masters Bucharest Group Stage",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "Dota 2: Team Yandex vs Team Liquid (BO3) - PARI Universe Group A"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Yandex vs Team Liquid (BO3) - PARI Universe Group A",
@@ -243,12 +243,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Yandex vs 1win (BO3) - PARI Universe Group A",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Yandex vs Team Liquid (BO3) - PARI Universe Group A",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Yandex vs 1win (BO3) - PARI Universe Group A",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -301,11 +301,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: BBL Esports vs Fire Flux Esports (BO5) - Monsters Reloaded P",
+    "t": "Valorant: Team Liquid Brazil vs Nova Esports GC (BO3) - VCT Game Chang",
     "closed": true
    },
    {
-    "t": "Valorant: Team Liquid Brazil vs Nova Esports GC (BO3) - VCT Game Chang",
+    "t": "Valorant: BBL Esports vs Fire Flux Esports (BO5) - Monsters Reloaded P",
     "closed": true
    },
    {
@@ -364,22 +364,18 @@
  },
  "n_event_queries": 24,
  "events": 756,
- "markets": 855,
- "markets_dropped_by_volume_floor": 8497,
- "day_file": "data/2026/10/2026-10-26T13.jsonl",
+ "markets": 859,
+ "markets_dropped_by_volume_floor": 8506,
+ "day_file": "data/2026/10/2026-10-26T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 262,
- "trades_watchlist_markets": 105,
- "trades_collected": 4202,
- "anomalies_detected": 51,
- "anomalies_new": 46,
+ "trades_markets_queried": 255,
+ "trades_watchlist_markets": 90,
+ "trades_collected": 4157,
+ "anomalies_detected": 27,
+ "anomalies_new": 11,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "5341505859: HTTPError: HTTP Error 404: Not Found",
-  "7772329619: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 147,
- "books_rows": 250,
+ "books_markets": 137,
+ "books_rows": 256,
  "status": "ok"
 }
