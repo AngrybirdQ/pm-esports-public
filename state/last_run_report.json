@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-26T20:26:39Z",
+ "ts": "2026-10-26T20:31:31Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 45,
+   "events_returned": 44,
    "err": null
   },
   {
@@ -151,17 +151,15 @@
    "err": null
   }
  ],
- "errors": [
-  "trades 0x8d09086e: HTTPError: HTTP Error 429: Too Many Requests"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Worlds 2026: Winner",
    "LoL: LOS vs Team Secret Whales (BO3) - Worlds Group Stage",
+   "Worlds 2026: Winner",
    "Dota 2: Team Spirit vs PARIVISION (BO3) - PARI Universe Group B"
   ],
   "tag_slug=dota-2": [
@@ -179,8 +177,8 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "Worlds 2026: Winner",
    "LoL: LOS vs Team Secret Whales (BO3) - Worlds Group Stage",
+   "Worlds 2026: Winner",
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
@@ -190,8 +188,8 @@
   ],
   "tag_slug=valorant": [
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team",
-   "Valorant: G2 Gozen vs Team Liquid Brazil (BO3) - VCT Game Changers Cha"
+   "Valorant: G2 Gozen vs Team Liquid Brazil (BO3) - VCT Game Changers Cha",
+   "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -308,7 +306,7 @@
    },
    {
     "t": "Valorant: SK Nebula vs FENNEL Female (BO3) - VCT Game Changers Champio",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Gen.G GC vs FENNEL Female (BO3) - VCT Game Changers Champion",
@@ -366,18 +364,24 @@
  },
  "n_event_queries": 24,
  "events": 753,
- "markets": 934,
- "markets_dropped_by_volume_floor": 8689,
+ "markets": 947,
+ "markets_dropped_by_volume_floor": 8690,
  "day_file": "data/2026/10/2026-10-26T20.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 92,
- "trades_collected": 3938,
- "anomalies_detected": 73,
- "anomalies_new": 1,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 242,
- "books_rows": 442,
+ "trades_collected": 3854,
+ "anomalies_detected": 69,
+ "anomalies_new": 56,
+ "history_debug": [
+  {
+   "cid": "0xd57cfd1b",
+   "pts": 7,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 245,
+ "books_rows": 446,
  "status": "ok"
 }
