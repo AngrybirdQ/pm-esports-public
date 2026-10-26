@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T23:34:23Z",
+ "ts": "2026-10-26T00:38:12Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 55,
+   "events_returned": 54,
    "err": null
   },
   {
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 157,
+   "events_returned": 155,
    "err": null
   },
   {
@@ -158,9 +158,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: Gen.G vs LYON (BO3) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
@@ -177,9 +177,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: Gen.G vs LYON (BO3) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -363,19 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 759,
- "markets": 968,
- "markets_dropped_by_volume_floor": 8122,
- "day_file": "data/2026/10/2026-10-25T23.jsonl",
- "retention_removed_files": 0,
+ "events": 757,
+ "markets": 960,
+ "markets_dropped_by_volume_floor": 7490,
+ "day_file": "data/2026/10/2026-10-26T00.jsonl",
+ "retention_removed_files": 65,
  "trades_markets_queried": 270,
- "trades_watchlist_markets": 61,
- "trades_collected": 6099,
- "anomalies_detected": 243,
- "anomalies_new": 243,
+ "trades_watchlist_markets": 45,
+ "trades_collected": 6366,
+ "anomalies_detected": 259,
+ "anomalies_new": 256,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 209,
- "books_rows": 306,
+ "books_markets": 146,
+ "books_rows": 218,
  "status": "ok"
 }
