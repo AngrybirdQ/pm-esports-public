@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-26T05:01:37Z",
+ "ts": "2026-10-26T05:04:29Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 147,
+   "events_returned": 146,
    "err": null
   },
   {
@@ -199,12 +199,12 @@
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Nets vs. Cavaliers"
+   "NBA: 2027 Eastern Conference Champion"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Nets vs. Cavaliers"
+   "WNBA: 2026 Champion"
   ],
   "tag_slug=international-affairs": [
    "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
@@ -363,19 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 744,
- "markets": 663,
- "markets_dropped_by_volume_floor": 6197,
+ "events": 743,
+ "markets": 662,
+ "markets_dropped_by_volume_floor": 6195,
  "day_file": "data/2026/10/2026-10-26T05.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 157,
  "trades_watchlist_markets": 66,
- "trades_collected": 2957,
+ "trades_collected": 2282,
  "anomalies_detected": 12,
- "anomalies_new": 10,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 108,
- "books_rows": 206,
+ "books_markets": 107,
+ "books_rows": 202,
  "status": "ok"
 }
