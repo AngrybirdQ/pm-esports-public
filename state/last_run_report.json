@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-26T10:31:12Z",
+ "ts": "2026-10-26T11:05:42Z",
  "sources": [
   {
    "url": "/tags",
@@ -231,12 +231,16 @@
  "search_samples": {
   "search:Dota 2": [
    {
+    "t": "Dota 2: Team Spirit vs Astra Invicta (BO3) - PARI Universe Group B",
+    "closed": true
+   },
+   {
     "t": "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Group A",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs Astra Invicta (BO3) - PARI Universe Group B",
-    "closed": true
+    "t": "Dota 2: OG vs GamerLegion (BO3) - PARI Universe Group A",
+    "closed": false
    },
    {
     "t": "Dota 2: Team Yandex vs 1win (BO3) - PARI Universe Group A",
@@ -245,10 +249,6 @@
    {
     "t": "Dota 2: PARIVISION vs BetBoom Team (BO3) - PARI Universe Group B",
     "closed": true
-   },
-   {
-    "t": "Dota 2: OG vs GamerLegion (BO3) - PARI Universe Group A",
-    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -305,11 +305,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: Dragon Ranger Gaming vs Nova Esports (BO5) - VCT Threshold C",
+    "t": "Valorant: Team Liquid Brazil vs Nova Esports GC (BO3) - VCT Game Chang",
     "closed": true
    },
    {
-    "t": "Valorant: Team Liquid Brazil vs Nova Esports GC (BO3) - VCT Game Chang",
+    "t": "Valorant: Dragon Ranger Gaming vs Nova Esports (BO5) - VCT Threshold C",
     "closed": true
    },
    {
@@ -364,18 +364,24 @@
  },
  "n_event_queries": 24,
  "events": 755,
- "markets": 767,
- "markets_dropped_by_volume_floor": 7420,
- "day_file": "data/2026/10/2026-10-26T10.jsonl",
+ "markets": 773,
+ "markets_dropped_by_volume_floor": 7453,
+ "day_file": "data/2026/10/2026-10-26T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 212,
- "trades_watchlist_markets": 97,
- "trades_collected": 3620,
- "anomalies_detected": 48,
+ "trades_markets_queried": 222,
+ "trades_watchlist_markets": 107,
+ "trades_collected": 3790,
+ "anomalies_detected": 46,
  "anomalies_new": 42,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 144,
- "books_rows": 262,
+ "history_debug": [
+  {
+   "cid": "0x7fccb7d0",
+   "pts": 6,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 145,
+ "books_rows": 252,
  "status": "ok"
 }
