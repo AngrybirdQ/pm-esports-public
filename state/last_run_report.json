@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-26T20:40:43Z",
+ "ts": "2026-10-26T20:46:15Z",
  "sources": [
   {
    "url": "/tags",
@@ -297,15 +297,15 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: Team Liquid Brazil vs Nova Esports GC (BO3) - VCT Game Chang",
-    "closed": true
-   },
-   {
     "t": "Valorant: G2 Gozen vs Team Liquid Brazil (BO3) - VCT Game Changers Cha",
     "closed": false
    },
    {
     "t": "Valorant: SK Nebula vs FENNEL Female (BO3) - VCT Game Changers Champio",
+    "closed": true
+   },
+   {
+    "t": "Valorant: Team Liquid Brazil vs Nova Esports GC (BO3) - VCT Game Chang",
     "closed": true
    },
    {
@@ -364,24 +364,18 @@
  },
  "n_event_queries": 24,
  "events": 752,
- "markets": 950,
- "markets_dropped_by_volume_floor": 8681,
+ "markets": 948,
+ "markets_dropped_by_volume_floor": 8670,
  "day_file": "data/2026/10/2026-10-26T20.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 92,
- "trades_collected": 3514,
- "anomalies_detected": 74,
- "anomalies_new": 15,
+ "trades_collected": 3490,
+ "anomalies_detected": 80,
+ "anomalies_new": 14,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1929166882: HTTPError: HTTP Error 404: Not Found",
-  "6304145238: HTTPError: HTTP Error 404: Not Found",
-  "6276980936: HTTPError: HTTP Error 404: Not Found",
-  "1908880815: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 247,
+ "books_markets": 245,
  "books_rows": 436,
  "status": "ok"
 }
