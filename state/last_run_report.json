@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-26T15:28:33Z",
+ "ts": "2026-10-26T15:32:07Z",
  "sources": [
   {
    "url": "/tags",
@@ -235,12 +235,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs Astra Invicta (BO3) - PARI Universe Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Yandex vs Team Liquid (BO3) - PARI Universe Group A",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Spirit vs Astra Invicta (BO3) - PARI Universe Group B",
+    "closed": true
    },
    {
     "t": "Dota 2: PARIVISION vs BetBoom Team (BO3) - PARI Universe Group B",
@@ -364,22 +364,24 @@
  },
  "n_event_queries": 24,
  "events": 755,
- "markets": 860,
+ "markets": 858,
  "markets_dropped_by_volume_floor": 8665,
  "day_file": "data/2026/10/2026-10-26T15.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 95,
- "trades_collected": 3251,
- "anomalies_detected": 45,
- "anomalies_new": 0,
+ "trades_collected": 3199,
+ "anomalies_detected": 40,
+ "anomalies_new": 33,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "8051738982: HTTPError: HTTP Error 404: Not Found",
-  "2112955432: HTTPError: HTTP Error 404: Not Found"
+  "7014546644: HTTPError: HTTP Error 404: Not Found",
+  "4043227448: HTTPError: HTTP Error 404: Not Found",
+  "4501545053: HTTPError: HTTP Error 404: Not Found",
+  "6200454939: HTTPError: HTTP Error 404: Not Found"
  ],
  "books_markets": 191,
- "books_rows": 342,
+ "books_rows": 344,
  "status": "ok"
 }
