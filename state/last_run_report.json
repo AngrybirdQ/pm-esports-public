@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-27T16:56:57Z",
+ "ts": "2026-10-27T17:25:36Z",
  "sources": [
   {
    "url": "/tags",
@@ -239,11 +239,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: BetBoom Team vs Astra Invicta (BO1) - PARI Universe Group B",
+    "t": "Dota 2: BetBoom Team vs LEGION (BO1) - PARI Universe Group B",
     "closed": false
    },
    {
-    "t": "Dota 2: BetBoom Team vs LEGION (BO1) - PARI Universe Group B",
+    "t": "Dota 2: BetBoom Team vs Astra Invicta (BO1) - PARI Universe Group B",
     "closed": false
    },
    {
@@ -363,25 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 775,
- "markets": 845,
- "markets_dropped_by_volume_floor": 6408,
- "day_file": "data/2026/10/2026-10-27T16.jsonl",
+ "events": 774,
+ "markets": 852,
+ "markets_dropped_by_volume_floor": 6407,
+ "day_file": "data/2026/10/2026-10-27T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 270,
- "trades_watchlist_markets": 97,
- "trades_collected": 3243,
- "anomalies_detected": 71,
- "anomalies_new": 4,
- "history_debug": [
-  {
-   "cid": "0xba28e290",
-   "pts": 10,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
- "books_markets": 198,
- "books_rows": 358,
+ "trades_markets_queried": 254,
+ "trades_watchlist_markets": 93,
+ "trades_collected": 3605,
+ "anomalies_detected": 53,
+ "anomalies_new": 53,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 171,
+ "books_rows": 294,
  "status": "ok"
 }
