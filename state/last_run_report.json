@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-27T23:01:54Z",
+ "ts": "2026-10-27T23:06:02Z",
  "sources": [
   {
    "url": "/tags",
@@ -160,7 +160,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Counter-Strike: FURIA vs TYLOO (BO3) - PGL Masters Bucharest Group Sta"
+   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
@@ -364,24 +364,18 @@
  },
  "n_event_queries": 24,
  "events": 774,
- "markets": 943,
- "markets_dropped_by_volume_floor": 6944,
+ "markets": 947,
+ "markets_dropped_by_volume_floor": 6935,
  "day_file": "data/2026/10/2026-10-27T23.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 58,
- "trades_collected": 2200,
- "anomalies_detected": 44,
- "anomalies_new": 41,
+ "trades_collected": 2177,
+ "anomalies_detected": 6,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "3920797683: HTTPError: HTTP Error 404: Not Found",
-  "6936722448: HTTPError: HTTP Error 404: Not Found",
-  "8339361565: HTTPError: HTTP Error 404: Not Found",
-  "7606206379: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 140,
- "books_rows": 252,
+ "books_markets": 139,
+ "books_rows": 254,
  "status": "ok"
 }
