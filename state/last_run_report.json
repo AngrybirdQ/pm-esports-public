@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-26T23:57:45Z",
+ "ts": "2026-10-27T01:28:57Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 30,
+   "events_returned": 29,
    "err": null
   },
   {
@@ -51,13 +51,13 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 56,
+   "events_returned": 55,
    "err": null
   },
   {
    "url": "tag_slug=lol",
    "ok": true,
-   "events_returned": 39,
+   "events_returned": 38,
    "err": null
   },
   {
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 150,
+   "events_returned": 156,
    "err": null
   },
   {
@@ -363,30 +363,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 762,
- "markets": 1139,
- "markets_dropped_by_volume_floor": 9072,
- "day_file": "data/2026/10/2026-10-26T23.jsonl",
+ "events": 767,
+ "markets": 1198,
+ "markets_dropped_by_volume_floor": 8275,
+ "day_file": "data/2026/10/2026-10-27T01.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
- "trades_watchlist_markets": 69,
- "trades_collected": 4326,
- "anomalies_detected": 159,
- "anomalies_new": 14,
+ "trades_watchlist_markets": 37,
+ "trades_collected": 5970,
+ "anomalies_detected": 394,
+ "anomalies_new": 394,
  "history_debug": [
   {
-   "cid": "0xe8d23866",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x62385b7f",
-   "pts": 1,
+   "cid": "0xedd8816c",
+   "pts": 2,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 2,
- "books_markets": 409,
- "books_rows": 681,
+ "history_conditions_new": 1,
+ "books_markets": 210,
+ "books_rows": 362,
  "status": "ok"
 }
