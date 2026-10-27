@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-27T13:42:02Z",
+ "ts": "2026-10-27T13:46:44Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 29,
+   "events_returned": 28,
    "err": null
   },
   {
@@ -164,8 +164,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Astra Invicta vs LEGION (BO1) - PARI Universe Group B",
-   "Dota 2: oveA vs Zero Tenacity (BO3) - Esports Pro Circuit  Group A",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -364,26 +364,18 @@
  },
  "n_event_queries": 24,
  "events": 765,
- "markets": 833,
- "markets_dropped_by_volume_floor": 6372,
+ "markets": 829,
+ "markets_dropped_by_volume_floor": 6365,
  "day_file": "data/2026/10/2026-10-27T13.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 235,
  "trades_watchlist_markets": 111,
- "trades_collected": 4607,
- "anomalies_detected": 56,
- "anomalies_new": 0,
+ "trades_collected": 4611,
+ "anomalies_detected": 67,
+ "anomalies_new": 18,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "3061487977: HTTPError: HTTP Error 404: Not Found",
-  "8000266394: HTTPError: HTTP Error 404: Not Found",
-  "3734834231: HTTPError: HTTP Error 404: Not Found",
-  "6681885418: HTTPError: HTTP Error 404: Not Found",
-  "2406056995: HTTPError: HTTP Error 404: Not Found",
-  "9366691579: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 136,
+ "books_markets": 133,
  "books_rows": 224,
  "status": "ok"
 }
