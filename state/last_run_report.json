@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-27T15:29:13Z",
+ "ts": "2026-10-27T15:33:39Z",
  "sources": [
   {
    "url": "/tags",
@@ -306,7 +306,7 @@
    },
    {
     "t": "Valorant: Wolves Esports vs World Sports Invictus Gaming (BO3) - VCT T",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: SK Nebula vs FENNEL Female (BO3) - VCT Game Changers Champio",
@@ -370,11 +370,21 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 115,
- "trades_collected": 4050,
- "anomalies_detected": 35,
- "anomalies_new": 32,
+ "trades_collected": 3980,
+ "anomalies_detected": 32,
+ "anomalies_new": 5,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "9933270990: HTTPError: HTTP Error 404: Not Found",
+  "5238238881: HTTPError: HTTP Error 404: Not Found",
+  "4775969685: HTTPError: HTTP Error 404: Not Found",
+  "7134653316: HTTPError: HTTP Error 404: Not Found",
+  "6498887519: HTTPError: HTTP Error 404: Not Found",
+  "4411066381: HTTPError: HTTP Error 404: Not Found",
+  "4971332394: HTTPError: HTTP Error 404: Not Found",
+  "3493913423: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 173,
  "books_rows": 296,
  "status": "ok"
