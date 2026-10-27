@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-27T22:34:45Z",
+ "ts": "2026-10-27T22:39:13Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 42,
+   "events_returned": 41,
    "err": null
   },
   {
@@ -187,9 +187,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: Shopify Rebellion Gold vs KRÜ Blaze (BO3) - VCT Game Changer",
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team"
+   "VALORANT Offseason: zekken Next Team",
+   "VALORANT Offseason: primmie Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -204,7 +204,7 @@
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "WNBA: 2026 Champion"
+   "Nets vs. Celtics"
   ],
   "tag_slug=international-affairs": [
    "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
@@ -364,26 +364,18 @@
  },
  "n_event_queries": 24,
  "events": 774,
- "markets": 924,
- "markets_dropped_by_volume_floor": 6869,
+ "markets": 934,
+ "markets_dropped_by_volume_floor": 6856,
  "day_file": "data/2026/10/2026-10-27T22.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 58,
- "trades_collected": 2348,
- "anomalies_detected": 33,
- "anomalies_new": 0,
+ "trades_collected": 2297,
+ "anomalies_detected": 43,
+ "anomalies_new": 18,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "6018864762: HTTPError: HTTP Error 404: Not Found",
-  "4198723559: HTTPError: HTTP Error 404: Not Found",
-  "9863322067: HTTPError: HTTP Error 404: Not Found",
-  "6382935737: HTTPError: HTTP Error 404: Not Found",
-  "1058077400: HTTPError: HTTP Error 404: Not Found",
-  "5603043981: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 140,
- "books_rows": 250,
+ "books_markets": 139,
+ "books_rows": 254,
  "status": "ok"
 }
