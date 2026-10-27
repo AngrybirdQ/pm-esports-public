@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-27T12:26:12Z",
+ "ts": "2026-10-27T12:30:23Z",
  "sources": [
   {
    "url": "/tags",
@@ -159,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "Counter-Strike: Liquid vs Aurora Gaming (BO3) - PGL Masters Bucharest "
+   "Counter-Strike: Liquid vs Aurora Gaming (BO3) - PGL Masters Bucharest ",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: oveA vs Zero Tenacity (BO3) - Esports Pro Circuit  Group A",
@@ -199,7 +199,7 @@
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "NBA: 2027 Eastern Conference Champion"
+   "Trail Blazers vs. Lakers"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
@@ -364,18 +364,28 @@
  },
  "n_event_queries": 24,
  "events": 765,
- "markets": 804,
- "markets_dropped_by_volume_floor": 6043,
+ "markets": 808,
+ "markets_dropped_by_volume_floor": 6042,
  "day_file": "data/2026/10/2026-10-27T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 218,
+ "trades_markets_queried": 223,
  "trades_watchlist_markets": 112,
- "trades_collected": 4082,
- "anomalies_detected": 56,
- "anomalies_new": 6,
+ "trades_collected": 4182,
+ "anomalies_detected": 78,
+ "anomalies_new": 69,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 144,
- "books_rows": 236,
+ "books_errors": [
+  "8876588095: HTTPError: HTTP Error 404: Not Found",
+  "8928363017: HTTPError: HTTP Error 404: Not Found",
+  "9381034051: HTTPError: HTTP Error 404: Not Found",
+  "2987533760: HTTPError: HTTP Error 404: Not Found",
+  "1111689309: HTTPError: HTTP Error 404: Not Found",
+  "5162902471: HTTPError: HTTP Error 404: Not Found",
+  "4107657467: HTTPError: HTTP Error 404: Not Found",
+  "2684970973: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 148,
+ "books_rows": 238,
  "status": "ok"
 }
