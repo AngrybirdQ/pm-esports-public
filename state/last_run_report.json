@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-27T18:31:10Z",
+ "ts": "2026-10-27T18:35:20Z",
  "sources": [
   {
    "url": "/tags",
@@ -105,13 +105,13 @@
   {
    "url": "tag_slug=international-affairs",
    "ok": true,
-   "events_returned": 12,
+   "events_returned": 13,
    "err": null
   },
   {
    "url": "tag_id[international-affairs]",
    "ok": true,
-   "events_returned": 12,
+   "events_returned": 13,
    "err": null
   },
   {
@@ -363,23 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 775,
- "markets": 903,
- "markets_dropped_by_volume_floor": 6391,
+ "events": 776,
+ "markets": 902,
+ "markets_dropped_by_volume_floor": 6388,
  "day_file": "data/2026/10/2026-10-27T18.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 91,
- "trades_collected": 3965,
- "anomalies_detected": 92,
- "anomalies_new": 86,
+ "trades_collected": 3910,
+ "anomalies_detected": 89,
+ "anomalies_new": 10,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "6645440892: HTTPError: HTTP Error 404: Not Found",
-  "5446870749: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 211,
- "books_rows": 388,
+ "books_markets": 210,
+ "books_rows": 386,
  "status": "ok"
 }
