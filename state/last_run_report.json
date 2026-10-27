@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-27T13:56:07Z",
+ "ts": "2026-10-27T14:22:01Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,13 +63,13 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 42,
+   "events_returned": 43,
    "err": null
   },
   {
    "url": "tag_slug=starcraft-2",
    "ok": true,
-   "events_returned": 4,
+   "events_returned": 5,
    "err": null
   },
   {
@@ -194,7 +194,7 @@
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
    "StarCraft II: Clem vs Classic (BO3) - IntoTheTV x SOOP SC2 League Prem",
-   "StarCraft II: SHIN vs GuMiHo (BO3) - IntoTheTV x SOOP SC2 League Premi"
+   "StarCraft II: Lambo vs Bunny (BO3) - IntoTheTV x SOOP SC2 League Premi"
   ],
   "tag_slug=nba": [
    "NBA: 2027 Champion",
@@ -247,7 +247,7 @@
     "closed": false
    },
    {
-    "t": "Dota 2: No Hoodwink vs Zero Tenacity (BO3) - Esports Pro Circuit  Grou",
+    "t": "Dota 2: oveA vs Zero Tenacity (BO3) - Esports Pro Circuit  Group A",
     "closed": true
    }
   ],
@@ -363,19 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 765,
- "markets": 833,
- "markets_dropped_by_volume_floor": 6478,
- "day_file": "data/2026/10/2026-10-27T13.jsonl",
+ "events": 780,
+ "markets": 830,
+ "markets_dropped_by_volume_floor": 6491,
+ "day_file": "data/2026/10/2026-10-27T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 239,
- "trades_watchlist_markets": 111,
- "trades_collected": 4543,
- "anomalies_detected": 68,
- "anomalies_new": 5,
+ "trades_markets_queried": 270,
+ "trades_watchlist_markets": 108,
+ "trades_collected": 4417,
+ "anomalies_detected": 65,
+ "anomalies_new": 62,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 137,
- "books_rows": 222,
+ "books_markets": 194,
+ "books_rows": 332,
  "status": "ok"
 }
