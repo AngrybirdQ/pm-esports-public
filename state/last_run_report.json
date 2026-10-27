@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-27T04:02:56Z",
+ "ts": "2026-10-27T04:57:49Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 153,
+   "events_returned": 145,
    "err": null
   },
   {
@@ -194,17 +194,17 @@
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
    "StarCraft II: Clem vs Classic (BO3) - IntoTheTV x SOOP SC2 League Prem",
-   "StarCraft II: SHIN vs GuMiHo (BO3) - IntoTheTV x SOOP SC2 League Premi"
+   "StarCraft II: ByuN vs Lambo (BO3) - IntoTheTV x SOOP SC2 League Premie"
   ],
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Grizzlies vs. Jazz"
+   "Warriors vs. Nuggets"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Grizzlies vs. Jazz"
+   "Warriors vs. Nuggets"
   ],
   "tag_slug=international-affairs": [
    "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
@@ -363,19 +363,35 @@
   ]
  },
  "n_event_queries": 24,
- "events": 761,
- "markets": 763,
- "markets_dropped_by_volume_floor": 5351,
+ "events": 759,
+ "markets": 687,
+ "markets_dropped_by_volume_floor": 5274,
  "day_file": "data/2026/10/2026-10-27T04.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 204,
- "trades_watchlist_markets": 40,
- "trades_collected": 3150,
- "anomalies_detected": 108,
- "anomalies_new": 108,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 159,
- "books_rows": 224,
+ "trades_markets_queried": 145,
+ "trades_watchlist_markets": 52,
+ "trades_collected": 1289,
+ "anomalies_detected": 20,
+ "anomalies_new": 17,
+ "history_debug": [
+  {
+   "cid": "0x33b0858c",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xfc7c9dab",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xebffa882",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 3,
+ "books_markets": 100,
+ "books_rows": 184,
  "status": "ok"
 }
