@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-27T03:42:18Z",
+ "ts": "2026-10-27T04:02:56Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 155,
+   "events_returned": 153,
    "err": null
   },
   {
@@ -309,12 +309,12 @@
     "closed": false
    },
    {
-    "t": "Valorant: NRG vs Fnatic (BO5)",
-    "closed": true
-   },
-   {
     "t": "Valorant: Unsettled Resentment vs Victory No Limits (BO3) - VCT Thresh",
     "closed": false
+   },
+   {
+    "t": "Valorant: NRG vs Fnatic (BO5)",
+    "closed": true
    }
   ],
   "search:NBA": [
@@ -363,19 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 762,
- "markets": 819,
- "markets_dropped_by_volume_floor": 5674,
- "day_file": "data/2026/10/2026-10-27T03.jsonl",
+ "events": 761,
+ "markets": 763,
+ "markets_dropped_by_volume_floor": 5351,
+ "day_file": "data/2026/10/2026-10-27T04.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 252,
- "trades_watchlist_markets": 27,
- "trades_collected": 4835,
- "anomalies_detected": 126,
- "anomalies_new": 73,
+ "trades_markets_queried": 204,
+ "trades_watchlist_markets": 40,
+ "trades_collected": 3150,
+ "anomalies_detected": 108,
+ "anomalies_new": 108,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 200,
- "books_rows": 218,
+ "books_markets": 159,
+ "books_rows": 224,
  "status": "ok"
 }
