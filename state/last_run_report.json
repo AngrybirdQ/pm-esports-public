@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-27T13:27:04Z",
+ "ts": "2026-10-27T13:32:17Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 43,
+   "events_returned": 42,
    "err": null
   },
   {
@@ -163,9 +163,9 @@
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
+   "Dota 2: Astra Invicta vs LEGION (BO1) - PARI Universe Group B",
    "Dota 2: oveA vs Zero Tenacity (BO3) - Esports Pro Circuit  Group A",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -187,19 +187,19 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: Unsettled Resentment vs Victory No Limits (BO3) - VCT Thresh",
    "VALORANT Offseason: OXY Next Team",
-   "Valorant: Wolves Esports vs World Sports Invictus Gaming (BO3) - VCT T"
+   "Valorant: Wolves Esports vs World Sports Invictus Gaming (BO3) - VCT T",
+   "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
-   "StarCraft II: Clem vs Classic (BO3) - IntoTheTV x SOOP SC2 League Prem",
-   "StarCraft II: SHIN vs GuMiHo (BO3) - IntoTheTV x SOOP SC2 League Premi"
+   "StarCraft II: ByuN vs MaxPax (BO3) - IntoTheTV x SOOP SC2 League Premi",
+   "StarCraft II: Clem vs Classic (BO3) - IntoTheTV x SOOP SC2 League Prem"
   ],
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Pistons vs. Knicks"
+   "Trail Blazers vs. Lakers"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
@@ -243,12 +243,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: No Hoodwink vs Zero Tenacity (BO3) - Esports Pro Circuit  Grou",
-    "closed": true
+    "t": "Dota 2: Astra Invicta vs LEGION (BO1) - PARI Universe Group B",
+    "closed": false
    },
    {
-    "t": "Dota 2: oveA vs Zero Tenacity (BO3) - Esports Pro Circuit  Group A",
-    "closed": false
+    "t": "Dota 2: No Hoodwink vs Zero Tenacity (BO3) - Esports Pro Circuit  Grou",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -364,30 +364,26 @@
  },
  "n_event_queries": 24,
  "events": 765,
- "markets": 840,
- "markets_dropped_by_volume_floor": 6392,
+ "markets": 829,
+ "markets_dropped_by_volume_floor": 6373,
  "day_file": "data/2026/10/2026-10-27T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 234,
+ "trades_markets_queried": 232,
  "trades_watchlist_markets": 111,
- "trades_collected": 4717,
+ "trades_collected": 4639,
  "anomalies_detected": 66,
- "anomalies_new": 0,
+ "anomalies_new": 54,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "1032933102: HTTPError: HTTP Error 404: Not Found",
-  "3846714414: HTTPError: HTTP Error 404: Not Found",
-  "1748486891: HTTPError: HTTP Error 404: Not Found",
-  "8409078745: HTTPError: HTTP Error 404: Not Found",
-  "3332472507: HTTPError: HTTP Error 404: Not Found",
-  "8407653241: HTTPError: HTTP Error 404: Not Found",
-  "1711583765: HTTPError: HTTP Error 404: Not Found",
-  "1140251071: HTTPError: HTTP Error 404: Not Found",
-  "2308445582: HTTPError: HTTP Error 404: Not Found",
-  "2595453061: HTTPError: HTTP Error 404: Not Found"
+  "2189575628: HTTPError: HTTP Error 404: Not Found",
+  "1111846959: HTTPError: HTTP Error 404: Not Found",
+  "7640403130: HTTPError: HTTP Error 404: Not Found",
+  "7642914148: HTTPError: HTTP Error 404: Not Found",
+  "1087876882: HTTPError: HTTP Error 404: Not Found",
+  "1030233809: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 147,
+ "books_markets": 136,
  "books_rows": 226,
  "status": "ok"
 }
