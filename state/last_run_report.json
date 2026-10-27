@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-27T19:06:41Z",
+ "ts": "2026-10-27T19:25:35Z",
  "sources": [
   {
    "url": "/tags",
@@ -160,7 +160,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Dota 2: BetBoom Team vs LEGION (BO1) - PARI Universe Group B"
+   "Counter-Strike: Vitality vs Natus Vincere (BO3) - PGL Masters Buchares"
   ],
   "tag_slug=dota-2": [
    "Dota 2: BetBoom Team vs LEGION (BO1) - PARI Universe Group B",
@@ -301,12 +301,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: G2 Gozen vs Team Liquid Brazil (BO3) - VCT Game Changers Cha",
-    "closed": true
-   },
-   {
     "t": "Valorant: MIBR GC vs Gentle Mates GC (BO3) - VCT Game Changers Champio",
     "closed": false
+   },
+   {
+    "t": "Valorant: G2 Gozen vs Team Liquid Brazil (BO3) - VCT Game Changers Cha",
+    "closed": true
    },
    {
     "t": "Valorant: Wolves Esports vs World Sports Invictus Gaming (BO3) - VCT T",
@@ -363,25 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 776,
- "markets": 875,
- "markets_dropped_by_volume_floor": 6437,
+ "events": 775,
+ "markets": 883,
+ "markets_dropped_by_volume_floor": 6417,
  "day_file": "data/2026/10/2026-10-27T19.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
- "trades_watchlist_markets": 91,
- "trades_collected": 3561,
- "anomalies_detected": 93,
- "anomalies_new": 88,
+ "trades_watchlist_markets": 85,
+ "trades_collected": 3656,
+ "anomalies_detected": 84,
+ "anomalies_new": 84,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "7362971193: HTTPError: HTTP Error 404: Not Found",
-  "1037933582: HTTPError: HTTP Error 404: Not Found",
-  "3695537098: HTTPError: HTTP Error 404: Not Found",
-  "1129223428: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 219,
- "books_rows": 386,
+ "books_markets": 185,
+ "books_rows": 312,
  "status": "ok"
 }
