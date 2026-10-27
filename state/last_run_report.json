@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-27T08:29:42Z",
+ "ts": "2026-10-27T09:10:42Z",
  "sources": [
   {
    "url": "/tags",
@@ -160,7 +160,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
+   "Counter-Strike: Nemiga vs DENDELE CS (BO3) - PGL Masters Bucharest Gro"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
@@ -189,7 +189,7 @@
   "tag_slug=valorant": [
    "VALORANT Offseason: OXY Next Team",
    "VALORANT Offseason: zekken Next Team",
-   "VALORANT Offseason: primmie Next Team"
+   "Valorant: Unsettled Resentment vs Victory No Limits (BO3) - VCT Thresh"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -301,12 +301,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: SK Nebula vs FENNEL Female (BO3) - VCT Game Changers Champio",
-    "closed": true
-   },
-   {
     "t": "Valorant: Unsettled Resentment vs Victory No Limits (BO3) - VCT Thresh",
     "closed": false
+   },
+   {
+    "t": "Valorant: SK Nebula vs FENNEL Female (BO3) - VCT Game Changers Champio",
+    "closed": true
    },
    {
     "t": "Valorant: Wolves Esports vs World Sports Invictus Gaming (BO3) - VCT T",
@@ -363,25 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 768,
- "markets": 726,
- "markets_dropped_by_volume_floor": 6092,
- "day_file": "data/2026/10/2026-10-27T08.jsonl",
+ "events": 767,
+ "markets": 739,
+ "markets_dropped_by_volume_floor": 6097,
+ "day_file": "data/2026/10/2026-10-27T09.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 171,
- "trades_watchlist_markets": 70,
- "trades_collected": 1730,
- "anomalies_detected": 14,
- "anomalies_new": 9,
- "history_debug": [
-  {
-   "cid": "0xd7b100e2",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
- "books_markets": 131,
- "books_rows": 260,
+ "trades_markets_queried": 181,
+ "trades_watchlist_markets": 84,
+ "trades_collected": 2102,
+ "anomalies_detected": 25,
+ "anomalies_new": 20,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 128,
+ "books_rows": 248,
  "status": "ok"
 }
