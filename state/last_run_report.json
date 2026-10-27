@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-27T17:30:08Z",
+ "ts": "2026-10-27T18:20:32Z",
  "sources": [
   {
    "url": "/tags",
@@ -159,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Counter-Strike: Spirit vs MOUZ (BO3) - PGL Masters Bucharest Group Sta",
-   "Counter-Strike: Astralis vs fnatic (BO3) - Stake Ranked Episode 5 Play"
+   "Counter-Strike: Astralis vs fnatic (BO3) - Stake Ranked Episode 5 Play",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: BetBoom Team vs LEGION (BO1) - PARI Universe Group B",
@@ -188,8 +188,8 @@
   ],
   "tag_slug=valorant": [
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team",
-   "VALORANT Offseason: primmie Next Team"
+   "Valorant: MIBR GC vs Gentle Mates GC (BO3) - VCT Game Changers Champio",
+   "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -199,7 +199,7 @@
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Trail Blazers vs. Lakers"
+   "Nets vs. Celtics"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
@@ -363,35 +363,35 @@
   ]
  },
  "n_event_queries": 24,
- "events": 778,
- "markets": 858,
- "markets_dropped_by_volume_floor": 6470,
- "day_file": "data/2026/10/2026-10-27T17.jsonl",
+ "events": 776,
+ "markets": 891,
+ "markets_dropped_by_volume_floor": 6393,
+ "day_file": "data/2026/10/2026-10-27T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 259,
- "trades_watchlist_markets": 93,
- "trades_collected": 3810,
- "anomalies_detected": 57,
- "anomalies_new": 54,
+ "trades_markets_queried": 270,
+ "trades_watchlist_markets": 91,
+ "trades_collected": 3922,
+ "anomalies_detected": 90,
+ "anomalies_new": 86,
  "history_debug": [
   {
-   "cid": "0x1903387b",
+   "cid": "0xfef6646b",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x3e516412",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xe62065d8",
    "pts": 1,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 1,
- "books_errors": [
-  "9254404061: HTTPError: HTTP Error 404: Not Found",
-  "4067126923: HTTPError: HTTP Error 404: Not Found",
-  "9859577239: HTTPError: HTTP Error 404: Not Found",
-  "5798990846: HTTPError: HTTP Error 404: Not Found",
-  "2766380782: HTTPError: HTTP Error 404: Not Found",
-  "3378114409: HTTPError: HTTP Error 404: Not Found",
-  "5464831855: HTTPError: HTTP Error 404: Not Found",
-  "9266641519: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 171,
- "books_rows": 294,
+ "history_conditions_new": 3,
+ "books_markets": 205,
+ "books_rows": 376,
  "status": "ok"
 }
