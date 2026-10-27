@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-27T16:34:15Z",
+ "ts": "2026-10-27T16:45:23Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 28,
+   "events_returned": 26,
    "err": null
   },
   {
@@ -164,8 +164,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: BetBoom Team vs Astra Invicta (BO1) - PARI Universe Group B",
-   "Dota 2: Astra Invicta vs LEGION (BO1) - PARI Universe Group B",
-   "Dota 2: BetBoom Team vs LEGION (BO1) - PARI Universe Group B"
+   "Dota 2: BetBoom Team vs LEGION (BO1) - PARI Universe Group B",
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -248,7 +248,7 @@
    },
    {
     "t": "Dota 2: Astra Invicta vs LEGION (BO1) - PARI Universe Group B",
-    "closed": false
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -364,18 +364,18 @@
  },
  "n_event_queries": 24,
  "events": 775,
- "markets": 835,
- "markets_dropped_by_volume_floor": 6402,
+ "markets": 848,
+ "markets_dropped_by_volume_floor": 6408,
  "day_file": "data/2026/10/2026-10-27T16.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 97,
- "trades_collected": 3205,
- "anomalies_detected": 59,
- "anomalies_new": 10,
+ "trades_collected": 3227,
+ "anomalies_detected": 62,
+ "anomalies_new": 9,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 205,
- "books_rows": 366,
+ "books_markets": 202,
+ "books_rows": 368,
  "status": "ok"
 }
