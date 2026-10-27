@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-27T15:01:29Z",
+ "ts": "2026-10-27T15:23:32Z",
  "sources": [
   {
    "url": "/tags",
@@ -164,8 +164,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Astra Invicta vs LEGION (BO1) - PARI Universe Group B",
-   "Dota 2: BetBoom Team vs LEGION (BO1) - PARI Universe Group B",
-   "Dota 2: No Hoodwink vs Mena Warriors (BO3) - Esports Pro Circuit  Grou"
+   "Dota 2: BetBoom Team vs Astra Invicta (BO1) - PARI Universe Group B",
+   "Dota 2: BetBoom Team vs LEGION (BO1) - PARI Universe Group B"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -363,25 +363,76 @@
   ]
  },
  "n_event_queries": 24,
- "events": 777,
- "markets": 851,
- "markets_dropped_by_volume_floor": 6449,
+ "events": 776,
+ "markets": 854,
+ "markets_dropped_by_volume_floor": 6444,
  "day_file": "data/2026/10/2026-10-27T15.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
- "trades_watchlist_markets": 108,
- "trades_collected": 4008,
- "anomalies_detected": 63,
- "anomalies_new": 61,
+ "trades_watchlist_markets": 115,
+ "trades_collected": 3929,
+ "anomalies_detected": 76,
+ "anomalies_new": 76,
  "history_debug": [
   {
-   "cid": "0x46599973",
-   "pts": 5,
+   "cid": "0x2e449a94",
+   "pts": 16,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xa1b831a3",
+   "pts": 17,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x6bcd1184",
+   "pts": 17,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x85d4c434",
+   "pts": 10,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x1496db34",
+   "pts": 10,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x3a924699",
+   "pts": 9,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x7fccb7d0",
+   "pts": 8,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xa5835bcb",
+   "pts": 8,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 1,
- "books_markets": 202,
- "books_rows": 348,
+ "history_conditions_new": 31,
+ "books_errors": [
+  "1613064682: HTTPError: HTTP Error 404: Not Found",
+  "8455098324: HTTPError: HTTP Error 404: Not Found",
+  "1933232215: HTTPError: HTTP Error 404: Not Found",
+  "6175847306: HTTPError: HTTP Error 404: Not Found",
+  "3629784179: HTTPError: HTTP Error 404: Not Found",
+  "2389483447: HTTPError: HTTP Error 404: Not Found",
+  "2680229675: HTTPError: HTTP Error 404: Not Found",
+  "3874354136: HTTPError: HTTP Error 404: Not Found",
+  "2305645046: HTTPError: HTTP Error 404: Not Found",
+  "6234828005: HTTPError: HTTP Error 404: Not Found",
+  "7395067946: HTTPError: HTTP Error 404: Not Found",
+  "5010623927: HTTPError: HTTP Error 404: Not Found",
+  "6216594502: HTTPError: HTTP Error 404: Not Found",
+  "1024691797: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 178,
+ "books_rows": 294,
  "status": "ok"
 }
