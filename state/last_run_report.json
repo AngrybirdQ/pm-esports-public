@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-27T19:30:42Z",
+ "ts": "2026-10-27T20:26:25Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 29,
+   "events_returned": 28,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 42,
+   "events_returned": 41,
    "err": null
   },
   {
@@ -159,13 +159,13 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Counter-Strike: Vitality vs Natus Vincere (BO3) - PGL Masters Buchares",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "Counter-Strike: MIBR vs Eternal Fire (BO3) - Stake Ranked Episode 5 Pl"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: BetBoom Team vs LEGION (BO1) - PARI Universe Group B",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A",
+   "Dota 2: Stray Team vs Rostik Team (BO3) - BetBoom Streamers Battle Gro"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -187,7 +187,7 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: MIBR GC vs Gentle Mates GC (BO3) - VCT Game Changers Champio",
+   "Valorant: Shopify Rebellion Gold vs KRÜ Blaze (BO3) - VCT Game Changer",
    "VALORANT Offseason: OXY Next Team",
    "VALORANT Offseason: zekken Next Team"
   ],
@@ -235,12 +235,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs PARIVISION (BO3) - PARI Universe Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: BetBoom Team vs LEGION (BO1) - PARI Universe Group B",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: BetBoom Team vs Astra Invicta (BO1) - PARI Universe Group B",
@@ -248,6 +244,10 @@
    },
    {
     "t": "Dota 2: Astra Invicta vs LEGION (BO1) - PARI Universe Group B",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: No Hoodwink vs Mena Warriors (BO3) - Esports Pro Circuit  Grou",
     "closed": true
    }
   ],
@@ -297,11 +297,15 @@
   ],
   "search:Valorant": [
    {
+    "t": "Valorant: MIBR GC vs Gentle Mates GC (BO3) - VCT Game Changers Champio",
+    "closed": true
+   },
+   {
     "t": "Valorant: Unsettled Resentment vs Victory No Limits (BO3) - VCT Thresh",
     "closed": true
    },
    {
-    "t": "Valorant: MIBR GC vs Gentle Mates GC (BO3) - VCT Game Changers Champio",
+    "t": "Valorant: Shopify Rebellion Gold vs KRÜ Blaze (BO3) - VCT Game Changer",
     "closed": false
    },
    {
@@ -310,10 +314,6 @@
    },
    {
     "t": "Valorant: Wolves Esports vs World Sports Invictus Gaming (BO3) - VCT T",
-    "closed": true
-   },
-   {
-    "t": "Valorant: SK Nebula vs FENNEL Female (BO3) - VCT Game Changers Champio",
     "closed": true
    }
   ],
@@ -363,19 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 775,
- "markets": 881,
- "markets_dropped_by_volume_floor": 6413,
- "day_file": "data/2026/10/2026-10-27T19.jsonl",
+ "events": 773,
+ "markets": 871,
+ "markets_dropped_by_volume_floor": 6928,
+ "day_file": "data/2026/10/2026-10-27T20.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 270,
- "trades_watchlist_markets": 85,
- "trades_collected": 3717,
- "anomalies_detected": 88,
- "anomalies_new": 86,
+ "trades_markets_queried": 255,
+ "trades_watchlist_markets": 78,
+ "trades_collected": 3811,
+ "anomalies_detected": 70,
+ "anomalies_new": 70,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 183,
- "books_rows": 312,
+ "books_markets": 128,
+ "books_rows": 204,
  "status": "ok"
 }
