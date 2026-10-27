@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-27T14:26:19Z",
+ "ts": "2026-10-27T14:30:08Z",
  "sources": [
   {
    "url": "/tags",
@@ -69,7 +69,7 @@
   {
    "url": "tag_slug=starcraft-2",
    "ok": true,
-   "events_returned": 5,
+   "events_returned": 4,
    "err": null
   },
   {
@@ -164,8 +164,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Astra Invicta vs LEGION (BO1) - PARI Universe Group B",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: BetBoom Team vs LEGION (BO1) - PARI Universe Group B",
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -194,7 +194,7 @@
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
    "StarCraft II: Clem vs Classic (BO3) - IntoTheTV x SOOP SC2 League Prem",
-   "StarCraft II: Lambo vs Bunny (BO3) - IntoTheTV x SOOP SC2 League Premi"
+   "StarCraft II: SHIN vs GuMiHo (BO3) - IntoTheTV x SOOP SC2 League Premi"
   ],
   "tag_slug=nba": [
    "NBA: 2027 Champion",
@@ -363,19 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 780,
- "markets": 830,
- "markets_dropped_by_volume_floor": 6491,
+ "events": 779,
+ "markets": 844,
+ "markets_dropped_by_volume_floor": 6478,
  "day_file": "data/2026/10/2026-10-27T14.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 108,
- "trades_collected": 4373,
- "anomalies_detected": 71,
- "anomalies_new": 13,
+ "trades_collected": 4342,
+ "anomalies_detected": 78,
+ "anomalies_new": 75,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 194,
- "books_rows": 328,
+ "books_markets": 203,
+ "books_rows": 340,
  "status": "ok"
 }
