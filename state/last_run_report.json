@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-27T14:42:11Z",
+ "ts": "2026-10-27T14:46:42Z",
  "sources": [
   {
    "url": "/tags",
@@ -165,7 +165,7 @@
   "tag_slug=dota-2": [
    "Dota 2: Astra Invicta vs LEGION (BO1) - PARI Universe Group B",
    "Dota 2: BetBoom Team vs LEGION (BO1) - PARI Universe Group B",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: No Hoodwink vs Mena Warriors (BO3) - Esports Pro Circuit  Grou"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -187,14 +187,14 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "VALORANT Offseason: OXY Next Team",
    "Valorant: Wolves Esports vs World Sports Invictus Gaming (BO3) - VCT T",
+   "VALORANT Offseason: OXY Next Team",
    "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
-   "StarCraft II: Clem vs Classic (BO3) - IntoTheTV x SOOP SC2 League Prem",
-   "StarCraft II: SHIN vs GuMiHo (BO3) - IntoTheTV x SOOP SC2 League Premi"
+   "StarCraft II: ByuN vs Bunny (BO5) - IntoTheTV x SOOP SC2 League Premie",
+   "StarCraft II: Clem vs Classic (BO3) - IntoTheTV x SOOP SC2 League Prem"
   ],
   "tag_slug=nba": [
    "NBA: 2027 Champion",
@@ -364,26 +364,30 @@
  },
  "n_event_queries": 24,
  "events": 779,
- "markets": 856,
- "markets_dropped_by_volume_floor": 6473,
+ "markets": 851,
+ "markets_dropped_by_volume_floor": 6470,
  "day_file": "data/2026/10/2026-10-27T14.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 108,
- "trades_collected": 4156,
- "anomalies_detected": 50,
- "anomalies_new": 4,
+ "trades_collected": 4169,
+ "anomalies_detected": 56,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "7735979329: HTTPError: HTTP Error 404: Not Found",
-  "9303861673: HTTPError: HTTP Error 404: Not Found",
-  "1324304439: HTTPError: HTTP Error 404: Not Found",
-  "2179931006: HTTPError: HTTP Error 404: Not Found",
-  "5657648352: HTTPError: HTTP Error 404: Not Found",
-  "8648308469: HTTPError: HTTP Error 404: Not Found"
+  "9270823984: HTTPError: HTTP Error 404: Not Found",
+  "1087226522: HTTPError: HTTP Error 404: Not Found",
+  "6594647111: HTTPError: HTTP Error 404: Not Found",
+  "8058512577: HTTPError: HTTP Error 404: Not Found",
+  "2161843706: HTTPError: HTTP Error 404: Not Found",
+  "1134174402: HTTPError: HTTP Error 404: Not Found",
+  "6743084008: HTTPError: HTTP Error 404: Not Found",
+  "8605222703: HTTPError: HTTP Error 404: Not Found",
+  "8024488470: HTTPError: HTTP Error 404: Not Found",
+  "1239729929: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 210,
- "books_rows": 356,
+ "books_markets": 206,
+ "books_rows": 350,
  "status": "ok"
 }
