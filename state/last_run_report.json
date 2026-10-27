@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-27T16:23:43Z",
+ "ts": "2026-10-27T16:28:58Z",
  "sources": [
   {
    "url": "/tags",
@@ -160,7 +160,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Counter-Strike: Spirit vs MOUZ (BO3) - PGL Masters Bucharest Group Sta",
-   "Worlds 2026 Winning Region"
+   "Counter-Strike: Astralis vs fnatic (BO3) - Stake Ranked Episode 5 Play"
   ],
   "tag_slug=dota-2": [
    "Dota 2: BetBoom Team vs Astra Invicta (BO1) - PARI Universe Group B",
@@ -243,11 +243,11 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Astra Invicta vs LEGION (BO1) - PARI Universe Group B",
+    "t": "Dota 2: BetBoom Team vs LEGION (BO1) - PARI Universe Group B",
     "closed": false
    },
    {
-    "t": "Dota 2: BetBoom Team vs LEGION (BO1) - PARI Universe Group B",
+    "t": "Dota 2: Astra Invicta vs LEGION (BO1) - PARI Universe Group B",
     "closed": false
    }
   ],
@@ -363,31 +363,23 @@
   ]
  },
  "n_event_queries": 24,
- "events": 776,
- "markets": 839,
- "markets_dropped_by_volume_floor": 6400,
+ "events": 775,
+ "markets": 837,
+ "markets_dropped_by_volume_floor": 6402,
  "day_file": "data/2026/10/2026-10-27T16.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 97,
- "trades_collected": 3389,
- "anomalies_detected": 47,
- "anomalies_new": 45,
- "history_debug": [
-  {
-   "cid": "0xb1f1765c",
-   "pts": 3,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
+ "trades_collected": 3312,
+ "anomalies_detected": 53,
+ "anomalies_new": 47,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_errors": [
-  "8003477153: HTTPError: HTTP Error 404: Not Found",
-  "6059030128: HTTPError: HTTP Error 404: Not Found",
-  "9520489609: HTTPError: HTTP Error 404: Not Found",
-  "7783356883: HTTPError: HTTP Error 404: Not Found"
+  "8785467120: HTTPError: HTTP Error 404: Not Found",
+  "9932396092: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 208,
- "books_rows": 370,
+ "books_markets": 206,
+ "books_rows": 366,
  "status": "ok"
 }
