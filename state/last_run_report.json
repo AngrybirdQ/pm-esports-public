@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-27T18:24:07Z",
+ "ts": "2026-10-27T18:27:44Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 30,
+   "events_returned": 29,
    "err": null
   },
   {
@@ -159,13 +159,13 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Counter-Strike: Astralis vs fnatic (BO3) - Stake Ranked Episode 5 Play",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "Dota 2: BetBoom Team vs LEGION (BO1) - PARI Universe Group B"
   ],
   "tag_slug=dota-2": [
    "Dota 2: BetBoom Team vs LEGION (BO1) - PARI Universe Group B",
-   "Dota 2: BetBoom Team vs Astra Invicta (BO1) - PARI Universe Group B",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -187,8 +187,8 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "VALORANT Offseason: OXY Next Team",
    "Valorant: MIBR GC vs Gentle Mates GC (BO3) - VCT Game Changers Champio",
+   "VALORANT Offseason: OXY Next Team",
    "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
@@ -363,23 +363,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 776,
- "markets": 891,
- "markets_dropped_by_volume_floor": 6393,
+ "events": 775,
+ "markets": 903,
+ "markets_dropped_by_volume_floor": 6391,
  "day_file": "data/2026/10/2026-10-27T18.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 91,
- "trades_collected": 3842,
- "anomalies_detected": 89,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "1033722067: HTTPError: HTTP Error 404: Not Found",
-  "2173272702: HTTPError: HTTP Error 404: Not Found"
+ "trades_collected": 3933,
+ "anomalies_detected": 90,
+ "anomalies_new": 11,
+ "history_debug": [
+  {
+   "cid": "0x281b1d5a",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 205,
- "books_rows": 376,
+ "history_conditions_new": 1,
+ "books_markets": 211,
+ "books_rows": 390,
  "status": "ok"
 }
