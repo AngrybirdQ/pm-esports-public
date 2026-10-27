@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-27T21:34:19Z",
+ "ts": "2026-10-27T22:22:53Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 41,
+   "events_returned": 42,
    "err": null
   },
   {
@@ -160,7 +160,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Counter-Strike: MIBR vs Eternal Fire (BO3) - Stake Ranked Episode 5 Pl"
+   "Counter-Strike: FURIA vs TYLOO (BO3) - PGL Masters Bucharest Group Sta"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
@@ -243,11 +243,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: BetBoom Team vs LEGION (BO3) - PARI Universe Group B",
+    "t": "Dota 2: No Hoodwink vs Mena Warriors (BO3) - Esports Pro Circuit  Grou",
     "closed": true
    },
    {
-    "t": "Dota 2: No Hoodwink vs Mena Warriors (BO3) - Esports Pro Circuit  Grou",
+    "t": "Dota 2: oveA vs Zero Tenacity (BO3) - Esports Pro Circuit  Group A",
     "closed": true
    }
   ],
@@ -313,7 +313,7 @@
     "closed": true
    },
    {
-    "t": "Valorant: G2 Gozen vs Team Liquid Brazil (BO3) - VCT Game Changers Cha",
+    "t": "Valorant: NRG vs Fnatic (BO5)",
     "closed": true
    }
   ],
@@ -364,24 +364,34 @@
  },
  "n_event_queries": 24,
  "events": 774,
- "markets": 889,
- "markets_dropped_by_volume_floor": 6911,
- "day_file": "data/2026/10/2026-10-27T21.jsonl",
+ "markets": 925,
+ "markets_dropped_by_volume_floor": 6877,
+ "day_file": "data/2026/10/2026-10-27T22.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 253,
- "trades_watchlist_markets": 75,
- "trades_collected": 2741,
- "anomalies_detected": 74,
- "anomalies_new": 26,
+ "trades_markets_queried": 270,
+ "trades_watchlist_markets": 58,
+ "trades_collected": 2421,
+ "anomalies_detected": 35,
+ "anomalies_new": 34,
  "history_debug": [
   {
-   "cid": "0x88900410",
+   "cid": "0xbc1687e1",
+   "pts": 6,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x9d38aac8",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x25c25361",
    "pts": 1,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 1,
- "books_markets": 116,
- "books_rows": 202,
+ "history_conditions_new": 3,
+ "books_markets": 141,
+ "books_rows": 248,
  "status": "ok"
 }
