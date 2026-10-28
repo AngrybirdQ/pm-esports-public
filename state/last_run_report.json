@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-28T02:07:50Z",
+ "ts": "2026-10-28T05:58:38Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 55,
+   "events_returned": 54,
    "err": null
   },
   {
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 162,
+   "events_returned": 157,
    "err": null
   },
   {
@@ -198,13 +198,13 @@
   ],
   "tag_slug=nba": [
    "NBA: 2027 Champion",
-   "NBA: 2026-27 Rookie of the Year",
-   "Nets vs. Celtics"
+   "Trail Blazers vs. Lakers",
+   "NBA: 2026-27 Rookie of the Year"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
-   "NBA: 2026-27 Rookie of the Year",
-   "Nets vs. Celtics"
+   "Trail Blazers vs. Lakers",
+   "NBA: 2026-27 Rookie of the Year"
   ],
   "tag_slug=international-affairs": [
    "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
@@ -363,27 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 781,
- "markets": 995,
- "markets_dropped_by_volume_floor": 6857,
- "day_file": "data/2026/10/2026-10-28T02.jsonl",
+ "events": 777,
+ "markets": 881,
+ "markets_dropped_by_volume_floor": 6565,
+ "day_file": "data/2026/10/2026-10-28T05.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 270,
- "trades_watchlist_markets": 26,
- "trades_collected": 5051,
- "anomalies_detected": 238,
- "anomalies_new": 27,
+ "trades_markets_queried": 253,
+ "trades_watchlist_markets": 56,
+ "trades_collected": 3361,
+ "anomalies_detected": 10,
+ "anomalies_new": 10,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "6129153966: HTTPError: HTTP Error 404: Not Found",
-  "1067399522: HTTPError: HTTP Error 404: Not Found",
-  "3988396556: HTTPError: HTTP Error 404: Not Found",
-  "7668779079: HTTPError: HTTP Error 404: Not Found",
-  "1027469347: HTTPError: HTTP Error 404: Not Found",
-  "1701674160: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 145,
- "books_rows": 276,
+ "books_markets": 202,
+ "books_rows": 240,
  "status": "ok"
 }
