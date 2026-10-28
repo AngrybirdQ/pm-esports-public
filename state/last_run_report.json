@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-28T13:24:20Z",
+ "ts": "2026-10-28T13:29:08Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,10 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "trades 0x11ab4b0b: HTTPError: HTTP Error 429: Too Many Requests",
-  "trades 0x9a3c9832: HTTPError: HTTP Error 429: Too Many Requests"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -191,8 +188,8 @@
   ],
   "tag_slug=valorant": [
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team",
-   "Valorant: Any Questions Gaming vs Rare Atom (BO3) - VCT Threshold Chin"
+   "Valorant: Any Questions Gaming vs Rare Atom (BO3) - VCT Threshold Chin",
+   "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -308,12 +305,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: Wolves Esports vs World Sports Invictus Gaming (BO3) - VCT T",
-    "closed": true
-   },
-   {
     "t": "Valorant: Any Questions Gaming vs Rare Atom (BO3) - VCT Threshold Chin",
     "closed": false
+   },
+   {
+    "t": "Valorant: Wolves Esports vs World Sports Invictus Gaming (BO3) - VCT T",
+    "closed": true
    },
    {
     "t": "Valorant: A Team vs Octagonal Disposition Gaming (BO3) - VCT Threshold",
@@ -367,18 +364,39 @@
  },
  "n_event_queries": 24,
  "events": 775,
- "markets": 889,
- "markets_dropped_by_volume_floor": 8255,
+ "markets": 898,
+ "markets_dropped_by_volume_floor": 8253,
  "day_file": "data/2026/10/2026-10-28T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 243,
+ "trades_markets_queried": 244,
  "trades_watchlist_markets": 105,
- "trades_collected": 4147,
- "anomalies_detected": 69,
- "anomalies_new": 1,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 145,
- "books_rows": 228,
+ "trades_collected": 4323,
+ "anomalies_detected": 65,
+ "anomalies_new": 61,
+ "history_debug": [
+  {
+   "cid": "0xe172bb9f",
+   "pts": 7,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xcc257d46",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_errors": [
+  "7613036838: HTTPError: HTTP Error 404: Not Found",
+  "7249351201: HTTPError: HTTP Error 404: Not Found",
+  "3492019103: HTTPError: HTTP Error 404: Not Found",
+  "9622328510: HTTPError: HTTP Error 404: Not Found",
+  "8017830930: HTTPError: HTTP Error 404: Not Found",
+  "7548629780: HTTPError: HTTP Error 404: Not Found",
+  "6798669605: HTTPError: HTTP Error 404: Not Found",
+  "1968388159: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 144,
+ "books_rows": 226,
  "status": "ok"
 }
