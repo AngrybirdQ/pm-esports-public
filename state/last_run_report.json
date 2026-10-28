@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-27T23:31:49Z",
+ "ts": "2026-10-28T00:25:33Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 33,
+   "events_returned": 34,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 41,
+   "events_returned": 44,
    "err": null
   },
   {
@@ -313,8 +313,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: NRG vs Fnatic (BO5)",
-    "closed": true
+    "t": "Valorant: Any Questions Gaming vs Rare Atom (BO3) - VCT Threshold Chin",
+    "closed": false
    }
   ],
   "search:NBA": [
@@ -363,23 +363,30 @@
   ]
  },
  "n_event_queries": 24,
- "events": 779,
- "markets": 958,
- "markets_dropped_by_volume_floor": 7002,
- "day_file": "data/2026/10/2026-10-27T23.jsonl",
- "retention_removed_files": 0,
- "trades_markets_queried": 249,
- "trades_watchlist_markets": 29,
- "trades_collected": 2727,
- "anomalies_detected": 72,
- "anomalies_new": 62,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "5405230202: HTTPError: HTTP Error 404: Not Found",
-  "8406801967: HTTPError: HTTP Error 404: Not Found"
+ "events": 781,
+ "markets": 1019,
+ "markets_dropped_by_volume_floor": 7040,
+ "day_file": "data/2026/10/2026-10-28T00.jsonl",
+ "retention_removed_files": 107,
+ "trades_markets_queried": 252,
+ "trades_watchlist_markets": 28,
+ "trades_collected": 3922,
+ "anomalies_detected": 123,
+ "anomalies_new": 122,
+ "history_debug": [
+  {
+   "cid": "0x2e823d32",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x731955ca",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 137,
- "books_rows": 258,
+ "history_conditions_new": 2,
+ "books_markets": 133,
+ "books_rows": 262,
  "status": "ok"
 }
