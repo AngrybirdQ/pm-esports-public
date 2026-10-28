@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-28T13:35:01Z",
+ "ts": "2026-10-28T14:09:49Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 33,
+   "events_returned": 31,
    "err": null
   },
   {
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "trades 0x416b41c2: HTTPError: HTTP Error 429: Too Many Requests"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -161,11 +159,11 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Dota 2: PARIVISION vs Team Liquid (BO3) - PARI Universe Playoffs",
-   "Counter-Strike: TheMongolz vs Nemiga (BO3) - PGL Masters Bucharest Gro"
+   "Worlds 2026 Winning Region",
+   "Counter-Strike: Liquid vs FURIA (BO3) - PGL Masters Bucharest Group St"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: PARIVISION vs Team Liquid (BO3) - PARI Universe Playoffs",
+   "Dota 2: Team Yandex vs Astra Invicta (BO3) - PARI Universe Playoffs",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
    "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
@@ -234,7 +232,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: PARIVISION vs Team Liquid (BO3) - PARI Universe Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: BetBoom Team vs LEGION (BO1) - PARI Universe Group B",
@@ -245,8 +243,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Astra Invicta vs LEGION (BO1) - PARI Universe Group B",
-    "closed": true
+    "t": "Dota 2: Team Yandex vs Astra Invicta (BO3) - PARI Universe Playoffs",
+    "closed": false
    },
    {
     "t": "Dota 2: No Hoodwink vs Mena Warriors (BO3) - Esports Pro Circuit  Grou",
@@ -365,19 +363,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 775,
- "markets": 894,
- "markets_dropped_by_volume_floor": 8246,
- "day_file": "data/2026/10/2026-10-28T13.jsonl",
+ "events": 774,
+ "markets": 910,
+ "markets_dropped_by_volume_floor": 8630,
+ "day_file": "data/2026/10/2026-10-28T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 244,
- "trades_watchlist_markets": 105,
- "trades_collected": 4328,
- "anomalies_detected": 66,
- "anomalies_new": 4,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 140,
- "books_rows": 226,
+ "trades_markets_queried": 250,
+ "trades_watchlist_markets": 98,
+ "trades_collected": 4481,
+ "anomalies_detected": 46,
+ "anomalies_new": 44,
+ "history_debug": [
+  {
+   "cid": "0xf94b335f",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 135,
+ "books_rows": 224,
  "status": "ok"
 }
