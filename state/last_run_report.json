@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-28T20:24:32Z",
+ "ts": "2026-10-28T20:29:28Z",
  "sources": [
   {
    "url": "/tags",
@@ -247,7 +247,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Rottweilas Latam vs Level Up Academy (BO3) - Esports Pro Circu",
+    "t": "Dota 2: GamerLegion vs LEGION (BO3) - PARI Universe Playoffs",
     "closed": false
    }
   ],
@@ -364,32 +364,29 @@
  },
  "n_event_queries": 24,
  "events": 770,
- "markets": 1012,
- "markets_dropped_by_volume_floor": 9628,
+ "markets": 1034,
+ "markets_dropped_by_volume_floor": 9614,
  "day_file": "data/2026/10/2026-10-28T20.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 92,
- "trades_collected": 4559,
- "anomalies_detected": 49,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "1204132807: HTTPError: HTTP Error 404: Not Found",
-  "9550844058: HTTPError: HTTP Error 404: Not Found",
-  "1038235717: HTTPError: HTTP Error 404: Not Found",
-  "4119381746: HTTPError: HTTP Error 404: Not Found",
-  "3418750391: HTTPError: HTTP Error 404: Not Found",
-  "9295685070: HTTPError: HTTP Error 404: Not Found",
-  "7660362426: HTTPError: HTTP Error 404: Not Found",
-  "3075161905: HTTPError: HTTP Error 404: Not Found",
-  "3072109928: HTTPError: HTTP Error 404: Not Found",
-  "2777860151: HTTPError: HTTP Error 404: Not Found",
-  "4177973010: HTTPError: HTTP Error 404: Not Found",
-  "5217047110: HTTPError: HTTP Error 404: Not Found"
+ "trades_collected": 4569,
+ "anomalies_detected": 74,
+ "anomalies_new": 71,
+ "history_debug": [
+  {
+   "cid": "0x2ae1534c",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x519f8a77",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 146,
- "books_rows": 250,
+ "history_conditions_new": 2,
+ "books_markets": 140,
+ "books_rows": 248,
  "status": "ok"
 }
