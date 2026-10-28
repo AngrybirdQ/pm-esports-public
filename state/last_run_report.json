@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-28T14:14:02Z",
+ "ts": "2026-10-28T14:18:44Z",
  "sources": [
   {
    "url": "/tags",
@@ -309,11 +309,11 @@
     "closed": false
    },
    {
-    "t": "Valorant: Wolves Esports vs World Sports Invictus Gaming (BO3) - VCT T",
+    "t": "Valorant: A Team vs Octagonal Disposition Gaming (BO3) - VCT Threshold",
     "closed": true
    },
    {
-    "t": "Valorant: A Team vs Octagonal Disposition Gaming (BO3) - VCT Threshold",
+    "t": "Valorant: Wolves Esports vs World Sports Invictus Gaming (BO3) - VCT T",
     "closed": true
    }
   ],
@@ -370,18 +370,30 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 252,
  "trades_watchlist_markets": 98,
- "trades_collected": 4535,
- "anomalies_detected": 54,
- "anomalies_new": 18,
- "history_debug": [
-  {
-   "cid": "0xcec44621",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
+ "trades_collected": 4330,
+ "anomalies_detected": 56,
+ "anomalies_new": 9,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_errors": [
+  "5994548182: HTTPError: HTTP Error 404: Not Found",
+  "1420156810: HTTPError: HTTP Error 404: Not Found",
+  "5447473907: HTTPError: HTTP Error 404: Not Found",
+  "1150533116: HTTPError: HTTP Error 404: Not Found",
+  "1116477361: HTTPError: HTTP Error 404: Not Found",
+  "4821643167: HTTPError: HTTP Error 404: Not Found",
+  "1032806253: HTTPError: HTTP Error 404: Not Found",
+  "6783459678: HTTPError: HTTP Error 404: Not Found",
+  "4657456569: HTTPError: HTTP Error 404: Not Found",
+  "6643251585: HTTPError: HTTP Error 404: Not Found",
+  "9898650557: HTTPError: HTTP Error 404: Not Found",
+  "7580816534: HTTPError: HTTP Error 404: Not Found",
+  "3965367941: HTTPError: HTTP Error 404: Not Found",
+  "3016274216: HTTPError: HTTP Error 404: Not Found",
+  "2506567078: HTTPError: HTTP Error 404: Not Found",
+  "9272074438: HTTPError: HTTP Error 404: Not Found"
  ],
- "history_conditions_new": 1,
  "books_markets": 135,
- "books_rows": 224,
+ "books_rows": 222,
  "status": "ok"
 }
