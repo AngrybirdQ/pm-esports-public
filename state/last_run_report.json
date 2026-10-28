@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-28T14:23:43Z",
+ "ts": "2026-10-28T15:02:42Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 42,
+   "events_returned": 44,
    "err": null
   },
   {
@@ -159,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "Counter-Strike: Liquid vs FURIA (BO3) - PGL Masters Bucharest Group St"
+   "Counter-Strike: Liquid vs FURIA (BO3) - PGL Masters Bucharest Group St",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Yandex vs Astra Invicta (BO3) - PARI Universe Playoffs",
@@ -235,6 +235,10 @@
     "closed": true
    },
    {
+    "t": "Dota 2: Team Yandex vs Astra Invicta (BO3) - PARI Universe Playoffs",
+    "closed": false
+   },
+   {
     "t": "Dota 2: BetBoom Team vs LEGION (BO1) - PARI Universe Group B",
     "closed": true
    },
@@ -243,11 +247,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Yandex vs Astra Invicta (BO3) - PARI Universe Playoffs",
-    "closed": false
-   },
-   {
-    "t": "Dota 2: No Hoodwink vs Mena Warriors (BO3) - Esports Pro Circuit  Grou",
+    "t": "Dota 2: angry birds vs Rottweilas Latam (BO3) - Esports Pro Circuit  G",
     "closed": true
    }
   ],
@@ -313,7 +313,7 @@
     "closed": true
    },
    {
-    "t": "Valorant: Wolves Esports vs World Sports Invictus Gaming (BO3) - VCT T",
+    "t": "Valorant: NRG vs Fnatic (BO5)",
     "closed": true
    }
   ],
@@ -363,19 +363,23 @@
   ]
  },
  "n_event_queries": 24,
- "events": 773,
- "markets": 912,
- "markets_dropped_by_volume_floor": 8608,
- "day_file": "data/2026/10/2026-10-28T14.jsonl",
+ "events": 775,
+ "markets": 920,
+ "markets_dropped_by_volume_floor": 8932,
+ "day_file": "data/2026/10/2026-10-28T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 254,
- "trades_watchlist_markets": 98,
- "trades_collected": 4250,
- "anomalies_detected": 57,
- "anomalies_new": 16,
+ "trades_markets_queried": 270,
+ "trades_watchlist_markets": 101,
+ "trades_collected": 4186,
+ "anomalies_detected": 66,
+ "anomalies_new": 66,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 131,
- "books_rows": 230,
+ "books_errors": [
+  "1075790159: HTTPError: HTTP Error 404: Not Found",
+  "8739841030: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 159,
+ "books_rows": 280,
  "status": "ok"
 }
