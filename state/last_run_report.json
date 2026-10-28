@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-28T10:08:21Z",
+ "ts": "2026-10-28T10:11:53Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,12 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "trades 0x7f3f7893: HTTPError: HTTP Error 429: Too Many Requests",
-  "trades 0x38b3a5f5: HTTPError: HTTP Error 429: Too Many Requests",
-  "trades 0x97d81311: HTTPError: HTTP Error 429: Too Many Requests",
-  "trades 0x97c8704c: HTTPError: HTTP Error 429: Too Many Requests"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -318,7 +313,7 @@
     "closed": true
    },
    {
-    "t": "Valorant: Any Questions Gaming vs Rare Atom (BO3) - VCT Threshold Chin",
+    "t": "Valorant: A Team vs Octagonal Disposition Gaming (BO3) - VCT Threshold",
     "closed": false
    }
   ],
@@ -375,18 +370,12 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 209,
  "trades_watchlist_markets": 86,
- "trades_collected": 2311,
+ "trades_collected": 2299,
  "anomalies_detected": 47,
- "anomalies_new": 14,
- "history_debug": [
-  {
-   "cid": "0x60197e13",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
+ "anomalies_new": 0,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 131,
- "books_rows": 248,
+ "books_rows": 244,
  "status": "ok"
 }
