@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-28T17:50:21Z",
+ "ts": "2026-10-28T18:09:59Z",
  "sources": [
   {
    "url": "/tags",
@@ -199,7 +199,7 @@
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Thunder vs. Mavericks"
+   "76ers vs. Pacers"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
@@ -313,7 +313,7 @@
     "closed": true
    },
    {
-    "t": "Valorant: KRÜ Blaze vs Team Liquid Brazil (BO3) - VCT Game Changers Ch",
+    "t": "Valorant: MIBR GC vs SK Nebula (BO3) - VCT Game Changers Championship ",
     "closed": false
    }
   ],
@@ -364,18 +364,24 @@
  },
  "n_event_queries": 24,
  "events": 772,
- "markets": 919,
- "markets_dropped_by_volume_floor": 9335,
- "day_file": "data/2026/10/2026-10-28T17.jsonl",
+ "markets": 944,
+ "markets_dropped_by_volume_floor": 9638,
+ "day_file": "data/2026/10/2026-10-28T18.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
- "trades_watchlist_markets": 87,
- "trades_collected": 4498,
- "anomalies_detected": 67,
- "anomalies_new": 18,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 164,
- "books_rows": 290,
+ "trades_watchlist_markets": 93,
+ "trades_collected": 4516,
+ "anomalies_detected": 69,
+ "anomalies_new": 53,
+ "history_debug": [
+  {
+   "cid": "0x6a86f101",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 183,
+ "books_rows": 322,
  "status": "ok"
 }
