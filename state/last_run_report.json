@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-28T17:12:37Z",
+ "ts": "2026-10-28T17:16:31Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,7 +151,9 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "trades 0x92375f81: HTTPError: HTTP Error 429: Too Many Requests"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -239,12 +241,12 @@
     "closed": false
    },
    {
-    "t": "Dota 2: BetBoom Team vs LEGION (BO1) - PARI Universe Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Spirit vs OG (BO3) - PARI Universe Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: BetBoom Team vs LEGION (BO1) - PARI Universe Group B",
+    "closed": true
    },
    {
     "t": "Dota 2: angry birds vs Level Up Academy (BO3) - Esports Pro Circuit  G",
@@ -370,11 +372,19 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 87,
- "trades_collected": 4096,
- "anomalies_detected": 63,
- "anomalies_new": 10,
+ "trades_collected": 4155,
+ "anomalies_detected": 61,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "3576726397: HTTPError: HTTP Error 404: Not Found",
+  "4214680749: HTTPError: HTTP Error 404: Not Found",
+  "4354684505: HTTPError: HTTP Error 404: Not Found",
+  "9131060593: HTTPError: HTTP Error 404: Not Found",
+  "1115709960: HTTPError: HTTP Error 404: Not Found",
+  "3108361269: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 165,
  "books_rows": 288,
  "status": "ok"
