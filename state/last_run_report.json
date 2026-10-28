@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-28T19:27:49Z",
+ "ts": "2026-10-28T19:33:40Z",
  "sources": [
   {
    "url": "/tags",
@@ -187,8 +187,8 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "VALORANT Offseason: OXY Next Team",
    "Valorant: KRÜ Blaze vs Team Liquid Brazil (BO3) - VCT Game Changers Ch",
+   "VALORANT Offseason: OXY Next Team",
    "Valorant: MIBR GC vs SK Nebula (BO3) - VCT Game Changers Championship "
   ],
   "tag_slug=starcraft-2": [
@@ -363,35 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 771,
- "markets": 984,
- "markets_dropped_by_volume_floor": 9609,
+ "events": 769,
+ "markets": 977,
+ "markets_dropped_by_volume_floor": 9598,
  "day_file": "data/2026/10/2026-10-28T19.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 90,
- "trades_collected": 3662,
+ "trades_collected": 3594,
  "anomalies_detected": 81,
- "anomalies_new": 0,
+ "anomalies_new": 71,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "6244306174: HTTPError: HTTP Error 404: Not Found",
-  "8596768115: HTTPError: HTTP Error 404: Not Found",
-  "4246962191: HTTPError: HTTP Error 404: Not Found",
-  "3499418271: HTTPError: HTTP Error 404: Not Found",
-  "8672341748: HTTPError: HTTP Error 404: Not Found",
-  "1398329491: HTTPError: HTTP Error 404: Not Found",
-  "5295637778: HTTPError: HTTP Error 404: Not Found",
-  "7346481655: HTTPError: HTTP Error 404: Not Found",
-  "9913551961: HTTPError: HTTP Error 404: Not Found",
-  "7036679507: HTTPError: HTTP Error 404: Not Found",
-  "1145663477: HTTPError: HTTP Error 404: Not Found",
-  "5883052738: HTTPError: HTTP Error 404: Not Found",
-  "3041965324: HTTPError: HTTP Error 404: Not Found",
-  "1858440262: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 179,
+ "books_markets": 172,
  "books_rows": 308,
  "status": "ok"
 }
