@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-28T21:34:28Z",
+ "ts": "2026-10-28T22:10:33Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 29,
+   "events_returned": 28,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 43,
+   "events_returned": 42,
    "err": null
   },
   {
@@ -187,9 +187,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: KRÜ Blaze vs Team Liquid Brazil (BO3) - VCT Game Changers Ch",
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team"
+   "VALORANT Offseason: zekken Next Team",
+   "VALORANT Offseason: primmie Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -298,7 +298,7 @@
   "search:Valorant": [
    {
     "t": "Valorant: KRÜ Blaze vs Team Liquid Brazil (BO3) - VCT Game Changers Ch",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: MIBR GC vs SK Nebula (BO3) - VCT Game Changers Championship ",
@@ -313,7 +313,7 @@
     "closed": true
    },
    {
-    "t": "Valorant: Shopify Rebellion Gold vs KRÜ Blaze (BO3) - VCT Game Changer",
+    "t": "Valorant: NRG vs Fnatic (BO5)",
     "closed": true
    }
   ],
@@ -363,19 +363,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 770,
- "markets": 1044,
- "markets_dropped_by_volume_floor": 9669,
- "day_file": "data/2026/10/2026-10-28T21.jsonl",
+ "events": 769,
+ "markets": 1058,
+ "markets_dropped_by_volume_floor": 9762,
+ "day_file": "data/2026/10/2026-10-28T22.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
- "trades_watchlist_markets": 91,
- "trades_collected": 4495,
- "anomalies_detected": 83,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 133,
- "books_rows": 226,
+ "trades_watchlist_markets": 63,
+ "trades_collected": 5184,
+ "anomalies_detected": 101,
+ "anomalies_new": 98,
+ "history_debug": [
+  {
+   "cid": "0xdc87ad25",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 134,
+ "books_rows": 230,
  "status": "ok"
 }
