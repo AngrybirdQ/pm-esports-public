@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-28T17:16:31Z",
+ "ts": "2026-10-28T17:20:45Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 33,
+   "events_returned": 32,
    "err": null
   },
   {
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "trades 0x92375f81: HTTPError: HTTP Error 429: Too Many Requests"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -250,7 +248,7 @@
    },
    {
     "t": "Dota 2: angry birds vs Level Up Academy (BO3) - Esports Pro Circuit  G",
-    "closed": false
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -366,26 +364,28 @@
  },
  "n_event_queries": 24,
  "events": 773,
- "markets": 915,
- "markets_dropped_by_volume_floor": 9335,
+ "markets": 909,
+ "markets_dropped_by_volume_floor": 9339,
  "day_file": "data/2026/10/2026-10-28T17.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 87,
- "trades_collected": 4155,
- "anomalies_detected": 61,
- "anomalies_new": 2,
+ "trades_collected": 4112,
+ "anomalies_detected": 41,
+ "anomalies_new": 4,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "3576726397: HTTPError: HTTP Error 404: Not Found",
-  "4214680749: HTTPError: HTTP Error 404: Not Found",
-  "4354684505: HTTPError: HTTP Error 404: Not Found",
-  "9131060593: HTTPError: HTTP Error 404: Not Found",
-  "1115709960: HTTPError: HTTP Error 404: Not Found",
-  "3108361269: HTTPError: HTTP Error 404: Not Found"
+  "3605293003: HTTPError: HTTP Error 404: Not Found",
+  "6548457903: HTTPError: HTTP Error 404: Not Found",
+  "5032016460: HTTPError: HTTP Error 404: Not Found",
+  "4479753268: HTTPError: HTTP Error 404: Not Found",
+  "1104739801: HTTPError: HTTP Error 404: Not Found",
+  "6138361506: HTTPError: HTTP Error 404: Not Found",
+  "1014935140: HTTPError: HTTP Error 404: Not Found",
+  "1813406679: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 165,
- "books_rows": 288,
+ "books_markets": 162,
+ "books_rows": 290,
  "status": "ok"
 }
