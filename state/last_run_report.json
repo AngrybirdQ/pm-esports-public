@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-28T15:47:00Z",
+ "ts": "2026-10-28T16:18:56Z",
  "sources": [
   {
    "url": "/tags",
@@ -159,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Counter-Strike: Liquid vs FURIA (BO3) - PGL Masters Bucharest Group St",
-   "Dota 2: Team Yandex vs Astra Invicta (BO3) - PARI Universe Playoffs"
+   "Dota 2: Team Yandex vs Astra Invicta (BO3) - PARI Universe Playoffs",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Yandex vs Astra Invicta (BO3) - PARI Universe Playoffs",
@@ -243,8 +243,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: BetBoom Team vs Astra Invicta (BO1) - PARI Universe Group B",
-    "closed": true
+    "t": "Dota 2: Team Spirit vs OG (BO3) - PARI Universe Playoffs",
+    "closed": false
    },
    {
     "t": "Dota 2: angry birds vs Level Up Academy (BO3) - Esports Pro Circuit  G",
@@ -364,18 +364,24 @@
  },
  "n_event_queries": 24,
  "events": 774,
- "markets": 923,
- "markets_dropped_by_volume_floor": 8891,
- "day_file": "data/2026/10/2026-10-28T15.jsonl",
+ "markets": 927,
+ "markets_dropped_by_volume_floor": 9119,
+ "day_file": "data/2026/10/2026-10-28T16.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
- "trades_watchlist_markets": 101,
- "trades_collected": 4192,
- "anomalies_detected": 79,
- "anomalies_new": 4,
+ "trades_watchlist_markets": 94,
+ "trades_collected": 3948,
+ "anomalies_detected": 56,
+ "anomalies_new": 22,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 159,
- "books_rows": 270,
+ "books_errors": [
+  "2518740062: HTTPError: HTTP Error 404: Not Found",
+  "9242212821: HTTPError: HTTP Error 404: Not Found",
+  "5194843360: HTTPError: HTTP Error 404: Not Found",
+  "9573479818: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 158,
+ "books_rows": 272,
  "status": "ok"
 }
