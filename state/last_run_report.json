@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-28T18:33:29Z",
+ "ts": "2026-10-28T19:09:19Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 32,
+   "events_returned": 31,
    "err": null
   },
   {
@@ -159,13 +159,13 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Counter-Strike: Spirit vs Natus Vincere (BO3) - PGL Masters Bucharest ",
-   "Dota 2: Team Yandex vs Astra Invicta (BO3) - PARI Universe Playoffs"
+   "Dota 2: Team Spirit vs OG (BO3) - PARI Universe Playoffs",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Team Yandex vs Astra Invicta (BO3) - PARI Universe Playoffs",
    "Dota 2: Team Spirit vs OG (BO3) - PARI Universe Playoffs",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -188,8 +188,8 @@
   ],
   "tag_slug=valorant": [
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team",
-   "VALORANT Offseason: primmie Next Team"
+   "Valorant: KRÜ Blaze vs Team Liquid Brazil (BO3) - VCT Game Changers Ch",
+   "Valorant: MIBR GC vs SK Nebula (BO3) - VCT Game Changers Championship "
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -236,7 +236,7 @@
    },
    {
     "t": "Dota 2: Team Yandex vs Astra Invicta (BO3) - PARI Universe Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Spirit vs OG (BO3) - PARI Universe Playoffs",
@@ -309,8 +309,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: A Team vs Octagonal Disposition Gaming (BO3) - VCT Threshold",
-    "closed": true
+    "t": "Valorant: KRÜ Blaze vs Team Liquid Brazil (BO3) - VCT Game Changers Ch",
+    "closed": false
    },
    {
     "t": "Valorant: MIBR GC vs SK Nebula (BO3) - VCT Game Changers Championship ",
@@ -364,18 +364,29 @@
  },
  "n_event_queries": 24,
  "events": 771,
- "markets": 944,
- "markets_dropped_by_volume_floor": 9628,
- "day_file": "data/2026/10/2026-10-28T18.jsonl",
+ "markets": 977,
+ "markets_dropped_by_volume_floor": 9622,
+ "day_file": "data/2026/10/2026-10-28T19.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
- "trades_watchlist_markets": 93,
- "trades_collected": 4247,
- "anomalies_detected": 67,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 176,
- "books_rows": 314,
+ "trades_watchlist_markets": 90,
+ "trades_collected": 3908,
+ "anomalies_detected": 69,
+ "anomalies_new": 61,
+ "history_debug": [
+  {
+   "cid": "0x746bfce9",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xefc708a7",
+   "pts": 0,
+   "variant": "none"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 179,
+ "books_rows": 310,
  "status": "ok"
 }
