@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-28T19:41:53Z",
+ "ts": "2026-10-28T19:47:47Z",
  "sources": [
   {
    "url": "/tags",
@@ -305,12 +305,12 @@
     "closed": false
    },
    {
-    "t": "Valorant: Any Questions Gaming vs Rare Atom (BO3) - VCT Threshold Chin",
-    "closed": true
-   },
-   {
     "t": "Valorant: MIBR GC vs SK Nebula (BO3) - VCT Game Changers Championship ",
     "closed": false
+   },
+   {
+    "t": "Valorant: Any Questions Gaming vs Rare Atom (BO3) - VCT Threshold Chin",
+    "closed": true
    },
    {
     "t": "Valorant: MIBR GC vs Gentle Mates GC (BO3) - VCT Game Changers Champio",
@@ -364,15 +364,15 @@
  },
  "n_event_queries": 24,
  "events": 769,
- "markets": 982,
- "markets_dropped_by_volume_floor": 9595,
+ "markets": 977,
+ "markets_dropped_by_volume_floor": 9566,
  "day_file": "data/2026/10/2026-10-28T19.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 90,
- "trades_collected": 3461,
- "anomalies_detected": 92,
- "anomalies_new": 17,
+ "trades_collected": 3481,
+ "anomalies_detected": 70,
+ "anomalies_new": 4,
  "history_debug": [
   {
    "cid": "0x6e13843d",
@@ -381,11 +381,7 @@
   }
  ],
  "history_conditions_new": 0,
- "books_errors": [
-  "5379238512: HTTPError: HTTP Error 404: Not Found",
-  "2819421795: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 176,
- "books_rows": 310,
+ "books_markets": 172,
+ "books_rows": 306,
  "status": "ok"
 }
