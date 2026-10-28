@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-28T10:46:47Z",
+ "ts": "2026-10-28T11:05:08Z",
  "sources": [
   {
    "url": "/tags",
@@ -231,12 +231,12 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: BetBoom Team vs LEGION (BO1) - PARI Universe Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: PARIVISION vs Team Liquid (BO3) - PARI Universe Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: BetBoom Team vs LEGION (BO1) - PARI Universe Group B",
+    "closed": true
    },
    {
     "t": "Dota 2: BetBoom Team vs Astra Invicta (BO1) - PARI Universe Group B",
@@ -364,22 +364,18 @@
  },
  "n_event_queries": 24,
  "events": 776,
- "markets": 848,
- "markets_dropped_by_volume_floor": 7266,
- "day_file": "data/2026/10/2026-10-28T10.jsonl",
+ "markets": 850,
+ "markets_dropped_by_volume_floor": 7313,
+ "day_file": "data/2026/10/2026-10-28T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 217,
- "trades_watchlist_markets": 86,
- "trades_collected": 2601,
- "anomalies_detected": 51,
- "anomalies_new": 10,
+ "trades_markets_queried": 218,
+ "trades_watchlist_markets": 87,
+ "trades_collected": 2911,
+ "anomalies_detected": 50,
+ "anomalies_new": 50,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "9888874687: HTTPError: HTTP Error 404: Not Found",
-  "4031737657: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 132,
- "books_rows": 244,
+ "books_markets": 130,
+ "books_rows": 240,
  "status": "ok"
 }
