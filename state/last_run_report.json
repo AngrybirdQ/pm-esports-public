@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-28T20:59:46Z",
+ "ts": "2026-10-28T21:18:58Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 30,
+   "events_returned": 29,
    "err": null
   },
   {
@@ -159,12 +159,12 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Dota 2: Team Spirit vs OG (BO3) - PARI Universe Playoffs",
-   "LoL: Movistar KOI vs T1 (BO3) - Worlds Group Stage"
+   "LoL: Movistar KOI vs T1 (BO3) - Worlds Group Stage",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Team Spirit vs OG (BO3) - PARI Universe Playoffs",
    "Dota 2: GamerLegion vs LEGION (BO3) - PARI Universe Playoffs",
+   "Dota 2: Rottweilas Latam vs Level Up Academy (BO3) - Esports Pro Circu",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
@@ -236,7 +236,7 @@
    },
    {
     "t": "Dota 2: Team Spirit vs OG (BO3) - PARI Universe Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Yandex vs Astra Invicta (BO3) - PARI Universe Playoffs",
@@ -301,15 +301,15 @@
     "closed": false
    },
    {
-    "t": "Valorant: Shopify Rebellion Gold vs KRÜ Blaze (BO3) - VCT Game Changer",
-    "closed": true
-   },
-   {
     "t": "Valorant: MIBR GC vs SK Nebula (BO3) - VCT Game Changers Championship ",
     "closed": true
    },
    {
     "t": "Valorant: Any Questions Gaming vs Rare Atom (BO3) - VCT Threshold Chin",
+    "closed": true
+   },
+   {
+    "t": "Valorant: Shopify Rebellion Gold vs KRÜ Blaze (BO3) - VCT Game Changer",
     "closed": true
    },
    {
@@ -364,22 +364,30 @@
  },
  "n_event_queries": 24,
  "events": 770,
- "markets": 1045,
- "markets_dropped_by_volume_floor": 9694,
- "day_file": "data/2026/10/2026-10-28T20.jsonl",
+ "markets": 1046,
+ "markets_dropped_by_volume_floor": 9676,
+ "day_file": "data/2026/10/2026-10-28T21.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
- "trades_watchlist_markets": 92,
- "trades_collected": 4638,
- "anomalies_detected": 101,
- "anomalies_new": 92,
+ "trades_watchlist_markets": 91,
+ "trades_collected": 4749,
+ "anomalies_detected": 85,
+ "anomalies_new": 85,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "5198499904: HTTPError: HTTP Error 404: Not Found",
-  "1551516751: HTTPError: HTTP Error 404: Not Found"
+  "8164164100: HTTPError: HTTP Error 404: Not Found",
+  "2545024231: HTTPError: HTTP Error 404: Not Found",
+  "2746052046: HTTPError: HTTP Error 404: Not Found",
+  "7822282340: HTTPError: HTTP Error 404: Not Found",
+  "5745099971: HTTPError: HTTP Error 404: Not Found",
+  "3678531159: HTTPError: HTTP Error 404: Not Found",
+  "6743092636: HTTPError: HTTP Error 404: Not Found",
+  "5032636584: HTTPError: HTTP Error 404: Not Found",
+  "9524357018: HTTPError: HTTP Error 404: Not Found",
+  "1115544480: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 139,
- "books_rows": 238,
+ "books_markets": 136,
+ "books_rows": 240,
  "status": "ok"
 }
