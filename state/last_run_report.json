@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-28T10:42:46Z",
+ "ts": "2026-10-28T10:46:47Z",
  "sources": [
   {
    "url": "/tags",
@@ -235,12 +235,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: BetBoom Team vs Astra Invicta (BO1) - PARI Universe Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: PARIVISION vs Team Liquid (BO3) - PARI Universe Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: BetBoom Team vs Astra Invicta (BO1) - PARI Universe Group B",
+    "closed": true
    },
    {
     "t": "Dota 2: Astra Invicta vs LEGION (BO1) - PARI Universe Group B",
@@ -370,12 +370,16 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 217,
  "trades_watchlist_markets": 86,
- "trades_collected": 2590,
- "anomalies_detected": 3,
- "anomalies_new": 1,
+ "trades_collected": 2601,
+ "anomalies_detected": 51,
+ "anomalies_new": 10,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "9888874687: HTTPError: HTTP Error 404: Not Found",
+  "4031737657: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 132,
- "books_rows": 246,
+ "books_rows": 244,
  "status": "ok"
 }
