@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-28T09:05:23Z",
+ "ts": "2026-10-28T10:01:39Z",
  "sources": [
   {
    "url": "/tags",
@@ -160,11 +160,11 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
+   "Counter-Strike: B8 vs Alliance (BO3) - Tesla Cup Group A"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
    "Dota 2: PARIVISION vs Team Liquid (BO3) - PARI Universe Playoffs",
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
    "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
@@ -239,15 +239,15 @@
     "closed": true
    },
    {
+    "t": "Dota 2: PARIVISION vs Team Liquid (BO3) - PARI Universe Playoffs",
+    "closed": false
+   },
+   {
     "t": "Dota 2: Astra Invicta vs LEGION (BO1) - PARI Universe Group B",
     "closed": true
    },
    {
     "t": "Dota 2: No Hoodwink vs Mena Warriors (BO3) - Esports Pro Circuit  Grou",
-    "closed": true
-   },
-   {
-    "t": "Dota 2: oveA vs Zero Tenacity (BO3) - Esports Pro Circuit  Group A",
     "closed": true
    }
   ],
@@ -363,19 +363,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 775,
- "markets": 838,
- "markets_dropped_by_volume_floor": 7183,
- "day_file": "data/2026/10/2026-10-28T09.jsonl",
+ "events": 776,
+ "markets": 840,
+ "markets_dropped_by_volume_floor": 7259,
+ "day_file": "data/2026/10/2026-10-28T10.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 189,
- "trades_watchlist_markets": 79,
- "trades_collected": 2061,
- "anomalies_detected": 29,
- "anomalies_new": 24,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 127,
- "books_rows": 236,
+ "trades_markets_queried": 206,
+ "trades_watchlist_markets": 86,
+ "trades_collected": 2157,
+ "anomalies_detected": 38,
+ "anomalies_new": 36,
+ "history_debug": [
+  {
+   "cid": "0x5f3fb5e9",
+   "pts": 6,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 129,
+ "books_rows": 244,
  "status": "ok"
 }
