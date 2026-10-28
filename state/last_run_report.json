@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-28T10:11:53Z",
+ "ts": "2026-10-28T10:14:48Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,7 +151,12 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "trades 0x6bc2cd94: HTTPError: HTTP Error 429: Too Many Requests",
+  "trades 0x9627e283: HTTPError: HTTP Error 429: Too Many Requests",
+  "trades 0x6bbbb712: HTTPError: HTTP Error 429: Too Many Requests",
+  "trades 0x0687236d: HTTPError: HTTP Error 429: Too Many Requests"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -160,7 +165,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Counter-Strike: B8 vs Alliance (BO3) - Tesla Cup Group A"
+   "Dota 2: PARIVISION vs Team Liquid (BO3) - PARI Universe Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: PARIVISION vs Team Liquid (BO3) - PARI Universe Playoffs",
@@ -364,17 +369,23 @@
  },
  "n_event_queries": 24,
  "events": 776,
- "markets": 833,
- "markets_dropped_by_volume_floor": 7266,
+ "markets": 835,
+ "markets_dropped_by_volume_floor": 7272,
  "day_file": "data/2026/10/2026-10-28T10.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 209,
+ "trades_markets_queried": 210,
  "trades_watchlist_markets": 86,
- "trades_collected": 2299,
- "anomalies_detected": 47,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_collected": 2442,
+ "anomalies_detected": 32,
+ "anomalies_new": 10,
+ "history_debug": [
+  {
+   "cid": "0x3a309e07",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 131,
  "books_rows": 244,
  "status": "ok"
