@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T01:00:48Z",
+ "ts": "2026-10-29T01:33:00Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 55,
+   "events_returned": 54,
    "err": null
   },
   {
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 159,
+   "events_returned": 164,
    "err": null
   },
   {
@@ -160,7 +160,7 @@
   "tag_slug=esports": [
    "LoL: Invictus Gaming vs LYON (BO3) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "LoL: Movistar KOI vs T1 (BO3) - Worlds Group Stage"
+   "Dota 2: GamerLegion vs LEGION (BO3) - PARI Universe Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: GamerLegion vs LEGION (BO3) - PARI Universe Playoffs",
@@ -179,7 +179,7 @@
   "tag_slug=league-of-legends": [
    "LoL: Invictus Gaming vs LYON (BO3) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "LoL: Movistar KOI vs T1 (BO3) - Worlds Group Stage"
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -189,7 +189,7 @@
   "tag_slug=valorant": [
    "VALORANT Offseason: OXY Next Team",
    "VALORANT Offseason: zekken Next Team",
-   "VALORANT Offseason: primmie Next Team"
+   "VALORANT Offseason: Derke Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -363,25 +363,29 @@
   ]
  },
  "n_event_queries": 24,
- "events": 773,
- "markets": 1367,
- "markets_dropped_by_volume_floor": 9452,
+ "events": 778,
+ "markets": 1352,
+ "markets_dropped_by_volume_floor": 9121,
  "day_file": "data/2026/10/2026-10-29T01.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
- "trades_watchlist_markets": 50,
- "trades_collected": 5977,
- "anomalies_detected": 34,
- "anomalies_new": 14,
+ "trades_watchlist_markets": 44,
+ "trades_collected": 7923,
+ "anomalies_detected": 544,
+ "anomalies_new": 532,
  "history_debug": [
   {
    "cid": "0xdefa27b3",
-   "pts": 0,
-   "variant": "none"
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 0,
- "books_markets": 234,
- "books_rows": 308,
+ "history_conditions_new": 1,
+ "books_errors": [
+  "1306942859: HTTPError: HTTP Error 404: Not Found",
+  "7568305149: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 164,
+ "books_rows": 156,
  "status": "ok"
 }
