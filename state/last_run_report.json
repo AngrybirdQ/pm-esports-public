@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T15:28:40Z",
+ "ts": "2026-10-29T15:32:33Z",
  "sources": [
   {
    "url": "/tags",
@@ -238,7 +238,7 @@
    },
    {
     "t": "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Liquid vs Astra Invicta (BO3) - PARI Universe Playoffs",
@@ -368,18 +368,30 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 263,
  "trades_watchlist_markets": 138,
- "trades_collected": 3666,
- "anomalies_detected": 68,
- "anomalies_new": 40,
- "history_debug": [
-  {
-   "cid": "0xaee52d5f",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
+ "trades_collected": 3593,
+ "anomalies_detected": 51,
+ "anomalies_new": 51,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_errors": [
+  "6049171895: HTTPError: HTTP Error 404: Not Found",
+  "8928927971: HTTPError: HTTP Error 404: Not Found",
+  "1076502579: HTTPError: HTTP Error 404: Not Found",
+  "5673356555: HTTPError: HTTP Error 404: Not Found",
+  "9667480582: HTTPError: HTTP Error 404: Not Found",
+  "4315876339: HTTPError: HTTP Error 404: Not Found",
+  "1024946866: HTTPError: HTTP Error 404: Not Found",
+  "2420027855: HTTPError: HTTP Error 404: Not Found",
+  "3252256057: HTTPError: HTTP Error 404: Not Found",
+  "1043190933: HTTPError: HTTP Error 404: Not Found",
+  "4275302613: HTTPError: HTTP Error 404: Not Found",
+  "6998332685: HTTPError: HTTP Error 404: Not Found",
+  "4206614894: HTTPError: HTTP Error 404: Not Found",
+  "2523515844: HTTPError: HTTP Error 404: Not Found",
+  "5434612564: HTTPError: HTTP Error 404: Not Found",
+  "5043479598: HTTPError: HTTP Error 404: Not Found"
  ],
- "history_conditions_new": 1,
  "books_markets": 147,
- "books_rows": 226,
+ "books_rows": 224,
  "status": "ok"
 }
