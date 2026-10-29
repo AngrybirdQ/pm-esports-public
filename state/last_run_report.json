@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T21:33:46Z",
+ "ts": "2026-10-29T22:15:09Z",
  "sources": [
   {
    "url": "/tags",
@@ -303,15 +303,15 @@
     "closed": true
    },
    {
-    "t": "Valorant: KRÜ Blaze vs Team Liquid Brazil (BO3) - VCT Game Changers Ch",
-    "closed": true
-   },
-   {
     "t": "Valorant: NRG vs Fnatic (BO5)",
     "closed": true
    },
    {
     "t": "Valorant: Gentle Mates GC vs Shopify Rebellion Gold (BO3) - VCT Game C",
+    "closed": false
+   },
+   {
+    "t": "Valorant: A Team vs Nova Esports (BO3) - VCT Threshold China Week 2",
     "closed": false
    }
   ],
@@ -361,23 +361,30 @@
   ]
  },
  "n_event_queries": 24,
- "events": 778,
+ "events": 779,
  "markets": 756,
- "markets_dropped_by_volume_floor": 6842,
- "day_file": "data/2026/10/2026-10-29T21.jsonl",
+ "markets_dropped_by_volume_floor": 6817,
+ "day_file": "data/2026/10/2026-10-29T22.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 241,
- "trades_watchlist_markets": 78,
- "trades_collected": 2549,
- "anomalies_detected": 45,
- "anomalies_new": 9,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "9935187204: HTTPError: HTTP Error 404: Not Found",
-  "8026964746: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 243,
+ "trades_watchlist_markets": 76,
+ "trades_collected": 2409,
+ "anomalies_detected": 38,
+ "anomalies_new": 37,
+ "history_debug": [
+  {
+   "cid": "0x2ed08573",
+   "pts": 12,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xf684d2d1",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 154,
- "books_rows": 252,
+ "history_conditions_new": 2,
+ "books_markets": 165,
+ "books_rows": 274,
  "status": "ok"
 }
