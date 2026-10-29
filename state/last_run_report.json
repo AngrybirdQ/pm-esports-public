@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T19:33:57Z",
+ "ts": "2026-10-29T20:18:23Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 34,
+   "events_returned": 33,
    "err": null
   },
   {
@@ -151,7 +151,9 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "trades 0x1af865bc: HTTPError: HTTP Error 429: Too Many Requests"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -159,13 +161,13 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Dota 2: PARIVISION vs Team Yandex (BO3) - PARI Universe Playoffs",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: Karmine Corp vs CTBC Flying Oyster (BO3) - Worlds Group Stage"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: PARIVISION vs Team Yandex (BO3) - PARI Universe Playoffs",
    "Dota 2: OG vs GamerLegion (BO3) - PARI Universe Playoffs",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -245,8 +247,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs OG (BO3) - PARI Universe Playoffs",
-    "closed": true
+    "t": "Dota 2: OG vs GamerLegion (BO3) - PARI Universe Playoffs",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -295,10 +297,6 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: KRÜ Blaze vs Team Liquid Brazil (BO3) - VCT Game Changers Ch",
-    "closed": true
-   },
-   {
     "t": "Valorant: World Sports Invictus Gaming vs TEC Esports (BO3) - VCT Thre",
     "closed": true
    },
@@ -307,12 +305,16 @@
     "closed": true
    },
    {
+    "t": "Valorant: KRÜ Blaze vs Team Liquid Brazil (BO3) - VCT Game Changers Ch",
+    "closed": true
+   },
+   {
     "t": "Valorant: NRG vs Fnatic (BO5)",
     "closed": true
    },
    {
-    "t": "Valorant: MIBR GC vs SK Nebula (BO3) - VCT Game Changers Championship ",
-    "closed": true
+    "t": "Valorant: Gentle Mates GC vs Shopify Rebellion Gold (BO3) - VCT Game C",
+    "closed": false
    }
   ],
   "search:NBA": [
@@ -362,18 +364,44 @@
  },
  "n_event_queries": 24,
  "events": 771,
- "markets": 736,
- "markets_dropped_by_volume_floor": 6622,
- "day_file": "data/2026/10/2026-10-29T19.jsonl",
+ "markets": 738,
+ "markets_dropped_by_volume_floor": 6674,
+ "day_file": "data/2026/10/2026-10-29T20.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 243,
- "trades_watchlist_markets": 92,
- "trades_collected": 1365,
- "anomalies_detected": 90,
- "anomalies_new": 8,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 144,
- "books_rows": 252,
+ "trades_markets_queried": 244,
+ "trades_watchlist_markets": 85,
+ "trades_collected": 2579,
+ "anomalies_detected": 125,
+ "anomalies_new": 125,
+ "history_debug": [
+  {
+   "cid": "0x7ce4fafd",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x977b63d6",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x2a40e0cc",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xf7b61dc7",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xd54ab598",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 5,
+ "books_markets": 152,
+ "books_rows": 254,
  "status": "ok"
 }
