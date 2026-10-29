@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T12:55:02Z",
+ "ts": "2026-10-29T13:13:57Z",
  "sources": [
   {
    "url": "/tags",
@@ -69,7 +69,7 @@
   {
    "url": "tag_slug=starcraft-2",
    "ok": true,
-   "events_returned": 3,
+   "events_returned": 2,
    "err": null
   },
   {
@@ -189,10 +189,9 @@
   "tag_slug=valorant": [
    "VALORANT Offseason: OXY Next Team",
    "VALORANT Offseason: zekken Next Team",
-   "VALORANT Offseason: primmie Next Team"
+   "Valorant: World Sports Invictus Gaming vs TEC Esports (BO3) - VCT Thre"
   ],
   "tag_slug=starcraft-2": [
-   "StarCraft II: Clem vs Classic (BO3) - IntoTheTV x SOOP SC2 League Prem",
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
    "StarCraft II: GuMiHo vs Classic (BO3) - IntoTheTV x SOOP SC2 League Pr"
   ],
@@ -363,23 +362,33 @@
   ]
  },
  "n_event_queries": 24,
- "events": 769,
- "markets": 756,
- "markets_dropped_by_volume_floor": 5549,
- "day_file": "data/2026/10/2026-10-29T12.jsonl",
+ "events": 768,
+ "markets": 761,
+ "markets_dropped_by_volume_floor": 5824,
+ "day_file": "data/2026/10/2026-10-29T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 231,
- "trades_watchlist_markets": 116,
- "trades_collected": 4029,
- "anomalies_detected": 10,
- "anomalies_new": 10,
+ "trades_markets_queried": 228,
+ "trades_watchlist_markets": 136,
+ "trades_collected": 4116,
+ "anomalies_detected": 70,
+ "anomalies_new": 38,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "7588390792: HTTPError: HTTP Error 404: Not Found",
-  "1752317385: HTTPError: HTTP Error 404: Not Found"
+  "2819942314: HTTPError: HTTP Error 404: Not Found",
+  "4055274546: HTTPError: HTTP Error 404: Not Found",
+  "8744439860: HTTPError: HTTP Error 404: Not Found",
+  "1079144154: HTTPError: HTTP Error 404: Not Found",
+  "1282318348: HTTPError: HTTP Error 404: Not Found",
+  "1035178653: HTTPError: HTTP Error 404: Not Found",
+  "1028973135: HTTPError: HTTP Error 404: Not Found",
+  "3776986374: HTTPError: HTTP Error 404: Not Found",
+  "6464832963: HTTPError: HTTP Error 404: Not Found",
+  "4442062545: HTTPError: HTTP Error 404: Not Found",
+  "1067426119: HTTPError: HTTP Error 404: Not Found",
+  "6622151605: HTTPError: HTTP Error 404: Not Found"
  ],
  "books_markets": 121,
- "books_rows": 186,
+ "books_rows": 184,
  "status": "ok"
 }
