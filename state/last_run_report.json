@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T20:59:06Z",
+ "ts": "2026-10-29T21:19:48Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,7 +151,10 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "trades 0x0f038acf: HTTPError: HTTP Error 429: Too Many Requests",
+  "trades 0x9b7f371c: HTTPError: HTTP Error 429: Too Many Requests"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -361,25 +364,41 @@
   ]
  },
  "n_event_queries": 24,
- "events": 774,
- "markets": 745,
- "markets_dropped_by_volume_floor": 6802,
- "day_file": "data/2026/10/2026-10-29T20.jsonl",
+ "events": 776,
+ "markets": 754,
+ "markets_dropped_by_volume_floor": 6829,
+ "day_file": "data/2026/10/2026-10-29T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 245,
- "trades_watchlist_markets": 85,
- "trades_collected": 2491,
- "anomalies_detected": 73,
- "anomalies_new": 71,
+ "trades_markets_queried": 239,
+ "trades_watchlist_markets": 78,
+ "trades_collected": 2574,
+ "anomalies_detected": 64,
+ "anomalies_new": 29,
  "history_debug": [
   {
+   "cid": "0xa6674323",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xe87d320b",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
    "cid": "0x81329177",
-   "pts": 0,
-   "variant": "none"
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 0,
- "books_markets": 150,
- "books_rows": 254,
+ "history_conditions_new": 3,
+ "books_errors": [
+  "1070890613: HTTPError: HTTP Error 404: Not Found",
+  "3568985209: HTTPError: HTTP Error 404: Not Found",
+  "7539168306: HTTPError: HTTP Error 404: Not Found",
+  "1371599493: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 153,
+ "books_rows": 248,
  "status": "ok"
 }
