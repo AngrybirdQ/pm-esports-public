@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T10:21:10Z",
+ "ts": "2026-10-29T10:25:21Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 162,
+   "events_returned": 161,
    "err": null
   },
   {
@@ -188,8 +188,8 @@
   ],
   "tag_slug=valorant": [
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team",
-   "VALORANT Offseason: primmie Next Team"
+   "Valorant: KeepBest Gaming vs Unsettled Resentment (BO3) - VCT Threshol",
+   "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: SHIN vs GuMiHo (BO3) - IntoTheTV x SOOP SC2 League Premi",
@@ -199,12 +199,12 @@
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Lakers vs. Clippers"
+   "Spurs vs. Jazz"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Lakers vs. Clippers"
+   "Spurs vs. Jazz"
   ],
   "tag_slug=international-affairs": [
    "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
@@ -364,15 +364,15 @@
  },
  "n_event_queries": 24,
  "events": 770,
- "markets": 732,
- "markets_dropped_by_volume_floor": 5600,
+ "markets": 737,
+ "markets_dropped_by_volume_floor": 5602,
  "day_file": "data/2026/10/2026-10-29T10.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 178,
  "trades_watchlist_markets": 84,
- "trades_collected": 2809,
- "anomalies_detected": 40,
- "anomalies_new": 24,
+ "trades_collected": 2796,
+ "anomalies_detected": 44,
+ "anomalies_new": 28,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 105,
