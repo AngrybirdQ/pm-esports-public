@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T19:23:52Z",
+ "ts": "2026-10-29T19:28:58Z",
  "sources": [
   {
    "url": "/tags",
@@ -164,8 +164,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: PARIVISION vs Team Yandex (BO3) - PARI Universe Playoffs",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: OG vs GamerLegion (BO3) - PARI Universe Playoffs",
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -362,22 +362,18 @@
  },
  "n_event_queries": 24,
  "events": 771,
- "markets": 737,
- "markets_dropped_by_volume_floor": 6627,
+ "markets": 736,
+ "markets_dropped_by_volume_floor": 6622,
  "day_file": "data/2026/10/2026-10-29T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 244,
+ "trades_markets_queried": 243,
  "trades_watchlist_markets": 92,
- "trades_collected": 1430,
- "anomalies_detected": 72,
- "anomalies_new": 72,
+ "trades_collected": 1244,
+ "anomalies_detected": 82,
+ "anomalies_new": 82,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "2218245523: HTTPError: HTTP Error 404: Not Found",
-  "3449465024: HTTPError: HTTP Error 404: Not Found"
- ],
  "books_markets": 144,
- "books_rows": 252,
+ "books_rows": 254,
  "status": "ok"
 }
