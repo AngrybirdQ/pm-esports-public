@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T16:30:53Z",
+ "ts": "2026-10-29T16:35:27Z",
  "sources": [
   {
    "url": "/tags",
@@ -152,7 +152,7 @@
   }
  ],
  "errors": [
-  "trades 0xef9cf52f: HTTPError: HTTP Error 429: Too Many Requests"
+  "trades 0xadf5ef59: HTTPError: HTTP Error 429: Too Many Requests"
  ],
  "stage": "all",
  "tags_discovered": [
@@ -365,16 +365,20 @@
  "n_event_queries": 24,
  "events": 773,
  "markets": 763,
- "markets_dropped_by_volume_floor": 6082,
+ "markets_dropped_by_volume_floor": 6089,
  "day_file": "data/2026/10/2026-10-29T16.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 251,
  "trades_watchlist_markets": 120,
- "trades_collected": 3466,
- "anomalies_detected": 29,
- "anomalies_new": 29,
+ "trades_collected": 3459,
+ "anomalies_detected": 42,
+ "anomalies_new": 26,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "1410207194: HTTPError: HTTP Error 404: Not Found",
+  "2005669363: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 140,
  "books_rows": 238,
  "status": "ok"
