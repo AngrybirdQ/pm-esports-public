@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T16:26:36Z",
+ "ts": "2026-10-29T16:30:53Z",
  "sources": [
   {
    "url": "/tags",
@@ -152,8 +152,7 @@
   }
  ],
  "errors": [
-  "trades 0x2e2b6b59: HTTPError: HTTP Error 429: Too Many Requests",
-  "trades 0xe557e888: HTTPError: HTTP Error 429: Too Many Requests"
+  "trades 0xef9cf52f: HTTPError: HTTP Error 429: Too Many Requests"
  ],
  "stage": "all",
  "tags_discovered": [
@@ -371,12 +370,12 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 251,
  "trades_watchlist_markets": 120,
- "trades_collected": 3430,
+ "trades_collected": 3466,
  "anomalies_detected": 29,
- "anomalies_new": 11,
+ "anomalies_new": 29,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 140,
- "books_rows": 240,
+ "books_rows": 238,
  "status": "ok"
 }
