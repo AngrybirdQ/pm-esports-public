@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-28T23:27:04Z",
+ "ts": "2026-10-29T00:25:33Z",
  "sources": [
   {
    "url": "/tags",
@@ -158,14 +158,14 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
+   "LoL: Invictus Gaming vs LYON (BO3) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "LoL: Movistar KOI vs T1 (BO3) - Worlds Group Stage",
-   "LoL: Invictus Gaming vs LYON (BO3) - Worlds Group Stage"
+   "LoL: Movistar KOI vs T1 (BO3) - Worlds Group Stage"
   ],
   "tag_slug=dota-2": [
    "Dota 2: GamerLegion vs LEGION (BO3) - PARI Universe Playoffs",
-   "Dota 2: Rottweilas Latam vs Level Up Academy (BO3) - Esports Pro Circu",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -177,9 +177,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
+   "LoL: Invictus Gaming vs LYON (BO3) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "LoL: Movistar KOI vs T1 (BO3) - Worlds Group Stage",
-   "LoL: Invictus Gaming vs LYON (BO3) - Worlds Group Stage"
+   "LoL: Movistar KOI vs T1 (BO3) - Worlds Group Stage"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -248,7 +248,7 @@
    },
    {
     "t": "Dota 2: Rottweilas Latam vs Level Up Academy (BO3) - Esports Pro Circu",
-    "closed": false
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -363,19 +363,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 773,
- "markets": 1193,
- "markets_dropped_by_volume_floor": 9752,
- "day_file": "data/2026/10/2026-10-28T23.jsonl",
- "retention_removed_files": 0,
+ "events": 774,
+ "markets": 1312,
+ "markets_dropped_by_volume_floor": 9572,
+ "day_file": "data/2026/10/2026-10-29T00.jsonl",
+ "retention_removed_files": 103,
  "trades_markets_queried": 270,
- "trades_watchlist_markets": 55,
- "trades_collected": 5908,
- "anomalies_detected": 121,
- "anomalies_new": 45,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 166,
- "books_rows": 254,
+ "trades_watchlist_markets": 50,
+ "trades_collected": 6391,
+ "anomalies_detected": 369,
+ "anomalies_new": 366,
+ "history_debug": [
+  {
+   "cid": "0x144cb7e4",
+   "pts": 30,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 237,
+ "books_rows": 329,
  "status": "ok"
 }
