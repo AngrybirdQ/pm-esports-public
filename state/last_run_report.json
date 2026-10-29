@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T20:18:23Z",
+ "ts": "2026-10-29T20:23:13Z",
  "sources": [
   {
    "url": "/tags",
@@ -152,7 +152,7 @@
   }
  ],
  "errors": [
-  "trades 0x1af865bc: HTTPError: HTTP Error 429: Too Many Requests"
+  "trades 0xf069b6f2: HTTPError: HTTP Error 429: Too Many Requests"
  ],
  "stage": "all",
  "tags_discovered": [
@@ -370,37 +370,15 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 244,
  "trades_watchlist_markets": 85,
- "trades_collected": 2579,
- "anomalies_detected": 125,
- "anomalies_new": 125,
- "history_debug": [
-  {
-   "cid": "0x7ce4fafd",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x977b63d6",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x2a40e0cc",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xf7b61dc7",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xd54ab598",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  }
+ "trades_collected": 2658,
+ "anomalies_detected": 126,
+ "anomalies_new": 4,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_errors": [
+  "4644907760: HTTPError: HTTP Error 404: Not Found",
+  "6086472474: HTTPError: HTTP Error 404: Not Found"
  ],
- "history_conditions_new": 5,
  "books_markets": 152,
  "books_rows": 254,
  "status": "ok"
