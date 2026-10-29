@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T18:36:41Z",
+ "ts": "2026-10-29T18:40:51Z",
  "sources": [
   {
    "url": "/tags",
@@ -233,11 +233,11 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Team Spirit vs OG (BO3) - PARI Universe Playoffs",
+    "t": "Dota 2: GamerLegion vs LEGION (BO3) - PARI Universe Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: GamerLegion vs LEGION (BO3) - PARI Universe Playoffs",
+    "t": "Dota 2: Team Spirit vs OG (BO3) - PARI Universe Playoffs",
     "closed": true
    },
    {
@@ -363,17 +363,23 @@
  "n_event_queries": 24,
  "events": 772,
  "markets": 769,
- "markets_dropped_by_volume_floor": 6559,
+ "markets_dropped_by_volume_floor": 6563,
  "day_file": "data/2026/10/2026-10-29T18.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 258,
  "trades_watchlist_markets": 103,
- "trades_collected": 3078,
- "anomalies_detected": 139,
- "anomalies_new": 71,
+ "trades_collected": 2798,
+ "anomalies_detected": 145,
+ "anomalies_new": 75,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "9700927095: HTTPError: HTTP Error 404: Not Found",
+  "4662947388: HTTPError: HTTP Error 404: Not Found",
+  "7489222943: HTTPError: HTTP Error 404: Not Found",
+  "6963505977: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 151,
- "books_rows": 252,
+ "books_rows": 248,
  "status": "ok"
 }
