@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T13:28:41Z",
+ "ts": "2026-10-29T13:32:00Z",
  "sources": [
   {
    "url": "/tags",
@@ -69,7 +69,7 @@
   {
    "url": "tag_slug=starcraft-2",
    "ok": true,
-   "events_returned": 2,
+   "events_returned": 3,
    "err": null
   },
   {
@@ -193,6 +193,7 @@
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
+   "StarCraft II: Clem vs Classic (BO5) - IntoTheTV x SOOP SC2 League Prem",
    "StarCraft II: GuMiHo vs Classic (BO3) - IntoTheTV x SOOP SC2 League Pr"
   ],
   "tag_slug=nba": [
@@ -362,19 +363,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 768,
- "markets": 763,
- "markets_dropped_by_volume_floor": 5820,
+ "events": 769,
+ "markets": 759,
+ "markets_dropped_by_volume_floor": 5827,
  "day_file": "data/2026/10/2026-10-29T13.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 231,
  "trades_watchlist_markets": 136,
- "trades_collected": 3759,
+ "trades_collected": 3746,
  "anomalies_detected": 68,
- "anomalies_new": 28,
+ "anomalies_new": 68,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 118,
- "books_rows": 180,
+ "books_markets": 116,
+ "books_rows": 178,
  "status": "ok"
 }
