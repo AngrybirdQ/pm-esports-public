@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T20:50:13Z",
+ "ts": "2026-10-29T20:59:06Z",
  "sources": [
   {
    "url": "/tags",
@@ -237,11 +237,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: GamerLegion vs LEGION (BO3) - PARI Universe Playoffs",
+    "t": "Dota 2: Team Liquid vs Astra Invicta (BO3) - PARI Universe Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Liquid vs Astra Invicta (BO3) - PARI Universe Playoffs",
+    "t": "Dota 2: GamerLegion vs LEGION (BO3) - PARI Universe Playoffs",
     "closed": true
    },
    {
@@ -361,19 +361,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 771,
- "markets": 740,
- "markets_dropped_by_volume_floor": 6660,
+ "events": 774,
+ "markets": 745,
+ "markets_dropped_by_volume_floor": 6802,
  "day_file": "data/2026/10/2026-10-29T20.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 243,
+ "trades_markets_queried": 245,
  "trades_watchlist_markets": 85,
- "trades_collected": 2409,
- "anomalies_detected": 58,
- "anomalies_new": 0,
- "history_debug": [],
+ "trades_collected": 2491,
+ "anomalies_detected": 73,
+ "anomalies_new": 71,
+ "history_debug": [
+  {
+   "cid": "0x81329177",
+   "pts": 0,
+   "variant": "none"
+  }
+ ],
  "history_conditions_new": 0,
- "books_markets": 147,
- "books_rows": 250,
+ "books_markets": 150,
+ "books_rows": 254,
  "status": "ok"
 }
