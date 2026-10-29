@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T03:23:19Z",
+ "ts": "2026-10-29T08:00:02Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 32,
+   "events_returned": 31,
    "err": null
   },
   {
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 54,
+   "events_returned": 53,
    "err": null
   },
   {
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 156,
+   "events_returned": 164,
    "err": null
   },
   {
@@ -158,14 +158,14 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: Invictus Gaming vs LYON (BO3) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "Dota 2: GamerLegion vs LEGION (BO3) - PARI Universe Playoffs"
+   "Worlds 2026 Winning Region",
+   "Counter-Strike: FUT Esports vs Nemiga (BO3) - PGL Masters Bucharest Pl"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: GamerLegion vs LEGION (BO3) - PARI Universe Playoffs",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A",
+   "Dota 2: Stray Team vs Rostik Team (BO3) - BetBoom Streamers Battle Gro"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -177,9 +177,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: Invictus Gaming vs LYON (BO3) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -192,19 +192,19 @@
    "VALORANT Offseason: Derke Next Team"
   ],
   "tag_slug=starcraft-2": [
+   "StarCraft II: SHIN vs GuMiHo (BO3) - IntoTheTV x SOOP SC2 League Premi",
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
-   "StarCraft II: Clem vs Classic (BO3) - IntoTheTV x SOOP SC2 League Prem",
-   "StarCraft II: SHIN vs GuMiHo (BO3) - IntoTheTV x SOOP SC2 League Premi"
+   "StarCraft II: Clem vs Classic (BO3) - IntoTheTV x SOOP SC2 League Prem"
   ],
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Heat vs. Hawks"
+   "Thunder vs. Mavericks"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Heat vs. Hawks"
+   "Thunder vs. Mavericks"
   ],
   "tag_slug=international-affairs": [
    "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
@@ -244,7 +244,7 @@
    },
    {
     "t": "Dota 2: GamerLegion vs LEGION (BO3) - PARI Universe Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Rottweilas Latam vs Level Up Academy (BO3) - Esports Pro Circu",
@@ -313,8 +313,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: NRG vs Fnatic (BO5)",
-    "closed": true
+    "t": "Valorant: KeepBest Gaming vs Unsettled Resentment (BO3) - VCT Threshol",
+    "closed": false
    }
   ],
   "search:NBA": [
@@ -363,31 +363,55 @@
   ]
  },
  "n_event_queries": 24,
- "events": 768,
- "markets": 974,
- "markets_dropped_by_volume_floor": 6347,
- "day_file": "data/2026/10/2026-10-29T03.jsonl",
+ "events": 769,
+ "markets": 706,
+ "markets_dropped_by_volume_floor": 5422,
+ "day_file": "data/2026/10/2026-10-29T08.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 258,
- "trades_watchlist_markets": 61,
- "trades_collected": 6856,
+ "trades_markets_queried": 145,
+ "trades_watchlist_markets": 59,
+ "trades_collected": 1208,
  "anomalies_detected": 4,
  "anomalies_new": 4,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "4142481181: HTTPError: HTTP Error 404: Not Found",
-  "6170003963: HTTPError: HTTP Error 404: Not Found",
-  "8441106975: HTTPError: HTTP Error 404: Not Found",
-  "7706367629: HTTPError: HTTP Error 404: Not Found",
-  "2536303833: HTTPError: HTTP Error 404: Not Found",
-  "6287731359: HTTPError: HTTP Error 404: Not Found",
-  "1080838564: HTTPError: HTTP Error 404: Not Found",
-  "1136916318: HTTPError: HTTP Error 404: Not Found",
-  "8825125542: HTTPError: HTTP Error 404: Not Found",
-  "1051742826: HTTPError: HTTP Error 404: Not Found"
+ "history_debug": [
+  {
+   "cid": "0xc9db1e9f",
+   "pts": 9,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x0f91aab5",
+   "pts": 5,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x220b0bc9",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x1bf2daca",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xc7f58cb4",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x811a03ce",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xbaee73cd",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 129,
- "books_rows": 181,
+ "history_conditions_new": 7,
+ "books_markets": 84,
+ "books_rows": 164,
  "status": "ok"
 }
