@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T10:43:22Z",
+ "ts": "2026-10-29T11:04:55Z",
  "sources": [
   {
    "url": "/tags",
@@ -187,8 +187,8 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "VALORANT Offseason: OXY Next Team",
    "Valorant: KeepBest Gaming vs Unsettled Resentment (BO3) - VCT Threshol",
+   "VALORANT Offseason: OXY Next Team",
    "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
@@ -239,11 +239,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs Team Liquid (BO3) - PARI Universe Playoffs",
+    "t": "Dota 2: GamerLegion vs LEGION (BO3) - PARI Universe Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: GamerLegion vs LEGION (BO3) - PARI Universe Playoffs",
+    "t": "Dota 2: PARIVISION vs Team Liquid (BO3) - PARI Universe Playoffs",
     "closed": true
    },
    {
@@ -364,24 +364,22 @@
  },
  "n_event_queries": 24,
  "events": 770,
- "markets": 737,
- "markets_dropped_by_volume_floor": 5602,
- "day_file": "data/2026/10/2026-10-29T10.jsonl",
+ "markets": 732,
+ "markets_dropped_by_volume_floor": 5597,
+ "day_file": "data/2026/10/2026-10-29T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 177,
- "trades_watchlist_markets": 84,
- "trades_collected": 2905,
- "anomalies_detected": 8,
- "anomalies_new": 8,
+ "trades_markets_queried": 184,
+ "trades_watchlist_markets": 99,
+ "trades_collected": 3127,
+ "anomalies_detected": 45,
+ "anomalies_new": 21,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "1000773139: HTTPError: HTTP Error 404: Not Found",
-  "2157512586: HTTPError: HTTP Error 404: Not Found",
-  "9867828484: HTTPError: HTTP Error 404: Not Found",
-  "9255809176: HTTPError: HTTP Error 404: Not Found"
+  "9927317272: HTTPError: HTTP Error 404: Not Found",
+  "1828679155: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 101,
- "books_rows": 182,
+ "books_markets": 100,
+ "books_rows": 172,
  "status": "ok"
 }
