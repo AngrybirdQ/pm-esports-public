@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T14:45:01Z",
+ "ts": "2026-10-29T14:50:12Z",
  "sources": [
   {
    "url": "/tags",
@@ -69,7 +69,7 @@
   {
    "url": "tag_slug=starcraft-2",
    "ok": true,
-   "events_returned": 2,
+   "events_returned": 1,
    "err": null
   },
   {
@@ -192,8 +192,7 @@
    "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
-   "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
-   "StarCraft II: Clem vs Classic (BO5) - IntoTheTV x SOOP SC2 League Prem"
+   "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
   ],
   "tag_slug=nba": [
    "NBA: 2027 Champion",
@@ -362,19 +361,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 770,
+ "events": 769,
  "markets": 771,
- "markets_dropped_by_volume_floor": 5909,
+ "markets_dropped_by_volume_floor": 5911,
  "day_file": "data/2026/10/2026-10-29T14.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 248,
  "trades_watchlist_markets": 121,
- "trades_collected": 3818,
- "anomalies_detected": 48,
- "anomalies_new": 20,
+ "trades_collected": 3773,
+ "anomalies_detected": 66,
+ "anomalies_new": 30,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 148,
- "books_rows": 240,
+ "books_rows": 236,
  "status": "ok"
 }
