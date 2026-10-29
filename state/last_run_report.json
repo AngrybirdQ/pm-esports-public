@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T15:32:33Z",
+ "ts": "2026-10-29T16:16:09Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 34,
+   "events_returned": 33,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 41,
+   "events_returned": 40,
    "err": null
   },
   {
@@ -151,7 +151,10 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "trades 0x4bd804c2: HTTPError: HTTP Error 429: Too Many Requests",
+  "trades 0xe6f8d926: HTTPError: HTTP Error 429: Too Many Requests"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -159,13 +162,13 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Playoffs",
-   "Counter-Strike: Aurora Gaming vs MOUZ (BO3) - PGL Masters Bucharest Pl"
+   "Counter-Strike: BetBoom Team vs FURIA (BO3) - PGL Masters Bucharest Pl",
+   "Dota 2: PARIVISION vs Team Yandex (BO3) - PARI Universe Playoffs"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Playoffs",
    "Dota 2: PARIVISION vs Team Yandex (BO3) - PARI Universe Playoffs",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -187,9 +190,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: World Sports Invictus Gaming vs TEC Esports (BO3) - VCT Thre",
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team"
+   "VALORANT Offseason: zekken Next Team",
+   "VALORANT Offseason: primmie Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -245,8 +248,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Yandex vs Astra Invicta (BO3) - PARI Universe Playoffs",
-    "closed": true
+    "t": "Dota 2: PARIVISION vs Team Yandex (BO3) - PARI Universe Playoffs",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -300,7 +303,7 @@
    },
    {
     "t": "Valorant: World Sports Invictus Gaming vs TEC Esports (BO3) - VCT Thre",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: KeepBest Gaming vs Unsettled Resentment (BO3) - VCT Threshol",
@@ -361,37 +364,50 @@
   ]
  },
  "n_event_queries": 24,
- "events": 774,
- "markets": 771,
- "markets_dropped_by_volume_floor": 6024,
- "day_file": "data/2026/10/2026-10-29T15.jsonl",
+ "events": 773,
+ "markets": 762,
+ "markets_dropped_by_volume_floor": 6082,
+ "day_file": "data/2026/10/2026-10-29T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 263,
- "trades_watchlist_markets": 138,
- "trades_collected": 3593,
- "anomalies_detected": 51,
- "anomalies_new": 51,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "6049171895: HTTPError: HTTP Error 404: Not Found",
-  "8928927971: HTTPError: HTTP Error 404: Not Found",
-  "1076502579: HTTPError: HTTP Error 404: Not Found",
-  "5673356555: HTTPError: HTTP Error 404: Not Found",
-  "9667480582: HTTPError: HTTP Error 404: Not Found",
-  "4315876339: HTTPError: HTTP Error 404: Not Found",
-  "1024946866: HTTPError: HTTP Error 404: Not Found",
-  "2420027855: HTTPError: HTTP Error 404: Not Found",
-  "3252256057: HTTPError: HTTP Error 404: Not Found",
-  "1043190933: HTTPError: HTTP Error 404: Not Found",
-  "4275302613: HTTPError: HTTP Error 404: Not Found",
-  "6998332685: HTTPError: HTTP Error 404: Not Found",
-  "4206614894: HTTPError: HTTP Error 404: Not Found",
-  "2523515844: HTTPError: HTTP Error 404: Not Found",
-  "5434612564: HTTPError: HTTP Error 404: Not Found",
-  "5043479598: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 245,
+ "trades_watchlist_markets": 120,
+ "trades_collected": 3213,
+ "anomalies_detected": 27,
+ "anomalies_new": 27,
+ "history_debug": [
+  {
+   "cid": "0x2961049d",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xf069b6f2",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xe35775f1",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x138dca06",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 147,
- "books_rows": 224,
+ "history_conditions_new": 4,
+ "books_errors": [
+  "8607790759: HTTPError: HTTP Error 404: Not Found",
+  "2054363907: HTTPError: HTTP Error 404: Not Found",
+  "9778050156: HTTPError: HTTP Error 404: Not Found",
+  "6089578817: HTTPError: HTTP Error 404: Not Found",
+  "3775416923: HTTPError: HTTP Error 404: Not Found",
+  "5303409156: HTTPError: HTTP Error 404: Not Found",
+  "8188782672: HTTPError: HTTP Error 404: Not Found",
+  "1085350880: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 144,
+ "books_rows": 240,
  "status": "ok"
 }
