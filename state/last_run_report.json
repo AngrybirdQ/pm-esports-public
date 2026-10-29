@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T13:21:57Z",
+ "ts": "2026-10-29T13:25:12Z",
  "sources": [
   {
    "url": "/tags",
@@ -179,7 +179,7 @@
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
+   "LoL: Karmine Corp vs CTBC Flying Oyster (BO3) - Worlds Group Stage"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -363,18 +363,29 @@
  },
  "n_event_queries": 24,
  "events": 768,
- "markets": 755,
- "markets_dropped_by_volume_floor": 5819,
+ "markets": 763,
+ "markets_dropped_by_volume_floor": 5820,
  "day_file": "data/2026/10/2026-10-29T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 228,
+ "trades_markets_queried": 231,
  "trades_watchlist_markets": 136,
- "trades_collected": 4071,
- "anomalies_detected": 62,
- "anomalies_new": 32,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 115,
- "books_rows": 179,
+ "trades_collected": 4017,
+ "anomalies_detected": 68,
+ "anomalies_new": 36,
+ "history_debug": [
+  {
+   "cid": "0x8d6c239d",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xf26d2163",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_markets": 118,
+ "books_rows": 178,
  "status": "ok"
 }
