@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T11:04:55Z",
+ "ts": "2026-10-29T12:12:36Z",
  "sources": [
   {
    "url": "/tags",
@@ -159,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "Counter-Strike: Vitality vs Natus Vincere (BO3) - PGL Masters Buchares"
+   "Counter-Strike: Vitality vs Natus Vincere (BO3) - PGL Masters Buchares",
+   "Dota 2: Team Liquid vs Astra Invicta (BO3) - PARI Universe Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Liquid vs Astra Invicta (BO3) - PARI Universe Playoffs",
@@ -243,12 +243,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs Team Liquid (BO3) - PARI Universe Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Liquid vs Astra Invicta (BO3) - PARI Universe Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: PARIVISION vs Team Liquid (BO3) - PARI Universe Playoffs",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -363,23 +363,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 770,
- "markets": 732,
- "markets_dropped_by_volume_floor": 5597,
- "day_file": "data/2026/10/2026-10-29T11.jsonl",
+ "events": 769,
+ "markets": 755,
+ "markets_dropped_by_volume_floor": 5554,
+ "day_file": "data/2026/10/2026-10-29T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 184,
- "trades_watchlist_markets": 99,
- "trades_collected": 3127,
- "anomalies_detected": 45,
- "anomalies_new": 21,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "9927317272: HTTPError: HTTP Error 404: Not Found",
-  "1828679155: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 224,
+ "trades_watchlist_markets": 116,
+ "trades_collected": 4077,
+ "anomalies_detected": 52,
+ "anomalies_new": 52,
+ "history_debug": [
+  {
+   "cid": "0x086976bf",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 100,
- "books_rows": 172,
+ "history_conditions_new": 1,
+ "books_markets": 120,
+ "books_rows": 192,
  "status": "ok"
 }
