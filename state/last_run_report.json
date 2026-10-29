@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T17:32:28Z",
+ "ts": "2026-10-29T18:13:32Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 40,
+   "events_returned": 41,
    "err": null
   },
   {
@@ -159,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Counter-Strike: BetBoom Team vs FURIA (BO3) - PGL Masters Bucharest Pl",
-   "Dota 2: PARIVISION vs Team Yandex (BO3) - PARI Universe Playoffs"
+   "Dota 2: PARIVISION vs Team Yandex (BO3) - PARI Universe Playoffs",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: PARIVISION vs Team Yandex (BO3) - PARI Universe Playoffs",
@@ -229,12 +229,12 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Team Spirit vs OG (BO3) - PARI Universe Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: PARIVISION vs Team Yandex (BO3) - PARI Universe Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Spirit vs OG (BO3) - PARI Universe Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: GamerLegion vs LEGION (BO3) - PARI Universe Playoffs",
@@ -361,25 +361,35 @@
   ]
  },
  "n_event_queries": 24,
- "events": 773,
- "markets": 777,
- "markets_dropped_by_volume_floor": 6489,
- "day_file": "data/2026/10/2026-10-29T17.jsonl",
+ "events": 772,
+ "markets": 775,
+ "markets_dropped_by_volume_floor": 6574,
+ "day_file": "data/2026/10/2026-10-29T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 270,
- "trades_watchlist_markets": 113,
- "trades_collected": 4460,
- "anomalies_detected": 63,
- "anomalies_new": 63,
+ "trades_markets_queried": 259,
+ "trades_watchlist_markets": 103,
+ "trades_collected": 4125,
+ "anomalies_detected": 112,
+ "anomalies_new": 112,
  "history_debug": [
   {
-   "cid": "0x3ebb322a",
+   "cid": "0xcb03dbed",
    "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x3bdfd063",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x5c792a52",
+   "pts": 1,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 1,
- "books_markets": 156,
- "books_rows": 270,
+ "history_conditions_new": 3,
+ "books_markets": 154,
+ "books_rows": 260,
  "status": "ok"
 }
