@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T16:48:55Z",
+ "ts": "2026-10-29T17:11:05Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "trades 0x225148f1: HTTPError: HTTP Error 429: Too Many Requests"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -235,16 +233,16 @@
     "closed": true
    },
    {
+    "t": "Dota 2: PARIVISION vs Team Yandex (BO3) - PARI Universe Playoffs",
+    "closed": false
+   },
+   {
     "t": "Dota 2: GamerLegion vs LEGION (BO3) - PARI Universe Playoffs",
     "closed": true
    },
    {
     "t": "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Playoffs",
     "closed": true
-   },
-   {
-    "t": "Dota 2: PARIVISION vs Team Yandex (BO3) - PARI Universe Playoffs",
-    "closed": false
    },
    {
     "t": "Dota 2: Team Liquid vs Astra Invicta (BO3) - PARI Universe Playoffs",
@@ -364,30 +362,34 @@
  },
  "n_event_queries": 24,
  "events": 773,
- "markets": 767,
- "markets_dropped_by_volume_floor": 6093,
- "day_file": "data/2026/10/2026-10-29T16.jsonl",
+ "markets": 761,
+ "markets_dropped_by_volume_floor": 6527,
+ "day_file": "data/2026/10/2026-10-29T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 257,
- "trades_watchlist_markets": 120,
- "trades_collected": 3801,
- "anomalies_detected": 50,
- "anomalies_new": 22,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "9876282823: HTTPError: HTTP Error 404: Not Found",
-  "4985533783: HTTPError: HTTP Error 404: Not Found",
-  "9922403625: HTTPError: HTTP Error 404: Not Found",
-  "6134731253: HTTPError: HTTP Error 404: Not Found",
-  "6372555920: HTTPError: HTTP Error 404: Not Found",
-  "2498460028: HTTPError: HTTP Error 404: Not Found",
-  "6334766606: HTTPError: HTTP Error 404: Not Found",
-  "2258516019: HTTPError: HTTP Error 404: Not Found",
-  "8587500963: HTTPError: HTTP Error 404: Not Found",
-  "5800480773: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 264,
+ "trades_watchlist_markets": 113,
+ "trades_collected": 4351,
+ "anomalies_detected": 49,
+ "anomalies_new": 49,
+ "history_debug": [
+  {
+   "cid": "0x511474d9",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x337d85ad",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x444662a9",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 140,
- "books_rows": 236,
+ "history_conditions_new": 3,
+ "books_markets": 150,
+ "books_rows": 272,
  "status": "ok"
 }
