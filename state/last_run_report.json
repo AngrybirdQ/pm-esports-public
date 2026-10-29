@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T14:55:15Z",
+ "ts": "2026-10-29T15:16:07Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 30,
+   "events_returned": 34,
    "err": null
   },
   {
@@ -237,12 +237,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Liquid vs Astra Invicta (BO3) - PARI Universe Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Liquid vs Astra Invicta (BO3) - PARI Universe Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: Team Yandex vs Astra Invicta (BO3) - PARI Universe Playoffs",
@@ -299,12 +299,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: KeepBest Gaming vs Unsettled Resentment (BO3) - VCT Threshol",
-    "closed": true
-   },
-   {
     "t": "Valorant: World Sports Invictus Gaming vs TEC Esports (BO3) - VCT Thre",
     "closed": false
+   },
+   {
+    "t": "Valorant: KeepBest Gaming vs Unsettled Resentment (BO3) - VCT Threshol",
+    "closed": true
    },
    {
     "t": "Valorant: MIBR GC vs SK Nebula (BO3) - VCT Game Changers Championship ",
@@ -361,29 +361,51 @@
   ]
  },
  "n_event_queries": 24,
- "events": 769,
- "markets": 777,
- "markets_dropped_by_volume_floor": 5965,
- "day_file": "data/2026/10/2026-10-29T14.jsonl",
+ "events": 774,
+ "markets": 775,
+ "markets_dropped_by_volume_floor": 6015,
+ "day_file": "data/2026/10/2026-10-29T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 251,
- "trades_watchlist_markets": 121,
- "trades_collected": 3706,
- "anomalies_detected": 68,
- "anomalies_new": 28,
+ "trades_markets_queried": 261,
+ "trades_watchlist_markets": 138,
+ "trades_collected": 3522,
+ "anomalies_detected": 55,
+ "anomalies_new": 55,
  "history_debug": [
   {
-   "cid": "0xb3c03a1e",
+   "cid": "0xd7c84609",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x28a2d4df",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x20b756ba",
    "pts": 1,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 1,
+ "history_conditions_new": 3,
  "books_errors": [
-  "1774030020: HTTPError: HTTP Error 404: Not Found",
-  "1316137525: HTTPError: HTTP Error 404: Not Found"
+  "1102603781: HTTPError: HTTP Error 404: Not Found",
+  "7794382896: HTTPError: HTTP Error 404: Not Found",
+  "6933820498: HTTPError: HTTP Error 404: Not Found",
+  "3598325482: HTTPError: HTTP Error 404: Not Found",
+  "1029934267: HTTPError: HTTP Error 404: Not Found",
+  "1072717767: HTTPError: HTTP Error 404: Not Found",
+  "9026618783: HTTPError: HTTP Error 404: Not Found",
+  "6388291329: HTTPError: HTTP Error 404: Not Found",
+  "1063996966: HTTPError: HTTP Error 404: Not Found",
+  "7692752666: HTTPError: HTTP Error 404: Not Found",
+  "1138734295: HTTPError: HTTP Error 404: Not Found",
+  "5561647391: HTTPError: HTTP Error 404: Not Found",
+  "4550424904: HTTPError: HTTP Error 404: Not Found",
+  "1127268424: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 150,
- "books_rows": 236,
+ "books_markets": 151,
+ "books_rows": 224,
  "status": "ok"
 }
