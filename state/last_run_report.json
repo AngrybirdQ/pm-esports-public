@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T21:24:47Z",
+ "ts": "2026-10-29T21:29:25Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,7 +151,9 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "trades 0x4c9590ea: HTTPError: HTTP Error 429: Too Many Requests"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -241,12 +243,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: GamerLegion vs LEGION (BO3) - PARI Universe Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: OG vs GamerLegion (BO3) - PARI Universe Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: GamerLegion vs LEGION (BO3) - PARI Universe Playoffs",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -368,9 +370,9 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 242,
  "trades_watchlist_markets": 78,
- "trades_collected": 2578,
- "anomalies_detected": 58,
- "anomalies_new": 11,
+ "trades_collected": 2573,
+ "anomalies_detected": 57,
+ "anomalies_new": 56,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 154,
