@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T22:45:04Z",
+ "ts": "2026-10-29T22:54:37Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 34,
+   "events_returned": 33,
    "err": null
   },
   {
@@ -160,12 +160,12 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "LoL: Karmine Corp vs CTBC Flying Oyster (BO3) - Worlds Group Stage",
-   "Dota 2: OG vs GamerLegion (BO3) - PARI Universe Playoffs"
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: OG vs GamerLegion (BO3) - PARI Universe Playoffs",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A",
+   "Dota 2: Stray Team vs Rostik Team (BO3) - BetBoom Streamers Battle Gro"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -242,7 +242,7 @@
    },
    {
     "t": "Dota 2: OG vs GamerLegion (BO3) - PARI Universe Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: GamerLegion vs LEGION (BO3) - PARI Universe Playoffs",
@@ -361,25 +361,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 778,
- "markets": 788,
- "markets_dropped_by_volume_floor": 6778,
+ "events": 777,
+ "markets": 793,
+ "markets_dropped_by_volume_floor": 6774,
  "day_file": "data/2026/10/2026-10-29T22.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 250,
+ "trades_markets_queried": 253,
  "trades_watchlist_markets": 76,
- "trades_collected": 2420,
- "anomalies_detected": 47,
- "anomalies_new": 1,
+ "trades_collected": 2508,
+ "anomalies_detected": 41,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "8719973991: HTTPError: HTTP Error 404: Not Found",
-  "4057511695: HTTPError: HTTP Error 404: Not Found",
-  "5080109749: HTTPError: HTTP Error 404: Not Found",
-  "1052353832: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 169,
- "books_rows": 284,
+ "books_markets": 170,
+ "books_rows": 290,
  "status": "ok"
 }
