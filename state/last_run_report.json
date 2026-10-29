@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T14:34:50Z",
+ "ts": "2026-10-29T14:45:01Z",
  "sources": [
   {
    "url": "/tags",
@@ -160,7 +160,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Playoffs",
-   "Worlds 2026 Winning Region"
+   "Counter-Strike: Aurora Gaming vs MOUZ (BO3) - PGL Masters Bucharest Pl"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Playoffs",
@@ -242,12 +242,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Yandex vs Astra Invicta (BO3) - PARI Universe Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Yandex vs Astra Invicta (BO3) - PARI Universe Playoffs",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -363,28 +363,18 @@
  },
  "n_event_queries": 24,
  "events": 770,
- "markets": 766,
- "markets_dropped_by_volume_floor": 5932,
+ "markets": 771,
+ "markets_dropped_by_volume_floor": 5909,
  "day_file": "data/2026/10/2026-10-29T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 244,
+ "trades_markets_queried": 248,
  "trades_watchlist_markets": 121,
- "trades_collected": 3951,
- "anomalies_detected": 57,
- "anomalies_new": 23,
+ "trades_collected": 3818,
+ "anomalies_detected": 48,
+ "anomalies_new": 20,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "6531808343: HTTPError: HTTP Error 404: Not Found",
-  "8725693520: HTTPError: HTTP Error 404: Not Found",
-  "1023063031: HTTPError: HTTP Error 404: Not Found",
-  "4814164055: HTTPError: HTTP Error 404: Not Found",
-  "9219438237: HTTPError: HTTP Error 404: Not Found",
-  "7323008096: HTTPError: HTTP Error 404: Not Found",
-  "4782781872: HTTPError: HTTP Error 404: Not Found",
-  "4368691835: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 149,
- "books_rows": 236,
+ "books_markets": 148,
+ "books_rows": 240,
  "status": "ok"
 }
