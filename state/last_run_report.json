@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T08:22:52Z",
+ "ts": "2026-10-29T08:31:00Z",
  "sources": [
   {
    "url": "/tags",
@@ -159,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "Counter-Strike: FUT Esports vs Nemiga (BO3) - PGL Masters Bucharest Pl"
+   "Counter-Strike: FUT Esports vs Nemiga (BO3) - PGL Masters Bucharest Pl",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
@@ -279,6 +279,10 @@
     "closed": false
    },
    {
+    "t": "Will Faker become president of South Korea by the end of the year?",
+    "closed": false
+   },
+   {
     "t": "LoL: Dplus KIA Challengers vs KT Rolster Challengers (BO5) - LCK Chall",
     "closed": true
    },
@@ -288,10 +292,6 @@
    },
    {
     "t": "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO5) - LCK Challengers",
-    "closed": true
-   },
-   {
-    "t": "LoL: DN SOOPers Challengers vs Nongshim Esports Academy (BO5) - LCK Ch",
     "closed": true
    }
   ],
@@ -364,15 +364,15 @@
  },
  "n_event_queries": 24,
  "events": 770,
- "markets": 708,
- "markets_dropped_by_volume_floor": 5433,
+ "markets": 710,
+ "markets_dropped_by_volume_floor": 5432,
  "day_file": "data/2026/10/2026-10-29T08.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 146,
+ "trades_markets_queried": 147,
  "trades_watchlist_markets": 59,
- "trades_collected": 1224,
- "anomalies_detected": 3,
- "anomalies_new": 3,
+ "trades_collected": 1244,
+ "anomalies_detected": 4,
+ "anomalies_new": 4,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 85,
