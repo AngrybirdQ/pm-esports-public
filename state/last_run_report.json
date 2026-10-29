@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T09:05:46Z",
+ "ts": "2026-10-29T09:59:40Z",
  "sources": [
   {
    "url": "/tags",
@@ -163,9 +163,9 @@
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
+   "Dota 2: Team Liquid vs Astra Invicta (BO3) - PARI Universe Playoffs",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A",
-   "Dota 2: Stray Team vs Rostik Team (BO3) - BetBoom Streamers Battle Gro"
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -231,11 +231,11 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: PARIVISION vs Team Liquid (BO3) - PARI Universe Playoffs",
+    "t": "Dota 2: Team Spirit vs OG (BO3) - PARI Universe Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs OG (BO3) - PARI Universe Playoffs",
+    "t": "Dota 2: PARIVISION vs Team Liquid (BO3) - PARI Universe Playoffs",
     "closed": true
    },
    {
@@ -247,8 +247,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Rottweilas Latam vs Level Up Academy (BO3) - Esports Pro Circu",
-    "closed": true
+    "t": "Dota 2: Team Liquid vs Astra Invicta (BO3) - PARI Universe Playoffs",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -309,12 +309,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: A Team vs Octagonal Disposition Gaming (BO3) - VCT Threshold",
-    "closed": true
-   },
-   {
     "t": "Valorant: KeepBest Gaming vs Unsettled Resentment (BO3) - VCT Threshol",
     "closed": false
+   },
+   {
+    "t": "Valorant: A Team vs Octagonal Disposition Gaming (BO3) - VCT Threshold",
+    "closed": true
    }
   ],
   "search:NBA": [
@@ -364,18 +364,29 @@
  },
  "n_event_queries": 24,
  "events": 769,
- "markets": 710,
- "markets_dropped_by_volume_floor": 5510,
+ "markets": 722,
+ "markets_dropped_by_volume_floor": 5592,
  "day_file": "data/2026/10/2026-10-29T09.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 151,
- "trades_watchlist_markets": 72,
- "trades_collected": 1541,
- "anomalies_detected": 21,
- "anomalies_new": 11,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 86,
- "books_rows": 160,
+ "trades_markets_queried": 173,
+ "trades_watchlist_markets": 84,
+ "trades_collected": 2360,
+ "anomalies_detected": 32,
+ "anomalies_new": 32,
+ "history_debug": [
+  {
+   "cid": "0x76597445",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x5844be5f",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_markets": 103,
+ "books_rows": 180,
  "status": "ok"
 }
