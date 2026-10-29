@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T21:29:25Z",
+ "ts": "2026-10-29T21:33:46Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 32,
+   "events_returned": 34,
    "err": null
   },
   {
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "trades 0x4c9590ea: HTTPError: HTTP Error 429: Too Many Requests"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -363,19 +361,23 @@
   ]
  },
  "n_event_queries": 24,
- "events": 775,
- "markets": 759,
- "markets_dropped_by_volume_floor": 6814,
+ "events": 778,
+ "markets": 756,
+ "markets_dropped_by_volume_floor": 6842,
  "day_file": "data/2026/10/2026-10-29T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 242,
+ "trades_markets_queried": 241,
  "trades_watchlist_markets": 78,
- "trades_collected": 2573,
- "anomalies_detected": 57,
- "anomalies_new": 56,
+ "trades_collected": 2549,
+ "anomalies_detected": 45,
+ "anomalies_new": 9,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "9935187204: HTTPError: HTTP Error 404: Not Found",
+  "8026964746: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 154,
- "books_rows": 250,
+ "books_rows": 252,
  "status": "ok"
 }
