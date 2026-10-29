@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T18:55:27Z",
+ "ts": "2026-10-29T19:23:52Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 33,
+   "events_returned": 34,
    "err": null
   },
   {
@@ -237,15 +237,15 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs OG (BO3) - PARI Universe Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Playoffs",
     "closed": true
    },
    {
     "t": "Dota 2: Team Liquid vs Astra Invicta (BO3) - PARI Universe Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Team Spirit vs OG (BO3) - PARI Universe Playoffs",
     "closed": true
    }
   ],
@@ -362,22 +362,22 @@
  },
  "n_event_queries": 24,
  "events": 771,
- "markets": 753,
- "markets_dropped_by_volume_floor": 6621,
- "day_file": "data/2026/10/2026-10-29T18.jsonl",
+ "markets": 737,
+ "markets_dropped_by_volume_floor": 6627,
+ "day_file": "data/2026/10/2026-10-29T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 257,
- "trades_watchlist_markets": 103,
- "trades_collected": 2197,
- "anomalies_detected": 143,
- "anomalies_new": 75,
+ "trades_markets_queried": 244,
+ "trades_watchlist_markets": 92,
+ "trades_collected": 1430,
+ "anomalies_detected": 72,
+ "anomalies_new": 72,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "1057233119: HTTPError: HTTP Error 404: Not Found",
-  "3815043317: HTTPError: HTTP Error 404: Not Found"
+  "2218245523: HTTPError: HTTP Error 404: Not Found",
+  "3449465024: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 148,
- "books_rows": 248,
+ "books_markets": 144,
+ "books_rows": 252,
  "status": "ok"
 }
