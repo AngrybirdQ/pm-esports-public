@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T14:08:08Z",
+ "ts": "2026-10-29T14:12:39Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 31,
+   "events_returned": 30,
    "err": null
   },
   {
@@ -159,13 +159,13 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Counter-Strike: Vitality vs Natus Vincere (BO3) - PGL Masters Buchares",
-   "Dota 2: Team Liquid vs Astra Invicta (BO3) - PARI Universe Playoffs"
+   "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Playoffs",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Team Liquid vs Astra Invicta (BO3) - PARI Universe Playoffs",
    "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Playoffs",
-   "Dota 2: PARIVISION vs Team Yandex (BO3) - PARI Universe Playoffs"
+   "Dota 2: PARIVISION vs Team Yandex (BO3) - PARI Universe Playoffs",
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -187,8 +187,8 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "VALORANT Offseason: OXY Next Team",
    "Valorant: World Sports Invictus Gaming vs TEC Esports (BO3) - VCT Thre",
+   "VALORANT Offseason: OXY Next Team",
    "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
@@ -234,11 +234,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Yandex vs Astra Invicta (BO3) - PARI Universe Playoffs",
+    "t": "Dota 2: GamerLegion vs LEGION (BO3) - PARI Universe Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: GamerLegion vs LEGION (BO3) - PARI Universe Playoffs",
+    "t": "Dota 2: Team Yandex vs Astra Invicta (BO3) - PARI Universe Playoffs",
     "closed": true
    },
    {
@@ -304,12 +304,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: MIBR GC vs SK Nebula (BO3) - VCT Game Changers Championship ",
-    "closed": true
-   },
-   {
     "t": "Valorant: World Sports Invictus Gaming vs TEC Esports (BO3) - VCT Thre",
     "closed": false
+   },
+   {
+    "t": "Valorant: MIBR GC vs SK Nebula (BO3) - VCT Game Changers Championship ",
+    "closed": true
    },
    {
     "t": "Valorant: NRG vs Fnatic (BO5)",
@@ -362,23 +362,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 772,
- "markets": 761,
- "markets_dropped_by_volume_floor": 5948,
+ "events": 771,
+ "markets": 764,
+ "markets_dropped_by_volume_floor": 5946,
  "day_file": "data/2026/10/2026-10-29T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 231,
+ "trades_markets_queried": 236,
  "trades_watchlist_markets": 121,
- "trades_collected": 3740,
- "anomalies_detected": 49,
- "anomalies_new": 16,
+ "trades_collected": 4004,
+ "anomalies_detected": 47,
+ "anomalies_new": 32,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "7234017535: HTTPError: HTTP Error 404: Not Found",
-  "3343883513: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 143,
+ "books_markets": 145,
  "books_rows": 232,
  "status": "ok"
 }
