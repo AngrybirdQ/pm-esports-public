@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T21:19:48Z",
+ "ts": "2026-10-29T21:24:47Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 33,
+   "events_returned": 32,
    "err": null
   },
   {
@@ -151,10 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "trades 0x0f038acf: HTTPError: HTTP Error 429: Too Many Requests",
-  "trades 0x9b7f371c: HTTPError: HTTP Error 429: Too Many Requests"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -163,7 +160,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "LoL: Karmine Corp vs CTBC Flying Oyster (BO3) - Worlds Group Stage",
-   "Worlds 2026 Winning Region"
+   "Dota 2: OG vs GamerLegion (BO3) - PARI Universe Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: OG vs GamerLegion (BO3) - PARI Universe Playoffs",
@@ -364,41 +361,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 776,
- "markets": 754,
- "markets_dropped_by_volume_floor": 6829,
+ "events": 775,
+ "markets": 759,
+ "markets_dropped_by_volume_floor": 6814,
  "day_file": "data/2026/10/2026-10-29T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 239,
+ "trades_markets_queried": 242,
  "trades_watchlist_markets": 78,
- "trades_collected": 2574,
- "anomalies_detected": 64,
- "anomalies_new": 29,
- "history_debug": [
-  {
-   "cid": "0xa6674323",
-   "pts": 3,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xe87d320b",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x81329177",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 3,
- "books_errors": [
-  "1070890613: HTTPError: HTTP Error 404: Not Found",
-  "3568985209: HTTPError: HTTP Error 404: Not Found",
-  "7539168306: HTTPError: HTTP Error 404: Not Found",
-  "1371599493: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 153,
- "books_rows": 248,
+ "trades_collected": 2578,
+ "anomalies_detected": 58,
+ "anomalies_new": 11,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 154,
+ "books_rows": 250,
  "status": "ok"
 }
