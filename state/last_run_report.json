@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T22:59:06Z",
+ "ts": "2026-10-29T23:26:42Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 53,
+   "events_returned": 52,
    "err": null
   },
   {
@@ -159,7 +159,7 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "LoL: Karmine Corp vs CTBC Flying Oyster (BO3) - Worlds Group Stage",
+   "LoL: Top Esports vs Bilibili Gaming (BO3) - Worlds Group Stage",
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
@@ -178,7 +178,7 @@
   ],
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
-   "LoL: Karmine Corp vs CTBC Flying Oyster (BO3) - Worlds Group Stage",
+   "LoL: Top Esports vs Bilibili Gaming (BO3) - Worlds Group Stage",
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
@@ -361,29 +361,30 @@
   ]
  },
  "n_event_queries": 24,
- "events": 777,
- "markets": 793,
- "markets_dropped_by_volume_floor": 6774,
- "day_file": "data/2026/10/2026-10-29T22.jsonl",
+ "events": 775,
+ "markets": 791,
+ "markets_dropped_by_volume_floor": 6754,
+ "day_file": "data/2026/10/2026-10-29T23.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 253,
- "trades_watchlist_markets": 76,
- "trades_collected": 2491,
- "anomalies_detected": 40,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "7360255390: HTTPError: HTTP Error 404: Not Found",
-  "8737570851: HTTPError: HTTP Error 404: Not Found",
-  "7131086284: HTTPError: HTTP Error 404: Not Found",
-  "1806171526: HTTPError: HTTP Error 404: Not Found",
-  "3242104109: HTTPError: HTTP Error 404: Not Found",
-  "7963244449: HTTPError: HTTP Error 404: Not Found",
-  "9472866785: HTTPError: HTTP Error 404: Not Found",
-  "8070198416: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 257,
+ "trades_watchlist_markets": 80,
+ "trades_collected": 2636,
+ "anomalies_detected": 41,
+ "anomalies_new": 38,
+ "history_debug": [
+  {
+   "cid": "0x07d4d43d",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x759fe04d",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 170,
- "books_rows": 290,
+ "history_conditions_new": 2,
+ "books_markets": 164,
+ "books_rows": 298,
  "status": "ok"
 }
