@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T13:32:00Z",
+ "ts": "2026-10-29T14:03:31Z",
  "sources": [
   {
    "url": "/tags",
@@ -69,7 +69,7 @@
   {
    "url": "tag_slug=starcraft-2",
    "ok": true,
-   "events_returned": 3,
+   "events_returned": 2,
    "err": null
   },
   {
@@ -188,13 +188,12 @@
   ],
   "tag_slug=valorant": [
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team",
-   "Valorant: World Sports Invictus Gaming vs TEC Esports (BO3) - VCT Thre"
+   "Valorant: World Sports Invictus Gaming vs TEC Esports (BO3) - VCT Thre",
+   "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
-   "StarCraft II: Clem vs Classic (BO5) - IntoTheTV x SOOP SC2 League Prem",
-   "StarCraft II: GuMiHo vs Classic (BO3) - IntoTheTV x SOOP SC2 League Pr"
+   "StarCraft II: Clem vs Classic (BO5) - IntoTheTV x SOOP SC2 League Prem"
   ],
   "tag_slug=nba": [
    "NBA: 2027 Champion",
@@ -313,7 +312,7 @@
     "closed": false
    },
    {
-    "t": "Valorant: Any Questions Gaming vs Rare Atom (BO3) - VCT Threshold Chin",
+    "t": "Valorant: NRG vs Fnatic (BO5)",
     "closed": true
    }
   ],
@@ -363,19 +362,30 @@
   ]
  },
  "n_event_queries": 24,
- "events": 769,
- "markets": 759,
- "markets_dropped_by_volume_floor": 5827,
- "day_file": "data/2026/10/2026-10-29T13.jsonl",
+ "events": 772,
+ "markets": 761,
+ "markets_dropped_by_volume_floor": 5948,
+ "day_file": "data/2026/10/2026-10-29T14.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 231,
- "trades_watchlist_markets": 136,
- "trades_collected": 3746,
- "anomalies_detected": 68,
- "anomalies_new": 68,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 116,
- "books_rows": 178,
+ "trades_watchlist_markets": 121,
+ "trades_collected": 3781,
+ "anomalies_detected": 50,
+ "anomalies_new": 50,
+ "history_debug": [
+  {
+   "cid": "0xc6756424",
+   "pts": 10,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xe306c8b6",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_markets": 143,
+ "books_rows": 236,
  "status": "ok"
 }
