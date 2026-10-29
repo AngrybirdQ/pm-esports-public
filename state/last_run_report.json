@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T16:44:06Z",
+ "ts": "2026-10-29T16:48:55Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,7 +151,9 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "trades 0x225148f1: HTTPError: HTTP Error 429: Too Many Requests"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -368,17 +370,11 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 257,
  "trades_watchlist_markets": 120,
- "trades_collected": 3889,
+ "trades_collected": 3801,
  "anomalies_detected": 50,
- "anomalies_new": 26,
- "history_debug": [
-  {
-   "cid": "0xf41751b9",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
+ "anomalies_new": 22,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_errors": [
   "9876282823: HTTPError: HTTP Error 404: Not Found",
   "4985533783: HTTPError: HTTP Error 404: Not Found",
@@ -387,7 +383,9 @@
   "6372555920: HTTPError: HTTP Error 404: Not Found",
   "2498460028: HTTPError: HTTP Error 404: Not Found",
   "6334766606: HTTPError: HTTP Error 404: Not Found",
-  "2258516019: HTTPError: HTTP Error 404: Not Found"
+  "2258516019: HTTPError: HTTP Error 404: Not Found",
+  "8587500963: HTTPError: HTTP Error 404: Not Found",
+  "5800480773: HTTPError: HTTP Error 404: Not Found"
  ],
  "books_markets": 140,
  "books_rows": 236,
