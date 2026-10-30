@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T19:50:30Z",
+ "ts": "2026-10-30T19:58:59Z",
  "sources": [
   {
    "url": "/tags",
@@ -237,12 +237,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: OG vs GamerLegion (BO3) - PARI Universe Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Spirit vs Team Liquid (BO3) - PARI Universe Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: OG vs GamerLegion (BO3) - PARI Universe Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: potn9ki vs Team Synapse (BO3) - Esports Pro Circuit  Group C",
@@ -361,19 +361,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 804,
- "markets": 955,
- "markets_dropped_by_volume_floor": 9378,
+ "events": 806,
+ "markets": 963,
+ "markets_dropped_by_volume_floor": 9381,
  "day_file": "data/2026/10/2026-10-30T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 211,
+ "trades_markets_queried": 213,
  "trades_watchlist_markets": 58,
- "trades_collected": 3776,
- "anomalies_detected": 86,
- "anomalies_new": 0,
+ "trades_collected": 3888,
+ "anomalies_detected": 109,
+ "anomalies_new": 29,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 87,
- "books_rows": 162,
+ "books_markets": 89,
+ "books_rows": 160,
  "status": "ok"
 }
