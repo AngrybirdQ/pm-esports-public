@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T18:37:42Z",
+ "ts": "2026-10-30T18:40:44Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 40,
+   "events_returned": 42,
    "err": null
   },
   {
@@ -160,7 +160,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: Team Liquid vs LOS (BO3) - Worlds Group Stage"
+   "Dota 2: Team Spirit vs Team Liquid (BO3) - PARI Universe Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Spirit vs Team Liquid (BO3) - PARI Universe Playoffs",
@@ -361,19 +361,45 @@
   ]
  },
  "n_event_queries": 24,
- "events": 804,
- "markets": 895,
- "markets_dropped_by_volume_floor": 9412,
+ "events": 807,
+ "markets": 921,
+ "markets_dropped_by_volume_floor": 9416,
  "day_file": "data/2026/10/2026-10-30T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 194,
+ "trades_markets_queried": 202,
  "trades_watchlist_markets": 57,
- "trades_collected": 3374,
- "anomalies_detected": 65,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 86,
- "books_rows": 150,
+ "trades_collected": 3690,
+ "anomalies_detected": 69,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0x37b0fa4a",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x5dcbe3ba",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x98519d67",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x6a0726e0",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x16ad3964",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 5,
+ "books_markets": 91,
+ "books_rows": 160,
  "status": "ok"
 }
