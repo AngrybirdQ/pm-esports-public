@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T21:28:48Z",
+ "ts": "2026-10-30T21:49:21Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 32,
+   "events_returned": 31,
    "err": null
   },
   {
@@ -160,12 +160,12 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "LoL: Team Liquid vs LOS (BO3) - Worlds Group Stage",
-   "Dota 2: Team Spirit vs Team Liquid (BO3) - PARI Universe Playoffs"
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Team Spirit vs Team Liquid (BO3) - PARI Universe Playoffs",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A",
+   "Dota 2: Stray Team vs Rostik Team (BO3) - BetBoom Streamers Battle Gro"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -234,7 +234,7 @@
    },
    {
     "t": "Dota 2: Team Spirit vs Team Liquid (BO3) - PARI Universe Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Playoffs",
@@ -361,19 +361,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 807,
- "markets": 991,
- "markets_dropped_by_volume_floor": 9378,
+ "events": 806,
+ "markets": 1016,
+ "markets_dropped_by_volume_floor": 9345,
  "day_file": "data/2026/10/2026-10-30T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 232,
- "trades_watchlist_markets": 73,
- "trades_collected": 3873,
- "anomalies_detected": 110,
- "anomalies_new": 3,
+ "trades_markets_queried": 234,
+ "trades_watchlist_markets": 75,
+ "trades_collected": 3424,
+ "anomalies_detected": 65,
+ "anomalies_new": 58,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 120,
- "books_rows": 164,
+ "books_markets": 115,
+ "books_rows": 146,
  "status": "ok"
 }
