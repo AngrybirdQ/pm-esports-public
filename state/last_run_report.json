@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T18:52:01Z",
+ "ts": "2026-10-30T19:00:31Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 33,
+   "events_returned": 32,
    "err": null
   },
   {
@@ -164,8 +164,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Spirit vs Team Liquid (BO3) - PARI Universe Playoffs",
-   "Dota 2: potn9ki vs Team Synapse (BO3) - Esports Pro Circuit  Group C",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -307,12 +307,12 @@
     "closed": true
    },
    {
-    "t": "VALORANT Game Changers Championship 2026: Teams to Reach the Grand Fin",
+    "t": "Valorant: KRÜ Blaze vs MIBR GC (BO3) - VCT Game Changers Championship ",
     "closed": false
    },
    {
-    "t": "Valorant: NRG vs Fnatic (BO5)",
-    "closed": true
+    "t": "VALORANT Game Changers Championship 2026: Teams to Reach the Grand Fin",
+    "closed": false
    }
   ],
   "search:NBA": [
@@ -361,19 +361,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 807,
- "markets": 920,
- "markets_dropped_by_volume_floor": 9423,
- "day_file": "data/2026/10/2026-10-30T18.jsonl",
+ "events": 805,
+ "markets": 922,
+ "markets_dropped_by_volume_floor": 9416,
+ "day_file": "data/2026/10/2026-10-30T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 202,
+ "trades_markets_queried": 200,
  "trades_watchlist_markets": 57,
- "trades_collected": 3726,
- "anomalies_detected": 77,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 90,
+ "trades_collected": 3503,
+ "anomalies_detected": 74,
+ "anomalies_new": 70,
+ "history_debug": [
+  {
+   "cid": "0x234a54be",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 87,
  "books_rows": 162,
  "status": "ok"
 }
