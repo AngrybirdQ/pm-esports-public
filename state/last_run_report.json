@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T22:02:07Z",
+ "ts": "2026-10-30T22:46:14Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 31,
+   "events_returned": 30,
    "err": null
   },
   {
@@ -105,13 +105,13 @@
   {
    "url": "tag_slug=international-affairs",
    "ok": true,
-   "events_returned": 13,
+   "events_returned": 14,
    "err": null
   },
   {
    "url": "tag_id[international-affairs]",
    "ok": true,
-   "events_returned": 13,
+   "events_returned": 14,
    "err": null
   },
   {
@@ -158,8 +158,8 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Worlds 2026: Winner",
    "LoL: Team Liquid vs LOS (BO3) - Worlds Group Stage",
+   "Worlds 2026: Winner",
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
@@ -177,8 +177,8 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "Worlds 2026: Winner",
    "LoL: Team Liquid vs LOS (BO3) - Worlds Group Stage",
+   "Worlds 2026: Winner",
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
@@ -245,8 +245,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Rottweilas Latam vs Roshan Hunters (BO3) - Esports Pro Circuit",
-    "closed": true
+    "t": "Dota 2: SOLID vs Chandogs (BO3) - NEXUS SERIES Playoffs",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -361,19 +361,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 805,
- "markets": 1016,
- "markets_dropped_by_volume_floor": 9364,
+ "events": 803,
+ "markets": 1043,
+ "markets_dropped_by_volume_floor": 9354,
  "day_file": "data/2026/10/2026-10-30T22.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 242,
- "trades_watchlist_markets": 75,
- "trades_collected": 3449,
- "anomalies_detected": 70,
- "anomalies_new": 60,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 110,
- "books_rows": 160,
+ "trades_markets_queried": 234,
+ "trades_watchlist_markets": 64,
+ "trades_collected": 3622,
+ "anomalies_detected": 60,
+ "anomalies_new": 57,
+ "history_debug": [
+  {
+   "cid": "0xcdbf149c",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 109,
+ "books_rows": 166,
  "status": "ok"
 }
