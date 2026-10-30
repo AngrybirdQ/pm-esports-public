@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T06:47:22Z",
+ "ts": "2026-10-30T06:55:10Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 154,
+   "events_returned": 155,
    "err": null
   },
   {
@@ -362,14 +362,14 @@
  },
  "n_event_queries": 24,
  "events": 774,
- "markets": 688,
- "markets_dropped_by_volume_floor": 6088,
+ "markets": 691,
+ "markets_dropped_by_volume_floor": 6515,
  "day_file": "data/2026/10/2026-10-30T06.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 129,
+ "trades_markets_queried": 131,
  "trades_watchlist_markets": 47,
- "trades_collected": 1089,
- "anomalies_detected": 9,
+ "trades_collected": 1111,
+ "anomalies_detected": 11,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
