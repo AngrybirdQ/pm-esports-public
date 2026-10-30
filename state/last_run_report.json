@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T09:09:41Z",
+ "ts": "2026-10-30T09:12:54Z",
  "sources": [
   {
    "url": "/tags",
@@ -245,8 +245,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Rottweilas Latam vs Roshan Hunters (BO3) - Esports Pro Circuit",
-    "closed": true
+    "t": "Dota 2: Team Spirit vs PARIVISION (BO3) - PARI Universe Playoffs",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -362,18 +362,24 @@
  },
  "n_event_queries": 24,
  "events": 775,
- "markets": 757,
- "markets_dropped_by_volume_floor": 7307,
+ "markets": 781,
+ "markets_dropped_by_volume_floor": 7283,
  "day_file": "data/2026/10/2026-10-30T09.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 141,
+ "trades_markets_queried": 145,
  "trades_watchlist_markets": 45,
- "trades_collected": 1107,
+ "trades_collected": 1156,
  "anomalies_detected": 0,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 86,
- "books_rows": 168,
+ "history_debug": [
+  {
+   "cid": "0x18e3fb20",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 87,
+ "books_rows": 170,
  "status": "ok"
 }
