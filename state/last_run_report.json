@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T15:34:38Z",
+ "ts": "2026-10-30T16:24:23Z",
  "sources": [
   {
    "url": "/tags",
@@ -160,12 +160,12 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Counter-Strike: MOUZ vs FURIA (BO3) - PGL Masters Bucharest Playoffs",
-   "Worlds 2026 Winning Region"
+   "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Playoffs",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: potn9ki vs Team Synapse (BO3) - Esports Pro Circuit  Group C",
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -187,9 +187,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: Any Questions Gaming vs FunPlus Phoenix (BO3) - VCT Threshol",
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team"
+   "VALORANT Offseason: zekken Next Team",
+   "VALORANT Offseason: primmie Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -229,20 +229,20 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: PARIVISION vs Team Yandex (BO3) - PARI Universe Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Spirit vs PARIVISION (BO3) - PARI Universe Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: OG vs GamerLegion (BO3) - PARI Universe Playoffs",
+    "t": "Dota 2: PARIVISION vs Team Yandex (BO3) - PARI Universe Playoffs",
     "closed": true
    },
    {
     "t": "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: OG vs GamerLegion (BO3) - PARI Universe Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: potn9ki vs Team Synapse (BO3) - Esports Pro Circuit  Group C",
@@ -296,7 +296,7 @@
   "search:Valorant": [
    {
     "t": "Valorant: Any Questions Gaming vs FunPlus Phoenix (BO3) - VCT Threshol",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: A Team vs Nova Esports (BO3) - VCT Threshold China Week 2",
@@ -361,19 +361,35 @@
   ]
  },
  "n_event_queries": 24,
- "events": 771,
- "markets": 847,
- "markets_dropped_by_volume_floor": 8945,
- "day_file": "data/2026/10/2026-10-30T15.jsonl",
+ "events": 769,
+ "markets": 861,
+ "markets_dropped_by_volume_floor": 9148,
+ "day_file": "data/2026/10/2026-10-30T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 217,
- "trades_watchlist_markets": 98,
- "trades_collected": 3600,
- "anomalies_detected": 39,
- "anomalies_new": 35,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 109,
+ "trades_markets_queried": 228,
+ "trades_watchlist_markets": 93,
+ "trades_collected": 3786,
+ "anomalies_detected": 36,
+ "anomalies_new": 34,
+ "history_debug": [
+  {
+   "cid": "0xb55416be",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xba050f65",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xe96bf4e0",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 3,
+ "books_markets": 95,
  "books_rows": 162,
  "status": "ok"
 }
