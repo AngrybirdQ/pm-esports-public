@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T01:10:00Z",
+ "ts": "2026-10-30T01:30:56Z",
  "sources": [
   {
    "url": "/tags",
@@ -303,12 +303,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: NRG vs Fnatic (BO5)",
-    "closed": true
-   },
-   {
     "t": "Valorant: A Team vs Nova Esports (BO3) - VCT Threshold China Week 2",
     "closed": false
+   },
+   {
+    "t": "Valorant: NRG vs Fnatic (BO5)",
+    "closed": true
    },
    {
     "t": "Valorant: Gentle Mates GC vs Shopify Rebellion Gold (BO3) - VCT Game C",
@@ -361,19 +361,27 @@
   ]
  },
  "n_event_queries": 24,
- "events": 778,
- "markets": 839,
- "markets_dropped_by_volume_floor": 6666,
+ "events": 777,
+ "markets": 844,
+ "markets_dropped_by_volume_floor": 6483,
  "day_file": "data/2026/10/2026-10-30T01.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 261,
- "trades_watchlist_markets": 54,
- "trades_collected": 5147,
- "anomalies_detected": 130,
- "anomalies_new": 40,
+ "trades_markets_queried": 268,
+ "trades_watchlist_markets": 55,
+ "trades_collected": 5737,
+ "anomalies_detected": 170,
+ "anomalies_new": 170,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 185,
- "books_rows": 306,
+ "books_errors": [
+  "4903524091: HTTPError: HTTP Error 404: Not Found",
+  "4205577158: HTTPError: HTTP Error 404: Not Found",
+  "9114882514: HTTPError: HTTP Error 404: Not Found",
+  "1612187314: HTTPError: HTTP Error 404: Not Found",
+  "1484558973: HTTPError: HTTP Error 404: Not Found",
+  "8800227557: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 211,
+ "books_rows": 354,
  "status": "ok"
 }
