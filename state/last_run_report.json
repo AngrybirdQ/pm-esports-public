@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T17:35:22Z",
+ "ts": "2026-10-30T18:25:24Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 34,
+   "events_returned": 33,
    "err": null
   },
   {
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 157,
+   "events_returned": 217,
    "err": null
   },
   {
@@ -159,11 +159,11 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Counter-Strike: MOUZ vs FURIA (BO3) - PGL Masters Bucharest Playoffs",
-   "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Playoffs"
+   "Worlds 2026 Winning Region",
+   "LoL: Team Liquid vs LOS (BO3) - Worlds Group Stage"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Playoffs",
+   "Dota 2: Team Spirit vs Team Liquid (BO3) - PARI Universe Playoffs",
    "Dota 2: potn9ki vs Team Synapse (BO3) - Esports Pro Circuit  Group C",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
@@ -187,9 +187,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
+   "Valorant: Gentle Mates GC vs Shopify Rebellion Gold (BO3) - VCT Game C",
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team",
-   "VALORANT Offseason: primmie Next Team"
+   "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -234,15 +234,15 @@
    },
    {
     "t": "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: OG vs GamerLegion (BO3) - PARI Universe Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs Team Yandex (BO3) - PARI Universe Playoffs",
-    "closed": true
+    "t": "Dota 2: Team Spirit vs Team Liquid (BO3) - PARI Universe Playoffs",
+    "closed": false
    },
    {
     "t": "Dota 2: potn9ki vs Team Synapse (BO3) - Esports Pro Circuit  Group C",
@@ -295,16 +295,16 @@
   ],
   "search:Valorant": [
    {
+    "t": "Valorant: Gentle Mates GC vs Shopify Rebellion Gold (BO3) - VCT Game C",
+    "closed": false
+   },
+   {
     "t": "Valorant: Any Questions Gaming vs FunPlus Phoenix (BO3) - VCT Threshol",
     "closed": true
    },
    {
     "t": "Valorant: A Team vs Nova Esports (BO3) - VCT Threshold China Week 2",
     "closed": true
-   },
-   {
-    "t": "Valorant: Gentle Mates GC vs Shopify Rebellion Gold (BO3) - VCT Game C",
-    "closed": false
    },
    {
     "t": "VALORANT Game Changers Championship 2026: Teams to Reach the Grand Fin",
@@ -361,19 +361,56 @@
   ]
  },
  "n_event_queries": 24,
- "events": 769,
- "markets": 890,
- "markets_dropped_by_volume_floor": 9133,
- "day_file": "data/2026/10/2026-10-30T17.jsonl",
+ "events": 804,
+ "markets": 903,
+ "markets_dropped_by_volume_floor": 9420,
+ "day_file": "data/2026/10/2026-10-30T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 221,
- "trades_watchlist_markets": 82,
- "trades_collected": 3275,
- "anomalies_detected": 58,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 95,
- "books_rows": 146,
+ "trades_markets_queried": 197,
+ "trades_watchlist_markets": 57,
+ "trades_collected": 3399,
+ "anomalies_detected": 76,
+ "anomalies_new": 75,
+ "history_debug": [
+  {
+   "cid": "0x8dc0a070",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x9f02357e",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x5645a050",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x506215a1",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x486c545e",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x5a84889d",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 6,
+ "books_errors": [
+  "8892975106: HTTPError: HTTP Error 404: Not Found",
+  "2212328652: HTTPError: HTTP Error 404: Not Found",
+  "3196646271: HTTPError: HTTP Error 404: Not Found",
+  "1068963297: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 88,
+ "books_rows": 152,
  "status": "ok"
 }
