@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T15:28:43Z",
+ "ts": "2026-10-30T15:34:38Z",
  "sources": [
   {
    "url": "/tags",
@@ -159,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "Counter-Strike: MOUZ vs FURIA (BO3) - PGL Masters Bucharest Playoffs"
+   "Counter-Strike: MOUZ vs FURIA (BO3) - PGL Masters Bucharest Playoffs",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Playoffs",
@@ -361,41 +361,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 772,
- "markets": 859,
- "markets_dropped_by_volume_floor": 8956,
+ "events": 771,
+ "markets": 847,
+ "markets_dropped_by_volume_floor": 8945,
  "day_file": "data/2026/10/2026-10-30T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 221,
+ "trades_markets_queried": 217,
  "trades_watchlist_markets": 98,
- "trades_collected": 3777,
- "anomalies_detected": 40,
- "anomalies_new": 11,
+ "trades_collected": 3600,
+ "anomalies_detected": 39,
+ "anomalies_new": 35,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1124530397: HTTPError: HTTP Error 404: Not Found",
-  "6062165698: HTTPError: HTTP Error 404: Not Found",
-  "2902337604: HTTPError: HTTP Error 404: Not Found",
-  "2276389685: HTTPError: HTTP Error 404: Not Found",
-  "7482391414: HTTPError: HTTP Error 404: Not Found",
-  "4869227748: HTTPError: HTTP Error 404: Not Found",
-  "1140200125: HTTPError: HTTP Error 404: Not Found",
-  "9957404991: HTTPError: HTTP Error 404: Not Found",
-  "7743269440: HTTPError: HTTP Error 404: Not Found",
-  "1000987543: HTTPError: HTTP Error 404: Not Found",
-  "1036257493: HTTPError: HTTP Error 404: Not Found",
-  "4332806649: HTTPError: HTTP Error 404: Not Found",
-  "9078989411: HTTPError: HTTP Error 404: Not Found",
-  "5472662282: HTTPError: HTTP Error 404: Not Found",
-  "1100701933: HTTPError: HTTP Error 404: Not Found",
-  "1236964260: HTTPError: HTTP Error 404: Not Found",
-  "8160377902: HTTPError: HTTP Error 404: Not Found",
-  "1110801486: HTTPError: HTTP Error 404: Not Found",
-  "4827420366: HTTPError: HTTP Error 404: Not Found",
-  "3322577474: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 118,
+ "books_markets": 109,
  "books_rows": 162,
  "status": "ok"
 }
