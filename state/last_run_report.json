@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T03:47:30Z",
+ "ts": "2026-10-30T03:55:30Z",
  "sources": [
   {
    "url": "/tags",
@@ -160,7 +160,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
+   "LoL: Team Liquid vs LOS (BO3) - Worlds Group Stage"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
@@ -179,7 +179,7 @@
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
+   "LoL: Team Liquid vs LOS (BO3) - Worlds Group Stage"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -362,18 +362,24 @@
  },
  "n_event_queries": 24,
  "events": 774,
- "markets": 746,
- "markets_dropped_by_volume_floor": 5657,
+ "markets": 754,
+ "markets_dropped_by_volume_floor": 5653,
  "day_file": "data/2026/10/2026-10-30T03.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 134,
  "trades_watchlist_markets": 30,
- "trades_collected": 3054,
- "anomalies_detected": 83,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 68,
- "books_rows": 132,
+ "trades_collected": 3043,
+ "anomalies_detected": 91,
+ "anomalies_new": 13,
+ "history_debug": [
+  {
+   "cid": "0xca2a9663",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 71,
+ "books_rows": 138,
  "status": "ok"
 }
