@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T12:05:10Z",
+ "ts": "2026-10-30T13:05:02Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 41,
+   "events_returned": 40,
    "err": null
   },
   {
@@ -187,9 +187,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: A Team vs Nova Esports (BO3) - VCT Threshold China Week 2",
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team"
+   "VALORANT Offseason: zekken Next Team",
+   "Valorant: Any Questions Gaming vs FunPlus Phoenix (BO3) - VCT Threshol"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -233,15 +233,15 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Spirit vs PARIVISION (BO3) - PARI Universe Playoffs",
     "closed": false
    },
    {
     "t": "Dota 2: OG vs GamerLegion (BO3) - PARI Universe Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Playoffs",
     "closed": true
    },
    {
@@ -300,18 +300,18 @@
    },
    {
     "t": "Valorant: A Team vs Nova Esports (BO3) - VCT Threshold China Week 2",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Any Questions Gaming vs FunPlus Phoenix (BO3) - VCT Threshol",
     "closed": false
    },
    {
-    "t": "VALORANT Game Changers Championship 2026: Teams to Reach the Grand Fin",
+    "t": "Valorant: Gentle Mates GC vs Shopify Rebellion Gold (BO3) - VCT Game C",
     "closed": false
    },
    {
-    "t": "Valorant: Gentle Mates GC vs Shopify Rebellion Gold (BO3) - VCT Game C",
+    "t": "VALORANT Game Changers Championship 2026: Teams to Reach the Grand Fin",
     "closed": false
    }
   ],
@@ -361,19 +361,40 @@
   ]
  },
  "n_event_queries": 24,
- "events": 770,
- "markets": 828,
- "markets_dropped_by_volume_floor": 7593,
- "day_file": "data/2026/10/2026-10-30T12.jsonl",
+ "events": 771,
+ "markets": 851,
+ "markets_dropped_by_volume_floor": 8283,
+ "day_file": "data/2026/10/2026-10-30T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 173,
- "trades_watchlist_markets": 73,
- "trades_collected": 2937,
- "anomalies_detected": 53,
- "anomalies_new": 48,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 102,
- "books_rows": 180,
+ "trades_markets_queried": 182,
+ "trades_watchlist_markets": 78,
+ "trades_collected": 3573,
+ "anomalies_detected": 73,
+ "anomalies_new": 72,
+ "history_debug": [
+  {
+   "cid": "0xa6102641",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x0aede9ec",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x5a8819a4",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xa8ca9f2b",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 4,
+ "books_markets": 104,
+ "books_rows": 174,
  "status": "ok"
 }
