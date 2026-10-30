@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T23:51:24Z",
+ "ts": "2026-10-30T00:00:03Z",
  "sources": [
   {
    "url": "/tags",
@@ -245,8 +245,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: GamerLegion vs LEGION (BO3) - PARI Universe Playoffs",
-    "closed": true
+    "t": "Dota 2: Rottweilas Latam vs Roshan Hunters (BO3) - Esports Pro Circuit",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -362,18 +362,39 @@
  },
  "n_event_queries": 24,
  "events": 777,
- "markets": 795,
- "markets_dropped_by_volume_floor": 6785,
- "day_file": "data/2026/10/2026-10-29T23.jsonl",
- "retention_removed_files": 0,
- "trades_markets_queried": 259,
+ "markets": 807,
+ "markets_dropped_by_volume_floor": 6835,
+ "day_file": "data/2026/10/2026-10-30T00.jsonl",
+ "retention_removed_files": 100,
+ "trades_markets_queried": 262,
  "trades_watchlist_markets": 80,
- "trades_collected": 2456,
- "anomalies_detected": 55,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 165,
- "books_rows": 304,
+ "trades_collected": 2387,
+ "anomalies_detected": 41,
+ "anomalies_new": 36,
+ "history_debug": [
+  {
+   "cid": "0x1c5547d3",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x75fc33d2",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x234e06ff",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x58e38ce9",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 4,
+ "books_markets": 169,
+ "books_rows": 290,
  "status": "ok"
 }
