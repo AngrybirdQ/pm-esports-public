@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T04:26:08Z",
+ "ts": "2026-10-30T04:29:37Z",
  "sources": [
   {
    "url": "/tags",
@@ -368,11 +368,19 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 202,
  "trades_watchlist_markets": 33,
- "trades_collected": 3797,
- "anomalies_detected": 149,
- "anomalies_new": 46,
+ "trades_collected": 3852,
+ "anomalies_detected": 129,
+ "anomalies_new": 127,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "7309841698: HTTPError: HTTP Error 404: Not Found",
+  "9636484347: HTTPError: HTTP Error 404: Not Found",
+  "4706333239: HTTPError: HTTP Error 404: Not Found",
+  "8255441385: HTTPError: HTTP Error 404: Not Found",
+  "8294159320: HTTPError: HTTP Error 404: Not Found",
+  "6540289580: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 159,
  "books_rows": 120,
  "status": "ok"
