@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T15:03:07Z",
+ "ts": "2026-10-30T15:28:43Z",
  "sources": [
   {
    "url": "/tags",
@@ -160,7 +160,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Playoffs"
+   "Counter-Strike: MOUZ vs FURIA (BO3) - PGL Masters Bucharest Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Playoffs",
@@ -245,8 +245,8 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Team Spirit vs LEGION (BO3) - PARI Universe Playoffs",
-    "closed": true
+    "t": "Dota 2: potn9ki vs Team Synapse (BO3) - Esports Pro Circuit  Group C",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -295,15 +295,11 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: A Team vs Nova Esports (BO3) - VCT Threshold China Week 2",
-    "closed": true
-   },
-   {
     "t": "Valorant: Any Questions Gaming vs FunPlus Phoenix (BO3) - VCT Threshol",
     "closed": false
    },
    {
-    "t": "Valorant: World Sports Invictus Gaming vs TEC Esports (BO3) - VCT Thre",
+    "t": "Valorant: A Team vs Nova Esports (BO3) - VCT Threshold China Week 2",
     "closed": true
    },
    {
@@ -313,6 +309,10 @@
    {
     "t": "VALORANT Game Changers Championship 2026: Teams to Reach the Grand Fin",
     "closed": false
+   },
+   {
+    "t": "Valorant: NRG vs Fnatic (BO5)",
+    "closed": true
    }
   ],
   "search:NBA": [
@@ -362,18 +362,40 @@
  },
  "n_event_queries": 24,
  "events": 772,
- "markets": 849,
- "markets_dropped_by_volume_floor": 8976,
+ "markets": 859,
+ "markets_dropped_by_volume_floor": 8956,
  "day_file": "data/2026/10/2026-10-30T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 214,
- "trades_watchlist_markets": 89,
- "trades_collected": 4109,
- "anomalies_detected": 75,
- "anomalies_new": 71,
+ "trades_markets_queried": 221,
+ "trades_watchlist_markets": 98,
+ "trades_collected": 3777,
+ "anomalies_detected": 40,
+ "anomalies_new": 11,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 109,
- "books_rows": 152,
+ "books_errors": [
+  "1124530397: HTTPError: HTTP Error 404: Not Found",
+  "6062165698: HTTPError: HTTP Error 404: Not Found",
+  "2902337604: HTTPError: HTTP Error 404: Not Found",
+  "2276389685: HTTPError: HTTP Error 404: Not Found",
+  "7482391414: HTTPError: HTTP Error 404: Not Found",
+  "4869227748: HTTPError: HTTP Error 404: Not Found",
+  "1140200125: HTTPError: HTTP Error 404: Not Found",
+  "9957404991: HTTPError: HTTP Error 404: Not Found",
+  "7743269440: HTTPError: HTTP Error 404: Not Found",
+  "1000987543: HTTPError: HTTP Error 404: Not Found",
+  "1036257493: HTTPError: HTTP Error 404: Not Found",
+  "4332806649: HTTPError: HTTP Error 404: Not Found",
+  "9078989411: HTTPError: HTTP Error 404: Not Found",
+  "5472662282: HTTPError: HTTP Error 404: Not Found",
+  "1100701933: HTTPError: HTTP Error 404: Not Found",
+  "1236964260: HTTPError: HTTP Error 404: Not Found",
+  "8160377902: HTTPError: HTTP Error 404: Not Found",
+  "1110801486: HTTPError: HTTP Error 404: Not Found",
+  "4827420366: HTTPError: HTTP Error 404: Not Found",
+  "3322577474: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 118,
+ "books_rows": 162,
  "status": "ok"
 }
