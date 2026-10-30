@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T23:29:48Z",
+ "ts": "2026-10-30T23:50:42Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 30,
+   "events_returned": 33,
    "err": null
   },
   {
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 51,
+   "events_returned": 50,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 41,
+   "events_returned": 42,
    "err": null
   },
   {
@@ -158,9 +158,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: Team Liquid vs LOS (BO3) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "LoL: Hanwha Life Esports vs G2 Esports (BO3) - Worlds Group Stage"
+   "LoL: Hanwha Life Esports vs G2 Esports (BO3) - Worlds Group Stage",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
@@ -177,9 +177,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: Team Liquid vs LOS (BO3) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "LoL: Hanwha Life Esports vs G2 Esports (BO3) - Worlds Group Stage"
+   "LoL: Hanwha Life Esports vs G2 Esports (BO3) - Worlds Group Stage",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -187,8 +187,8 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "VALORANT Offseason: OXY Next Team",
    "Valorant: KRÜ Blaze vs MIBR GC (BO3) - VCT Game Changers Championship ",
+   "VALORANT Offseason: OXY Next Team",
    "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
@@ -361,19 +361,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 802,
- "markets": 1112,
- "markets_dropped_by_volume_floor": 9437,
+ "events": 804,
+ "markets": 1120,
+ "markets_dropped_by_volume_floor": 9478,
  "day_file": "data/2026/10/2026-10-30T23.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 253,
- "trades_watchlist_markets": 64,
- "trades_collected": 4578,
- "anomalies_detected": 136,
- "anomalies_new": 106,
+ "trades_markets_queried": 208,
+ "trades_watchlist_markets": 63,
+ "trades_collected": 5426,
+ "anomalies_detected": 192,
+ "anomalies_new": 120,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 114,
- "books_rows": 190,
+ "books_markets": 51,
+ "books_rows": 82,
  "status": "ok"
 }
