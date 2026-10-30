@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T13:25:08Z",
+ "ts": "2026-10-30T13:29:29Z",
  "sources": [
   {
    "url": "/tags",
@@ -188,8 +188,8 @@
   ],
   "tag_slug=valorant": [
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team",
-   "Valorant: Any Questions Gaming vs FunPlus Phoenix (BO3) - VCT Threshol"
+   "Valorant: Any Questions Gaming vs FunPlus Phoenix (BO3) - VCT Threshol",
+   "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -361,27 +361,35 @@
   ]
  },
  "n_event_queries": 24,
- "events": 771,
- "markets": 868,
- "markets_dropped_by_volume_floor": 8270,
+ "events": 772,
+ "markets": 880,
+ "markets_dropped_by_volume_floor": 8273,
  "day_file": "data/2026/10/2026-10-30T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 194,
+ "trades_markets_queried": 202,
  "trades_watchlist_markets": 78,
- "trades_collected": 3720,
- "anomalies_detected": 69,
- "anomalies_new": 1,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "7547468066: HTTPError: HTTP Error 404: Not Found",
-  "7027238736: HTTPError: HTTP Error 404: Not Found",
-  "3270167891: HTTPError: HTTP Error 404: Not Found",
-  "7587242667: HTTPError: HTTP Error 404: Not Found",
-  "9854112557: HTTPError: HTTP Error 404: Not Found",
-  "7455965287: HTTPError: HTTP Error 404: Not Found"
+ "trades_collected": 3685,
+ "anomalies_detected": 59,
+ "anomalies_new": 57,
+ "history_debug": [
+  {
+   "cid": "0xac625686",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x7150c156",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x6b4e24ff",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 112,
+ "history_conditions_new": 3,
+ "books_markets": 110,
  "books_rows": 188,
  "status": "ok"
 }
