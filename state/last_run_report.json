@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T00:52:14Z",
+ "ts": "2026-10-30T00:57:12Z",
  "sources": [
   {
    "url": "/tags",
@@ -158,8 +158,8 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Worlds 2026: Winner",
    "LoL: Top Esports vs Bilibili Gaming (BO3) - Worlds Group Stage",
+   "Worlds 2026: Winner",
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
@@ -177,8 +177,8 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "Worlds 2026: Winner",
    "LoL: Top Esports vs Bilibili Gaming (BO3) - Worlds Group Stage",
+   "Worlds 2026: Winner",
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
@@ -362,24 +362,18 @@
  },
  "n_event_queries": 24,
  "events": 778,
- "markets": 838,
- "markets_dropped_by_volume_floor": 6795,
+ "markets": 841,
+ "markets_dropped_by_volume_floor": 6757,
  "day_file": "data/2026/10/2026-10-30T00.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 258,
+ "trades_markets_queried": 261,
  "trades_watchlist_markets": 54,
- "trades_collected": 3792,
- "anomalies_detected": 170,
- "anomalies_new": 1,
+ "trades_collected": 4128,
+ "anomalies_detected": 143,
+ "anomalies_new": 43,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "8454755693: HTTPError: HTTP Error 404: Not Found",
-  "1061389361: HTTPError: HTTP Error 404: Not Found",
-  "2286139171: HTTPError: HTTP Error 404: Not Found",
-  "2629789287: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 184,
- "books_rows": 304,
+ "books_markets": 185,
+ "books_rows": 314,
  "status": "ok"
 }
