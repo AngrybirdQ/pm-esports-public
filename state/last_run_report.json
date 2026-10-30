@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T14:54:05Z",
+ "ts": "2026-10-30T15:03:07Z",
  "sources": [
   {
    "url": "/tags",
@@ -160,7 +160,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: Team Liquid vs LOS (BO3) - Worlds Group Stage"
+   "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Playoffs",
@@ -362,24 +362,18 @@
  },
  "n_event_queries": 24,
  "events": 772,
- "markets": 845,
- "markets_dropped_by_volume_floor": 8733,
- "day_file": "data/2026/10/2026-10-30T14.jsonl",
+ "markets": 849,
+ "markets_dropped_by_volume_floor": 8976,
+ "day_file": "data/2026/10/2026-10-30T15.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 214,
  "trades_watchlist_markets": 89,
- "trades_collected": 4058,
- "anomalies_detected": 55,
- "anomalies_new": 0,
+ "trades_collected": 4109,
+ "anomalies_detected": 75,
+ "anomalies_new": 71,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "7235549398: HTTPError: HTTP Error 404: Not Found",
-  "1365108141: HTTPError: HTTP Error 404: Not Found",
-  "5479687363: HTTPError: HTTP Error 404: Not Found",
-  "5194553092: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 110,
- "books_rows": 166,
+ "books_markets": 109,
+ "books_rows": 152,
  "status": "ok"
 }
