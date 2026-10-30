@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T01:30:56Z",
+ "ts": "2026-10-30T02:25:09Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 52,
+   "events_returned": 51,
    "err": null
   },
   {
@@ -158,9 +158,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: Top Esports vs Bilibili Gaming (BO3) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
@@ -177,9 +177,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: Top Esports vs Bilibili Gaming (BO3) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -303,16 +303,16 @@
     "closed": true
    },
    {
+    "t": "VALORANT Game Changers Championship 2026: Teams to Reach the Grand Fin",
+    "closed": false
+   },
+   {
     "t": "Valorant: A Team vs Nova Esports (BO3) - VCT Threshold China Week 2",
     "closed": false
    },
    {
     "t": "Valorant: NRG vs Fnatic (BO5)",
     "closed": true
-   },
-   {
-    "t": "Valorant: Gentle Mates GC vs Shopify Rebellion Gold (BO3) - VCT Game C",
-    "closed": false
    }
   ],
   "search:NBA": [
@@ -361,27 +361,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 777,
- "markets": 844,
- "markets_dropped_by_volume_floor": 6483,
- "day_file": "data/2026/10/2026-10-30T01.jsonl",
+ "events": 775,
+ "markets": 873,
+ "markets_dropped_by_volume_floor": 6412,
+ "day_file": "data/2026/10/2026-10-30T02.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 268,
- "trades_watchlist_markets": 55,
- "trades_collected": 5737,
- "anomalies_detected": 170,
- "anomalies_new": 170,
+ "trades_markets_queried": 270,
+ "trades_watchlist_markets": 56,
+ "trades_collected": 5856,
+ "anomalies_detected": 223,
+ "anomalies_new": 223,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "4903524091: HTTPError: HTTP Error 404: Not Found",
-  "4205577158: HTTPError: HTTP Error 404: Not Found",
-  "9114882514: HTTPError: HTTP Error 404: Not Found",
-  "1612187314: HTTPError: HTTP Error 404: Not Found",
-  "1484558973: HTTPError: HTTP Error 404: Not Found",
-  "8800227557: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 211,
- "books_rows": 354,
+ "books_markets": 224,
+ "books_rows": 298,
  "status": "ok"
 }
