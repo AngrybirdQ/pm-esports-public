@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T19:07:47Z",
+ "ts": "2026-10-30T19:25:48Z",
  "sources": [
   {
    "url": "/tags",
@@ -159,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "Dota 2: Team Spirit vs Team Liquid (BO3) - PARI Universe Playoffs"
+   "Dota 2: Team Spirit vs Team Liquid (BO3) - PARI Universe Playoffs",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Spirit vs Team Liquid (BO3) - PARI Universe Playoffs",
@@ -361,19 +361,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 805,
- "markets": 932,
- "markets_dropped_by_volume_floor": 9404,
+ "events": 804,
+ "markets": 943,
+ "markets_dropped_by_volume_floor": 9405,
  "day_file": "data/2026/10/2026-10-30T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 203,
- "trades_watchlist_markets": 57,
- "trades_collected": 3557,
- "anomalies_detected": 9,
- "anomalies_new": 0,
+ "trades_markets_queried": 209,
+ "trades_watchlist_markets": 58,
+ "trades_collected": 3672,
+ "anomalies_detected": 56,
+ "anomalies_new": 26,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 86,
- "books_rows": 166,
+ "books_markets": 88,
+ "books_rows": 172,
  "status": "ok"
 }
