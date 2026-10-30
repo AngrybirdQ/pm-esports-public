@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T23:05:17Z",
+ "ts": "2026-10-30T23:09:01Z",
  "sources": [
   {
    "url": "/tags",
@@ -188,8 +188,8 @@
   ],
   "tag_slug=valorant": [
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team",
-   "Valorant: KRÜ Blaze vs MIBR GC (BO3) - VCT Game Changers Championship "
+   "Valorant: KRÜ Blaze vs MIBR GC (BO3) - VCT Game Changers Championship ",
+   "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -361,23 +361,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 802,
- "markets": 1063,
- "markets_dropped_by_volume_floor": 9532,
+ "events": 803,
+ "markets": 1085,
+ "markets_dropped_by_volume_floor": 9494,
  "day_file": "data/2026/10/2026-10-30T23.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 240,
+ "trades_markets_queried": 250,
  "trades_watchlist_markets": 64,
- "trades_collected": 4021,
- "anomalies_detected": 105,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "2082918154: HTTPError: HTTP Error 404: Not Found",
-  "9940839581: HTTPError: HTTP Error 404: Not Found"
+ "trades_collected": 4204,
+ "anomalies_detected": 96,
+ "anomalies_new": 8,
+ "history_debug": [
+  {
+   "cid": "0x88a0502a",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 110,
- "books_rows": 166,
+ "history_conditions_new": 1,
+ "books_markets": 116,
+ "books_rows": 178,
  "status": "ok"
 }
