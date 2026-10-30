@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T21:53:12Z",
+ "ts": "2026-10-30T21:58:14Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 42,
+   "events_returned": 41,
    "err": null
   },
   {
@@ -187,9 +187,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: Gentle Mates GC vs Shopify Rebellion Gold (BO3) - VCT Game C",
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team"
+   "VALORANT Offseason: zekken Next Team",
+   "VALORANT Offseason: primmie Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -296,7 +296,7 @@
   "search:Valorant": [
    {
     "t": "Valorant: Gentle Mates GC vs Shopify Rebellion Gold (BO3) - VCT Game C",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Any Questions Gaming vs FunPlus Phoenix (BO3) - VCT Threshol",
@@ -361,33 +361,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 806,
- "markets": 1023,
- "markets_dropped_by_volume_floor": 9374,
+ "events": 805,
+ "markets": 1016,
+ "markets_dropped_by_volume_floor": 9364,
  "day_file": "data/2026/10/2026-10-30T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 243,
+ "trades_markets_queried": 242,
  "trades_watchlist_markets": 75,
- "trades_collected": 3517,
- "anomalies_detected": 68,
- "anomalies_new": 8,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "7435195429: HTTPError: HTTP Error 404: Not Found",
-  "4785012284: HTTPError: HTTP Error 404: Not Found",
-  "1080276781: HTTPError: HTTP Error 404: Not Found",
-  "8752693114: HTTPError: HTTP Error 404: Not Found",
-  "4538613043: HTTPError: HTTP Error 404: Not Found",
-  "2221750827: HTTPError: HTTP Error 404: Not Found",
-  "7713978414: HTTPError: HTTP Error 404: Not Found",
-  "1103838825: HTTPError: HTTP Error 404: Not Found",
-  "1285092988: HTTPError: HTTP Error 404: Not Found",
-  "2767147589: HTTPError: HTTP Error 404: Not Found",
-  "1137797225: HTTPError: HTTP Error 404: Not Found",
-  "2876405191: HTTPError: HTTP Error 404: Not Found"
+ "trades_collected": 3445,
+ "anomalies_detected": 70,
+ "anomalies_new": 12,
+ "history_debug": [
+  {
+   "cid": "0x4f4cb92d",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 116,
- "books_rows": 162,
+ "history_conditions_new": 1,
+ "books_markets": 110,
+ "books_rows": 160,
  "status": "ok"
 }
