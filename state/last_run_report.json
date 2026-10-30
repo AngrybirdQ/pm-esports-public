@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T16:59:43Z",
+ "ts": "2026-10-30T17:03:06Z",
  "sources": [
   {
    "url": "/tags",
@@ -233,15 +233,15 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs Team Yandex (BO3) - PARI Universe Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Playoffs",
     "closed": false
    },
    {
     "t": "Dota 2: OG vs GamerLegion (BO3) - PARI Universe Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: PARIVISION vs Team Yandex (BO3) - PARI Universe Playoffs",
     "closed": true
    },
    {
@@ -363,17 +363,17 @@
  "n_event_queries": 24,
  "events": 769,
  "markets": 889,
- "markets_dropped_by_volume_floor": 9147,
- "day_file": "data/2026/10/2026-10-30T16.jsonl",
+ "markets_dropped_by_volume_floor": 9146,
+ "day_file": "data/2026/10/2026-10-30T17.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 236,
  "trades_watchlist_markets": 93,
- "trades_collected": 3855,
- "anomalies_detected": 38,
- "anomalies_new": 36,
+ "trades_collected": 3776,
+ "anomalies_detected": 37,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 95,
- "books_rows": 152,
+ "books_rows": 146,
  "status": "ok"
 }
