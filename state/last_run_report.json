@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T00:04:27Z",
+ "ts": "2026-10-31T00:46:36Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 42,
+   "events_returned": 41,
    "err": null
   },
   {
@@ -158,8 +158,8 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "Worlds 2026: Winner",
    "LoL: Hanwha Life Esports vs G2 Esports (BO3) - Worlds Group Stage",
+   "Worlds 2026: Winner",
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
@@ -177,8 +177,8 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "Worlds 2026: Winner",
    "LoL: Hanwha Life Esports vs G2 Esports (BO3) - Worlds Group Stage",
+   "Worlds 2026: Winner",
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
@@ -187,9 +187,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: KRÜ Blaze vs MIBR GC (BO3) - VCT Game Changers Championship ",
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team"
+   "VALORANT Offseason: zekken Next Team",
+   "VALORANT Offseason: primmie Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -197,12 +197,12 @@
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Spurs vs. Jazz"
+   "Knicks vs. 76ers"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Spurs vs. Jazz"
+   "Knicks vs. 76ers"
   ],
   "tag_slug=international-affairs": [
    "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
@@ -308,7 +308,7 @@
    },
    {
     "t": "Valorant: KRÜ Blaze vs MIBR GC (BO3) - VCT Game Changers Championship ",
-    "closed": false
+    "closed": true
    },
    {
     "t": "VALORANT Game Changers Championship 2026: Teams to Reach the Grand Fin",
@@ -361,23 +361,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 804,
- "markets": 1180,
- "markets_dropped_by_volume_floor": 9498,
+ "events": 830,
+ "markets": 1308,
+ "markets_dropped_by_volume_floor": 9163,
  "day_file": "data/2026/10/2026-10-31T00.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 220,
- "trades_watchlist_markets": 63,
- "trades_collected": 6301,
- "anomalies_detected": 307,
- "anomalies_new": 5,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "2870325450: HTTPError: HTTP Error 404: Not Found",
-  "1327395256: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 235,
+ "trades_watchlist_markets": 30,
+ "trades_collected": 9710,
+ "anomalies_detected": 514,
+ "anomalies_new": 500,
+ "history_debug": [
+  {
+   "cid": "0x3951ba55",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 52,
- "books_rows": 76,
+ "history_conditions_new": 1,
+ "books_markets": 48,
+ "books_rows": 64,
  "status": "ok"
 }
