@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T04:33:27Z",
+ "ts": "2026-10-31T04:52:36Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 207,
+   "events_returned": 206,
    "err": null
   },
   {
@@ -362,18 +362,30 @@
  },
  "n_event_queries": 24,
  "events": 815,
- "markets": 837,
- "markets_dropped_by_volume_floor": 5817,
+ "markets": 828,
+ "markets_dropped_by_volume_floor": 5832,
  "day_file": "data/2026/10/2026-10-31T04.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 220,
- "trades_watchlist_markets": 39,
- "trades_collected": 6093,
- "anomalies_detected": 122,
- "anomalies_new": 86,
+ "trades_markets_queried": 144,
+ "trades_watchlist_markets": 28,
+ "trades_collected": 5590,
+ "anomalies_detected": 165,
+ "anomalies_new": 165,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 142,
- "books_rows": 180,
+ "books_errors": [
+  "4818280115: HTTPError: HTTP Error 404: Not Found",
+  "1018982486: HTTPError: HTTP Error 404: Not Found",
+  "1141230238: HTTPError: HTTP Error 404: Not Found",
+  "3219129117: HTTPError: HTTP Error 404: Not Found",
+  "1255502978: HTTPError: HTTP Error 404: Not Found",
+  "4787024882: HTTPError: HTTP Error 404: Not Found",
+  "1040788179: HTTPError: HTTP Error 404: Not Found",
+  "1027588628: HTTPError: HTTP Error 404: Not Found",
+  "8783027907: HTTPError: HTTP Error 404: Not Found",
+  "1148644887: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 51,
+ "books_rows": 64,
  "status": "ok"
 }
