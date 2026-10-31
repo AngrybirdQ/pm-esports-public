@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T16:15:41Z",
+ "ts": "2026-10-31T16:18:06Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 34,
+   "events_returned": 33,
    "err": null
   },
   {
@@ -159,13 +159,13 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Counter-Strike: Nemiga vs FURIA (BO5) - PGL Masters Bucharest Playoffs",
-   "Dota 2: Team Yandex vs GamerLegion (BO3) - PARI Universe Playoffs"
+   "Worlds 2026 Winning Region",
+   "LoL: Karmine Corp vs Movistar KOI (BO3) - Worlds Group Stage"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Team Yandex vs GamerLegion (BO3) - PARI Universe Playoffs",
    "Dota 2: Xipto Esports vs HellNight- (BO3) - Esports Pro Circuit  Group",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -361,14 +361,14 @@
   ]
  },
  "n_event_queries": 24,
- "events": 813,
- "markets": 815,
- "markets_dropped_by_volume_floor": 7354,
+ "events": 812,
+ "markets": 812,
+ "markets_dropped_by_volume_floor": 7356,
  "day_file": "data/2026/10/2026-10-31T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 191,
+ "trades_markets_queried": 190,
  "trades_watchlist_markets": 104,
- "trades_collected": 3218,
+ "trades_collected": 3109,
  "anomalies_detected": 1,
  "anomalies_new": 0,
  "history_debug": [],
