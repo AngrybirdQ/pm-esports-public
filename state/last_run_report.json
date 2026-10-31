@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T18:45:14Z",
+ "ts": "2026-10-31T20:05:44Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 32,
+   "events_returned": 31,
    "err": null
   },
   {
@@ -160,7 +160,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "LoL: Karmine Corp vs Movistar KOI (BO3) - Worlds Group Stage",
-   "Worlds 2026 Winning Region"
+   "LoL: LOS vs LYON (BO3) - Worlds Group Stage"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Spirit vs GamerLegion (BO3) - PARI Universe Playoffs",
@@ -179,7 +179,7 @@
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
    "LoL: Karmine Corp vs Movistar KOI (BO3) - Worlds Group Stage",
-   "Worlds 2026 Winning Region"
+   "LoL: LOS vs LYON (BO3) - Worlds Group Stage"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -202,7 +202,7 @@
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "WNBA: 2026 Champion"
+   "Trail Blazers vs. Jazz"
   ],
   "tag_slug=international-affairs": [
    "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
@@ -233,12 +233,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs Team Liquid (BO3) - PARI Universe Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Spirit vs GamerLegion (BO3) - PARI Universe Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Spirit vs Team Liquid (BO3) - PARI Universe Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: World Squad vs CIS Squad (BO1) - PARI Universe Showmatch",
@@ -299,16 +299,16 @@
     "closed": true
    },
    {
+    "t": "Valorant: Shopify Rebellion Gold vs KRÜ Blaze (BO5) - VCT Game Changer",
+    "closed": false
+   },
+   {
     "t": "Valorant: Unsettled Resentment vs World Sports Invictus Gaming (BO3) -",
     "closed": true
    },
    {
     "t": "Valorant: Nova Esports vs Any Questions Gaming (BO3) - VCT Threshold C",
     "closed": true
-   },
-   {
-    "t": "Valorant: Shopify Rebellion Gold vs KRÜ Blaze (BO5) - VCT Game Changer",
-    "closed": false
    },
    {
     "t": "Valorant: KRÜ Blaze vs MIBR GC (BO3) - VCT Game Changers Championship ",
@@ -361,19 +361,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 810,
- "markets": 920,
- "markets_dropped_by_volume_floor": 7668,
- "day_file": "data/2026/10/2026-10-31T18.jsonl",
+ "events": 809,
+ "markets": 972,
+ "markets_dropped_by_volume_floor": 7728,
+ "day_file": "data/2026/10/2026-10-31T20.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 184,
- "trades_watchlist_markets": 74,
- "trades_collected": 3810,
- "anomalies_detected": 14,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 97,
- "books_rows": 138,
+ "trades_markets_queried": 268,
+ "trades_watchlist_markets": 80,
+ "trades_collected": 5937,
+ "anomalies_detected": 194,
+ "anomalies_new": 194,
+ "history_debug": [
+  {
+   "cid": "0xd9240f4e",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 167,
+ "books_rows": 229,
  "status": "ok"
 }
