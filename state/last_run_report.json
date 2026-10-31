@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T22:44:49Z",
+ "ts": "2026-10-31T22:48:35Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 49,
+   "events_returned": 48,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 42,
+   "events_returned": 41,
    "err": null
   },
   {
@@ -158,9 +158,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: LOS vs LYON (BO3) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "LoL: Hanwha Life Esports vs Bilibili Gaming (BO3) - Worlds Group Stage"
+   "LoL: Hanwha Life Esports vs Bilibili Gaming (BO3) - Worlds Group Stage",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Level Up Academy vs old blood (BO3) - Esports Pro Circuit  Gro",
@@ -177,9 +177,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: LOS vs LYON (BO3) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "LoL: Hanwha Life Esports vs Bilibili Gaming (BO3) - Worlds Group Stage"
+   "LoL: Hanwha Life Esports vs Bilibili Gaming (BO3) - Worlds Group Stage",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -187,9 +187,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "Valorant: Shopify Rebellion Gold vs KRÜ Blaze (BO5) - VCT Game Changer",
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team"
+   "VALORANT Offseason: zekken Next Team",
+   "VALORANT Offseason: primmie Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -361,16 +361,16 @@
   ]
  },
  "n_event_queries": 24,
- "events": 809,
+ "events": 808,
  "markets": 936,
- "markets_dropped_by_volume_floor": 7376,
+ "markets_dropped_by_volume_floor": 7375,
  "day_file": "data/2026/10/2026-10-31T22.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 222,
  "trades_watchlist_markets": 75,
- "trades_collected": 3576,
- "anomalies_detected": 25,
- "anomalies_new": 0,
+ "trades_collected": 3713,
+ "anomalies_detected": 26,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 102,
