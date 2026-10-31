@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T20:27:48Z",
+ "ts": "2026-10-31T20:32:29Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 52,
+   "events_returned": 51,
    "err": null
   },
   {
@@ -159,13 +159,13 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "LoL: Karmine Corp vs Movistar KOI (BO3) - Worlds Group Stage",
-   "LoL: LOS vs LYON (BO3) - Worlds Group Stage"
+   "LoL: LOS vs LYON (BO3) - Worlds Group Stage",
+   "Dota 2: Team Spirit vs GamerLegion (BO3) - PARI Universe Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Spirit vs GamerLegion (BO3) - PARI Universe Playoffs",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: Level Up Academy vs old blood (BO3) - Esports Pro Circuit  Gro"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -178,8 +178,8 @@
   ],
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
-   "LoL: Karmine Corp vs Movistar KOI (BO3) - Worlds Group Stage",
-   "LoL: LOS vs LYON (BO3) - Worlds Group Stage"
+   "LoL: LOS vs LYON (BO3) - Worlds Group Stage",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -362,32 +362,18 @@
  },
  "n_event_queries": 24,
  "events": 808,
- "markets": 976,
- "markets_dropped_by_volume_floor": 7733,
+ "markets": 969,
+ "markets_dropped_by_volume_floor": 7720,
  "day_file": "data/2026/10/2026-10-31T20.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 268,
+ "trades_markets_queried": 264,
  "trades_watchlist_markets": 80,
- "trades_collected": 5700,
+ "trades_collected": 5394,
  "anomalies_detected": 3,
- "anomalies_new": 0,
+ "anomalies_new": 1,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "7613088553: HTTPError: HTTP Error 404: Not Found",
-  "1032550626: HTTPError: HTTP Error 404: Not Found",
-  "3673561747: HTTPError: HTTP Error 404: Not Found",
-  "7757669586: HTTPError: HTTP Error 404: Not Found",
-  "2017775500: HTTPError: HTTP Error 404: Not Found",
-  "4220276978: HTTPError: HTTP Error 404: Not Found",
-  "6127668008: HTTPError: HTTP Error 404: Not Found",
-  "6939356470: HTTPError: HTTP Error 404: Not Found",
-  "1369683011: HTTPError: HTTP Error 404: Not Found",
-  "4699996926: HTTPError: HTTP Error 404: Not Found",
-  "3610192831: HTTPError: HTTP Error 404: Not Found",
-  "6354814561: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 164,
- "books_rows": 206,
+ "books_markets": 158,
+ "books_rows": 192,
  "status": "ok"
 }
