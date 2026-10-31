@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T18:26:36Z",
+ "ts": "2026-10-31T18:34:26Z",
  "sources": [
   {
    "url": "/tags",
@@ -33,7 +33,7 @@
   {
    "url": "tag_slug=cs2",
    "ok": true,
-   "events_returned": 24,
+   "events_returned": 23,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 43,
+   "events_returned": 42,
    "err": null
   },
   {
@@ -168,9 +168,9 @@
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
-   "PGL Masters Bucharest 2026: Winner",
    "Will FaZe win a Tier 1 event in 2026? ",
-   "Which teams will qualify to PGL Major Singapore 2026?"
+   "Which teams will qualify to PGL Major Singapore 2026?",
+   "CS2 Offseason: m0NESY Next Team"
   ],
   "tag_slug=counter-strike": [
    "Will Valve add sticker trade-ups before November?",
@@ -189,7 +189,7 @@
   "tag_slug=valorant": [
    "VALORANT Offseason: OXY Next Team",
    "VALORANT Offseason: zekken Next Team",
-   "VALORANT Offseason: primmie Next Team"
+   "Valorant: Shopify Rebellion Gold vs KRÜ Blaze (BO5) - VCT Game Changer"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -361,19 +361,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 810,
- "markets": 901,
- "markets_dropped_by_volume_floor": 7658,
+ "events": 809,
+ "markets": 911,
+ "markets_dropped_by_volume_floor": 7663,
  "day_file": "data/2026/10/2026-10-31T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 175,
+ "trades_markets_queried": 178,
  "trades_watchlist_markets": 74,
- "trades_collected": 3671,
- "anomalies_detected": 13,
- "anomalies_new": 1,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 92,
- "books_rows": 146,
+ "trades_collected": 3461,
+ "anomalies_detected": 15,
+ "anomalies_new": 8,
+ "history_debug": [
+  {
+   "cid": "0x3788d4af",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 96,
+ "books_rows": 138,
  "status": "ok"
 }
