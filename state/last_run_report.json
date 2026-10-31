@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T04:52:36Z",
+ "ts": "2026-10-31T04:56:02Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 206,
+   "events_returned": 203,
    "err": null
   },
   {
@@ -197,12 +197,12 @@
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Knicks vs. 76ers"
+   "Lakers vs. Warriors"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Knicks vs. 76ers"
+   "Lakers vs. Warriors"
   ],
   "tag_slug=international-affairs": [
    "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
@@ -361,31 +361,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 815,
- "markets": 828,
- "markets_dropped_by_volume_floor": 5832,
+ "events": 813,
+ "markets": 782,
+ "markets_dropped_by_volume_floor": 5647,
  "day_file": "data/2026/10/2026-10-31T04.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 144,
+ "trades_markets_queried": 124,
  "trades_watchlist_markets": 28,
- "trades_collected": 5590,
- "anomalies_detected": 165,
- "anomalies_new": 165,
+ "trades_collected": 3893,
+ "anomalies_detected": 113,
+ "anomalies_new": 14,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "4818280115: HTTPError: HTTP Error 404: Not Found",
-  "1018982486: HTTPError: HTTP Error 404: Not Found",
-  "1141230238: HTTPError: HTTP Error 404: Not Found",
-  "3219129117: HTTPError: HTTP Error 404: Not Found",
-  "1255502978: HTTPError: HTTP Error 404: Not Found",
-  "4787024882: HTTPError: HTTP Error 404: Not Found",
-  "1040788179: HTTPError: HTTP Error 404: Not Found",
-  "1027588628: HTTPError: HTTP Error 404: Not Found",
-  "8783027907: HTTPError: HTTP Error 404: Not Found",
-  "1148644887: HTTPError: HTTP Error 404: Not Found"
- ],
  "books_markets": 51,
- "books_rows": 64,
+ "books_rows": 72,
  "status": "ok"
 }
