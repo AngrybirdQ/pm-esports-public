@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T16:46:09Z",
+ "ts": "2026-10-31T17:59:51Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 43,
+   "events_returned": 42,
    "err": null
   },
   {
@@ -159,13 +159,13 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "LoL: Karmine Corp vs Movistar KOI (BO3) - Worlds Group Stage"
+   "LoL: Karmine Corp vs Movistar KOI (BO3) - Worlds Group Stage",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
    "Dota 2: Team Spirit vs GamerLegion (BO3) - PARI Universe Playoffs",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: World Squad vs CIS Squad (BO1) - PARI Universe Showmatch",
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -178,8 +178,8 @@
   ],
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "LoL: Karmine Corp vs Movistar KOI (BO3) - Worlds Group Stage"
+   "LoL: Karmine Corp vs Movistar KOI (BO3) - Worlds Group Stage",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -197,7 +197,7 @@
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Cavaliers vs. Bucks"
+   "76ers vs. Hornets"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
@@ -237,15 +237,15 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Xipto Esports vs HellNight- (BO3) - Esports Pro Circuit  Group",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Spirit vs GamerLegion (BO3) - PARI Universe Playoffs",
     "closed": false
    },
    {
-    "t": "Dota 2: SOLID vs Chandogs (BO3) - NEXUS SERIES Playoffs",
+    "t": "Dota 2: World Squad vs CIS Squad (BO1) - PARI Universe Showmatch",
+    "closed": false
+   },
+   {
+    "t": "Dota 2: Xipto Esports vs HellNight- (BO3) - Esports Pro Circuit  Group",
     "closed": true
    }
   ],
@@ -361,19 +361,30 @@
   ]
  },
  "n_event_queries": 24,
- "events": 813,
- "markets": 840,
- "markets_dropped_by_volume_floor": 7338,
- "day_file": "data/2026/10/2026-10-31T16.jsonl",
+ "events": 810,
+ "markets": 893,
+ "markets_dropped_by_volume_floor": 7664,
+ "day_file": "data/2026/10/2026-10-31T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 195,
- "trades_watchlist_markets": 104,
- "trades_collected": 3337,
- "anomalies_detected": 31,
- "anomalies_new": 28,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 94,
- "books_rows": 144,
+ "trades_markets_queried": 168,
+ "trades_watchlist_markets": 74,
+ "trades_collected": 3541,
+ "anomalies_detected": 95,
+ "anomalies_new": 95,
+ "history_debug": [
+  {
+   "cid": "0x32bcd5c6",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xae60f64d",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_markets": 96,
+ "books_rows": 150,
  "status": "ok"
 }
