@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T02:31:35Z",
+ "ts": "2026-10-31T02:50:00Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 213,
+   "events_returned": 212,
    "err": null
   },
   {
@@ -311,8 +311,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: NRG vs Fnatic (BO5)",
-    "closed": true
+    "t": "Valorant: Unsettled Resentment vs World Sports Invictus Gaming (BO3) -",
+    "closed": false
    }
   ],
   "search:NBA": [
@@ -361,25 +361,23 @@
   ]
  },
  "n_event_queries": 24,
- "events": 823,
- "markets": 1047,
- "markets_dropped_by_volume_floor": 7206,
+ "events": 820,
+ "markets": 1036,
+ "markets_dropped_by_volume_floor": 6996,
  "day_file": "data/2026/10/2026-10-31T02.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 270,
- "trades_watchlist_markets": 39,
- "trades_collected": 8799,
- "anomalies_detected": 345,
- "anomalies_new": 345,
+ "trades_markets_queried": 210,
+ "trades_watchlist_markets": 41,
+ "trades_collected": 8840,
+ "anomalies_detected": 385,
+ "anomalies_new": 289,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "2886586844: HTTPError: HTTP Error 404: Not Found",
-  "7078474443: HTTPError: HTTP Error 404: Not Found",
-  "2018039884: HTTPError: HTTP Error 404: Not Found",
-  "3951164293: HTTPError: HTTP Error 404: Not Found"
+  "1029788623: HTTPError: HTTP Error 404: Not Found",
+  "1061855957: HTTPError: HTTP Error 404: Not Found"
  ],
- "books_markets": 144,
- "books_rows": 204,
+ "books_markets": 44,
+ "books_rows": 64,
  "status": "ok"
 }
