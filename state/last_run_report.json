@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T16:37:41Z",
+ "ts": "2026-10-31T16:40:04Z",
  "sources": [
   {
    "url": "/tags",
@@ -164,8 +164,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A",
-   "Dota 2: Stray Team vs Rostik Team (BO3) - BetBoom Streamers Battle Gro"
+   "Dota 2: Team Spirit vs GamerLegion (BO3) - PARI Universe Playoffs",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -245,7 +245,7 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Playoffs",
+    "t": "Dota 2: SOLID vs Chandogs (BO3) - NEXUS SERIES Playoffs",
     "closed": true
    }
   ],
@@ -362,18 +362,24 @@
  },
  "n_event_queries": 24,
  "events": 813,
- "markets": 823,
- "markets_dropped_by_volume_floor": 7341,
+ "markets": 840,
+ "markets_dropped_by_volume_floor": 7332,
  "day_file": "data/2026/10/2026-10-31T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 190,
+ "trades_markets_queried": 195,
  "trades_watchlist_markets": 104,
- "trades_collected": 3016,
+ "trades_collected": 3326,
  "anomalies_detected": 3,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 95,
+ "history_debug": [
+  {
+   "cid": "0x0a0947be",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 94,
  "books_rows": 144,
  "status": "ok"
 }
