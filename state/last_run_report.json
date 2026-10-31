@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T20:18:51Z",
+ "ts": "2026-10-31T20:23:35Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 42,
+   "events_returned": 41,
    "err": null
   },
   {
@@ -164,8 +164,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Spirit vs GamerLegion (BO3) - PARI Universe Playoffs",
-   "Dota 2: World Squad vs CIS Squad (BO1) - PARI Universe Showmatch",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -242,7 +242,7 @@
    },
    {
     "t": "Dota 2: World Squad vs CIS Squad (BO1) - PARI Universe Showmatch",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Xipto Esports vs HellNight- (BO3) - Esports Pro Circuit  Group",
@@ -361,27 +361,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 809,
- "markets": 978,
- "markets_dropped_by_volume_floor": 7697,
+ "events": 808,
+ "markets": 976,
+ "markets_dropped_by_volume_floor": 7733,
  "day_file": "data/2026/10/2026-10-31T20.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 270,
+ "trades_markets_queried": 268,
  "trades_watchlist_markets": 80,
- "trades_collected": 6021,
- "anomalies_detected": 5,
+ "trades_collected": 5815,
+ "anomalies_detected": 3,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "4372713237: HTTPError: HTTP Error 404: Not Found",
-  "4593878421: HTTPError: HTTP Error 404: Not Found",
-  "2903096686: HTTPError: HTTP Error 404: Not Found",
-  "1159121324: HTTPError: HTTP Error 404: Not Found",
-  "8464259916: HTTPError: HTTP Error 404: Not Found",
-  "9772099233: HTTPError: HTTP Error 404: Not Found"
+ "history_debug": [
+  {
+   "cid": "0x7f6e8baf",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 166,
- "books_rows": 206,
+ "history_conditions_new": 1,
+ "books_markets": 164,
+ "books_rows": 202,
  "status": "ok"
 }
