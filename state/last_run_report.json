@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T09:04:30Z",
+ "ts": "2026-10-31T09:50:26Z",
  "sources": [
   {
    "url": "/tags",
@@ -159,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "Counter-Strike: Vitality vs MOUZ (BO3) - PGL Masters Bucharest Playoff"
+   "Counter-Strike: Vitality vs MOUZ (BO3) - PGL Masters Bucharest Playoff",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
@@ -303,11 +303,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: A Team vs Nova Esports (BO3) - VCT Threshold China Week 2",
+    "t": "Valorant: KRÜ Blaze vs MIBR GC (BO3) - VCT Game Changers Championship ",
     "closed": true
    },
    {
-    "t": "Valorant: KRÜ Blaze vs MIBR GC (BO3) - VCT Game Changers Championship ",
+    "t": "Valorant: A Team vs Nova Esports (BO3) - VCT Threshold China Week 2",
     "closed": true
    },
    {
@@ -361,19 +361,30 @@
   ]
  },
  "n_event_queries": 24,
- "events": 811,
- "markets": 729,
- "markets_dropped_by_volume_floor": 6373,
+ "events": 806,
+ "markets": 742,
+ "markets_dropped_by_volume_floor": 6392,
  "day_file": "data/2026/10/2026-10-31T09.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 121,
- "trades_watchlist_markets": 51,
- "trades_collected": 1424,
- "anomalies_detected": 21,
- "anomalies_new": 3,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 80,
+ "trades_markets_queried": 127,
+ "trades_watchlist_markets": 61,
+ "trades_collected": 1755,
+ "anomalies_detected": 34,
+ "anomalies_new": 33,
+ "history_debug": [
+  {
+   "cid": "0x82c71f72",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x9a52b37e",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_markets": 84,
  "books_rows": 148,
  "status": "ok"
 }
