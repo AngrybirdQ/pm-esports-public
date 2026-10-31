@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T16:10:02Z",
+ "ts": "2026-10-31T16:12:57Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 41,
+   "events_returned": 42,
    "err": null
   },
   {
@@ -361,23 +361,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 812,
- "markets": 818,
- "markets_dropped_by_volume_floor": 7353,
+ "events": 813,
+ "markets": 815,
+ "markets_dropped_by_volume_floor": 7354,
  "day_file": "data/2026/10/2026-10-31T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 194,
+ "trades_markets_queried": 191,
  "trades_watchlist_markets": 104,
- "trades_collected": 3305,
- "anomalies_detected": 43,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "7831702067: HTTPError: HTTP Error 404: Not Found",
-  "1231448001: HTTPError: HTTP Error 404: Not Found"
+ "trades_collected": 3263,
+ "anomalies_detected": 41,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0xc68c139d",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 100,
- "books_rows": 146,
+ "history_conditions_new": 1,
+ "books_markets": 99,
+ "books_rows": 152,
  "status": "ok"
 }
