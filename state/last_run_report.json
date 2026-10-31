@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T16:21:19Z",
+ "ts": "2026-10-31T16:28:59Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 33,
+   "events_returned": 32,
    "err": null
   },
   {
@@ -163,9 +163,9 @@
    "LoL: Karmine Corp vs Movistar KOI (BO3) - Worlds Group Stage"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Xipto Esports vs HellNight- (BO3) - Esports Pro Circuit  Group",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A",
+   "Dota 2: Stray Team vs Rostik Team (BO3) - BetBoom Streamers Battle Gro"
   ],
   "tag_slug=cs2": [
    "PGL Masters Bucharest 2026: Winner",
@@ -237,16 +237,16 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Xipto Esports vs HellNight- (BO3) - Esports Pro Circuit  Group",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Spirit vs GamerLegion (BO3) - PARI Universe Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Playoffs",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -362,18 +362,22 @@
  },
  "n_event_queries": 24,
  "events": 812,
- "markets": 812,
- "markets_dropped_by_volume_floor": 7356,
+ "markets": 823,
+ "markets_dropped_by_volume_floor": 7337,
  "day_file": "data/2026/10/2026-10-31T16.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 190,
  "trades_watchlist_markets": 104,
- "trades_collected": 3030,
+ "trades_collected": 3023,
  "anomalies_detected": 3,
- "anomalies_new": 2,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 99,
- "books_rows": 150,
+ "books_errors": [
+  "9815002357: HTTPError: HTTP Error 404: Not Found",
+  "4081538578: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 96,
+ "books_rows": 146,
  "status": "ok"
 }
