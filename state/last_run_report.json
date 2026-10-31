@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T03:02:21Z",
+ "ts": "2026-10-31T03:47:47Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 33,
+   "events_returned": 32,
    "err": null
   },
   {
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 211,
+   "events_returned": 207,
    "err": null
   },
   {
@@ -246,7 +246,7 @@
    },
    {
     "t": "Dota 2: SOLID vs Chandogs (BO3) - NEXUS SERIES Playoffs",
-    "closed": false
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -361,19 +361,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 819,
- "markets": 971,
- "markets_dropped_by_volume_floor": 6731,
+ "events": 816,
+ "markets": 833,
+ "markets_dropped_by_volume_floor": 5867,
  "day_file": "data/2026/10/2026-10-31T03.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 162,
- "trades_watchlist_markets": 41,
- "trades_collected": 5416,
- "anomalies_detected": 221,
- "anomalies_new": 122,
+ "trades_markets_queried": 204,
+ "trades_watchlist_markets": 39,
+ "trades_collected": 6084,
+ "anomalies_detected": 129,
+ "anomalies_new": 129,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 44,
- "books_rows": 68,
+ "books_markets": 133,
+ "books_rows": 224,
  "status": "ok"
 }
