@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T18:38:08Z",
+ "ts": "2026-10-31T18:41:18Z",
  "sources": [
   {
    "url": "/tags",
@@ -187,9 +187,9 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
+   "Valorant: Shopify Rebellion Gold vs KRÜ Blaze (BO5) - VCT Game Changer",
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team",
-   "Valorant: Shopify Rebellion Gold vs KRÜ Blaze (BO5) - VCT Game Changer"
+   "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -197,7 +197,7 @@
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "76ers vs. Hornets"
+   "Trail Blazers vs. Jazz"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
@@ -229,11 +229,11 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Team Spirit vs Team Liquid (BO3) - PARI Universe Playoffs",
+    "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - PARI Universe Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - PARI Universe Playoffs",
+    "t": "Dota 2: Team Spirit vs Team Liquid (BO3) - PARI Universe Playoffs",
     "closed": true
    },
    {
@@ -307,12 +307,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: KRÜ Blaze vs MIBR GC (BO3) - VCT Game Changers Championship ",
-    "closed": true
-   },
-   {
     "t": "Valorant: Shopify Rebellion Gold vs KRÜ Blaze (BO5) - VCT Game Changer",
     "closed": false
+   },
+   {
+    "t": "Valorant: KRÜ Blaze vs MIBR GC (BO3) - VCT Game Changers Championship ",
+    "closed": true
    }
   ],
   "search:NBA": [
@@ -361,19 +361,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 809,
- "markets": 911,
- "markets_dropped_by_volume_floor": 7663,
+ "events": 810,
+ "markets": 920,
+ "markets_dropped_by_volume_floor": 7668,
  "day_file": "data/2026/10/2026-10-31T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 178,
+ "trades_markets_queried": 184,
  "trades_watchlist_markets": 74,
- "trades_collected": 3510,
- "anomalies_detected": 16,
- "anomalies_new": 1,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 96,
+ "trades_collected": 3711,
+ "anomalies_detected": 14,
+ "anomalies_new": 0,
+ "history_debug": [
+  {
+   "cid": "0xa1186465",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 97,
  "books_rows": 136,
  "status": "ok"
 }
