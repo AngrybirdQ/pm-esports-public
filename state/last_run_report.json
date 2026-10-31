@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T10:59:27Z",
+ "ts": "2026-10-31T11:51:52Z",
  "sources": [
   {
    "url": "/tags",
@@ -159,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "Counter-Strike: Nemiga vs FURIA (BO5) - PGL Masters Bucharest Playoffs"
+   "Counter-Strike: Nemiga vs FURIA (BO5) - PGL Masters Bucharest Playoffs",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
@@ -229,15 +229,15 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Team Spirit vs PARIVISION (BO3) - PARI Universe Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Spirit vs Team Liquid (BO3) - PARI Universe Playoffs",
     "closed": true
    },
    {
     "t": "Dota 2: Team Liquid vs OG (BO3) - PARI Universe Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Team Spirit vs PARIVISION (BO3) - PARI Universe Playoffs",
     "closed": true
    },
    {
@@ -303,12 +303,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: KRÜ Blaze vs MIBR GC (BO3) - VCT Game Changers Championship ",
-    "closed": true
-   },
-   {
     "t": "Valorant: Unsettled Resentment vs World Sports Invictus Gaming (BO3) -",
     "closed": false
+   },
+   {
+    "t": "Valorant: KRÜ Blaze vs MIBR GC (BO3) - VCT Game Changers Championship ",
+    "closed": true
    },
    {
     "t": "Valorant: A Team vs Nova Esports (BO3) - VCT Threshold China Week 2",
@@ -361,19 +361,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 808,
- "markets": 761,
- "markets_dropped_by_volume_floor": 6550,
- "day_file": "data/2026/10/2026-10-31T10.jsonl",
+ "events": 807,
+ "markets": 765,
+ "markets_dropped_by_volume_floor": 6537,
+ "day_file": "data/2026/10/2026-10-31T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 145,
- "trades_watchlist_markets": 73,
- "trades_collected": 2313,
- "anomalies_detected": 25,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 87,
- "books_rows": 154,
+ "trades_markets_queried": 157,
+ "trades_watchlist_markets": 94,
+ "trades_collected": 2024,
+ "anomalies_detected": 48,
+ "anomalies_new": 48,
+ "history_debug": [
+  {
+   "cid": "0xaba63b77",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 96,
+ "books_rows": 172,
  "status": "ok"
 }
