@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T01:31:39Z",
+ "ts": "2026-10-31T01:52:41Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 53,
+   "events_returned": 52,
    "err": null
   },
   {
@@ -158,9 +158,9 @@
  ],
  "tag_samples": {
   "tag_slug=esports": [
-   "LoL: Hanwha Life Esports vs G2 Esports (BO3) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
@@ -177,9 +177,9 @@
    "Will Valve add sticker trade-ups by...?"
   ],
   "tag_slug=league-of-legends": [
-   "LoL: Hanwha Life Esports vs G2 Esports (BO3) - Worlds Group Stage",
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -361,19 +361,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 829,
- "markets": 1278,
- "markets_dropped_by_volume_floor": 8929,
+ "events": 828,
+ "markets": 1234,
+ "markets_dropped_by_volume_floor": 8430,
  "day_file": "data/2026/10/2026-10-31T01.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
- "trades_watchlist_markets": 30,
- "trades_collected": 12214,
- "anomalies_detected": 538,
- "anomalies_new": 538,
+ "trades_watchlist_markets": 39,
+ "trades_collected": 7883,
+ "anomalies_detected": 455,
+ "anomalies_new": 335,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 40,
- "books_rows": 58,
+ "books_markets": 174,
+ "books_rows": 254,
  "status": "ok"
 }
