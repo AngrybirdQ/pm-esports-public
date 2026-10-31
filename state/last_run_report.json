@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T16:31:43Z",
+ "ts": "2026-10-31T16:34:49Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 42,
+   "events_returned": 43,
    "err": null
   },
   {
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 202,
+   "events_returned": 201,
    "err": null
   },
   {
@@ -197,12 +197,12 @@
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Spurs vs. Jazz"
+   "Cavaliers vs. Bucks"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Spurs vs. Jazz"
+   "WNBA: 2026 Champion"
   ],
   "tag_slug=international-affairs": [
    "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
@@ -361,23 +361,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 812,
+ "events": 813,
  "markets": 823,
- "markets_dropped_by_volume_floor": 7337,
+ "markets_dropped_by_volume_floor": 7341,
  "day_file": "data/2026/10/2026-10-31T16.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 190,
  "trades_watchlist_markets": 104,
- "trades_collected": 3052,
+ "trades_collected": 3049,
  "anomalies_detected": 3,
- "anomalies_new": 1,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "9815002357: HTTPError: HTTP Error 404: Not Found",
-  "4081538578: HTTPError: HTTP Error 404: Not Found"
+ "anomalies_new": 0,
+ "history_debug": [
+  {
+   "cid": "0xe1d004d1",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 96,
+ "history_conditions_new": 1,
+ "books_markets": 95,
  "books_rows": 144,
  "status": "ok"
 }
