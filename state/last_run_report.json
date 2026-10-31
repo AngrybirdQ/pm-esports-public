@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T20:36:46Z",
+ "ts": "2026-10-31T20:45:43Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,13 +51,13 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 51,
+   "events_returned": 49,
    "err": null
   },
   {
    "url": "tag_slug=lol",
    "ok": true,
-   "events_returned": 38,
+   "events_returned": 36,
    "err": null
   },
   {
@@ -164,8 +164,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Team Spirit vs GamerLegion (BO3) - PARI Universe Playoffs",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Level Up Academy vs old blood (BO3) - Esports Pro Circuit  Gro"
+   "Dota 2: Level Up Academy vs old blood (BO3) - Esports Pro Circuit  Gro",
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -299,11 +299,11 @@
     "closed": false
    },
    {
-    "t": "Valorant: Gentle Mates GC vs Shopify Rebellion Gold (BO3) - VCT Game C",
+    "t": "Valorant: Unsettled Resentment vs World Sports Invictus Gaming (BO3) -",
     "closed": true
    },
    {
-    "t": "Valorant: Unsettled Resentment vs World Sports Invictus Gaming (BO3) -",
+    "t": "Valorant: Gentle Mates GC vs Shopify Rebellion Gold (BO3) - VCT Game C",
     "closed": true
    },
    {
@@ -361,14 +361,14 @@
   ]
  },
  "n_event_queries": 24,
- "events": 808,
- "markets": 976,
- "markets_dropped_by_volume_floor": 7717,
+ "events": 807,
+ "markets": 948,
+ "markets_dropped_by_volume_floor": 7714,
  "day_file": "data/2026/10/2026-10-31T20.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 265,
+ "trades_markets_queried": 243,
  "trades_watchlist_markets": 80,
- "trades_collected": 5329,
+ "trades_collected": 5050,
  "anomalies_detected": 3,
  "anomalies_new": 0,
  "history_debug": [
@@ -379,7 +379,7 @@
   }
  ],
  "history_conditions_new": 0,
- "books_markets": 160,
- "books_rows": 192,
+ "books_markets": 137,
+ "books_rows": 172,
  "status": "ok"
 }
