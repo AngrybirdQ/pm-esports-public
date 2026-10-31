@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T02:50:00Z",
+ "ts": "2026-10-31T02:52:48Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 212,
+   "events_returned": 211,
    "err": null
   },
   {
@@ -361,23 +361,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 820,
- "markets": 1036,
- "markets_dropped_by_volume_floor": 6996,
+ "events": 819,
+ "markets": 998,
+ "markets_dropped_by_volume_floor": 6679,
  "day_file": "data/2026/10/2026-10-31T02.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 210,
+ "trades_markets_queried": 185,
  "trades_watchlist_markets": 41,
- "trades_collected": 8840,
- "anomalies_detected": 385,
- "anomalies_new": 289,
+ "trades_collected": 7259,
+ "anomalies_detected": 259,
+ "anomalies_new": 153,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1029788623: HTTPError: HTTP Error 404: Not Found",
-  "1061855957: HTTPError: HTTP Error 404: Not Found"
- ],
  "books_markets": 44,
- "books_rows": 64,
+ "books_rows": 68,
  "status": "ok"
 }
