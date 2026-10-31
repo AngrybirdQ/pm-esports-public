@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T12:08:48Z",
+ "ts": "2026-10-31T12:12:10Z",
  "sources": [
   {
    "url": "/tags",
@@ -311,8 +311,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: A Team vs Nova Esports (BO3) - VCT Threshold China Week 2",
-    "closed": true
+    "t": "Valorant: Nova Esports vs Any Questions Gaming (BO3) - VCT Threshold C",
+    "closed": false
    }
   ],
   "search:NBA": [
@@ -362,24 +362,24 @@
  },
  "n_event_queries": 24,
  "events": 807,
- "markets": 766,
- "markets_dropped_by_volume_floor": 6544,
+ "markets": 769,
+ "markets_dropped_by_volume_floor": 6541,
  "day_file": "data/2026/10/2026-10-31T12.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 160,
  "trades_watchlist_markets": 94,
- "trades_collected": 1942,
- "anomalies_detected": 30,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "9832595607: HTTPError: HTTP Error 404: Not Found",
-  "4142232150: HTTPError: HTTP Error 404: Not Found",
-  "8058723696: HTTPError: HTTP Error 404: Not Found",
-  "9518068613: HTTPError: HTTP Error 404: Not Found"
+ "trades_collected": 1980,
+ "anomalies_detected": 44,
+ "anomalies_new": 18,
+ "history_debug": [
+  {
+   "cid": "0xd5483d06",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 96,
- "books_rows": 174,
+ "history_conditions_new": 1,
+ "books_markets": 94,
+ "books_rows": 176,
  "status": "ok"
 }
