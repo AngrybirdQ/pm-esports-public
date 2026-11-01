@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-01T20:44:01Z",
+ "ts": "2026-11-01T21:41:19Z",
  "sources": [
   {
    "url": "/tags",
@@ -244,7 +244,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: OG vs Yellow Submarine (BO3) - EPL Masters Playoffs",
+    "t": "Dota 2: Team Synapse vs SOLID (BO5) - NEXUS SERIES Playoffs",
     "closed": false
    }
   ],
@@ -298,11 +298,11 @@
     "closed": false
    },
    {
-    "t": "Valorant: Shopify Rebellion Gold vs KRÜ Blaze (BO5) - VCT Game Changer",
+    "t": "Valorant: Unsettled Resentment vs Nova Esports (BO5) - VCT Threshold C",
     "closed": true
    },
    {
-    "t": "Valorant: Unsettled Resentment vs Nova Esports (BO5) - VCT Threshold C",
+    "t": "Valorant: Shopify Rebellion Gold vs KRÜ Blaze (BO5) - VCT Game Changer",
     "closed": true
    },
    {
@@ -360,19 +360,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 795,
- "markets": 774,
- "markets_dropped_by_volume_floor": 6254,
- "day_file": "data/2026/11/2026-11-01T20.jsonl",
+ "events": 792,
+ "markets": 806,
+ "markets_dropped_by_volume_floor": 6557,
+ "day_file": "data/2026/11/2026-11-01T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 190,
- "trades_watchlist_markets": 57,
- "trades_collected": 2517,
- "anomalies_detected": 55,
- "anomalies_new": 53,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 114,
- "books_rows": 222,
+ "trades_markets_queried": 207,
+ "trades_watchlist_markets": 43,
+ "trades_collected": 3210,
+ "anomalies_detected": 75,
+ "anomalies_new": 72,
+ "history_debug": [
+  {
+   "cid": "0xe0bc1766",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 145,
+ "books_rows": 288,
  "status": "ok"
 }
