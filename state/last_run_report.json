@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-01T18:17:38Z",
+ "ts": "2026-11-01T19:40:28Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 29,
+   "events_returned": 28,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 40,
+   "events_returned": 39,
    "err": null
   },
   {
@@ -236,11 +236,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Level Up Academy vs old blood (BO3) - Esports Pro Circuit  Gro",
+    "t": "Dota 2: Xipto Esports vs potn9ki (BO3) - Esports Pro Circuit  Group C",
     "closed": true
    },
    {
-    "t": "Dota 2: Xipto Esports vs potn9ki (BO3) - Esports Pro Circuit  Group C",
+    "t": "Dota 2: Level Up Academy vs old blood (BO3) - Esports Pro Circuit  Gro",
     "closed": true
    },
    {
@@ -276,10 +276,6 @@
     "closed": false
    },
    {
-    "t": "Will Faker become president of South Korea by the end of the year?",
-    "closed": false
-   },
-   {
     "t": "LoL: Dplus KIA Challengers vs KT Rolster Challengers (BO5) - LCK Chall",
     "closed": true
    },
@@ -290,16 +286,20 @@
    {
     "t": "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO5) - LCK Challengers",
     "closed": true
+   },
+   {
+    "t": "LoL: DN SOOPers Challengers vs Nongshim Esports Academy (BO5) - LCK Ch",
+    "closed": true
    }
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: Shopify Rebellion Gold vs KRÜ Blaze (BO5) - VCT Game Changer",
-    "closed": true
-   },
-   {
     "t": "Valorant: Gentle Mates GC vs KRÜ Blaze (BO5) - VCT Game Changers Champ",
     "closed": false
+   },
+   {
+    "t": "Valorant: Shopify Rebellion Gold vs KRÜ Blaze (BO5) - VCT Game Changer",
+    "closed": true
    },
    {
     "t": "Valorant: Unsettled Resentment vs Nova Esports (BO5) - VCT Threshold C",
@@ -307,7 +307,7 @@
    },
    {
     "t": "Valorant: Team Samuraj vs Team relaxcis (BO3) - BETBOOM Streamers Batt",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: NRG vs Fnatic (BO5)",
@@ -360,19 +360,30 @@
   ]
  },
  "n_event_queries": 24,
- "events": 799,
- "markets": 738,
- "markets_dropped_by_volume_floor": 6040,
- "day_file": "data/2026/11/2026-11-01T18.jsonl",
+ "events": 797,
+ "markets": 744,
+ "markets_dropped_by_volume_floor": 5879,
+ "day_file": "data/2026/11/2026-11-01T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 188,
- "trades_watchlist_markets": 58,
- "trades_collected": 2740,
- "anomalies_detected": 20,
- "anomalies_new": 20,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 98,
- "books_rows": 172,
+ "trades_markets_queried": 174,
+ "trades_watchlist_markets": 45,
+ "trades_collected": 2290,
+ "anomalies_detected": 42,
+ "anomalies_new": 42,
+ "history_debug": [
+  {
+   "cid": "0x90999b32",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xef73d0b6",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_markets": 103,
+ "books_rows": 194,
  "status": "ok"
 }
