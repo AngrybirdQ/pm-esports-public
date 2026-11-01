@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-01T22:53:03Z",
+ "ts": "2026-11-01T22:56:29Z",
  "sources": [
   {
    "url": "/tags",
@@ -310,7 +310,7 @@
     "closed": true
    },
    {
-    "t": "Valorant: Team GPK vs Team Samuraj (BO5) - BETBOOM Streamers Battle Pl",
+    "t": "VALORANT Game Changers Championship 2026: Winning Region",
     "closed": false
    }
   ],
@@ -360,23 +360,33 @@
   ]
  },
  "n_event_queries": 24,
- "events": 798,
- "markets": 823,
- "markets_dropped_by_volume_floor": 6736,
+ "events": 797,
+ "markets": 833,
+ "markets_dropped_by_volume_floor": 6714,
  "day_file": "data/2026/11/2026-11-01T22.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 256,
+ "trades_markets_queried": 257,
  "trades_watchlist_markets": 53,
- "trades_collected": 4802,
- "anomalies_detected": 94,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "1935131706: HTTPError: HTTP Error 404: Not Found",
-  "6762583558: HTTPError: HTTP Error 404: Not Found"
+ "trades_collected": 4687,
+ "anomalies_detected": 116,
+ "anomalies_new": 12,
+ "history_debug": [
+  {
+   "cid": "0x5987bf1a",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 188,
- "books_rows": 332,
+ "history_conditions_new": 1,
+ "books_errors": [
+  "9754312066: HTTPError: HTTP Error 404: Not Found",
+  "8846882163: HTTPError: HTTP Error 404: Not Found",
+  "7834110151: HTTPError: HTTP Error 404: Not Found",
+  "3307172072: HTTPError: HTTP Error 404: Not Found",
+  "2889771503: HTTPError: HTTP Error 404: Not Found",
+  "7479550729: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 190,
+ "books_rows": 336,
  "status": "ok"
 }
