@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-01T23:52:00Z",
+ "ts": "2026-11-01T23:55:05Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 38,
+   "events_returned": 37,
    "err": null
   },
   {
@@ -311,7 +311,7 @@
    },
    {
     "t": "Valorant: Team GPK vs Team Samuraj (BO5) - BETBOOM Streamers Battle Pl",
-    "closed": false
+    "closed": true
    }
   ],
   "search:NBA": [
@@ -360,19 +360,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 793,
- "markets": 741,
- "markets_dropped_by_volume_floor": 6317,
+ "events": 792,
+ "markets": 743,
+ "markets_dropped_by_volume_floor": 6503,
  "day_file": "data/2026/11/2026-11-01T23.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 219,
+ "trades_markets_queried": 221,
  "trades_watchlist_markets": 48,
- "trades_collected": 2446,
- "anomalies_detected": 69,
- "anomalies_new": 1,
+ "trades_collected": 2427,
+ "anomalies_detected": 76,
+ "anomalies_new": 7,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 181,
+ "books_markets": 183,
  "books_rows": 302,
  "status": "ok"
 }
