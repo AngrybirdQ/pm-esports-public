@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-01T08:36:10Z",
+ "ts": "2026-11-01T09:29:51Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 197,
+   "events_returned": 196,
    "err": null
   },
   {
@@ -196,12 +196,12 @@
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Timberwolves vs. Spurs"
+   "NBA Free Agency: Fred VanVleet Next Team"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Timberwolves vs. Spurs"
+   "NBA Free Agency: Fred VanVleet Next Team"
   ],
   "tag_slug=international-affairs": [
    "US-Canada diplomatic agreement to lower tariffs by...?",
@@ -298,11 +298,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: Unsettled Resentment vs World Sports Invictus Gaming (BO3) -",
+    "t": "Valorant: Nova Esports vs Any Questions Gaming (BO3) - VCT Threshold C",
     "closed": true
    },
    {
-    "t": "Valorant: Nova Esports vs Any Questions Gaming (BO3) - VCT Threshold C",
+    "t": "Valorant: Unsettled Resentment vs World Sports Invictus Gaming (BO3) -",
     "closed": true
    },
    {
@@ -361,18 +361,34 @@
  },
  "n_event_queries": 24,
  "events": 807,
- "markets": 685,
- "markets_dropped_by_volume_floor": 5406,
- "day_file": "data/2026/11/2026-11-01T08.jsonl",
+ "markets": 677,
+ "markets_dropped_by_volume_floor": 5532,
+ "day_file": "data/2026/11/2026-11-01T09.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 101,
- "trades_watchlist_markets": 38,
- "trades_collected": 1165,
- "anomalies_detected": 26,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 69,
- "books_rows": 128,
+ "trades_markets_queried": 110,
+ "trades_watchlist_markets": 41,
+ "trades_collected": 1228,
+ "anomalies_detected": 10,
+ "anomalies_new": 10,
+ "history_debug": [
+  {
+   "cid": "0x351554c4",
+   "pts": 6,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x8c3013a2",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x9791c1fa",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 3,
+ "books_markets": 72,
+ "books_rows": 134,
  "status": "ok"
 }
