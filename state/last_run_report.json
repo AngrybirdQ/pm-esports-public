@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-01T10:11:16Z",
+ "ts": "2026-11-01T10:13:51Z",
  "sources": [
   {
    "url": "/tags",
@@ -187,8 +187,8 @@
   ],
   "tag_slug=valorant": [
    "VALORANT Offseason: OXY Next Team",
-   "VALORANT Offseason: zekken Next Team",
-   "VALORANT Offseason: primmie Next Team"
+   "Valorant: Unsettled Resentment vs Nova Esports (BO5) - VCT Threshold C",
+   "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
@@ -361,23 +361,17 @@
  },
  "n_event_queries": 24,
  "events": 807,
- "markets": 679,
- "markets_dropped_by_volume_floor": 5549,
+ "markets": 678,
+ "markets_dropped_by_volume_floor": 5550,
  "day_file": "data/2026/11/2026-11-01T10.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 116,
  "trades_watchlist_markets": 41,
- "trades_collected": 1640,
+ "trades_collected": 1670,
  "anomalies_detected": 2,
  "anomalies_new": 0,
- "history_debug": [
-  {
-   "cid": "0x0a7d02ea",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 74,
  "books_rows": 136,
  "status": "ok"
