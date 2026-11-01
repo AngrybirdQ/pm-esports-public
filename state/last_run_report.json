@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T22:48:35Z",
+ "ts": "2026-11-01T00:06:24Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,13 +51,13 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 48,
+   "events_returned": 46,
    "err": null
   },
   {
    "url": "tag_slug=lol",
    "ok": true,
-   "events_returned": 36,
+   "events_returned": 34,
    "err": null
   },
   {
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 200,
+   "events_returned": 199,
    "err": null
   },
   {
@@ -307,11 +307,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: KRÜ Blaze vs MIBR GC (BO3) - VCT Game Changers Championship ",
+    "t": "Valorant: NRG vs Fnatic (BO5)",
     "closed": true
    },
    {
-    "t": "Valorant: NRG vs Fnatic (BO5)",
+    "t": "Valorant: Team relaxcis vs Team Samuraj (BO3) - BETBOOM Streamers Batt",
     "closed": true
    }
   ],
@@ -361,19 +361,35 @@
   ]
  },
  "n_event_queries": 24,
- "events": 808,
- "markets": 936,
- "markets_dropped_by_volume_floor": 7375,
- "day_file": "data/2026/10/2026-10-31T22.jsonl",
- "retention_removed_files": 0,
- "trades_markets_queried": 222,
- "trades_watchlist_markets": 75,
- "trades_collected": 3713,
- "anomalies_detected": 26,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 102,
- "books_rows": 154,
+ "events": 807,
+ "markets": 1013,
+ "markets_dropped_by_volume_floor": 7310,
+ "day_file": "data/2026/11/2026-11-01T00.jsonl",
+ "retention_removed_files": 121,
+ "trades_markets_queried": 270,
+ "trades_watchlist_markets": 61,
+ "trades_collected": 5459,
+ "anomalies_detected": 259,
+ "anomalies_new": 258,
+ "history_debug": [
+  {
+   "cid": "0x513e6ef3",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x2bd4fe89",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xf8f8edf1",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 3,
+ "books_markets": 214,
+ "books_rows": 279,
  "status": "ok"
 }
