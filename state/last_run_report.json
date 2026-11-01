@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-01T10:36:41Z",
+ "ts": "2026-11-01T11:31:04Z",
  "sources": [
   {
    "url": "/tags",
@@ -163,9 +163,9 @@
    "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=dota-2": [
+   "Dota 2: Team Yandex vs Team Spirit (BO5) - PARI Universe Playoffs",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A",
-   "Dota 2: Team Yandex vs Team Spirit (BO5) - PARI Universe Playoffs"
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -186,8 +186,8 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "VALORANT Offseason: OXY Next Team",
    "Valorant: Unsettled Resentment vs Nova Esports (BO5) - VCT Threshold C",
+   "VALORANT Offseason: OXY Next Team",
    "VALORANT Offseason: zekken Next Team"
   ],
   "tag_slug=starcraft-2": [
@@ -236,15 +236,15 @@
     "closed": true
    },
    {
+    "t": "Dota 2: Team Yandex vs Team Spirit (BO5) - PARI Universe Playoffs",
+    "closed": false
+   },
+   {
     "t": "Dota 2: Level Up Academy vs old blood (BO3) - Esports Pro Circuit  Gro",
     "closed": true
    },
    {
     "t": "Dota 2: World Squad vs CIS Squad (BO1) - PARI Universe Showmatch",
-    "closed": true
-   },
-   {
-    "t": "Dota 2: Xipto Esports vs HellNight- (BO3) - Esports Pro Circuit  Group",
     "closed": true
    }
   ],
@@ -298,12 +298,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: Nova Esports vs Any Questions Gaming (BO3) - VCT Threshold C",
-    "closed": true
-   },
-   {
     "t": "Valorant: Unsettled Resentment vs Nova Esports (BO5) - VCT Threshold C",
     "closed": false
+   },
+   {
+    "t": "Valorant: Nova Esports vs Any Questions Gaming (BO3) - VCT Threshold C",
+    "closed": true
    },
    {
     "t": "Valorant: Unsettled Resentment vs World Sports Invictus Gaming (BO3) -",
@@ -361,18 +361,33 @@
  },
  "n_event_queries": 24,
  "events": 807,
- "markets": 683,
- "markets_dropped_by_volume_floor": 5552,
- "day_file": "data/2026/11/2026-11-01T10.jsonl",
+ "markets": 693,
+ "markets_dropped_by_volume_floor": 5574,
+ "day_file": "data/2026/11/2026-11-01T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 122,
- "trades_watchlist_markets": 42,
- "trades_collected": 1982,
- "anomalies_detected": 25,
- "anomalies_new": 4,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 79,
- "books_rows": 142,
+ "trades_markets_queried": 140,
+ "trades_watchlist_markets": 59,
+ "trades_collected": 2556,
+ "anomalies_detected": 38,
+ "anomalies_new": 37,
+ "history_debug": [
+  {
+   "cid": "0xd37b55d0",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x839e200e",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_errors": [
+  "7548366464: HTTPError: HTTP Error 404: Not Found",
+  "6879869200: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 99,
+ "books_rows": 148,
  "status": "ok"
 }
