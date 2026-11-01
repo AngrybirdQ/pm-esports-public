@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-01T00:06:24Z",
+ "ts": "2026-11-01T00:11:30Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 33,
+   "events_returned": 32,
    "err": null
   },
   {
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 46,
+   "events_returned": 50,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 41,
+   "events_returned": 40,
    "err": null
   },
   {
@@ -163,9 +163,9 @@
    "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Level Up Academy vs old blood (BO3) - Esports Pro Circuit  Gro",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A",
+   "Dota 2: Stray Team vs Rostik Team (BO3) - BetBoom Streamers Battle Gro"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -238,7 +238,7 @@
    },
    {
     "t": "Dota 2: Level Up Academy vs old blood (BO3) - Esports Pro Circuit  Gro",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: World Squad vs CIS Squad (BO1) - PARI Universe Showmatch",
@@ -361,35 +361,23 @@
   ]
  },
  "n_event_queries": 24,
- "events": 807,
- "markets": 1013,
- "markets_dropped_by_volume_floor": 7310,
+ "events": 810,
+ "markets": 1011,
+ "markets_dropped_by_volume_floor": 7434,
  "day_file": "data/2026/11/2026-11-01T00.jsonl",
- "retention_removed_files": 121,
+ "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 61,
- "trades_collected": 5459,
- "anomalies_detected": 259,
- "anomalies_new": 258,
- "history_debug": [
-  {
-   "cid": "0x513e6ef3",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x2bd4fe89",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xf8f8edf1",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  }
+ "trades_collected": 5821,
+ "anomalies_detected": 271,
+ "anomalies_new": 41,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_errors": [
+  "1770729830: HTTPError: HTTP Error 404: Not Found",
+  "1424540986: HTTPError: HTTP Error 404: Not Found"
  ],
- "history_conditions_new": 3,
- "books_markets": 214,
- "books_rows": 279,
+ "books_markets": 215,
+ "books_rows": 264,
  "status": "ok"
 }
