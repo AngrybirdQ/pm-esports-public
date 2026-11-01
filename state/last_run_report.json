@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
  "ts": "2026-11-01T00:48:14Z",
+=======
+ "ts": "2026-11-01T00:53:44Z",
+>>>>>>> 4a2d880 (data: longrun 2026-11-01T00:55:50Z iter1)
  "sources": [
   {
    "url": "/tags",
@@ -362,6 +366,7 @@
  },
  "n_event_queries": 24,
  "events": 809,
+<<<<<<< HEAD
  "markets": 1039,
  "markets_dropped_by_volume_floor": 7279,
  "day_file": "data/2026/11/2026-11-01T00.jsonl",
@@ -381,5 +386,36 @@
  "history_conditions_new": 1,
  "books_markets": 205,
  "books_rows": 276,
+=======
+ "markets": 1069,
+ "markets_dropped_by_volume_floor": 7213,
+ "day_file": "data/2026/11/2026-11-01T00.jsonl",
+ "retention_removed_files": 0,
+ "trades_markets_queried": 235,
+ "trades_watchlist_markets": 29,
+ "trades_collected": 9287,
+ "anomalies_detected": 275,
+ "anomalies_new": 264,
+ "history_debug": [
+  {
+   "cid": "0x1735b101",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x80535751",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x5c29edbb",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 3,
+ "books_markets": 110,
+ "books_rows": 70,
+>>>>>>> 4a2d880 (data: longrun 2026-11-01T00:55:50Z iter1)
  "status": "ok"
 }
