@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
- "ts": "2026-11-01T00:48:14Z",
-=======
- "ts": "2026-11-01T00:53:44Z",
->>>>>>> 4a2d880 (data: longrun 2026-11-01T00:55:50Z iter1)
+ "ts": "2026-11-01T01:02:30Z",
  "sources": [
   {
    "url": "/tags",
@@ -55,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 50,
+   "events_returned": 49,
    "err": null
   },
   {
@@ -97,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 199,
+   "events_returned": 198,
    "err": null
   },
   {
@@ -163,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "LoL: Hanwha Life Esports vs Bilibili Gaming (BO3) - Worlds Group Stage",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
@@ -182,8 +178,8 @@
   ],
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
-   "LoL: Hanwha Life Esports vs Bilibili Gaming (BO3) - Worlds Group Stage",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -200,13 +196,13 @@
   ],
   "tag_slug=nba": [
    "NBA: 2027 Champion",
-   "NBA: 2026-27 Rookie of the Year",
-   "76ers vs. Hornets"
+   "76ers vs. Hornets",
+   "NBA: 2026-27 Rookie of the Year"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
-   "NBA: 2026-27 Rookie of the Year",
-   "76ers vs. Hornets"
+   "76ers vs. Hornets",
+   "NBA: 2026-27 Rookie of the Year"
   ],
   "tag_slug=international-affairs": [
    "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
@@ -365,57 +361,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 809,
-<<<<<<< HEAD
- "markets": 1039,
- "markets_dropped_by_volume_floor": 7279,
- "day_file": "data/2026/11/2026-11-01T00.jsonl",
+ "events": 807,
+ "markets": 1012,
+ "markets_dropped_by_volume_floor": 6880,
+ "day_file": "data/2026/11/2026-11-01T01.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 270,
- "trades_watchlist_markets": 61,
- "trades_collected": 6461,
- "anomalies_detected": 18,
- "anomalies_new": 6,
- "history_debug": [
-  {
-   "cid": "0x80535751",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
- "books_markets": 205,
- "books_rows": 276,
-=======
- "markets": 1069,
- "markets_dropped_by_volume_floor": 7213,
- "day_file": "data/2026/11/2026-11-01T00.jsonl",
- "retention_removed_files": 0,
- "trades_markets_queried": 235,
+ "trades_markets_queried": 180,
  "trades_watchlist_markets": 29,
- "trades_collected": 9287,
- "anomalies_detected": 275,
- "anomalies_new": 264,
- "history_debug": [
-  {
-   "cid": "0x1735b101",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x80535751",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x5c29edbb",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 3,
- "books_markets": 110,
+ "trades_collected": 7372,
+ "anomalies_detected": 307,
+ "anomalies_new": 301,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 54,
  "books_rows": 70,
->>>>>>> 4a2d880 (data: longrun 2026-11-01T00:55:50Z iter1)
  "status": "ok"
 }
