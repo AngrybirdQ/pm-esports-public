@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-01T15:23:43Z",
+ "ts": "2026-11-01T15:26:57Z",
  "sources": [
   {
    "url": "/tags",
@@ -236,16 +236,16 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - PARI Universe Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Level Up Academy vs old blood (BO3) - Esports Pro Circuit  Gro",
     "closed": true
    },
    {
     "t": "Dota 2: Xipto Esports vs potn9ki (BO3) - Esports Pro Circuit  Group C",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - PARI Universe Playoffs",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -361,22 +361,18 @@
  },
  "n_event_queries": 24,
  "events": 801,
- "markets": 713,
- "markets_dropped_by_volume_floor": 6005,
+ "markets": 718,
+ "markets_dropped_by_volume_floor": 6003,
  "day_file": "data/2026/11/2026-11-01T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 169,
+ "trades_markets_queried": 177,
  "trades_watchlist_markets": 67,
- "trades_collected": 2980,
- "anomalies_detected": 35,
- "anomalies_new": 0,
+ "trades_collected": 3071,
+ "anomalies_detected": 48,
+ "anomalies_new": 17,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "7728741282: HTTPError: HTTP Error 404: Not Found",
-  "2908095968: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 112,
- "books_rows": 178,
+ "books_markets": 114,
+ "books_rows": 182,
  "status": "ok"
 }
