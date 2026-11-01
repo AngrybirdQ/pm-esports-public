@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-01T20:07:23Z",
+ "ts": "2026-11-01T20:10:28Z",
  "sources": [
   {
    "url": "/tags",
@@ -244,8 +244,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs GamerLegion (BO3) - PARI Universe Playoffs",
-    "closed": true
+    "t": "Dota 2: OG vs Yellow Submarine (BO3) - EPL Masters Playoffs",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -367,11 +367,17 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 179,
  "trades_watchlist_markets": 45,
- "trades_collected": 2220,
+ "trades_collected": 2217,
  "anomalies_detected": 7,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "1088499076: HTTPError: HTTP Error 404: Not Found",
+  "1068051885: HTTPError: HTTP Error 404: Not Found",
+  "5286693062: HTTPError: HTTP Error 404: Not Found",
+  "7080341961: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 109,
  "books_rows": 204,
  "status": "ok"
