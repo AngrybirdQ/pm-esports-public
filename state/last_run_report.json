@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-01T12:35:36Z",
+ "ts": "2026-11-01T13:28:33Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 194,
+   "events_returned": 193,
    "err": null
   },
   {
@@ -228,11 +228,11 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - PARI Universe Playoffs",
+    "t": "Dota 2: Team Spirit vs GamerLegion (BO3) - PARI Universe Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs GamerLegion (BO3) - PARI Universe Playoffs",
+    "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - PARI Universe Playoffs",
     "closed": true
    },
    {
@@ -306,11 +306,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: NRG vs Fnatic (BO5)",
-    "closed": true
+    "t": "Valorant: Gentle Mates GC vs KRÜ Blaze (BO5) - VCT Game Changers Champ",
+    "closed": false
    },
    {
-    "t": "Valorant: Team relaxcis vs Team Samuraj (BO3) - BETBOOM Streamers Batt",
+    "t": "Valorant: NRG vs Fnatic (BO5)",
     "closed": true
    }
   ],
@@ -360,23 +360,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 806,
- "markets": 696,
- "markets_dropped_by_volume_floor": 5551,
- "day_file": "data/2026/11/2026-11-01T12.jsonl",
+ "events": 805,
+ "markets": 706,
+ "markets_dropped_by_volume_floor": 5536,
+ "day_file": "data/2026/11/2026-11-01T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 144,
- "trades_watchlist_markets": 60,
- "trades_collected": 2515,
- "anomalies_detected": 36,
- "anomalies_new": 8,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "2942965612: HTTPError: HTTP Error 404: Not Found",
-  "6278640046: HTTPError: HTTP Error 404: Not Found"
+ "trades_markets_queried": 157,
+ "trades_watchlist_markets": 59,
+ "trades_collected": 2586,
+ "anomalies_detected": 40,
+ "anomalies_new": 40,
+ "history_debug": [
+  {
+   "cid": "0x1def4143",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 98,
- "books_rows": 156,
+ "history_conditions_new": 1,
+ "books_markets": 111,
+ "books_rows": 174,
  "status": "ok"
 }
