@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-01T09:55:37Z",
+ "ts": "2026-11-01T09:58:28Z",
  "sources": [
   {
    "url": "/tags",
@@ -165,7 +165,7 @@
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
    "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A",
-   "Dota 2: Stray Team vs Rostik Team (BO3) - BetBoom Streamers Battle Gro"
+   "Dota 2: Team Yandex vs Team Spirit (BO5) - PARI Universe Playoffs"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -362,16 +362,20 @@
  "n_event_queries": 24,
  "events": 807,
  "markets": 676,
- "markets_dropped_by_volume_floor": 5549,
+ "markets_dropped_by_volume_floor": 5551,
  "day_file": "data/2026/11/2026-11-01T09.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 114,
  "trades_watchlist_markets": 41,
- "trades_collected": 1485,
- "anomalies_detected": 14,
+ "trades_collected": 1495,
+ "anomalies_detected": 18,
  "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "2422842059: HTTPError: HTTP Error 404: Not Found",
+  "4781294703: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 72,
  "books_rows": 134,
  "status": "ok"
