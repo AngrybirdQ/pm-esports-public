@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-01T17:49:32Z",
+ "ts": "2026-11-01T17:56:49Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 30,
+   "events_returned": 29,
    "err": null
   },
   {
@@ -159,13 +159,13 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Dota 2: Team Yandex vs Team Spirit (BO5) - PARI Universe Playoffs",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Team Yandex vs Team Spirit (BO5) - PARI Universe Playoffs",
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A",
+   "Dota 2: Stray Team vs Rostik Team (BO3) - BetBoom Streamers Battle Gro"
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -229,7 +229,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: Team Yandex vs Team Spirit (BO5) - PARI Universe Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Spirit vs GamerLegion (BO3) - PARI Universe Playoffs",
@@ -360,19 +360,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 800,
- "markets": 729,
- "markets_dropped_by_volume_floor": 6043,
+ "events": 799,
+ "markets": 737,
+ "markets_dropped_by_volume_floor": 6049,
  "day_file": "data/2026/11/2026-11-01T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 183,
+ "trades_markets_queried": 187,
  "trades_watchlist_markets": 58,
- "trades_collected": 2788,
- "anomalies_detected": 3,
+ "trades_collected": 2741,
+ "anomalies_detected": 1,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 96,
- "books_rows": 170,
+ "books_markets": 99,
+ "books_rows": 172,
  "status": "ok"
 }
