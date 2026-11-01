@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-01T15:08:12Z",
+ "ts": "2026-11-01T15:11:40Z",
  "sources": [
   {
    "url": "/tags",
@@ -306,12 +306,12 @@
     "closed": false
    },
    {
-    "t": "Valorant: NRG vs Fnatic (BO5)",
-    "closed": true
+    "t": "Valorant: Team Samuraj vs Team relaxcis (BO3) - BETBOOM Streamers Batt",
+    "closed": false
    },
    {
-    "t": "VALORANT Game Changers Championship 2026: Winning Region",
-    "closed": false
+    "t": "Valorant: NRG vs Fnatic (BO5)",
+    "closed": true
    }
   ],
   "search:NBA": [
@@ -361,24 +361,18 @@
  },
  "n_event_queries": 24,
  "events": 801,
- "markets": 728,
+ "markets": 724,
  "markets_dropped_by_volume_floor": 6000,
  "day_file": "data/2026/11/2026-11-01T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 179,
+ "trades_markets_queried": 176,
  "trades_watchlist_markets": 67,
- "trades_collected": 3010,
- "anomalies_detected": 31,
- "anomalies_new": 14,
+ "trades_collected": 2982,
+ "anomalies_detected": 27,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "3848554625: HTTPError: HTTP Error 404: Not Found",
-  "8649004056: HTTPError: HTTP Error 404: Not Found",
-  "7010963272: HTTPError: HTTP Error 404: Not Found",
-  "4593693156: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 120,
+ "books_markets": 118,
  "books_rows": 176,
  "status": "ok"
 }
