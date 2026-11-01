@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-01T15:26:57Z",
+ "ts": "2026-11-01T15:44:15Z",
  "sources": [
   {
    "url": "/tags",
@@ -196,12 +196,12 @@
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "NBA: 2027 Eastern Conference Champion"
+   "Celtics vs. Magic"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "NBA: 2027 Eastern Conference Champion"
+   "Celtics vs. Magic"
   ],
   "tag_slug=international-affairs": [
    "US-Canada diplomatic agreement to lower tariffs by...?",
@@ -244,7 +244,7 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - PARI Universe Playoffs",
+    "t": "Dota 2: World Squad vs CIS Squad (BO1) - PARI Universe Showmatch",
     "closed": true
    }
   ],
@@ -361,18 +361,26 @@
  },
  "n_event_queries": 24,
  "events": 801,
- "markets": 718,
- "markets_dropped_by_volume_floor": 6003,
+ "markets": 723,
+ "markets_dropped_by_volume_floor": 5998,
  "day_file": "data/2026/11/2026-11-01T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 177,
- "trades_watchlist_markets": 67,
- "trades_collected": 3071,
- "anomalies_detected": 48,
- "anomalies_new": 17,
+ "trades_markets_queried": 167,
+ "trades_watchlist_markets": 64,
+ "trades_collected": 2809,
+ "anomalies_detected": 42,
+ "anomalies_new": 42,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 114,
+ "books_errors": [
+  "6845125290: HTTPError: HTTP Error 404: Not Found",
+  "1062907076: HTTPError: HTTP Error 404: Not Found",
+  "1542048498: HTTPError: HTTP Error 404: Not Found",
+  "2358661472: HTTPError: HTTP Error 404: Not Found",
+  "9025348895: HTTPError: HTTP Error 404: Not Found",
+  "5237492795: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 115,
  "books_rows": 182,
  "status": "ok"
 }
