@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-01T02:34:50Z",
+ "ts": "2026-11-01T02:38:01Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 197,
+   "events_returned": 196,
    "err": null
   },
   {
@@ -361,26 +361,24 @@
   ]
  },
  "n_event_queries": 24,
- "events": 803,
- "markets": 951,
- "markets_dropped_by_volume_floor": 6110,
+ "events": 802,
+ "markets": 893,
+ "markets_dropped_by_volume_floor": 5773,
  "day_file": "data/2026/11/2026-11-01T02.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 192,
+ "trades_markets_queried": 179,
  "trades_watchlist_markets": 30,
- "trades_collected": 7620,
- "anomalies_detected": 274,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "7015500000: HTTPError: HTTP Error 404: Not Found",
-  "6531765846: HTTPError: HTTP Error 404: Not Found",
-  "9365398267: HTTPError: HTTP Error 404: Not Found",
-  "2953242563: HTTPError: HTTP Error 404: Not Found",
-  "6975037893: HTTPError: HTTP Error 404: Not Found",
-  "8953874763: HTTPError: HTTP Error 404: Not Found"
+ "trades_collected": 7106,
+ "anomalies_detected": 4,
+ "anomalies_new": 1,
+ "history_debug": [
+  {
+   "cid": "0xdc4a4c3d",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
+ "history_conditions_new": 1,
  "books_markets": 43,
  "books_rows": 50,
  "status": "ok"
