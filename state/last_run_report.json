@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-02T05:05:50Z",
+ "ts": "2026-11-02T06:00:20Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 188,
+   "events_returned": 185,
    "err": null
   },
   {
@@ -160,7 +160,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Counter-Strike: Legacy vs TheMongolz (BO3) - IEM Beijing Group A"
+   "Counter-Strike: Aurora Gaming vs Liquid (BO3) - IEM Beijing Group B"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
@@ -196,12 +196,12 @@
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Raptors vs. Lakers"
+   "NBA: 2027 Eastern Conference Champion"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Raptors vs. Lakers"
+   "NBA: 2027 Eastern Conference Champion"
   ],
   "tag_slug=international-affairs": [
    "US-Canada diplomatic agreement to lower tariffs by...?",
@@ -244,7 +244,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: OG vs Yellow Submarine (BO3) - EPL Masters Playoffs",
+    "t": "Dota 2: Natus Vincere vs Nemiga Gaming (BO3) - EPL Masters Playoffs",
     "closed": false
    }
   ],
@@ -360,23 +360,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 786,
- "markets": 688,
- "markets_dropped_by_volume_floor": 6496,
- "day_file": "data/2026/11/2026-11-02T05.jsonl",
+ "events": 784,
+ "markets": 708,
+ "markets_dropped_by_volume_floor": 6816,
+ "day_file": "data/2026/11/2026-11-02T06.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 115,
+ "trades_markets_queried": 123,
  "trades_watchlist_markets": 54,
- "trades_collected": 1592,
- "anomalies_detected": 21,
- "anomalies_new": 3,
+ "trades_collected": 1996,
+ "anomalies_detected": 15,
+ "anomalies_new": 12,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "4521025153: HTTPError: HTTP Error 404: Not Found",
-  "9556820817: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 78,
- "books_rows": 138,
+ "books_markets": 76,
+ "books_rows": 142,
  "status": "ok"
 }
