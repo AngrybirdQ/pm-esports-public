@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-02T18:38:54Z",
+ "ts": "2026-11-02T18:42:57Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,19 +51,19 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 48,
+   "events_returned": 49,
    "err": null
   },
   {
    "url": "tag_slug=lol",
    "ok": true,
-   "events_returned": 33,
+   "events_returned": 34,
    "err": null
   },
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 35,
+   "events_returned": 38,
    "err": null
   },
   {
@@ -360,19 +360,35 @@
   ]
  },
  "n_event_queries": 24,
- "events": 812,
- "markets": 1082,
- "markets_dropped_by_volume_floor": 9924,
+ "events": 819,
+ "markets": 1094,
+ "markets_dropped_by_volume_floor": 9933,
  "day_file": "data/2026/11/2026-11-02T18.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 42,
- "trades_collected": 2832,
- "anomalies_detected": 54,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 208,
- "books_rows": 372,
+ "trades_collected": 2744,
+ "anomalies_detected": 55,
+ "anomalies_new": 4,
+ "history_debug": [
+  {
+   "cid": "0x62d9356f",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x7a6a920a",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x5385065f",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 3,
+ "books_markets": 205,
+ "books_rows": 376,
  "status": "ok"
 }
