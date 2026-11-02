@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-02T19:17:18Z",
+ "ts": "2026-11-02T20:45:11Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 41,
+   "events_returned": 39,
    "err": null
   },
   {
@@ -164,8 +164,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: potn9ki vs HellNight- (BO3) - Esports Pro Circuit  Group C",
-   "Dota 2: Natus Vincere vs Nemiga Gaming (BO3) - EPL Masters Playoffs",
-   "Dota 2: Daxak Team vs iLTW TEAM (BO3) - Fonbet Media Eleague Group Sta"
+   "Dota 2: GamerLegion vs CyberHero (BO3) - EPL Masters Playoffs",
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -240,12 +240,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Natus Vincere vs Nemiga Gaming (BO3) - EPL Masters Playoffs",
+    "t": "Dota 2: GamerLegion vs CyberHero (BO3) - EPL Masters Playoffs",
     "closed": false
    },
    {
-    "t": "Dota 2: Daxak Team vs iLTW TEAM (BO3) - Fonbet Media Eleague Group Sta",
-    "closed": false
+    "t": "Dota 2: Natus Vincere vs Nemiga Gaming (BO3) - EPL Masters Playoffs",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -361,18 +361,24 @@
  },
  "n_event_queries": 24,
  "events": 817,
- "markets": 1145,
- "markets_dropped_by_volume_floor": 10148,
- "day_file": "data/2026/11/2026-11-02T19.jsonl",
+ "markets": 1176,
+ "markets_dropped_by_volume_floor": 10161,
+ "day_file": "data/2026/11/2026-11-02T20.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
- "trades_watchlist_markets": 42,
- "trades_collected": 2821,
- "anomalies_detected": 24,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 211,
- "books_rows": 408,
+ "trades_watchlist_markets": 60,
+ "trades_collected": 2229,
+ "anomalies_detected": 59,
+ "anomalies_new": 59,
+ "history_debug": [
+  {
+   "cid": "0x57b74ee2",
+   "pts": 5,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 199,
+ "books_rows": 356,
  "status": "ok"
 }
