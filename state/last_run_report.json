@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-02T14:49:40Z",
+ "ts": "2026-11-02T14:57:45Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 34,
+   "events_returned": 40,
    "err": null
   },
   {
@@ -160,11 +160,11 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Dota 2: LEGION vs HULIGANI (BO3) - EPL Masters Playoffs"
+   "Dota 2: OG vs Yellow Submarine (BO3) - EPL Masters Playoffs"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: LEGION vs HULIGANI (BO3) - EPL Masters Playoffs",
    "Dota 2: OG vs Yellow Submarine (BO3) - EPL Masters Playoffs",
+   "Dota 2: LEGION vs HULIGANI (BO3) - EPL Masters Playoffs",
    "Dota 2: potn9ki vs HellNight- (BO3) - Esports Pro Circuit  Group C"
   ],
   "tag_slug=cs2": [
@@ -232,11 +232,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: LEGION vs HULIGANI (BO3) - EPL Masters Playoffs",
+    "t": "Dota 2: OG vs Yellow Submarine (BO3) - EPL Masters Playoffs",
     "closed": false
    },
    {
-    "t": "Dota 2: OG vs Yellow Submarine (BO3) - EPL Masters Playoffs",
+    "t": "Dota 2: LEGION vs HULIGANI (BO3) - EPL Masters Playoffs",
     "closed": false
    },
    {
@@ -298,11 +298,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: Team Samuraj vs Team relaxcis (BO3) - BETBOOM Streamers Batt",
+    "t": "VALORANT Game Changers Championship 2026: Winner",
     "closed": true
    },
    {
-    "t": "VALORANT Game Changers Championship 2026: Winner",
+    "t": "Valorant: Team Samuraj vs Team relaxcis (BO3) - BETBOOM Streamers Batt",
     "closed": true
    },
    {
@@ -360,19 +360,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 794,
- "markets": 902,
- "markets_dropped_by_volume_floor": 8406,
+ "events": 801,
+ "markets": 914,
+ "markets_dropped_by_volume_floor": 8902,
  "day_file": "data/2026/11/2026-11-02T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 215,
+ "trades_markets_queried": 226,
  "trades_watchlist_markets": 64,
- "trades_collected": 3153,
- "anomalies_detected": 28,
+ "trades_collected": 3159,
+ "anomalies_detected": 26,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 98,
- "books_rows": 146,
+ "books_markets": 95,
+ "books_rows": 140,
  "status": "ok"
 }
