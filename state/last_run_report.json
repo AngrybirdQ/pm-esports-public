@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-02T11:09:12Z",
+ "ts": "2026-11-02T11:27:16Z",
  "sources": [
   {
    "url": "/tags",
@@ -298,10 +298,6 @@
     "closed": true
    },
    {
-    "t": "Valorant: Unsettled Resentment vs Nova Esports (BO5) - VCT Threshold C",
-    "closed": true
-   },
-   {
     "t": "Valorant: Team Samuraj vs Team relaxcis (BO3) - BETBOOM Streamers Batt",
     "closed": true
    },
@@ -311,6 +307,10 @@
    },
    {
     "t": "Valorant: NRG vs Fnatic (BO5)",
+    "closed": true
+   },
+   {
+    "t": "Valorant: Team GPK vs Team Samuraj (BO5) - BETBOOM Streamers Battle Pl",
     "closed": true
    }
   ],
@@ -362,17 +362,23 @@
  "n_event_queries": 24,
  "events": 794,
  "markets": 783,
- "markets_dropped_by_volume_floor": 7941,
+ "markets_dropped_by_volume_floor": 7946,
  "day_file": "data/2026/11/2026-11-02T11.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 167,
- "trades_watchlist_markets": 77,
- "trades_collected": 2166,
- "anomalies_detected": 16,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 74,
- "books_rows": 124,
+ "trades_watchlist_markets": 81,
+ "trades_collected": 2319,
+ "anomalies_detected": 19,
+ "anomalies_new": 8,
+ "history_debug": [
+  {
+   "cid": "0xe551e897",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 70,
+ "books_rows": 118,
  "status": "ok"
 }
