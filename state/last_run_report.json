@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-02T16:38:11Z",
+ "ts": "2026-11-02T16:40:52Z",
  "sources": [
   {
    "url": "/tags",
@@ -164,8 +164,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: potn9ki vs HellNight- (BO3) - Esports Pro Circuit  Group C",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
-   "Dota 2: Stray Club vs Cooman Club (BO3) - Winline Star Series Group A"
+   "Dota 2: Natus Vincere vs Nemiga Gaming (BO3) - EPL Masters Playoffs",
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -360,19 +360,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 802,
- "markets": 954,
- "markets_dropped_by_volume_floor": 9242,
+ "events": 803,
+ "markets": 975,
+ "markets_dropped_by_volume_floor": 9234,
  "day_file": "data/2026/11/2026-11-02T16.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 52,
- "trades_collected": 2831,
- "anomalies_detected": 51,
- "anomalies_new": 1,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 151,
- "books_rows": 290,
+ "trades_collected": 2883,
+ "anomalies_detected": 52,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0x8e61c4ec",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 154,
+ "books_rows": 298,
  "status": "ok"
 }
