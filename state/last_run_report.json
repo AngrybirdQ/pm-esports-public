@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-02T15:10:55Z",
+ "ts": "2026-11-02T15:30:23Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 40,
+   "events_returned": 38,
    "err": null
   },
   {
@@ -164,8 +164,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: OG vs Yellow Submarine (BO3) - EPL Masters Playoffs",
-   "Dota 2: LEGION vs HULIGANI (BO3) - EPL Masters Playoffs",
-   "Dota 2: potn9ki vs HellNight- (BO3) - Esports Pro Circuit  Group C"
+   "Dota 2: potn9ki vs HellNight- (BO3) - Esports Pro Circuit  Group C",
+   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
   ],
   "tag_slug=cs2": [
    "Will FaZe win a Tier 1 event in 2026? ",
@@ -196,12 +196,12 @@
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "NBA: 2027 Eastern Conference Champion"
+   "Thunder vs. Cavaliers"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "NBA: 2027 Eastern Conference Champion"
+   "Thunder vs. Cavaliers"
   ],
   "tag_slug=international-affairs": [
    "US-Canada diplomatic agreement to lower tariffs by...?",
@@ -237,7 +237,7 @@
    },
    {
     "t": "Dota 2: LEGION vs HULIGANI (BO3) - EPL Masters Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: potn9ki vs HellNight- (BO3) - Esports Pro Circuit  Group C",
@@ -361,18 +361,22 @@
  },
  "n_event_queries": 24,
  "events": 801,
- "markets": 924,
- "markets_dropped_by_volume_floor": 8879,
+ "markets": 928,
+ "markets_dropped_by_volume_floor": 8877,
  "day_file": "data/2026/11/2026-11-02T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 231,
- "trades_watchlist_markets": 64,
- "trades_collected": 3066,
- "anomalies_detected": 28,
- "anomalies_new": 2,
+ "trades_markets_queried": 226,
+ "trades_watchlist_markets": 55,
+ "trades_collected": 3045,
+ "anomalies_detected": 29,
+ "anomalies_new": 29,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 96,
- "books_rows": 142,
+ "books_errors": [
+  "1083635019: HTTPError: HTTP Error 404: Not Found",
+  "5082344526: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 90,
+ "books_rows": 140,
  "status": "ok"
 }
