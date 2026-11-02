@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-02T02:09:57Z",
+ "ts": "2026-11-02T02:14:42Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 191,
+   "events_returned": 190,
    "err": null
   },
   {
@@ -196,12 +196,12 @@
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Celtics vs. Magic"
+   "Nets vs. Pacers"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Celtics vs. Magic"
+   "Nets vs. Pacers"
   ],
   "tag_slug=international-affairs": [
    "US-Canada diplomatic agreement to lower tariffs by...?",
@@ -361,24 +361,18 @@
  },
  "n_event_queries": 24,
  "events": 789,
- "markets": 796,
- "markets_dropped_by_volume_floor": 6764,
+ "markets": 795,
+ "markets_dropped_by_volume_floor": 6740,
  "day_file": "data/2026/11/2026-11-02T02.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 242,
+ "trades_markets_queried": 250,
  "trades_watchlist_markets": 46,
- "trades_collected": 2783,
+ "trades_collected": 2869,
  "anomalies_detected": 46,
- "anomalies_new": 1,
+ "anomalies_new": 8,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1124583784: HTTPError: HTTP Error 404: Not Found",
-  "6069857837: HTTPError: HTTP Error 404: Not Found",
-  "5472674494: HTTPError: HTTP Error 404: Not Found",
-  "1086050754: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 207,
- "books_rows": 376,
+ "books_markets": 217,
+ "books_rows": 394,
  "status": "ok"
 }
