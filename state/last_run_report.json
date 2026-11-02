@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-02T10:38:36Z",
+ "ts": "2026-11-02T10:42:00Z",
  "sources": [
   {
    "url": "/tags",
@@ -232,12 +232,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Xipto Esports vs potn9ki (BO3) - Esports Pro Circuit  Group C",
-    "closed": true
-   },
-   {
     "t": "Dota 2: LEGION vs HULIGANI (BO3) - EPL Masters Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Xipto Esports vs potn9ki (BO3) - Esports Pro Circuit  Group C",
+    "closed": true
    },
    {
     "t": "Dota 2: Team Synapse vs SOLID (BO5) - NEXUS SERIES Playoffs",
@@ -367,12 +367,21 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 162,
  "trades_watchlist_markets": 77,
- "trades_collected": 2017,
+ "trades_collected": 2008,
  "anomalies_detected": 30,
- "anomalies_new": 6,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "1046151129: HTTPError: HTTP Error 404: Not Found",
+  "6059618220: HTTPError: HTTP Error 404: Not Found",
+  "5138880336: HTTPError: HTTP Error 404: Not Found",
+  "1066214245: HTTPError: HTTP Error 404: Not Found",
+  "2902163582: HTTPError: HTTP Error 404: Not Found",
+  "8957306228: HTTPError: HTTP Error 404: Not Found",
+  "4113213014: HTTPError: HTTP Error 404: Not Found"
+ ],
  "books_markets": 82,
- "books_rows": 144,
+ "books_rows": 134,
  "status": "ok"
 }
