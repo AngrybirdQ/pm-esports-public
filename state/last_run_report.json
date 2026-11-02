@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-02T08:13:31Z",
+ "ts": "2026-11-02T09:12:46Z",
  "sources": [
   {
    "url": "/tags",
@@ -160,7 +160,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Counter-Strike: PARIVISION vs G2 (BO3) - IEM Beijing Group B"
+   "Counter-Strike: Natus Vincere vs Team Falcons (BO3) - IEM Beijing Grou"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
@@ -244,7 +244,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Natus Vincere vs Nemiga Gaming (BO3) - EPL Masters Playoffs",
+    "t": "Dota 2: LEGION vs HULIGANI (BO3) - EPL Masters Playoffs",
     "closed": false
    }
   ],
@@ -360,19 +360,35 @@
   ]
  },
  "n_event_queries": 24,
- "events": 787,
- "markets": 723,
- "markets_dropped_by_volume_floor": 7646,
- "day_file": "data/2026/11/2026-11-02T08.jsonl",
+ "events": 794,
+ "markets": 740,
+ "markets_dropped_by_volume_floor": 7843,
+ "day_file": "data/2026/11/2026-11-02T09.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 130,
- "trades_watchlist_markets": 56,
- "trades_collected": 1413,
- "anomalies_detected": 18,
- "anomalies_new": 18,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 74,
+ "trades_markets_queried": 141,
+ "trades_watchlist_markets": 62,
+ "trades_collected": 1896,
+ "anomalies_detected": 28,
+ "anomalies_new": 28,
+ "history_debug": [
+  {
+   "cid": "0x48f47af0",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_errors": [
+  "3778090466: HTTPError: HTTP Error 404: Not Found",
+  "1089266210: HTTPError: HTTP Error 404: Not Found",
+  "2639529182: HTTPError: HTTP Error 404: Not Found",
+  "7766413181: HTTPError: HTTP Error 404: Not Found",
+  "4293432807: HTTPError: HTTP Error 404: Not Found",
+  "1129040690: HTTPError: HTTP Error 404: Not Found",
+  "9433216427: HTTPError: HTTP Error 404: Not Found",
+  "6447072735: HTTPError: HTTP Error 404: Not Found"
+ ],
+ "books_markets": 76,
  "books_rows": 138,
  "status": "ok"
 }
