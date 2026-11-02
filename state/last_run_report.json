@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-02T04:08:50Z",
+ "ts": "2026-11-02T04:14:02Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 190,
+   "events_returned": 189,
    "err": null
   },
   {
@@ -360,41 +360,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 788,
- "markets": 823,
- "markets_dropped_by_volume_floor": 6951,
+ "events": 787,
+ "markets": 757,
+ "markets_dropped_by_volume_floor": 6657,
  "day_file": "data/2026/11/2026-11-02T04.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 209,
+ "trades_markets_queried": 193,
  "trades_watchlist_markets": 49,
- "trades_collected": 3784,
- "anomalies_detected": 194,
- "anomalies_new": 0,
+ "trades_collected": 2780,
+ "anomalies_detected": 103,
+ "anomalies_new": 5,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "5040629195: HTTPError: HTTP Error 404: Not Found",
-  "1340094877: HTTPError: HTTP Error 404: Not Found",
-  "9662293875: HTTPError: HTTP Error 404: Not Found",
-  "5717029386: HTTPError: HTTP Error 404: Not Found",
-  "6540823272: HTTPError: HTTP Error 404: Not Found",
-  "1531201912: HTTPError: HTTP Error 404: Not Found",
-  "2167037639: HTTPError: HTTP Error 404: Not Found",
-  "8205295470: HTTPError: HTTP Error 404: Not Found",
-  "7050982107: HTTPError: HTTP Error 404: Not Found",
-  "2062515384: HTTPError: HTTP Error 404: Not Found",
-  "1415053024: HTTPError: HTTP Error 404: Not Found",
-  "5013321466: HTTPError: HTTP Error 404: Not Found",
-  "3920298515: HTTPError: HTTP Error 404: Not Found",
-  "4693643030: HTTPError: HTTP Error 404: Not Found",
-  "7786171872: HTTPError: HTTP Error 404: Not Found",
-  "5668228358: HTTPError: HTTP Error 404: Not Found",
-  "4413921433: HTTPError: HTTP Error 404: Not Found",
-  "2445849700: HTTPError: HTTP Error 404: Not Found",
-  "1004143441: HTTPError: HTTP Error 404: Not Found",
-  "1050535704: HTTPError: HTTP Error 404: Not Found"
- ],
  "books_markets": 158,
- "books_rows": 208,
+ "books_rows": 216,
  "status": "ok"
 }
