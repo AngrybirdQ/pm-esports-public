@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-02T03:03:27Z",
+ "ts": "2026-11-02T03:58:42Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 32,
+   "events_returned": 31,
    "err": null
   },
   {
@@ -241,7 +241,7 @@
    },
    {
     "t": "Dota 2: Team Synapse vs SOLID (BO5) - NEXUS SERIES Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: OG vs Yellow Submarine (BO3) - EPL Masters Playoffs",
@@ -361,18 +361,18 @@
  },
  "n_event_queries": 24,
  "events": 788,
- "markets": 817,
- "markets_dropped_by_volume_floor": 6888,
+ "markets": 832,
+ "markets_dropped_by_volume_floor": 6957,
  "day_file": "data/2026/11/2026-11-02T03.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 260,
- "trades_watchlist_markets": 47,
- "trades_collected": 3624,
- "anomalies_detected": 89,
- "anomalies_new": 24,
+ "trades_markets_queried": 210,
+ "trades_watchlist_markets": 49,
+ "trades_collected": 3896,
+ "anomalies_detected": 188,
+ "anomalies_new": 188,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 233,
- "books_rows": 364,
+ "books_markets": 158,
+ "books_rows": 218,
  "status": "ok"
 }
