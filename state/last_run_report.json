@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-02T00:28:09Z",
+ "ts": "2026-11-02T00:45:37Z",
  "sources": [
   {
    "url": "/tags",
@@ -160,7 +160,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Counter-Strike: DENDELE CS vs Imperial (BO5) - Gamers Club Masters Pla"
+   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle ",
@@ -361,22 +361,18 @@
  },
  "n_event_queries": 24,
  "events": 791,
- "markets": 742,
- "markets_dropped_by_volume_floor": 6449,
+ "markets": 748,
+ "markets_dropped_by_volume_floor": 6430,
  "day_file": "data/2026/11/2026-11-02T00.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 218,
- "trades_watchlist_markets": 48,
- "trades_collected": 2262,
- "anomalies_detected": 34,
- "anomalies_new": 3,
+ "trades_markets_queried": 187,
+ "trades_watchlist_markets": 57,
+ "trades_collected": 2312,
+ "anomalies_detected": 47,
+ "anomalies_new": 47,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "4304254220: HTTPError: HTTP Error 404: Not Found",
-  "7764389199: HTTPError: HTTP Error 404: Not Found"
- ],
- "books_markets": 180,
- "books_rows": 288,
+ "books_markets": 116,
+ "books_rows": 222,
  "status": "ok"
 }
