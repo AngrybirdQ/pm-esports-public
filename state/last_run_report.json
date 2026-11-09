@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-09T13:27:10Z",
+ "ts": "2026-11-09T13:29:41Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 167,
+   "events_returned": 175,
    "err": null
   },
   {
@@ -165,7 +165,7 @@
   "tag_slug=dota-2": [
    "Dota 2: Xipto Esports vs HULIGANI (BO3) - 1win Essence Play-in Group B",
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
-   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B"
+   "Dota 2: Power Rangers vs Nemiga Gaming (BO3) - DreamLeague Division 2 "
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
@@ -362,18 +362,24 @@
   ]
  },
  "n_event_queries": 24,
- "events": 767,
- "markets": 820,
- "markets_dropped_by_volume_floor": 6583,
+ "events": 774,
+ "markets": 826,
+ "markets_dropped_by_volume_floor": 6664,
  "day_file": "data/2026/11/2026-11-09T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 133,
+ "trades_markets_queried": 137,
  "trades_watchlist_markets": 64,
- "trades_collected": 2906,
- "anomalies_detected": 26,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_collected": 2572,
+ "anomalies_detected": 24,
+ "anomalies_new": 24,
+ "history_debug": [
+  {
+   "cid": "0x20892388",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 95,
  "books_rows": 142,
  "status": "ok"
