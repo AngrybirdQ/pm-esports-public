@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-09T19:06:08Z",
+ "ts": "2026-11-09T20:05:09Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 47,
+   "events_returned": 49,
    "err": null
   },
   {
@@ -152,7 +152,7 @@
   }
  ],
  "errors": [
-  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=70071109010266421373019522326557924764939409459358123395061607724120"
+  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=62167704023116738990250432375576948127064818647392143095819571534770"
  ],
  "stage": "all",
  "tags_discovered": [
@@ -244,11 +244,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Froglings vs Ka4kanarskie cyxariki (BO3) - 1win Essence Play-i",
+    "t": "Dota 2: Power Rangers vs Nemiga Gaming (BO3) - DreamLeague Division 2 ",
     "closed": true
    },
    {
-    "t": "Dota 2: Power Rangers vs Nemiga Gaming (BO3) - DreamLeague Division 2 ",
+    "t": "Dota 2: Froglings vs Ka4kanarskie cyxariki (BO3) - 1win Essence Play-i",
     "closed": true
    }
   ],
@@ -310,11 +310,11 @@
     "closed": false
    },
    {
-    "t": "Valorant: Team International vs Glacial Guardians (BO3) - Spike Series",
+    "t": "Valorant: Brest Esport vs regnum4games (BO3) - Spike Series Convergenc",
     "closed": false
    },
    {
-    "t": "Valorant: Brest Esport vs regnum4games (BO3) - Spike Series Convergenc",
+    "t": "Valorant: Team International vs Glacial Guardians (BO3) - Spike Series",
     "closed": false
    }
   ],
@@ -364,27 +364,58 @@
   ]
  },
  "n_event_queries": 24,
- "events": 773,
- "markets": 965,
- "markets_dropped_by_volume_floor": 7593,
- "day_file": "data/2026/11/2026-11-09T19.jsonl",
+ "events": 775,
+ "markets": 1029,
+ "markets_dropped_by_volume_floor": 7820,
+ "day_file": "data/2026/11/2026-11-09T20.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 182,
- "trades_watchlist_markets": 90,
- "trades_collected": 3713,
- "anomalies_detected": 65,
- "anomalies_new": 65,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "7007110901: HTTP 404 (api deprecated)",
-  "6183488567: HTTP 404 (api deprecated)"
+ "trades_markets_queried": 216,
+ "trades_watchlist_markets": 82,
+ "trades_collected": 4966,
+ "anomalies_detected": 85,
+ "anomalies_new": 85,
+ "history_debug": [
+  {
+   "cid": "0x5f6c334f",
+   "pts": 11,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xcd0881e1",
+   "pts": 11,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x9624254b",
+   "pts": 8,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x8c7c394a",
+   "pts": 5,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x3310309c",
+   "pts": 5,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x88a61314",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 96,
- "books_rows": 160,
+ "history_conditions_new": 6,
+ "books_errors": [
+  "6216770402: HTTP 404 (api deprecated)",
+  "7237070192: HTTP 404 (api deprecated)"
+ ],
+ "books_markets": 130,
+ "books_rows": 238,
  "status": "ok",
  "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=70071109010266421373019522326557924764939409459358123395061607724120",
-  "404 https://clob.polymarket.com/book?token_id=61834885676782551580580396720974553603165152096243356535664615557206"
+  "404 https://clob.polymarket.com/book?token_id=62167704023116738990250432375576948127064818647392143095819571534770",
+  "404 https://clob.polymarket.com/book?token_id=72370701921773505554884387039741624691127771194976278835768720270028"
  ]
 }
