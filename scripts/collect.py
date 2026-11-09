@@ -67,6 +67,9 @@ def now_iso():
     return now_utc().strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
+REPORT_NOTE = {"api_deprecated": []}  # 11-9: 410/404退役类错误聚合(每次run重置)
+
+
 def http_json(url, attempts=2):
     last_err = None
     for i in range(attempts):
@@ -77,6 +80,14 @@ def http_json(url, attempts=2):
             })
             with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT) as r:
                 return json.loads(r.read().decode("utf-8")), None
+        except urllib.error.HTTPError as e:
+            # 11-9 410告警: 上游API退役(Gone)曾静默烧6天(v1 /trades事件)。
+            # 退役类状态码立即上报, 不重试不淹没在逐市场errors里。
+            if e.code in (404, 410):
+                REPORT_NOTE["api_deprecated"].append(f"{e.code} {url[:110]}")
+                return None, f"HTTP {e.code} (api deprecated)"
+            last_err = f"HTTP {e.code}: {e}"
+            time.sleep(2 * (i + 1))
         except Exception as e:  # noqa: BLE001 - report everything
             last_err = f"{type(e).__name__}: {e}"
             time.sleep(2 * (i + 1))
@@ -1044,6 +1055,11 @@ def main():
 
     # flow阶段artifact只带data+seen_anomalies(与snap的state不冲突);
     # report分文件落, 避免两artifact同路径互相覆盖
+    if REPORT_NOTE["api_deprecated"]:
+        report["api_deprecated"] = REPORT_NOTE["api_deprecated"][:8]
+        report["errors"].insert(0, "API-DEPRECATED %d urls: %s" % (
+            len(REPORT_NOTE["api_deprecated"]),
+            REPORT_NOTE["api_deprecated"][0]))
     report_name = ("last_run_report.json" if args.stage != "flow"
                    else "last_run_report_flow.json")
     with open(os.path.join(state_dir, report_name), "w",
