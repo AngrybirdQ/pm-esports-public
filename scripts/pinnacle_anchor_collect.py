@@ -30,7 +30,9 @@ def wreq(url):
                  "User-Agent": "pinnacle-anchor/1.0"})
     try:
         with urllib.request.urlopen(req, timeout=35) as r:
-            return True, json.loads(r.read().decode())
+            # 2026-11-09 fix: 成功分支曾返回2元组而调用方按3元组解包,
+            # 每轮ValueError: not enough values to unpack (expected 3, got 2)
+            return True, json.loads(r.read().decode()), 200
     except urllib.error.HTTPError as e:
         return False, None, e.code
     except Exception:
