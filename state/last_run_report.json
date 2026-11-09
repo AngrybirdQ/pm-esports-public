@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-09T13:54:56Z",
+ "ts": "2026-11-09T13:57:23Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=69876913009052710412841135505674013031331978337137147550659821112749"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -248,7 +246,7 @@
     "closed": false
    },
    {
-    "t": "Dota 2: HULIGANI vs Yellow Submarine (BO3) - 1win Essence Play-in Grou",
+    "t": "Dota 2: Yakult Brothers vs Zero Tenacity (BO3) - DreamLeague Division ",
     "closed": true
    }
   ],
@@ -365,26 +363,18 @@
  },
  "n_event_queries": 24,
  "events": 772,
- "markets": 832,
- "markets_dropped_by_volume_floor": 6631,
+ "markets": 833,
+ "markets_dropped_by_volume_floor": 7032,
  "day_file": "data/2026/11/2026-11-09T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 151,
+ "trades_markets_queried": 153,
  "trades_watchlist_markets": 92,
- "trades_collected": 3231,
- "anomalies_detected": 32,
- "anomalies_new": 0,
+ "trades_collected": 3138,
+ "anomalies_detected": 29,
+ "anomalies_new": 1,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "6987691300: HTTP 404 (api deprecated)",
-  "3272732980: HTTP 404 (api deprecated)"
- ],
- "books_markets": 104,
- "books_rows": 160,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=69876913009052710412841135505674013031331978337137147550659821112749",
-  "404 https://clob.polymarket.com/book?token_id=32727329805448603811889268887724802747324206624830731935191898347991"
- ]
+ "books_markets": 105,
+ "books_rows": 164,
+ "status": "ok"
 }
