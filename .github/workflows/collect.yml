@@ -130,7 +130,7 @@ jobs:
     if: needs.decide.outputs.mode != 'longrun' && needs.decide.outputs.skip != 'true'
     needs: snap
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 14  # 11-09: 8→14, flow step4曾撞8min线连cancel 6天(trades v2迁移后需求下降,留余量)
     steps:
       - uses: actions/checkout@v4
       - uses: actions/download-artifact@v4
