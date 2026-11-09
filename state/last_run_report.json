@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-09T15:58:06Z",
+ "ts": "2026-11-09T16:53:23Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 61,
+   "events_returned": 58,
    "err": null
   },
   {
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=11477186240313240688957123754773930269054742131486256936597731966634"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -162,12 +160,12 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs"
+   "Dota 2: Froglings vs PlayTime (BO3) - DreamLeague Division 2 Group A"
   ],
   "tag_slug=dota-2": [
+   "Dota 2: Froglings vs PlayTime (BO3) - DreamLeague Division 2 Group A",
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
-   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B",
-   "Dota 2: Xipto Esports vs Team Synapse (BO3) - DreamLeague Division 2 G"
+   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B"
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
@@ -240,15 +238,15 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PlayTime vs LEGION (BO3) - 1win Essence Play-in Group B",
-    "closed": true
+    "t": "Dota 2: Froglings vs PlayTime (BO3) - DreamLeague Division 2 Group A",
+    "closed": false
    },
    {
     "t": "Dota 2: Power Rangers vs Nemiga Gaming (BO3) - DreamLeague Division 2 ",
     "closed": true
    },
    {
-    "t": "Dota 2: Yakult Brothers vs Zero Tenacity (BO3) - DreamLeague Division ",
+    "t": "Dota 2: PlayTime vs LEGION (BO3) - 1win Essence Play-in Group B",
     "closed": true
    }
   ],
@@ -364,27 +362,30 @@
   ]
  },
  "n_event_queries": 24,
- "events": 778,
- "markets": 892,
- "markets_dropped_by_volume_floor": 7697,
- "day_file": "data/2026/11/2026-11-09T15.jsonl",
+ "events": 776,
+ "markets": 912,
+ "markets_dropped_by_volume_floor": 7651,
+ "day_file": "data/2026/11/2026-11-09T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 167,
- "trades_watchlist_markets": 84,
- "trades_collected": 4206,
- "anomalies_detected": 34,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "1147718624: HTTP 404 (api deprecated)",
-  "7008467564: HTTP 404 (api deprecated)"
+ "trades_markets_queried": 179,
+ "trades_watchlist_markets": 97,
+ "trades_collected": 3689,
+ "anomalies_detected": 50,
+ "anomalies_new": 50,
+ "history_debug": [
+  {
+   "cid": "0xa91e7601",
+   "pts": 5,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x487f0546",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 99,
- "books_rows": 148,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=11477186240313240688957123754773930269054742131486256936597731966634",
-  "404 https://clob.polymarket.com/book?token_id=70084675642647885939345839411791211304404559023739943625283156903506"
- ]
+ "history_conditions_new": 2,
+ "books_markets": 108,
+ "books_rows": 166,
+ "status": "ok"
 }
