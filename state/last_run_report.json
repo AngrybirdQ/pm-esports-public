@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-09T22:36:31Z",
+ "ts": "2026-11-09T22:39:01Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 68,
+   "events_returned": 67,
    "err": null
   },
   {
@@ -151,7 +151,9 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=80864610295465543299667299051994648368343390834476466859298862089443"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -363,18 +365,32 @@
  },
  "n_event_queries": 24,
  "events": 788,
- "markets": 1138,
- "markets_dropped_by_volume_floor": 8016,
+ "markets": 1167,
+ "markets_dropped_by_volume_floor": 7991,
  "day_file": "data/2026/11/2026-11-09T22.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 256,
+ "trades_markets_queried": 270,
  "trades_watchlist_markets": 99,
- "trades_collected": 3634,
- "anomalies_detected": 30,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 147,
- "books_rows": 218,
- "status": "ok"
+ "trades_collected": 3845,
+ "anomalies_detected": 31,
+ "anomalies_new": 1,
+ "history_debug": [
+  {
+   "cid": "0x7c9f51f1",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_errors": [
+  "8086461029: HTTP 404 (api deprecated)",
+  "1032340563: HTTP 404 (api deprecated)"
+ ],
+ "books_markets": 161,
+ "books_rows": 244,
+ "status": "ok",
+ "api_deprecated": [
+  "404 https://clob.polymarket.com/book?token_id=80864610295465543299667299051994648368343390834476466859298862089443",
+  "404 https://clob.polymarket.com/book?token_id=10323405631258306747971332364490811687798445894712491372695730287319"
+ ]
 }
