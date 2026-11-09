@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-09T11:55:04Z",
+ "ts": "2026-11-09T11:57:33Z",
  "sources": [
   {
    "url": "/tags",
@@ -246,8 +246,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Yakult Brothers vs Zero Tenacity (BO3) - DreamLeague Division ",
-    "closed": true
+    "t": "Dota 2: Xipto Esports vs HULIGANI (BO3) - 1win Essence Play-in Group B",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -363,21 +363,23 @@
  },
  "n_event_queries": 24,
  "events": 767,
- "markets": 782,
- "markets_dropped_by_volume_floor": 6612,
+ "markets": 790,
+ "markets_dropped_by_volume_floor": 6616,
  "day_file": "data/2026/11/2026-11-09T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 109,
+ "trades_markets_queried": 111,
  "trades_watchlist_markets": 58,
- "trades_collected": 2605,
- "anomalies_detected": 35,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "1038154914: HTTPError: HTTP Error 404: Not Found",
-  "8530820399: HTTPError: HTTP Error 404: Not Found"
+ "trades_collected": 2670,
+ "anomalies_detected": 37,
+ "anomalies_new": 4,
+ "history_debug": [
+  {
+   "cid": "0xa3d0a0b3",
+   "pts": 7,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
+ "history_conditions_new": 1,
  "books_markets": 89,
  "books_rows": 146,
  "status": "ok"
