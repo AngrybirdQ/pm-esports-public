@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-02T22:02:08Z",
+ "ts": "2026-11-09T08:00:17Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 39,
+   "events_returned": 66,
    "err": null
   },
   {
@@ -51,25 +51,25 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 49,
+   "events_returned": 41,
    "err": null
   },
   {
    "url": "tag_slug=lol",
    "ok": true,
-   "events_returned": 34,
+   "events_returned": 27,
    "err": null
   },
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 38,
+   "events_returned": 43,
    "err": null
   },
   {
    "url": "tag_slug=starcraft-2",
    "ok": true,
-   "events_returned": 1,
+   "events_returned": 3,
    "err": null
   },
   {
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 193,
+   "events_returned": 167,
    "err": null
   },
   {
@@ -105,13 +105,13 @@
   {
    "url": "tag_slug=international-affairs",
    "ok": true,
-   "events_returned": 12,
+   "events_returned": 10,
    "err": null
   },
   {
    "url": "tag_id[international-affairs]",
    "ok": true,
-   "events_returned": 12,
+   "events_returned": 10,
    "err": null
   },
   {
@@ -152,25 +152,25 @@
   }
  ],
  "errors": [],
- "stage": "all",
+ "stage": "snap",
  "tags_discovered": [
   "international-affairs"
  ],
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Dota 2: potn9ki vs HellNight- (BO3) - Esports Pro Circuit  Group C",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: potn9ki vs HellNight- (BO3) - Esports Pro Circuit  Group C",
-   "Dota 2: GamerLegion vs CyberHero (BO3) - EPL Masters Playoffs",
-   "Dota 2: Travoman Team vs Rostik Team (BO3) - BetBoom Streamers Battle "
+   "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
+   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B",
+   "Dota 2: Amaru Gaming vs Zero Tenacity (BO3) - DreamLeague Division 2 G"
   ],
   "tag_slug=cs2": [
+   "PGL Major Singapore 2026: Winner",
    "Will FaZe win a Tier 1 event in 2026? ",
-   "Which teams will qualify to PGL Major Singapore 2026?",
-   "CS2 Offseason: m0NESY Next Team"
+   "Which teams will qualify to PGL Major Singapore 2026?"
   ],
   "tag_slug=counter-strike": [
    "Will Valve add sticker trade-ups by...?"
@@ -186,22 +186,24 @@
    "League of Legends Global Power Rankings Post Worlds: Rank 1"
   ],
   "tag_slug=valorant": [
-   "VALORANT Offseason: OXY Next Team",
    "VALORANT Offseason: zekken Next Team",
+   "VALORANT Offseason: Boaster Next Team",
    "VALORANT Offseason: primmie Next Team"
   ],
   "tag_slug=starcraft-2": [
-   "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
+   "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
+   "StarCraft II: Percival vs Shameless (BO5) - WardiTV Championship Playo",
+   "StarCraft II: youngYakov vs Lambo (BO5) - WardiTV Championship Playoff"
   ],
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Hawks vs. Pacers"
+   "Spurs vs. Kings"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Hawks vs. Pacers"
+   "Spurs vs. Kings"
   ],
   "tag_slug=international-affairs": [
    "US-Canada diplomatic agreement to lower tariffs by...?",
@@ -228,23 +230,23 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: potn9ki vs HellNight- (BO3) - Esports Pro Circuit  Group C",
-    "closed": false
-   },
-   {
-    "t": "Dota 2: OG vs Yellow Submarine (BO3) - EPL Masters Playoffs",
+    "t": "Dota 2: Power Rangers vs PlayTime (BO3) - DreamLeague Division 2 Group",
     "closed": true
    },
    {
-    "t": "Dota 2: LEGION vs HULIGANI (BO3) - EPL Masters Playoffs",
+    "t": "Dota 2: Froglings vs Ka4kanarskie cyxariki (BO3) - 1win Essence Play-i",
     "closed": true
    },
    {
-    "t": "Dota 2: GamerLegion vs CyberHero (BO3) - EPL Masters Playoffs",
-    "closed": false
+    "t": "Dota 2: HULIGANI vs Yellow Submarine (BO3) - 1win Essence Play-in Grou",
+    "closed": true
    },
    {
-    "t": "Dota 2: Natus Vincere vs Nemiga Gaming (BO3) - EPL Masters Playoffs",
+    "t": "Dota 2: PlayTime vs LEGION (BO3) - 1win Essence Play-in Group B",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Yakult Brothers vs Zero Tenacity (BO3) - DreamLeague Division ",
     "closed": true
    }
   ],
@@ -276,6 +278,10 @@
     "closed": false
    },
    {
+    "t": "Will Caedrel Reach Challenger Before the End of the Year?",
+    "closed": false
+   },
+   {
     "t": "LoL: Dplus KIA Challengers vs KT Rolster Challengers (BO5) - LCK Chall",
     "closed": true
    },
@@ -286,19 +292,11 @@
    {
     "t": "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO5) - LCK Challengers",
     "closed": true
-   },
-   {
-    "t": "LoL: DN SOOPers Challengers vs Nongshim Esports Academy (BO5) - LCK Ch",
-    "closed": true
    }
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: Gentle Mates GC vs KRÜ Blaze (BO5) - VCT Game Changers Champ",
-    "closed": true
-   },
-   {
-    "t": "VALORANT Game Changers Championship 2026: Winner",
+    "t": "Valorant: FRG vs Frankfurt Bahnhofsviertel (BO3) - Spike Series Conver",
     "closed": true
    },
    {
@@ -306,11 +304,15 @@
     "closed": true
    },
    {
-    "t": "Valorant: Team GPK vs Team Samuraj (BO5) - BETBOOM Streamers Battle Pl",
+    "t": "Valorant: Original Gaming vs Ferix (BO3) - Asia Pacific Predator Leagu",
     "closed": true
    },
    {
-    "t": "VALORANT Game Changers Championship 2026: Winning Region",
+    "t": "Valorant: SGE Vision vs Backed by Nobody (BO3) - Spike Series Converge",
+    "closed": true
+   },
+   {
+    "t": "Valorant: REH Gaming vs HooK Esport (BO3) - Spike Series Convergence E",
     "closed": true
    }
   ],
@@ -360,19 +362,10 @@
   ]
  },
  "n_event_queries": 24,
- "events": 816,
- "markets": 1198,
- "markets_dropped_by_volume_floor": 10420,
- "day_file": "data/2026/11/2026-11-02T22.jsonl",
+ "events": 763,
+ "markets": 719,
+ "markets_dropped_by_volume_floor": 6287,
+ "day_file": "data/2026/11/2026-11-09T08.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 270,
- "trades_watchlist_markets": 70,
- "trades_collected": 2265,
- "anomalies_detected": 43,
- "anomalies_new": 33,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 176,
- "books_rows": 318,
  "status": "ok"
 }

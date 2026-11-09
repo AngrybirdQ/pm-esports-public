@@ -1,43 +1,100 @@
 {
- "ts": "2026-10-22T04:55:23Z",
+ "ts": "2026-11-09T08:01:26Z",
  "sources": [],
- "errors": [],
+ "errors": [
+  "trades 0xc288967f: HTTPError: HTTP Error 410: Gone",
+  "trades 0x98c26697: HTTPError: HTTP Error 410: Gone",
+  "trades 0xf9f4e1cc: HTTPError: HTTP Error 410: Gone",
+  "trades 0x41f94101: HTTPError: HTTP Error 410: Gone",
+  "trades 0x976e35b2: HTTPError: HTTP Error 410: Gone",
+  "trades 0xd9a39c75: HTTPError: HTTP Error 410: Gone",
+  "trades 0x9f8e09b4: HTTPError: HTTP Error 410: Gone",
+  "trades 0x3fc1b3ba: HTTPError: HTTP Error 410: Gone",
+  "trades 0x018db738: HTTPError: HTTP Error 410: Gone",
+  "trades 0xcede29c8: HTTPError: HTTP Error 410: Gone",
+  "trades 0xb266b012: HTTPError: HTTP Error 410: Gone",
+  "trades 0xeb5633bf: HTTPError: HTTP Error 410: Gone",
+  "trades 0xbfc776a7: HTTPError: HTTP Error 410: Gone",
+  "trades 0x7af284c3: HTTPError: HTTP Error 410: Gone",
+  "trades 0xc15f6268: HTTPError: HTTP Error 410: Gone",
+  "trades 0x640baf40: HTTPError: HTTP Error 410: Gone",
+  "trades 0x55f1d831: HTTPError: HTTP Error 410: Gone",
+  "trades 0x1bfd4649: HTTPError: HTTP Error 410: Gone",
+  "trades 0x197fdc4e: HTTPError: HTTP Error 410: Gone",
+  "trades 0xb20eee80: HTTPError: HTTP Error 410: Gone",
+  "trades 0x25aecc7d: HTTPError: HTTP Error 410: Gone",
+  "trades 0xa8e99a09: HTTPError: HTTP Error 410: Gone",
+  "trades 0x26b9aebb: HTTPError: HTTP Error 410: Gone",
+  "trades 0x0687236d: HTTPError: HTTP Error 410: Gone",
+  "trades 0xbfc40c01: HTTPError: HTTP Error 410: Gone",
+  "trades 0x893b9466: HTTPError: HTTP Error 410: Gone",
+  "trades 0x6f5776ab: HTTPError: HTTP Error 410: Gone",
+  "trades 0x62b6c35e: HTTPError: HTTP Error 410: Gone",
+  "trades 0x9627e283: HTTPError: HTTP Error 410: Gone",
+  "trades 0x37fad07d: HTTPError: HTTP Error 410: Gone",
+  "trades 0xf44cf137: HTTPError: HTTP Error 410: Gone",
+  "trades 0xef8894cd: HTTPError: HTTP Error 410: Gone",
+  "trades 0xfbb36055: HTTPError: HTTP Error 410: Gone",
+  "trades 0x92375f81: HTTPError: HTTP Error 410: Gone",
+  "trades 0x87b847e1: HTTPError: HTTP Error 410: Gone",
+  "trades 0x60fbaee1: HTTPError: HTTP Error 410: Gone",
+  "trades 0x6948ca49: HTTPError: HTTP Error 410: Gone",
+  "trades 0x87f7e315: HTTPError: HTTP Error 410: Gone",
+  "trades 0xda99019e: HTTPError: HTTP Error 410: Gone",
+  "trades 0x861b25bb: HTTPError: HTTP Error 410: Gone",
+  "trades 0x93abfdbf: HTTPError: HTTP Error 410: Gone"
+ ],
  "stage": "flow",
- "markets": 295,
- "trades_markets_queried": 42,
+ "markets": 719,
+ "trades_markets_queried": 41,
  "trades_watchlist_markets": 0,
- "trades_collected": 241,
+ "trades_collected": 0,
  "anomalies_detected": 0,
  "anomalies_new": 0,
  "history_debug": [
   {
-   "cid": "0x6b4b0f6a",
-   "pts": 2,
+   "cid": "0xbaa1cad2",
+   "pts": 19,
    "variant": "interval=all&fidelity=1000"
   },
   {
-   "cid": "0xef4d0e6d",
-   "pts": 2,
+   "cid": "0x695c2a3a",
+   "pts": 19,
    "variant": "interval=all&fidelity=1000"
   },
   {
-   "cid": "0xcfb7f1e1",
-   "pts": 1,
+   "cid": "0xc731686b",
+   "pts": 19,
    "variant": "interval=all&fidelity=1000"
   },
   {
-   "cid": "0xfb5be0cc",
-   "pts": 1,
+   "cid": "0xa199b29e",
+   "pts": 17,
    "variant": "interval=all&fidelity=1000"
   },
   {
-   "cid": "0x9fc60cee",
-   "pts": 1,
+   "cid": "0xd9a39c75",
+   "pts": 17,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x617fe924",
+   "pts": 17,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x96e9e94d",
+   "pts": 7,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x2fe55a1b",
+   "pts": 7,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 5,
+ "history_conditions_new": 35,
  "books_markets": 20,
- "books_rows": 40,
+ "books_rows": 36,
  "status": "ok"
 }
