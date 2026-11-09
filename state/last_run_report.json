@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-09T18:07:09Z",
+ "ts": "2026-11-09T18:09:34Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,7 +151,9 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "API-DEPRECATED 8 urls: 404 https://clob.polymarket.com/book?token_id=25132339838958174763957031447728183628516613342106480350616569304292"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -308,11 +310,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: REH Gaming vs HooK Esport (BO3) - Spike Series Convergence E",
-    "closed": true
+    "t": "Valorant: Bonkers vs MeatZn (BO1) - Asia Pacific Predator League Ocean",
+    "closed": false
    },
    {
-    "t": "Valorant: Bonkers vs MeatZn (BO1) - Asia Pacific Predator League Ocean",
+    "t": "Valorant: Team International vs Glacial Guardians (BO3) - Spike Series",
     "closed": false
    }
   ],
@@ -369,12 +371,32 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 185,
  "trades_watchlist_markets": 104,
- "trades_collected": 3976,
- "anomalies_detected": 45,
- "anomalies_new": 0,
+ "trades_collected": 3884,
+ "anomalies_detected": 43,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "2513233983: HTTP 404 (api deprecated)",
+  "4361655741: HTTP 404 (api deprecated)",
+  "3038693994: HTTP 404 (api deprecated)",
+  "6145581979: HTTP 404 (api deprecated)",
+  "5377472637: HTTP 404 (api deprecated)",
+  "6428596644: HTTP 404 (api deprecated)",
+  "5551708644: HTTP 404 (api deprecated)",
+  "6937135377: HTTP 404 (api deprecated)"
+ ],
  "books_markets": 103,
- "books_rows": 156,
- "status": "ok"
+ "books_rows": 152,
+ "status": "ok",
+ "api_deprecated": [
+  "404 https://clob.polymarket.com/book?token_id=25132339838958174763957031447728183628516613342106480350616569304292",
+  "404 https://clob.polymarket.com/book?token_id=43616557411276222860909720961580563409734412005920051491847485025435",
+  "404 https://clob.polymarket.com/book?token_id=30386939943938852131543303634613974273130075550422927109532953596803",
+  "404 https://clob.polymarket.com/book?token_id=61455819797029618362671682379458391538391108928680503737075760178160",
+  "404 https://clob.polymarket.com/book?token_id=53774726372313214580269746944149111167533467711840667846592764630458",
+  "404 https://clob.polymarket.com/book?token_id=64285966442999408943507549727948310610397543580744779632809022989755",
+  "404 https://clob.polymarket.com/book?token_id=55517086449864092758606113472860503551770108495429209498793668570610",
+  "404 https://clob.polymarket.com/book?token_id=69371353778679863347112772057851674781559094538637153043316793900479"
+ ]
 }
