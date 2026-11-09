@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-09T08:00:17Z",
+ "ts": "2026-11-09T11:38:09Z",
  "sources": [
   {
    "url": "/tags",
@@ -33,7 +33,7 @@
   {
    "url": "tag_slug=cs2",
    "ok": true,
-   "events_returned": 23,
+   "events_returned": 22,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 43,
+   "events_returned": 47,
    "err": null
   },
   {
@@ -152,7 +152,7 @@
   }
  ],
  "errors": [],
- "stage": "snap",
+ "stage": "all",
  "tags_discovered": [
   "international-affairs"
  ],
@@ -170,7 +170,7 @@
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
    "Will FaZe win a Tier 1 event in 2026? ",
-   "Which teams will qualify to PGL Major Singapore 2026?"
+   "CS2 Offseason: m0NESY Next Team"
   ],
   "tag_slug=counter-strike": [
    "Will Valve add sticker trade-ups by...?"
@@ -192,8 +192,8 @@
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
-   "StarCraft II: Percival vs Shameless (BO5) - WardiTV Championship Playo",
-   "StarCraft II: youngYakov vs Lambo (BO5) - WardiTV Championship Playoff"
+   "StarCraft II: youngYakov vs Lambo (BO5) - WardiTV Championship Playoff",
+   "StarCraft II: Percival vs Shameless (BO5) - WardiTV Championship Playo"
   ],
   "tag_slug=nba": [
    "NBA: 2027 Champion",
@@ -230,10 +230,6 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Power Rangers vs PlayTime (BO3) - DreamLeague Division 2 Group",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Froglings vs Ka4kanarskie cyxariki (BO3) - 1win Essence Play-i",
     "closed": true
    },
@@ -243,6 +239,10 @@
    },
    {
     "t": "Dota 2: PlayTime vs LEGION (BO3) - 1win Essence Play-in Group B",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Power Rangers vs PlayTime (BO3) - DreamLeague Division 2 Group",
     "closed": true
    },
    {
@@ -304,16 +304,16 @@
     "closed": true
    },
    {
-    "t": "Valorant: Original Gaming vs Ferix (BO3) - Asia Pacific Predator Leagu",
-    "closed": true
-   },
-   {
     "t": "Valorant: SGE Vision vs Backed by Nobody (BO3) - Spike Series Converge",
     "closed": true
    },
    {
     "t": "Valorant: REH Gaming vs HooK Esport (BO3) - Spike Series Convergence E",
     "closed": true
+   },
+   {
+    "t": "Valorant: Team International vs Glacial Guardians (BO3) - Spike Series",
+    "closed": false
    }
   ],
   "search:NBA": [
@@ -362,10 +362,60 @@
   ]
  },
  "n_event_queries": 24,
- "events": 763,
- "markets": 719,
- "markets_dropped_by_volume_floor": 6287,
- "day_file": "data/2026/11/2026-11-09T08.jsonl",
+ "events": 767,
+ "markets": 782,
+ "markets_dropped_by_volume_floor": 6614,
+ "day_file": "data/2026/11/2026-11-09T11.jsonl",
  "retention_removed_files": 0,
+ "trades_markets_queried": 99,
+ "trades_watchlist_markets": 37,
+ "trades_collected": 3430,
+ "anomalies_detected": 34,
+ "anomalies_new": 34,
+ "history_debug": [
+  {
+   "cid": "0xbaa1cad2",
+   "pts": 19,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x695c2a3a",
+   "pts": 19,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xc731686b",
+   "pts": 19,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xa199b29e",
+   "pts": 17,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xd9a39c75",
+   "pts": 17,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x617fe924",
+   "pts": 17,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x96e9e94d",
+   "pts": 7,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x2fe55a1b",
+   "pts": 7,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 40,
+ "books_markets": 75,
+ "books_rows": 134,
  "status": "ok"
 }
