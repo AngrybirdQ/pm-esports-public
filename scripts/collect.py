@@ -342,23 +342,35 @@ def collect_trades(lines, report):
                        -(l.get("volume_24h") or 0)))[:TRADE_MARKETS_CAP + 150]
     cutoff = time.time() - TRADE_WINDOW_MIN * 60
     out, seen_tx = [], set()
-    for line in targets:
-        cid = line.get("condition_id")
-        if not cid:
-            continue
+    # 2026-11-09 v2迁移: data-api v1 /trades 已于10-24退役(一律410 Gone,
+    # 老代码每市场一请求全410 → flow耗时暴涨超8min job超时 → books/trades链断流6天)。
+    # v2 /v2/trades: condition参数批量(<=20 cid/请求), 响应{data:[...], pagination},
+    # 字段snake_case(proxy_wallet/transaction_hash)。请求数从~270降到~14, 也根治超时。
+    meta = {l.get("condition_id"): l for l in targets if l.get("condition_id")}
+    cids = list(meta.keys())
+    BATCH = 20
+    for i in range(0, len(cids), BATCH):
+        chunk = cids[i:i + BATCH]
         data, err = http_json(
-            f"https://data-api.polymarket.com/trades?market={cid}&limit=100")
-        if err is not None or not isinstance(data, list):
-            report["errors"].append(f"trades {cid[:10]}: {err or 'bad type'}")
+            "https://data-api.polymarket.com/v2/trades?condition="
+            + ",".join(chunk) + "&limit=1000")
+        if err is not None or not isinstance(data, dict) \
+                or not isinstance(data.get("data"), list):
+            report["errors"].append(
+                f"trades batch{i//BATCH}: {err or 'bad type'}")
             continue
-        for t in data:
+        for t in data["data"]:
             try:
+                cid = t.get("condition_id") or ""
+                line = meta.get(cid)
+                if line is None:
+                    continue
                 ts = int(t.get("timestamp") or 0)
                 if ts < cutoff:
                     continue
                 size = float(t.get("size") or 0)
                 price = float(t.get("price") or 0)
-                tx = t.get("transactionHash") or ""
+                tx = t.get("transaction_hash") or ""
                 key = f"{tx}|{t.get('outcome')}|{size}|{ts}"
                 if key in seen_tx:
                     continue
@@ -378,12 +390,12 @@ def collect_trades(lines, report):
                     "price": price,
                     "size": size,
                     "cost_usd": round(size * price, 2),
-                    "wallet": t.get("proxyWallet") or t.get("wallet"),
+                    "wallet": t.get("proxy_wallet") or t.get("wallet"),
                     "tx_hash": tx,
                 })
             except (TypeError, ValueError):
                 continue
-        time.sleep(0.05)  # be gentle with the public data-api
+        time.sleep(0.2)  # be gentle with the public data-api
     report["trades_markets_queried"] = len(targets)
     report["trades_watchlist_markets"] = len(watch)
     report["trades_collected"] = len(out)
