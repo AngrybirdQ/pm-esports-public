@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-09T13:52:18Z",
+ "ts": "2026-11-09T13:54:56Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,7 +151,9 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=69876913009052710412841135505674013031331978337137147550659821112749"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -369,12 +371,20 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 151,
  "trades_watchlist_markets": 92,
- "trades_collected": 3319,
+ "trades_collected": 3231,
  "anomalies_detected": 32,
- "anomalies_new": 32,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
+ "books_errors": [
+  "6987691300: HTTP 404 (api deprecated)",
+  "3272732980: HTTP 404 (api deprecated)"
+ ],
  "books_markets": 104,
- "books_rows": 164,
- "status": "ok"
+ "books_rows": 160,
+ "status": "ok",
+ "api_deprecated": [
+  "404 https://clob.polymarket.com/book?token_id=69876913009052710412841135505674013031331978337137147550659821112749",
+  "404 https://clob.polymarket.com/book?token_id=32727329805448603811889268887724802747324206624830731935191898347991"
+ ]
 }
