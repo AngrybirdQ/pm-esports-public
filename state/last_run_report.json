@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-09T20:47:59Z",
+ "ts": "2026-11-09T20:50:51Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 49,
+   "events_returned": 48,
    "err": null
   },
   {
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "API-DEPRECATED 8 urls: 404 https://clob.polymarket.com/book?token_id=17995071152604704626639401086643235525813868526228778697661263364649"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -364,39 +362,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 774,
- "markets": 1054,
- "markets_dropped_by_volume_floor": 7792,
+ "events": 773,
+ "markets": 1043,
+ "markets_dropped_by_volume_floor": 7772,
  "day_file": "data/2026/11/2026-11-09T20.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 234,
+ "trades_markets_queried": 229,
  "trades_watchlist_markets": 82,
- "trades_collected": 4405,
- "anomalies_detected": 9,
- "anomalies_new": 0,
+ "trades_collected": 4422,
+ "anomalies_detected": 65,
+ "anomalies_new": 33,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1799507115: HTTP 404 (api deprecated)",
-  "3876623374: HTTP 404 (api deprecated)",
-  "3581463304: HTTP 404 (api deprecated)",
-  "1128209583: HTTP 404 (api deprecated)",
-  "9848976637: HTTP 404 (api deprecated)",
-  "1063162877: HTTP 404 (api deprecated)",
-  "1026013816: HTTP 404 (api deprecated)",
-  "4287716691: HTTP 404 (api deprecated)"
- ],
- "books_markets": 138,
- "books_rows": 232,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=17995071152604704626639401086643235525813868526228778697661263364649",
-  "404 https://clob.polymarket.com/book?token_id=38766233747638100467990321782108789993203789289526523374484144098628",
-  "404 https://clob.polymarket.com/book?token_id=35814633048999337418718490085623351159863165947692865947184140971862",
-  "404 https://clob.polymarket.com/book?token_id=11282095836371230982457441822547792351911263683063494749902048156939",
-  "404 https://clob.polymarket.com/book?token_id=98489766378493074476185322078992007621007063219147960706362513455915",
-  "404 https://clob.polymarket.com/book?token_id=10631628776541638204861638730213340987491595862922797389071984799124",
-  "404 https://clob.polymarket.com/book?token_id=10260138164586405652628225632726310584353113904202115964316112525870",
-  "404 https://clob.polymarket.com/book?token_id=42877166914521357720155967292985008234697131033045850356323175243286"
- ]
+ "books_markets": 134,
+ "books_rows": 230,
+ "status": "ok"
 }
