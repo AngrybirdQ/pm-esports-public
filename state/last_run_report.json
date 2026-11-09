@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-09T22:39:01Z",
+ "ts": "2026-11-09T22:41:57Z",
  "sources": [
   {
    "url": "/tags",
@@ -232,12 +232,12 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Froglings vs PlayTime (BO3) - DreamLeague Division 2 Group A",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Xipto Esports vs Yellow Submarine (BO3) - 1win Essence Play-in",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Froglings vs PlayTime (BO3) - DreamLeague Division 2 Group A",
+    "closed": true
    },
    {
     "t": "Dota 2: Power Rangers vs Ka4kanarskie cyxariki (BO3) - 1win Essence Pl",
@@ -371,23 +371,17 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 270,
  "trades_watchlist_markets": 99,
- "trades_collected": 3845,
+ "trades_collected": 3766,
  "anomalies_detected": 31,
- "anomalies_new": 1,
- "history_debug": [
-  {
-   "cid": "0x7c9f51f1",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
+ "anomalies_new": 0,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_errors": [
   "8086461029: HTTP 404 (api deprecated)",
   "1032340563: HTTP 404 (api deprecated)"
  ],
  "books_markets": 161,
- "books_rows": 244,
+ "books_rows": 242,
  "status": "ok",
  "api_deprecated": [
   "404 https://clob.polymarket.com/book?token_id=80864610295465543299667299051994648368343390834476466859298862089443",
