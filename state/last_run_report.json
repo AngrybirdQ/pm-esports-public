@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-09T20:57:11Z",
+ "ts": "2026-11-09T22:04:43Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 56,
+   "events_returned": 63,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 48,
+   "events_returned": 50,
    "err": null
   },
   {
@@ -160,12 +160,12 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Dota 2: Power Rangers vs Ka4kanarskie cyxariki (BO3) - 1win Essence Pl"
+   "Dota 2: Xipto Esports vs Yellow Submarine (BO3) - 1win Essence Play-in"
   ],
   "tag_slug=dota-2": [
+   "Dota 2: Xipto Esports vs Yellow Submarine (BO3) - 1win Essence Play-in",
    "Dota 2: Power Rangers vs Ka4kanarskie cyxariki (BO3) - 1win Essence Pl",
-   "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
-   "Dota 2: Xipto Esports vs Yellow Submarine (BO3) - 1win Essence Play-in"
+   "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs"
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
@@ -234,6 +234,10 @@
     "closed": true
    },
    {
+    "t": "Dota 2: Xipto Esports vs Yellow Submarine (BO3) - 1win Essence Play-in",
+    "closed": false
+   },
+   {
     "t": "Dota 2: Power Rangers vs Ka4kanarskie cyxariki (BO3) - 1win Essence Pl",
     "closed": false
    },
@@ -244,10 +248,6 @@
    {
     "t": "Dota 2: Power Rangers vs Nemiga Gaming (BO3) - DreamLeague Division 2 ",
     "closed": true
-   },
-   {
-    "t": "Dota 2: Xipto Esports vs Yellow Submarine (BO3) - 1win Essence Play-in",
-    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -300,19 +300,19 @@
     "closed": true
    },
    {
-    "t": "Valorant: Bonkers vs MeatZn (BO1) - Asia Pacific Predator League Ocean",
-    "closed": true
-   },
-   {
     "t": "Valorant: Brest Esport vs regnum4games (BO3) - Spike Series Convergenc",
     "closed": false
    },
    {
-    "t": "Valorant: SGE Vision vs Backed by Nobody (BO3) - Spike Series Converge",
+    "t": "Valorant: Bonkers vs MeatZn (BO1) - Asia Pacific Predator League Ocean",
     "closed": true
    },
    {
     "t": "Valorant: Seventh Letter Gaming vs Surprise (BO3) - Asia Pacific Preda",
+    "closed": false
+   },
+   {
+    "t": "Valorant: Aurora Gaming vs Pixel Lumina (BO3) - VCT EMEA Kickoff: Euro",
     "closed": false
    }
   ],
@@ -362,25 +362,30 @@
   ]
  },
  "n_event_queries": 24,
- "events": 773,
- "markets": 1065,
- "markets_dropped_by_volume_floor": 7777,
- "day_file": "data/2026/11/2026-11-09T20.jsonl",
+ "events": 783,
+ "markets": 1119,
+ "markets_dropped_by_volume_floor": 7950,
+ "day_file": "data/2026/11/2026-11-09T22.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 231,
- "trades_watchlist_markets": 82,
- "trades_collected": 4033,
- "anomalies_detected": 53,
- "anomalies_new": 6,
+ "trades_markets_queried": 249,
+ "trades_watchlist_markets": 99,
+ "trades_collected": 3208,
+ "anomalies_detected": 69,
+ "anomalies_new": 69,
  "history_debug": [
   {
-   "cid": "0x020de475",
-   "pts": 8,
+   "cid": "0x610a1b71",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x88ed7551",
+   "pts": 1,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 1,
- "books_markets": 135,
+ "history_conditions_new": 2,
+ "books_markets": 149,
  "books_rows": 234,
  "status": "ok"
 }
