@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-09T18:34:42Z",
+ "ts": "2026-11-09T18:53:47Z",
  "sources": [
   {
    "url": "/tags",
@@ -152,7 +152,7 @@
   }
  ],
  "errors": [],
- "stage": "all",
+ "stage": "snap",
  "tags_discovered": [
   "international-affairs"
  ],
@@ -165,7 +165,7 @@
   "tag_slug=dota-2": [
    "Dota 2: Froglings vs PlayTime (BO3) - DreamLeague Division 2 Group A",
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
-   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B"
+   "Dota 2: Power Rangers vs Ka4kanarskie cyxariki (BO3) - 1win Essence Pl"
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
@@ -242,12 +242,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Power Rangers vs Nemiga Gaming (BO3) - DreamLeague Division 2 ",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Power Rangers vs Ka4kanarskie cyxariki (BO3) - 1win Essence Pl",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Power Rangers vs Nemiga Gaming (BO3) - DreamLeague Division 2 ",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -362,19 +362,10 @@
   ]
  },
  "n_event_queries": 24,
- "events": 773,
- "markets": 952,
- "markets_dropped_by_volume_floor": 7609,
+ "events": 774,
+ "markets": 956,
+ "markets_dropped_by_volume_floor": 7596,
  "day_file": "data/2026/11/2026-11-09T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 198,
- "trades_watchlist_markets": 104,
- "trades_collected": 3659,
- "anomalies_detected": 47,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 102,
- "books_rows": 156,
  "status": "ok"
 }
