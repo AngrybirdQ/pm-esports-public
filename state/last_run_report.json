@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-09T13:07:49Z",
+ "ts": "2026-11-09T13:15:14Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=62269672818947968757128970075268674339948516607368044335066863387118"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -232,12 +230,12 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Froglings vs Ka4kanarskie cyxariki (BO3) - 1win Essence Play-i",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Xipto Esports vs HULIGANI (BO3) - 1win Essence Play-in Group B",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Froglings vs Ka4kanarskie cyxariki (BO3) - 1win Essence Play-i",
+    "closed": true
    },
    {
     "t": "Dota 2: HULIGANI vs Yellow Submarine (BO3) - 1win Essence Play-in Grou",
@@ -365,26 +363,18 @@
  },
  "n_event_queries": 24,
  "events": 767,
- "markets": 820,
- "markets_dropped_by_volume_floor": 6602,
+ "markets": 819,
+ "markets_dropped_by_volume_floor": 6583,
  "day_file": "data/2026/11/2026-11-09T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 132,
+ "trades_markets_queried": 133,
  "trades_watchlist_markets": 64,
- "trades_collected": 2962,
- "anomalies_detected": 20,
- "anomalies_new": 0,
+ "trades_collected": 2945,
+ "anomalies_detected": 30,
+ "anomalies_new": 8,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "6226967281: HTTP 404 (api deprecated)",
-  "8515115415: HTTP 404 (api deprecated)"
- ],
- "books_markets": 99,
- "books_rows": 140,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=62269672818947968757128970075268674339948516607368044335066863387118",
-  "404 https://clob.polymarket.com/book?token_id=85151154157042857610756304553635748593069159368346989275943691152213"
- ]
+ "books_markets": 95,
+ "books_rows": 144,
+ "status": "ok"
 }
