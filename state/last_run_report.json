@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-09T12:06:18Z",
+ "ts": "2026-11-09T12:50:57Z",
  "sources": [
   {
    "url": "/tags",
@@ -160,12 +160,12 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs"
+   "Dota 2: Xipto Esports vs HULIGANI (BO3) - 1win Essence Play-in Group B"
   ],
   "tag_slug=dota-2": [
+   "Dota 2: Xipto Esports vs HULIGANI (BO3) - 1win Essence Play-in Group B",
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
-   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B",
-   "Dota 2: Xipto Esports vs HULIGANI (BO3) - 1win Essence Play-in Group B"
+   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B"
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
@@ -238,16 +238,16 @@
     "closed": true
    },
    {
+    "t": "Dota 2: Xipto Esports vs HULIGANI (BO3) - 1win Essence Play-in Group B",
+    "closed": false
+   },
+   {
     "t": "Dota 2: PlayTime vs LEGION (BO3) - 1win Essence Play-in Group B",
     "closed": true
    },
    {
-    "t": "Dota 2: Power Rangers vs PlayTime (BO3) - DreamLeague Division 2 Group",
+    "t": "Dota 2: Yakult Brothers vs Zero Tenacity (BO3) - DreamLeague Division ",
     "closed": true
-   },
-   {
-    "t": "Dota 2: Xipto Esports vs HULIGANI (BO3) - 1win Essence Play-in Group B",
-    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -363,18 +363,39 @@
  },
  "n_event_queries": 24,
  "events": 767,
- "markets": 789,
- "markets_dropped_by_volume_floor": 6617,
+ "markets": 806,
+ "markets_dropped_by_volume_floor": 6584,
  "day_file": "data/2026/11/2026-11-09T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 111,
- "trades_watchlist_markets": 58,
- "trades_collected": 2693,
- "anomalies_detected": 37,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 88,
+ "trades_markets_queried": 122,
+ "trades_watchlist_markets": 64,
+ "trades_collected": 3124,
+ "anomalies_detected": 18,
+ "anomalies_new": 17,
+ "history_debug": [
+  {
+   "cid": "0xb9c29744",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x36559c7c",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xf9b14857",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x80e66fea",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 4,
+ "books_markets": 92,
  "books_rows": 142,
  "status": "ok"
 }
