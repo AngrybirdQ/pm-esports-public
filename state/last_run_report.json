@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-09T18:09:34Z",
+ "ts": "2026-11-09T18:12:12Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "API-DEPRECATED 8 urls: 404 https://clob.polymarket.com/book?token_id=25132339838958174763957031447728183628516613342106480350616569304292"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -248,8 +246,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Xipto Esports vs Team Synapse (BO3) - DreamLeague Division 2 G",
-    "closed": true
+    "t": "Dota 2: Power Rangers vs Ka4kanarskie cyxariki (BO3) - 1win Essence Pl",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -365,38 +363,34 @@
  },
  "n_event_queries": 24,
  "events": 774,
- "markets": 934,
- "markets_dropped_by_volume_floor": 7623,
+ "markets": 946,
+ "markets_dropped_by_volume_floor": 7612,
  "day_file": "data/2026/11/2026-11-09T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 185,
+ "trades_markets_queried": 192,
  "trades_watchlist_markets": 104,
- "trades_collected": 3884,
- "anomalies_detected": 43,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "2513233983: HTTP 404 (api deprecated)",
-  "4361655741: HTTP 404 (api deprecated)",
-  "3038693994: HTTP 404 (api deprecated)",
-  "6145581979: HTTP 404 (api deprecated)",
-  "5377472637: HTTP 404 (api deprecated)",
-  "6428596644: HTTP 404 (api deprecated)",
-  "5551708644: HTTP 404 (api deprecated)",
-  "6937135377: HTTP 404 (api deprecated)"
+ "trades_collected": 4691,
+ "anomalies_detected": 47,
+ "anomalies_new": 10,
+ "history_debug": [
+  {
+   "cid": "0xebb16b70",
+   "pts": 8,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xbf23ed6c",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x5de72e11",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 103,
- "books_rows": 152,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=25132339838958174763957031447728183628516613342106480350616569304292",
-  "404 https://clob.polymarket.com/book?token_id=43616557411276222860909720961580563409734412005920051491847485025435",
-  "404 https://clob.polymarket.com/book?token_id=30386939943938852131543303634613974273130075550422927109532953596803",
-  "404 https://clob.polymarket.com/book?token_id=61455819797029618362671682379458391538391108928680503737075760178160",
-  "404 https://clob.polymarket.com/book?token_id=53774726372313214580269746944149111167533467711840667846592764630458",
-  "404 https://clob.polymarket.com/book?token_id=64285966442999408943507549727948310610397543580744779632809022989755",
-  "404 https://clob.polymarket.com/book?token_id=55517086449864092758606113472860503551770108495429209498793668570610",
-  "404 https://clob.polymarket.com/book?token_id=69371353778679863347112772057851674781559094538637153043316793900479"
- ]
+ "history_conditions_new": 3,
+ "books_markets": 100,
+ "books_rows": 154,
+ "status": "ok"
 }
