@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-09T22:07:52Z",
+ "ts": "2026-11-09T22:10:35Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 63,
+   "events_returned": 68,
    "err": null
   },
   {
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=50203502421266936734832035785886318426075824203168978578417367484605"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -167,7 +165,7 @@
   "tag_slug=dota-2": [
    "Dota 2: Xipto Esports vs Yellow Submarine (BO3) - 1win Essence Play-in",
    "Dota 2: Power Rangers vs Ka4kanarskie cyxariki (BO3) - 1win Essence Pl",
-   "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs"
+   "Dota 2: Yakult Brothers vs Inner Circle (BO3) - DreamLeague Division 2"
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
@@ -364,27 +362,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 783,
- "markets": 1119,
- "markets_dropped_by_volume_floor": 7950,
+ "events": 788,
+ "markets": 1137,
+ "markets_dropped_by_volume_floor": 8024,
  "day_file": "data/2026/11/2026-11-09T22.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 249,
+ "trades_markets_queried": 254,
  "trades_watchlist_markets": 99,
- "trades_collected": 3089,
- "anomalies_detected": 69,
- "anomalies_new": 0,
+ "trades_collected": 3147,
+ "anomalies_detected": 81,
+ "anomalies_new": 12,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "5020350242: HTTP 404 (api deprecated)",
-  "3667149469: HTTP 404 (api deprecated)"
- ],
- "books_markets": 149,
- "books_rows": 234,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=50203502421266936734832035785886318426075824203168978578417367484605",
-  "404 https://clob.polymarket.com/book?token_id=36671494694454715463267064087752443696937257288119424536498249562840"
- ]
+ "books_markets": 150,
+ "books_rows": 236,
+ "status": "ok"
 }
