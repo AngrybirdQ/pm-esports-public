@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-09T14:05:00Z",
+ "ts": "2026-11-09T14:51:42Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 65,
+   "events_returned": 61,
    "err": null
   },
   {
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=99921475272669814289072847924526620539165945431713603525031266979955"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -162,12 +160,12 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Dota 2: Xipto Esports vs HULIGANI (BO3) - 1win Essence Play-in Group B"
+   "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Xipto Esports vs HULIGANI (BO3) - 1win Essence Play-in Group B",
-   "Dota 2: Power Rangers vs Nemiga Gaming (BO3) - DreamLeague Division 2 ",
-   "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs"
+   "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
+   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B",
+   "Dota 2: Amaru Gaming vs Zero Tenacity (BO3) - DreamLeague Division 2 G"
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
@@ -185,7 +183,7 @@
   "tag_slug=lol": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "League of Legends Global Power Rankings Post Worlds: Rank 1"
+   "Worlds 2026: Finals MVP"
   ],
   "tag_slug=valorant": [
    "VALORANT Offseason: zekken Next Team",
@@ -233,7 +231,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: Xipto Esports vs HULIGANI (BO3) - 1win Essence Play-in Group B",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Froglings vs Ka4kanarskie cyxariki (BO3) - 1win Essence Play-i",
@@ -245,7 +243,7 @@
    },
    {
     "t": "Dota 2: Power Rangers vs Nemiga Gaming (BO3) - DreamLeague Division 2 ",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Yakult Brothers vs Zero Tenacity (BO3) - DreamLeague Division ",
@@ -364,27 +362,35 @@
   ]
  },
  "n_event_queries": 24,
- "events": 772,
- "markets": 833,
- "markets_dropped_by_volume_floor": 7046,
+ "events": 771,
+ "markets": 837,
+ "markets_dropped_by_volume_floor": 7035,
  "day_file": "data/2026/11/2026-11-09T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 153,
- "trades_watchlist_markets": 92,
- "trades_collected": 3027,
- "anomalies_detected": 26,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "9992147527: HTTP 404 (api deprecated)",
-  "4966847539: HTTP 404 (api deprecated)"
+ "trades_markets_queried": 139,
+ "trades_watchlist_markets": 72,
+ "trades_collected": 2557,
+ "anomalies_detected": 35,
+ "anomalies_new": 33,
+ "history_debug": [
+  {
+   "cid": "0x1f2b6f42",
+   "pts": 5,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xf047aaff",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x01be3348",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 105,
- "books_rows": 164,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=99921475272669814289072847924526620539165945431713603525031266979955",
-  "404 https://clob.polymarket.com/book?token_id=49668475394528571867869364177750967767133212020947708884015803375388"
- ]
+ "history_conditions_new": 3,
+ "books_markets": 97,
+ "books_rows": 158,
+ "status": "ok"
 }
