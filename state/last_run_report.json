@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-10T20:59:55Z",
+ "ts": "2026-11-10T21:02:43Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 54,
+   "events_returned": 53,
    "err": null
   },
   {
@@ -163,9 +163,9 @@
    "Counter-Strike: Spirit vs FUT Esports (BO3) - BLAST Rivals Group B"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: HULIGANI vs Inner Circle (BO3) - DreamLeague Division 2 Group ",
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
-   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B"
+   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B",
+   "Dota 2: Froglings vs Power Rangers (BO3) - 1win Essence Play-in Group "
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
@@ -245,7 +245,7 @@
    },
    {
     "t": "Dota 2: HULIGANI vs Inner Circle (BO3) - DreamLeague Division 2 Group ",
-    "closed": false
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -361,24 +361,18 @@
  },
  "n_event_queries": 24,
  "events": 760,
- "markets": 1121,
- "markets_dropped_by_volume_floor": 6505,
- "day_file": "data/2026/11/2026-11-10T20.jsonl",
+ "markets": 1114,
+ "markets_dropped_by_volume_floor": 6500,
+ "day_file": "data/2026/11/2026-11-10T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 201,
+ "trades_markets_queried": 199,
  "trades_watchlist_markets": 86,
- "trades_collected": 3389,
- "anomalies_detected": 51,
- "anomalies_new": 47,
- "history_debug": [
-  {
-   "cid": "0xefe11a8b",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
- "books_markets": 112,
+ "trades_collected": 3362,
+ "anomalies_detected": 55,
+ "anomalies_new": 18,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 111,
  "books_rows": 170,
  "status": "ok"
 }
