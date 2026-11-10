@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-10T16:01:01Z",
+ "ts": "2026-11-10T16:40:42Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 62,
+   "events_returned": 60,
    "err": null
   },
   {
@@ -63,13 +63,13 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 55,
+   "events_returned": 49,
    "err": null
   },
   {
    "url": "tag_slug=starcraft-2",
    "ok": true,
-   "events_returned": 2,
+   "events_returned": 1,
    "err": null
   },
   {
@@ -160,7 +160,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs"
+   "Dota 2: Xipto Esports vs PlayTime (BO3) - 1win Essence Play-in Group B"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Xipto Esports vs PlayTime (BO3) - 1win Essence Play-in Group B",
@@ -191,7 +191,6 @@
    "VALORANT Offseason: primmie Next Team"
   ],
   "tag_slug=starcraft-2": [
-   "StarCraft II: Solar vs Percival (BO5) - WardiTV Championship Playoffs",
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs"
   ],
   "tag_slug=nba": [
@@ -237,12 +236,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Froglings vs PlayTime (BO3) - DreamLeague Division 2 Group A",
+    "t": "Dota 2: Power Rangers vs Ka4kanarskie cyxariki (BO3) - 1win Essence Pl",
     "closed": true
    },
    {
-    "t": "Dota 2: Power Rangers vs Ka4kanarskie cyxariki (BO3) - 1win Essence Pl",
-    "closed": true
+    "t": "Dota 2: Xipto Esports vs PlayTime (BO3) - 1win Essence Play-in Group B",
+    "closed": false
    },
    {
     "t": "Dota 2: Yakult Brothers vs Inner Circle (BO3) - DreamLeague Division 2",
@@ -296,7 +295,7 @@
   "search:Valorant": [
    {
     "t": "Valorant: Salamander vs NongKaiTod (BO3) - Asia Pacific Predator Leagu",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Aurora Gaming vs Pixel Lumina (BO3) - VCT EMEA Kickoff: Euro",
@@ -308,11 +307,11 @@
    },
    {
     "t": "Valorant: Sharper Esport vs GODX (BO3) - Asia Pacific Predator League ",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Fourdaboy vs 1DAY24 (BO3) - Asia Pacific Predator League Tha",
-    "closed": false
+    "closed": true
    }
   ],
   "search:NBA": [
@@ -361,19 +360,30 @@
   ]
  },
  "n_event_queries": 24,
- "events": 771,
- "markets": 948,
- "markets_dropped_by_volume_floor": 6741,
+ "events": 763,
+ "markets": 974,
+ "markets_dropped_by_volume_floor": 6692,
  "day_file": "data/2026/11/2026-11-10T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 197,
- "trades_watchlist_markets": 119,
- "trades_collected": 3722,
- "anomalies_detected": 32,
- "anomalies_new": 32,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 117,
- "books_rows": 188,
+ "trades_markets_queried": 196,
+ "trades_watchlist_markets": 106,
+ "trades_collected": 3919,
+ "anomalies_detected": 30,
+ "anomalies_new": 30,
+ "history_debug": [
+  {
+   "cid": "0x66187b5d",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x95eaba2e",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_markets": 123,
+ "books_rows": 202,
  "status": "ok"
 }
