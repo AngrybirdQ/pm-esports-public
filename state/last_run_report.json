@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-10T06:26:40Z",
+ "ts": "2026-11-10T07:35:46Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 162,
+   "events_returned": 164,
    "err": null
   },
   {
@@ -160,7 +160,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs"
+   "LoL: FENNEL vs Nothin'Here (BO5) - LCP Promotion Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
@@ -178,7 +178,7 @@
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs"
+   "LoL: FENNEL vs Nothin'Here (BO5) - LCP Promotion Playoffs"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -362,19 +362,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 780,
- "markets": 780,
- "markets_dropped_by_volume_floor": 5471,
- "day_file": "data/2026/11/2026-11-10T06.jsonl",
+ "events": 779,
+ "markets": 789,
+ "markets_dropped_by_volume_floor": 5626,
+ "day_file": "data/2026/11/2026-11-10T07.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 124,
- "trades_watchlist_markets": 68,
- "trades_collected": 1837,
- "anomalies_detected": 27,
- "anomalies_new": 11,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 96,
- "books_rows": 182,
+ "trades_markets_queried": 138,
+ "trades_watchlist_markets": 88,
+ "trades_collected": 1949,
+ "anomalies_detected": 22,
+ "anomalies_new": 22,
+ "history_debug": [
+  {
+   "cid": "0x8bf8914d",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 111,
+ "books_rows": 198,
  "status": "ok"
 }
