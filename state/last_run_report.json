@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-10T13:33:28Z",
+ "ts": "2026-11-10T13:41:49Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 67,
+   "events_returned": 66,
    "err": null
   },
   {
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=62684738702059021678196476659769926100296665778865214746805885563766"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -236,12 +234,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Froglings vs PlayTime (BO3) - DreamLeague Division 2 Group A",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Yellow Submarine vs LEGION (BO3) - 1win Essence Play-in Group ",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Froglings vs PlayTime (BO3) - DreamLeague Division 2 Group A",
+    "closed": true
    },
    {
     "t": "Dota 2: Power Rangers vs Ka4kanarskie cyxariki (BO3) - 1win Essence Pl",
@@ -364,27 +362,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 777,
- "markets": 871,
- "markets_dropped_by_volume_floor": 6035,
+ "events": 776,
+ "markets": 895,
+ "markets_dropped_by_volume_floor": 6012,
  "day_file": "data/2026/11/2026-11-10T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 201,
- "trades_watchlist_markets": 125,
- "trades_collected": 3262,
- "anomalies_detected": 22,
- "anomalies_new": 2,
+ "trades_markets_queried": 193,
+ "trades_watchlist_markets": 127,
+ "trades_collected": 2907,
+ "anomalies_detected": 28,
+ "anomalies_new": 28,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "6268473870: HTTP 404 (api deprecated)",
-  "1136732146: HTTP 404 (api deprecated)"
- ],
- "books_markets": 129,
- "books_rows": 196,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=62684738702059021678196476659769926100296665778865214746805885563766",
-  "404 https://clob.polymarket.com/book?token_id=11367321465520645692073637592420161845695867311255483916780276041138"
- ]
+ "books_markets": 133,
+ "books_rows": 188,
+ "status": "ok"
 }
