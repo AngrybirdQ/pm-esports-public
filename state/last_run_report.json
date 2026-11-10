@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-10T11:26:58Z",
+ "ts": "2026-11-10T11:29:55Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 42,
+   "events_returned": 41,
    "err": null
   },
   {
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "API-DEPRECATED 4 urls: 404 https://clob.polymarket.com/book?token_id=74554022855385996308745090297946135502594073219615230835705218164010"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -162,7 +160,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: FENNEL vs Nothin'Here (BO5) - LCP Promotion Playoffs"
+   "LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs"
   ],
   "tag_slug=dota-2": [
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
@@ -180,7 +178,7 @@
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: FENNEL vs Nothin'Here (BO5) - LCP Promotion Playoffs"
+   "LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -364,31 +362,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 778,
- "markets": 845,
- "markets_dropped_by_volume_floor": 6059,
+ "events": 777,
+ "markets": 838,
+ "markets_dropped_by_volume_floor": 6044,
  "day_file": "data/2026/11/2026-11-10T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 179,
+ "trades_markets_queried": 176,
  "trades_watchlist_markets": 103,
- "trades_collected": 3196,
- "anomalies_detected": 32,
- "anomalies_new": 0,
+ "trades_collected": 3297,
+ "anomalies_detected": 26,
+ "anomalies_new": 26,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "7455402285: HTTP 404 (api deprecated)",
-  "1888422651: HTTP 404 (api deprecated)",
-  "3692817996: HTTP 404 (api deprecated)",
-  "9250819867: HTTP 404 (api deprecated)"
- ],
  "books_markets": 139,
- "books_rows": 228,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=74554022855385996308745090297946135502594073219615230835705218164010",
-  "404 https://clob.polymarket.com/book?token_id=18884226513772856201243005783357038985609035155592235682435721995715",
-  "404 https://clob.polymarket.com/book?token_id=36928179960019178355488200371472403533437474214313281007485875335827",
-  "404 https://clob.polymarket.com/book?token_id=92508198675574844815369124387346262334852463404478120030321314509302"
- ]
+ "books_rows": 230,
+ "status": "ok"
 }
