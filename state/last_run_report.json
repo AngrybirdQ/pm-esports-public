@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-10T21:05:11Z",
+ "ts": "2026-11-10T21:59:06Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,7 +151,9 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=86565232797255349249427576252706998174475090083968346754812248857974"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -163,9 +165,9 @@
    "Counter-Strike: Spirit vs FUT Esports (BO3) - BLAST Rivals Group B"
   ],
   "tag_slug=dota-2": [
+   "Dota 2: Froglings vs Power Rangers (BO3) - 1win Essence Play-in Group ",
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
-   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B",
-   "Dota 2: Froglings vs Power Rangers (BO3) - 1win Essence Play-in Group "
+   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B"
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
@@ -236,8 +238,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Xipto Esports vs Yellow Submarine (BO3) - 1win Essence Play-in",
-    "closed": true
+    "t": "Dota 2: Froglings vs Power Rangers (BO3) - 1win Essence Play-in Group ",
+    "closed": false
    },
    {
     "t": "Dota 2: Yakult Brothers vs InterActive Philippines (BO3) - DreamLeague",
@@ -360,19 +362,33 @@
   ]
  },
  "n_event_queries": 24,
- "events": 760,
- "markets": 1114,
- "markets_dropped_by_volume_floor": 6500,
+ "events": 759,
+ "markets": 1137,
+ "markets_dropped_by_volume_floor": 6967,
  "day_file": "data/2026/11/2026-11-10T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 199,
- "trades_watchlist_markets": 86,
- "trades_collected": 3304,
- "anomalies_detected": 55,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 111,
- "books_rows": 168,
- "status": "ok"
+ "trades_markets_queried": 203,
+ "trades_watchlist_markets": 94,
+ "trades_collected": 3187,
+ "anomalies_detected": 32,
+ "anomalies_new": 31,
+ "history_debug": [
+  {
+   "cid": "0x88c97fe5",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_errors": [
+  "8656523279: HTTP 404 (api deprecated)",
+  "1431205263: HTTP 404 (api deprecated)"
+ ],
+ "books_markets": 109,
+ "books_rows": 170,
+ "status": "ok",
+ "api_deprecated": [
+  "404 https://clob.polymarket.com/book?token_id=86565232797255349249427576252706998174475090083968346754812248857974",
+  "404 https://clob.polymarket.com/book?token_id=14312052636155615517308826520534834815877118447525815720624867183513"
+ ]
 }
