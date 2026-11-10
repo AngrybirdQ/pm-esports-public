@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-10T16:56:46Z",
+ "ts": "2026-11-10T17:04:04Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 60,
+   "events_returned": 59,
    "err": null
   },
   {
@@ -152,7 +152,7 @@
   }
  ],
  "errors": [
-  "API-DEPRECATED 6 urls: 404 https://clob.polymarket.com/book?token_id=11433239336909079343616742127126356477865116880978552668516513887224"
+  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=10017045725707131306066362310423089068818462732014722881571148548260"
  ],
  "stage": "all",
  "tags_discovered": [
@@ -166,8 +166,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Xipto Esports vs PlayTime (BO3) - 1win Essence Play-in Group B",
-   "Dota 2: Yakult Brothers vs InterActive Philippines (BO3) - DreamLeague",
-   "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs"
+   "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
+   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B"
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
@@ -362,35 +362,27 @@
   ]
  },
  "n_event_queries": 24,
- "events": 763,
- "markets": 989,
- "markets_dropped_by_volume_floor": 6681,
- "day_file": "data/2026/11/2026-11-10T16.jsonl",
+ "events": 762,
+ "markets": 986,
+ "markets_dropped_by_volume_floor": 6677,
+ "day_file": "data/2026/11/2026-11-10T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 194,
+ "trades_markets_queried": 193,
  "trades_watchlist_markets": 106,
- "trades_collected": 3542,
- "anomalies_detected": 24,
- "anomalies_new": 0,
+ "trades_collected": 3509,
+ "anomalies_detected": 29,
+ "anomalies_new": 29,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "1143323933: HTTP 404 (api deprecated)",
-  "6907478625: HTTP 404 (api deprecated)",
-  "8909897879: HTTP 404 (api deprecated)",
-  "4574201669: HTTP 404 (api deprecated)",
-  "9223948507: HTTP 404 (api deprecated)",
-  "9416400071: HTTP 404 (api deprecated)"
+  "1001704572: HTTP 404 (api deprecated)",
+  "8518093709: HTTP 404 (api deprecated)"
  ],
- "books_markets": 120,
- "books_rows": 194,
+ "books_markets": 117,
+ "books_rows": 184,
  "status": "ok",
  "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=11433239336909079343616742127126356477865116880978552668516513887224",
-  "404 https://clob.polymarket.com/book?token_id=69074786251890661307570653845889805513343500884555740106187074339844",
-  "404 https://clob.polymarket.com/book?token_id=89098978794568374912386802826099076221597596581480296466976852395421",
-  "404 https://clob.polymarket.com/book?token_id=45742016690220940351357654566152736678704769151441193261093735804433",
-  "404 https://clob.polymarket.com/book?token_id=92239485075726374226631042624841498888041372946193018947537528450502",
-  "404 https://clob.polymarket.com/book?token_id=94164000715818905163211185344824827874535513679028043491891471225300"
+  "404 https://clob.polymarket.com/book?token_id=10017045725707131306066362310423089068818462732014722881571148548260",
+  "404 https://clob.polymarket.com/book?token_id=85180937094000777895481534083857856467147265253700961218953296228358"
  ]
 }
