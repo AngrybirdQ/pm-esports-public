@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-10T19:06:18Z",
+ "ts": "2026-11-10T19:58:09Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 55,
+   "events_returned": 53,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 50,
+   "events_returned": 48,
    "err": null
   },
   {
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "API-DEPRECATED 4 urls: 404 https://clob.polymarket.com/book?token_id=10664574771337761400982117459606956149815107876804994774566405471618"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -162,11 +160,11 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Dota 2: Xipto Esports vs PlayTime (BO3) - 1win Essence Play-in Group B"
+   "Counter-Strike: Spirit vs FUT Esports (BO3) - BLAST Rivals Group B"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Xipto Esports vs PlayTime (BO3) - 1win Essence Play-in Group B",
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
+   "Dota 2: HULIGANI vs Inner Circle (BO3) - DreamLeague Division 2 Group ",
    "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B"
   ],
   "tag_slug=cs2": [
@@ -230,24 +228,24 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Xipto Esports vs Yellow Submarine (BO3) - 1win Essence Play-in",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Yellow Submarine vs LEGION (BO3) - 1win Essence Play-in Group ",
     "closed": true
    },
    {
     "t": "Dota 2: Xipto Esports vs PlayTime (BO3) - 1win Essence Play-in Group B",
-    "closed": false
+    "closed": true
    },
    {
-    "t": "Dota 2: Yakult Brothers vs Inner Circle (BO3) - DreamLeague Division 2",
+    "t": "Dota 2: Xipto Esports vs Yellow Submarine (BO3) - 1win Essence Play-in",
     "closed": true
    },
    {
     "t": "Dota 2: Yakult Brothers vs InterActive Philippines (BO3) - DreamLeague",
     "closed": true
+   },
+   {
+    "t": "Dota 2: HULIGANI vs Inner Circle (BO3) - DreamLeague Division 2 Group ",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -297,7 +295,7 @@
   "search:Valorant": [
    {
     "t": "Valorant: Aurora Gaming vs Pixel Lumina (BO3) - VCT EMEA Kickoff: Euro",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Salamander vs NongKaiTod (BO3) - Asia Pacific Predator Leagu",
@@ -362,31 +360,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 762,
- "markets": 1058,
- "markets_dropped_by_volume_floor": 6603,
+ "events": 759,
+ "markets": 1076,
+ "markets_dropped_by_volume_floor": 6545,
  "day_file": "data/2026/11/2026-11-10T19.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 199,
- "trades_watchlist_markets": 109,
- "trades_collected": 3686,
- "anomalies_detected": 44,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "1066457477: HTTP 404 (api deprecated)",
-  "1029933987: HTTP 404 (api deprecated)",
-  "6892685204: HTTP 404 (api deprecated)",
-  "7271217881: HTTP 404 (api deprecated)"
+ "trades_watchlist_markets": 94,
+ "trades_collected": 3444,
+ "anomalies_detected": 51,
+ "anomalies_new": 51,
+ "history_debug": [
+  {
+   "cid": "0x32339349",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
+ "history_conditions_new": 1,
  "books_markets": 117,
- "books_rows": 178,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=10664574771337761400982117459606956149815107876804994774566405471618",
-  "404 https://clob.polymarket.com/book?token_id=10299339877312843545441354712542368604481777426968985696120858199721",
-  "404 https://clob.polymarket.com/book?token_id=68926852047336010846730517562697161669024231044761682651578878465406",
-  "404 https://clob.polymarket.com/book?token_id=72712178818474828011611450537016187632707058463919742885241309829187"
- ]
+ "books_rows": 182,
+ "status": "ok"
 }
