@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-10T13:06:09Z",
+ "ts": "2026-11-10T13:09:38Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,7 +151,9 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "API-DEPRECATED 20 urls: 404 https://clob.polymarket.com/book?token_id=91816299908818898784779889643877440220219421007505228094277039431226"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -304,15 +306,15 @@
     "closed": true
    },
    {
+    "t": "Valorant: Salamander vs NongKaiTod (BO3) - Asia Pacific Predator Leagu",
+    "closed": false
+   },
+   {
     "t": "Valorant: Brest Esport vs regnum4games (BO3) - Spike Series Convergenc",
     "closed": true
    },
    {
     "t": "Valorant: BOOM Esports vs Rojali (BO3) - Asia Pacific Predator League ",
-    "closed": false
-   },
-   {
-    "t": "Valorant: Seventh Letter Gaming vs Surprise (BO3) - Asia Pacific Preda",
     "closed": false
    }
   ],
@@ -369,23 +371,44 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 194,
  "trades_watchlist_markets": 125,
- "trades_collected": 3860,
- "anomalies_detected": 53,
- "anomalies_new": 53,
- "history_debug": [
-  {
-   "cid": "0x63278db0",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xa82dd34c",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
+ "trades_collected": 3631,
+ "anomalies_detected": 52,
+ "anomalies_new": 0,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_errors": [
+  "9181629990: HTTP 404 (api deprecated)",
+  "1030756447: HTTP 404 (api deprecated)",
+  "4884254586: HTTP 404 (api deprecated)",
+  "4187771941: HTTP 404 (api deprecated)",
+  "1137772545: HTTP 404 (api deprecated)",
+  "1363985525: HTTP 404 (api deprecated)",
+  "4467995963: HTTP 404 (api deprecated)",
+  "4509960583: HTTP 404 (api deprecated)",
+  "2117919975: HTTP 404 (api deprecated)",
+  "9509308031: HTTP 404 (api deprecated)",
+  "1017258911: HTTP 404 (api deprecated)",
+  "1050980720: HTTP 404 (api deprecated)",
+  "4909051062: HTTP 404 (api deprecated)",
+  "7786461945: HTTP 404 (api deprecated)",
+  "4633307015: HTTP 404 (api deprecated)",
+  "1348796539: HTTP 404 (api deprecated)",
+  "9966200245: HTTP 404 (api deprecated)",
+  "2259177288: HTTP 404 (api deprecated)",
+  "5971689788: HTTP 404 (api deprecated)",
+  "1001580054: HTTP 404 (api deprecated)"
  ],
- "history_conditions_new": 2,
  "books_markets": 135,
  "books_rows": 200,
- "status": "ok"
+ "status": "ok",
+ "api_deprecated": [
+  "404 https://clob.polymarket.com/book?token_id=91816299908818898784779889643877440220219421007505228094277039431226",
+  "404 https://clob.polymarket.com/book?token_id=10307564478396021951829900565037951538523234969035422701443873056670",
+  "404 https://clob.polymarket.com/book?token_id=48842545865984024040753620507173673495148333519939669639511422901877",
+  "404 https://clob.polymarket.com/book?token_id=41877719414879066359626804421902439272819670884763875451041123687330",
+  "404 https://clob.polymarket.com/book?token_id=11377725454154981849587727404826872144422514053702492106974493418090",
+  "404 https://clob.polymarket.com/book?token_id=13639855251224935173675714081506423680971186355115227813046506889188",
+  "404 https://clob.polymarket.com/book?token_id=44679959633080064702398470119384713020212927578674103432224022347602",
+  "404 https://clob.polymarket.com/book?token_id=45099605836970246028255397669121619905344118184643990972562458568255"
+ ]
 }
