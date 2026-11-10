@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-10T10:04:38Z",
+ "ts": "2026-11-10T10:37:34Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 41,
+   "events_returned": 42,
    "err": null
   },
   {
@@ -170,7 +170,7 @@
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
    "Will FaZe win a Tier 1 event in 2026? ",
-   "CS2 Offseason: m0NESY Next Team"
+   "BLAST Rivals Hong Kong 2026: Winner"
   ],
   "tag_slug=counter-strike": [
    "Will Valve add sticker trade-ups by...?"
@@ -308,11 +308,11 @@
     "closed": false
    },
    {
-    "t": "Valorant: Bonkers vs MeatZn (BO1) - Asia Pacific Predator League Ocean",
-    "closed": true
+    "t": "Valorant: Aurora Gaming vs Pixel Lumina (BO3) - VCT EMEA Kickoff: Euro",
+    "closed": false
    },
    {
-    "t": "Valorant: Aurora Gaming vs Pixel Lumina (BO3) - VCT EMEA Kickoff: Euro",
+    "t": "Valorant: Seventh Letter Gaming vs Surprise (BO3) - Asia Pacific Preda",
     "closed": false
    }
   ],
@@ -363,18 +363,18 @@
  },
  "n_event_queries": 24,
  "events": 781,
- "markets": 821,
- "markets_dropped_by_volume_floor": 6020,
+ "markets": 841,
+ "markets_dropped_by_volume_floor": 6028,
  "day_file": "data/2026/11/2026-11-10T10.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 152,
- "trades_watchlist_markets": 92,
- "trades_collected": 2258,
+ "trades_markets_queried": 169,
+ "trades_watchlist_markets": 103,
+ "trades_collected": 2434,
  "anomalies_detected": 13,
- "anomalies_new": 0,
+ "anomalies_new": 13,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 115,
- "books_rows": 208,
+ "books_markets": 133,
+ "books_rows": 242,
  "status": "ok"
 }
