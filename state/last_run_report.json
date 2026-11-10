@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-10T14:50:06Z",
+ "ts": "2026-11-10T14:52:54Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 64,
+   "events_returned": 63,
    "err": null
   },
   {
@@ -69,7 +69,7 @@
   {
    "url": "tag_slug=starcraft-2",
    "ok": true,
-   "events_returned": 3,
+   "events_returned": 2,
    "err": null
   },
   {
@@ -160,12 +160,12 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Dota 2: Yellow Submarine vs LEGION (BO3) - 1win Essence Play-in Group "
+   "LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Yellow Submarine vs LEGION (BO3) - 1win Essence Play-in Group ",
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
-   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B"
+   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B",
+   "Dota 2: Xipto Esports vs potn9ki (BO3) - DreamLeague Division 2 Group "
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
@@ -191,7 +191,6 @@
    "VALORANT Offseason: primmie Next Team"
   ],
   "tag_slug=starcraft-2": [
-   "StarCraft II: Percival vs Shameless (BO5) - WardiTV Championship Playo",
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
    "StarCraft II: Solar vs Percival (BO5) - WardiTV Championship Playoffs"
   ],
@@ -235,7 +234,7 @@
    },
    {
     "t": "Dota 2: Yellow Submarine vs LEGION (BO3) - 1win Essence Play-in Group ",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Froglings vs PlayTime (BO3) - DreamLeague Division 2 Group A",
@@ -362,19 +361,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 773,
- "markets": 914,
- "markets_dropped_by_volume_floor": 6304,
+ "events": 772,
+ "markets": 925,
+ "markets_dropped_by_volume_floor": 6291,
  "day_file": "data/2026/11/2026-11-10T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 208,
+ "trades_markets_queried": 214,
  "trades_watchlist_markets": 141,
- "trades_collected": 4397,
- "anomalies_detected": 31,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 130,
- "books_rows": 204,
+ "trades_collected": 4145,
+ "anomalies_detected": 29,
+ "anomalies_new": 3,
+ "history_debug": [
+  {
+   "cid": "0x8d14fa4a",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 133,
+ "books_rows": 206,
  "status": "ok"
 }
