@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-10T20:30:10Z",
+ "ts": "2026-11-10T20:33:12Z",
  "sources": [
   {
    "url": "/tags",
@@ -369,17 +369,11 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 207,
  "trades_watchlist_markets": 94,
- "trades_collected": 3268,
+ "trades_collected": 3157,
  "anomalies_detected": 63,
- "anomalies_new": 58,
- "history_debug": [
-  {
-   "cid": "0xdbb5221b",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
+ "anomalies_new": 0,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_errors": [
   "8984026118: HTTP 404 (api deprecated)",
   "2457033815: HTTP 404 (api deprecated)"
