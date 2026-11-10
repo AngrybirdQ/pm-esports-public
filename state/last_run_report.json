@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-10T23:10:13Z",
+ "ts": "2026-11-10T23:12:32Z",
  "sources": [
   {
    "url": "/tags",
@@ -165,7 +165,7 @@
   "tag_slug=dota-2": [
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
    "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B",
-   "Dota 2: Amaru Gaming vs Zero Tenacity (BO3) - DreamLeague Division 2 G"
+   "Dota 2: CyberHero vs Power Rangers (BO3) - 1win Essence Play-in Group "
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
@@ -360,18 +360,24 @@
   ]
  },
  "n_event_queries": 24,
- "events": 755,
- "markets": 1158,
- "markets_dropped_by_volume_floor": 7042,
+ "events": 757,
+ "markets": 1178,
+ "markets_dropped_by_volume_floor": 7034,
  "day_file": "data/2026/11/2026-11-10T23.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 195,
+ "trades_markets_queried": 201,
  "trades_watchlist_markets": 73,
- "trades_collected": 2429,
- "anomalies_detected": 30,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_collected": 2552,
+ "anomalies_detected": 45,
+ "anomalies_new": 18,
+ "history_debug": [
+  {
+   "cid": "0xd5fccdc7",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 93,
  "books_rows": 170,
  "status": "ok"
