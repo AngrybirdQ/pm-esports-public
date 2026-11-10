@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-10T17:33:17Z",
+ "ts": "2026-11-10T17:56:40Z",
  "sources": [
   {
    "url": "/tags",
@@ -244,7 +244,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Power Rangers vs Ka4kanarskie cyxariki (BO3) - 1win Essence Pl",
+    "t": "Dota 2: Yakult Brothers vs InterActive Philippines (BO3) - DreamLeague",
     "closed": true
    }
   ],
@@ -361,18 +361,24 @@
  },
  "n_event_queries": 24,
  "events": 764,
- "markets": 1013,
- "markets_dropped_by_volume_floor": 6650,
+ "markets": 1032,
+ "markets_dropped_by_volume_floor": 6640,
  "day_file": "data/2026/11/2026-11-10T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 203,
- "trades_watchlist_markets": 106,
- "trades_collected": 2802,
- "anomalies_detected": 33,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 120,
- "books_rows": 180,
+ "trades_markets_queried": 202,
+ "trades_watchlist_markets": 111,
+ "trades_collected": 3236,
+ "anomalies_detected": 32,
+ "anomalies_new": 20,
+ "history_debug": [
+  {
+   "cid": "0x1ee9d01b",
+   "pts": 6,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 122,
+ "books_rows": 186,
  "status": "ok"
 }
