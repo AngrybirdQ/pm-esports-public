@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-10T13:22:58Z",
+ "ts": "2026-11-10T13:25:20Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=28635059337297193737494410160202650617290345678107469181695900335223"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -193,8 +191,8 @@
    "VALORANT Offseason: primmie Next Team"
   ],
   "tag_slug=starcraft-2": [
-   "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
    "StarCraft II: SHIN vs Lambo (BO5) - WardiTV Championship Playoffs",
+   "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
    "StarCraft II: Percival vs Shameless (BO5) - WardiTV Championship Playo"
   ],
   "tag_slug=nba": [
@@ -298,16 +296,16 @@
   ],
   "search:Valorant": [
    {
+    "t": "Valorant: Salamander vs NongKaiTod (BO3) - Asia Pacific Predator Leagu",
+    "closed": false
+   },
+   {
     "t": "Valorant: Aurora Gaming vs Pixel Lumina (BO3) - VCT EMEA Kickoff: Euro",
     "closed": false
    },
    {
     "t": "Valorant: NRG vs Fnatic (BO5)",
     "closed": true
-   },
-   {
-    "t": "Valorant: Salamander vs NongKaiTod (BO3) - Asia Pacific Predator Leagu",
-    "closed": false
    },
    {
     "t": "Valorant: Brest Esport vs regnum4games (BO3) - Spike Series Convergenc",
@@ -364,27 +362,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 773,
- "markets": 855,
- "markets_dropped_by_volume_floor": 5998,
+ "events": 771,
+ "markets": 872,
+ "markets_dropped_by_volume_floor": 5970,
  "day_file": "data/2026/11/2026-11-10T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 197,
+ "trades_markets_queried": 201,
  "trades_watchlist_markets": 125,
- "trades_collected": 3378,
- "anomalies_detected": 43,
- "anomalies_new": 0,
+ "trades_collected": 3636,
+ "anomalies_detected": 28,
+ "anomalies_new": 8,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "2863505933: HTTP 404 (api deprecated)",
-  "1721692104: HTTP 404 (api deprecated)"
- ],
- "books_markets": 128,
- "books_rows": 204,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=28635059337297193737494410160202650617290345678107469181695900335223",
-  "404 https://clob.polymarket.com/book?token_id=17216921043433501376794186824722025666268225982641637149863853417148"
- ]
+ "books_markets": 129,
+ "books_rows": 208,
+ "status": "ok"
 }
