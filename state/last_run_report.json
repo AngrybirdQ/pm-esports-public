@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-10T06:16:10Z",
+ "ts": "2026-11-10T06:18:13Z",
  "sources": [
   {
    "url": "/tags",
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 54,
+   "events_returned": 53,
    "err": null
   },
   {
@@ -301,7 +301,7 @@
    },
    {
     "t": "Valorant: Brest Esport vs regnum4games (BO3) - Spike Series Convergenc",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: BOOM Esports vs Rojali (BO3) - Asia Pacific Predator League ",
@@ -362,14 +362,14 @@
   ]
  },
  "n_event_queries": 24,
- "events": 782,
- "markets": 796,
- "markets_dropped_by_volume_floor": 5501,
+ "events": 781,
+ "markets": 781,
+ "markets_dropped_by_volume_floor": 5489,
  "day_file": "data/2026/11/2026-11-10T06.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 121,
  "trades_watchlist_markets": 68,
- "trades_collected": 1753,
+ "trades_collected": 1836,
  "anomalies_detected": 0,
  "anomalies_new": 0,
  "history_debug": [],
