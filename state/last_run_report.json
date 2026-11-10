@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-10T11:53:16Z",
+ "ts": "2026-11-10T11:55:59Z",
  "sources": [
   {
    "url": "/tags",
@@ -152,7 +152,7 @@
   }
  ],
  "errors": [
-  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=77330450981070978518671203121416531233212631004699378237653136138714"
+  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=96966603802377472418938828695062166534609898474288995318702782242782"
  ],
  "stage": "all",
  "tags_discovered": [
@@ -165,9 +165,9 @@
    "LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs"
   ],
   "tag_slug=dota-2": [
+   "Dota 2: Yellow Submarine vs LEGION (BO3) - 1win Essence Play-in Group ",
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
-   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B",
-   "Dota 2: Yellow Submarine vs LEGION (BO3) - 1win Essence Play-in Group "
+   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B"
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
@@ -364,27 +364,27 @@
   ]
  },
  "n_event_queries": 24,
- "events": 778,
+ "events": 777,
  "markets": 846,
- "markets_dropped_by_volume_floor": 6041,
+ "markets_dropped_by_volume_floor": 6060,
  "day_file": "data/2026/11/2026-11-10T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 184,
+ "trades_markets_queried": 185,
  "trades_watchlist_markets": 118,
- "trades_collected": 3513,
- "anomalies_detected": 35,
- "anomalies_new": 0,
+ "trades_collected": 3623,
+ "anomalies_detected": 37,
+ "anomalies_new": 4,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
-  "7733045098: HTTP 404 (api deprecated)",
-  "1618289365: HTTP 404 (api deprecated)"
+  "9696660380: HTTP 404 (api deprecated)",
+  "1107660999: HTTP 404 (api deprecated)"
  ],
  "books_markets": 144,
- "books_rows": 226,
+ "books_rows": 228,
  "status": "ok",
  "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=77330450981070978518671203121416531233212631004699378237653136138714",
-  "404 https://clob.polymarket.com/book?token_id=16182893653350402408012625352881809109544429891988600024526021540251"
+  "404 https://clob.polymarket.com/book?token_id=96966603802377472418938828695062166534609898474288995318702782242782",
+  "404 https://clob.polymarket.com/book?token_id=11076609996175306716407499690589242880433920808339544341088647798950"
  ]
 }
