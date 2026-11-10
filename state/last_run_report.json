@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-10T16:50:05Z",
+ "ts": "2026-11-10T16:52:13Z",
  "sources": [
   {
    "url": "/tags",
@@ -152,7 +152,7 @@
   }
  ],
  "errors": [
-  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=10753490580283680965665400187588112756490169059529450035984969338018"
+  "API-DEPRECATED 6 urls: 404 https://clob.polymarket.com/book?token_id=80793418531163193037604774302368706646276469753887949955732499380494"
  ],
  "stage": "all",
  "tags_discovered": [
@@ -369,20 +369,28 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 196,
  "trades_watchlist_markets": 106,
- "trades_collected": 3541,
+ "trades_collected": 3462,
  "anomalies_detected": 26,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_errors": [
+  "8079341853: HTTP 404 (api deprecated)",
+  "1031188790: HTTP 404 (api deprecated)",
   "1075349058: HTTP 404 (api deprecated)",
-  "8260130433: HTTP 404 (api deprecated)"
+  "8260130433: HTTP 404 (api deprecated)",
+  "6758587851: HTTP 404 (api deprecated)",
+  "2683155531: HTTP 404 (api deprecated)"
  ],
  "books_markets": 122,
  "books_rows": 196,
  "status": "ok",
  "api_deprecated": [
+  "404 https://clob.polymarket.com/book?token_id=80793418531163193037604774302368706646276469753887949955732499380494",
+  "404 https://clob.polymarket.com/book?token_id=10311887909045492803077007442158576403557771189219141806619962949690",
   "404 https://clob.polymarket.com/book?token_id=10753490580283680965665400187588112756490169059529450035984969338018",
-  "404 https://clob.polymarket.com/book?token_id=82601304337933199139341957475956400259740531718877988473311057216506"
+  "404 https://clob.polymarket.com/book?token_id=82601304337933199139341957475956400259740531718877988473311057216506",
+  "404 https://clob.polymarket.com/book?token_id=67585878513138679835162144422368291656745478374664554172057205610681",
+  "404 https://clob.polymarket.com/book?token_id=26831555317299965872513940701582740664407674176431917450246243942124"
  ]
 }
