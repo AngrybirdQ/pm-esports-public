@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-10T05:37:24Z",
+ "ts": "2026-11-10T05:40:17Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 163,
+   "events_returned": 162,
    "err": null
   },
   {
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=10171647317568527339555651439693840511644089400151454310381974004548"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -180,7 +178,7 @@
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: Onion Team vs BRUTE (BO3) - Hitpoint Masters Regular Season"
+   "LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -364,27 +362,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 784,
- "markets": 885,
- "markets_dropped_by_volume_floor": 5478,
+ "events": 782,
+ "markets": 809,
+ "markets_dropped_by_volume_floor": 5250,
  "day_file": "data/2026/11/2026-11-10T05.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 152,
+ "trades_markets_queried": 121,
  "trades_watchlist_markets": 68,
- "trades_collected": 3054,
- "anomalies_detected": 149,
- "anomalies_new": 63,
+ "trades_collected": 1704,
+ "anomalies_detected": 54,
+ "anomalies_new": 20,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1017164731: HTTP 404 (api deprecated)",
-  "4695008374: HTTP 404 (api deprecated)"
- ],
- "books_markets": 89,
- "books_rows": 148,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=10171647317568527339555651439693840511644089400151454310381974004548",
-  "404 https://clob.polymarket.com/book?token_id=46950083745612412868677173749502090340695210911550594699258494915879"
- ]
+ "books_markets": 92,
+ "books_rows": 180,
+ "status": "ok"
 }
