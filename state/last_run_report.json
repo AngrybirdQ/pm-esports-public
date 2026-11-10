@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-10T13:47:07Z",
+ "ts": "2026-11-10T13:50:00Z",
  "sources": [
   {
    "url": "/tags",
@@ -69,7 +69,7 @@
   {
    "url": "tag_slug=starcraft-2",
    "ok": true,
-   "events_returned": 3,
+   "events_returned": 2,
    "err": null
   },
   {
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "API-DEPRECATED 6 urls: 404 https://clob.polymarket.com/book?token_id=16210260351791077081069026173877575992071678867349067355730385732094"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -193,7 +191,6 @@
    "VALORANT Offseason: primmie Next Team"
   ],
   "tag_slug=starcraft-2": [
-   "StarCraft II: SHIN vs Lambo (BO5) - WardiTV Championship Playoffs",
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
    "StarCraft II: Percival vs Shameless (BO5) - WardiTV Championship Playo"
   ],
@@ -364,35 +361,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 776,
- "markets": 892,
- "markets_dropped_by_volume_floor": 6001,
+ "events": 775,
+ "markets": 888,
+ "markets_dropped_by_volume_floor": 5991,
  "day_file": "data/2026/11/2026-11-10T13.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 192,
  "trades_watchlist_markets": 127,
- "trades_collected": 3117,
- "anomalies_detected": 21,
- "anomalies_new": 0,
+ "trades_collected": 3551,
+ "anomalies_detected": 26,
+ "anomalies_new": 3,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1621026035: HTTP 404 (api deprecated)",
-  "3747566250: HTTP 404 (api deprecated)",
-  "5909290609: HTTP 404 (api deprecated)",
-  "6721370608: HTTP 404 (api deprecated)",
-  "4203711170: HTTP 404 (api deprecated)",
-  "1471555748: HTTP 404 (api deprecated)"
- ],
- "books_markets": 130,
+ "books_markets": 127,
  "books_rows": 188,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=16210260351791077081069026173877575992071678867349067355730385732094",
-  "404 https://clob.polymarket.com/book?token_id=37475662500286518352862693996486001314301893591897063661239623234883",
-  "404 https://clob.polymarket.com/book?token_id=59092906097373048235946943558504209847541048604823253893500356793780",
-  "404 https://clob.polymarket.com/book?token_id=67213706088931392491718626717320816667389762762717127373657343645268",
-  "404 https://clob.polymarket.com/book?token_id=42037111700622690240625626570863107731667523676117655654894466522765",
-  "404 https://clob.polymarket.com/book?token_id=14715557481868914777578841982676157199634009814501230970679171784728"
- ]
+ "status": "ok"
 }
