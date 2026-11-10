@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-09T23:00:31Z",
+ "ts": "2026-11-10T00:05:56Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 67,
+   "events_returned": 69,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 50,
+   "events_returned": 55,
    "err": null
   },
   {
@@ -160,12 +160,12 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Dota 2: Xipto Esports vs Yellow Submarine (BO3) - 1win Essence Play-in"
+   "Dota 2: Power Rangers vs Ka4kanarskie cyxariki (BO3) - 1win Essence Pl"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Xipto Esports vs Yellow Submarine (BO3) - 1win Essence Play-in",
    "Dota 2: Power Rangers vs Ka4kanarskie cyxariki (BO3) - 1win Essence Pl",
-   "Dota 2: Yakult Brothers vs Inner Circle (BO3) - DreamLeague Division 2"
+   "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
+   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B"
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
@@ -231,7 +231,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: Xipto Esports vs Yellow Submarine (BO3) - 1win Essence Play-in",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Froglings vs PlayTime (BO3) - DreamLeague Division 2 Group A",
@@ -247,7 +247,7 @@
    },
    {
     "t": "Dota 2: Yakult Brothers vs Inner Circle (BO3) - DreamLeague Division 2",
-    "closed": false
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -362,19 +362,35 @@
   ]
  },
  "n_event_queries": 24,
- "events": 788,
- "markets": 1191,
- "markets_dropped_by_volume_floor": 7995,
- "day_file": "data/2026/11/2026-11-09T23.jsonl",
- "retention_removed_files": 0,
- "trades_markets_queried": 270,
- "trades_watchlist_markets": 99,
- "trades_collected": 4384,
- "anomalies_detected": 89,
- "anomalies_new": 62,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 158,
- "books_rows": 246,
+ "events": 797,
+ "markets": 1236,
+ "markets_dropped_by_volume_floor": 8225,
+ "day_file": "data/2026/11/2026-11-10T00.jsonl",
+ "retention_removed_files": 49,
+ "trades_markets_queried": 213,
+ "trades_watchlist_markets": 76,
+ "trades_collected": 3943,
+ "anomalies_detected": 152,
+ "anomalies_new": 148,
+ "history_debug": [
+  {
+   "cid": "0x66c7d0c2",
+   "pts": 6,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x18bfea80",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x379a3eb0",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 3,
+ "books_markets": 85,
+ "books_rows": 152,
  "status": "ok"
 }
