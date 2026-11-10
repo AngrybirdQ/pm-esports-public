@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-10T20:08:35Z",
+ "ts": "2026-11-10T20:11:04Z",
  "sources": [
   {
    "url": "/tags",
@@ -163,8 +163,8 @@
    "Counter-Strike: Spirit vs FUT Esports (BO3) - BLAST Rivals Group B"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
    "Dota 2: HULIGANI vs Inner Circle (BO3) - DreamLeague Division 2 Group ",
+   "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
    "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B"
   ],
   "tag_slug=cs2": [
@@ -310,8 +310,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: Fourdaboy vs 1DAY24 (BO3) - Asia Pacific Predator League Tha",
-    "closed": true
+    "t": "Valorant: BOOM Esports vs Rojali (BO3) - Asia Pacific Predator League ",
+    "closed": false
    }
   ],
   "search:NBA": [
@@ -361,18 +361,24 @@
  },
  "n_event_queries": 24,
  "events": 759,
- "markets": 1073,
- "markets_dropped_by_volume_floor": 6553,
+ "markets": 1078,
+ "markets_dropped_by_volume_floor": 6552,
  "day_file": "data/2026/11/2026-11-10T20.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 196,
+ "trades_markets_queried": 201,
  "trades_watchlist_markets": 94,
- "trades_collected": 3162,
- "anomalies_detected": 64,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 117,
- "books_rows": 180,
+ "trades_collected": 3231,
+ "anomalies_detected": 59,
+ "anomalies_new": 5,
+ "history_debug": [
+  {
+   "cid": "0x0526bdbb",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 120,
+ "books_rows": 186,
  "status": "ok"
 }
