@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-11T17:35:41Z",
+ "ts": "2026-11-11T18:25:35Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 63,
+   "events_returned": 61,
    "err": null
   },
   {
@@ -163,9 +163,9 @@
    "LoL: Ground Zero Gaming vs Frank Esports (BO5) - LCP Promotion Playoff"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: Froglings vs CyberHero (BO3) - 1win Essence Play-in Group A",
    "Dota 2: HULIGANI vs PuckChamp (BO3) - DreamLeague Division 2 Group B",
-   "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs"
+   "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
+   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B"
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
@@ -231,10 +231,6 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: Froglings vs CyberHero (BO3) - 1win Essence Play-in Group A",
-    "closed": false
-   },
-   {
-    "t": "Dota 2: Froglings vs Power Rangers (BO3) - 1win Essence Play-in Group ",
     "closed": true
    },
    {
@@ -242,11 +238,15 @@
     "closed": false
    },
    {
+    "t": "Dota 2: Froglings vs Power Rangers (BO3) - 1win Essence Play-in Group ",
+    "closed": true
+   },
+   {
     "t": "Dota 2: HULIGANI vs Yakult Brothers (BO3) - DreamLeague Division 2 Gro",
     "closed": true
    },
    {
-    "t": "Dota 2: HULIGANI vs Inner Circle (BO3) - DreamLeague Division 2 Group ",
+    "t": "Dota 2: CyberHero vs Power Rangers (BO3) - 1win Essence Play-in Group ",
     "closed": true
    }
   ],
@@ -300,10 +300,6 @@
     "closed": true
    },
    {
-    "t": "Valorant: Aurora Gaming vs Pixel Lumina (BO3) - VCT EMEA Kickoff: Euro",
-    "closed": true
-   },
-   {
     "t": "Valorant: Aurora Gaming vs F9 EICAR (BO3) - VCT EMEA Kickoff: Europe Q",
     "closed": true
    },
@@ -313,6 +309,10 @@
    },
    {
     "t": "Valorant: Xipto Esports vs Salamander (BO3) - Asia Pacific Predator Le",
+    "closed": true
+   },
+   {
+    "t": "Valorant: OneOPae vs NongKaiTod (BO3) - Asia Pacific Predator League T",
     "closed": true
    }
   ],
@@ -362,19 +362,45 @@
   ]
  },
  "n_event_queries": 24,
- "events": 780,
- "markets": 1110,
- "markets_dropped_by_volume_floor": 8234,
- "day_file": "data/2026/11/2026-11-11T17.jsonl",
+ "events": 778,
+ "markets": 1168,
+ "markets_dropped_by_volume_floor": 8213,
+ "day_file": "data/2026/11/2026-11-11T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 215,
- "trades_watchlist_markets": 86,
- "trades_collected": 4236,
- "anomalies_detected": 41,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 102,
- "books_rows": 154,
+ "trades_markets_queried": 225,
+ "trades_watchlist_markets": 88,
+ "trades_collected": 5211,
+ "anomalies_detected": 87,
+ "anomalies_new": 86,
+ "history_debug": [
+  {
+   "cid": "0x13ac3979",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x736ae86f",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x892f4589",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x0452f1a5",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x5059af05",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 5,
+ "books_markets": 96,
+ "books_rows": 144,
  "status": "ok"
 }
