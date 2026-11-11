@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-11T17:07:57Z",
+ "ts": "2026-11-11T17:10:07Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=52755929997047016094180200402212905271521748964800816243897764113115"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -166,8 +164,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: Froglings vs CyberHero (BO3) - 1win Essence Play-in Group A",
-   "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
-   "Dota 2: HULIGANI vs PuckChamp (BO3) - DreamLeague Division 2 Group B"
+   "Dota 2: HULIGANI vs PuckChamp (BO3) - DreamLeague Division 2 Group B",
+   "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs"
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
@@ -365,26 +363,18 @@
  },
  "n_event_queries": 24,
  "events": 774,
- "markets": 1083,
- "markets_dropped_by_volume_floor": 8116,
+ "markets": 1098,
+ "markets_dropped_by_volume_floor": 8096,
  "day_file": "data/2026/11/2026-11-11T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 221,
+ "trades_markets_queried": 232,
  "trades_watchlist_markets": 103,
- "trades_collected": 4034,
- "anomalies_detected": 2,
- "anomalies_new": 0,
+ "trades_collected": 4555,
+ "anomalies_detected": 3,
+ "anomalies_new": 1,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "5275592999: HTTP 404 (api deprecated)",
-  "2502077905: HTTP 404 (api deprecated)"
- ],
- "books_markets": 99,
- "books_rows": 140,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=52755929997047016094180200402212905271521748964800816243897764113115",
-  "404 https://clob.polymarket.com/book?token_id=25020779058253582571918886506467224754810643666135460307817928684263"
- ]
+ "books_markets": 107,
+ "books_rows": 156,
+ "status": "ok"
 }
