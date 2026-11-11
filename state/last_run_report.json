@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-11T14:24:14Z",
+ "ts": "2026-11-11T14:27:09Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,7 +151,9 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "API-DEPRECATED 4 urls: 404 https://clob.polymarket.com/book?token_id=11085117766549313694233241981026949013053155076964041589709776385093"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -312,8 +314,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: BOOM Esports vs Rojali (BO3) - Asia Pacific Predator League ",
-    "closed": false
+    "t": "Valorant: xXxMasterProMegaTeamxXx vs F9 EICAR (BO3) - VCT EMEA Kickoff",
+    "closed": true
    }
   ],
   "search:NBA": [
@@ -369,33 +371,24 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 198,
  "trades_watchlist_markets": 101,
- "trades_collected": 5008,
+ "trades_collected": 4940,
  "anomalies_detected": 50,
- "anomalies_new": 50,
- "history_debug": [
-  {
-   "cid": "0xd5bd2aa4",
-   "pts": 10,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xa513682b",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xec9b0514",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xb3c3be11",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  }
+ "anomalies_new": 0,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_errors": [
+  "1108511776: HTTP 404 (api deprecated)",
+  "1261462809: HTTP 404 (api deprecated)",
+  "3365965238: HTTP 404 (api deprecated)",
+  "6880136691: HTTP 404 (api deprecated)"
  ],
- "history_conditions_new": 4,
  "books_markets": 107,
- "books_rows": 146,
- "status": "ok"
+ "books_rows": 142,
+ "status": "ok",
+ "api_deprecated": [
+  "404 https://clob.polymarket.com/book?token_id=11085117766549313694233241981026949013053155076964041589709776385093",
+  "404 https://clob.polymarket.com/book?token_id=12614628091946506628206531175855995108832611961064057038725962817429",
+  "404 https://clob.polymarket.com/book?token_id=33659652385701741999426467871581032868667652342425234589985235227129",
+  "404 https://clob.polymarket.com/book?token_id=68801366916203359925711992898867822853451546420354712530968354975644"
+ ]
 }
