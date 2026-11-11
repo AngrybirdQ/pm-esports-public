@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-11T14:38:32Z",
+ "ts": "2026-11-11T14:41:05Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 50,
+   "events_returned": 49,
    "err": null
   },
   {
@@ -163,9 +163,9 @@
    "LoL: Ground Zero Gaming vs Frank Esports (BO5) - LCP Promotion Playoff"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: HULIGANI vs Yakult Brothers (BO3) - DreamLeague Division 2 Gro",
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
-   "Dota 2: Xipto Esports vs LEGION (BO3) - 1win Essence Play-in Group B"
+   "Dota 2: Xipto Esports vs LEGION (BO3) - 1win Essence Play-in Group B",
+   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B"
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
@@ -363,18 +363,34 @@
  },
  "n_event_queries": 24,
  "events": 762,
- "markets": 988,
- "markets_dropped_by_volume_floor": 6958,
+ "markets": 1007,
+ "markets_dropped_by_volume_floor": 6942,
  "day_file": "data/2026/11/2026-11-11T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 196,
+ "trades_markets_queried": 201,
  "trades_watchlist_markets": 101,
- "trades_collected": 4804,
- "anomalies_detected": 25,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 102,
- "books_rows": 142,
+ "trades_collected": 5107,
+ "anomalies_detected": 30,
+ "anomalies_new": 5,
+ "history_debug": [
+  {
+   "cid": "0x8c076a93",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xcf2dd0e7",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x73ca82e1",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 3,
+ "books_markets": 101,
+ "books_rows": 146,
  "status": "ok"
 }
