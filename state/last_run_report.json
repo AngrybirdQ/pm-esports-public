@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-11T15:36:00Z",
+ "ts": "2026-11-11T16:26:19Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 51,
+   "events_returned": 56,
    "err": null
   },
   {
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "API-DEPRECATED 4 urls: 404 https://clob.polymarket.com/book?token_id=93500184145102945121370751407828181779088167711332050995623055019617"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -232,16 +230,12 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Xipto Esports vs PlayTime (BO3) - 1win Essence Play-in Group B",
-    "closed": true
+    "t": "Dota 2: Froglings vs CyberHero (BO3) - 1win Essence Play-in Group A",
+    "closed": false
    },
    {
     "t": "Dota 2: Froglings vs Power Rangers (BO3) - 1win Essence Play-in Group ",
     "closed": true
-   },
-   {
-    "t": "Dota 2: Froglings vs CyberHero (BO3) - 1win Essence Play-in Group A",
-    "closed": false
    },
    {
     "t": "Dota 2: HULIGANI vs Yakult Brothers (BO3) - DreamLeague Division 2 Gro",
@@ -249,6 +243,10 @@
    },
    {
     "t": "Dota 2: HULIGANI vs Inner Circle (BO3) - DreamLeague Division 2 Group ",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: CyberHero vs Power Rangers (BO3) - 1win Essence Play-in Group ",
     "closed": true
    }
   ],
@@ -314,8 +312,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: xXxMasterProMegaTeamxXx vs F9 EICAR (BO3) - VCT EMEA Kickoff",
-    "closed": true
+    "t": "Valorant: Xipto Esports vs Salamander (BO3) - Asia Pacific Predator Le",
+    "closed": false
    }
   ],
   "search:NBA": [
@@ -364,31 +362,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 774,
- "markets": 1042,
- "markets_dropped_by_volume_floor": 7395,
- "day_file": "data/2026/11/2026-11-11T15.jsonl",
+ "events": 779,
+ "markets": 1077,
+ "markets_dropped_by_volume_floor": 7833,
+ "day_file": "data/2026/11/2026-11-11T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 195,
- "trades_watchlist_markets": 88,
- "trades_collected": 4738,
- "anomalies_detected": 21,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "9350018414: HTTP 404 (api deprecated)",
-  "8914232773: HTTP 404 (api deprecated)",
-  "7190830282: HTTP 404 (api deprecated)",
-  "6243894785: HTTP 404 (api deprecated)"
+ "trades_markets_queried": 217,
+ "trades_watchlist_markets": 103,
+ "trades_collected": 4195,
+ "anomalies_detected": 52,
+ "anomalies_new": 52,
+ "history_debug": [
+  {
+   "cid": "0xfd71da46",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 98,
- "books_rows": 150,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=93500184145102945121370751407828181779088167711332050995623055019617",
-  "404 https://clob.polymarket.com/book?token_id=89142327738480846616380672372145389769242006343719024911856782587315",
-  "404 https://clob.polymarket.com/book?token_id=71908302821861402338546163492430820823163045768791907059098175123784",
-  "404 https://clob.polymarket.com/book?token_id=62438947857368698457736895008279174434607035983213026723975695362909"
- ]
+ "history_conditions_new": 1,
+ "books_markets": 105,
+ "books_rows": 160,
+ "status": "ok"
 }
