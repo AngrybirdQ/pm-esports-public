@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-11T23:06:06Z",
+ "ts": "2026-11-11T23:08:32Z",
  "sources": [
   {
    "url": "/tags",
@@ -152,7 +152,7 @@
   }
  ],
  "errors": [
-  "API-DEPRECATED 4 urls: 404 https://clob.polymarket.com/book?token_id=60205599840926822154132923562385762707945764157523528598217221292329"
+  "API-DEPRECATED 6 urls: 404 https://clob.polymarket.com/book?token_id=60205599840926822154132923562385762707945764157523528598217221292329"
  ],
  "stage": "all",
  "tags_discovered": [
@@ -371,8 +371,8 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 222,
  "trades_watchlist_markets": 63,
- "trades_collected": 3966,
- "anomalies_detected": 49,
+ "trades_collected": 3928,
+ "anomalies_detected": 51,
  "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
@@ -380,7 +380,9 @@
   "6020559984: HTTP 404 (api deprecated)",
   "2587254072: HTTP 404 (api deprecated)",
   "4945552868: HTTP 404 (api deprecated)",
-  "1082103671: HTTP 404 (api deprecated)"
+  "1082103671: HTTP 404 (api deprecated)",
+  "1464785966: HTTP 404 (api deprecated)",
+  "7242793688: HTTP 404 (api deprecated)"
  ],
  "books_markets": 75,
  "books_rows": 124,
@@ -389,6 +391,8 @@
   "404 https://clob.polymarket.com/book?token_id=60205599840926822154132923562385762707945764157523528598217221292329",
   "404 https://clob.polymarket.com/book?token_id=25872540723207338069807689196008988338380085116432117467744478132846",
   "404 https://clob.polymarket.com/book?token_id=49455528687245307993124082642965968712260147966433549632445709906416",
-  "404 https://clob.polymarket.com/book?token_id=10821036711902261046789988036461329172262221784627810263586479590159"
+  "404 https://clob.polymarket.com/book?token_id=10821036711902261046789988036461329172262221784627810263586479590159",
+  "404 https://clob.polymarket.com/book?token_id=14647859660215479323042441416041550097920566952324872973352695981175",
+  "404 https://clob.polymarket.com/book?token_id=72427936887195129812756765702684728039994355046023855058513225059365"
  ]
 }
