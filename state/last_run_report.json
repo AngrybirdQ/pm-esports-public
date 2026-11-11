@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-11T23:10:45Z",
+ "ts": "2026-11-11T23:23:22Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 62,
+   "events_returned": 61,
    "err": null
   },
   {
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "API-DEPRECATED 8 urls: 404 https://clob.polymarket.com/book?token_id=60205599840926822154132923562385762707945764157523528598217221292329"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -165,9 +163,9 @@
    "LoL: Ground Zero Gaming vs Frank Esports (BO5) - LCP Promotion Playoff"
   ],
   "tag_slug=dota-2": [
-   "Dota 2: PlayTime vs Yellow Submarine (BO3) - 1win Essence Play-in Grou",
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
-   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B"
+   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B",
+   "Dota 2: CyberHero vs Zero Tenacity (BO3) - DreamLeague Division 2 Grou"
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
@@ -249,7 +247,7 @@
    },
    {
     "t": "Dota 2: PlayTime vs Yellow Submarine (BO3) - 1win Essence Play-in Grou",
-    "closed": false
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -364,39 +362,30 @@
   ]
  },
  "n_event_queries": 24,
- "events": 779,
- "markets": 1267,
- "markets_dropped_by_volume_floor": 8531,
+ "events": 777,
+ "markets": 1283,
+ "markets_dropped_by_volume_floor": 8492,
  "day_file": "data/2026/11/2026-11-11T23.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 222,
- "trades_watchlist_markets": 63,
- "trades_collected": 3807,
- "anomalies_detected": 51,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "6020559984: HTTP 404 (api deprecated)",
-  "2587254072: HTTP 404 (api deprecated)",
-  "4945552868: HTTP 404 (api deprecated)",
-  "1082103671: HTTP 404 (api deprecated)",
-  "8539142273: HTTP 404 (api deprecated)",
-  "3157779490: HTTP 404 (api deprecated)",
-  "1464785966: HTTP 404 (api deprecated)",
-  "7242793688: HTTP 404 (api deprecated)"
+ "trades_markets_queried": 227,
+ "trades_watchlist_markets": 56,
+ "trades_collected": 3649,
+ "anomalies_detected": 65,
+ "anomalies_new": 23,
+ "history_debug": [
+  {
+   "cid": "0x0ffc42d8",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x0380bb07",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 75,
- "books_rows": 124,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=60205599840926822154132923562385762707945764157523528598217221292329",
-  "404 https://clob.polymarket.com/book?token_id=25872540723207338069807689196008988338380085116432117467744478132846",
-  "404 https://clob.polymarket.com/book?token_id=49455528687245307993124082642965968712260147966433549632445709906416",
-  "404 https://clob.polymarket.com/book?token_id=10821036711902261046789988036461329172262221784627810263586479590159",
-  "404 https://clob.polymarket.com/book?token_id=85391422739121551794876579391719743847131552796729538562388219966025",
-  "404 https://clob.polymarket.com/book?token_id=31577794902591562340310817725350162191837821995730470572135452603661",
-  "404 https://clob.polymarket.com/book?token_id=14647859660215479323042441416041550097920566952324872973352695981175",
-  "404 https://clob.polymarket.com/book?token_id=72427936887195129812756765702684728039994355046023855058513225059365"
- ]
+ "history_conditions_new": 2,
+ "books_markets": 85,
+ "books_rows": 156,
+ "status": "ok"
 }
