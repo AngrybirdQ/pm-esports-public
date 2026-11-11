@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-11T07:20:56Z",
+ "ts": "2026-11-11T07:28:57Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=71807804301238533444773982071032990259305911485813393050071016425809"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -161,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "Counter-Strike: Spirit vs FUT Esports (BO3) - BLAST Rivals Group B"
+   "Counter-Strike: Spirit vs FUT Esports (BO3) - BLAST Rivals Group B",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
@@ -363,26 +361,24 @@
  },
  "n_event_queries": 24,
  "events": 752,
- "markets": 805,
- "markets_dropped_by_volume_floor": 6089,
+ "markets": 801,
+ "markets_dropped_by_volume_floor": 6074,
  "day_file": "data/2026/11/2026-11-11T07.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 142,
+ "trades_markets_queried": 141,
  "trades_watchlist_markets": 71,
- "trades_collected": 3069,
- "anomalies_detected": 16,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "7180780430: HTTP 404 (api deprecated)",
-  "1008147655: HTTP 404 (api deprecated)"
+ "trades_collected": 3083,
+ "anomalies_detected": 17,
+ "anomalies_new": 4,
+ "history_debug": [
+  {
+   "cid": "0x1e8098fa",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 83,
- "books_rows": 160,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=71807804301238533444773982071032990259305911485813393050071016425809",
-  "404 https://clob.polymarket.com/book?token_id=10081476550869193811952030482961133755148675600335382501671908749892"
- ]
+ "history_conditions_new": 1,
+ "books_markets": 84,
+ "books_rows": 162,
+ "status": "ok"
 }
