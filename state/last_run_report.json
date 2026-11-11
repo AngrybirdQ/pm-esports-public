@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-11T15:15:47Z",
+ "ts": "2026-11-11T15:26:34Z",
  "sources": [
   {
    "url": "/tags",
@@ -163,9 +163,9 @@
    "LoL: Ground Zero Gaming vs Frank Esports (BO5) - LCP Promotion Playoff"
   ],
   "tag_slug=dota-2": [
+   "Dota 2: Froglings vs CyberHero (BO3) - 1win Essence Play-in Group A",
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
-   "Dota 2: Xipto Esports vs LEGION (BO3) - 1win Essence Play-in Group B",
-   "Dota 2: Froglings vs CyberHero (BO3) - 1win Essence Play-in Group A"
+   "Dota 2: Xipto Esports vs LEGION (BO3) - 1win Essence Play-in Group B"
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
@@ -238,15 +238,15 @@
     "closed": true
    },
    {
+    "t": "Dota 2: Froglings vs CyberHero (BO3) - 1win Essence Play-in Group A",
+    "closed": false
+   },
+   {
     "t": "Dota 2: HULIGANI vs Yakult Brothers (BO3) - DreamLeague Division 2 Gro",
     "closed": true
    },
    {
     "t": "Dota 2: HULIGANI vs Inner Circle (BO3) - DreamLeague Division 2 Group ",
-    "closed": true
-   },
-   {
-    "t": "Dota 2: CyberHero vs Power Rangers (BO3) - 1win Essence Play-in Group ",
     "closed": true
    }
   ],
@@ -363,34 +363,24 @@
  },
  "n_event_queries": 24,
  "events": 774,
- "markets": 1030,
- "markets_dropped_by_volume_floor": 7404,
+ "markets": 1043,
+ "markets_dropped_by_volume_floor": 7397,
  "day_file": "data/2026/11/2026-11-11T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 212,
- "trades_watchlist_markets": 101,
- "trades_collected": 4691,
- "anomalies_detected": 42,
- "anomalies_new": 8,
+ "trades_markets_queried": 195,
+ "trades_watchlist_markets": 88,
+ "trades_collected": 4577,
+ "anomalies_detected": 28,
+ "anomalies_new": 6,
  "history_debug": [
   {
-   "cid": "0xdd4dede0",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x19582d23",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0xb28a5902",
+   "cid": "0xbdc863ac",
    "pts": 1,
    "variant": "interval=all&fidelity=1000"
   }
  ],
- "history_conditions_new": 3,
- "books_markets": 96,
- "books_rows": 144,
+ "history_conditions_new": 1,
+ "books_markets": 99,
+ "books_rows": 152,
  "status": "ok"
 }
