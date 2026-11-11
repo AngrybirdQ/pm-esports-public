@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-11T10:23:28Z",
+ "ts": "2026-11-11T10:25:33Z",
  "sources": [
   {
    "url": "/tags",
@@ -159,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "Counter-Strike: MOUZ vs G2 (BO3) - BLAST Rivals Group B"
+   "Counter-Strike: MOUZ vs G2 (BO3) - BLAST Rivals Group B",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
@@ -230,11 +230,11 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Yellow Submarine vs LEGION (BO3) - 1win Essence Play-in Group ",
+    "t": "Dota 2: Xipto Esports vs PlayTime (BO3) - 1win Essence Play-in Group B",
     "closed": true
    },
    {
-    "t": "Dota 2: Xipto Esports vs PlayTime (BO3) - 1win Essence Play-in Group B",
+    "t": "Dota 2: Yellow Submarine vs LEGION (BO3) - 1win Essence Play-in Group ",
     "closed": true
    },
    {
@@ -362,19 +362,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 754,
- "markets": 820,
- "markets_dropped_by_volume_floor": 6413,
+ "events": 755,
+ "markets": 834,
+ "markets_dropped_by_volume_floor": 6414,
  "day_file": "data/2026/11/2026-11-11T10.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 159,
+ "trades_markets_queried": 165,
  "trades_watchlist_markets": 85,
- "trades_collected": 3206,
- "anomalies_detected": 27,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 98,
- "books_rows": 180,
+ "trades_collected": 3392,
+ "anomalies_detected": 39,
+ "anomalies_new": 20,
+ "history_debug": [
+  {
+   "cid": "0x396d9c8b",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 104,
+ "books_rows": 190,
  "status": "ok"
 }
