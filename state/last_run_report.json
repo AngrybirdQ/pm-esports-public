@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-11T19:11:02Z",
+ "ts": "2026-11-11T19:13:54Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=56286530838685779655951506380181996455941595747790616610457770996897"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -167,7 +165,7 @@
   "tag_slug=dota-2": [
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
    "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B",
-   "Dota 2: CyberHero vs Zero Tenacity (BO3) - DreamLeague Division 2 Grou"
+   "Dota 2: Xipto Esports vs Froglings (BO3) - DreamLeague Division 2 Grou"
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
@@ -244,11 +242,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Froglings vs Power Rangers (BO3) - 1win Essence Play-in Group ",
+    "t": "Dota 2: CyberHero vs Power Rangers (BO3) - 1win Essence Play-in Group ",
     "closed": true
    },
    {
-    "t": "Dota 2: CyberHero vs Power Rangers (BO3) - 1win Essence Play-in Group ",
+    "t": "Dota 2: Froglings vs Power Rangers (BO3) - 1win Essence Play-in Group ",
     "closed": true
    }
   ],
@@ -365,26 +363,18 @@
  },
  "n_event_queries": 24,
  "events": 777,
- "markets": 1205,
- "markets_dropped_by_volume_floor": 8359,
+ "markets": 1204,
+ "markets_dropped_by_volume_floor": 8353,
  "day_file": "data/2026/11/2026-11-11T19.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 242,
  "trades_watchlist_markets": 88,
- "trades_collected": 6018,
- "anomalies_detected": 105,
- "anomalies_new": 34,
+ "trades_collected": 6016,
+ "anomalies_detected": 104,
+ "anomalies_new": 6,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "5628653083: HTTP 404 (api deprecated)",
-  "1927277859: HTTP 404 (api deprecated)"
- ],
- "books_markets": 94,
- "books_rows": 144,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=56286530838685779655951506380181996455941595747790616610457770996897",
-  "404 https://clob.polymarket.com/book?token_id=19272778593397648183470781219583386004853561424651431037822638534313"
- ]
+ "books_markets": 93,
+ "books_rows": 142,
+ "status": "ok"
 }
