@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-11T11:34:48Z",
+ "ts": "2026-11-11T12:23:09Z",
  "sources": [
   {
    "url": "/tags",
@@ -165,7 +165,7 @@
   "tag_slug=dota-2": [
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
    "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B",
-   "Dota 2: Amaru Gaming vs Zero Tenacity (BO3) - DreamLeague Division 2 G"
+   "Dota 2: Xipto Esports vs LEGION (BO3) - 1win Essence Play-in Group B"
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
@@ -234,10 +234,6 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Yellow Submarine vs LEGION (BO3) - 1win Essence Play-in Group ",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Froglings vs Power Rangers (BO3) - 1win Essence Play-in Group ",
     "closed": true
    },
@@ -247,6 +243,10 @@
    },
    {
     "t": "Dota 2: HULIGANI vs Inner Circle (BO3) - DreamLeague Division 2 Group ",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: CyberHero vs Power Rangers (BO3) - 1win Essence Play-in Group ",
     "closed": true
    }
   ],
@@ -296,11 +296,11 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: Aurora Gaming vs Pixel Lumina (BO3) - VCT EMEA Kickoff: Euro",
+    "t": "Valorant: Salamander vs NongKaiTod (BO3) - Asia Pacific Predator Leagu",
     "closed": true
    },
    {
-    "t": "Valorant: Salamander vs NongKaiTod (BO3) - Asia Pacific Predator Leagu",
+    "t": "Valorant: Aurora Gaming vs Pixel Lumina (BO3) - VCT EMEA Kickoff: Euro",
     "closed": true
    },
    {
@@ -363,18 +363,29 @@
  },
  "n_event_queries": 24,
  "events": 755,
- "markets": 855,
- "markets_dropped_by_volume_floor": 6537,
- "day_file": "data/2026/11/2026-11-11T11.jsonl",
+ "markets": 882,
+ "markets_dropped_by_volume_floor": 6559,
+ "day_file": "data/2026/11/2026-11-11T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 164,
- "trades_watchlist_markets": 83,
- "trades_collected": 3045,
- "anomalies_detected": 33,
- "anomalies_new": 10,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 110,
- "books_rows": 180,
+ "trades_markets_queried": 177,
+ "trades_watchlist_markets": 79,
+ "trades_collected": 3980,
+ "anomalies_detected": 37,
+ "anomalies_new": 37,
+ "history_debug": [
+  {
+   "cid": "0x323be4d5",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xa25cd945",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_markets": 113,
+ "books_rows": 176,
  "status": "ok"
 }
