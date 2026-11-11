@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-11T19:35:03Z",
+ "ts": "2026-11-11T21:20:29Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 59,
+   "events_returned": 57,
    "err": null
   },
   {
@@ -63,7 +63,7 @@
   {
    "url": "tag_slug=valorant",
    "ok": true,
-   "events_returned": 48,
+   "events_returned": 47,
    "err": null
   },
   {
@@ -165,7 +165,7 @@
   "tag_slug=dota-2": [
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
    "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B",
-   "Dota 2: Xipto Esports vs Froglings (BO3) - DreamLeague Division 2 Grou"
+   "Dota 2: CyberHero vs Zero Tenacity (BO3) - DreamLeague Division 2 Grou"
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
@@ -238,15 +238,15 @@
     "closed": true
    },
    {
+    "t": "Dota 2: Xipto Esports vs Froglings (BO3) - DreamLeague Division 2 Grou",
+    "closed": true
+   },
+   {
     "t": "Dota 2: HULIGANI vs Yakult Brothers (BO3) - DreamLeague Division 2 Gro",
     "closed": true
    },
    {
     "t": "Dota 2: CyberHero vs Power Rangers (BO3) - 1win Essence Play-in Group ",
-    "closed": true
-   },
-   {
-    "t": "Dota 2: Xipto Esports vs LEGION (BO3) - 1win Essence Play-in Group B",
     "closed": true
    }
   ],
@@ -300,19 +300,19 @@
     "closed": true
    },
    {
-    "t": "Valorant: Aurora Gaming vs F9 EICAR (BO3) - VCT EMEA Kickoff: Europe Q",
-    "closed": true
-   },
-   {
-    "t": "Valorant: Frankfurt Bahnhofsviertel vs CGN Esports (BO3) - Spike Serie",
-    "closed": true
-   },
-   {
     "t": "Valorant: Xipto Esports vs Salamander (BO3) - Asia Pacific Predator Le",
     "closed": true
    },
    {
     "t": "Valorant: OneOPae vs NongKaiTod (BO3) - Asia Pacific Predator League T",
+    "closed": true
+   },
+   {
+    "t": "Valorant: 1DAY24 vs GODX (BO3) - Asia Pacific Predator League Thailand",
+    "closed": true
+   },
+   {
+    "t": "Valorant: GAS Esports vs Surprise (BO3) - Asia Pacific Predator League",
     "closed": true
    }
   ],
@@ -362,19 +362,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 777,
- "markets": 1203,
- "markets_dropped_by_volume_floor": 8355,
- "day_file": "data/2026/11/2026-11-11T19.jsonl",
+ "events": 775,
+ "markets": 1204,
+ "markets_dropped_by_volume_floor": 8365,
+ "day_file": "data/2026/11/2026-11-11T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 268,
- "trades_watchlist_markets": 96,
- "trades_collected": 5593,
- "anomalies_detected": 50,
- "anomalies_new": 14,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 123,
- "books_rows": 158,
+ "trades_markets_queried": 216,
+ "trades_watchlist_markets": 64,
+ "trades_collected": 5042,
+ "anomalies_detected": 8,
+ "anomalies_new": 8,
+ "history_debug": [
+  {
+   "cid": "0xbf35e266",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 87,
+ "books_rows": 140,
  "status": "ok"
 }
