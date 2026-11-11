@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-11T13:08:07Z",
+ "ts": "2026-11-11T13:10:45Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,7 +151,9 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=22700910196798352178786069096581002957551793728070555117269495651377"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -308,11 +310,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: Sharper Esport vs GODX (BO3) - Asia Pacific Predator League ",
+    "t": "Valorant: Aurora Gaming vs F9 EICAR (BO3) - VCT EMEA Kickoff: Europe Q",
     "closed": true
    },
    {
-    "t": "Valorant: Aurora Gaming vs F9 EICAR (BO3) - VCT EMEA Kickoff: Europe Q",
+    "t": "Valorant: Sharper Esport vs GODX (BO3) - Asia Pacific Predator League ",
     "closed": true
    }
   ],
@@ -369,18 +371,20 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 184,
  "trades_watchlist_markets": 79,
- "trades_collected": 3895,
+ "trades_collected": 3871,
  "anomalies_detected": 28,
- "anomalies_new": 8,
- "history_debug": [
-  {
-   "cid": "0xde2b5862",
-   "pts": 4,
-   "variant": "interval=all&fidelity=1000"
-  }
+ "anomalies_new": 0,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_errors": [
+  "2270091019: HTTP 404 (api deprecated)",
+  "2037734707: HTTP 404 (api deprecated)"
  ],
- "history_conditions_new": 1,
  "books_markets": 111,
  "books_rows": 166,
- "status": "ok"
+ "status": "ok",
+ "api_deprecated": [
+  "404 https://clob.polymarket.com/book?token_id=22700910196798352178786069096581002957551793728070555117269495651377",
+  "404 https://clob.polymarket.com/book?token_id=20377347077236390683260821658408843186756031818902542926810949136669"
+ ]
 }
