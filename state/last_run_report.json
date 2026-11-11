@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-11T00:09:11Z",
+ "ts": "2026-11-11T00:11:14Z",
  "sources": [
   {
    "url": "/tags",
@@ -164,8 +164,8 @@
   ],
   "tag_slug=dota-2": [
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
-   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B",
-   "Dota 2: CyberHero vs Power Rangers (BO3) - 1win Essence Play-in Group "
+   "Dota 2: CyberHero vs Power Rangers (BO3) - 1win Essence Play-in Group ",
+   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B"
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
@@ -310,8 +310,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: BOOM Esports vs Rojali (BO3) - Asia Pacific Predator League ",
-    "closed": false
+    "t": "Valorant: Fourdaboy vs 1DAY24 (BO3) - Asia Pacific Predator League Tha",
+    "closed": true
    }
   ],
   "search:NBA": [
@@ -360,18 +360,24 @@
   ]
  },
  "n_event_queries": 24,
- "events": 765,
- "markets": 1202,
- "markets_dropped_by_volume_floor": 7248,
+ "events": 766,
+ "markets": 1225,
+ "markets_dropped_by_volume_floor": 7230,
  "day_file": "data/2026/11/2026-11-11T00.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 204,
+ "trades_markets_queried": 209,
  "trades_watchlist_markets": 67,
- "trades_collected": 3261,
- "anomalies_detected": 47,
- "anomalies_new": 1,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_collected": 3382,
+ "anomalies_detected": 75,
+ "anomalies_new": 36,
+ "history_debug": [
+  {
+   "cid": "0x855cd8f1",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 90,
  "books_rows": 166,
  "status": "ok"
