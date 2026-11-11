@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-11T06:06:09Z",
+ "ts": "2026-11-11T07:01:40Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 161,
+   "events_returned": 168,
    "err": null
   },
   {
@@ -160,7 +160,7 @@
   "tag_slug=esports": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "Counter-Strike: Vitality vs Team Falcons (BO3) - BLAST Rivals Group A"
+   "Counter-Strike: Spirit vs FUT Esports (BO3) - BLAST Rivals Group B"
   ],
   "tag_slug=dota-2": [
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
@@ -196,12 +196,12 @@
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Nuggets vs. Rockets"
+   "Thunder vs. Trail Blazers"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Nuggets vs. Rockets"
+   "Thunder vs. Trail Blazers"
   ],
   "tag_slug=international-affairs": [
    "US-Canada diplomatic agreement to lower tariffs by...?",
@@ -360,19 +360,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 755,
- "markets": 891,
- "markets_dropped_by_volume_floor": 6411,
- "day_file": "data/2026/11/2026-11-11T06.jsonl",
+ "events": 752,
+ "markets": 812,
+ "markets_dropped_by_volume_floor": 6120,
+ "day_file": "data/2026/11/2026-11-11T07.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 170,
- "trades_watchlist_markets": 70,
- "trades_collected": 4140,
- "anomalies_detected": 97,
- "anomalies_new": 19,
+ "trades_markets_queried": 141,
+ "trades_watchlist_markets": 71,
+ "trades_collected": 3134,
+ "anomalies_detected": 22,
+ "anomalies_new": 22,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 84,
- "books_rows": 160,
+ "books_markets": 82,
+ "books_rows": 158,
  "status": "ok"
 }
