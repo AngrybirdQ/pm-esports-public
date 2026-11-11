@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-11T12:37:58Z",
+ "ts": "2026-11-11T12:40:30Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,7 +151,9 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=45902579821311456863393474718445861119845834617371536347424177220350"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -178,7 +180,7 @@
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs"
+   "LoL: Ground Zero Gaming vs Frank Esports (BO5) - LCP Promotion Playoff"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -362,19 +364,33 @@
   ]
  },
  "n_event_queries": 24,
- "events": 755,
- "markets": 882,
- "markets_dropped_by_volume_floor": 6551,
+ "events": 754,
+ "markets": 897,
+ "markets_dropped_by_volume_floor": 6538,
  "day_file": "data/2026/11/2026-11-11T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 177,
+ "trades_markets_queried": 180,
  "trades_watchlist_markets": 79,
- "trades_collected": 3798,
- "anomalies_detected": 50,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 112,
- "books_rows": 166,
- "status": "ok"
+ "trades_collected": 3656,
+ "anomalies_detected": 57,
+ "anomalies_new": 9,
+ "history_debug": [
+  {
+   "cid": "0x9f71dcb2",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_errors": [
+  "4590257982: HTTP 404 (api deprecated)",
+  "9859074351: HTTP 404 (api deprecated)"
+ ],
+ "books_markets": 115,
+ "books_rows": 162,
+ "status": "ok",
+ "api_deprecated": [
+  "404 https://clob.polymarket.com/book?token_id=45902579821311456863393474718445861119845834617371536347424177220350",
+  "404 https://clob.polymarket.com/book?token_id=98590743518175492427175202290006613277670514489388770823440791910764"
+ ]
 }
