@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-12T17:03:18Z",
+ "ts": "2026-11-12T17:11:50Z",
  "sources": [
   {
    "url": "/tags",
@@ -160,7 +160,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: Aurora vs GamerLegion (BO3) - 1win Essence Group B",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Xipto Esports vs Froglings (BO3) - DreamLeague Division 2 Grou",
@@ -237,12 +237,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: BOOM Esports vs Seventh Letter Gaming (BO3) - Asia Pacific P",
-    "closed": true
-   },
-   {
     "t": "Valorant: Alter Ego x Kertanegara vs Hertz Esport (BO3) - Asia Pacific",
     "closed": false
+   },
+   {
+    "t": "Valorant: BOOM Esports vs Seventh Letter Gaming (BO3) - Asia Pacific P",
+    "closed": true
    }
   ],
   "search:NBA": [
@@ -291,24 +291,29 @@
   ]
  },
  "winning_sources": [
-  "search:Dota 2",
   "search:League of Legends",
   "search:Valorant"
  ],
  "n_event_queries": 24,
- "events": 4,
- "markets": 24,
- "markets_dropped_by_volume_floor": 9,
+ "events": 3,
+ "markets": 25,
+ "markets_dropped_by_volume_floor": 7,
  "day_file": "data/2026/11/2026-11-12T17.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 38,
  "trades_watchlist_markets": 38,
- "trades_collected": 1580,
+ "trades_collected": 1745,
  "anomalies_detected": 2,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "history_debug": [
+  {
+   "cid": "0xc36670a6",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 21,
- "books_rows": 10,
+ "books_rows": 12,
  "status": "ok"
 }
