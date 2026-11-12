@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-12T10:36:15Z",
+ "ts": "2026-11-12T11:28:42Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 39,
+   "events_returned": 40,
    "err": null
   },
   {
@@ -159,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Counter-Strike: FUT Esports vs MOUZ (BO3) - BLAST Rivals Group B",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "Counter-Strike: Spirit vs G2 (BO3) - BLAST Rivals Group B"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Rottweilas Latam vs Mena Warriors (BO3) - Esports Pro Circuit ",
@@ -242,8 +242,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: HULIGANI vs Yakult Brothers (BO3) - DreamLeague Division 2 Gro",
-    "closed": true
+    "t": "Dota 2: Rottweilas Latam vs Mena Warriors (BO3) - Esports Pro Circuit ",
+    "closed": false
    },
    {
     "t": "Dota 2: PlayTime vs Yellow Submarine (BO3) - 1win Essence Play-in Grou",
@@ -363,18 +363,44 @@
  },
  "n_event_queries": 24,
  "events": 769,
- "markets": 751,
- "markets_dropped_by_volume_floor": 5001,
- "day_file": "data/2026/11/2026-11-12T10.jsonl",
+ "markets": 756,
+ "markets_dropped_by_volume_floor": 5042,
+ "day_file": "data/2026/11/2026-11-12T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 133,
- "trades_watchlist_markets": 61,
- "trades_collected": 3851,
- "anomalies_detected": 32,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 110,
- "books_rows": 174,
+ "trades_markets_queried": 159,
+ "trades_watchlist_markets": 84,
+ "trades_collected": 3478,
+ "anomalies_detected": 57,
+ "anomalies_new": 57,
+ "history_debug": [
+  {
+   "cid": "0x4c9a03ff",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x9a246aad",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x5517c7d2",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x04d7a550",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xbad45926",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 5,
+ "books_markets": 125,
+ "books_rows": 192,
  "status": "ok"
 }
