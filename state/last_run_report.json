@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-12T21:27:10Z",
+ "ts": "2026-11-12T21:46:37Z",
  "sources": [
   {
    "url": "/tags",
@@ -238,7 +238,7 @@
    },
    {
     "t": "Valorant: Alter Ego x Kertanegara vs Hertz Esport (BO3) - Asia Pacific",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: BOOM Esports vs Seventh Letter Gaming (BO3) - Asia Pacific P",
@@ -292,20 +292,19 @@
  },
  "winning_sources": [
   "search:Dota 2",
-  "search:League of Legends",
-  "search:Valorant"
+  "search:League of Legends"
  ],
  "n_event_queries": 24,
- "events": 4,
+ "events": 3,
  "markets": 29,
- "markets_dropped_by_volume_floor": 24,
+ "markets_dropped_by_volume_floor": 23,
  "day_file": "data/2026/11/2026-11-12T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 22,
- "trades_watchlist_markets": 18,
- "trades_collected": 1002,
- "anomalies_detected": 0,
- "anomalies_new": 0,
+ "trades_markets_queried": 32,
+ "trades_watchlist_markets": 31,
+ "trades_collected": 1001,
+ "anomalies_detected": 4,
+ "anomalies_new": 4,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 25,
