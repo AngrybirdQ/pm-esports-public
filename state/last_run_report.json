@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-12T14:34:25Z",
+ "ts": "2026-11-12T15:29:27Z",
  "sources": [
   {
    "url": "/tags",
@@ -159,23 +159,23 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Rottweilas Latam vs Mena Warriors (BO3) - Esports Pro Circuit ",
+    "t": "Dota 2: Aurora vs GamerLegion (BO3) - 1win Essence Group B",
     "closed": false
    },
    {
-    "t": "Dota 2: Froglings vs CyberHero (BO3) - 1win Essence Play-in Group A",
-    "closed": true
+    "t": "Dota 2: Rottweilas Latam vs Mena Warriors (BO3) - Esports Pro Circuit ",
+    "closed": false
    },
    {
     "t": "Dota 2: Xipto Esports vs Froglings (BO3) - DreamLeague Division 2 Grou",
     "closed": true
    },
    {
-    "t": "Dota 2: Aurora vs GamerLegion (BO3) - 1win Essence Group B",
-    "closed": false
+    "t": "Dota 2: PlayTime vs Yellow Submarine (BO3) - 1win Essence Play-in Grou",
+    "closed": true
    },
    {
-    "t": "Dota 2: PlayTime vs Yellow Submarine (BO3) - 1win Essence Play-in Grou",
+    "t": "Dota 2: CyberHero vs Zero Tenacity (BO3) - DreamLeague Division 2 Grou",
     "closed": true
    }
   ],
@@ -225,6 +225,10 @@
   ],
   "search:Valorant": [
    {
+    "t": "Valorant: Salamander vs GODX (BO3) - Asia Pacific Predator League Thai",
+    "closed": false
+   },
+   {
     "t": "Valorant: NRG vs Fnatic (BO5)",
     "closed": true
    },
@@ -233,15 +237,11 @@
     "closed": false
    },
    {
-    "t": "Valorant: OneOPae vs NongKaiTod (BO3) - Asia Pacific Predator League T",
-    "closed": true
-   },
-   {
-    "t": "Valorant: Salamander vs GODX (BO3) - Asia Pacific Predator League Thai",
+    "t": "Valorant: BOOM Esports vs Seventh Letter Gaming (BO3) - Asia Pacific P",
     "closed": false
    },
    {
-    "t": "Valorant: BOOM Esports vs Seventh Letter Gaming (BO3) - Asia Pacific P",
+    "t": "Valorant: BOOM Esports vs Rojali (BO3) - Asia Pacific Predator League ",
     "closed": false
    }
   ],
@@ -296,19 +296,19 @@
   "search:Valorant"
  ],
  "n_event_queries": 24,
- "events": 6,
- "markets": 31,
- "markets_dropped_by_volume_floor": 28,
- "day_file": "data/2026/11/2026-11-12T14.jsonl",
+ "events": 7,
+ "markets": 32,
+ "markets_dropped_by_volume_floor": 30,
+ "day_file": "data/2026/11/2026-11-12T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 57,
- "trades_watchlist_markets": 56,
- "trades_collected": 2159,
- "anomalies_detected": 2,
- "anomalies_new": 0,
+ "trades_markets_queried": 44,
+ "trades_watchlist_markets": 43,
+ "trades_collected": 2740,
+ "anomalies_detected": 10,
+ "anomalies_new": 10,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 24,
+ "books_markets": 26,
  "books_rows": 18,
  "status": "ok"
 }
