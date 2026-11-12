@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-12T17:22:43Z",
+ "ts": "2026-11-12T17:26:08Z",
  "sources": [
   {
    "url": "/tags",
@@ -171,11 +171,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: CyberHero vs Zero Tenacity (BO3) - DreamLeague Division 2 Grou",
-    "closed": true
+    "t": "Dota 2: PARIVISION vs DO KONCA (BO3) - 1win Essence Group A",
+    "closed": false
    },
    {
-    "t": "Dota 2: Power Rangers vs angry birds (BO3) - 1win Essence Play-in Grou",
+    "t": "Dota 2: CyberHero vs Zero Tenacity (BO3) - DreamLeague Division 2 Grou",
     "closed": true
    }
   ],
@@ -291,23 +291,24 @@
   ]
  },
  "winning_sources": [
+  "search:Dota 2",
   "search:League of Legends",
   "search:Valorant"
  ],
  "n_event_queries": 24,
- "events": 3,
- "markets": 25,
- "markets_dropped_by_volume_floor": 7,
+ "events": 4,
+ "markets": 29,
+ "markets_dropped_by_volume_floor": 31,
  "day_file": "data/2026/11/2026-11-12T17.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 38,
  "trades_watchlist_markets": 38,
- "trades_collected": 1873,
+ "trades_collected": 1946,
  "anomalies_detected": 2,
- "anomalies_new": 0,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 21,
- "books_rows": 12,
+ "books_markets": 25,
+ "books_rows": 20,
  "status": "ok"
 }
