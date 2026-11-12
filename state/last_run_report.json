@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-12T06:12:52Z",
+ "ts": "2026-11-12T06:28:27Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 160,
+   "events_returned": 159,
    "err": null
   },
   {
@@ -198,12 +198,12 @@
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Thunder vs. Trail Blazers"
+   "Nuggets vs. Rockets"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Thunder vs. Trail Blazers"
+   "Nuggets vs. Rockets"
   ],
   "tag_slug=international-affairs": [
    "US-Canada diplomatic agreement to lower tariffs by...?",
@@ -362,19 +362,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 766,
- "markets": 765,
- "markets_dropped_by_volume_floor": 4625,
+ "events": 767,
+ "markets": 761,
+ "markets_dropped_by_volume_floor": 4609,
  "day_file": "data/2026/11/2026-11-12T06.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 142,
- "trades_watchlist_markets": 50,
- "trades_collected": 2145,
- "anomalies_detected": 42,
- "anomalies_new": 14,
+ "trades_markets_queried": 144,
+ "trades_watchlist_markets": 53,
+ "trades_collected": 2761,
+ "anomalies_detected": 51,
+ "anomalies_new": 51,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 97,
- "books_rows": 176,
+ "books_rows": 180,
  "status": "ok"
 }
