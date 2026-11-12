@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-12T04:33:09Z",
+ "ts": "2026-11-12T05:25:28Z",
  "sources": [
   {
    "url": "/tags",
@@ -51,7 +51,7 @@
   {
    "url": "tag_slug=league-of-legends",
    "ok": true,
-   "events_returned": 40,
+   "events_returned": 39,
    "err": null
   },
   {
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 166,
+   "events_returned": 162,
    "err": null
   },
   {
@@ -151,7 +151,9 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "API-DEPRECATED 4 urls: 404 https://clob.polymarket.com/book?token_id=11553413662271520881065282694392587012939972644932210964677628259121"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -159,8 +161,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Counter-Strike: Legacy vs Team Falcons (BO3) - BLAST Rivals Group A",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "Counter-Strike: FURIA vs Vitality (BO3) - BLAST Rivals Group A"
   ],
   "tag_slug=dota-2": [
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
@@ -178,7 +180,7 @@
   "tag_slug=league-of-legends": [
    "Worlds 2026: Winner",
    "Worlds 2026 Winning Region",
-   "LoL: Ground Zero Gaming vs Frank Esports (BO5) - LCP Promotion Playoff"
+   "LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs"
   ],
   "tag_slug=lol": [
    "Worlds 2026: Winner",
@@ -362,19 +364,31 @@
   ]
  },
  "n_event_queries": 24,
- "events": 771,
- "markets": 1066,
- "markets_dropped_by_volume_floor": 5383,
- "day_file": "data/2026/11/2026-11-12T04.jsonl",
+ "events": 769,
+ "markets": 957,
+ "markets_dropped_by_volume_floor": 5048,
+ "day_file": "data/2026/11/2026-11-12T05.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 205,
+ "trades_markets_queried": 193,
  "trades_watchlist_markets": 50,
- "trades_collected": 5701,
- "anomalies_detected": 259,
- "anomalies_new": 0,
+ "trades_collected": 4903,
+ "anomalies_detected": 165,
+ "anomalies_new": 165,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 95,
- "books_rows": 172,
- "status": "ok"
+ "books_errors": [
+  "1155341366: HTTP 404 (api deprecated)",
+  "1053772119: HTTP 404 (api deprecated)",
+  "9460524631: HTTP 404 (api deprecated)",
+  "1367148984: HTTP 404 (api deprecated)"
+ ],
+ "books_markets": 94,
+ "books_rows": 158,
+ "status": "ok",
+ "api_deprecated": [
+  "404 https://clob.polymarket.com/book?token_id=11553413662271520881065282694392587012939972644932210964677628259121",
+  "404 https://clob.polymarket.com/book?token_id=10537721194787320640712171277223168847446319181510318858703778920305",
+  "404 https://clob.polymarket.com/book?token_id=94605246316225373687125512885469251160405875233385104216777436281167",
+  "404 https://clob.polymarket.com/book?token_id=13671489842857145448439001635978041358968523898406174219097897059269"
+ ]
 }
