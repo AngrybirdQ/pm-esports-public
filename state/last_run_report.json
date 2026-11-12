@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-12T12:36:13Z",
+ "ts": "2026-11-12T13:28:47Z",
  "sources": [
   {
    "url": "/tags",
@@ -8,111 +8,111 @@
   },
   {
    "url": "tag_slug=esports",
-   "ok": true,
-   "events_returned": 300,
-   "err": null
+   "ok": false,
+   "events_returned": 0,
+   "err": "HTTP 406: HTTP Error 406: Not Acceptable"
   },
   {
    "url": "tag_slug=e-sports",
-   "ok": true,
+   "ok": false,
    "events_returned": 0,
-   "err": null
+   "err": "HTTP 406: HTTP Error 406: Not Acceptable"
   },
   {
    "url": "tag_slug=dota-2",
-   "ok": true,
-   "events_returned": 61,
-   "err": null
+   "ok": false,
+   "events_returned": 0,
+   "err": "HTTP 406: HTTP Error 406: Not Acceptable"
   },
   {
    "url": "tag_slug=dota2",
-   "ok": true,
+   "ok": false,
    "events_returned": 0,
-   "err": null
+   "err": "HTTP 406: HTTP Error 406: Not Acceptable"
   },
   {
    "url": "tag_slug=cs2",
-   "ok": true,
-   "events_returned": 22,
-   "err": null
+   "ok": false,
+   "events_returned": 0,
+   "err": "HTTP 406: HTTP Error 406: Not Acceptable"
   },
   {
    "url": "tag_slug=counter-strike",
-   "ok": true,
-   "events_returned": 1,
-   "err": null
+   "ok": false,
+   "events_returned": 0,
+   "err": "HTTP 406: HTTP Error 406: Not Acceptable"
   },
   {
    "url": "tag_slug=csgo",
-   "ok": true,
+   "ok": false,
    "events_returned": 0,
-   "err": null
+   "err": "HTTP 406: HTTP Error 406: Not Acceptable"
   },
   {
    "url": "tag_slug=league-of-legends",
-   "ok": true,
-   "events_returned": 40,
-   "err": null
+   "ok": false,
+   "events_returned": 0,
+   "err": "HTTP 406: HTTP Error 406: Not Acceptable"
   },
   {
    "url": "tag_slug=lol",
-   "ok": true,
-   "events_returned": 27,
-   "err": null
+   "ok": false,
+   "events_returned": 0,
+   "err": "HTTP 406: HTTP Error 406: Not Acceptable"
   },
   {
    "url": "tag_slug=valorant",
-   "ok": true,
-   "events_returned": 48,
-   "err": null
+   "ok": false,
+   "events_returned": 0,
+   "err": "HTTP 406: HTTP Error 406: Not Acceptable"
   },
   {
    "url": "tag_slug=starcraft-2",
-   "ok": true,
-   "events_returned": 4,
-   "err": null
+   "ok": false,
+   "events_returned": 0,
+   "err": "HTTP 406: HTTP Error 406: Not Acceptable"
   },
   {
    "url": "tag_slug=rocket-league",
-   "ok": true,
+   "ok": false,
    "events_returned": 0,
-   "err": null
+   "err": "HTTP 406: HTTP Error 406: Not Acceptable"
   },
   {
    "url": "tag_slug=the-international",
-   "ok": true,
+   "ok": false,
    "events_returned": 0,
-   "err": null
+   "err": "HTTP 406: HTTP Error 406: Not Acceptable"
   },
   {
    "url": "tag_slug=ti",
-   "ok": true,
+   "ok": false,
    "events_returned": 0,
-   "err": null
+   "err": "HTTP 406: HTTP Error 406: Not Acceptable"
   },
   {
    "url": "tag_slug=nba",
-   "ok": true,
-   "events_returned": 156,
-   "err": null
+   "ok": false,
+   "events_returned": 0,
+   "err": "HTTP 406: HTTP Error 406: Not Acceptable"
   },
   {
    "url": "tag_slug=basketball",
-   "ok": true,
-   "events_returned": 300,
-   "err": null
+   "ok": false,
+   "events_returned": 0,
+   "err": "HTTP 406: HTTP Error 406: Not Acceptable"
   },
   {
    "url": "tag_slug=international-affairs",
-   "ok": true,
-   "events_returned": 11,
-   "err": null
+   "ok": false,
+   "events_returned": 0,
+   "err": "HTTP 406: HTTP Error 406: Not Acceptable"
   },
   {
    "url": "tag_id[international-affairs]",
-   "ok": true,
-   "events_returned": 11,
-   "err": null
+   "ok": false,
+   "events_returned": 0,
+   "err": "HTTP 406: HTTP Error 406: Not Acceptable"
   },
   {
    "url": "search:Dota 2",
@@ -156,82 +156,15 @@
  "tags_discovered": [
   "international-affairs"
  ],
- "tag_samples": {
-  "tag_slug=esports": [
-   "Worlds 2026: Winner",
-   "Counter-Strike: Spirit vs G2 (BO3) - BLAST Rivals Group B",
-   "Worlds 2026 Winning Region"
-  ],
-  "tag_slug=dota-2": [
-   "Dota 2: Rottweilas Latam vs Mena Warriors (BO3) - Esports Pro Circuit ",
-   "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
-   "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B"
-  ],
-  "tag_slug=cs2": [
-   "PGL Major Singapore 2026: Winner",
-   "BLAST Rivals Hong Kong 2026: Winner",
-   "Will FaZe win a Tier 1 event in 2026? "
-  ],
-  "tag_slug=counter-strike": [
-   "Will Valve add sticker trade-ups by...?"
-  ],
-  "tag_slug=league-of-legends": [
-   "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs"
-  ],
-  "tag_slug=lol": [
-   "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "Worlds 2026: Finals MVP"
-  ],
-  "tag_slug=valorant": [
-   "VALORANT Offseason: zekken Next Team",
-   "VALORANT Offseason: primmie Next Team",
-   "VALORANT Offseason: Boaster Next Team"
-  ],
-  "tag_slug=starcraft-2": [
-   "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
-   "StarCraft II: Lambo vs Shameless (BO5) - WardiTV Championship Playoffs",
-   "StarCraft II: Percival vs youngYakov (BO5) - WardiTV Championship Play"
-  ],
-  "tag_slug=nba": [
-   "NBA: 2027 Champion",
-   "NBA: 2026-27 Rookie of the Year",
-   "Nuggets vs. Rockets"
-  ],
-  "tag_slug=basketball": [
-   "NBA: 2027 Champion",
-   "NBA: 2026-27 Rookie of the Year",
-   "Nuggets vs. Rockets"
-  ],
-  "tag_slug=international-affairs": [
-   "US-Canada diplomatic agreement to lower tariffs by...?",
-   "France accuses foreign country of provoking unrest by November 30?",
-   "Flávio Bolsonaro arrested before 2027?"
-  ],
-  "tag_id[international-affairs]": [
-   "US-Canada diplomatic agreement to lower tariffs by...?",
-   "France accuses foreign country of provoking unrest by November 30?",
-   "Flávio Bolsonaro arrested before 2027?"
-  ]
- },
- "winning_sources": [
-  "tag_slug=basketball",
-  "tag_slug=cs2",
-  "tag_slug=dota-2",
-  "tag_slug=esports",
-  "tag_slug=international-affairs",
-  "tag_slug=league-of-legends",
-  "tag_slug=nba",
-  "tag_slug=starcraft-2",
-  "tag_slug=valorant"
- ],
  "search_samples": {
   "search:Dota 2": [
    {
     "t": "Dota 2: Froglings vs CyberHero (BO3) - 1win Essence Play-in Group A",
     "closed": true
+   },
+   {
+    "t": "Dota 2: Rottweilas Latam vs Mena Warriors (BO3) - Esports Pro Circuit ",
+    "closed": false
    },
    {
     "t": "Dota 2: HULIGANI vs PuckChamp (BO3) - DreamLeague Division 2 Group B",
@@ -240,10 +173,6 @@
    {
     "t": "Dota 2: Xipto Esports vs Froglings (BO3) - DreamLeague Division 2 Grou",
     "closed": true
-   },
-   {
-    "t": "Dota 2: Rottweilas Latam vs Mena Warriors (BO3) - Esports Pro Circuit ",
-    "closed": false
    },
    {
     "t": "Dota 2: PlayTime vs Yellow Submarine (BO3) - 1win Essence Play-in Grou",
@@ -300,19 +229,19 @@
     "closed": true
    },
    {
-    "t": "Valorant: Xipto Esports vs Salamander (BO3) - Asia Pacific Predator Le",
-    "closed": true
+    "t": "Valorant: Sharper Esport vs NongKaiTod (BO3) - Asia Pacific Predator L",
+    "closed": false
    },
    {
     "t": "Valorant: OneOPae vs NongKaiTod (BO3) - Asia Pacific Predator League T",
     "closed": true
    },
    {
-    "t": "Valorant: 1DAY24 vs GODX (BO3) - Asia Pacific Predator League Thailand",
+    "t": "Valorant: Xipto Esports vs Salamander (BO3) - Asia Pacific Predator Le",
     "closed": true
    },
    {
-    "t": "Valorant: Fourdaboy vs Sharper Esport (BO3) - Asia Pacific Predator Le",
+    "t": "Valorant: 1DAY24 vs GODX (BO3) - Asia Pacific Predator League Thailand",
     "closed": true
    }
   ],
@@ -361,20 +290,31 @@
    }
   ]
  },
+ "winning_sources": [
+  "search:Dota 2",
+  "search:League of Legends",
+  "search:Valorant"
+ ],
  "n_event_queries": 24,
- "events": 770,
- "markets": 765,
- "markets_dropped_by_volume_floor": 5008,
- "day_file": "data/2026/11/2026-11-12T12.jsonl",
+ "events": 4,
+ "markets": 26,
+ "markets_dropped_by_volume_floor": 5,
+ "day_file": "data/2026/11/2026-11-12T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 142,
- "trades_watchlist_markets": 67,
- "trades_collected": 4114,
- "anomalies_detected": 43,
+ "trades_markets_queried": 77,
+ "trades_watchlist_markets": 76,
+ "trades_collected": 2585,
+ "anomalies_detected": 0,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 113,
- "books_rows": 170,
+ "history_debug": [
+  {
+   "cid": "0xe5049c6f",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 20,
+ "books_rows": 14,
  "status": "ok"
 }
