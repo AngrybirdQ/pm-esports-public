@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-12T05:42:16Z",
+ "ts": "2026-11-12T05:49:45Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 161,
+   "events_returned": 160,
    "err": null
   },
   {
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=11372658959950787212474778083483315906648694806067266278352344999292"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -161,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "Counter-Strike: FURIA vs Vitality (BO3) - BLAST Rivals Group A"
+   "Counter-Strike: FURIA vs Vitality (BO3) - BLAST Rivals Group A",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
@@ -200,12 +198,12 @@
   "tag_slug=nba": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Nuggets vs. Rockets"
+   "Thunder vs. Trail Blazers"
   ],
   "tag_slug=basketball": [
    "NBA: 2027 Champion",
    "NBA: 2026-27 Rookie of the Year",
-   "Nuggets vs. Rockets"
+   "Thunder vs. Trail Blazers"
   ],
   "tag_slug=international-affairs": [
    "US-Canada diplomatic agreement to lower tariffs by...?",
@@ -364,27 +362,19 @@
   ]
  },
  "n_event_queries": 24,
- "events": 768,
- "markets": 871,
- "markets_dropped_by_volume_floor": 4768,
+ "events": 767,
+ "markets": 790,
+ "markets_dropped_by_volume_floor": 4486,
  "day_file": "data/2026/11/2026-11-12T05.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 170,
+ "trades_markets_queried": 141,
  "trades_watchlist_markets": 50,
- "trades_collected": 3958,
- "anomalies_detected": 164,
+ "trades_collected": 2427,
+ "anomalies_detected": 85,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1137265895: HTTP 404 (api deprecated)",
-  "6834290597: HTTP 404 (api deprecated)"
- ],
  "books_markets": 95,
- "books_rows": 162,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=11372658959950787212474778083483315906648694806067266278352344999292",
-  "404 https://clob.polymarket.com/book?token_id=68342905979862436253271380679105353552681788707251947336329973097328"
- ]
+ "books_rows": 180,
+ "status": "ok"
 }
