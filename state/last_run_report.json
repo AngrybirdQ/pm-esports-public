@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-12T08:14:10Z",
+ "ts": "2026-11-12T08:30:00Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,7 +151,9 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "API-DEPRECATED 8 urls: 404 https://clob.polymarket.com/book?token_id=74842194320524744700164808352109729535268770989486914010160864892461"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -159,8 +161,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "Counter-Strike: FUT Esports vs MOUZ (BO3) - BLAST Rivals Group B"
+   "Counter-Strike: FUT Esports vs MOUZ (BO3) - BLAST Rivals Group B",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
@@ -363,18 +365,38 @@
  },
  "n_event_queries": 24,
  "events": 766,
- "markets": 744,
- "markets_dropped_by_volume_floor": 4799,
+ "markets": 719,
+ "markets_dropped_by_volume_floor": 4808,
  "day_file": "data/2026/11/2026-11-12T08.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 123,
- "trades_watchlist_markets": 46,
- "trades_collected": 1741,
- "anomalies_detected": 21,
- "anomalies_new": 4,
+ "trades_markets_queried": 122,
+ "trades_watchlist_markets": 55,
+ "trades_collected": 1644,
+ "anomalies_detected": 15,
+ "anomalies_new": 15,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 101,
- "books_rows": 176,
- "status": "ok"
+ "books_errors": [
+  "7484219432: HTTP 404 (api deprecated)",
+  "1126938888: HTTP 404 (api deprecated)",
+  "2103434288: HTTP 404 (api deprecated)",
+  "1093736340: HTTP 404 (api deprecated)",
+  "1097355160: HTTP 404 (api deprecated)",
+  "4437629721: HTTP 404 (api deprecated)",
+  "5849403366: HTTP 404 (api deprecated)",
+  "5605471972: HTTP 404 (api deprecated)"
+ ],
+ "books_markets": 104,
+ "books_rows": 190,
+ "status": "ok",
+ "api_deprecated": [
+  "404 https://clob.polymarket.com/book?token_id=74842194320524744700164808352109729535268770989486914010160864892461",
+  "404 https://clob.polymarket.com/book?token_id=11269388889305515695014704903730066044559445088417882114631709507858",
+  "404 https://clob.polymarket.com/book?token_id=21034342882960295044184439926190741288268970631210906118316181222584",
+  "404 https://clob.polymarket.com/book?token_id=10937363408155629096021458950813750436311754043433729456035350305936",
+  "404 https://clob.polymarket.com/book?token_id=10973551603647557152490773980659152866251125354300285876539202847898",
+  "404 https://clob.polymarket.com/book?token_id=44376297214702294228864712410239985774884454461937890795752528207948",
+  "404 https://clob.polymarket.com/book?token_id=58494033664444845096210802563304961159503887837447830566999048607000",
+  "404 https://clob.polymarket.com/book?token_id=56054719727371971141674225345044754344552057774275307057577717883515"
+ ]
 }
