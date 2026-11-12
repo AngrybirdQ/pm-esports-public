@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-12T11:46:27Z",
+ "ts": "2026-11-12T11:53:43Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=99292958829434001339440354497547505728575247777920634529770291340035"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -161,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Worlds 2026 Winning Region",
-   "Counter-Strike: Spirit vs G2 (BO3) - BLAST Rivals Group B"
+   "Counter-Strike: Spirit vs G2 (BO3) - BLAST Rivals Group B",
+   "Worlds 2026 Winning Region"
   ],
   "tag_slug=dota-2": [
    "Dota 2: Rottweilas Latam vs Mena Warriors (BO3) - Esports Pro Circuit ",
@@ -364,27 +362,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 769,
- "markets": 763,
- "markets_dropped_by_volume_floor": 5024,
+ "events": 770,
+ "markets": 764,
+ "markets_dropped_by_volume_floor": 5022,
  "day_file": "data/2026/11/2026-11-12T11.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 164,
  "trades_watchlist_markets": 84,
- "trades_collected": 3153,
- "anomalies_detected": 57,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "9929295882: HTTP 404 (api deprecated)",
-  "8103785649: HTTP 404 (api deprecated)"
+ "trades_collected": 3164,
+ "anomalies_detected": 48,
+ "anomalies_new": 3,
+ "history_debug": [
+  {
+   "cid": "0xf6f284e4",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 126,
- "books_rows": 190,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=99292958829434001339440354497547505728575247777920634529770291340035",
-  "404 https://clob.polymarket.com/book?token_id=81037856498197304862242809489431623684333388945607381789374123146315"
- ]
+ "history_conditions_new": 1,
+ "books_markets": 123,
+ "books_rows": 188,
+ "status": "ok"
 }
