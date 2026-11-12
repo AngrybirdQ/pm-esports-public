@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-12T04:11:39Z",
+ "ts": "2026-11-12T04:13:59Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,7 +151,9 @@
    "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "API-DEPRECATED 6 urls: 404 https://clob.polymarket.com/book?token_id=10437655613425639191126859432188935326036866795668933508518314344268"
+ ],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -169,8 +171,8 @@
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
-   "Will FaZe win a Tier 1 event in 2026? ",
-   "BLAST Rivals Hong Kong 2026: Winner"
+   "BLAST Rivals Hong Kong 2026: Winner",
+   "Will FaZe win a Tier 1 event in 2026? "
   ],
   "tag_slug=counter-strike": [
    "Will Valve add sticker trade-ups by...?"
@@ -362,19 +364,41 @@
   ]
  },
  "n_event_queries": 24,
- "events": 772,
- "markets": 1127,
- "markets_dropped_by_volume_floor": 5504,
+ "events": 771,
+ "markets": 1105,
+ "markets_dropped_by_volume_floor": 5491,
  "day_file": "data/2026/11/2026-11-12T04.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 211,
+ "trades_markets_queried": 208,
  "trades_watchlist_markets": 45,
- "trades_collected": 4675,
- "anomalies_detected": 15,
- "anomalies_new": 15,
- "history_debug": [],
+ "trades_collected": 5095,
+ "anomalies_detected": 234,
+ "anomalies_new": 184,
+ "history_debug": [
+  {
+   "cid": "0x5a3990ef",
+   "pts": 0,
+   "variant": "none"
+  }
+ ],
  "history_conditions_new": 0,
+ "books_errors": [
+  "1043765561: HTTP 404 (api deprecated)",
+  "3356785454: HTTP 404 (api deprecated)",
+  "2339410487: HTTP 404 (api deprecated)",
+  "8670448729: HTTP 404 (api deprecated)",
+  "3001401382: HTTP 404 (api deprecated)",
+  "4823200604: HTTP 404 (api deprecated)"
+ ],
  "books_markets": 98,
- "books_rows": 184,
- "status": "ok"
+ "books_rows": 182,
+ "status": "ok",
+ "api_deprecated": [
+  "404 https://clob.polymarket.com/book?token_id=10437655613425639191126859432188935326036866795668933508518314344268",
+  "404 https://clob.polymarket.com/book?token_id=33567854540892014455021545860935472257401044582698952366999918824540",
+  "404 https://clob.polymarket.com/book?token_id=23394104878825153414241266786702699319422397439128540335376849667076",
+  "404 https://clob.polymarket.com/book?token_id=86704487291840227476156227328983008527176650705182803639944172809605",
+  "404 https://clob.polymarket.com/book?token_id=30014013825341398928498395789712907699558941052999834043146518682978",
+  "404 https://clob.polymarket.com/book?token_id=48232006047200986605513243170284720064917926056087873484878559297078"
+ ]
 }
