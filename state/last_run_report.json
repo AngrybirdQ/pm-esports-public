@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-12T23:36:01Z",
+ "ts": "2026-11-12T23:46:37Z",
  "sources": [
   {
    "url": "/tags",
@@ -164,7 +164,7 @@
    },
    {
     "t": "Dota 2: Team Spirit vs 1win (BO3) - 1win Essence Group D",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: PARIVISION vs DO KONCA (BO3) - 1win Essence Group A",
@@ -296,19 +296,19 @@
   "search:Valorant"
  ],
  "n_event_queries": 24,
- "events": 5,
- "markets": 33,
- "markets_dropped_by_volume_floor": 41,
+ "events": 4,
+ "markets": 28,
+ "markets_dropped_by_volume_floor": 20,
  "day_file": "data/2026/11/2026-11-12T23.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 34,
- "trades_watchlist_markets": 31,
- "trades_collected": 1007,
- "anomalies_detected": 0,
+ "trades_markets_queried": 29,
+ "trades_watchlist_markets": 28,
+ "trades_collected": 1008,
+ "anomalies_detected": 2,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 28,
+ "books_markets": 24,
  "books_rows": 14,
  "status": "ok"
 }
