@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-12T04:06:04Z",
+ "ts": "2026-11-12T04:08:54Z",
  "sources": [
   {
    "url": "/tags",
@@ -151,9 +151,7 @@
    "err": null
   }
  ],
- "errors": [
-  "API-DEPRECATED 6 urls: 404 https://clob.polymarket.com/book?token_id=52647949515016010574254717617497415691506222091532403987172176237699"
- ],
+ "errors": [],
  "stage": "all",
  "tags_discovered": [
   "international-affairs"
@@ -365,34 +363,18 @@
  },
  "n_event_queries": 24,
  "events": 772,
- "markets": 1123,
- "markets_dropped_by_volume_floor": 5546,
+ "markets": 1127,
+ "markets_dropped_by_volume_floor": 5504,
  "day_file": "data/2026/11/2026-11-12T04.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 203,
+ "trades_markets_queried": 211,
  "trades_watchlist_markets": 45,
- "trades_collected": 4987,
+ "trades_collected": 4742,
  "anomalies_detected": 15,
  "anomalies_new": 15,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "5264794951: HTTP 404 (api deprecated)",
-  "5477105821: HTTP 404 (api deprecated)",
-  "7025644083: HTTP 404 (api deprecated)",
-  "1362121423: HTTP 404 (api deprecated)",
-  "5291587364: HTTP 404 (api deprecated)",
-  "3769358814: HTTP 404 (api deprecated)"
- ],
- "books_markets": 93,
- "books_rows": 166,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=52647949515016010574254717617497415691506222091532403987172176237699",
-  "404 https://clob.polymarket.com/book?token_id=54771058216853452887142537665151976104912466458099146778320232835187",
-  "404 https://clob.polymarket.com/book?token_id=70256440832865980794626028418718728851623685732274676960694573358369",
-  "404 https://clob.polymarket.com/book?token_id=13621214232504895551205603346395793966057361485226812244185574656033",
-  "404 https://clob.polymarket.com/book?token_id=52915873640161159604348604456789264326243232244277255616686632812412",
-  "404 https://clob.polymarket.com/book?token_id=37693588149697401168659040372456723855895026584741643716806865844522"
- ]
+ "books_markets": 98,
+ "books_rows": 184,
+ "status": "ok"
 }
