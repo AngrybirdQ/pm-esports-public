@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-12T06:35:43Z",
+ "ts": "2026-11-12T07:26:32Z",
  "sources": [
   {
    "url": "/tags",
@@ -93,7 +93,7 @@
   {
    "url": "tag_slug=nba",
    "ok": true,
-   "events_returned": 159,
+   "events_returned": 158,
    "err": null
   },
   {
@@ -159,8 +159,8 @@
  "tag_samples": {
   "tag_slug=esports": [
    "Worlds 2026: Winner",
-   "Counter-Strike: FURIA vs Vitality (BO3) - BLAST Rivals Group A",
-   "Worlds 2026 Winning Region"
+   "Worlds 2026 Winning Region",
+   "Counter-Strike: FUT Esports vs MOUZ (BO3) - BLAST Rivals Group B"
   ],
   "tag_slug=dota-2": [
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
@@ -187,8 +187,8 @@
   ],
   "tag_slug=valorant": [
    "VALORANT Offseason: zekken Next Team",
-   "VALORANT Offseason: Boaster Next Team",
-   "VALORANT Offseason: primmie Next Team"
+   "VALORANT Offseason: primmie Next Team",
+   "VALORANT Offseason: Boaster Next Team"
   ],
   "tag_slug=starcraft-2": [
    "StarCraft II: Classic vs ByuN (BO5) - WardiTV Playoffs",
@@ -362,19 +362,25 @@
   ]
  },
  "n_event_queries": 24,
- "events": 767,
- "markets": 760,
- "markets_dropped_by_volume_floor": 4610,
- "day_file": "data/2026/11/2026-11-12T06.jsonl",
+ "events": 766,
+ "markets": 749,
+ "markets_dropped_by_volume_floor": 4583,
+ "day_file": "data/2026/11/2026-11-12T07.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 144,
- "trades_watchlist_markets": 53,
- "trades_collected": 2742,
- "anomalies_detected": 44,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 97,
- "books_rows": 180,
+ "trades_markets_queried": 120,
+ "trades_watchlist_markets": 46,
+ "trades_collected": 2929,
+ "anomalies_detected": 9,
+ "anomalies_new": 9,
+ "history_debug": [
+  {
+   "cid": "0xca219aaa",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 99,
+ "books_rows": 188,
  "status": "ok"
 }
