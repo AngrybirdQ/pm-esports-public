@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-12T14:16:32Z",
+ "ts": "2026-11-12T14:34:25Z",
  "sources": [
   {
    "url": "/tags",
@@ -159,23 +159,23 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Froglings vs CyberHero (BO3) - 1win Essence Play-in Group A",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Rottweilas Latam vs Mena Warriors (BO3) - Esports Pro Circuit ",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Froglings vs CyberHero (BO3) - 1win Essence Play-in Group A",
+    "closed": true
    },
    {
     "t": "Dota 2: Xipto Esports vs Froglings (BO3) - DreamLeague Division 2 Grou",
     "closed": true
    },
    {
-    "t": "Dota 2: PlayTime vs Yellow Submarine (BO3) - 1win Essence Play-in Grou",
-    "closed": true
+    "t": "Dota 2: Aurora vs GamerLegion (BO3) - 1win Essence Group B",
+    "closed": false
    },
    {
-    "t": "Dota 2: HULIGANI vs PuckChamp (BO3) - DreamLeague Division 2 Group B",
+    "t": "Dota 2: PlayTime vs Yellow Submarine (BO3) - 1win Essence Play-in Grou",
     "closed": true
    }
   ],
@@ -237,12 +237,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: BOOM Esports vs Seventh Letter Gaming (BO3) - Asia Pacific P",
+    "t": "Valorant: Salamander vs GODX (BO3) - Asia Pacific Predator League Thai",
     "closed": false
    },
    {
-    "t": "Valorant: Rojali vs Straight outta PIK (BO3) - Asia Pacific Predator L",
-    "closed": true
+    "t": "Valorant: BOOM Esports vs Seventh Letter Gaming (BO3) - Asia Pacific P",
+    "closed": false
    }
   ],
   "search:NBA": [
@@ -296,19 +296,19 @@
   "search:Valorant"
  ],
  "n_event_queries": 24,
- "events": 4,
- "markets": 26,
- "markets_dropped_by_volume_floor": 8,
+ "events": 6,
+ "markets": 31,
+ "markets_dropped_by_volume_floor": 28,
  "day_file": "data/2026/11/2026-11-12T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 77,
- "trades_watchlist_markets": 76,
- "trades_collected": 2139,
- "anomalies_detected": 0,
+ "trades_markets_queried": 57,
+ "trades_watchlist_markets": 56,
+ "trades_collected": 2159,
+ "anomalies_detected": 2,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 20,
- "books_rows": 12,
+ "books_markets": 24,
+ "books_rows": 18,
  "status": "ok"
 }
