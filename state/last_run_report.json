@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-12T21:53:26Z",
+ "ts": "2026-11-12T21:56:50Z",
  "sources": [
   {
    "url": "/tags",
@@ -241,8 +241,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: BOOM Esports vs Seventh Letter Gaming (BO3) - Asia Pacific P",
-    "closed": true
+    "t": "Valorant: Ambitious Legend Gaming vs TEC Esports (BO3) - China Nationa",
+    "closed": false
    }
   ],
   "search:NBA": [
@@ -292,12 +292,13 @@
  },
  "winning_sources": [
   "search:Dota 2",
-  "search:League of Legends"
+  "search:League of Legends",
+  "search:Valorant"
  ],
  "n_event_queries": 24,
- "events": 3,
- "markets": 29,
- "markets_dropped_by_volume_floor": 23,
+ "events": 4,
+ "markets": 30,
+ "markets_dropped_by_volume_floor": 33,
  "day_file": "data/2026/11/2026-11-12T21.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 32,
@@ -305,9 +306,15 @@
  "trades_collected": 1001,
  "anomalies_detected": 0,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "history_debug": [
+  {
+   "cid": "0xc76a0c35",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 25,
- "books_rows": 12,
+ "books_rows": 14,
  "status": "ok"
 }
