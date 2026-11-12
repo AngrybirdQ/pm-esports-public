@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-11T23:58:48Z",
+ "ts": "2026-11-12T00:01:06Z",
  "sources": [
   {
    "url": "/tags",
@@ -21,7 +21,7 @@
   {
    "url": "tag_slug=dota-2",
    "ok": true,
-   "events_returned": 63,
+   "events_returned": 62,
    "err": null
   },
   {
@@ -165,7 +165,7 @@
   "tag_slug=dota-2": [
    "Dota 2: CyberHero vs HULIGANI (BO3) - EPL Masters Playoffs",
    "Dota 2: PlayTime vs HULIGANI (BO3) - 1win Essence Play-in Group B",
-   "Dota 2: CyberHero vs Zero Tenacity (BO3) - DreamLeague Division 2 Grou"
+   "Dota 2: Rottweilas Latam vs Mena Warriors (BO3) - Esports Pro Circuit "
   ],
   "tag_slug=cs2": [
    "PGL Major Singapore 2026: Winner",
@@ -362,16 +362,16 @@
   ]
  },
  "n_event_queries": 24,
- "events": 779,
- "markets": 1316,
+ "events": 778,
+ "markets": 1311,
  "markets_dropped_by_volume_floor": 8612,
- "day_file": "data/2026/11/2026-11-11T23.jsonl",
- "retention_removed_files": 0,
+ "day_file": "data/2026/11/2026-11-12T00.jsonl",
+ "retention_removed_files": 42,
  "trades_markets_queried": 239,
  "trades_watchlist_markets": 56,
- "trades_collected": 3664,
- "anomalies_detected": 69,
- "anomalies_new": 0,
+ "trades_collected": 3855,
+ "anomalies_detected": 77,
+ "anomalies_new": 63,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 82,
