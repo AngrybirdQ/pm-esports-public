@@ -1,134 +1,10 @@
 {
- "ts": "2026-11-13T16:20:45Z",
+ "ts": "2026-11-13T16:24:29Z",
  "events": 3,
- "markets": 30,
+ "markets": 26,
  "lines": [
   {
-   "ts": "2026-11-13T16:20:45Z",
-   "event_id": "1367233",
-   "event_slug": "dota2-pari-yes-2026-11-13",
-   "event_title": "Dota 2: PARIVISION vs Yellow Submarine (BO3) - 1win Essence Group A",
-   "event_start_date": "2026-11-11T22:29:24Z",
-   "event_end_date": "2026-11-13T19:55:00Z",
-   "sources": [
-    "search:Dota 2"
-   ],
-   "market_slug": "dota2-pari-yes-2026-11-13",
-   "question": "Dota 2: PARIVISION vs Yellow Submarine (BO3) - 1win Essence Group A",
-   "group_item": "Match Winner",
-   "condition_id": "0x8882df0f0846bd4af2e6a5b5f8d94dff2a8944c79bb6259e4ce32c8f11a54768",
-   "token_ids": [
-    "48556027904620250993437944730450066926355375006462746822396794113288276787257",
-    "94996499561809489482172278864593257871917582365588130065838780681968732391223"
-   ],
-   "outcomes": [
-    "PARIVISION",
-    "Yellow Submarine"
-   ],
-   "prices": [
-    0.9995,
-    0.0005
-   ],
-   "volume": 41423.518238,
-   "volume_24h": 41510.688238,
-   "liquidity": 124945.18332,
-   "market_end_date": "2026-11-13T19:55:00Z"
-  },
-  {
-   "ts": "2026-11-13T16:20:45Z",
-   "event_id": "1367233",
-   "event_slug": "dota2-pari-yes-2026-11-13",
-   "event_title": "Dota 2: PARIVISION vs Yellow Submarine (BO3) - 1win Essence Group A",
-   "event_start_date": "2026-11-11T22:29:24Z",
-   "event_end_date": "2026-11-13T19:55:00Z",
-   "sources": [
-    "search:Dota 2"
-   ],
-   "market_slug": "dota2-pari-yes-2026-11-13-game-handicap-away-1pt5",
-   "question": "Game Handicap: PARI (-1.5) vs Yellow Submarine (+1.5)",
-   "group_item": "Game Handicap: PARI (-1.5) vs Yellow Submarine (+1.5)",
-   "condition_id": "0xa7f6bb0a6e7587311fad070486f0467065c4f102a02abcf991b235cf3eb0dfbd",
-   "token_ids": [
-    "108937310861842015112533049949704247006109959672886484542121381111528928946912",
-    "62755792867579664986511767672596872532557422615523232729525762187379626845034"
-   ],
-   "outcomes": [
-    "PARIVISION",
-    "Yellow Submarine"
-   ],
-   "prices": [
-    0.9995,
-    0.0005
-   ],
-   "volume": 17306.704351,
-   "volume_24h": 17306.704351,
-   "liquidity": 51121.55249,
-   "market_end_date": "2026-11-13T19:55:00Z"
-  },
-  {
-   "ts": "2026-11-13T16:20:45Z",
-   "event_id": "1367233",
-   "event_slug": "dota2-pari-yes-2026-11-13",
-   "event_title": "Dota 2: PARIVISION vs Yellow Submarine (BO3) - 1win Essence Group A",
-   "event_start_date": "2026-11-11T22:29:24Z",
-   "event_end_date": "2026-11-13T19:55:00Z",
-   "sources": [
-    "search:Dota 2"
-   ],
-   "market_slug": "dota2-pari-yes-2026-11-13-game2",
-   "question": "Dota 2: PARIVISION vs Yellow Submarine - Game 2 Winner",
-   "group_item": "Game 2 Winner",
-   "condition_id": "0x6ca9ed1cde3edcab2ed6dacfba24147864823d100ee1f898b5eeb778a228cd11",
-   "token_ids": [
-    "58361472702042400388577452260480430768925045284933604410218640943965806985498",
-    "63008239574844079174951615705867238647553076804832681648171581639191292081527"
-   ],
-   "outcomes": [
-    "PARIVISION",
-    "Yellow Submarine"
-   ],
-   "prices": [
-    0.9995,
-    0.0005
-   ],
-   "volume": 375985.983652,
-   "volume_24h": 387035.703652,
-   "liquidity": 705004.88287,
-   "market_end_date": "2026-11-13T19:55:00Z"
-  },
-  {
-   "ts": "2026-11-13T16:20:45Z",
-   "event_id": "1367233",
-   "event_slug": "dota2-pari-yes-2026-11-13",
-   "event_title": "Dota 2: PARIVISION vs Yellow Submarine (BO3) - 1win Essence Group A",
-   "event_start_date": "2026-11-11T22:29:24Z",
-   "event_end_date": "2026-11-13T19:55:00Z",
-   "sources": [
-    "search:Dota 2"
-   ],
-   "market_slug": "dota2-pari-yes-2026-11-13-total-games-2pt5",
-   "question": "Games Total: O/U 2.5",
-   "group_item": "O/U 2.5 Games",
-   "condition_id": "0x4a67b3f8c024ac813eed23e62ab12b86f125f5b85062ee243dfd52a7e073f561",
-   "token_ids": [
-    "60634889671563237287361020681441114538487346530353906996371182080687483170334",
-    "76220586485595991249042357665034883219291910627045470123017932106138624807523"
-   ],
-   "outcomes": [
-    "Over",
-    "Under"
-   ],
-   "prices": [
-    0.0005,
-    0.9995
-   ],
-   "volume": 1585.563874,
-   "volume_24h": 1585.563874,
-   "liquidity": 28689.36589,
-   "market_end_date": "2026-11-13T19:55:00Z"
-  },
-  {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "1371823",
    "event_slug": "val-aq-hypert-2026-11-13",
    "event_title": "Valorant: Any Questions Gaming vs Hyper Tide Gaming (BO3) - China National Tournament Split Omega: Pro Division Group B",
@@ -153,13 +29,13 @@
     0.9995,
     0.0005
    ],
-   "volume": 3741.579414,
-   "volume_24h": 3738.063624,
-   "liquidity": 14843.41633,
+   "volume": 3752.909414,
+   "volume_24h": 3749.393624,
+   "liquidity": 14848.41133,
    "market_end_date": "2026-11-13T17:30:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "1371823",
    "event_slug": "val-aq-hypert-2026-11-13",
    "event_title": "Valorant: Any Questions Gaming vs Hyper Tide Gaming (BO3) - China National Tournament Split Omega: Pro Division Group B",
@@ -186,11 +62,11 @@
    ],
    "volume": 134.14,
    "volume_24h": 134.14,
-   "liquidity": 2089.73532,
+   "liquidity": 2082.73481,
    "market_end_date": "2026-11-13T17:30:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "1371823",
    "event_slug": "val-aq-hypert-2026-11-13",
    "event_title": "Valorant: Any Questions Gaming vs Hyper Tide Gaming (BO3) - China National Tournament Split Omega: Pro Division Group B",
@@ -217,11 +93,11 @@
    ],
    "volume": 323.28871,
    "volume_24h": 323.28871,
-   "liquidity": 1498.94999,
+   "liquidity": 1579.78898,
    "market_end_date": "2026-11-13T17:30:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -248,11 +124,11 @@
    ],
    "volume": 7796.461918,
    "volume_24h": null,
-   "liquidity": 6114.04828,
+   "liquidity": 6724.28966,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -279,11 +155,11 @@
    ],
    "volume": 3040.780833,
    "volume_24h": null,
-   "liquidity": 6334.72617,
+   "liquidity": 6944.81185,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -314,7 +190,7 @@
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -341,11 +217,11 @@
    ],
    "volume": 1683.071112,
    "volume_24h": null,
-   "liquidity": 7298.21582,
+   "liquidity": 7252.31555,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -372,11 +248,11 @@
    ],
    "volume": 9117.600852,
    "volume_24h": null,
-   "liquidity": 6579.03014,
+   "liquidity": 7094.69014,
    "market_end_date": "2027-01-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -403,11 +279,11 @@
    ],
    "volume": 15402.559105,
    "volume_24h": null,
-   "liquidity": 10356.68941,
+   "liquidity": 10402.80469,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -434,11 +310,11 @@
    ],
    "volume": 2784.85,
    "volume_24h": null,
-   "liquidity": 6279.23935,
+   "liquidity": 6280.1905,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -465,11 +341,11 @@
    ],
    "volume": 7235.614735,
    "volume_24h": null,
-   "liquidity": 5267.19921,
+   "liquidity": 5265.76929,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -496,11 +372,11 @@
    ],
    "volume": 1370.52,
    "volume_24h": null,
-   "liquidity": 6284.66696,
+   "liquidity": 6285.60576,
    "market_end_date": "2027-01-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -531,7 +407,7 @@
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -558,11 +434,11 @@
    ],
    "volume": 16916.777735,
    "volume_24h": null,
-   "liquidity": 5373.49969,
+   "liquidity": 5372.60033,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -589,11 +465,11 @@
    ],
    "volume": 14262.96484,
    "volume_24h": 30.0,
-   "liquidity": 6320.63699,
+   "liquidity": 6318.80051,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -620,11 +496,11 @@
    ],
    "volume": 3417.03,
    "volume_24h": null,
-   "liquidity": 7715.7027,
+   "liquidity": 7714.1157,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -651,11 +527,11 @@
    ],
    "volume": 9359.55542,
    "volume_24h": null,
-   "liquidity": 5193.87601,
+   "liquidity": 5192.46685,
    "market_end_date": "2027-01-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -682,11 +558,11 @@
    ],
    "volume": 4019.038889,
    "volume_24h": null,
-   "liquidity": 5631.42051,
+   "liquidity": 6241.51268,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -713,11 +589,11 @@
    ],
    "volume": 12919.372388,
    "volume_24h": null,
-   "liquidity": 6674.56048,
+   "liquidity": 6673.27894,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -744,11 +620,11 @@
    ],
    "volume": 4972.42,
    "volume_24h": null,
-   "liquidity": 7279.6824,
+   "liquidity": 7793.56892,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -775,11 +651,11 @@
    ],
    "volume": 6786.097519,
    "volume_24h": null,
-   "liquidity": 6615.15057,
+   "liquidity": 7129.04764,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -806,11 +682,11 @@
    ],
    "volume": 19753.417101,
    "volume_24h": 1.0,
-   "liquidity": 5539.31344,
+   "liquidity": 5462.10305,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -837,11 +713,11 @@
    ],
    "volume": 9427.692655,
    "volume_24h": null,
-   "liquidity": 5696.33858,
+   "liquidity": 5083.08002,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -868,11 +744,11 @@
    ],
    "volume": 6531.905795,
    "volume_24h": null,
-   "liquidity": 6728.30787,
+   "liquidity": 6114.7847,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -899,11 +775,11 @@
    ],
    "volume": 2340.900612,
    "volume_24h": null,
-   "liquidity": 7131.60489,
+   "liquidity": 7035.21126,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-13T16:20:45Z",
+   "ts": "2026-11-13T16:24:29Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -930,7 +806,7 @@
    ],
    "volume": 7874.844362,
    "volume_24h": null,
-   "liquidity": 6001.53265,
+   "liquidity": 5484.70417,
    "market_end_date": "2026-12-31T23:59:00Z"
   }
  ]
