@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-13T06:08:32Z",
+ "ts": "2026-11-13T06:12:12Z",
  "sources": [
   {
    "url": "/tags",
@@ -241,7 +241,7 @@
     "closed": true
    },
    {
-    "t": "Valorant: Ambitious Legend Gaming vs TEC Esports (BO3) - China Nationa",
+    "t": "Valorant: LGD Gaming vs Young Gaming (BO3) - China National Tournament",
     "closed": false
    }
   ],
@@ -303,12 +303,18 @@
  "retention_removed_files": 0,
  "trades_markets_queried": 22,
  "trades_watchlist_markets": 21,
- "trades_collected": 71,
+ "trades_collected": 75,
  "anomalies_detected": 0,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 21,
+ "history_debug": [
+  {
+   "cid": "0xb096b056",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 20,
  "books_rows": 14,
  "status": "ok"
 }
