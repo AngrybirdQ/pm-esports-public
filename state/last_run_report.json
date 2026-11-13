@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-13T20:49:47Z",
+ "ts": "2026-11-13T22:06:13Z",
  "sources": [
   {
    "url": "/tags",
@@ -167,16 +167,16 @@
     "closed": true
    },
    {
+    "t": "Dota 2: Team Spirit vs Froglings (BO3) - 1win Essence Group D",
+    "closed": false
+   },
+   {
     "t": "Dota 2: PARIVISION vs Yellow Submarine (BO3) - 1win Essence Group A",
     "closed": true
    },
    {
     "t": "Dota 2: PlayTime vs HULIGANI (BO3) - DreamLeague Division 2 Playoffs",
     "closed": true
-   },
-   {
-    "t": "Dota 2: potn9ki vs oveA (BO3) - Esports Pro Circuit  Playoffs",
-    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -229,11 +229,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: Ambitious Legend Gaming vs TEC Esports (BO3) - China Nationa",
+    "t": "Valorant: XJG vs Havoc & Yonder (BO3) - China National Tournament Spli",
     "closed": true
    },
    {
-    "t": "Valorant: XJG vs Havoc & Yonder (BO3) - China National Tournament Spli",
+    "t": "Valorant: Ambitious Legend Gaming vs TEC Esports (BO3) - China Nationa",
     "closed": true
    },
    {
@@ -296,18 +296,24 @@
  ],
  "n_event_queries": 24,
  "events": 2,
- "markets": 24,
- "markets_dropped_by_volume_floor": 5,
- "day_file": "data/2026/11/2026-11-13T20.jsonl",
+ "markets": 27,
+ "markets_dropped_by_volume_floor": 15,
+ "day_file": "data/2026/11/2026-11-13T22.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 24,
- "trades_watchlist_markets": 23,
- "trades_collected": 1013,
- "anomalies_detected": 0,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_markets_queried": 21,
+ "trades_watchlist_markets": 18,
+ "trades_collected": 1043,
+ "anomalies_detected": 2,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0x35d4a027",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 20,
- "books_rows": 12,
+ "books_rows": 14,
  "status": "ok"
 }
