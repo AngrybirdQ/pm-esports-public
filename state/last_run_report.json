@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-13T14:07:59Z",
+ "ts": "2026-11-13T14:11:35Z",
  "sources": [
   {
    "url": "/tags",
@@ -241,8 +241,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: Qian Xing Gaming vs KeepBest Gaming (BO3) - China National T",
-    "closed": true
+    "t": "Valorant: Any Questions Gaming vs Hyper Tide Gaming (BO3) - China Nati",
+    "closed": false
    }
   ],
   "search:NBA": [
@@ -296,18 +296,24 @@
   "search:Valorant"
  ],
  "n_event_queries": 24,
- "events": 4,
- "markets": 26,
- "markets_dropped_by_volume_floor": 24,
+ "events": 5,
+ "markets": 29,
+ "markets_dropped_by_volume_floor": 34,
  "day_file": "data/2026/11/2026-11-13T14.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 29,
  "trades_watchlist_markets": 29,
- "trades_collected": 782,
+ "trades_collected": 762,
  "anomalies_detected": 2,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "history_debug": [
+  {
+   "cid": "0x5b9cfbd0",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 20,
  "books_rows": 10,
  "status": "ok"
