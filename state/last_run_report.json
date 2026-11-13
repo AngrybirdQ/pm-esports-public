@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-13T16:42:18Z",
+ "ts": "2026-11-13T16:45:50Z",
  "sources": [
   {
    "url": "/tags",
@@ -172,7 +172,7 @@
    },
    {
     "t": "Dota 2: PARIVISION vs Yellow Submarine (BO3) - 1win Essence Group A",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: PlayTime vs HULIGANI (BO3) - DreamLeague Division 2 Playoffs",
@@ -291,19 +291,18 @@
   ]
  },
  "winning_sources": [
-  "search:Dota 2",
   "search:League of Legends",
   "search:Valorant"
  ],
  "n_event_queries": 24,
- "events": 3,
+ "events": 2,
  "markets": 26,
- "markets_dropped_by_volume_floor": 14,
+ "markets_dropped_by_volume_floor": 10,
  "day_file": "data/2026/11/2026-11-13T16.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 21,
  "trades_watchlist_markets": 21,
- "trades_collected": 107,
+ "trades_collected": 102,
  "anomalies_detected": 0,
  "anomalies_new": 0,
  "history_debug": [],
