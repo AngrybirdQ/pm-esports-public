@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-13T06:44:48Z",
+ "ts": "2026-11-13T07:00:57Z",
  "sources": [
   {
    "url": "/tags",
@@ -229,6 +229,10 @@
     "closed": true
    },
    {
+    "t": "Valorant: LGD Gaming vs Young Gaming (BO3) - China National Tournament",
+    "closed": false
+   },
+   {
     "t": "Valorant: NRG vs Fnatic (BO5)",
     "closed": true
    },
@@ -237,12 +241,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: LGD Gaming vs Young Gaming (BO3) - China National Tournament",
+    "t": "Valorant: Ambitious Legend Gaming vs TEC Esports (BO3) - China Nationa",
     "closed": false
-   },
-   {
-    "t": "Valorant: Alter Ego x Kertanegara vs Hertz Esport (BO3) - Asia Pacific",
-    "closed": true
    }
   ],
   "search:NBA": [
@@ -296,19 +296,19 @@
   "search:Valorant"
  ],
  "n_event_queries": 24,
- "events": 3,
- "markets": 25,
- "markets_dropped_by_volume_floor": 12,
- "day_file": "data/2026/11/2026-11-13T06.jsonl",
+ "events": 4,
+ "markets": 26,
+ "markets_dropped_by_volume_floor": 22,
+ "day_file": "data/2026/11/2026-11-13T07.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 22,
  "trades_watchlist_markets": 21,
- "trades_collected": 85,
- "anomalies_detected": 0,
- "anomalies_new": 0,
+ "trades_collected": 78,
+ "anomalies_detected": 2,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 20,
- "books_rows": 14,
+ "books_markets": 21,
+ "books_rows": 16,
  "status": "ok"
 }
