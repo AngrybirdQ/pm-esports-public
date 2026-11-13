@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-13T17:25:05Z",
+ "ts": "2026-11-13T17:57:34Z",
  "sources": [
   {
    "url": "/tags",
@@ -167,16 +167,16 @@
     "closed": true
    },
    {
+    "t": "Dota 2: Team Liquid vs LGD Gaming (BO3) - 1win Essence Group C",
+    "closed": false
+   },
+   {
     "t": "Dota 2: PARIVISION vs Yellow Submarine (BO3) - 1win Essence Group A",
     "closed": true
    },
    {
     "t": "Dota 2: PlayTime vs HULIGANI (BO3) - DreamLeague Division 2 Playoffs",
     "closed": true
-   },
-   {
-    "t": "Dota 2: Team Liquid vs LGD Gaming (BO3) - 1win Essence Group C",
-    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -296,24 +296,18 @@
  ],
  "n_event_queries": 24,
  "events": 2,
- "markets": 28,
- "markets_dropped_by_volume_floor": 19,
+ "markets": 27,
+ "markets_dropped_by_volume_floor": 16,
  "day_file": "data/2026/11/2026-11-13T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 49,
+ "trades_markets_queried": 25,
  "trades_watchlist_markets": 22,
- "trades_collected": 1094,
- "anomalies_detected": 0,
- "anomalies_new": 0,
- "history_debug": [
-  {
-   "cid": "0x79274bb1",
-   "pts": 3,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
- "books_markets": 28,
- "books_rows": 18,
+ "trades_collected": 1078,
+ "anomalies_detected": 2,
+ "anomalies_new": 2,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 20,
+ "books_rows": 16,
  "status": "ok"
 }
