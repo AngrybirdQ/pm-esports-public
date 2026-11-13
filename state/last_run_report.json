@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-13T14:25:48Z",
+ "ts": "2026-11-13T14:34:32Z",
  "sources": [
   {
    "url": "/tags",
@@ -160,7 +160,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: GamerLegion vs CyberHero (BO3) - 1win Essence Group B",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Aurora vs GamerLegion (BO3) - 1win Essence Group B",
@@ -291,19 +291,18 @@
   ]
  },
  "winning_sources": [
-  "search:Dota 2",
   "search:League of Legends",
   "search:Valorant"
  ],
  "n_event_queries": 24,
- "events": 5,
+ "events": 4,
  "markets": 27,
- "markets_dropped_by_volume_floor": 18,
+ "markets_dropped_by_volume_floor": 17,
  "day_file": "data/2026/11/2026-11-13T14.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 29,
  "trades_watchlist_markets": 29,
- "trades_collected": 466,
+ "trades_collected": 333,
  "anomalies_detected": 0,
  "anomalies_new": 0,
  "history_debug": [],
