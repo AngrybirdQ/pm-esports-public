@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-13T17:21:27Z",
+ "ts": "2026-11-13T17:25:05Z",
  "sources": [
   {
    "url": "/tags",
@@ -175,8 +175,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs DO KONCA (BO3) - 1win Essence Group A",
-    "closed": true
+    "t": "Dota 2: Team Liquid vs LGD Gaming (BO3) - 1win Essence Group C",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -291,22 +291,29 @@
   ]
  },
  "winning_sources": [
+  "search:Dota 2",
   "search:League of Legends"
  ],
  "n_event_queries": 24,
- "events": 1,
- "markets": 23,
- "markets_dropped_by_volume_floor": 2,
+ "events": 2,
+ "markets": 28,
+ "markets_dropped_by_volume_floor": 19,
  "day_file": "data/2026/11/2026-11-13T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 45,
+ "trades_markets_queried": 49,
  "trades_watchlist_markets": 22,
- "trades_collected": 122,
+ "trades_collected": 1094,
  "anomalies_detected": 0,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 23,
- "books_rows": 10,
+ "history_debug": [
+  {
+   "cid": "0x79274bb1",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 28,
+ "books_rows": 18,
  "status": "ok"
 }
