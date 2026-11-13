@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-13T13:03:47Z",
+ "ts": "2026-11-13T14:00:10Z",
  "sources": [
   {
    "url": "/tags",
@@ -163,12 +163,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs 1win (BO3) - 1win Essence Group D",
-    "closed": true
-   },
-   {
     "t": "Dota 2: GamerLegion vs CyberHero (BO3) - 1win Essence Group B",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Spirit vs 1win (BO3) - 1win Essence Group D",
+    "closed": true
    },
    {
     "t": "Dota 2: PARIVISION vs DO KONCA (BO3) - 1win Essence Group A",
@@ -297,18 +297,18 @@
  ],
  "n_event_queries": 24,
  "events": 5,
- "markets": 34,
- "markets_dropped_by_volume_floor": 38,
- "day_file": "data/2026/11/2026-11-13T13.jsonl",
+ "markets": 29,
+ "markets_dropped_by_volume_floor": 26,
+ "day_file": "data/2026/11/2026-11-13T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 31,
+ "trades_markets_queried": 29,
  "trades_watchlist_markets": 29,
- "trades_collected": 2000,
- "anomalies_detected": 8,
- "anomalies_new": 8,
+ "trades_collected": 907,
+ "anomalies_detected": 4,
+ "anomalies_new": 4,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 26,
+ "books_markets": 23,
  "books_rows": 10,
  "status": "ok"
 }
