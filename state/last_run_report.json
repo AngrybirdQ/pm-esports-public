@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-13T22:49:15Z",
+ "ts": "2026-11-14T00:05:15Z",
  "sources": [
   {
    "url": "/tags",
@@ -164,7 +164,7 @@
    },
    {
     "t": "Dota 2: Team Spirit vs Froglings (BO3) - 1win Essence Group D",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: GamerLegion vs CyberHero (BO3) - 1win Essence Group B",
@@ -291,18 +291,17 @@
   ]
  },
  "winning_sources": [
-  "search:Dota 2",
   "search:League of Legends"
  ],
  "n_event_queries": 24,
- "events": 2,
- "markets": 27,
- "markets_dropped_by_volume_floor": 15,
- "day_file": "data/2026/11/2026-11-13T22.jsonl",
- "retention_removed_files": 0,
+ "events": 1,
+ "markets": 23,
+ "markets_dropped_by_volume_floor": 2,
+ "day_file": "data/2026/11/2026-11-14T00.jsonl",
+ "retention_removed_files": 47,
  "trades_markets_queried": 21,
- "trades_watchlist_markets": 18,
- "trades_collected": 1000,
+ "trades_watchlist_markets": 21,
+ "trades_collected": 98,
  "anomalies_detected": 0,
  "anomalies_new": 0,
  "history_debug": [],
