@@ -187,7 +187,7 @@ jobs:
 
   commit:
     if: needs.decide.outputs.mode != 'longrun' && needs.decide.outputs.skip != 'true'
-    needs: [snap, flow, side]
+    needs: [snap, flow]  # 11-15: side去耦合(run4815实证: upload-artifact挂死拖死commit; kalshi book旁链独立提交)
     runs-on: ubuntu-latest
     timeout-minutes: 12
     steps:
