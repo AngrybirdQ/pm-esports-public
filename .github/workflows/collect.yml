@@ -61,6 +61,8 @@ jobs:
       PH_BUDGET_S: "300"
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1  # 11-15: 全量clone已撑爆6/8min job超时(run4812实测), 浅克隆秒级
       - name: iterate (90s loop, ~100min budget)
         run: |
           git config user.name "pm-esports-collector"
@@ -93,9 +95,11 @@ jobs:
     if: needs.decide.outputs.mode != 'longrun' && needs.decide.outputs.skip != 'true'
     needs: decide
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 15  # 11-15: 8→15, checkout挂死实证(run4812)
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1  # 11-15: 全量clone已撑爆6/8min job超时(run4812实测), 浅克隆秒级
       - name: preflight (syntax+regex gate, 10-21事故根治)
         run: |
           python3 - << 'EOF'
@@ -133,6 +137,8 @@ jobs:
     timeout-minutes: 14  # 11-09: 8→14, flow step4曾撞8min线连cancel 6天(trades v2迁移后需求下降,留余量)
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1  # 11-15: 全量clone已撑爆6/8min job超时(run4812实测), 浅克隆秒级
       - uses: actions/download-artifact@v4
         with: { name: pm-snap, path: . }
       - name: collect trades/books/anomalies (uses markets.json handoff)
@@ -165,9 +171,11 @@ jobs:
     if: needs.decide.outputs.mode != 'longrun' && needs.decide.outputs.skip != 'true'
     needs: decide
     runs-on: ubuntu-latest
-    timeout-minutes: 6
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1  # 11-15: 全量clone已撑爆6/8min job超时(run4812实测), 浅克隆秒级
       - name: collect side sources (Kalshi book / gated probes)
         run: python3 scripts/collect_side.py
       - uses: actions/upload-artifact@v4
@@ -181,9 +189,11 @@ jobs:
     if: needs.decide.outputs.mode != 'longrun' && needs.decide.outputs.skip != 'true'
     needs: [snap, flow, side]
     runs-on: ubuntu-latest
-    timeout-minutes: 6
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1  # 11-15: 全量clone已撑爆6/8min job超时(run4812实测), 浅克隆秒级
       - uses: actions/download-artifact@v4
         with: { name: pm-snap, path: . }
       - uses: actions/download-artifact@v4
