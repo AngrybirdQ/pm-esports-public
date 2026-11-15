@@ -189,17 +189,29 @@ jobs:
     if: needs.decide.outputs.mode != 'longrun' && needs.decide.outputs.skip != 'true'
     needs: [snap, flow]  # 11-15: side去耦合(run4815实证: upload-artifact挂死拖死commit; kalshi book旁链独立提交)
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 20  # 11-15: 12→20, download重试空间
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1  # 11-15: 全量clone已撑爆6/8min job超时(run4812实测), 浅克隆秒级
-      - uses: actions/download-artifact@v4
-        with: { name: pm-snap, path: . }
-      - uses: actions/download-artifact@v4
-        with: { name: pm-flow, path: . }
-      - uses: actions/download-artifact@v4
-        with: { name: pm-side, path: . }
+      - name: download artifacts (each guarded)
+        id: dl
+        continue-on-error: true  # 11-15: artifact API间歇挂死(run4816 step5实证), 缺件不拖死commit; side可能无件
+        run: |
+          echo "pm-snap:";   gh run download ${{ github.run_id }} -n pm-snap -D . || echo "pm-snap missing"
+          echo "pm-flow:";   gh run download ${{ github.run_id }} -n pm-flow -D . || echo "pm-flow missing"
+          echo "pm-side:";   gh run download ${{ github.run_id }} -n pm-side -D . || echo "pm-side missing"
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: download retry (once)
+        if: steps.dl.outcome == 'failure'
+        run: |
+          sleep 30
+          gh run download ${{ github.run_id }} -n pm-snap -D . || true
+          gh run download ${{ github.run_id }} -n pm-flow -D . || true
+          gh run download ${{ github.run_id }} -n pm-side -D . || true
+        env:
+          GH_TOKEN: ${{ github.token }}
       - name: twin scan + pm settlement backfill (gamma reachable)
         run: python3 scripts/twin_and_settle.py
       - name: arbitrage scan (pm x Kalshi + internal consistency)
