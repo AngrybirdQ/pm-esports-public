@@ -2,63 +2,64 @@
  {
   "name": "pinnacle_api",
   "ok": false,
-  "ms": 101,
-  "err": "HTTPError: HTTP Error 451: Unavailable For Legal Reasons"
+  "ms": 187,
+  "err": "HTTPError: HTTP Error 404: Not Found"
  },
  {
   "name": "pinnacle_guest_odds",
   "ok": false,
-  "ms": 57,
+  "ms": 39,
   "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
  },
  {
   "name": "pinnacle_guest_matchups",
   "ok": false,
-  "ms": 26,
+  "ms": 4,
   "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
  },
  {
   "name": "theoddsapi",
   "ok": false,
-  "ms": 128,
+  "ms": 142,
   "err": "HTTPError: HTTP Error 401: Unauthorized"
  },
  {
   "name": "sofascore_esports",
   "ok": false,
-  "ms": 82,
+  "ms": 73,
   "err": "HTTPError: HTTP Error 403: Forbidden"
  },
  {
   "name": "bet365_home",
   "ok": false,
-  "ms": 123,
+  "ms": 100,
   "err": "HTTPError: HTTP Error 403: Forbidden"
  },
  {
   "name": "marathonbet",
-  "ok": false,
-  "ms": 503,
-  "err": "HTTPError: HTTP Error 451: Unavailable For Legal Reasons"
+  "ok": true,
+  "code": 200,
+  "ms": 442,
+  "head": "<!DOCTYPE html><html class=\"u-large-scrollbar u-theme-light\" lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-s"
  },
  {
   "name": "ggbench",
   "ok": false,
-  "ms": 512,
+  "ms": 305,
   "err": "HTTPError: HTTP Error 404: Not Found"
  },
  {
   "name": "polymarket_gamma",
   "ok": true,
   "code": 200,
-  "ms": 68,
+  "ms": 180,
   "head": "[{\"id\":\"2890\",\"ticker\":\"nba-will-the-mavericks-beat-the-grizzlies-by-more-than-5pt5-points-in-their-december-4-matchup\",\"slug\":\"nba-will-the-mavericks-beat-the-"
  },
  {
   "name": "kalshi",
   "ok": true,
   "code": 200,
-  "ms": 86,
-  "head": "{\"cursor\":\"CgsI3J3l1wYQ8NjlLRIzS1hNVkVDUk9TU0NBVEVHT1JZMC1TMjAyNlQ1S0s0NEY0UDZKTFdEMlQtV1U2U0dXNkZI\",\"markets\":[{\"can_close_early\":true,\"close_time\":\"2026-11-17"
+  "ms": 104,
+  "head": "{\"cursor\":\"CgwItc_l1wYQyObwmgISM0tYTVZFQ1JPU1NDQVRFR09SWTAtUzIwMjZLTTI2RUdZWFJDUlBJQU1PLU1YU0c0SzJRRA\",\"markets\":[{\"can_close_early\":true,\"close_time\":\"2026-11-"
  }
 ]
