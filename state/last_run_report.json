@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-16T19:18:33Z",
+ "ts": "2026-11-16T19:27:30Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -535,12 +535,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: HULIGANI vs CyberHero (BO3) - DreamLeague Division 2 Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Zero Tenacity vs PlayTime (BO3) - DreamLeague Division 2 Playo",
     "closed": false
+   },
+   {
+    "t": "Dota 2: HULIGANI vs CyberHero (BO3) - DreamLeague Division 2 Playoffs",
+    "closed": true
    }
   ],
   "search:LCK": [
@@ -929,18 +929,18 @@
   }
  ],
  "events": 7,
- "markets": 72,
- "markets_dropped_by_volume_floor": 25,
+ "markets": 73,
+ "markets_dropped_by_volume_floor": 24,
  "day_file": "data/2026/11/2026-11-16T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 15,
+ "trades_markets_queried": 16,
  "trades_watchlist_markets": 14,
  "trades_collected": 1000,
- "anomalies_detected": 17,
- "anomalies_new": 0,
+ "anomalies_detected": 23,
+ "anomalies_new": 6,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 29,
- "books_rows": 52,
+ "books_markets": 30,
+ "books_rows": 54,
  "status": "ok"
 }
