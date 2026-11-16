@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-16T19:36:02Z",
+ "ts": "2026-11-16T19:55:15Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -272,6 +272,7 @@
   }
  ],
  "errors": [
+  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=10365646304219364799552131213911299892860323095524066225309892794233",
   "global-scan: HTTP 406: HTTP Error 406: Not Acceptable"
  ],
  "stage": "all",
@@ -285,12 +286,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Froglings vs DO KONCA (BO3) - 1win Essence Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: PARIVISION vs Team Spirit (BO3) - 1win Essence Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Froglings vs DO KONCA (BO3) - 1win Essence Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: LGD Gaming vs Team Spirit (BO3) - 1win Essence Playoffs",
@@ -505,12 +506,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Froglings vs DO KONCA (BO3) - 1win Essence Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: PARIVISION vs Team Spirit (BO3) - 1win Essence Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Froglings vs DO KONCA (BO3) - 1win Essence Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: LGD Gaming vs Team Spirit (BO3) - 1win Essence Playoffs",
@@ -720,7 +721,7 @@
     true,
     false,
     false,
-    false,
+    true,
     false,
     false,
     true,
@@ -929,18 +930,26 @@
   }
  ],
  "events": 7,
- "markets": 72,
+ "markets": 70,
  "markets_dropped_by_volume_floor": 24,
  "day_file": "data/2026/11/2026-11-16T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 16,
- "trades_watchlist_markets": 14,
+ "trades_markets_queried": 15,
+ "trades_watchlist_markets": 10,
  "trades_collected": 1000,
- "anomalies_detected": 4,
+ "anomalies_detected": 10,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 29,
- "books_rows": 54,
- "status": "ok"
+ "books_errors": [
+  "1036564630: HTTP 404 (api deprecated)",
+  "5455571985: HTTP 404 (api deprecated)"
+ ],
+ "books_markets": 32,
+ "books_rows": 46,
+ "status": "ok",
+ "api_deprecated": [
+  "404 https://clob.polymarket.com/book?token_id=10365646304219364799552131213911299892860323095524066225309892794233",
+  "404 https://clob.polymarket.com/book?token_id=54555719855420282452547509204379530169036005060911578560121803737830"
+ ]
 }
