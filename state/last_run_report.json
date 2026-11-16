@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-16T09:56:47Z",
+ "ts": "2026-11-16T10:06:12Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -208,6 +208,54 @@
    "url": "search:Esports World Cup",
    "ok": true,
    "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "slug:worlds-2026-winner",
+   "ok": true,
+   "events_returned": 1,
+   "err": null
+  },
+  {
+   "url": "slug:blast-rivals-hong-kong-2026-winner-1793811600000",
+   "ok": true,
+   "events_returned": 1,
+   "err": null
+  },
+  {
+   "url": "slug:1win-essence-iii-winner",
+   "ok": true,
+   "events_returned": 1,
+   "err": null
+  },
+  {
+   "url": "slug:which-teams-will-qualify-for-lcp-2027",
+   "ok": true,
+   "events_returned": 1,
+   "err": null
+  },
+  {
+   "url": "slug:which-teams-will-qualify-to-pgl-major-singapore-2026",
+   "ok": true,
+   "events_returned": 1,
+   "err": null
+  },
+  {
+   "url": "slug:pgl-major-singapore-2026-winner-1793811600000",
+   "ok": true,
+   "events_returned": 1,
+   "err": null
+  },
+  {
+   "url": "slug:most-banned-champion-at-worlds-2026",
+   "ok": true,
+   "events_returned": 1,
+   "err": null
+  },
+  {
+   "url": "slug:most-played-champion-at-worlds-2026",
+   "ok": true,
+   "events_returned": 1,
    "err": null
   },
   {
@@ -583,22 +631,24 @@
   "search:BLAST",
   "search:League of Legends",
   "search:Valorant",
-  "search:Worlds 2026"
+  "search:Worlds 2026",
+  "slug:1win-essence-iii-winner",
+  "slug:pgl-major-singapore-2026-winner-1793811600000"
  ],
  "n_event_queries": 34,
- "events": 8,
- "markets": 46,
- "markets_dropped_by_volume_floor": 22,
- "day_file": "data/2026/11/2026-11-16T09.jsonl",
+ "events": 10,
+ "markets": 83,
+ "markets_dropped_by_volume_floor": 23,
+ "day_file": "data/2026/11/2026-11-16T10.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 5,
+ "trades_markets_queried": 8,
  "trades_watchlist_markets": 3,
- "trades_collected": 152,
+ "trades_collected": 231,
  "anomalies_detected": 0,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 23,
- "books_rows": 22,
+ "books_rows": 36,
  "status": "ok"
 }
