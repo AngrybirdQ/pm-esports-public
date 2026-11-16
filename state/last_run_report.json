@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-16T10:40:35Z",
+ "ts": "2026-11-16T10:54:57Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -291,8 +291,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: HULIGANI vs CyberHero (BO3) - DreamLeague Division 2 Playoffs",
-    "closed": true
+    "t": "Dota 2: Froglings vs DO KONCA (BO3) - 1win Essence Playoffs",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -350,11 +350,11 @@
    },
    {
     "t": "Valorant: A Team vs SEC (BO3) - China National Tournament Split Omega:",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Hyper Tide Gaming vs FunPlus Phoenix (BO3) - China National ",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: NRG vs Fnatic (BO5)",
@@ -627,8 +627,8 @@
   ]
  },
  "winning_sources": [
-  "search:1win Essence",
   "search:BLAST",
+  "search:Dota 2",
   "search:League of Legends",
   "search:Valorant",
   "search:Worlds 2026",
@@ -636,9 +636,273 @@
   "slug:pgl-major-singapore-2026-winner-1793811600000"
  ],
  "n_event_queries": 34,
- "events": 10,
- "markets": 83,
- "markets_dropped_by_volume_floor": 23,
+ "essential_slug_diag": [
+  {
+   "slug": "worlds-2026-winner",
+   "closed": true,
+   "active": true,
+   "n_markets": 20,
+   "mkts_closed": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "mkts_active": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "slug": "blast-rivals-hong-kong-2026-winner-1793811600000",
+   "closed": true,
+   "active": true,
+   "n_markets": 14,
+   "mkts_closed": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "mkts_active": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "slug": "1win-essence-iii-winner",
+   "closed": false,
+   "active": true,
+   "n_markets": 14,
+   "mkts_closed": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "mkts_active": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "slug": "which-teams-will-qualify-for-lcp-2027",
+   "closed": true,
+   "active": true,
+   "n_markets": 7,
+   "mkts_closed": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "mkts_active": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "slug": "which-teams-will-qualify-to-pgl-major-singapore-2026",
+   "closed": true,
+   "active": true,
+   "n_markets": 51,
+   "mkts_closed": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "mkts_active": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "slug": "pgl-major-singapore-2026-winner-1793811600000",
+   "closed": false,
+   "active": true,
+   "n_markets": 38,
+   "mkts_closed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "mkts_active": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "slug": "most-banned-champion-at-worlds-2026",
+   "closed": true,
+   "active": true,
+   "n_markets": 111,
+   "mkts_closed": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "mkts_active": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "slug": "most-played-champion-at-worlds-2026",
+   "closed": true,
+   "active": true,
+   "n_markets": 110,
+   "mkts_closed": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "mkts_active": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  }
+ ],
+ "events": 8,
+ "markets": 78,
+ "markets_dropped_by_volume_floor": 21,
  "day_file": "data/2026/11/2026-11-16T10.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 11,
@@ -649,6 +913,6 @@
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 29,
- "books_rows": 48,
+ "books_rows": 50,
  "status": "ok"
 }
