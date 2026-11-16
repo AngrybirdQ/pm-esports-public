@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-16T18:03:44Z",
+ "ts": "2026-11-16T18:51:04Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -276,14 +276,10 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: GamerLegion vs LGD Gaming (BO3) - 1win Essence Playoffs",
-    "closed": false
-   },
-   {
-    "t": "Dota 2: Froglings vs DO KONCA (BO3) - 1win Essence Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: Aurora vs DO KONCA (BO3) - 1win Essence Playoffs",
+    "t": "Dota 2: Froglings vs DO KONCA (BO3) - 1win Essence Playoffs",
     "closed": true
    },
    {
@@ -291,7 +287,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Froglings vs Inner Circle (BO3) - DreamLeague Division 2 Playo",
+    "t": "Dota 2: Aurora vs DO KONCA (BO3) - 1win Essence Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: PARIVISION vs Team Spirit (BO3) - 1win Essence Playoffs",
     "closed": false
    }
   ],
@@ -496,18 +496,18 @@
   "search:1win Essence": [
    {
     "t": "Dota 2: GamerLegion vs LGD Gaming (BO3) - 1win Essence Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Froglings vs DO KONCA (BO3) - 1win Essence Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: Aurora vs DO KONCA (BO3) - 1win Essence Playoffs",
+    "t": "Dota 2: LGD Gaming vs Team Spirit (BO3) - 1win Essence Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: LGD Gaming vs Team Spirit (BO3) - 1win Essence Playoffs",
+    "t": "Dota 2: Aurora vs DO KONCA (BO3) - 1win Essence Playoffs",
     "closed": true
    },
    {
@@ -526,7 +526,7 @@
    },
    {
     "t": "Dota 2: Froglings vs Inner Circle (BO3) - DreamLeague Division 2 Playo",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: HULIGANI vs CyberHero (BO3) - DreamLeague Division 2 Playoffs",
@@ -627,7 +627,6 @@
   ]
  },
  "winning_sources": [
-  "search:1win Essence",
   "search:BLAST",
   "search:Dota 2",
   "search:DreamLeague",
@@ -902,19 +901,19 @@
    ]
   }
  ],
- "events": 10,
- "markets": 85,
+ "events": 8,
+ "markets": 78,
  "markets_dropped_by_volume_floor": 25,
  "day_file": "data/2026/11/2026-11-16T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 20,
- "trades_watchlist_markets": 15,
+ "trades_markets_queried": 15,
+ "trades_watchlist_markets": 14,
  "trades_collected": 1000,
- "anomalies_detected": 6,
- "anomalies_new": 0,
+ "anomalies_detected": 14,
+ "anomalies_new": 14,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 34,
- "books_rows": 54,
+ "books_markets": 29,
+ "books_rows": 52,
  "status": "ok"
 }
