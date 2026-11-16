@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-16T17:12:03Z",
+ "ts": "2026-11-16T17:15:53Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -468,7 +468,7 @@
    },
    {
     "t": "Counter-Strike: magic vs Eternal Fire (BO3) - PGL Cluj-Napoca: Closed ",
-    "closed": false
+    "closed": true
    }
   ],
   "search:Worlds 2026": [
@@ -632,7 +632,6 @@
   "search:Dota 2",
   "search:DreamLeague",
   "search:League of Legends",
-  "search:PGL",
   "search:Predator League",
   "search:Worlds 2026",
   "slug:1win-essence-iii-winner",
@@ -903,25 +902,19 @@
    ]
   }
  ],
- "events": 11,
- "markets": 90,
+ "events": 10,
+ "markets": 85,
  "markets_dropped_by_volume_floor": 25,
  "day_file": "data/2026/11/2026-11-16T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 20,
+ "trades_markets_queried": 17,
  "trades_watchlist_markets": 15,
  "trades_collected": 1000,
  "anomalies_detected": 11,
- "anomalies_new": 2,
- "history_debug": [
-  {
-   "cid": "0xa935724e",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
+ "anomalies_new": 0,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 31,
- "books_rows": 46,
+ "books_rows": 52,
  "status": "ok"
 }
