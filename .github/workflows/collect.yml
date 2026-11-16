@@ -198,18 +198,26 @@ jobs:
         id: dl
         continue-on-error: true  # 11-15: artifact API间歇挂死(run4816 step5实证), 缺件不拖死commit; side可能无件
         run: |
-          echo "pm-snap:";   gh run download ${{ github.run_id }} -n pm-snap -D . || echo "pm-snap missing"
-          echo "pm-flow:";   gh run download ${{ github.run_id }} -n pm-flow -D . || echo "pm-flow missing"
-          echo "pm-side:";   gh run download ${{ github.run_id }} -n pm-side -D . || echo "pm-side missing"
+          # 11-16碰撞修复(run43804811115日志实证): gh run download解压进工作区,
+          # artifact内回写的历史日文件(如2026-11-10T00.anoms.jsonl)与checkout
+          # 同名文件冲突("openat: file exists")→整个zip解压失败→静默零commit
+          # (11-15T07:52Z起断供根因)。改为解压到全新临时目录再cp合并(覆盖语义)。
+          rm -rf /tmp/af; mkdir -p /tmp/af/snap /tmp/af/flow /tmp/af/side
+          echo "pm-snap:";   gh run download ${{ github.run_id }} -n pm-snap -D /tmp/af/snap && cp -a /tmp/af/snap/. . || echo "pm-snap missing"
+          echo "pm-flow:";   gh run download ${{ github.run_id }} -n pm-flow -D /tmp/af/flow && cp -a /tmp/af/flow/. . || echo "pm-flow missing"
+          echo "pm-side:";   gh run download ${{ github.run_id }} -n pm-side -D /tmp/af/side && cp -a /tmp/af/side/. . || echo "pm-side missing"
+          echo "-- files touched by download --"
+          find data -type f -mmin -45 2>/dev/null | head -20 || true
         env:
           GH_TOKEN: ${{ github.token }}
       - name: download retry (once)
         if: steps.dl.outcome == 'failure'
         run: |
           sleep 30
-          gh run download ${{ github.run_id }} -n pm-snap -D . || true
-          gh run download ${{ github.run_id }} -n pm-flow -D . || true
-          gh run download ${{ github.run_id }} -n pm-side -D . || true
+          mkdir -p /tmp/af/re-snap /tmp/af/re-flow /tmp/af/re-side
+          gh run download ${{ github.run_id }} -n pm-snap -D /tmp/af/re-snap && cp -a /tmp/af/re-snap/. . || true
+          gh run download ${{ github.run_id }} -n pm-flow -D /tmp/af/re-flow && cp -a /tmp/af/re-flow/. . || true
+          gh run download ${{ github.run_id }} -n pm-side -D /tmp/af/re-side && cp -a /tmp/af/re-side/. . || true
         env:
           GH_TOKEN: ${{ github.token }}
       - name: twin scan + pm settlement backfill (gamma reachable)
