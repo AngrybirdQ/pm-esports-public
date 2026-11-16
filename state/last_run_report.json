@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-16T20:03:37Z",
+ "ts": "2026-11-16T20:49:20Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -286,7 +286,7 @@
    },
    {
     "t": "Dota 2: PARIVISION vs Team Spirit (BO3) - 1win Essence Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Froglings vs DO KONCA (BO3) - 1win Essence Playoffs",
@@ -473,7 +473,7 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: magic vs Eternal Fire (BO3) - PGL Cluj-Napoca: Closed ",
+    "t": "Counter-Strike: Heroic vs PARIVISION (BO3) - PGL Cluj-Napoca: Closed Q",
     "closed": true
    }
   ],
@@ -506,7 +506,7 @@
    },
    {
     "t": "Dota 2: PARIVISION vs Team Spirit (BO3) - 1win Essence Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Froglings vs DO KONCA (BO3) - 1win Essence Playoffs",
@@ -517,8 +517,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Aurora vs DO KONCA (BO3) - 1win Essence Playoffs",
-    "closed": true
+    "t": "Dota 2: LEGION vs Aurora (BO3) - 1win Essence Playoffs",
+    "closed": false
    }
   ],
   "search:DreamLeague": [
@@ -539,8 +539,8 @@
     "closed": false
    },
    {
-    "t": "Dota 2: HULIGANI vs CyberHero (BO3) - DreamLeague Division 2 Playoffs",
-    "closed": true
+    "t": "Dota 2: PuckChamp vs Nemiga Gaming (BO3) - DreamLeague Division 2 Play",
+    "closed": false
    }
   ],
   "search:LCK": [
@@ -633,8 +633,8 @@
   ]
  },
  "winning_sources": [
+  "search:1win Essence",
   "search:BLAST",
-  "search:Dota 2",
   "search:DreamLeague",
   "search:League of Legends",
   "search:Predator League",
@@ -928,19 +928,30 @@
    ]
   }
  ],
- "events": 7,
- "markets": 69,
- "markets_dropped_by_volume_floor": 24,
+ "events": 8,
+ "markets": 71,
+ "markets_dropped_by_volume_floor": 27,
  "day_file": "data/2026/11/2026-11-16T20.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 14,
+ "trades_markets_queried": 15,
  "trades_watchlist_markets": 10,
  "trades_collected": 1000,
- "anomalies_detected": 12,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 31,
- "books_rows": 46,
+ "anomalies_detected": 2,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0x18d4393e",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xd36f0bb9",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_markets": 24,
+ "books_rows": 40,
  "status": "ok"
 }
