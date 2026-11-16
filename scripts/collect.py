@@ -290,6 +290,15 @@ def query_events(report, events):
         data, e = http_json(f"{GAMMA}/events?slug={urllib.parse.quote(slug)}")
         got = False
         if e is None and isinstance(data, list) and data:
+            # 11-16诊断: ret=1但零行落地的谜底在这 — 记录closed标志与markets数
+            ev0 = data[0]
+            report["essential_slug_diag"] = report.get("essential_slug_diag", [])
+            report["essential_slug_diag"].append({
+                "slug": slug, "closed": bool(ev0.get("closed")),
+                "active": ev0.get("active"), "n_markets": len(ev0.get("markets") or []),
+                "mkts_closed": [bool(m.get("closed")) for m in (ev0.get("markets") or [])][:12],
+                "mkts_active": [m.get("active") for m in (ev0.get("markets") or [])][:12],
+            })
             for ev in data:
                 add_event(events, ev, f"slug:{slug}")
             got = True
