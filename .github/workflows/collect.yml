@@ -120,13 +120,19 @@ jobs:
               print('\n'.join(bad)); sys.exit(1)
           EOF
       - name: collect snapshots + markets.json
-        run: python3 scripts/collect.py --stage snap
+        run: |
+          python3 scripts/collect.py --stage snap
+          # 11-16瘦身: 只打包本轮touched文件。原path: data+state=整月目录,
+          # snap artifact实测1.13GB; 白名单后≈MB级。相对路径不变(commit合并语义不变)。
+          rm -rf /tmp/stage && mkdir -p /tmp/stage
+          git status --porcelain -- data state | awk '{print $NF}' | while read -r f; do
+            [ -f "$f" ] && install -Dm644 "$f" "/tmp/stage/$f"
+          done
+          echo "staged: $(find /tmp/stage -type f | wc -l) files, $(du -sh /tmp/stage | cut -f1)"
       - uses: actions/upload-artifact@v4
         with:
           name: pm-snap
-          path: |
-            data
-            state
+          path: /tmp/stage
           retention-days: 1
           if-no-files-found: warn
 
@@ -157,13 +163,17 @@ jobs:
         env:
           PINNACLE_KEY: ${{ secrets.PINNACLE_KEY }}
         run: python3 scripts/pinnacle_anchor_collect.py || echo "pinnacle failed (commit retries)"
+      - name: stage touched files (11-16瘦身, 含download来的snap件=union)
+        run: |
+          rm -rf /tmp/stage && mkdir -p /tmp/stage
+          git status --porcelain -- data state | awk '{print $NF}' | while read -r f; do
+            [ -f "$f" ] && install -Dm644 "$f" "/tmp/stage/$f"
+          done
+          echo "staged: $(find /tmp/stage -type f | wc -l) files, $(du -sh /tmp/stage | cut -f1)"
       - uses: actions/upload-artifact@v4
         with:
           name: pm-flow
-          path: |
-            data
-            state/seen_anomalies.json
-            state/last_run_report_flow.json
+          path: /tmp/stage
           retention-days: 1
           if-no-files-found: warn
 
@@ -178,10 +188,16 @@ jobs:
           fetch-depth: 1  # 11-15: 全量clone已撑爆6/8min job超时(run4812实测), 浅克隆秒级
       - name: collect side sources (Kalshi book / gated probes)
         run: python3 scripts/collect_side.py
+      - name: stage touched files (11-16瘦身)
+        run: |
+          rm -rf /tmp/stage && mkdir -p /tmp/stage
+          git status --porcelain -- data | awk '{print $NF}' | while read -r f; do
+            [ -f "$f" ] && install -Dm644 "$f" "/tmp/stage/$f"
+          done
       - uses: actions/upload-artifact@v4
         with:
           name: pm-side
-          path: data
+          path: /tmp/stage
           retention-days: 1
           if-no-files-found: warn
 
