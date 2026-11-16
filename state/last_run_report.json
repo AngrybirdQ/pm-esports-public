@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-16T18:59:11Z",
+ "ts": "2026-11-16T19:03:07Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -259,6 +259,12 @@
    "err": null
   },
   {
+   "url": "slug:worlds-2026-peak-viewership",
+   "ok": true,
+   "events_returned": 1,
+   "err": null
+  },
+  {
    "url": "global-scan",
    "ok": true,
    "events_returned": 0,
@@ -474,7 +480,7 @@
   "search:Worlds 2026": [
    {
     "t": "Worlds 2026: Peak Viewership",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Worlds 2026: Winner",
@@ -632,7 +638,6 @@
   "search:DreamLeague",
   "search:League of Legends",
   "search:Predator League",
-  "search:Worlds 2026",
   "slug:1win-essence-iii-winner",
   "slug:pgl-major-singapore-2026-winner-1793811600000"
  ],
@@ -899,18 +904,40 @@
     true,
     true
    ]
+  },
+  {
+   "slug": "worlds-2026-peak-viewership",
+   "closed": true,
+   "active": true,
+   "n_markets": 6,
+   "mkts_closed": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "mkts_active": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
   }
  ],
- "events": 8,
- "markets": 78,
+ "events": 7,
+ "markets": 72,
  "markets_dropped_by_volume_floor": 25,
- "day_file": "data/2026/11/2026-11-16T18.jsonl",
+ "day_file": "data/2026/11/2026-11-16T19.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 15,
  "trades_watchlist_markets": 14,
  "trades_collected": 1000,
  "anomalies_detected": 14,
- "anomalies_new": 14,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 29,
