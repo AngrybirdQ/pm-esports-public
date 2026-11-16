@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-16T15:21:44Z",
+ "ts": "2026-11-16T15:51:28Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -268,7 +268,7 @@
  "errors": [
   "global-scan: HTTP 406: HTTP Error 406: Not Acceptable"
  ],
- "stage": "snap",
+ "stage": "all",
  "tags_discovered": [
   "international-affairs"
  ],
@@ -283,16 +283,16 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Froglings vs LEGION (BO3) - 1win Essence Playoffs",
-    "closed": true
+    "t": "Dota 2: GamerLegion vs LGD Gaming (BO3) - 1win Essence Playoffs",
+    "closed": false
    },
    {
     "t": "Dota 2: LGD Gaming vs Team Spirit (BO3) - 1win Essence Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: GamerLegion vs LGD Gaming (BO3) - 1win Essence Playoffs",
-    "closed": false
+    "t": "Dota 2: Froglings vs LEGION (BO3) - 1win Essence Playoffs",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -467,7 +467,7 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Heroic vs FaZe (BO3) - PGL Cluj-Napoca: Closed Qualifi",
+    "t": "Counter-Strike: PARIVISION vs 100 Thieves (BO3) - PGL Cluj-Napoca: Clo",
     "closed": true
    }
   ],
@@ -503,16 +503,16 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Froglings vs LEGION (BO3) - 1win Essence Playoffs",
-    "closed": true
+    "t": "Dota 2: GamerLegion vs LGD Gaming (BO3) - 1win Essence Playoffs",
+    "closed": false
    },
    {
     "t": "Dota 2: LGD Gaming vs Team Spirit (BO3) - 1win Essence Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: GamerLegion vs LGD Gaming (BO3) - 1win Essence Playoffs",
-    "closed": false
+    "t": "Dota 2: Froglings vs LEGION (BO3) - 1win Essence Playoffs",
+    "closed": true
    }
   ],
   "search:DreamLeague": [
@@ -902,9 +902,18 @@
   }
  ],
  "events": 8,
- "markets": 79,
- "markets_dropped_by_volume_floor": 25,
+ "markets": 78,
+ "markets_dropped_by_volume_floor": 24,
  "day_file": "data/2026/11/2026-11-16T15.jsonl",
  "retention_removed_files": 0,
+ "trades_markets_queried": 16,
+ "trades_watchlist_markets": 13,
+ "trades_collected": 1000,
+ "anomalies_detected": 10,
+ "anomalies_new": 9,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 29,
+ "books_rows": 52,
  "status": "ok"
 }
