@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-16T20:57:14Z",
+ "ts": "2026-11-16T21:01:15Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -272,7 +272,6 @@
   }
  ],
  "errors": [
-  "API-DEPRECATED 8 urls: 404 https://clob.polymarket.com/book?token_id=72902454634741994266553200829543828152721822714597926472408443726977",
   "global-scan: HTTP 406: HTTP Error 406: Not Acceptable"
  ],
  "stage": "all",
@@ -537,7 +536,7 @@
    },
    {
     "t": "Dota 2: Zero Tenacity vs PlayTime (BO3) - DreamLeague Division 2 Playo",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: PuckChamp vs Nemiga Gaming (BO3) - DreamLeague Division 2 Play",
@@ -929,39 +928,19 @@
    ]
   }
  ],
- "events": 8,
- "markets": 71,
+ "events": 7,
+ "markets": 67,
  "markets_dropped_by_volume_floor": 28,
- "day_file": "data/2026/11/2026-11-16T20.jsonl",
+ "day_file": "data/2026/11/2026-11-16T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 15,
+ "trades_markets_queried": 14,
  "trades_watchlist_markets": 10,
  "trades_collected": 1000,
- "anomalies_detected": 2,
+ "anomalies_detected": 0,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "7290245463: HTTP 404 (api deprecated)",
-  "4180269915: HTTP 404 (api deprecated)",
-  "2507837457: HTTP 404 (api deprecated)",
-  "8311590024: HTTP 404 (api deprecated)",
-  "4407794215: HTTP 404 (api deprecated)",
-  "1006858724: HTTP 404 (api deprecated)",
-  "6339313743: HTTP 404 (api deprecated)",
-  "1021016216: HTTP 404 (api deprecated)"
- ],
- "books_markets": 24,
- "books_rows": 40,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=72902454634741994266553200829543828152721822714597926472408443726977",
-  "404 https://clob.polymarket.com/book?token_id=41802699155276803762545525481555277188314516067225314270344207676395",
-  "404 https://clob.polymarket.com/book?token_id=25078374578308344147522217919799307538000557336426363858878509593559",
-  "404 https://clob.polymarket.com/book?token_id=83115900244822449002857458204368131758624575010266251038325580256980",
-  "404 https://clob.polymarket.com/book?token_id=44077942155237047923159911616673457425589438862189088795067558794348",
-  "404 https://clob.polymarket.com/book?token_id=10068587246786762828566928819336364899323465281327506373710266991913",
-  "404 https://clob.polymarket.com/book?token_id=63393137431335915215618527124730379471460176570838161742177573850896",
-  "404 https://clob.polymarket.com/book?token_id=10210162168194214433253974143138628174616159155644310982359563224820"
- ]
+ "books_markets": 20,
+ "books_rows": 36,
+ "status": "ok"
 }
