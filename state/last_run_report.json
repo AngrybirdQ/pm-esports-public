@@ -1,8 +1,8 @@
 {
- "ts": "2026-11-16T08:19:16Z",
+ "ts": "2026-11-16T09:30:06Z",
  "sources": [
   {
-   "url": "/tags",
+   "url": "/tags?limit=500",
    "ok": true,
    "err": null
   },
@@ -149,10 +149,78 @@
    "ok": true,
    "events_returned": 5,
    "err": null
+  },
+  {
+   "url": "search:BLAST",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:ESL Challenger",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:PGL",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:Worlds 2026",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:1win Essence",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:DreamLeague",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:LCK",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:LPL",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:Predator League",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:Esports World Cup",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "global-scan",
+   "ok": true,
+   "events_returned": 0,
+   "err": null
   }
  ],
- "errors": [],
- "stage": "snap",
+ "errors": [
+  "global-scan: HTTP 406: HTTP Error 406: Not Acceptable"
+ ],
+ "stage": "all",
  "tags_discovered": [
   "international-affairs"
  ],
@@ -225,6 +293,14 @@
   ],
   "search:Valorant": [
    {
+    "t": "Valorant: TEC Esports vs LNG Esports (BO3) - China National Tournament",
+    "closed": false
+   },
+   {
+    "t": "Valorant: Young Gaming vs Unsettled Resentment (BO3) - China National ",
+    "closed": false
+   },
+   {
     "t": "Valorant: A Team vs SEC (BO3) - China National Tournament Split Omega:",
     "closed": false
    },
@@ -233,16 +309,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: Fancy United vs Original Gaming (BO3) - Asia Pacific Predato",
-    "closed": true
-   },
-   {
     "t": "Valorant: Hyper Tide Gaming vs FunPlus Phoenix (BO3) - China National ",
     "closed": false
-   },
-   {
-    "t": "Valorant: Ambitious Legend Gaming vs Qian Xing Gaming (BO3) - China Na",
-    "closed": true
    }
   ],
   "search:NBA": [
@@ -288,17 +356,275 @@
     "t": "The International 2026: Will Any Team Field a Stand-in?",
     "closed": true
    }
+  ],
+  "search:BLAST": [
+   {
+    "t": "BLAST Slam IX: Winner",
+    "closed": false
+   },
+   {
+    "t": "Any rug >$1m on Blast today?",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Team Falcons vs Lynn Vision (BO3) - BLAST Open Porto G",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Legacy vs FUT Esports (BO3) - BLAST Open Porto Group B",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: MOUZ vs Team Falcons (BO3) - BLAST Open Porto Group B",
+    "closed": true
+   }
+  ],
+  "search:ESL Challenger": [
+   {
+    "t": "Dota 2: Xtreme Gaming vs Vici Gaming (BO3) - ACL X ESL Challenger Chin",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: MOUZ NXT vs Misa Esports (BO3) - ESL Challenger League",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: FOKUS vs Alliance (BO3) - ESL Challenger League Europe",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: EXODIA vs Yawara Esports (BO3) - ESL Challenger League",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: ex-Keyd Stars vs Galorys (BO3) - ESL Challenger League",
+    "closed": true
+   }
+  ],
+  "search:PGL": [
+   {
+    "t": "PGL Astana 2026 Winner",
+    "closed": true
+   },
+   {
+    "t": "PGL Bucharest 2026 Winner",
+    "closed": true
+   },
+   {
+    "t": "PGL Wallachia Season 8 Winner",
+    "closed": true
+   },
+   {
+    "t": "PGL Wallachia Season 9: Winner",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Heroic vs FaZe (BO3) - PGL Cluj-Napoca: Closed Qualifi",
+    "closed": true
+   }
+  ],
+  "search:Worlds 2026": [
+   {
+    "t": "Worlds 2026: Peak Viewership",
+    "closed": false
+   },
+   {
+    "t": "Worlds 2026: Winner",
+    "closed": true
+   },
+   {
+    "t": "Worlds 2026 Winning Region",
+    "closed": true
+   },
+   {
+    "t": "Worlds 2026: Finals MVP",
+    "closed": true
+   },
+   {
+    "t": "Worlds 2026: Team to Make Grand Finals",
+    "closed": true
+   }
+  ],
+  "search:1win Essence": [
+   {
+    "t": "Dota 2: PARIVISION vs GamerLegion (BO3) - 1win Essence Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Aurora vs DO KONCA (BO3) - 1win Essence Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Froglings vs LEGION (BO3) - 1win Essence Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: LGD Gaming vs Team Spirit (BO3) - 1win Essence Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Froglings vs DO KONCA (BO3) - 1win Essence Playoffs",
+    "closed": false
+   }
+  ],
+  "search:DreamLeague": [
+   {
+    "t": "DreamLeague Season 29: Winner",
+    "closed": true
+   },
+   {
+    "t": "DreamLeague Season 29: Qualify to Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: HULIGANI vs CyberHero (BO3) - DreamLeague Division 2 Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: PuckChamp vs Team Synapse (BO3) - DreamLeague Division 2 Playo",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Nemiga Gaming vs InterActive Philippines (BO3) - DreamLeague D",
+    "closed": true
+   }
+  ],
+  "search:LCK": [
+   {
+    "t": "LCK 2026: To Make Season Playoffs",
+    "closed": true
+   },
+   {
+    "t": "LCK Rise Group Win Totals 2026 Rounds 3-4",
+    "closed": true
+   },
+   {
+    "t": "LoL: Hanwha Life Esports vs T1 (BO5) - LCK Playoffs",
+    "closed": true
+   },
+   {
+    "t": "LoL: Gen.G vs Hanwha Life Esports (BO5) - LCK Playoffs",
+    "closed": true
+   },
+   {
+    "t": "LoL: Hanwha Life Esports vs T1 (BO5) - LCK Playoffs",
+    "closed": true
+   }
+  ],
+  "search:LPL": [
+   {
+    "t": "LoL: Invictus Gaming vs JD Gaming (BO5) - LPL Regional Finals Playoffs",
+    "closed": true
+   },
+   {
+    "t": "LoL: Anyone's Legend vs Invictus Gaming (BO5) - LPL Playoffs",
+    "closed": true
+   },
+   {
+    "t": "LoL: Top Esports vs Invictus Gaming (BO5) - LPL Regional Finals Playof",
+    "closed": true
+   },
+   {
+    "t": "LoL: Bilibili Gaming vs Anyone's Legend (BO5) - LPL Playoffs",
+    "closed": true
+   },
+   {
+    "t": "LoL: Top Esports vs LGD Gaming (BO5) - LPL Playoffs",
+    "closed": true
+   }
+  ],
+  "search:Predator League": [
+   {
+    "t": "Valorant: Fancy United vs Original Gaming (BO3) - Asia Pacific Predato",
+    "closed": true
+   },
+   {
+    "t": "Valorant: Alter Ego x Kertanegara vs Seventh Letter Gaming (BO3) - Asi",
+    "closed": true
+   },
+   {
+    "t": "Valorant: BOOM Esports vs Hertz Esport (BO3) - Asia Pacific Predator L",
+    "closed": true
+   },
+   {
+    "t": "Valorant: 雨のち晴れ vs Team Z (BO5) - Asia Pacific Predator League Japan P",
+    "closed": true
+   },
+   {
+    "t": "Valorant: Team SEIBI vs FA CLUB (BO3) - Asia Pacific Predator League J",
+    "closed": true
+   }
+  ],
+  "search:Esports World Cup": [
+   {
+    "t": "LoL: Karmine Corp vs Dplus KIA (BO5) - Esports World Cup Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: FURIA vs FUT Esports (BO3) - Esports World Cup Playoff",
+    "closed": true
+   },
+   {
+    "t": "LoL: T1 vs Gen.G (BO3) - Esports World Cup Playoffs",
+    "closed": true
+   },
+   {
+    "t": "LoL: Gen.G vs Dplus KIA (BO3) - Esports World Cup Playoffs",
+    "closed": true
+   },
+   {
+    "t": "LoL: T1 vs Karmine Corp (BO3) - Esports World Cup Playoffs",
+    "closed": true
+   }
   ]
  },
  "winning_sources": [
+  "search:1win Essence",
+  "search:BLAST",
   "search:League of Legends",
-  "search:Valorant"
+  "search:Valorant",
+  "search:Worlds 2026"
  ],
- "n_event_queries": 24,
- "events": 3,
- "markets": 28,
- "markets_dropped_by_volume_floor": 5,
- "day_file": "data/2026/11/2026-11-16T08.jsonl",
+ "n_event_queries": 34,
+ "events": 8,
+ "markets": 45,
+ "markets_dropped_by_volume_floor": 23,
+ "day_file": "data/2026/11/2026-11-16T09.jsonl",
  "retention_removed_files": 131,
+ "trades_markets_queried": 5,
+ "trades_watchlist_markets": 3,
+ "trades_collected": 167,
+ "anomalies_detected": 0,
+ "anomalies_new": 0,
+ "history_debug": [
+  {
+   "cid": "0xd2b9aec4",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x1762303c",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x7c093f3f",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x99d95137",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x4f55a250",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 5,
+ "books_markets": 23,
+ "books_rows": 24,
  "status": "ok"
 }
