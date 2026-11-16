@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-16T17:08:18Z",
+ "ts": "2026-11-16T17:12:03Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -511,8 +511,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Froglings vs LEGION (BO3) - 1win Essence Playoffs",
-    "closed": true
+    "t": "Dota 2: PARIVISION vs Team Spirit (BO3) - 1win Essence Playoffs",
+    "closed": false
    }
   ],
   "search:DreamLeague": [
@@ -627,6 +627,7 @@
   ]
  },
  "winning_sources": [
+  "search:1win Essence",
   "search:BLAST",
   "search:Dota 2",
   "search:DreamLeague",
@@ -902,18 +903,24 @@
    ]
   }
  ],
- "events": 10,
- "markets": 85,
+ "events": 11,
+ "markets": 90,
  "markets_dropped_by_volume_floor": 25,
  "day_file": "data/2026/11/2026-11-16T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 19,
+ "trades_markets_queried": 20,
  "trades_watchlist_markets": 15,
  "trades_collected": 1000,
  "anomalies_detected": 11,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0xa935724e",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 31,
  "books_rows": 46,
  "status": "ok"
