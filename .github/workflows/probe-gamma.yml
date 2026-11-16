@@ -1,0 +1,38 @@
+name: probe-gamma
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: gamma probes
+        run: |
+          set -e
+          echo "=== /events?slug=worlds-2026-winner ==="
+          curl -s "https://gamma-api.polymarket.com/events?slug=worlds-2026-winner" | python3 -c "
+import json,sys
+d = json.load(sys.stdin)
+for ev in (d if isinstance(d, list) else [d]):
+    print('title:', ev.get('title'), '| closed:', ev.get('closed'), '| active:', ev.get('active'))
+    for m in (ev.get('markets') or [])[:8]:
+        print('   mkt:', (m.get('question') or '')[:60], '| closed:', m.get('closed'), '| active:', m.get('active'), '| vol24:', m.get('volume24hr'))
+"
+          echo "=== /events?slug=blast-rivals-hong-kong-2026-winner-1793811600000 ==="
+          curl -s "https://gamma-api.polymarket.com/events?slug=blast-rivals-hong-kong-2026-winner-1793811600000" | python3 -c "
+import json,sys
+d = json.load(sys.stdin)
+for ev in (d if isinstance(d, list) else [d]):
+    print('title:', ev.get('title'), '| closed:', ev.get('closed'), '| active:', ev.get('active'))
+    for m in (ev.get('markets') or [])[:8]:
+        print('   mkt:', (m.get('question') or '')[:60], '| closed:', m.get('closed'), '| active:', m.get('active'), '| vol24:', m.get('volume24hr'))
+"
+          echo "=== public-search Worlds 2026 (titles+closed) ==="
+          curl -s "https://gamma-api.polymarket.com/public-search?q=Worlds%202026&limit=20" | python3 -c "
+import json,sys
+d = json.load(sys.stdin)
+for ev in (d.get('events') or []):
+    print('  ', ev.get('title'), '| closed:', ev.get('closed'), '| slug:', ev.get('slug'))
+"
