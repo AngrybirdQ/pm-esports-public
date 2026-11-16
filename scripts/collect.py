@@ -37,6 +37,23 @@ SEARCH_KEYWORDS = ["Dota 2", "Counter-Strike", "League of Legends", "Valorant", 
                    # 扩词覆盖赛事品牌词(期货族BLAST/Worlds/PGL等原本靠tag通道)
                    "BLAST", "ESL Challenger", "PGL", "Worlds 2026", "1win Essence",
                    "DreamLeague", "LCK", "LPL", "Predator League", "Esports World Cup"]
+
+# 11-16: 关键期货盘slug钉死 — gamma tag通道406后search相关性与closed污染
+# 会漏掉低24h量的Winner盘(实测: Slam IX/Peak Viewership回流但
+# Worlds/BLAST HK/1win/PGL/LCP Winner盘缺席), 逐slug精确拉取保底。
+ESSENTIAL_EVENT_SLUGS = [
+    "worlds-2026-winner",
+    "blast-rivals-hong-kong-2026-winner-1793811600000",
+    "1win-essence-iii-winner",
+    "blast-slam-ix-winner",
+    "which-teams-will-qualify-for-lcp-2027",
+    "which-teams-will-qualify-to-pgl-major-singapore-2026",
+    "pgl-major-singapore-2026-winner-1793811600000",
+    "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
+    "most-banned-champion-at-worlds-2026",
+    "most-played-champion-at-worlds-2026",
+    "worlds-2026-peak-viewership",
+]
 # Volume floor: the long tail of zero-liquidity match markets is noise for
 # CLV work. Keep a market if it cleared either bar.
 MIN_VOLUME_24H = 100.0
@@ -202,8 +219,8 @@ def query_events(report, events):
             report["errors"].append("query budget exhausted; remaining sources skipped")
             break
         if label.startswith("search:"):
-            # 11-16: 默认limit只有5条, 补limit+翻页
-            url = f"{GAMMA}/public-search?{qs}&limit=100"
+            # 11-16: 默认limit只有5条; 结果被closed事件占坑 → 前置closed=false
+            url = f"{GAMMA}/public-search?{qs}&limit=100&closed=false"
         elif label.startswith("global-scan"):
             url = (f"{GAMMA}/events?{qs}")
         else:
@@ -221,8 +238,10 @@ def query_events(report, events):
                 fetch_url = f"{url}&offset={offset}"
             data, e = http_json(fetch_url)
             if e is not None and label.startswith("search:") and offset == 0:
-                # 11-16: limit参数万一被拒(406族), 回退无limit原版
-                data, e = http_json(f"{GAMMA}/public-search?{qs}")
+                # 11-16: closed=false/limit参数万一被拒(406族), 逐级回退
+                data, e = http_json(f"{GAMMA}/public-search?{qs}&limit=100")
+                if e is not None:
+                    data, e = http_json(f"{GAMMA}/public-search?{qs}")
             if e is not None:
                 ok, err = False, e
                 break
@@ -259,6 +278,36 @@ def query_events(report, events):
         if label.startswith("tag_") and ok and total:
             tag_ok_events += total
     report["n_event_queries"] = n_query
+    # 11-16: 钉死slug通道 — search漏掉的Winner盘逐slug精确拉
+    for slug in ESSENTIAL_EVENT_SLUGS:
+        if n_query >= MAX_EVENT_QUERIES:
+            report["errors"].append("budget exhausted before essential slugs")
+            break
+        if any(str(entry["ev"].get("slug")) == slug for entry in events.values()):
+            continue
+        added_before = len(events)
+        n_query += 1
+        data, e = http_json(f"{GAMMA}/events?slug={urllib.parse.quote(slug)}")
+        got = False
+        if e is None and isinstance(data, list) and data:
+            for ev in data:
+                add_event(events, ev, f"slug:{slug}")
+            got = True
+        else:
+            data2, e2 = http_json(
+                f"{GAMMA}/public-search?q={urllib.parse.quote(slug)}&limit=20")
+            if e2 is None and isinstance(data2, dict):
+                for ev in (data2.get("events") or []):
+                    if str(ev.get("slug")) == slug:
+                        add_event(events, ev, f"slug:{slug}")
+                        got = True
+        report["sources"].append({"url": f"slug:{slug}", "ok": got,
+                                  "events_returned": len(data) if isinstance(data, list) else 0,
+                                  "err": None if got else e})
+        if len(events) > added_before:
+            merged = set(report.get("winning_sources", [])) | {f"slug:{slug}"}
+            report["winning_sources"] = sorted(merged)
+
     # tag通道全灭(如406) → 预算允许时补全局扫描
     if TAG_FALLBACK and tag_ok_events == 0 and n_query < MAX_EVENT_QUERIES:
         queries2 = [("global-scan", "active=true&closed=false&order=volume24hr"
