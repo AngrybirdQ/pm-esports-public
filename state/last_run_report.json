@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-16T13:02:27Z",
+ "ts": "2026-11-16T13:53:16Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -275,23 +275,23 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Aurora vs DO KONCA (BO3) - 1win Essence Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Froglings vs DO KONCA (BO3) - 1win Essence Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Aurora vs DO KONCA (BO3) - 1win Essence Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: Froglings vs LEGION (BO3) - 1win Essence Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs GamerLegion (BO3) - 1win Essence Playoffs",
+    "t": "Dota 2: LGD Gaming vs Team Spirit (BO3) - 1win Essence Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: LGD Gaming vs Team Spirit (BO3) - 1win Essence Playoffs",
+    "t": "Dota 2: PARIVISION vs GamerLegion (BO3) - 1win Essence Playoffs",
     "closed": true
    }
   ],
@@ -495,23 +495,23 @@
   ],
   "search:1win Essence": [
    {
-    "t": "Dota 2: Aurora vs DO KONCA (BO3) - 1win Essence Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Froglings vs DO KONCA (BO3) - 1win Essence Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Aurora vs DO KONCA (BO3) - 1win Essence Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: Froglings vs LEGION (BO3) - 1win Essence Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs GamerLegion (BO3) - 1win Essence Playoffs",
+    "t": "Dota 2: LGD Gaming vs Team Spirit (BO3) - 1win Essence Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: LGD Gaming vs Team Spirit (BO3) - 1win Essence Playoffs",
+    "t": "Dota 2: PARIVISION vs GamerLegion (BO3) - 1win Essence Playoffs",
     "closed": true
    }
   ],
@@ -533,8 +533,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PuckChamp vs Team Synapse (BO3) - DreamLeague Division 2 Playo",
-    "closed": true
+    "t": "Dota 2: Zero Tenacity vs PlayTime (BO3) - DreamLeague Division 2 Playo",
+    "closed": false
    }
   ],
   "search:LCK": [
@@ -629,6 +629,7 @@
  "winning_sources": [
   "search:BLAST",
   "search:Dota 2",
+  "search:DreamLeague",
   "search:League of Legends",
   "search:Predator League",
   "search:Worlds 2026",
@@ -900,19 +901,25 @@
    ]
   }
  ],
- "events": 7,
- "markets": 73,
- "markets_dropped_by_volume_floor": 23,
+ "events": 8,
+ "markets": 77,
+ "markets_dropped_by_volume_floor": 24,
  "day_file": "data/2026/11/2026-11-16T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 38,
- "trades_watchlist_markets": 6,
- "trades_collected": 1643,
- "anomalies_detected": 4,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_markets_queried": 41,
+ "trades_watchlist_markets": 9,
+ "trades_collected": 1017,
+ "anomalies_detected": 2,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0xc0559bd9",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 56,
- "books_rows": 86,
+ "books_rows": 84,
  "status": "ok"
 }
