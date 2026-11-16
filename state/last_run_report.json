@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-16T14:04:59Z",
+ "ts": "2026-11-16T14:09:08Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -276,7 +276,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: Froglings vs DO KONCA (BO3) - 1win Essence Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Aurora vs DO KONCA (BO3) - 1win Essence Playoffs",
@@ -496,7 +496,7 @@
   "search:1win Essence": [
    {
     "t": "Dota 2: Froglings vs DO KONCA (BO3) - 1win Essence Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Aurora vs DO KONCA (BO3) - 1win Essence Playoffs",
@@ -511,8 +511,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs GamerLegion (BO3) - 1win Essence Playoffs",
-    "closed": true
+    "t": "Dota 2: GamerLegion vs LGD Gaming (BO3) - 1win Essence Playoffs",
+    "closed": false
    }
   ],
   "search:DreamLeague": [
@@ -627,8 +627,8 @@
   ]
  },
  "winning_sources": [
+  "search:1win Essence",
   "search:BLAST",
-  "search:Dota 2",
   "search:DreamLeague",
   "search:League of Legends",
   "search:Predator League",
@@ -902,18 +902,24 @@
   }
  ],
  "events": 8,
- "markets": 75,
- "markets_dropped_by_volume_floor": 26,
+ "markets": 77,
+ "markets_dropped_by_volume_floor": 25,
  "day_file": "data/2026/11/2026-11-16T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 41,
+ "trades_markets_queried": 45,
  "trades_watchlist_markets": 9,
- "trades_collected": 1010,
- "anomalies_detected": 2,
+ "trades_collected": 1600,
+ "anomalies_detected": 0,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 56,
- "books_rows": 84,
+ "history_debug": [
+  {
+   "cid": "0x7e79036e",
+   "pts": 1,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 52,
+ "books_rows": 88,
  "status": "ok"
 }
