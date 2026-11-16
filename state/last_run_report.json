@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-16T22:01:12Z",
+ "ts": "2026-11-16T22:52:12Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -218,12 +218,6 @@
   },
   {
    "url": "slug:blast-rivals-hong-kong-2026-winner-1793811600000",
-   "ok": true,
-   "events_returned": 1,
-   "err": null
-  },
-  {
-   "url": "slug:1win-essence-iii-winner",
    "ok": true,
    "events_returned": 1,
    "err": null
@@ -517,8 +511,8 @@
     "closed": false
    },
    {
-    "t": "Dota 2: LGD Gaming vs Team Spirit (BO3) - 1win Essence Playoffs",
-    "closed": true
+    "t": "1win Essence III: Winner",
+    "closed": false
    }
   ],
   "search:DreamLeague": [
@@ -633,12 +627,12 @@
   ]
  },
  "winning_sources": [
+  "search:1win Essence",
   "search:BLAST",
   "search:Dota 2",
   "search:DreamLeague",
   "search:League of Legends",
   "search:Predator League",
-  "slug:1win-essence-iii-winner",
   "slug:pgl-major-singapore-2026-winner-1793811600000"
  ],
  "n_event_queries": 34,
@@ -695,40 +689,6 @@
     true,
     true,
     true
-   ],
-   "mkts_active": [
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    false,
-    false,
-    false,
-    false
-   ]
-  },
-  {
-   "slug": "1win-essence-iii-winner",
-   "closed": false,
-   "active": true,
-   "n_markets": 14,
-   "mkts_closed": [
-    true,
-    false,
-    true,
-    true,
-    false,
-    false,
-    true,
-    false,
-    false,
-    false,
-    false,
-    false
    ],
    "mkts_active": [
     true,
@@ -929,18 +889,18 @@
   }
  ],
  "events": 7,
- "markets": 67,
+ "markets": 66,
  "markets_dropped_by_volume_floor": 27,
  "day_file": "data/2026/11/2026-11-16T22.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 16,
- "trades_watchlist_markets": 11,
+ "trades_markets_queried": 11,
+ "trades_watchlist_markets": 7,
  "trades_collected": 1000,
- "anomalies_detected": 7,
- "anomalies_new": 7,
+ "anomalies_detected": 10,
+ "anomalies_new": 10,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 20,
- "books_rows": 38,
+ "books_markets": 28,
+ "books_rows": 48,
  "status": "ok"
 }
