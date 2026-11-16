@@ -32,7 +32,11 @@ TAG_KEYWORDS = ("esport", "dota", "counter-strike", "cs2", "csgo", "valorant",
                 "league-of-legends", "starcraft", "rocket-league",
                 "international", "nba", "basketball")
 SEARCH_KEYWORDS = ["Dota 2", "Counter-Strike", "League of Legends", "Valorant", "NBA",
-                   "The International"]
+                   "The International",
+                   # 11-16: gamma tag_slug/tag_id 全406后(11-12起), search是主通道,
+                   # 扩词覆盖赛事品牌词(期货族BLAST/Worlds/PGL等原本靠tag通道)
+                   "BLAST", "ESL Challenger", "PGL", "Worlds 2026", "1win Essence",
+                   "DreamLeague", "LCK", "LPL", "Predator League", "Esports World Cup"]
 # Volume floor: the long tail of zero-liquidity match markets is noise for
 # CLV work. Keep a market if it cleared either bar.
 MIN_VOLUME_24H = 100.0
@@ -114,7 +118,8 @@ def fnum(v):
 def discover_tags(report):
     """Return [(slug, tag_id)] for tags that look esports-related."""
     found = []
-    for q in ("/tags", "/tags?limit=500"):
+    # 11-16: 先拉全量(裸 /tags 默认页无 esports slug, 原版首成功即break=白拉)
+    for q in ("/tags?limit=500", "/tags"):
         tags, err = http_json(GAMMA + q)
         report["sources"].append({"url": q, "ok": err is None, "err": err})
         if isinstance(tags, list) and tags:
@@ -146,6 +151,25 @@ def add_event(events, ev, source):
         events[eid] = {"_sources": {source}, "ev": ev}
 
 
+ESPORTS_TITLE_KEYWORDS = (
+    "counter-strike", "counter strike", "cs2", "csgo", "dota 2", "dota2",
+    "league of legends", "lol:", "lol ", "valorant", "starcraft",
+    "rocket league", "the international", "esports", "e-sports",
+    "blast", "esl ", "iem ", "pgl", "dreamleague", "1win", "lck", "lpl",
+    "lec", "vct", "predator league", "worlds 2026", "worlds:", "worlds ",
+    "esea", "chinapower", "power rankings", "challengers", "crossfire",
+    "hok", "king pro", "kpl", "moba", "fifaesports",
+)
+
+
+def esports_title_hit(ev):
+    """global-scan 白名单: 全站量序dump里只留电竞题(11-16 gamma tag通道406后)"""
+    if not isinstance(ev, dict):
+        return False
+    t = ((ev.get("title") or "") + " " + (ev.get("slug") or "")).lower()
+    return any(k in t for k in ESPORTS_TITLE_KEYWORDS)
+
+
 def query_events(report, events):
     tag_cands = discover_tags(report)
     report["tags_discovered"] = [s for s, _ in tag_cands]
@@ -160,17 +184,28 @@ def query_events(report, events):
         queries.append((f"tag_slug={slug}", f"tag_slug={urllib.parse.quote(slug)}"))
         if slug in tag_ids:
             queries.append((f"tag_id[{slug}]", f"tag_id={tag_ids[slug]}"))
+    # 11-16: gamma tag_slug/tag_id 参数已改406(11-12实测, futures断供根因)。
+    # 检测: 若无任何 tag 通道成功 → 启用 global-scan(全站量序翻页+标题白名单)
+    TAG_FALLBACK = os.environ.get("PM_GLOBAL_SCAN", "1") == "1"
     for kw in SEARCH_KEYWORDS:
         queries.append((f"search:{kw}",
                         "q=" + urllib.parse.quote(kw)))  # via public-search below
 
+    if TAG_FALLBACK and not tag_cands:
+        # /tags 都拿不到 esports tag 时直接上
+        queries.append(("global-scan", "active=true&closed=false&order=volume24hr"
+                        "&ascending=false&limit=100"))
     n_query = 0
+    tag_ok_events = 0
     for label, qs in queries:
         if n_query >= MAX_EVENT_QUERIES:
             report["errors"].append("query budget exhausted; remaining sources skipped")
             break
         if label.startswith("search:"):
-            url = f"{GAMMA}/public-search?{qs}"
+            # 11-16: 默认limit只有5条, 补limit+翻页
+            url = f"{GAMMA}/public-search?{qs}&limit=100"
+        elif label.startswith("global-scan"):
+            url = (f"{GAMMA}/events?{qs}")
         else:
             url = (f"{GAMMA}/events?{qs}&active=true&closed=false"
                    f"&limit=100&order=volume&ascending=false")
@@ -179,12 +214,15 @@ def query_events(report, events):
         pages = 0
         ok, err, total = True, None, 0
         offset = 0
-        while pages < 3:  # pagination only for /events tag queries
+        while pages < (6 if label.startswith("global-scan") else 3):
             if label.startswith("search:"):
                 fetch_url = url
             else:
                 fetch_url = f"{url}&offset={offset}"
             data, e = http_json(fetch_url)
+            if e is not None and label.startswith("search:") and offset == 0:
+                # 11-16: limit参数万一被拒(406族), 回退无limit原版
+                data, e = http_json(f"{GAMMA}/public-search?{qs}")
             if e is not None:
                 ok, err = False, e
                 break
@@ -201,6 +239,8 @@ def query_events(report, events):
                 ok, err = False, f"unexpected type {type(data).__name__}"
                 break
             for ev in data:
+                if label.startswith("global-scan") and not esports_title_hit(ev):
+                    continue
                 add_event(events, ev, label)
             total += len(data)
             if pages == 0 and data:
@@ -216,7 +256,38 @@ def query_events(report, events):
         if ok and len(events) > added_before:
             merged = set(report.get("winning_sources", [])) | {label}
             report["winning_sources"] = sorted(merged)
+        if label.startswith("tag_") and ok and total:
+            tag_ok_events += total
     report["n_event_queries"] = n_query
+    # tag通道全灭(如406) → 预算允许时补全局扫描
+    if TAG_FALLBACK and tag_ok_events == 0 and n_query < MAX_EVENT_QUERIES:
+        queries2 = [("global-scan", "active=true&closed=false&order=volume24hr"
+                     "&ascending=false&limit=100")]
+        for label, qs in queries2:
+            if n_query >= MAX_EVENT_QUERIES:
+                report["errors"].append("query budget exhausted before global-scan")
+                break
+            url = f"{GAMMA}/events?{qs}"
+            n_query += 1
+            added_before = len(events)
+            pages, offset, total = 0, 0, 0
+            while pages < 6:
+                data, e = http_json(f"{url}&offset={offset}")
+                if e is not None or not isinstance(data, list):
+                    report["errors"].append(f"global-scan: {e or 'bad type'}")
+                    break
+                for ev in data:
+                    if esports_title_hit(ev):
+                        add_event(events, ev, label)
+                total += len(data)
+                pages += 1
+                if len(data) < 100:
+                    break
+                offset += 100
+            report["sources"].append({"url": label, "ok": True, "events_returned": total, "err": None})
+            if len(events) > added_before:
+                merged = set(report.get("winning_sources", [])) | {label}
+                report["winning_sources"] = sorted(merged)
 
 
 def build_lines(events, ts):
