@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-17T16:35:01Z",
+ "ts": "2026-11-17T17:16:22Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -282,7 +282,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: LGD Gaming vs LEGION (BO3) - 1win Essence Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: LEGION vs Aurora (BO3) - 1win Essence Playoffs",
@@ -293,8 +293,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: GamerLegion vs LGD Gaming (BO3) - 1win Essence Playoffs",
-    "closed": true
+    "t": "Dota 2: Team Spirit vs Aurora (BO3) - 1win Essence Playoffs",
+    "closed": false
    },
    {
     "t": "Dota 2: PARIVISION vs Froglings (BO3) - 1win Essence Playoffs",
@@ -479,10 +479,6 @@
   ],
   "search:Worlds 2026": [
    {
-    "t": "Worlds 2026: Peak Viewership",
-    "closed": true
-   },
-   {
     "t": "Worlds 2026: Winner",
     "closed": true
    },
@@ -497,12 +493,16 @@
    {
     "t": "Worlds 2026: Team to Make Grand Finals",
     "closed": true
+   },
+   {
+    "t": "Most Kills at Worlds 2026",
+    "closed": true
    }
   ],
   "search:1win Essence": [
    {
     "t": "Dota 2: LGD Gaming vs LEGION (BO3) - 1win Essence Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: LEGION vs Aurora (BO3) - 1win Essence Playoffs",
@@ -513,8 +513,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: GamerLegion vs LGD Gaming (BO3) - 1win Essence Playoffs",
-    "closed": true
+    "t": "Dota 2: Team Spirit vs Aurora (BO3) - 1win Essence Playoffs",
+    "closed": false
    },
    {
     "t": "Dota 2: PARIVISION vs Froglings (BO3) - 1win Essence Playoffs",
@@ -531,15 +531,15 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Froglings vs Inner Circle (BO3) - DreamLeague Division 2 Playo",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Zero Tenacity vs PlayTime (BO3) - DreamLeague Division 2 Playo",
     "closed": true
    },
    {
     "t": "Dota 2: PuckChamp vs Nemiga Gaming (BO3) - DreamLeague Division 2 Play",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Froglings vs Inner Circle (BO3) - DreamLeague Division 2 Playo",
     "closed": true
    }
   ],
@@ -928,18 +928,18 @@
   }
  ],
  "events": 9,
- "markets": 67,
- "markets_dropped_by_volume_floor": 18,
- "day_file": "data/2026/11/2026-11-17T16.jsonl",
+ "markets": 69,
+ "markets_dropped_by_volume_floor": 17,
+ "day_file": "data/2026/11/2026-11-17T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 17,
+ "trades_markets_queried": 24,
  "trades_watchlist_markets": 11,
  "trades_collected": 1000,
  "anomalies_detected": 2,
- "anomalies_new": 0,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 23,
- "books_rows": 40,
+ "books_markets": 29,
+ "books_rows": 58,
  "status": "ok"
 }
