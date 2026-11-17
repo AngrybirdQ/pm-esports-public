@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-17T13:23:12Z",
+ "ts": "2026-11-17T13:27:56Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -364,7 +364,7 @@
    },
    {
     "t": "Valorant: LGD Gaming vs Havoc & Yonder (BO3) - China National Tourname",
-    "closed": false
+    "closed": true
    }
   ],
   "search:NBA": [
@@ -517,8 +517,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Froglings vs DO KONCA (BO3) - 1win Essence Playoffs",
-    "closed": true
+    "t": "Dota 2: LGD Gaming vs LEGION (BO3) - 1win Essence Playoffs",
+    "closed": false
    }
   ],
   "search:DreamLeague": [
@@ -633,6 +633,7 @@
   ]
  },
  "winning_sources": [
+  "search:1win Essence",
   "search:BLAST",
   "search:DreamLeague",
   "search:League of Legends",
@@ -928,18 +929,24 @@
   }
  ],
  "events": 8,
- "markets": 74,
- "markets_dropped_by_volume_floor": 20,
+ "markets": 76,
+ "markets_dropped_by_volume_floor": 19,
  "day_file": "data/2026/11/2026-11-17T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 44,
+ "trades_markets_queried": 46,
  "trades_watchlist_markets": 12,
- "trades_collected": 218,
- "anomalies_detected": 2,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_collected": 1123,
+ "anomalies_detected": 4,
+ "anomalies_new": 4,
+ "history_debug": [
+  {
+   "cid": "0xe5fe261c",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 57,
- "books_rows": 80,
+ "books_rows": 86,
  "status": "ok"
 }
