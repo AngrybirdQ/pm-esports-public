@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-17T12:35:34Z",
+ "ts": "2026-11-17T13:15:06Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -274,7 +274,7 @@
  "errors": [
   "global-scan: HTTP 406: HTTP Error 406: Not Acceptable"
  ],
- "stage": "snap",
+ "stage": "all",
  "tags_discovered": [
   "international-affairs"
  ],
@@ -293,11 +293,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Froglings vs DO KONCA (BO3) - 1win Essence Playoffs",
+    "t": "Dota 2: PARIVISION vs Froglings (BO3) - 1win Essence Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs Froglings (BO3) - 1win Essence Playoffs",
+    "t": "Dota 2: Froglings vs Inner Circle (BO3) - DreamLeague Division 2 Playo",
     "closed": true
    }
   ],
@@ -359,12 +359,12 @@
     "closed": false
    },
    {
-    "t": "Valorant: LGD Gaming vs Havoc & Yonder (BO3) - China National Tourname",
+    "t": "Valorant: Young Gaming vs Any Questions Gaming (BO3) - China National ",
     "closed": false
    },
    {
-    "t": "Valorant: Qian Xing Gaming vs A Team (BO3) - China National Tournament",
-    "closed": true
+    "t": "Valorant: LGD Gaming vs Havoc & Yonder (BO3) - China National Tourname",
+    "closed": false
    }
   ],
   "search:NBA": [
@@ -513,11 +513,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Froglings vs DO KONCA (BO3) - 1win Essence Playoffs",
+    "t": "Dota 2: PARIVISION vs Froglings (BO3) - 1win Essence Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs Froglings (BO3) - 1win Essence Playoffs",
+    "t": "Dota 2: Froglings vs DO KONCA (BO3) - 1win Essence Playoffs",
     "closed": true
    }
   ],
@@ -589,10 +589,6 @@
   ],
   "search:Predator League": [
    {
-    "t": "Valorant: Maxxing vs Oasis Gaming (BO5) - Asia Pacific Predator League",
-    "closed": false
-   },
-   {
     "t": "Valorant: Salamander vs NongKaiTod (BO3) - Asia Pacific Predator Leagu",
     "closed": true
    },
@@ -606,6 +602,10 @@
    },
    {
     "t": "Valorant: Ferix vs An Angel Anbandonned (BO3) - Asia Pacific Predator ",
+    "closed": true
+   },
+   {
+    "t": "Valorant: MeatZn vs CECIL (BO1) - Asia Pacific Predator League Oceania",
     "closed": true
    }
   ],
@@ -636,7 +636,6 @@
   "search:BLAST",
   "search:DreamLeague",
   "search:League of Legends",
-  "search:Predator League",
   "search:Valorant",
   "slug:1win-essence-iii-winner",
   "slug:pgl-major-singapore-2026-winner-1793811600000"
@@ -929,9 +928,24 @@
   }
  ],
  "events": 8,
- "markets": 70,
- "markets_dropped_by_volume_floor": 27,
- "day_file": "data/2026/11/2026-11-17T12.jsonl",
+ "markets": 74,
+ "markets_dropped_by_volume_floor": 20,
+ "day_file": "data/2026/11/2026-11-17T13.jsonl",
  "retention_removed_files": 0,
+ "trades_markets_queried": 44,
+ "trades_watchlist_markets": 12,
+ "trades_collected": 297,
+ "anomalies_detected": 0,
+ "anomalies_new": 0,
+ "history_debug": [
+  {
+   "cid": "0xee66e768",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 57,
+ "books_rows": 80,
  "status": "ok"
 }
