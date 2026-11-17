@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-17T15:52:49Z",
+ "ts": "2026-11-17T15:56:44Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -285,12 +285,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs Team Spirit (BO3) - 1win Essence Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: LGD Gaming vs LEGION (BO3) - 1win Essence Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: PARIVISION vs Team Spirit (BO3) - 1win Essence Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: GamerLegion vs LGD Gaming (BO3) - 1win Essence Playoffs",
@@ -457,23 +457,23 @@
   ],
   "search:PGL": [
    {
+    "t": "Counter-Strike: 9z vs Lynn Vision (BO1) - PGL Major Singapore Stage 1",
+    "closed": false
+   },
+   {
+    "t": "Counter-Strike: Liquid vs GOSH (BO1) - PGL Major Singapore Stage 1",
+    "closed": false
+   },
+   {
+    "t": "Counter-Strike: Eternal Fire vs FlyQuest (BO1) - PGL Major Singapore S",
+    "closed": false
+   },
+   {
+    "t": "Counter-Strike: FaZe vs Wildcard (BO1) - PGL Major Singapore Stage 1",
+    "closed": false
+   },
+   {
     "t": "PGL Astana 2026 Winner",
-    "closed": true
-   },
-   {
-    "t": "PGL Bucharest 2026 Winner",
-    "closed": true
-   },
-   {
-    "t": "PGL Wallachia Season 8 Winner",
-    "closed": true
-   },
-   {
-    "t": "PGL Wallachia Season 9: Winner",
-    "closed": true
-   },
-   {
-    "t": "Counter-Strike: fnatic vs 100 Thieves (BO3) - PGL Cluj-Napoca: Closed ",
     "closed": true
    }
   ],
@@ -505,12 +505,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs Team Spirit (BO3) - 1win Essence Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: LGD Gaming vs LEGION (BO3) - 1win Essence Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: PARIVISION vs Team Spirit (BO3) - 1win Essence Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: GamerLegion vs LGD Gaming (BO3) - 1win Essence Playoffs",
@@ -637,6 +637,7 @@
   "search:Dota 2",
   "search:DreamLeague",
   "search:League of Legends",
+  "search:PGL",
   "slug:1win-essence-iii-winner",
   "slug:pgl-major-singapore-2026-winner-1793811600000"
  ],
@@ -927,9 +928,9 @@
    ]
   }
  ],
- "events": 6,
- "markets": 69,
- "markets_dropped_by_volume_floor": 16,
+ "events": 10,
+ "markets": 70,
+ "markets_dropped_by_volume_floor": 19,
  "day_file": "data/2026/11/2026-11-17T15.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 17,
@@ -937,8 +938,14 @@
  "trades_collected": 1000,
  "anomalies_detected": 12,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "history_debug": [
+  {
+   "cid": "0xf953da23",
+   "pts": 11,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 26,
  "books_rows": 42,
  "status": "ok"
