@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-17T20:33:54Z",
+ "ts": "2026-11-17T21:37:33Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -285,16 +285,16 @@
     "closed": true
    },
    {
-    "t": "Dota 2: LEGION vs Aurora (BO3) - 1win Essence Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Spirit vs Aurora (BO3) - 1win Essence Playoffs",
     "closed": true
    },
    {
+    "t": "Dota 2: LEGION vs Aurora (BO3) - 1win Essence Playoffs",
+    "closed": true
+   },
+   {
     "t": "Dota 2: LGD Gaming vs PARIVISION (BO3) - 1win Essence Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: PARIVISION vs Froglings (BO3) - 1win Essence Playoffs",
@@ -505,16 +505,16 @@
     "closed": true
    },
    {
-    "t": "Dota 2: LEGION vs Aurora (BO3) - 1win Essence Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Spirit vs Aurora (BO3) - 1win Essence Playoffs",
     "closed": true
    },
    {
+    "t": "Dota 2: LEGION vs Aurora (BO3) - 1win Essence Playoffs",
+    "closed": true
+   },
+   {
     "t": "Dota 2: LGD Gaming vs PARIVISION (BO3) - 1win Essence Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: PARIVISION vs Froglings (BO3) - 1win Essence Playoffs",
@@ -532,15 +532,15 @@
    },
    {
     "t": "Dota 2: Froglings vs PlayTime (BO3) - DreamLeague Division 2 Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: PuckChamp vs Nemiga Gaming (BO3) - DreamLeague Division 2 Play",
     "closed": true
    },
    {
-    "t": "Dota 2: Zero Tenacity vs PlayTime (BO3) - DreamLeague Division 2 Playo",
-    "closed": true
+    "t": "Dota 2: CyberHero vs Inner Circle (BO3) - DreamLeague Division 2 Playo",
+    "closed": false
    }
   ],
   "search:LCK": [
@@ -634,7 +634,6 @@
  },
  "winning_sources": [
   "search:BLAST",
-  "search:Dota 2",
   "search:DreamLeague",
   "search:League of Legends",
   "search:PGL",
@@ -928,19 +927,25 @@
    ]
   }
  ],
- "events": 10,
- "markets": 70,
- "markets_dropped_by_volume_floor": 20,
- "day_file": "data/2026/11/2026-11-17T20.jsonl",
+ "events": 9,
+ "markets": 65,
+ "markets_dropped_by_volume_floor": 21,
+ "day_file": "data/2026/11/2026-11-17T21.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 17,
- "trades_watchlist_markets": 8,
- "trades_collected": 1000,
- "anomalies_detected": 2,
+ "trades_markets_queried": 9,
+ "trades_watchlist_markets": 3,
+ "trades_collected": 15,
+ "anomalies_detected": 0,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 22,
+ "history_debug": [
+  {
+   "cid": "0x3bfaa39d",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 20,
  "books_rows": 40,
  "status": "ok"
 }
