@@ -11,7 +11,7 @@ import json
 import os
 import sys
 import urllib.parse
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
@@ -169,6 +169,10 @@ def settle():
         st = parse_iso(m.get("start_time"))
         if st is None:
             continue
+        if st.tzinfo is None:
+            # 11-17修复: align lane新条目带naive北京钟面时间, aware-now相减即炸
+            # (TypeError: offset-naive/aware) → commit job全链被打断, 09:41Z起断供半天
+            st = st.replace(tzinfo=timezone(timedelta(hours=8)))
         age_h = (now - st).total_seconds() / 3600
         if age_h < FRESH_H or age_h > STALE_H:
             continue
