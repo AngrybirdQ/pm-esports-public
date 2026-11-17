@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-17T16:27:07Z",
+ "ts": "2026-11-17T16:31:03Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -540,7 +540,7 @@
    },
    {
     "t": "Dota 2: PuckChamp vs Nemiga Gaming (BO3) - DreamLeague Division 2 Play",
-    "closed": false
+    "closed": true
    }
   ],
   "search:LCK": [
@@ -635,7 +635,6 @@
  "winning_sources": [
   "search:BLAST",
   "search:Dota 2",
-  "search:DreamLeague",
   "search:League of Legends",
   "search:PGL",
   "slug:1win-essence-iii-winner",
@@ -928,19 +927,19 @@
    ]
   }
  ],
- "events": 10,
- "markets": 70,
- "markets_dropped_by_volume_floor": 19,
+ "events": 9,
+ "markets": 67,
+ "markets_dropped_by_volume_floor": 18,
  "day_file": "data/2026/11/2026-11-17T16.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 17,
  "trades_watchlist_markets": 11,
  "trades_collected": 1000,
  "anomalies_detected": 2,
- "anomalies_new": 0,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 26,
+ "books_markets": 23,
  "books_rows": 40,
  "status": "ok"
 }
