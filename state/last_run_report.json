@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-17T07:18:43Z",
+ "ts": "2026-11-17T07:55:55Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -274,7 +274,7 @@
  "errors": [
   "global-scan: HTTP 406: HTTP Error 406: Not Acceptable"
  ],
- "stage": "snap",
+ "stage": "all",
  "tags_discovered": [
   "international-affairs"
  ],
@@ -351,20 +351,20 @@
     "closed": true
    },
    {
+    "t": "Valorant: XJG vs Hyper Tide Gaming (BO3) - China National Tournament S",
+    "closed": false
+   },
+   {
     "t": "Valorant: TEC Esports vs LNG Esports (BO3) - China National Tournament",
     "closed": true
    },
    {
-    "t": "Valorant: XJG vs Hyper Tide Gaming (BO3) - China National Tournament S",
+    "t": "Valorant: Qian Xing Gaming vs A Team (BO3) - China National Tournament",
     "closed": false
    },
    {
     "t": "Valorant: Ambitious Legend Gaming vs KeepBest Gaming (BO3) - China Nat",
     "closed": false
-   },
-   {
-    "t": "Valorant: A Team vs SEC (BO3) - China National Tournament Split Omega:",
-    "closed": true
    }
   ],
   "search:NBA": [
@@ -929,10 +929,25 @@
    ]
   }
  ],
- "events": 9,
- "markets": 69,
- "markets_dropped_by_volume_floor": 33,
+ "events": 10,
+ "markets": 74,
+ "markets_dropped_by_volume_floor": 32,
  "day_file": "data/2026/11/2026-11-17T07.jsonl",
  "retention_removed_files": 0,
+ "trades_markets_queried": 19,
+ "trades_watchlist_markets": 9,
+ "trades_collected": 267,
+ "anomalies_detected": 2,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0x791403a6",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 29,
+ "books_rows": 50,
  "status": "ok"
 }
