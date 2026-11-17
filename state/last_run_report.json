@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-17T11:24:58Z",
+ "ts": "2026-11-17T12:35:34Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -274,7 +274,7 @@
  "errors": [
   "global-scan: HTTP 406: HTTP Error 406: Not Acceptable"
  ],
- "stage": "all",
+ "stage": "snap",
  "tags_discovered": [
   "international-affairs"
  ],
@@ -297,7 +297,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Froglings vs Inner Circle (BO3) - DreamLeague Division 2 Playo",
+    "t": "Dota 2: PARIVISION vs Froglings (BO3) - 1win Essence Playoffs",
     "closed": true
    }
   ],
@@ -355,16 +355,16 @@
     "closed": true
    },
    {
+    "t": "Valorant: TEC Esports vs Victory No Limits (BO3) - China National Tour",
+    "closed": false
+   },
+   {
     "t": "Valorant: LGD Gaming vs Havoc & Yonder (BO3) - China National Tourname",
     "closed": false
    },
    {
     "t": "Valorant: Qian Xing Gaming vs A Team (BO3) - China National Tournament",
     "closed": true
-   },
-   {
-    "t": "Valorant: TEC Esports vs Victory No Limits (BO3) - China National Tour",
-    "closed": false
    }
   ],
   "search:NBA": [
@@ -518,7 +518,7 @@
    },
    {
     "t": "Dota 2: PARIVISION vs Froglings (BO3) - 1win Essence Playoffs",
-    "closed": false
+    "closed": true
    }
   ],
   "search:DreamLeague": [
@@ -633,7 +633,6 @@
   ]
  },
  "winning_sources": [
-  "search:1win Essence",
   "search:BLAST",
   "search:DreamLeague",
   "search:League of Legends",
@@ -929,19 +928,10 @@
    ]
   }
  ],
- "events": 9,
- "markets": 72,
- "markets_dropped_by_volume_floor": 29,
- "day_file": "data/2026/11/2026-11-17T11.jsonl",
+ "events": 8,
+ "markets": 70,
+ "markets_dropped_by_volume_floor": 27,
+ "day_file": "data/2026/11/2026-11-17T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 23,
- "trades_watchlist_markets": 17,
- "trades_collected": 1000,
- "anomalies_detected": 6,
- "anomalies_new": 4,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 25,
- "books_rows": 48,
  "status": "ok"
 }
