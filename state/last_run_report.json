@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-17T18:32:09Z",
+ "ts": "2026-11-17T19:15:59Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -289,12 +289,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs Team Spirit (BO3) - 1win Essence Playoffs",
+    "t": "Dota 2: Team Spirit vs Aurora (BO3) - 1win Essence Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs Aurora (BO3) - 1win Essence Playoffs",
-    "closed": false
+    "t": "Dota 2: PARIVISION vs Team Spirit (BO3) - 1win Essence Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: PARIVISION vs Froglings (BO3) - 1win Essence Playoffs",
@@ -509,12 +509,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs Team Spirit (BO3) - 1win Essence Playoffs",
+    "t": "Dota 2: Team Spirit vs Aurora (BO3) - 1win Essence Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs Aurora (BO3) - 1win Essence Playoffs",
-    "closed": false
+    "t": "Dota 2: PARIVISION vs Team Spirit (BO3) - 1win Essence Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: PARIVISION vs Froglings (BO3) - 1win Essence Playoffs",
@@ -634,7 +634,6 @@
  },
  "winning_sources": [
   "search:BLAST",
-  "search:Dota 2",
   "search:DreamLeague",
   "search:League of Legends",
   "search:PGL",
@@ -928,19 +927,19 @@
    ]
   }
  ],
- "events": 10,
- "markets": 71,
+ "events": 9,
+ "markets": 67,
  "markets_dropped_by_volume_floor": 20,
- "day_file": "data/2026/11/2026-11-17T18.jsonl",
+ "day_file": "data/2026/11/2026-11-17T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 21,
- "trades_watchlist_markets": 9,
- "trades_collected": 1006,
- "anomalies_detected": 11,
- "anomalies_new": 0,
+ "trades_markets_queried": 18,
+ "trades_watchlist_markets": 5,
+ "trades_collected": 1000,
+ "anomalies_detected": 2,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 28,
- "books_rows": 54,
+ "books_markets": 27,
+ "books_rows": 52,
  "status": "ok"
 }
