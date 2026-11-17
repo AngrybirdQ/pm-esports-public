@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-17T17:39:11Z",
+ "ts": "2026-11-17T17:42:55Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -539,8 +539,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Froglings vs Inner Circle (BO3) - DreamLeague Division 2 Playo",
-    "closed": true
+    "t": "Dota 2: Froglings vs PlayTime (BO3) - DreamLeague Division 2 Playoffs",
+    "closed": false
    }
   ],
   "search:LCK": [
@@ -635,6 +635,7 @@
  "winning_sources": [
   "search:BLAST",
   "search:Dota 2",
+  "search:DreamLeague",
   "search:League of Legends",
   "search:PGL",
   "slug:1win-essence-iii-winner",
@@ -927,18 +928,24 @@
    ]
   }
  ],
- "events": 9,
- "markets": 69,
- "markets_dropped_by_volume_floor": 17,
+ "events": 10,
+ "markets": 72,
+ "markets_dropped_by_volume_floor": 20,
  "day_file": "data/2026/11/2026-11-17T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 26,
+ "trades_markets_queried": 27,
  "trades_watchlist_markets": 11,
- "trades_collected": 1033,
+ "trades_collected": 1039,
  "anomalies_detected": 0,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "history_debug": [
+  {
+   "cid": "0x93e70549",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 29,
  "books_rows": 56,
  "status": "ok"
