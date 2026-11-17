@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-17T09:56:44Z",
+ "ts": "2026-11-17T10:36:12Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -274,7 +274,7 @@
  "errors": [
   "global-scan: HTTP 406: HTTP Error 406: Not Acceptable"
  ],
- "stage": "snap",
+ "stage": "all",
  "tags_discovered": [
   "international-affairs"
  ],
@@ -355,16 +355,16 @@
     "closed": true
    },
    {
-    "t": "Valorant: Qian Xing Gaming vs A Team (BO3) - China National Tournament",
-    "closed": true
-   },
-   {
     "t": "Valorant: LGD Gaming vs Havoc & Yonder (BO3) - China National Tourname",
     "closed": false
    },
    {
-    "t": "Valorant: LGD Gaming vs Any Questions Gaming (BO3) - China National To",
+    "t": "Valorant: Qian Xing Gaming vs A Team (BO3) - China National Tournament",
     "closed": true
+   },
+   {
+    "t": "Valorant: TEC Esports vs Victory No Limits (BO3) - China National Tour",
+    "closed": false
    }
   ],
   "search:NBA": [
@@ -929,10 +929,25 @@
    ]
   }
  ],
- "events": 9,
- "markets": 74,
- "markets_dropped_by_volume_floor": 28,
- "day_file": "data/2026/11/2026-11-17T09.jsonl",
+ "events": 10,
+ "markets": 76,
+ "markets_dropped_by_volume_floor": 30,
+ "day_file": "data/2026/11/2026-11-17T10.jsonl",
  "retention_removed_files": 0,
+ "trades_markets_queried": 22,
+ "trades_watchlist_markets": 17,
+ "trades_collected": 715,
+ "anomalies_detected": 3,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0x15de0fdb",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 29,
+ "books_rows": 48,
  "status": "ok"
 }
