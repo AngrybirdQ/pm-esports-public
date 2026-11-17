@@ -236,22 +236,46 @@ jobs:
           gh run download ${{ github.run_id }} -n pm-side -D /tmp/af/re-side && cp -a /tmp/af/re-side/. . || true
         env:
           GH_TOKEN: ${{ github.token }}
+      # 11-17容错化: 四步研究/守卫类脚本单步失败不再打断commit链
+      # (twin scan的naive时间炸曾把全链打断半天, 09:41Z起零产出)。
+      # 每步记id, 失败由下方digest步骤汇总推wecom; 数据照常commit。
       - name: twin scan + pm settlement backfill (gamma reachable)
+        id: twin
+        continue-on-error: true
         run: python3 scripts/twin_and_settle.py
       - name: arbitrage scan (pm x Kalshi + internal consistency)
+        id: arb
+        continue-on-error: true
         run: python3 scripts/arb_scan.py
       - name: pm price-history backfill (research fuel)
+        id: phb
+        continue-on-error: true
         run: python3 scripts/price_history_backfill.py
       - name: data integrity guard
+        id: guard
+        continue-on-error: true
         env:
           WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
         run: python3 scripts/data_guard.py
       - name: sensor sentinel (silent-death guard)
+        id: sensor
+        continue-on-error: true
         env:
           WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
         run: python3 scripts/sensor_sentinel.py
       - name: channel probe
+        id: chan
+        continue-on-error: true
         run: python3 scripts/channel_probe.py
+      - name: digest step failures -> wecom
+        if: steps.twin.outcome == 'failure' || steps.arb.outcome == 'failure' || steps.phb.outcome == 'failure' || steps.guard.outcome == 'failure' || steps.sensor.outcome == 'failure' || steps.chan.outcome == 'failure'
+        env:
+          WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+        run: |
+          MSG="commit-job step failure: twin=${{ steps.twin.outcome }} arb=${{ steps.arb.outcome }} phb=${{ steps.phb.outcome }} guard=${{ steps.guard.outcome }} sensor=${{ steps.sensor.outcome }} chan=${{ steps.chan.outcome }} (run ${{ github.run_id }})"
+          echo "STEP-FAILURES: $MSG"
+          curl -s -X POST "$WECOM_WEBHOOK" -H 'Content-Type: application/json' \
+            -d "{\"msgtype\":\"text\",\"text\":{\"content\":\"[pm-esports] $MSG\"}}" || echo "wecom push failed"
       - name: commit (single writer — no race)
         run: |
           git config user.name "pm-esports-collector"
