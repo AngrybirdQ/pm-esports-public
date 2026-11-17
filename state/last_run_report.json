@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-17T14:05:52Z",
+ "ts": "2026-11-17T14:17:27Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -293,12 +293,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs Froglings (BO3) - 1win Essence Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: LGD Gaming vs LEGION (BO3) - 1win Essence Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: PARIVISION vs Froglings (BO3) - 1win Essence Playoffs",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -356,11 +356,11 @@
    },
    {
     "t": "Valorant: TEC Esports vs Victory No Limits (BO3) - China National Tour",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Young Gaming vs Any Questions Gaming (BO3) - China National ",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: LGD Gaming vs Havoc & Yonder (BO3) - China National Tourname",
@@ -513,12 +513,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs Froglings (BO3) - 1win Essence Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: LGD Gaming vs LEGION (BO3) - 1win Essence Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: PARIVISION vs Froglings (BO3) - 1win Essence Playoffs",
+    "closed": true
    }
   ],
   "search:DreamLeague": [
@@ -637,7 +637,6 @@
   "search:Dota 2",
   "search:DreamLeague",
   "search:League of Legends",
-  "search:Valorant",
   "slug:1win-essence-iii-winner",
   "slug:pgl-major-singapore-2026-winner-1793811600000"
  ],
@@ -928,19 +927,19 @@
    ]
   }
  ],
- "events": 8,
- "markets": 78,
- "markets_dropped_by_volume_floor": 18,
+ "events": 6,
+ "markets": 71,
+ "markets_dropped_by_volume_floor": 17,
  "day_file": "data/2026/11/2026-11-17T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 49,
- "trades_watchlist_markets": 12,
- "trades_collected": 1479,
- "anomalies_detected": 2,
- "anomalies_new": 2,
+ "trades_markets_queried": 28,
+ "trades_watchlist_markets": 18,
+ "trades_collected": 1124,
+ "anomalies_detected": 8,
+ "anomalies_new": 8,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 59,
- "books_rows": 88,
+ "books_markets": 24,
+ "books_rows": 46,
  "status": "ok"
 }
