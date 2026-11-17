@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-17T19:56:44Z",
+ "ts": "2026-11-17T20:00:23Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -297,7 +297,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: LGD Gaming vs PARIVISION (BO3) - 1win Essence Playoffs",
+    "t": "Dota 2: Froglings vs PlayTime (BO3) - DreamLeague Division 2 Playoffs",
     "closed": false
    }
   ],
@@ -517,8 +517,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: LGD Gaming vs PARIVISION (BO3) - 1win Essence Playoffs",
-    "closed": false
+    "t": "Dota 2: PARIVISION vs Team Spirit (BO3) - 1win Essence Playoffs",
+    "closed": true
    }
   ],
   "search:DreamLeague": [
@@ -635,7 +635,6 @@
  "winning_sources": [
   "search:BLAST",
   "search:Dota 2",
-  "search:DreamLeague",
   "search:League of Legends",
   "search:PGL",
   "slug:1win-essence-iii-winner",
@@ -928,25 +927,19 @@
    ]
   }
  ],
- "events": 10,
- "markets": 72,
+ "events": 9,
+ "markets": 67,
  "markets_dropped_by_volume_floor": 19,
- "day_file": "data/2026/11/2026-11-17T19.jsonl",
+ "day_file": "data/2026/11/2026-11-17T20.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 21,
+ "trades_markets_queried": 17,
  "trades_watchlist_markets": 5,
- "trades_collected": 1064,
+ "trades_collected": 1000,
  "anomalies_detected": 4,
- "anomalies_new": 0,
- "history_debug": [
-  {
-   "cid": "0x5b36303d",
-   "pts": 1,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
+ "anomalies_new": 4,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 26,
- "books_rows": 46,
+ "books_rows": 48,
  "status": "ok"
 }
