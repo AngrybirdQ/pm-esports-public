@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-17T01:39:56Z",
+ "ts": "2026-11-17T03:01:43Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -223,6 +223,12 @@
    "err": null
   },
   {
+   "url": "slug:1win-essence-iii-winner",
+   "ok": true,
+   "events_returned": 1,
+   "err": null
+  },
+  {
    "url": "slug:which-teams-will-qualify-for-lcp-2027",
    "ok": true,
    "events_returned": 1,
@@ -268,7 +274,7 @@
  "errors": [
   "global-scan: HTTP 406: HTTP Error 406: Not Acceptable"
  ],
- "stage": "all",
+ "stage": "snap",
  "tags_discovered": [
   "international-affairs"
  ],
@@ -511,7 +517,7 @@
     "closed": true
    },
    {
-    "t": "1win Essence III: Winner",
+    "t": "Dota 2: Team Spirit vs Aurora (BO3) - 1win Essence Playoffs",
     "closed": false
    }
   ],
@@ -633,6 +639,7 @@
   "search:League of Legends",
   "search:Predator League",
   "search:Valorant",
+  "slug:1win-essence-iii-winner",
   "slug:pgl-major-singapore-2026-winner-1793811600000"
  ],
  "n_event_queries": 34,
@@ -689,6 +696,40 @@
     true,
     true,
     true
+   ],
+   "mkts_active": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "slug": "1win-essence-iii-winner",
+   "closed": false,
+   "active": true,
+   "n_markets": 14,
+   "mkts_closed": [
+    true,
+    false,
+    true,
+    true,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
    ],
    "mkts_active": [
     true,
@@ -888,19 +929,10 @@
    ]
   }
  ],
- "events": 7,
- "markets": 63,
- "markets_dropped_by_volume_floor": 30,
- "day_file": "data/2026/11/2026-11-17T01.jsonl",
+ "events": 8,
+ "markets": 65,
+ "markets_dropped_by_volume_floor": 33,
+ "day_file": "data/2026/11/2026-11-17T03.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 8,
- "trades_watchlist_markets": 7,
- "trades_collected": 8,
- "anomalies_detected": 0,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 21,
- "books_rows": 40,
  "status": "ok"
 }
