@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-18T11:31:57Z",
+ "ts": "2026-11-18T12:22:45Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -359,11 +359,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: Young Gaming vs Havoc & Yonder (BO3) - China National Tourna",
+    "t": "Valorant: XJG vs Unsettled Resentment (BO3) - China National Tournamen",
     "closed": false
    },
    {
-    "t": "Valorant: LGD Gaming vs FunPlus Phoenix (BO3) - China National Tournam",
+    "t": "Valorant: Young Gaming vs Havoc & Yonder (BO3) - China National Tourna",
     "closed": true
    }
   ],
@@ -513,12 +513,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs Froglings (BO3) - 1win Essence Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Aurora vs PARIVISION (BO3) - 1win Essence Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: PARIVISION vs Froglings (BO3) - 1win Essence Playoffs",
+    "closed": true
    }
   ],
   "search:DreamLeague": [
@@ -933,15 +933,21 @@
  "events": 13,
  "markets": 76,
  "markets_dropped_by_volume_floor": 29,
- "day_file": "data/2026/11/2026-11-18T11.jsonl",
+ "day_file": "data/2026/11/2026-11-18T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 23,
- "trades_watchlist_markets": 9,
- "trades_collected": 270,
+ "trades_markets_queried": 27,
+ "trades_watchlist_markets": 12,
+ "trades_collected": 1071,
  "anomalies_detected": 2,
  "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
+ "history_debug": [
+  {
+   "cid": "0x4f04308c",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 29,
  "books_rows": 52,
  "status": "ok"
