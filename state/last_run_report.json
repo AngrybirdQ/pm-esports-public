@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-18T12:53:47Z",
+ "ts": "2026-11-18T13:03:12Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -533,7 +533,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: CyberHero vs Inner Circle (BO3) - DreamLeague Division 2 Playo",
+    "t": "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - DreamLeague Division 2 Playo",
     "closed": false
    }
   ],
@@ -891,18 +891,24 @@
   }
  ],
  "events": 13,
- "markets": 76,
- "markets_dropped_by_volume_floor": 30,
- "day_file": "data/2026/11/2026-11-18T12.jsonl",
+ "markets": 77,
+ "markets_dropped_by_volume_floor": 29,
+ "day_file": "data/2026/11/2026-11-18T13.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 27,
  "trades_watchlist_markets": 12,
  "trades_collected": 1098,
- "anomalies_detected": 8,
+ "anomalies_detected": 0,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 29,
- "books_rows": 48,
+ "history_debug": [
+  {
+   "cid": "0x4474e168",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 28,
+ "books_rows": 46,
  "status": "ok"
 }
