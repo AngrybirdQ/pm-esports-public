@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-18T16:45:18Z",
+ "ts": "2026-11-18T16:57:34Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -218,12 +218,6 @@
   },
   {
    "url": "slug:blast-rivals-hong-kong-2026-winner-1793811600000",
-   "ok": true,
-   "events_returned": 1,
-   "err": null
-  },
-  {
-   "url": "slug:1win-essence-iii-winner",
    "ok": true,
    "events_returned": 1,
    "err": null
@@ -511,8 +505,8 @@
     "closed": false
    },
    {
-    "t": "Dota 2: LGD Gaming vs LEGION (BO3) - 1win Essence Playoffs",
-    "closed": true
+    "t": "1win Essence III: Winner",
+    "closed": false
    }
   ],
   "search:DreamLeague": [
@@ -627,13 +621,13 @@
   ]
  },
  "winning_sources": [
+  "search:1win Essence",
   "search:BLAST",
   "search:Dota 2",
   "search:DreamLeague",
   "search:League of Legends",
   "search:PGL",
-  "search:Predator League",
-  "slug:1win-essence-iii-winner"
+  "search:Predator League"
  ],
  "n_event_queries": 34,
  "essential_slug_diag": [
@@ -689,40 +683,6 @@
     true,
     true,
     true
-   ],
-   "mkts_active": [
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    false,
-    false,
-    false,
-    false
-   ]
-  },
-  {
-   "slug": "1win-essence-iii-winner",
-   "closed": false,
-   "active": true,
-   "n_markets": 14,
-   "mkts_closed": [
-    true,
-    false,
-    true,
-    true,
-    true,
-    false,
-    true,
-    false,
-    false,
-    false,
-    false,
-    false
    ],
    "mkts_active": [
     true,
@@ -893,14 +853,14 @@
  "markets_dropped_by_volume_floor": 34,
  "day_file": "data/2026/11/2026-11-18T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 36,
- "trades_watchlist_markets": 11,
- "trades_collected": 1008,
+ "trades_markets_queried": 35,
+ "trades_watchlist_markets": 5,
+ "trades_collected": 1038,
  "anomalies_detected": 4,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 21,
- "books_rows": 42,
+ "books_markets": 28,
+ "books_rows": 56,
  "status": "ok"
 }
