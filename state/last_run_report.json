@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-18T15:32:15Z",
+ "ts": "2026-11-18T15:53:07Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -268,7 +268,7 @@
  "errors": [
   "global-scan: HTTP 406: HTTP Error 406: Not Acceptable"
  ],
- "stage": "snap",
+ "stage": "all",
  "tags_discovered": [
   "international-affairs"
  ],
@@ -891,8 +891,17 @@
  ],
  "events": 12,
  "markets": 76,
- "markets_dropped_by_volume_floor": 31,
+ "markets_dropped_by_volume_floor": 29,
  "day_file": "data/2026/11/2026-11-18T15.jsonl",
  "retention_removed_files": 0,
+ "trades_markets_queried": 37,
+ "trades_watchlist_markets": 11,
+ "trades_collected": 1043,
+ "anomalies_detected": 6,
+ "anomalies_new": 0,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 23,
+ "books_rows": 40,
  "status": "ok"
 }
