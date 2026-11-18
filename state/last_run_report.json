@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-18T18:58:09Z",
+ "ts": "2026-11-18T19:54:22Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -223,6 +223,12 @@
    "err": null
   },
   {
+   "url": "slug:blast-slam-ix-winner",
+   "ok": true,
+   "events_returned": 1,
+   "err": null
+  },
+  {
    "url": "slug:which-teams-will-qualify-for-lcp-2027",
    "ok": true,
    "events_returned": 1,
@@ -262,30 +268,30 @@
  "errors": [
   "global-scan: HTTP 406: HTTP Error 406: Not Acceptable"
  ],
- "stage": "all",
+ "stage": "snap",
  "tags_discovered": [
   "international-affairs"
  ],
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Aurora vs PARIVISION (BO3) - 1win Essence Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Spirit vs PARIVISION (BO5) - 1win Essence Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Aurora vs PARIVISION (BO3) - 1win Essence Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: LGD Gaming vs PARIVISION (BO3) - 1win Essence Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: Xipto Esports vs CyberHero (BO3) - Asgard Championship Playoff",
-    "closed": true
+    "t": "Dota 2: CyberHero vs Inner Circle (BO3) - DreamLeague Division 2 Playo",
+    "closed": false
    },
    {
-    "t": "Dota 2: angry birds vs Spirit Academy (BO3) - European Pro League Grou",
+    "t": "Dota 2: Xipto Esports vs CyberHero (BO3) - Asgard Championship Playoff",
     "closed": true
    }
   ],
@@ -401,10 +407,6 @@
   ],
   "search:BLAST": [
    {
-    "t": "BLAST Slam IX: Winner",
-    "closed": false
-   },
-   {
     "t": "Any rug >$1m on Blast today?",
     "closed": true
    },
@@ -418,6 +420,10 @@
    },
    {
     "t": "Counter-Strike: MOUZ vs Team Falcons (BO3) - BLAST Open Porto Group B",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: MOUZ vs 9z (BO3) - BLAST Open Porto Group B",
     "closed": true
    }
   ],
@@ -489,24 +495,24 @@
   ],
   "search:1win Essence": [
    {
-    "t": "Dota 2: Aurora vs PARIVISION (BO3) - 1win Essence Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Spirit vs PARIVISION (BO5) - 1win Essence Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Aurora vs PARIVISION (BO3) - 1win Essence Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: LGD Gaming vs PARIVISION (BO3) - 1win Essence Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs Aurora (BO3) - 1win Essence Playoffs",
-    "closed": true
-   },
-   {
     "t": "1win Essence III: Winner",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Falcons vs Team Liquid (BO5) - 1win Essence Playoffs",
+    "closed": true
    }
   ],
   "search:DreamLeague": [
@@ -519,12 +525,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - DreamLeague Division 2 Playo",
-    "closed": true
-   },
-   {
     "t": "Dota 2: CyberHero vs Inner Circle (BO3) - DreamLeague Division 2 Playo",
     "closed": false
+   },
+   {
+    "t": "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - DreamLeague Division 2 Playo",
+    "closed": true
    },
    {
     "t": "Dota 2: Froglings vs PlayTime (BO3) - DreamLeague Division 2 Playoffs",
@@ -622,12 +628,11 @@
  },
  "winning_sources": [
   "search:1win Essence",
-  "search:BLAST",
   "search:Dota 2",
-  "search:DreamLeague",
   "search:League of Legends",
   "search:PGL",
-  "search:Predator League"
+  "search:Predator League",
+  "slug:blast-slam-ix-winner"
  ],
  "n_event_queries": 34,
  "essential_slug_diag": [
@@ -697,6 +702,40 @@
     false,
     false,
     false
+   ]
+  },
+  {
+   "slug": "blast-slam-ix-winner",
+   "closed": false,
+   "active": true,
+   "n_markets": 22,
+   "mkts_closed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "mkts_active": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
    ]
   },
   {
@@ -849,18 +888,9 @@
   }
  ],
  "events": 13,
- "markets": 73,
- "markets_dropped_by_volume_floor": 32,
- "day_file": "data/2026/11/2026-11-18T18.jsonl",
+ "markets": 75,
+ "markets_dropped_by_volume_floor": 29,
+ "day_file": "data/2026/11/2026-11-18T19.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 35,
- "trades_watchlist_markets": 3,
- "trades_collected": 1090,
- "anomalies_detected": 10,
- "anomalies_new": 10,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 31,
- "books_rows": 56,
  "status": "ok"
 }
