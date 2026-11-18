@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-18T07:51:32Z",
+ "ts": "2026-11-18T08:01:08Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -359,11 +359,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: Young Gaming vs Any Questions Gaming (BO3) - China National ",
-    "closed": true
+    "t": "Valorant: Ambitious Legend Gaming vs SEC (BO3) - China National Tourna",
+    "closed": false
    },
    {
-    "t": "Valorant: LGD Gaming vs Havoc & Yonder (BO3) - China National Tourname",
+    "t": "Valorant: Young Gaming vs Any Questions Gaming (BO3) - China National ",
     "closed": true
    }
   ],
@@ -929,19 +929,25 @@
    ]
   }
  ],
- "events": 12,
- "markets": 74,
- "markets_dropped_by_volume_floor": 24,
- "day_file": "data/2026/11/2026-11-18T07.jsonl",
+ "events": 13,
+ "markets": 77,
+ "markets_dropped_by_volume_floor": 25,
+ "day_file": "data/2026/11/2026-11-18T08.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 30,
+ "trades_markets_queried": 19,
  "trades_watchlist_markets": 6,
- "trades_collected": 322,
+ "trades_collected": 297,
  "anomalies_detected": 0,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "history_debug": [
+  {
+   "cid": "0x14ab96ee",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 30,
- "books_rows": 56,
+ "books_rows": 54,
  "status": "ok"
 }
