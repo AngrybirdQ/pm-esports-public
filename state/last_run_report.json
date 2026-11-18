@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-18T16:14:39Z",
+ "ts": "2026-11-18T16:19:03Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -507,12 +507,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: LGD Gaming vs LEGION (BO3) - 1win Essence Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Spirit vs PARIVISION (BO5) - 1win Essence Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: LGD Gaming vs LEGION (BO3) - 1win Essence Playoffs",
+    "closed": true
    }
   ],
   "search:DreamLeague": [
@@ -530,7 +530,7 @@
    },
    {
     "t": "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - DreamLeague Division 2 Playo",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: CyberHero vs Inner Circle (BO3) - DreamLeague Division 2 Playo",
@@ -888,19 +888,19 @@
    ]
   }
  ],
- "events": 14,
- "markets": 77,
- "markets_dropped_by_volume_floor": 33,
+ "events": 13,
+ "markets": 74,
+ "markets_dropped_by_volume_floor": 32,
  "day_file": "data/2026/11/2026-11-18T16.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 36,
  "trades_watchlist_markets": 11,
  "trades_collected": 1023,
  "anomalies_detected": 6,
- "anomalies_new": 3,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 24,
+ "books_markets": 21,
  "books_rows": 42,
  "status": "ok"
 }
