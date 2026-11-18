@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-18T15:57:44Z",
+ "ts": "2026-11-18T16:02:05Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -287,11 +287,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: LGD Gaming vs LEGION (BO3) - 1win Essence Playoffs",
+    "t": "Dota 2: Froglings vs PlayTime (BO3) - DreamLeague Division 2 Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: Froglings vs PlayTime (BO3) - DreamLeague Division 2 Playoffs",
+    "t": "Dota 2: Xipto Esports vs CyberHero (BO3) - Asgard Championship Playoff",
     "closed": true
    }
   ],
@@ -354,7 +354,7 @@
    },
    {
     "t": "Valorant: XJG vs Unsettled Resentment (BO3) - China National Tournamen",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Qian Xing Gaming vs LNG Esports (BO3) - China National Tourn",
@@ -533,8 +533,8 @@
     "closed": false
    },
    {
-    "t": "Dota 2: PuckChamp vs Nemiga Gaming (BO3) - DreamLeague Division 2 Play",
-    "closed": true
+    "t": "Dota 2: CyberHero vs Inner Circle (BO3) - DreamLeague Division 2 Playo",
+    "closed": false
    }
   ],
   "search:LCK": [
@@ -633,7 +633,6 @@
   "search:League of Legends",
   "search:PGL",
   "search:Predator League",
-  "search:Valorant",
   "slug:1win-essence-iii-winner"
  ],
  "n_event_queries": 34,
@@ -891,17 +890,17 @@
  ],
  "events": 12,
  "markets": 76,
- "markets_dropped_by_volume_floor": 29,
- "day_file": "data/2026/11/2026-11-18T15.jsonl",
+ "markets_dropped_by_volume_floor": 32,
+ "day_file": "data/2026/11/2026-11-18T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 37,
+ "trades_markets_queried": 36,
  "trades_watchlist_markets": 11,
- "trades_collected": 1029,
- "anomalies_detected": 2,
- "anomalies_new": 0,
+ "trades_collected": 1025,
+ "anomalies_detected": 3,
+ "anomalies_new": 2,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 23,
- "books_rows": 40,
+ "books_markets": 24,
+ "books_rows": 42,
  "status": "ok"
 }
