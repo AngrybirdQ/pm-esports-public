@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-18T13:31:52Z",
+ "ts": "2026-11-18T14:23:35Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -235,12 +235,6 @@
    "err": null
   },
   {
-   "url": "slug:pgl-major-singapore-2026-winner-1793811600000",
-   "ok": true,
-   "events_returned": 1,
-   "err": null
-  },
-  {
    "url": "slug:most-banned-champion-at-worlds-2026",
    "ok": true,
    "events_returned": 1,
@@ -268,12 +262,16 @@
  "errors": [
   "global-scan: HTTP 406: HTTP Error 406: Not Acceptable"
  ],
- "stage": "all",
+ "stage": "snap",
  "tags_discovered": [
   "international-affairs"
  ],
  "search_samples": {
   "search:Dota 2": [
+   {
+    "t": "Dota 2: Aurora vs PARIVISION (BO3) - 1win Essence Playoffs",
+    "closed": false
+   },
    {
     "t": "Dota 2: LGD Gaming vs LEGION (BO3) - 1win Essence Playoffs",
     "closed": true
@@ -281,10 +279,6 @@
    {
     "t": "Dota 2: Team Spirit vs Aurora (BO3) - 1win Essence Playoffs",
     "closed": true
-   },
-   {
-    "t": "Dota 2: Aurora vs PARIVISION (BO3) - 1win Essence Playoffs",
-    "closed": false
    },
    {
     "t": "Dota 2: LGD Gaming vs PARIVISION (BO3) - 1win Essence Playoffs",
@@ -357,8 +351,8 @@
     "closed": false
    },
    {
-    "t": "Valorant: Young Gaming vs Havoc & Yonder (BO3) - China National Tourna",
-    "closed": true
+    "t": "Valorant: Qian Xing Gaming vs LNG Esports (BO3) - China National Tourn",
+    "closed": false
    }
   ],
   "search:NBA": [
@@ -451,6 +445,10 @@
   ],
   "search:PGL": [
    {
+    "t": "PGL Major Singapore 2026: Winner",
+    "closed": false
+   },
+   {
     "t": "Counter-Strike: 100 Thieves vs Chinggis Warriors (BO1) - PGL Major Sin",
     "closed": false
    },
@@ -465,10 +463,6 @@
    {
     "t": "Counter-Strike: Eternal Fire vs FlyQuest (BO1) - PGL Major Singapore S",
     "closed": false
-   },
-   {
-    "t": "PGL Astana 2026 Winner",
-    "closed": true
    }
   ],
   "search:Worlds 2026": [
@@ -495,16 +489,16 @@
   ],
   "search:1win Essence": [
    {
+    "t": "Dota 2: Aurora vs PARIVISION (BO3) - 1win Essence Playoffs",
+    "closed": false
+   },
+   {
     "t": "Dota 2: LGD Gaming vs LEGION (BO3) - 1win Essence Playoffs",
     "closed": true
    },
    {
     "t": "Dota 2: Team Spirit vs Aurora (BO3) - 1win Essence Playoffs",
     "closed": true
-   },
-   {
-    "t": "Dota 2: Aurora vs PARIVISION (BO3) - 1win Essence Playoffs",
-    "closed": false
    },
    {
     "t": "Dota 2: LGD Gaming vs PARIVISION (BO3) - 1win Essence Playoffs",
@@ -587,6 +581,10 @@
     "closed": true
    },
    {
+    "t": "Valorant: BOOM Esports vs Rojali (BO3) - Asia Pacific Predator League ",
+    "closed": false
+   },
+   {
     "t": "Valorant: Maxxing vs Oasis Gaming (BO5) - Asia Pacific Predator League",
     "closed": false
    },
@@ -596,10 +594,6 @@
    },
    {
     "t": "Valorant: Original Gaming vs Học Viện 96 (BO3) - Asia Pacific Predator",
-    "closed": true
-   },
-   {
-    "t": "Valorant: Fancy United vs Original Gaming (BO3) - Asia Pacific Predato",
     "closed": true
    }
   ],
@@ -634,8 +628,7 @@
   "search:League of Legends",
   "search:PGL",
   "search:Predator League",
-  "search:Valorant",
-  "slug:pgl-major-singapore-2026-winner-1793811600000"
+  "search:Valorant"
  ],
  "n_event_queries": 34,
  "essential_slug_diag": [
@@ -766,40 +759,6 @@
    ]
   },
   {
-   "slug": "pgl-major-singapore-2026-winner-1793811600000",
-   "closed": false,
-   "active": true,
-   "n_markets": 38,
-   "mkts_closed": [
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false
-   ],
-   "mkts_active": [
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true
-   ]
-  },
-  {
    "slug": "most-banned-champion-at-worlds-2026",
    "closed": true,
    "active": true,
@@ -890,19 +849,10 @@
    ]
   }
  ],
- "events": 12,
- "markets": 74,
- "markets_dropped_by_volume_floor": 27,
- "day_file": "data/2026/11/2026-11-18T13.jsonl",
+ "events": 14,
+ "markets": 80,
+ "markets_dropped_by_volume_floor": 29,
+ "day_file": "data/2026/11/2026-11-18T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 23,
- "trades_watchlist_markets": 6,
- "trades_collected": 1068,
- "anomalies_detected": 12,
- "anomalies_new": 12,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 25,
- "books_rows": 46,
  "status": "ok"
 }
