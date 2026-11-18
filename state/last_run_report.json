@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-18T23:11:47Z",
+ "ts": "2026-11-18T23:43:28Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -539,8 +539,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs Aurora (BO5) - DreamLeague Playoffs",
-    "closed": true
+    "t": "Dota 2: Froglings vs HULIGANI (BO3) - DreamLeague Division 2 Playoffs",
+    "closed": false
    }
   ],
   "search:LCK": [
@@ -593,11 +593,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: BOOM Esports vs Rojali (BO3) - Asia Pacific Predator League ",
+    "t": "Valorant: Maxxing vs Oasis Gaming (BO5) - Asia Pacific Predator League",
     "closed": false
    },
    {
-    "t": "Valorant: Maxxing vs Oasis Gaming (BO5) - Asia Pacific Predator League",
+    "t": "Valorant: BOOM Esports vs Rojali (BO3) - Asia Pacific Predator League ",
     "closed": false
    },
    {
@@ -633,6 +633,7 @@
   ]
  },
  "winning_sources": [
+  "search:DreamLeague",
   "search:League of Legends",
   "search:PGL",
   "search:Predator League",
@@ -925,9 +926,9 @@
    ]
   }
  ],
- "events": 10,
- "markets": 63,
- "markets_dropped_by_volume_floor": 26,
+ "events": 11,
+ "markets": 64,
+ "markets_dropped_by_volume_floor": 30,
  "day_file": "data/2026/11/2026-11-18T23.jsonl",
  "retention_removed_files": 0,
  "status": "ok"
