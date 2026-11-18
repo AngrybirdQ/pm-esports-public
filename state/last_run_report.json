@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-18T14:23:35Z",
+ "ts": "2026-11-18T15:32:15Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -223,6 +223,12 @@
    "err": null
   },
   {
+   "url": "slug:1win-essence-iii-winner",
+   "ok": true,
+   "events_returned": 1,
+   "err": null
+  },
+  {
    "url": "slug:which-teams-will-qualify-for-lcp-2027",
    "ok": true,
    "events_returned": 1,
@@ -270,10 +276,6 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: Aurora vs PARIVISION (BO3) - 1win Essence Playoffs",
-    "closed": false
-   },
-   {
-    "t": "Dota 2: LGD Gaming vs LEGION (BO3) - 1win Essence Playoffs",
     "closed": true
    },
    {
@@ -282,6 +284,10 @@
    },
    {
     "t": "Dota 2: LGD Gaming vs PARIVISION (BO3) - 1win Essence Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: LGD Gaming vs LEGION (BO3) - 1win Essence Playoffs",
     "closed": true
    },
    {
@@ -317,6 +323,10 @@
     "closed": false
    },
    {
+    "t": "Will Caedrel Reach Challenger Before the End of the Year?",
+    "closed": false
+   },
+   {
     "t": "LoL: Dplus KIA Challengers vs KT Rolster Challengers (BO5) - LCK Chall",
     "closed": true
    },
@@ -326,10 +336,6 @@
    },
    {
     "t": "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO5) - LCK Challengers",
-    "closed": true
-   },
-   {
-    "t": "LoL: DN SOOPers Challengers vs Nongshim Esports Academy (BO5) - LCK Ch",
     "closed": true
    }
   ],
@@ -352,7 +358,7 @@
    },
    {
     "t": "Valorant: Qian Xing Gaming vs LNG Esports (BO3) - China National Tourn",
-    "closed": false
+    "closed": true
    }
   ],
   "search:NBA": [
@@ -453,16 +459,16 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: Liquid vs GOSH (BO1) - PGL Major Singapore Stage 1",
-    "closed": false
-   },
-   {
     "t": "Counter-Strike: 9z vs Lynn Vision (BO1) - PGL Major Singapore Stage 1",
     "closed": false
    },
    {
-    "t": "Counter-Strike: Eternal Fire vs FlyQuest (BO1) - PGL Major Singapore S",
-    "closed": false
+    "t": "PGL Astana 2026 Winner",
+    "closed": true
+   },
+   {
+    "t": "PGL Bucharest 2026 Winner",
+    "closed": true
    }
   ],
   "search:Worlds 2026": [
@@ -490,10 +496,6 @@
   "search:1win Essence": [
    {
     "t": "Dota 2: Aurora vs PARIVISION (BO3) - 1win Essence Playoffs",
-    "closed": false
-   },
-   {
-    "t": "Dota 2: LGD Gaming vs LEGION (BO3) - 1win Essence Playoffs",
     "closed": true
    },
    {
@@ -505,7 +507,11 @@
     "closed": true
    },
    {
-    "t": "1win Essence III: Winner",
+    "t": "Dota 2: LGD Gaming vs LEGION (BO3) - 1win Essence Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Team Spirit vs PARIVISION (BO5) - 1win Essence Playoffs",
     "closed": false
    }
   ],
@@ -523,12 +529,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PuckChamp vs Nemiga Gaming (BO3) - DreamLeague Division 2 Play",
-    "closed": true
-   },
-   {
     "t": "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - DreamLeague Division 2 Playo",
     "closed": false
+   },
+   {
+    "t": "Dota 2: PuckChamp vs Nemiga Gaming (BO3) - DreamLeague Division 2 Play",
+    "closed": true
    }
   ],
   "search:LCK": [
@@ -623,12 +629,12 @@
  "winning_sources": [
   "search:1win Essence",
   "search:BLAST",
-  "search:Dota 2",
   "search:DreamLeague",
   "search:League of Legends",
   "search:PGL",
   "search:Predator League",
-  "search:Valorant"
+  "search:Valorant",
+  "slug:1win-essence-iii-winner"
  ],
  "n_event_queries": 34,
  "essential_slug_diag": [
@@ -684,6 +690,40 @@
     true,
     true,
     true
+   ],
+   "mkts_active": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "slug": "1win-essence-iii-winner",
+   "closed": false,
+   "active": true,
+   "n_markets": 14,
+   "mkts_closed": [
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
    ],
    "mkts_active": [
     true,
@@ -849,10 +889,10 @@
    ]
   }
  ],
- "events": 14,
- "markets": 80,
- "markets_dropped_by_volume_floor": 29,
- "day_file": "data/2026/11/2026-11-18T14.jsonl",
+ "events": 12,
+ "markets": 76,
+ "markets_dropped_by_volume_floor": 31,
+ "day_file": "data/2026/11/2026-11-18T15.jsonl",
  "retention_removed_files": 0,
  "status": "ok"
 }
