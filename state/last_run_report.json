@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-18T22:50:43Z",
+ "ts": "2026-11-18T23:11:47Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -282,7 +282,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: Team Spirit vs PARIVISION (BO5) - 1win Essence Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Aurora vs PARIVISION (BO3) - 1win Essence Playoffs",
@@ -297,7 +297,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Xipto Esports vs CyberHero (BO3) - Asgard Championship Playoff",
+    "t": "Dota 2: Team Lynx vs Xipto Esports (BO3) - Asgard Championship Playoff",
     "closed": true
    }
   ],
@@ -502,7 +502,7 @@
   "search:1win Essence": [
    {
     "t": "Dota 2: Team Spirit vs PARIVISION (BO5) - 1win Essence Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Aurora vs PARIVISION (BO3) - 1win Essence Playoffs",
@@ -633,7 +633,6 @@
   ]
  },
  "winning_sources": [
-  "search:Dota 2",
   "search:League of Legends",
   "search:PGL",
   "search:Predator League",
@@ -926,10 +925,10 @@
    ]
   }
  ],
- "events": 11,
- "markets": 70,
- "markets_dropped_by_volume_floor": 27,
- "day_file": "data/2026/11/2026-11-18T22.jsonl",
+ "events": 10,
+ "markets": 63,
+ "markets_dropped_by_volume_floor": 26,
+ "day_file": "data/2026/11/2026-11-18T23.jsonl",
  "retention_removed_files": 0,
  "status": "ok"
 }
