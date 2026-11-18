@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-18T12:40:31Z",
+ "ts": "2026-11-18T12:44:56Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -287,11 +287,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Froglings vs PlayTime (BO3) - DreamLeague Division 2 Playoffs",
-    "closed": true
+    "t": "Dota 2: Aurora vs PARIVISION (BO3) - 1win Essence Playoffs",
+    "closed": false
    },
    {
-    "t": "Dota 2: Xipto Esports vs CyberHero (BO3) - Asgard Championship Playoff",
+    "t": "Dota 2: Froglings vs PlayTime (BO3) - DreamLeague Division 2 Playoffs",
     "closed": true
    }
   ],
@@ -629,6 +629,7 @@
  "winning_sources": [
   "search:1win Essence",
   "search:BLAST",
+  "search:Dota 2",
   "search:DreamLeague",
   "search:League of Legends",
   "search:PGL",
@@ -891,17 +892,17 @@
  ],
  "events": 13,
  "markets": 76,
- "markets_dropped_by_volume_floor": 29,
+ "markets_dropped_by_volume_floor": 30,
  "day_file": "data/2026/11/2026-11-18T12.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 27,
  "trades_watchlist_markets": 12,
  "trades_collected": 1098,
  "anomalies_detected": 10,
- "anomalies_new": 2,
+ "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 29,
- "books_rows": 52,
+ "books_rows": 48,
  "status": "ok"
 }
