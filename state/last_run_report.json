@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-18T22:20:07Z",
+ "ts": "2026-11-18T22:39:58Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -223,6 +223,12 @@
    "err": null
   },
   {
+   "url": "slug:1win-essence-iii-winner",
+   "ok": true,
+   "events_returned": 1,
+   "err": null
+  },
+  {
    "url": "slug:blast-slam-ix-winner",
    "ok": true,
    "events_returned": 1,
@@ -287,11 +293,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Xipto Esports vs CyberHero (BO3) - Asgard Championship Playoff",
+    "t": "Dota 2: angry birds vs Spirit Academy (BO3) - European Pro League Grou",
     "closed": true
    },
    {
-    "t": "Dota 2: angry birds vs Spirit Academy (BO3) - European Pro League Grou",
+    "t": "Dota 2: Xipto Esports vs CyberHero (BO3) - Asgard Championship Playoff",
     "closed": true
    }
   ],
@@ -504,7 +510,7 @@
    },
    {
     "t": "1win Essence III: Winner",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Falcons vs Team Liquid (BO5) - 1win Essence Playoffs",
@@ -627,7 +633,6 @@
   ]
  },
  "winning_sources": [
-  "search:1win Essence",
   "search:Dota 2",
   "search:League of Legends",
   "search:PGL",
@@ -672,6 +677,40 @@
   },
   {
    "slug": "blast-rivals-hong-kong-2026-winner-1793811600000",
+   "closed": true,
+   "active": true,
+   "n_markets": 14,
+   "mkts_closed": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "mkts_active": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "slug": "1win-essence-iii-winner",
    "closed": true,
    "active": true,
    "n_markets": 14,
@@ -887,8 +926,8 @@
    ]
   }
  ],
- "events": 12,
- "markets": 73,
+ "events": 11,
+ "markets": 70,
  "markets_dropped_by_volume_floor": 27,
  "day_file": "data/2026/11/2026-11-18T22.jsonl",
  "retention_removed_files": 0,
