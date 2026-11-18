@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-18T10:52:54Z",
+ "ts": "2026-11-18T11:02:29Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -297,7 +297,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs Froglings (BO3) - 1win Essence Playoffs",
+    "t": "Dota 2: Xipto Esports vs CyberHero (BO3) - Asgard Championship Playoff",
     "closed": true
    }
   ],
@@ -348,7 +348,7 @@
   "search:Valorant": [
    {
     "t": "Valorant: Xipto Esports vs Sharper Esport (BO5) - Asia Pacific Predato",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: TEC Esports vs KeepBest Gaming (BO3) - China National Tourna",
@@ -359,8 +359,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: TEC Esports vs Victory No Limits (BO3) - China National Tour",
-    "closed": true
+    "t": "Valorant: Young Gaming vs Havoc & Yonder (BO3) - China National Tourna",
+    "closed": false
    },
    {
     "t": "Valorant: Young Gaming vs Any Questions Gaming (BO3) - China National ",
@@ -590,7 +590,7 @@
   "search:Predator League": [
    {
     "t": "Valorant: Xipto Esports vs Sharper Esport (BO5) - Asia Pacific Predato",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Salamander vs NongKaiTod (BO3) - Asia Pacific Predator Leagu",
@@ -930,18 +930,24 @@
   }
  ],
  "events": 12,
- "markets": 75,
- "markets_dropped_by_volume_floor": 24,
- "day_file": "data/2026/11/2026-11-18T10.jsonl",
+ "markets": 76,
+ "markets_dropped_by_volume_floor": 22,
+ "day_file": "data/2026/11/2026-11-18T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 24,
+ "trades_markets_queried": 22,
  "trades_watchlist_markets": 9,
- "trades_collected": 377,
+ "trades_collected": 344,
  "anomalies_detected": 2,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0x4dd6298e",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 29,
- "books_rows": 48,
+ "books_rows": 52,
  "status": "ok"
 }
