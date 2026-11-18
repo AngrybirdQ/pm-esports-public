@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-18T12:31:42Z",
+ "ts": "2026-11-18T12:36:08Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -218,12 +218,6 @@
   },
   {
    "url": "slug:blast-rivals-hong-kong-2026-winner-1793811600000",
-   "ok": true,
-   "events_returned": 1,
-   "err": null
-  },
-  {
-   "url": "slug:1win-essence-iii-winner",
    "ok": true,
    "events_returned": 1,
    "err": null
@@ -517,8 +511,8 @@
     "closed": false
    },
    {
-    "t": "Dota 2: PARIVISION vs Froglings (BO3) - 1win Essence Playoffs",
-    "closed": true
+    "t": "1win Essence III: Winner",
+    "closed": false
    }
   ],
   "search:DreamLeague": [
@@ -640,7 +634,6 @@
   "search:PGL",
   "search:Predator League",
   "search:Valorant",
-  "slug:1win-essence-iii-winner",
   "slug:pgl-major-singapore-2026-winner-1793811600000"
  ],
  "n_event_queries": 34,
@@ -697,40 +690,6 @@
     true,
     true,
     true
-   ],
-   "mkts_active": [
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    false,
-    false,
-    false,
-    false
-   ]
-  },
-  {
-   "slug": "1win-essence-iii-winner",
-   "closed": false,
-   "active": true,
-   "n_markets": 14,
-   "mkts_closed": [
-    true,
-    false,
-    true,
-    true,
-    true,
-    false,
-    true,
-    false,
-    false,
-    false,
-    false,
-    false
    ],
    "mkts_active": [
     true,
@@ -938,8 +897,8 @@
  "trades_markets_queried": 27,
  "trades_watchlist_markets": 12,
  "trades_collected": 1098,
- "anomalies_detected": 2,
- "anomalies_new": 2,
+ "anomalies_detected": 8,
+ "anomalies_new": 6,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 29,
