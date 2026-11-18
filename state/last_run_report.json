@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-18T21:43:12Z",
+ "ts": "2026-11-18T21:47:11Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -266,7 +266,6 @@
   }
  ],
  "errors": [
-  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=19475042104764825424220738041111682172797803069434713793511672420930",
   "global-scan: HTTP 406: HTTP Error 406: Not Acceptable"
  ],
  "stage": "all",
@@ -285,7 +284,7 @@
    },
    {
     "t": "Dota 2: CyberHero vs Inner Circle (BO3) - DreamLeague Division 2 Playo",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Xipto Esports vs CyberHero (BO3) - Asgard Championship Playoff",
@@ -456,6 +455,10 @@
     "closed": false
    },
    {
+    "t": "Counter-Strike: FaZe vs Wildcard (BO1) - PGL Major Singapore Stage 1",
+    "closed": false
+   },
+   {
     "t": "Counter-Strike: 100 Thieves vs Chinggis Warriors (BO1) - PGL Major Sin",
     "closed": false
    },
@@ -465,10 +468,6 @@
    },
    {
     "t": "Counter-Strike: 9z vs Lynn Vision (BO1) - PGL Major Singapore Stage 1",
-    "closed": false
-   },
-   {
-    "t": "Counter-Strike: PVISION vs DENDELE CS (BO1) - PGL Major Singapore Stag",
     "closed": false
    }
   ],
@@ -527,7 +526,7 @@
    },
    {
     "t": "Dota 2: CyberHero vs Inner Circle (BO3) - DreamLeague Division 2 Playo",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - DreamLeague Division 2 Playo",
@@ -888,27 +887,25 @@
    ]
   }
  ],
- "events": 13,
+ "events": 12,
  "markets": 73,
- "markets_dropped_by_volume_floor": 28,
+ "markets_dropped_by_volume_floor": 27,
  "day_file": "data/2026/11/2026-11-18T21.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 40,
  "trades_watchlist_markets": 6,
- "trades_collected": 326,
+ "trades_collected": 258,
  "anomalies_detected": 4,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_errors": [
-  "1947504210: HTTP 404 (api deprecated)",
-  "1087075947: HTTP 404 (api deprecated)"
+ "history_debug": [
+  {
+   "cid": "0xb3ce3695",
+   "pts": 13,
+   "variant": "interval=all&fidelity=1000"
+  }
  ],
- "books_markets": 31,
+ "history_conditions_new": 1,
+ "books_markets": 30,
  "books_rows": 40,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=19475042104764825424220738041111682172797803069434713793511672420930",
-  "404 https://clob.polymarket.com/book?token_id=10870759473015648096868072516923292038693266459644359859866048687652"
- ]
+ "status": "ok"
 }
