@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-18T08:34:06Z",
+ "ts": "2026-11-18T09:21:21Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -351,11 +351,11 @@
     "closed": false
    },
    {
-    "t": "Valorant: Ambitious Legend Gaming vs KeepBest Gaming (BO3) - China Nat",
-    "closed": true
+    "t": "Valorant: Ambitious Legend Gaming vs SEC (BO3) - China National Tourna",
+    "closed": false
    },
    {
-    "t": "Valorant: Ambitious Legend Gaming vs SEC (BO3) - China National Tourna",
+    "t": "Valorant: TEC Esports vs KeepBest Gaming (BO3) - China National Tourna",
     "closed": false
    },
    {
@@ -473,8 +473,8 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: FaZe vs Wildcard (BO1) - PGL Major Singapore Stage 1",
-    "closed": false
+    "t": "PGL Astana 2026 Winner",
+    "closed": true
    }
   ],
   "search:Worlds 2026": [
@@ -930,18 +930,24 @@
   }
  ],
  "events": 13,
- "markets": 76,
- "markets_dropped_by_volume_floor": 25,
- "day_file": "data/2026/11/2026-11-18T08.jsonl",
+ "markets": 78,
+ "markets_dropped_by_volume_floor": 26,
+ "day_file": "data/2026/11/2026-11-18T09.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 20,
- "trades_watchlist_markets": 10,
- "trades_collected": 437,
+ "trades_markets_queried": 23,
+ "trades_watchlist_markets": 9,
+ "trades_collected": 388,
  "anomalies_detected": 4,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 29,
- "books_rows": 50,
+ "anomalies_new": 4,
+ "history_debug": [
+  {
+   "cid": "0xfd7888ea",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 32,
+ "books_rows": 52,
  "status": "ok"
 }
