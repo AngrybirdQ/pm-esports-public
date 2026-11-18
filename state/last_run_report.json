@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-17T23:52:36Z",
+ "ts": "2026-11-18T00:30:02Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -517,8 +517,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: LEGION vs Aurora (BO3) - 1win Essence Playoffs",
-    "closed": true
+    "t": "Dota 2: Aurora vs PARIVISION (BO3) - 1win Essence Playoffs",
+    "closed": false
    }
   ],
   "search:DreamLeague": [
@@ -633,6 +633,7 @@
   ]
  },
  "winning_sources": [
+  "search:1win Essence",
   "search:BLAST",
   "search:DreamLeague",
   "search:League of Legends",
@@ -928,10 +929,10 @@
    ]
   }
  ],
- "events": 10,
- "markets": 65,
- "markets_dropped_by_volume_floor": 27,
- "day_file": "data/2026/11/2026-11-17T23.jsonl",
- "retention_removed_files": 0,
+ "events": 11,
+ "markets": 68,
+ "markets_dropped_by_volume_floor": 29,
+ "day_file": "data/2026/11/2026-11-18T00.jsonl",
+ "retention_removed_files": 118,
  "status": "ok"
 }
