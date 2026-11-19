@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-19T14:50:13Z",
+ "ts": "2026-11-19T14:59:10Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -283,16 +283,16 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Aurora vs PARIVISION (BO3) - 1win Essence Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: angry birds vs CyberHero (BO3) - Asgard Championship Playoffs",
     "closed": true
    },
    {
     "t": "Dota 2: Spirit Academy vs Nemiga Gaming (BO3) - Asgard Championship Pl",
     "closed": true
+   },
+   {
+    "t": "Dota 2: Froglings vs HULIGANI (BO3) - DreamLeague Division 2 Playoffs",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -353,11 +353,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: Victory No Limits vs LNG Esports (BO3) - China National Tour",
+    "t": "Valorant: Cloud9 vs counterfeit (BO3) - VCT Americas Kickoff: North Am",
     "closed": false
    },
    {
-    "t": "Valorant: Any Questions Gaming vs Unsettled Resentment (BO3) - China N",
+    "t": "Valorant: Victory No Limits vs LNG Esports (BO3) - China National Tour",
     "closed": false
    }
   ],
@@ -587,10 +587,6 @@
     "closed": false
    },
    {
-    "t": "Valorant: Hertz Esport vs Seventh Letter Gaming (BO3) - Asia Pacific P",
-    "closed": false
-   },
-   {
     "t": "Valorant: Xipto Esports vs Sharper Esport (BO5) - Asia Pacific Predato",
     "closed": true
    },
@@ -600,6 +596,10 @@
    },
    {
     "t": "Valorant: Original Gaming vs Học Viện 96 (BO3) - Asia Pacific Predator",
+    "closed": true
+   },
+   {
+    "t": "Valorant: Fancy United vs Original Gaming (BO3) - Asia Pacific Predato",
     "closed": true
    }
   ],
@@ -628,7 +628,7 @@
  },
  "winning_sources": [
   "search:BLAST",
-  "search:DreamLeague",
+  "search:Dota 2",
   "search:League of Legends",
   "search:PGL",
   "search:Predator League",
@@ -887,19 +887,25 @@
    ]
   }
  ],
- "events": 13,
- "markets": 74,
- "markets_dropped_by_volume_floor": 29,
+ "events": 12,
+ "markets": 72,
+ "markets_dropped_by_volume_floor": 27,
  "day_file": "data/2026/11/2026-11-19T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 43,
+ "trades_markets_queried": 44,
  "trades_watchlist_markets": 9,
- "trades_collected": 1009,
+ "trades_collected": 1022,
  "anomalies_detected": 2,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 61,
- "books_rows": 84,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0x8a5082c6",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 58,
+ "books_rows": 86,
  "status": "ok"
 }
