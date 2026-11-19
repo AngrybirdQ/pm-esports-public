@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-19T21:34:30Z",
+ "ts": "2026-11-19T21:54:01Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -268,19 +268,19 @@
  "errors": [
   "global-scan: HTTP 406: HTTP Error 406: Not Acceptable"
  ],
- "stage": "snap",
+ "stage": "all",
  "tags_discovered": [
   "international-affairs"
  ],
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Froglings vs HULIGANI (BO3) - DreamLeague Division 2 Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: CyberHero vs Froglings (BO3) - DreamLeague Division 2 Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Froglings vs HULIGANI (BO3) - DreamLeague Division 2 Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: Team Lynx vs Spirit Academy (BO3) - Asgard Championship Playof",
@@ -463,11 +463,11 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: FaZe vs Wildcard (BO1) - PGL Major Singapore Stage 1",
+    "t": "Counter-Strike: 9z vs Lynn Vision (BO1) - PGL Major Singapore Stage 1",
     "closed": false
    },
    {
-    "t": "Counter-Strike: 9z vs Lynn Vision (BO1) - PGL Major Singapore Stage 1",
+    "t": "Counter-Strike: FaZe vs Wildcard (BO1) - PGL Major Singapore Stage 1",
     "closed": false
    }
   ],
@@ -525,15 +525,15 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Froglings vs HULIGANI (BO3) - DreamLeague Division 2 Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: CyberHero vs Froglings (BO3) - DreamLeague Division 2 Playoffs",
     "closed": false
    },
    {
-    "t": "Dota 2: CyberHero vs Inner Circle (BO3) - DreamLeague Division 2 Playo",
+    "t": "Dota 2: Froglings vs HULIGANI (BO3) - DreamLeague Division 2 Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: PARIVISION vs Aurora (BO5) - DreamLeague Playoffs",
     "closed": true
    }
   ],
@@ -892,5 +892,14 @@
  "markets_dropped_by_volume_floor": 30,
  "day_file": "data/2026/11/2026-11-19T21.jsonl",
  "retention_removed_files": 0,
+ "trades_markets_queried": 21,
+ "trades_watchlist_markets": 7,
+ "trades_collected": 1009,
+ "anomalies_detected": 2,
+ "anomalies_new": 2,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 25,
+ "books_rows": 42,
  "status": "ok"
 }
