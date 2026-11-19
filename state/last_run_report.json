@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-19T09:12:08Z",
+ "ts": "2026-11-19T09:22:53Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -229,12 +229,6 @@
    "err": null
   },
   {
-   "url": "slug:blast-slam-ix-winner",
-   "ok": true,
-   "events_returned": 1,
-   "err": null
-  },
-  {
    "url": "slug:which-teams-will-qualify-for-lcp-2027",
    "ok": true,
    "events_returned": 1,
@@ -413,6 +407,10 @@
   ],
   "search:BLAST": [
    {
+    "t": "BLAST Slam IX: Winner",
+    "closed": false
+   },
+   {
     "t": "Any rug >$1m on Blast today?",
     "closed": true
    },
@@ -426,10 +424,6 @@
    },
    {
     "t": "Counter-Strike: MOUZ vs Team Falcons (BO3) - BLAST Open Porto Group B",
-    "closed": true
-   },
-   {
-    "t": "Counter-Strike: MOUZ vs 9z (BO3) - BLAST Open Porto Group B",
     "closed": true
    }
   ],
@@ -633,12 +627,12 @@
   ]
  },
  "winning_sources": [
+  "search:BLAST",
   "search:DreamLeague",
   "search:League of Legends",
   "search:PGL",
   "search:Predator League",
-  "search:Valorant",
-  "slug:blast-slam-ix-winner"
+  "search:Valorant"
  ],
  "n_event_queries": 34,
  "essential_slug_diag": [
@@ -742,40 +736,6 @@
     false,
     false,
     false
-   ]
-  },
-  {
-   "slug": "blast-slam-ix-winner",
-   "closed": false,
-   "active": true,
-   "n_markets": 22,
-   "mkts_closed": [
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false
-   ],
-   "mkts_active": [
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true
    ]
   },
   {
@@ -932,20 +892,14 @@
  "markets_dropped_by_volume_floor": 33,
  "day_file": "data/2026/11/2026-11-19T09.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 39,
- "trades_watchlist_markets": 6,
- "trades_collected": 226,
- "anomalies_detected": 2,
+ "trades_markets_queried": 23,
+ "trades_watchlist_markets": 9,
+ "trades_collected": 182,
+ "anomalies_detected": 0,
  "anomalies_new": 0,
- "history_debug": [
-  {
-   "cid": "0x093892fe",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
- "books_markets": 56,
- "books_rows": 82,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 27,
+ "books_rows": 42,
  "status": "ok"
 }
