@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-19T13:34:37Z",
+ "ts": "2026-11-19T14:21:30Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -291,7 +291,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - DreamLeague Division 2 Playo",
+    "t": "Dota 2: Spirit Academy vs Nemiga Gaming (BO3) - Asgard Championship Pl",
     "closed": true
    }
   ],
@@ -350,7 +350,7 @@
    },
    {
     "t": "Valorant: KeepBest Gaming vs A Team (BO3) - China National Tournament ",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Victory No Limits vs LNG Esports (BO3) - China National Tour",
@@ -463,11 +463,11 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: 9z vs Lynn Vision (BO1) - PGL Major Singapore Stage 1",
+    "t": "Counter-Strike: FaZe vs Wildcard (BO1) - PGL Major Singapore Stage 1",
     "closed": false
    },
    {
-    "t": "Counter-Strike: FaZe vs Wildcard (BO1) - PGL Major Singapore Stage 1",
+    "t": "Counter-Strike: 9z vs Lynn Vision (BO1) - PGL Major Singapore Stage 1",
     "closed": false
    }
   ],
@@ -587,10 +587,6 @@
     "closed": false
    },
    {
-    "t": "Valorant: BOOM Esports vs Rojali (BO3) - Asia Pacific Predator League ",
-    "closed": false
-   },
-   {
     "t": "Valorant: Xipto Esports vs Sharper Esport (BO5) - Asia Pacific Predato",
     "closed": true
    },
@@ -600,6 +596,10 @@
    },
    {
     "t": "Valorant: Original Gaming vs Học Viện 96 (BO3) - Asia Pacific Predator",
+    "closed": true
+   },
+   {
+    "t": "Valorant: Fancy United vs Original Gaming (BO3) - Asia Pacific Predato",
     "closed": true
    }
   ],
@@ -887,19 +887,19 @@
    ]
   }
  ],
- "events": 14,
- "markets": 75,
- "markets_dropped_by_volume_floor": 30,
- "day_file": "data/2026/11/2026-11-19T13.jsonl",
+ "events": 12,
+ "markets": 74,
+ "markets_dropped_by_volume_floor": 25,
+ "day_file": "data/2026/11/2026-11-19T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 35,
- "trades_watchlist_markets": 3,
- "trades_collected": 17,
- "anomalies_detected": 0,
- "anomalies_new": 0,
+ "trades_markets_queried": 43,
+ "trades_watchlist_markets": 9,
+ "trades_collected": 913,
+ "anomalies_detected": 1,
+ "anomalies_new": 1,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 53,
- "books_rows": 76,
+ "books_markets": 61,
+ "books_rows": 86,
  "status": "ok"
 }
