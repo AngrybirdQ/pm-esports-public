@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-19T11:32:53Z",
+ "ts": "2026-11-19T12:20:54Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -353,12 +353,12 @@
     "closed": false
    },
    {
-    "t": "Valorant: XJG vs Unsettled Resentment (BO3) - China National Tournamen",
-    "closed": true
+    "t": "Valorant: Victory No Limits vs LNG Esports (BO3) - China National Tour",
+    "closed": false
    },
    {
-    "t": "Valorant: Qian Xing Gaming vs LNG Esports (BO3) - China National Tourn",
-    "closed": true
+    "t": "Valorant: Havoc & Yonder vs Hyper Tide Gaming (BO3) - China National T",
+    "closed": false
    }
   ],
   "search:NBA": [
@@ -455,15 +455,15 @@
     "closed": false
    },
    {
+    "t": "Counter-Strike: Liquid vs GOSH (BO1) - PGL Major Singapore Stage 1",
+    "closed": false
+   },
+   {
     "t": "Counter-Strike: 9z vs Lynn Vision (BO1) - PGL Major Singapore Stage 1",
     "closed": false
    },
    {
     "t": "Counter-Strike: FaZe vs Wildcard (BO1) - PGL Major Singapore Stage 1",
-    "closed": false
-   },
-   {
-    "t": "Counter-Strike: Heroic vs Imperial (BO1) - PGL Major Singapore Stage 1",
     "closed": false
    },
    {
@@ -887,18 +887,34 @@
    ]
   }
  ],
- "events": 12,
- "markets": 68,
+ "events": 14,
+ "markets": 76,
  "markets_dropped_by_volume_floor": 30,
- "day_file": "data/2026/11/2026-11-19T11.jsonl",
+ "day_file": "data/2026/11/2026-11-19T12.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 38,
  "trades_watchlist_markets": 6,
- "trades_collected": 23,
+ "trades_collected": 10,
  "anomalies_detected": 0,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "history_debug": [
+  {
+   "cid": "0x2e85ddbf",
+   "pts": 14,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0xe6367c33",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x5daf688e",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 3,
  "books_markets": 56,
  "books_rows": 80,
  "status": "ok"
