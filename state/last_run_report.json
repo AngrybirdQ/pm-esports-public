@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-19T08:05:06Z",
+ "ts": "2026-11-19T08:20:29Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -274,7 +274,7 @@
  "errors": [
   "global-scan: HTTP 406: HTTP Error 406: Not Acceptable"
  ],
- "stage": "snap",
+ "stage": "all",
  "tags_discovered": [
   "international-affairs"
  ],
@@ -359,12 +359,12 @@
     "closed": false
    },
    {
-    "t": "Valorant: XJG vs Unsettled Resentment (BO3) - China National Tournamen",
-    "closed": true
-   },
-   {
     "t": "Valorant: XJG vs FunPlus Phoenix (BO3) - China National Tournament Spl",
     "closed": false
+   },
+   {
+    "t": "Valorant: XJG vs Unsettled Resentment (BO3) - China National Tournamen",
+    "closed": true
    }
   ],
   "search:NBA": [
@@ -932,5 +932,14 @@
  "markets_dropped_by_volume_floor": 32,
  "day_file": "data/2026/11/2026-11-19T08.jsonl",
  "retention_removed_files": 120,
+ "trades_markets_queried": 39,
+ "trades_watchlist_markets": 6,
+ "trades_collected": 352,
+ "anomalies_detected": 2,
+ "anomalies_new": 2,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 56,
+ "books_rows": 80,
  "status": "ok"
 }
