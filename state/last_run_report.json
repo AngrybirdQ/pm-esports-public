@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-19T09:26:22Z",
+ "ts": "2026-11-19T10:19:48Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -341,16 +341,16 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: TEC Esports vs KeepBest Gaming (BO3) - China National Tourna",
-    "closed": true
-   },
-   {
     "t": "Valorant: XJG vs FunPlus Phoenix (BO3) - China National Tournament Spl",
     "closed": false
    },
    {
+    "t": "Valorant: TEC Esports vs KeepBest Gaming (BO3) - China National Tourna",
+    "closed": true
+   },
+   {
     "t": "Valorant: Qian Xing Gaming vs SEC (BO3) - China National Tournament Sp",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: XJG vs Unsettled Resentment (BO3) - China National Tournamen",
@@ -467,7 +467,7 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: PVISION vs DENDELE CS (BO1) - PGL Major Singapore Stag",
+    "t": "Counter-Strike: Eternal Fire vs FlyQuest (BO1) - PGL Major Singapore S",
     "closed": false
    }
   ],
@@ -583,16 +583,16 @@
   ],
   "search:Predator League": [
    {
-    "t": "Valorant: Xipto Esports vs Sharper Esport (BO5) - Asia Pacific Predato",
-    "closed": true
-   },
-   {
     "t": "Valorant: Maxxing vs Oasis Gaming (BO5) - Asia Pacific Predator League",
     "closed": false
    },
    {
     "t": "Valorant: BOOM Esports vs Rojali (BO3) - Asia Pacific Predator League ",
     "closed": false
+   },
+   {
+    "t": "Valorant: Xipto Esports vs Sharper Esport (BO5) - Asia Pacific Predato",
+    "closed": true
    },
    {
     "t": "Valorant: Salamander vs NongKaiTod (BO3) - Asia Pacific Predator Leagu",
@@ -887,19 +887,19 @@
    ]
   }
  ],
- "events": 14,
- "markets": 73,
- "markets_dropped_by_volume_floor": 33,
- "day_file": "data/2026/11/2026-11-19T09.jsonl",
+ "events": 13,
+ "markets": 69,
+ "markets_dropped_by_volume_floor": 30,
+ "day_file": "data/2026/11/2026-11-19T10.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 23,
- "trades_watchlist_markets": 9,
- "trades_collected": 163,
+ "trades_markets_queried": 39,
+ "trades_watchlist_markets": 5,
+ "trades_collected": 89,
  "anomalies_detected": 0,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 27,
- "books_rows": 42,
+ "books_markets": 57,
+ "books_rows": 80,
  "status": "ok"
 }
