@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-19T09:07:29Z",
+ "ts": "2026-11-19T09:12:08Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -363,8 +363,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: Qian Xing Gaming vs LNG Esports (BO3) - China National Tourn",
-    "closed": true
+    "t": "Valorant: KeepBest Gaming vs A Team (BO3) - China National Tournament ",
+    "closed": false
    }
   ],
   "search:NBA": [
@@ -461,15 +461,15 @@
     "closed": false
    },
    {
+    "t": "Counter-Strike: 9z vs Lynn Vision (BO1) - PGL Major Singapore Stage 1",
+    "closed": false
+   },
+   {
     "t": "Counter-Strike: FaZe vs Wildcard (BO1) - PGL Major Singapore Stage 1",
     "closed": false
    },
    {
     "t": "Counter-Strike: Heroic vs Imperial (BO1) - PGL Major Singapore Stage 1",
-    "closed": false
-   },
-   {
-    "t": "Counter-Strike: 9z vs Lynn Vision (BO1) - PGL Major Singapore Stage 1",
     "closed": false
    },
    {
@@ -927,19 +927,25 @@
    ]
   }
  ],
- "events": 13,
- "markets": 71,
- "markets_dropped_by_volume_floor": 31,
+ "events": 14,
+ "markets": 73,
+ "markets_dropped_by_volume_floor": 33,
  "day_file": "data/2026/11/2026-11-19T09.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 39,
  "trades_watchlist_markets": 6,
- "trades_collected": 259,
+ "trades_collected": 226,
  "anomalies_detected": 2,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "history_debug": [
+  {
+   "cid": "0x093892fe",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 56,
- "books_rows": 80,
+ "books_rows": 82,
  "status": "ok"
 }
