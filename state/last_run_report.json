@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-19T18:14:07Z",
+ "ts": "2026-11-19T18:18:02Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -288,7 +288,7 @@
    },
    {
     "t": "Dota 2: Team Lynx vs Spirit Academy (BO3) - Asgard Championship Playof",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: angry birds vs Team Allied (BO3) - European Pro League Group A",
@@ -628,7 +628,6 @@
  },
  "winning_sources": [
   "search:BLAST",
-  "search:Dota 2",
   "search:DreamLeague",
   "search:League of Legends",
   "search:PGL",
@@ -888,19 +887,19 @@
    ]
   }
  ],
- "events": 13,
- "markets": 70,
- "markets_dropped_by_volume_floor": 33,
+ "events": 12,
+ "markets": 69,
+ "markets_dropped_by_volume_floor": 30,
  "day_file": "data/2026/11/2026-11-19T18.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 23,
+ "trades_markets_queried": 22,
  "trades_watchlist_markets": 12,
- "trades_collected": 1009,
+ "trades_collected": 1007,
  "anomalies_detected": 1,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 21,
- "books_rows": 40,
+ "books_rows": 42,
  "status": "ok"
 }
