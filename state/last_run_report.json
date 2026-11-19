@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-19T13:07:50Z",
+ "ts": "2026-11-19T13:12:29Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -357,7 +357,7 @@
     "closed": false
    },
    {
-    "t": "Valorant: Havoc & Yonder vs Hyper Tide Gaming (BO3) - China National T",
+    "t": "Valorant: Any Questions Gaming vs Unsettled Resentment (BO3) - China N",
     "closed": false
    }
   ],
@@ -897,8 +897,14 @@
  "trades_collected": 10,
  "anomalies_detected": 0,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "history_debug": [
+  {
+   "cid": "0xd8ce0a0d",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 56,
  "books_rows": 80,
  "status": "ok"
