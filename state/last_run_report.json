@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-19T23:02:56Z",
+ "ts": "2026-11-19T23:54:49Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -292,7 +292,7 @@
    },
    {
     "t": "Dota 2: PuckChamp vs potn9ki (BO3) - European Pro League Group B",
-    "closed": false
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -628,7 +628,6 @@
  },
  "winning_sources": [
   "search:BLAST",
-  "search:Dota 2",
   "search:League of Legends",
   "search:PGL",
   "search:Predator League",
@@ -887,19 +886,19 @@
    ]
   }
  ],
- "events": 12,
- "markets": 69,
- "markets_dropped_by_volume_floor": 35,
+ "events": 11,
+ "markets": 67,
+ "markets_dropped_by_volume_floor": 33,
  "day_file": "data/2026/11/2026-11-19T23.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 39,
  "trades_watchlist_markets": 7,
- "trades_collected": 129,
+ "trades_collected": 11,
  "anomalies_detected": 0,
  "anomalies_new": 0,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 56,
+ "books_markets": 54,
  "books_rows": 82,
  "status": "ok"
 }
