@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-19T15:26:04Z",
+ "ts": "2026-11-19T15:30:00Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -283,15 +283,15 @@
     "closed": true
    },
    {
+    "t": "Dota 2: Froglings vs HULIGANI (BO3) - DreamLeague Division 2 Playoffs",
+    "closed": false
+   },
+   {
     "t": "Dota 2: Spirit Academy vs Nemiga Gaming (BO3) - Asgard Championship Pl",
     "closed": true
    },
    {
-    "t": "Dota 2: angry birds vs CyberHero (BO3) - Asgard Championship Playoffs",
-    "closed": true
-   },
-   {
-    "t": "Dota 2: Froglings vs HULIGANI (BO3) - DreamLeague Division 2 Playoffs",
+    "t": "Dota 2: angry birds vs Team Allied (BO3) - European Pro League Group A",
     "closed": false
    }
   ],
@@ -499,11 +499,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Aurora vs PARIVISION (BO3) - 1win Essence Playoffs",
+    "t": "1win Essence III: Winner",
     "closed": true
    },
    {
-    "t": "1win Essence III: Winner",
+    "t": "Dota 2: Aurora vs PARIVISION (BO3) - 1win Essence Playoffs",
     "closed": true
    },
    {
@@ -887,19 +887,25 @@
    ]
   }
  ],
- "events": 12,
- "markets": 73,
- "markets_dropped_by_volume_floor": 25,
+ "events": 13,
+ "markets": 77,
+ "markets_dropped_by_volume_floor": 26,
  "day_file": "data/2026/11/2026-11-19T15.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 39,
+ "trades_markets_queried": 42,
  "trades_watchlist_markets": 5,
- "trades_collected": 1085,
- "anomalies_detected": 2,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_collected": 1520,
+ "anomalies_detected": 5,
+ "anomalies_new": 5,
+ "history_debug": [
+  {
+   "cid": "0xd6063d4b",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 56,
- "books_rows": 88,
+ "books_rows": 82,
  "status": "ok"
 }
