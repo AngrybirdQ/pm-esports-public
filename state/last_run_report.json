@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-19T16:33:58Z",
+ "ts": "2026-11-19T17:22:51Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -287,12 +287,12 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Spirit Academy vs Nemiga Gaming (BO3) - Asgard Championship Pl",
-    "closed": true
+    "t": "Dota 2: Team Lynx vs Spirit Academy (BO3) - Asgard Championship Playof",
+    "closed": false
    },
    {
-    "t": "Dota 2: angry birds vs Team Allied (BO3) - European Pro League Group A",
-    "closed": false
+    "t": "Dota 2: Spirit Academy vs Nemiga Gaming (BO3) - Asgard Championship Pl",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -357,7 +357,7 @@
     "closed": true
    },
    {
-    "t": "Valorant: Victory No Limits vs LNG Esports (BO3) - China National Tour",
+    "t": "Valorant: Team Envy vs Yellow Dragon Gaming (BO3) - VCT Americas Kicko",
     "closed": false
    }
   ],
@@ -888,18 +888,29 @@
   }
  ],
  "events": 13,
- "markets": 76,
- "markets_dropped_by_volume_floor": 25,
- "day_file": "data/2026/11/2026-11-19T16.jsonl",
+ "markets": 71,
+ "markets_dropped_by_volume_floor": 30,
+ "day_file": "data/2026/11/2026-11-19T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 25,
- "trades_watchlist_markets": 7,
- "trades_collected": 1051,
+ "trades_markets_queried": 21,
+ "trades_watchlist_markets": 12,
+ "trades_collected": 1004,
  "anomalies_detected": 2,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 29,
- "books_rows": 48,
+ "anomalies_new": 2,
+ "history_debug": [
+  {
+   "cid": "0xcdde761a",
+   "pts": 3,
+   "variant": "interval=all&fidelity=1000"
+  },
+  {
+   "cid": "0x97b8befd",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 2,
+ "books_markets": 24,
+ "books_rows": 40,
  "status": "ok"
 }
