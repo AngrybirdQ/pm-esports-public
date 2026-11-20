@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-20T18:53:31Z",
+ "ts": "2026-11-20T20:01:04Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -283,16 +283,16 @@
     "closed": true
    },
    {
+    "t": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
+    "closed": true
+   },
+   {
     "t": "Dota 2: GamerLegion vs Xtreme Gaming (BO3) - BLAST Slam Group B",
     "closed": true
    },
    {
     "t": "Dota 2: PARIVISION vs LEGION (BO3) - BLAST Slam Group C",
     "closed": true
-   },
-   {
-    "t": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
-    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -345,20 +345,20 @@
     "closed": false
    },
    {
+    "t": "Valorant: Shopify Rebellion Black vs Xora Esports (BO3) - VCT Americas",
+    "closed": false
+   },
+   {
+    "t": "Valorant: Cloud9 vs counterfeit (BO3) - VCT Americas Kickoff: North Am",
+    "closed": false
+   },
+   {
     "t": "Valorant: TEC Esports vs A Team (BO3) - China National Tournament Spli",
     "closed": true
    },
    {
     "t": "Valorant: Any Questions Gaming vs FunPlus Phoenix (BO3) - China Nation",
     "closed": true
-   },
-   {
-    "t": "Valorant: Ambitious Legend Gaming vs LNG Esports (BO3) - China Nationa",
-    "closed": true
-   },
-   {
-    "t": "Valorant: Cloud9 vs counterfeit (BO3) - VCT Americas Kickoff: North Am",
-    "closed": false
    }
   ],
   "search:NBA": [
@@ -628,7 +628,6 @@
  },
  "winning_sources": [
   "search:BLAST",
-  "search:Dota 2",
   "search:DreamLeague",
   "search:League of Legends",
   "search:PGL",
@@ -889,18 +888,24 @@
   }
  ],
  "events": 12,
- "markets": 77,
- "markets_dropped_by_volume_floor": 34,
- "day_file": "data/2026/11/2026-11-20T18.jsonl",
+ "markets": 75,
+ "markets_dropped_by_volume_floor": 43,
+ "day_file": "data/2026/11/2026-11-20T20.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 35,
- "trades_watchlist_markets": 15,
- "trades_collected": 2000,
- "anomalies_detected": 10,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 30,
- "books_rows": 52,
+ "trades_watchlist_markets": 19,
+ "trades_collected": 1852,
+ "anomalies_detected": 7,
+ "anomalies_new": 7,
+ "history_debug": [
+  {
+   "cid": "0x10fe72c6",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 26,
+ "books_rows": 50,
  "status": "ok"
 }
