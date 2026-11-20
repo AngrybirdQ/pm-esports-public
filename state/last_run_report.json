@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-20T10:04:29Z",
+ "ts": "2026-11-20T10:56:39Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -354,10 +354,10 @@
    },
    {
     "t": "Valorant: Ambitious Legend Gaming vs LNG Esports (BO3) - China Nationa",
-    "closed": false
+    "closed": true
    },
    {
-    "t": "Valorant: SaD Esports vs Winthrop University (BO3) - VCT Americas Kick",
+    "t": "Valorant: Any Questions Gaming vs FunPlus Phoenix (BO3) - China Nation",
     "closed": false
    }
   ],
@@ -887,19 +887,25 @@
    ]
   }
  ],
- "events": 15,
- "markets": 77,
- "markets_dropped_by_volume_floor": 51,
+ "events": 14,
+ "markets": 75,
+ "markets_dropped_by_volume_floor": 42,
  "day_file": "data/2026/11/2026-11-20T10.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 49,
- "trades_watchlist_markets": 13,
- "trades_collected": 230,
- "anomalies_detected": 2,
+ "trades_markets_queried": 39,
+ "trades_watchlist_markets": 14,
+ "trades_collected": 202,
+ "anomalies_detected": 0,
  "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 65,
- "books_rows": 92,
+ "history_debug": [
+  {
+   "cid": "0x0bcfa8ac",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 29,
+ "books_rows": 52,
  "status": "ok"
 }
