@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-20T14:01:52Z",
+ "ts": "2026-11-20T14:58:19Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -279,20 +279,20 @@
     "closed": true
    },
    {
+    "t": "Dota 2: Natus Vincere vs OG (BO3) - BLAST Slam Group A",
+    "closed": false
+   },
+   {
     "t": "Dota 2: CyberHero vs Froglings (BO3) - DreamLeague Division 2 Playoffs",
     "closed": true
    },
    {
+    "t": "Dota 2: GamerLegion vs Xtreme Gaming (BO3) - BLAST Slam Group B",
+    "closed": false
+   },
+   {
     "t": "Dota 2: Team Yandex vs PlayTime (BO3) - BLAST Slam Group A",
     "closed": true
-   },
-   {
-    "t": "Dota 2: Froglings vs HULIGANI (BO3) - DreamLeague Division 2 Playoffs",
-    "closed": true
-   },
-   {
-    "t": "Dota 2: Natus Vincere vs OG (BO3) - BLAST Slam Group A",
-    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -341,11 +341,11 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: Cloud9 vs counterfeit (BO3) - VCT Americas Kickoff: North Am",
+    "t": "Valorant: FlyQuest vs Masterclass (BO3) - VCT Americas Kickoff: North ",
     "closed": false
    },
    {
-    "t": "Valorant: FlyQuest vs Masterclass (BO3) - VCT Americas Kickoff: North ",
+    "t": "Valorant: Cloud9 vs counterfeit (BO3) - VCT Americas Kickoff: North Am",
     "closed": false
    },
    {
@@ -354,7 +354,7 @@
    },
    {
     "t": "Valorant: Any Questions Gaming vs FunPlus Phoenix (BO3) - China Nation",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Ambitious Legend Gaming vs LNG Esports (BO3) - China Nationa",
@@ -459,11 +459,11 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: 100 Thieves vs Chinggis Warriors (BO1) - PGL Major Sin",
+    "t": "Counter-Strike: Heroic vs Imperial (BO1) - PGL Major Singapore Stage 1",
     "closed": false
    },
    {
-    "t": "Counter-Strike: Heroic vs Imperial (BO1) - PGL Major Singapore Stage 1",
+    "t": "Counter-Strike: 100 Thieves vs Chinggis Warriors (BO1) - PGL Major Sin",
     "closed": false
    },
    {
@@ -889,18 +889,24 @@
   }
  ],
  "events": 14,
- "markets": 80,
- "markets_dropped_by_volume_floor": 38,
+ "markets": 81,
+ "markets_dropped_by_volume_floor": 37,
  "day_file": "data/2026/11/2026-11-20T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 50,
- "trades_watchlist_markets": 20,
+ "trades_markets_queried": 56,
+ "trades_watchlist_markets": 27,
  "trades_collected": 2001,
- "anomalies_detected": 2,
- "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 31,
- "books_rows": 56,
+ "anomalies_detected": 11,
+ "anomalies_new": 11,
+ "history_debug": [
+  {
+   "cid": "0x302cd174",
+   "pts": 5,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 32,
+ "books_rows": 60,
  "status": "ok"
 }
