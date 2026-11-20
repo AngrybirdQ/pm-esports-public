@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-20T17:42:24Z",
+ "ts": "2026-11-20T17:46:12Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -323,10 +323,6 @@
     "closed": false
    },
    {
-    "t": "Will Caedrel Reach Challenger Before the End of the Year?",
-    "closed": false
-   },
-   {
     "t": "LoL: Dplus KIA Challengers vs KT Rolster Challengers (BO5) - LCK Chall",
     "closed": true
    },
@@ -336,6 +332,10 @@
    },
    {
     "t": "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO5) - LCK Challengers",
+    "closed": true
+   },
+   {
+    "t": "LoL: DN SOOPers Challengers vs Nongshim Esports Academy (BO5) - LCK Ch",
     "closed": true
    }
   ],
@@ -887,16 +887,16 @@
    ]
   }
  ],
- "events": 12,
- "markets": 74,
+ "events": 11,
+ "markets": 73,
  "markets_dropped_by_volume_floor": 36,
  "day_file": "data/2026/11/2026-11-20T17.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 39,
  "trades_watchlist_markets": 23,
- "trades_collected": 1010,
- "anomalies_detected": 0,
- "anomalies_new": 0,
+ "trades_collected": 1009,
+ "anomalies_detected": 6,
+ "anomalies_new": 6,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 30,
