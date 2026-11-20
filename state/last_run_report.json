@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-20T13:46:18Z",
+ "ts": "2026-11-20T13:50:16Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -291,8 +291,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Lynx vs Spirit Academy (BO3) - Asgard Championship Playof",
-    "closed": true
+    "t": "Dota 2: Natus Vincere vs OG (BO3) - BLAST Slam Group A",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -888,19 +888,25 @@
    ]
   }
  ],
- "events": 14,
- "markets": 79,
- "markets_dropped_by_volume_floor": 39,
+ "events": 15,
+ "markets": 85,
+ "markets_dropped_by_volume_floor": 38,
  "day_file": "data/2026/11/2026-11-20T13.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 53,
+ "trades_markets_queried": 57,
  "trades_watchlist_markets": 19,
- "trades_collected": 1078,
- "anomalies_detected": 8,
+ "trades_collected": 2041,
+ "anomalies_detected": 10,
  "anomalies_new": 2,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 67,
- "books_rows": 98,
+ "history_debug": [
+  {
+   "cid": "0xd60ab1fe",
+   "pts": 5,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 68,
+ "books_rows": 110,
  "status": "ok"
 }
