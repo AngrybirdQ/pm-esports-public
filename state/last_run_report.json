@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-20T17:53:51Z",
+ "ts": "2026-11-20T17:58:58Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -291,8 +291,8 @@
     "closed": false
    },
    {
-    "t": "Dota 2: CyberHero vs Froglings (BO3) - DreamLeague Division 2 Playoffs",
-    "closed": true
+    "t": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -888,19 +888,25 @@
    ]
   }
  ],
- "events": 12,
- "markets": 77,
+ "events": 13,
+ "markets": 82,
  "markets_dropped_by_volume_floor": 36,
  "day_file": "data/2026/11/2026-11-20T17.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 42,
- "trades_watchlist_markets": 23,
- "trades_collected": 2001,
- "anomalies_detected": 11,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_markets_queried": 40,
+ "trades_watchlist_markets": 15,
+ "trades_collected": 1836,
+ "anomalies_detected": 10,
+ "anomalies_new": 10,
+ "history_debug": [
+  {
+   "cid": "0xac54d120",
+   "pts": 4,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 30,
- "books_rows": 54,
+ "books_rows": 52,
  "status": "ok"
 }
