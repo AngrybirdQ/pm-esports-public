@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-20T00:30:52Z",
+ "ts": "2026-11-20T00:35:27Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -533,8 +533,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs Aurora (BO5) - DreamLeague Playoffs",
-    "closed": true
+    "t": "Dota 2: Inner Circle vs CyberHero (BO5) - DreamLeague Division 2 Playo",
+    "closed": false
    }
   ],
   "search:LCK": [
@@ -628,6 +628,7 @@
  },
  "winning_sources": [
   "search:BLAST",
+  "search:DreamLeague",
   "search:League of Legends",
   "search:PGL",
   "search:Predator League",
@@ -886,9 +887,9 @@
    ]
   }
  ],
- "events": 11,
+ "events": 12,
  "markets": 67,
- "markets_dropped_by_volume_floor": 33,
+ "markets_dropped_by_volume_floor": 42,
  "day_file": "data/2026/11/2026-11-20T00.jsonl",
  "retention_removed_files": 0,
  "trades_markets_queried": 39,
