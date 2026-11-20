@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-20T12:04:57Z",
+ "ts": "2026-11-20T12:57:33Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -275,23 +275,23 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: CyberHero vs Froglings (BO3) - DreamLeague Division 2 Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Spirit vs Team Nemesis (BO3) - BLAST Slam Group B",
     "closed": false
+   },
+   {
+    "t": "Dota 2: CyberHero vs Froglings (BO3) - DreamLeague Division 2 Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: Froglings vs HULIGANI (BO3) - DreamLeague Division 2 Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Lynx vs Spirit Academy (BO3) - Asgard Championship Playof",
-    "closed": true
+    "t": "Dota 2: Team Yandex vs PlayTime (BO3) - BLAST Slam Group A",
+    "closed": false
    },
    {
-    "t": "Dota 2: angry birds vs Team Allied (BO3) - European Pro League Group A",
+    "t": "Dota 2: Team Lynx vs Spirit Academy (BO3) - Asgard Championship Playof",
     "closed": true
    }
   ],
@@ -455,15 +455,15 @@
     "closed": false
    },
    {
+    "t": "Counter-Strike: 9z vs Lynn Vision (BO1) - PGL Major Singapore Stage 1",
+    "closed": false
+   },
+   {
     "t": "Counter-Strike: 100 Thieves vs Chinggis Warriors (BO1) - PGL Major Sin",
     "closed": false
    },
    {
     "t": "Counter-Strike: Heroic vs Imperial (BO1) - PGL Major Singapore Stage 1",
-    "closed": false
-   },
-   {
-    "t": "Counter-Strike: 9z vs Lynn Vision (BO1) - PGL Major Singapore Stage 1",
     "closed": false
    },
    {
@@ -888,19 +888,25 @@
    ]
   }
  ],
- "events": 15,
- "markets": 80,
- "markets_dropped_by_volume_floor": 42,
+ "events": 16,
+ "markets": 83,
+ "markets_dropped_by_volume_floor": 40,
  "day_file": "data/2026/11/2026-11-20T12.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 43,
- "trades_watchlist_markets": 14,
- "trades_collected": 1125,
- "anomalies_detected": 2,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 28,
- "books_rows": 46,
+ "trades_markets_queried": 57,
+ "trades_watchlist_markets": 19,
+ "trades_collected": 2039,
+ "anomalies_detected": 6,
+ "anomalies_new": 6,
+ "history_debug": [
+  {
+   "cid": "0xe8556f11",
+   "pts": 5,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 67,
+ "books_rows": 104,
  "status": "ok"
 }
