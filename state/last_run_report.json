@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-20T11:24:17Z",
+ "ts": "2026-11-20T11:33:11Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -291,8 +291,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PuckChamp vs potn9ki (BO3) - European Pro League Group B",
-    "closed": true
+    "t": "Dota 2: Team Spirit vs Team Nemesis (BO3) - BLAST Slam Group B",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -628,6 +628,7 @@
  },
  "winning_sources": [
   "search:BLAST",
+  "search:Dota 2",
   "search:DreamLeague",
   "search:League of Legends",
   "search:PGL",
@@ -887,18 +888,24 @@
    ]
   }
  ],
- "events": 14,
- "markets": 76,
+ "events": 15,
+ "markets": 81,
  "markets_dropped_by_volume_floor": 41,
  "day_file": "data/2026/11/2026-11-20T11.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 40,
+ "trades_markets_queried": 43,
  "trades_watchlist_markets": 14,
- "trades_collected": 131,
- "anomalies_detected": 0,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
+ "trades_collected": 1006,
+ "anomalies_detected": 1,
+ "anomalies_new": 1,
+ "history_debug": [
+  {
+   "cid": "0xdda13700",
+   "pts": 5,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
  "books_markets": 29,
  "books_rows": 50,
  "status": "ok"
