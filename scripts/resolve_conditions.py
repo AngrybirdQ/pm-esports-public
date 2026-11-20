@@ -98,7 +98,11 @@ def main():
                 n_ok += 1
             else:
                 n_no += 1
-            done.add(cid)
+            # 11-20 CLEA-257修复: 只在"已出winner/已closed/市场不存在"时记done。
+            # 原版无条件done → 未开赛/未结算的比赛盘(如明日BOJONG)查一次即永标done,
+            # 赛后永不再查 → 官方结算/er回填永久缺失。未出winner的盘留待下轮重查。
+            if rec.get("winner") or rec.get("closed") or "error" in rec:
+                done.add(cid)
             with open(OUT, "a", encoding="utf-8") as f:
                 f.write(json.dumps(rec, ensure_ascii=False) + "\n")
             time.sleep(0.08)
