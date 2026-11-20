@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-20T15:52:59Z",
+ "ts": "2026-11-20T16:59:05Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -275,16 +275,16 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Team Spirit vs Team Nemesis (BO3) - BLAST Slam Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Natus Vincere vs OG (BO3) - BLAST Slam Group A",
     "closed": false
    },
    {
+    "t": "Dota 2: Team Spirit vs Team Nemesis (BO3) - BLAST Slam Group B",
+    "closed": true
+   },
+   {
     "t": "Dota 2: GamerLegion vs Xtreme Gaming (BO3) - BLAST Slam Group B",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: CyberHero vs Froglings (BO3) - DreamLeague Division 2 Playoffs",
@@ -345,10 +345,6 @@
     "closed": false
    },
    {
-    "t": "Valorant: Cloud9 vs counterfeit (BO3) - VCT Americas Kickoff: North Am",
-    "closed": false
-   },
-   {
     "t": "Valorant: TEC Esports vs A Team (BO3) - China National Tournament Spli",
     "closed": true
    },
@@ -359,6 +355,10 @@
    {
     "t": "Valorant: Ambitious Legend Gaming vs LNG Esports (BO3) - China Nationa",
     "closed": true
+   },
+   {
+    "t": "Valorant: Cloud9 vs counterfeit (BO3) - VCT Americas Kickoff: North Am",
+    "closed": false
    }
   ],
   "search:NBA": [
@@ -463,11 +463,11 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: 100 Thieves vs Chinggis Warriors (BO1) - PGL Major Sin",
+    "t": "Counter-Strike: Eternal Fire vs FlyQuest (BO1) - PGL Major Singapore S",
     "closed": false
    },
    {
-    "t": "Counter-Strike: Eternal Fire vs FlyQuest (BO1) - PGL Major Singapore S",
+    "t": "Counter-Strike: NIP vs M80 (BO1) - PGL Major Singapore Stage 1",
     "closed": false
    }
   ],
@@ -529,12 +529,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Froglings vs HULIGANI (BO3) - DreamLeague Division 2 Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Inner Circle vs CyberHero (BO5) - DreamLeague Division 2 Playo",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Froglings vs HULIGANI (BO3) - DreamLeague Division 2 Playoffs",
+    "closed": true
    }
   ],
   "search:LCK": [
@@ -888,19 +888,19 @@
    ]
   }
  ],
- "events": 14,
- "markets": 81,
- "markets_dropped_by_volume_floor": 38,
- "day_file": "data/2026/11/2026-11-20T15.jsonl",
+ "events": 13,
+ "markets": 77,
+ "markets_dropped_by_volume_floor": 36,
+ "day_file": "data/2026/11/2026-11-20T16.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 46,
- "trades_watchlist_markets": 27,
- "trades_collected": 2000,
- "anomalies_detected": 18,
- "anomalies_new": 2,
+ "trades_markets_queried": 41,
+ "trades_watchlist_markets": 23,
+ "trades_collected": 1189,
+ "anomalies_detected": 6,
+ "anomalies_new": 6,
  "history_debug": [],
  "history_conditions_new": 0,
  "books_markets": 33,
- "books_rows": 54,
+ "books_rows": 58,
  "status": "ok"
 }
