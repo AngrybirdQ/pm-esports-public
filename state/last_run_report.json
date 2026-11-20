@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-20T08:48:57Z",
+ "ts": "2026-11-20T08:59:45Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -268,7 +268,7 @@
  "errors": [
   "global-scan: HTTP 406: HTTP Error 406: Not Acceptable"
  ],
- "stage": "snap",
+ "stage": "all",
  "tags_discovered": [
   "international-affairs"
  ],
@@ -357,7 +357,7 @@
     "closed": false
    },
    {
-    "t": "Valorant: Team Envy vs Yellow Dragon Gaming (BO3) - VCT Americas Kicko",
+    "t": "Valorant: TEC Esports vs A Team (BO3) - China National Tournament Spli",
     "closed": false
    }
   ],
@@ -888,9 +888,24 @@
   }
  ],
  "events": 15,
- "markets": 74,
- "markets_dropped_by_volume_floor": 54,
+ "markets": 75,
+ "markets_dropped_by_volume_floor": 53,
  "day_file": "data/2026/11/2026-11-20T08.jsonl",
  "retention_removed_files": 0,
+ "trades_markets_queried": 29,
+ "trades_watchlist_markets": 13,
+ "trades_collected": 291,
+ "anomalies_detected": 0,
+ "anomalies_new": 0,
+ "history_debug": [
+  {
+   "cid": "0xf910bffe",
+   "pts": 2,
+   "variant": "interval=all&fidelity=1000"
+  }
+ ],
+ "history_conditions_new": 1,
+ "books_markets": 29,
+ "books_rows": 52,
  "status": "ok"
 }
