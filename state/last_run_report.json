@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-20T13:50:16Z",
+ "ts": "2026-11-20T14:01:52Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -276,7 +276,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: Team Spirit vs Team Nemesis (BO3) - BLAST Slam Group B",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: CyberHero vs Froglings (BO3) - DreamLeague Division 2 Playoffs",
@@ -888,25 +888,19 @@
    ]
   }
  ],
- "events": 15,
- "markets": 85,
+ "events": 14,
+ "markets": 80,
  "markets_dropped_by_volume_floor": 38,
- "day_file": "data/2026/11/2026-11-20T13.jsonl",
+ "day_file": "data/2026/11/2026-11-20T14.jsonl",
  "retention_removed_files": 0,
- "trades_markets_queried": 57,
- "trades_watchlist_markets": 19,
- "trades_collected": 2041,
- "anomalies_detected": 10,
+ "trades_markets_queried": 50,
+ "trades_watchlist_markets": 20,
+ "trades_collected": 2001,
+ "anomalies_detected": 2,
  "anomalies_new": 2,
- "history_debug": [
-  {
-   "cid": "0xd60ab1fe",
-   "pts": 5,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
- "books_markets": 68,
- "books_rows": 110,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 31,
+ "books_rows": 56,
  "status": "ok"
 }
