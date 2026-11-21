@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-21T16:23:59Z",
+ "ts": "2026-11-21T16:34:06Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -393,8 +393,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs LEGION (BO3) - BLAST Slam Group C",
-    "closed": true
+    "t": "Dota 2: Team Yandex vs Natus Vincere (BO3) - BLAST Slam Group A",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -745,14 +745,18 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: ex-INOX Division vs WBT (BO3) - European Pro League Pl",
-    "closed": true
+    "t": "Dota 2: Power Rangers vs Team Synapse (BO3) - European Pro League Grou",
+    "closed": false
    }
   ],
   "search:ESEA": [
    {
     "t": "Counter-Strike: 99firepower 1utility vs BANGARANGA (BO1) - ESEA Advanc",
     "closed": true
+   },
+   {
+    "t": "Counter-Strike: ZOTIX vs TEAM GELO (BO1) - ESEA Advanced Europe Regula",
+    "closed": false
    },
    {
     "t": "Counter-Strike: JUMBO TEAM vs BANGARANGA (BO1) - ESEA Advanced Europe ",
@@ -765,10 +769,6 @@
    {
     "t": "Counter-Strike: Rcave vs Y23 (BO1) - ESEA Advanced Europe Regular Seas",
     "closed": true
-   },
-   {
-    "t": "Counter-Strike: ZOTIX vs TEAM GELO (BO1) - ESEA Advanced Europe Regula",
-    "closed": false
    }
   ],
   "search:Elisa Open Suomi": [
@@ -883,11 +883,11 @@
   ],
   "search:NODWIN": [
    {
-    "t": "Counter-Strike: WBT vs Phantom (BO3) - NODWIN Clutch Series Playoffs",
+    "t": "Counter-Strike: Virtus.pro vs Nice Try (BO3) - NODWIN Clutch Series Pl",
     "closed": true
    },
    {
-    "t": "Counter-Strike: Virtus.pro vs Nice Try (BO3) - NODWIN Clutch Series Pl",
+    "t": "Counter-Strike: WBT vs Phantom (BO3) - NODWIN Clutch Series Playoffs",
     "closed": true
    },
    {
@@ -987,8 +987,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs LEGION (BO3) - BLAST Slam Group C",
-    "closed": true
+    "t": "Dota 2: Team Yandex vs Natus Vincere (BO3) - BLAST Slam Group A",
+    "closed": false
    }
   ],
   "search:China National Tournament": [
@@ -1106,6 +1106,7 @@
   "search:BLAST",
   "search:CCT Europe",
   "search:CCT South America",
+  "search:Dota 2",
   "search:ESEA",
   "search:European Pro League",
   "search:Exort Fiesta",
@@ -1367,9 +1368,9 @@
    ]
   }
  ],
- "events": 19,
- "markets": 95,
- "markets_dropped_by_volume_floor": 31,
+ "events": 21,
+ "markets": 103,
+ "markets_dropped_by_volume_floor": 34,
  "day_file": "data/2026/11/2026-11-21T16.jsonl",
  "retention_removed_files": 29,
  "status": "ok"
