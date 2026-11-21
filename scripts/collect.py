@@ -36,7 +36,13 @@ SEARCH_KEYWORDS = ["Dota 2", "Counter-Strike", "League of Legends", "Valorant", 
                    # 11-16: gamma tag_slug/tag_id 全406后(11-12起), search是主通道,
                    # 扩词覆盖赛事品牌词(期货族BLAST/Worlds/PGL等原本靠tag通道)
                    "BLAST", "ESL Challenger", "PGL", "Worlds 2026", "1win Essence",
-                   "DreamLeague", "LCK", "LPL", "Predator League", "Esports World Cup"]
+                   "DreamLeague", "LCK", "LPL", "Predator League", "Esports World Cup",
+                   # 11-21 CLEA续: 二三线联赛场次覆盖(近一周er实际出现过的赛事词)
+                   "European Pro League", "ESEA", "Elisa Open Suomi", "United21",
+                   "CCT Europe", "CCT South America", "Exort Fiesta", "NODWIN",
+                   "Stake Ranked", "Asgard Championship", "BLAST Slam", "Slam Group",
+                   "China National Tournament", "VCT Americas", "VCT Pacific",
+                   "Challengers League", "ESL Pro League"]
 
 # 11-16: 关键期货盘slug钉死 — gamma tag通道406后search相关性与closed污染
 # 会漏掉低24h量的Winner盘(实测: Slam IX/Peak Viewership回流但
@@ -56,8 +62,8 @@ ESSENTIAL_EVENT_SLUGS = [
 ]
 # Volume floor: the long tail of zero-liquidity match markets is noise for
 # CLV work. Keep a market if it cleared either bar.
-MIN_VOLUME_24H = 100.0
-MIN_VOLUME_TOTAL = 1000.0
+MIN_VOLUME_24H = 30.0
+MIN_VOLUME_TOTAL = 400.0
 RETENTION_DAYS = 7
 
 # --- trade-flow watch (the "场外异动" sensor) ---
