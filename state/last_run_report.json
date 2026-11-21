@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-21T04:44:06Z",
+ "ts": "2026-11-21T05:04:03Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -206,6 +206,108 @@
   },
   {
    "url": "search:Esports World Cup",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:European Pro League",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:ESEA",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:Elisa Open Suomi",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:United21",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:CCT Europe",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:CCT South America",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:Exort Fiesta",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:NODWIN",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:Stake Ranked",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:Asgard Championship",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:BLAST Slam",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:Slam Group",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:China National Tournament",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:VCT Americas",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:VCT Pacific",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:Challengers League",
+   "ok": true,
+   "events_returned": 5,
+   "err": null
+  },
+  {
+   "url": "search:ESL Pro League",
    "ok": true,
    "events_returned": 5,
    "err": null
@@ -455,6 +557,10 @@
     "closed": false
    },
    {
+    "t": "Counter-Strike: 9z vs Lynn Vision (BO1) - PGL Major Singapore Stage 1",
+    "closed": false
+   },
+   {
     "t": "Counter-Strike: Eternal Fire vs FlyQuest (BO1) - PGL Major Singapore S",
     "closed": false
    },
@@ -464,10 +570,6 @@
    },
    {
     "t": "Counter-Strike: Heroic vs Imperial (BO1) - PGL Major Singapore Stage 1",
-    "closed": false
-   },
-   {
-    "t": "Counter-Strike: Liquid vs GOSH (BO1) - PGL Major Singapore Stage 1",
     "closed": false
    }
   ],
@@ -624,15 +726,392 @@
     "t": "LoL: T1 vs Karmine Corp (BO3) - Esports World Cup Playoffs",
     "closed": true
    }
+  ],
+  "search:European Pro League": [
+   {
+    "t": "Dota 2: 4ikibamboni vs Team Allied (BO3) - European Pro League Group A",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: ex-INOX Division vs WBT (BO3) - European Pro League Pl",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Inner Circle vs Team Allied (BO3) - European Pro League Group ",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Balkan Outlaws vs FORZE Reload (BO3) - European Pro Le",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Balkan Outlaws vs ex-INOX Division (BO3) - European Pr",
+    "closed": false
+   }
+  ],
+  "search:ESEA": [
+   {
+    "t": "Counter-Strike: 99firepower 1utility vs BANGARANGA (BO1) - ESEA Advanc",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: JUMBO TEAM vs BANGARANGA (BO1) - ESEA Advanced Europe ",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Rcave vs Y23 (BO1) - ESEA Advanced Europe Regular Seas",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Rcave vs Glitchtech Esports (BO1) - ESEA Advanced Euro",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Fire Flux Esports vs eternal premium (BO1) - ESEA Adva",
+    "closed": true
+   }
+  ],
+  "search:Elisa Open Suomi": [
+   {
+    "t": "Counter-Strike: HAVU vs Nordic Valor (BO3) - Elisa Open Suomi Group St",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Prestige vs BoyBand (BO3) - Elisa Open Suomi Group Sta",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Nordic Valor vs BoyBand (BO3) - Elisa Open Suomi Group",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: ENCE vs KAJO (BO3) - Elisa Open Suomi Regular Season",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: KUUSAMO.gg vs Nordic Valor (BO3) - Elisa Open Suomi Gr",
+    "closed": true
+   }
+  ],
+  "search:United21": [
+   {
+    "t": "Counter-Strike: EYEBALLERS vs STATE (BO3) - United21 Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Alliance vs  Phantom Academy (BO3) - United21 Group D",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: INFURITY Gaming vs ex-MANA eSports (BO3) - United21 Gr",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: eSuba vs Misa Esports (BO3) - United21 Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: 9INE Academy vs CTRL Esports (BO3) - United21 Group C",
+    "closed": true
+   }
+  ],
+  "search:CCT Europe": [
+   {
+    "t": "Counter-Strike: GenOne vs Leo Team (BO3) - CCT Europe Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Rune Eaters vs Butterfly (BO3) - CCT Europe Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Nice Try vs BakS eSports (BO3) - CCT Europe Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: KUUSAMO.gg vs Sökerorg (BO3) - CCT Europe Closed Quali",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: maybe vs Drama eSports (BO3) - CCT Europe Closed Quali",
+    "closed": true
+   }
+  ],
+  "search:CCT South America": [
+   {
+    "t": "Counter-Strike: paiN Academy vs Los Niños (BO3) - CCT South America Ch",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Rush vs Mira (BO3) - CCT South America Challengers #4 ",
+    "closed": false
+   },
+   {
+    "t": "Counter-Strike: MEIA NOITE vs Rush (BO3) - CCT South America Challenge",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: MEIA NOITE vs ALKA (BO3) - CCT South America Challenge",
+    "closed": false
+   },
+   {
+    "t": "Counter-Strike: Yawara Esports vs Game Hunters (BO3) - CCT South Ameri",
+    "closed": true
+   }
+  ],
+  "search:Exort Fiesta": [
+   {
+    "t": "Counter-Strike: Honvéd vs Revise (BO3) - Exort Fiesta Group Stage",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Misa Esports vs Prestige (BO3) - Exort Fiesta Group St",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike:  Phantom Academy vs KAMUI (BO3) - Exort Fiesta Group S",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Leo Team vs UNiTY esports (BO3) - Exort Fiesta Playoff",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Lavked vs Vexar (BO3) - Exort Fiesta Group Stage",
+    "closed": true
+   }
+  ],
+  "search:NODWIN": [
+   {
+    "t": "Counter-Strike: Team Nemesis vs 33 (BO3) - NODWIN Clutch Series Playof",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: WBT vs Phantom (BO3) - NODWIN Clutch Series Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Iberian Soul vs Butterfly (BO3) - NODWIN Clutch Series",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Virtus.pro vs Nice Try (BO3) - NODWIN Clutch Series Pl",
+    "closed": false
+   },
+   {
+    "t": "Counter-Strike: Betclic Apogee Esports vs FORZE Reload (BO3) - NODWIN ",
+    "closed": false
+   }
+  ],
+  "search:Stake Ranked": [
+   {
+    "t": "Counter-Strike: Sangal vs Luminosity (BO5) - Stake Ranked Episode 6 Pl",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Luminosity vs BIG (BO3) - Stake Ranked Episode 6 Playo",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Nemiga vs Astralis (BO5) - Stake Ranked Episode 4 Play",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: FaZe vs Nemiga (BO3) - Stake Ranked Episode 4 Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: GamerLegion vs Inner Circle Esports (BO3) - Stake Rank",
+    "closed": true
+   }
+  ],
+  "search:Asgard Championship": [
+   {
+    "t": "Dota 2: CyberHero vs angry birds (BO5) - Asgard Championship Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Nemiga Gaming vs Spirit Academy (BO3) - Asgard Championship Gr",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Inner Circle vs Xipto Esports (BO3) - Asgard Championship Grou",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Xipto Esports vs Nemiga Gaming (BO3) - Asgard Championship Gro",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Xipto Esports vs CyberHero (BO3) - Asgard Championship Playoff",
+    "closed": true
+   }
+  ],
+  "search:BLAST Slam": [
+   {
+    "t": "BLAST Slam IX: Winner",
+    "closed": false
+   },
+   {
+    "t": "Dota 2: HULIGANI vs Team Lynx (BO3) - BLAST Slam Europe Closed Qualifi",
+    "closed": true
+   },
+   {
+    "t": "Dota 2:  Pipsqueak+4 vs Level UP (BO3) - BLAST Slam Europe Closed Qual",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: MOUZ vs Yellow Submarine (BO3) - BLAST Slam Europe Closed Qual",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Team Lynx vs Level UP (BO3) - BLAST Slam Europe Closed Qualifi",
+    "closed": true
+   }
+  ],
+  "search:Slam Group": [
+   {
+    "t": "Dota 2: Natus Vincere vs OG (BO3) - BLAST Slam Group A",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Team Spirit vs Team Nemesis (BO3) - BLAST Slam Group B",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: GamerLegion vs Xtreme Gaming (BO3) - BLAST Slam Group B",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: PARIVISION vs LEGION (BO3) - BLAST Slam Group C",
+    "closed": true
+   }
+  ],
+  "search:China National Tournament": [
+   {
+    "t": "Valorant: Any Questions Gaming vs FunPlus Phoenix (BO3) - China Nation",
+    "closed": true
+   },
+   {
+    "t": "Valorant: TEC Esports vs A Team (BO3) - China National Tournament Spli",
+    "closed": true
+   },
+   {
+    "t": "Valorant: Ambitious Legend Gaming vs LNG Esports (BO3) - China Nationa",
+    "closed": true
+   },
+   {
+    "t": "Valorant: Victory No Limits vs SEC (BO3) - China National Tournament S",
+    "closed": true
+   },
+   {
+    "t": "Valorant: LGD Gaming vs Unsettled Resentment (BO3) - China National To",
+    "closed": true
+   }
+  ],
+  "search:VCT Americas": [
+   {
+    "t": "Valorant: FlyQuest vs Masterclass (BO3) - VCT Americas Kickoff: North ",
+    "closed": true
+   },
+   {
+    "t": "Valorant: YFP Gaming vs Wildcard (BO3) - VCT Americas Kickoff: North A",
+    "closed": true
+   },
+   {
+    "t": "Valorant: Cloud9 vs counterfeit (BO3) - VCT Americas Kickoff: North Am",
+    "closed": true
+   },
+   {
+    "t": "Valorant: Shopify Rebellion Black vs Xora Esports (BO3) - VCT Americas",
+    "closed": true
+   },
+   {
+    "t": "Valorant: SaD Esports vs Winthrop University (BO3) - VCT Americas Kick",
+    "closed": true
+   }
+  ],
+  "search:VCT Pacific": [
+   {
+    "t": "Valorant: VARREL vs Gen.G Esports (BO3) - VCT Pacific Kickoff Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Valorant: Team Secret vs T1 (BO3) - VCT Pacific Group Omega",
+    "closed": true
+   },
+   {
+    "t": "Valorant: Global Esports vs DRX (BO3) - VCT Pacific Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Valorant: DRX vs Global Esports (BO3) - VCT Pacific Group Alpha",
+    "closed": true
+   },
+   {
+    "t": "Valorant: Global Esports vs Gen.G Esports (BO3) - VCT Pacific Group Al",
+    "closed": true
+   }
+  ],
+  "search:Challengers League": [
+   {
+    "t": "LoL: Dplus KIA Challengers vs KT Rolster Challengers (BO5) - LCK Chall",
+    "closed": true
+   },
+   {
+    "t": "LoL: T1 Academy vs KT Rolster Challengers (BO5) - LCK Challengers Leag",
+    "closed": true
+   },
+   {
+    "t": "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO5) - LCK Challengers",
+    "closed": true
+   },
+   {
+    "t": "LoL: DN SOOPers Challengers vs Nongshim Esports Academy (BO5) - LCK Ch",
+    "closed": true
+   },
+   {
+    "t": "LoL: DN SOOPers Challengers vs Nongshim Esports Academy (BO3) - LCK Ch",
+    "closed": true
+   }
+  ],
+  "search:ESL Pro League": [
+   {
+    "t": "Will Vitality or Complexity win their ESL Pro League Season 14 matchup",
+    "closed": true
+   },
+   {
+    "t": "Will forZe or ENCE eSports win their ESL Pro League Season 14 matchup ",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Team Falcons vs Natus Vincere (BO3) - ESL Pro League G",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: MOUZ vs Spirit (BO3) - ESL Pro League Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Team Falcons vs Spirit (BO3) - ESL Pro League Playoffs",
+    "closed": true
+   }
   ]
  },
  "winning_sources": [
   "search:BLAST",
+  "search:CCT South America",
+  "search:European Pro League",
   "search:League of Legends",
+  "search:NODWIN",
   "search:PGL",
   "search:Predator League"
  ],
- "n_event_queries": 34,
+ "n_event_queries": 51,
  "essential_slug_diag": [
   {
    "slug": "worlds-2026-winner",
@@ -885,10 +1364,10 @@
    ]
   }
  ],
- "events": 8,
- "markets": 65,
- "markets_dropped_by_volume_floor": 19,
- "day_file": "data/2026/11/2026-11-21T04.jsonl",
+ "events": 13,
+ "markets": 77,
+ "markets_dropped_by_volume_floor": 29,
+ "day_file": "data/2026/11/2026-11-21T05.jsonl",
  "retention_removed_files": 29,
  "status": "ok"
 }
