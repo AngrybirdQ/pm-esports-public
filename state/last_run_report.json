@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-21T14:04:11Z",
+ "ts": "2026-11-21T14:14:47Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -378,7 +378,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: LGD Gaming vs 1win (BO3) - BLAST Slam Group D",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Aurora vs Astra Invicta (BO3) - BLAST Slam Group D",
@@ -393,7 +393,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: GamerLegion vs Xtreme Gaming (BO3) - BLAST Slam Group B",
+    "t": "Dota 2: PARIVISION vs LEGION (BO3) - BLAST Slam Group C",
     "closed": true
    }
   ],
@@ -745,8 +745,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Inner Circle vs Team Allied (BO3) - European Pro League Group ",
-    "closed": true
+    "t": "Dota 2: Inner Circle vs angry birds (BO3) - European Pro League Group ",
+    "closed": false
    }
   ],
   "search:ESEA": [
@@ -821,12 +821,12 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: GenOne vs Leo Team (BO3) - CCT Europe Playoffs",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: MOUZ NXT vs INFURITY Gaming (BO3) - CCT Europe Closed ",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: GenOne vs Leo Team (BO3) - CCT Europe Playoffs",
+    "closed": true
    },
    {
     "t": "Counter-Strike: Rune Eaters vs Butterfly (BO3) - CCT Europe Playoffs",
@@ -877,8 +877,8 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike:  Phantom Academy vs KAMUI (BO3) - Exort Fiesta Group S",
-    "closed": true
+    "t": "Counter-Strike: Prestige vs Honvéd (BO3) - Exort Fiesta Group Stage",
+    "closed": false
    }
   ],
   "search:NODWIN": [
@@ -972,7 +972,7 @@
   "search:Slam Group": [
    {
     "t": "Dota 2: LGD Gaming vs 1win (BO3) - BLAST Slam Group D",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Aurora vs Astra Invicta (BO3) - BLAST Slam Group D",
@@ -987,7 +987,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: GamerLegion vs Xtreme Gaming (BO3) - BLAST Slam Group B",
+    "t": "Dota 2: PARIVISION vs LEGION (BO3) - BLAST Slam Group C",
     "closed": true
    }
   ],
@@ -1108,6 +1108,7 @@
   "search:CCT South America",
   "search:China National Tournament",
   "search:Dota 2",
+  "search:European Pro League",
   "search:Exort Fiesta",
   "search:League of Legends",
   "search:NODWIN",
@@ -1367,9 +1368,9 @@
    ]
   }
  ],
- "events": 20,
- "markets": 106,
- "markets_dropped_by_volume_floor": 40,
+ "events": 21,
+ "markets": 109,
+ "markets_dropped_by_volume_floor": 45,
  "day_file": "data/2026/11/2026-11-21T14.jsonl",
  "retention_removed_files": 29,
  "status": "ok"
