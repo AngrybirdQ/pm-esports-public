@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-21T12:34:13Z",
+ "ts": "2026-11-21T12:44:05Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -385,16 +385,16 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs Team Nemesis (BO3) - BLAST Slam Group B",
-    "closed": true
+    "t": "Dota 2: Aurora vs Astra Invicta (BO3) - BLAST Slam Group D",
+    "closed": false
    },
    {
     "t": "Dota 2: GamerLegion vs Xtreme Gaming (BO3) - BLAST Slam Group B",
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs LEGION (BO3) - BLAST Slam Group C",
-    "closed": true
+    "t": "Dota 2: LGD Gaming vs 1win (BO3) - BLAST Slam Group D",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -689,6 +689,10 @@
     "closed": false
    },
    {
+    "t": "Valorant: BOOM Esports vs Rojali (BO3) - Asia Pacific Predator League ",
+    "closed": false
+   },
+   {
     "t": "Valorant: Maxxing vs Oasis Gaming (BO5) - Asia Pacific Predator League",
     "closed": false
    },
@@ -698,10 +702,6 @@
    },
    {
     "t": "Valorant: Salamander vs NongKaiTod (BO3) - Asia Pacific Predator Leagu",
-    "closed": true
-   },
-   {
-    "t": "Valorant: Original Gaming vs Học Viện 96 (BO3) - Asia Pacific Predator",
     "closed": true
    }
   ],
@@ -741,12 +741,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Inner Circle vs Team Allied (BO3) - European Pro League Group ",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Power Rangers vs Red John (BO3) - European Pro League Group B",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Inner Circle vs Team Allied (BO3) - European Pro League Group ",
+    "closed": true
    }
   ],
   "search:ESEA": [
@@ -979,16 +979,16 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs Team Nemesis (BO3) - BLAST Slam Group B",
-    "closed": true
+    "t": "Dota 2: Aurora vs Astra Invicta (BO3) - BLAST Slam Group D",
+    "closed": false
    },
    {
     "t": "Dota 2: GamerLegion vs Xtreme Gaming (BO3) - BLAST Slam Group B",
     "closed": true
    },
    {
-    "t": "Dota 2: PARIVISION vs LEGION (BO3) - BLAST Slam Group C",
-    "closed": true
+    "t": "Dota 2: LGD Gaming vs 1win (BO3) - BLAST Slam Group D",
+    "closed": false
    }
   ],
   "search:China National Tournament": [
@@ -1107,6 +1107,7 @@
   "search:CCT Europe",
   "search:CCT South America",
   "search:China National Tournament",
+  "search:Dota 2",
   "search:European Pro League",
   "search:Exort Fiesta",
   "search:League of Legends",
@@ -1367,9 +1368,9 @@
    ]
   }
  ],
- "events": 21,
- "markets": 112,
- "markets_dropped_by_volume_floor": 56,
+ "events": 24,
+ "markets": 123,
+ "markets_dropped_by_volume_floor": 53,
  "day_file": "data/2026/11/2026-11-21T12.jsonl",
  "retention_removed_files": 29,
  "status": "ok"
