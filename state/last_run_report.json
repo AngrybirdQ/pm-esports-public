@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-21T13:53:58Z",
+ "ts": "2026-11-21T14:04:11Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -377,16 +377,16 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Natus Vincere vs OG (BO3) - BLAST Slam Group A",
-    "closed": true
-   },
-   {
     "t": "Dota 2: LGD Gaming vs 1win (BO3) - BLAST Slam Group D",
     "closed": false
    },
    {
     "t": "Dota 2: Aurora vs Astra Invicta (BO3) - BLAST Slam Group D",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Natus Vincere vs OG (BO3) - BLAST Slam Group A",
+    "closed": true
    },
    {
     "t": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
@@ -742,7 +742,7 @@
    },
    {
     "t": "Dota 2: Power Rangers vs Red John (BO3) - European Pro League Group B",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Inner Circle vs Team Allied (BO3) - European Pro League Group ",
@@ -825,12 +825,12 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Rune Eaters vs Butterfly (BO3) - CCT Europe Playoffs",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: MOUZ NXT vs INFURITY Gaming (BO3) - CCT Europe Closed ",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: Rune Eaters vs Butterfly (BO3) - CCT Europe Playoffs",
+    "closed": true
    },
    {
     "t": "Counter-Strike: KUUSAMO.gg vs Sökerorg (BO3) - CCT Europe Closed Quali",
@@ -887,12 +887,12 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Nuclear TigeRES vs Hype Tech (BO3) - NODWIN Clutch Ser",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Virtus.pro vs Nice Try (BO3) - NODWIN Clutch Series Pl",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: Nuclear TigeRES vs Hype Tech (BO3) - NODWIN Clutch Ser",
+    "closed": true
    },
    {
     "t": "Counter-Strike: Iberian Soul vs Butterfly (BO3) - NODWIN Clutch Series",
@@ -971,16 +971,16 @@
   ],
   "search:Slam Group": [
    {
-    "t": "Dota 2: Natus Vincere vs OG (BO3) - BLAST Slam Group A",
-    "closed": true
-   },
-   {
     "t": "Dota 2: LGD Gaming vs 1win (BO3) - BLAST Slam Group D",
     "closed": false
    },
    {
     "t": "Dota 2: Aurora vs Astra Invicta (BO3) - BLAST Slam Group D",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Natus Vincere vs OG (BO3) - BLAST Slam Group A",
+    "closed": true
    },
    {
     "t": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
@@ -1108,7 +1108,6 @@
   "search:CCT South America",
   "search:China National Tournament",
   "search:Dota 2",
-  "search:European Pro League",
   "search:Exort Fiesta",
   "search:League of Legends",
   "search:NODWIN",
@@ -1368,10 +1367,10 @@
    ]
   }
  ],
- "events": 21,
- "markets": 114,
- "markets_dropped_by_volume_floor": 48,
- "day_file": "data/2026/11/2026-11-21T13.jsonl",
+ "events": 20,
+ "markets": 106,
+ "markets_dropped_by_volume_floor": 40,
+ "day_file": "data/2026/11/2026-11-21T14.jsonl",
  "retention_removed_files": 29,
  "status": "ok"
 }
