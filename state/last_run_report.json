@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-20T21:04:40Z",
+ "ts": "2026-11-21T03:03:13Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -268,7 +268,7 @@
  "errors": [
   "global-scan: HTTP 406: HTTP Error 406: Not Acceptable"
  ],
- "stage": "all",
+ "stage": "snap",
  "tags_discovered": [
   "international-affairs"
  ],
@@ -345,20 +345,20 @@
     "closed": false
    },
    {
-    "t": "Valorant: Shopify Rebellion Black vs Xora Esports (BO3) - VCT Americas",
-    "closed": false
+    "t": "Valorant: YFP Gaming vs Wildcard (BO3) - VCT Americas Kickoff: North A",
+    "closed": true
    },
    {
     "t": "Valorant: Cloud9 vs counterfeit (BO3) - VCT Americas Kickoff: North Am",
+    "closed": true
+   },
+   {
+    "t": "Valorant: Shopify Rebellion Black vs Xora Esports (BO3) - VCT Americas",
+    "closed": true
+   },
+   {
+    "t": "Valorant: SaD Esports vs Winthrop University (BO3) - VCT Americas Kick",
     "closed": false
-   },
-   {
-    "t": "Valorant: TEC Esports vs A Team (BO3) - China National Tournament Spli",
-    "closed": true
-   },
-   {
-    "t": "Valorant: Any Questions Gaming vs FunPlus Phoenix (BO3) - China Nation",
-    "closed": true
    }
   ],
   "search:NBA": [
@@ -455,6 +455,10 @@
     "closed": false
    },
    {
+    "t": "Counter-Strike: Liquid vs GOSH (BO1) - PGL Major Singapore Stage 1",
+    "closed": false
+   },
+   {
     "t": "Counter-Strike: Heroic vs Imperial (BO1) - PGL Major Singapore Stage 1",
     "closed": false
    },
@@ -464,10 +468,6 @@
    },
    {
     "t": "Counter-Strike: Eternal Fire vs FlyQuest (BO1) - PGL Major Singapore S",
-    "closed": false
-   },
-   {
-    "t": "Counter-Strike: NIP vs M80 (BO1) - PGL Major Singapore Stage 1",
     "closed": false
    }
   ],
@@ -526,14 +526,14 @@
    },
    {
     "t": "Dota 2: Inner Circle vs CyberHero (BO5) - DreamLeague Division 2 Playo",
-    "closed": false
-   },
-   {
-    "t": "Dota 2: CyberHero vs Froglings (BO3) - DreamLeague Division 2 Playoffs",
     "closed": true
    },
    {
     "t": "Dota 2: PARIVISION vs Aurora (BO5) - DreamLeague Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Team Falcons vs PARIVISION (BO3) - DreamLeague Playoffs",
     "closed": true
    }
   ],
@@ -628,7 +628,6 @@
  },
  "winning_sources": [
   "search:BLAST",
-  "search:DreamLeague",
   "search:League of Legends",
   "search:PGL",
   "search:Predator League",
@@ -887,19 +886,10 @@
    ]
   }
  ],
- "events": 12,
- "markets": 75,
- "markets_dropped_by_volume_floor": 53,
- "day_file": "data/2026/11/2026-11-20T21.jsonl",
- "retention_removed_files": 0,
- "trades_markets_queried": 28,
- "trades_watchlist_markets": 16,
- "trades_collected": 814,
- "anomalies_detected": 2,
- "anomalies_new": 0,
- "history_debug": [],
- "history_conditions_new": 0,
- "books_markets": 28,
- "books_rows": 52,
+ "events": 10,
+ "markets": 72,
+ "markets_dropped_by_volume_floor": 31,
+ "day_file": "data/2026/11/2026-11-21T03.jsonl",
+ "retention_removed_files": 29,
  "status": "ok"
 }
