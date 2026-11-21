@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-21T14:38:30Z",
+ "ts": "2026-11-21T14:53:25Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -377,12 +377,12 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: LGD Gaming vs 1win (BO3) - BLAST Slam Group D",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Aurora vs Astra Invicta (BO3) - BLAST Slam Group D",
     "closed": false
+   },
+   {
+    "t": "Dota 2: LGD Gaming vs 1win (BO3) - BLAST Slam Group D",
+    "closed": true
    },
    {
     "t": "Dota 2: Natus Vincere vs OG (BO3) - BLAST Slam Group A",
@@ -899,8 +899,8 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: Iberian Soul vs Butterfly (BO3) - NODWIN Clutch Series",
-    "closed": true
+    "t": "Counter-Strike: Infinite vs BakS eSports (BO3) - NODWIN Clutch Series ",
+    "closed": false
    }
   ],
   "search:Stake Ranked": [
@@ -971,12 +971,12 @@
   ],
   "search:Slam Group": [
    {
-    "t": "Dota 2: LGD Gaming vs 1win (BO3) - BLAST Slam Group D",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Aurora vs Astra Invicta (BO3) - BLAST Slam Group D",
     "closed": false
+   },
+   {
+    "t": "Dota 2: LGD Gaming vs 1win (BO3) - BLAST Slam Group D",
+    "closed": true
    },
    {
     "t": "Dota 2: Natus Vincere vs OG (BO3) - BLAST Slam Group A",
@@ -1368,9 +1368,9 @@
    ]
   }
  ],
- "events": 20,
- "markets": 107,
- "markets_dropped_by_volume_floor": 37,
+ "events": 21,
+ "markets": 106,
+ "markets_dropped_by_volume_floor": 41,
  "day_file": "data/2026/11/2026-11-21T14.jsonl",
  "retention_removed_files": 29,
  "status": "ok"
