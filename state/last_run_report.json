@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-21T16:44:09Z",
+ "ts": "2026-11-21T17:04:07Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -389,12 +389,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Yandex vs Natus Vincere (BO3) - BLAST Slam Group A",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -822,7 +822,7 @@
    },
    {
     "t": "Counter-Strike: MOUZ NXT vs INFURITY Gaming (BO3) - CCT Europe Closed ",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: GenOne vs Leo Team (BO3) - CCT Europe Playoffs",
@@ -873,12 +873,12 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Honvéd vs Revise (BO3) - Exort Fiesta Group Stage",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Prestige vs Honvéd (BO3) - Exort Fiesta Group Stage",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: Honvéd vs Revise (BO3) - Exort Fiesta Group Stage",
+    "closed": true
    }
   ],
   "search:NODWIN": [
@@ -983,12 +983,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Yandex vs Natus Vincere (BO3) - BLAST Slam Group A",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
+    "closed": true
    }
   ],
   "search:China National Tournament": [
@@ -1104,7 +1104,6 @@
  },
  "winning_sources": [
   "search:BLAST",
-  "search:CCT Europe",
   "search:CCT South America",
   "search:Dota 2",
   "search:ESEA",
@@ -1368,10 +1367,10 @@
    ]
   }
  ],
- "events": 21,
- "markets": 103,
- "markets_dropped_by_volume_floor": 33,
- "day_file": "data/2026/11/2026-11-21T16.jsonl",
+ "events": 20,
+ "markets": 99,
+ "markets_dropped_by_volume_floor": 32,
+ "day_file": "data/2026/11/2026-11-21T17.jsonl",
  "retention_removed_files": 29,
  "status": "ok"
 }
