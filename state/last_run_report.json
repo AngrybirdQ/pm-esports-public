@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-21T16:09:09Z",
+ "ts": "2026-11-21T16:23:59Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -386,7 +386,7 @@
    },
    {
     "t": "Dota 2: Team Nemesis vs GamerLegion (BO3) - BLAST Slam Group B",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
@@ -888,7 +888,7 @@
    },
    {
     "t": "Counter-Strike: Virtus.pro vs Nice Try (BO3) - NODWIN Clutch Series Pl",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: Nuclear TigeRES vs Hype Tech (BO3) - NODWIN Clutch Ser",
@@ -909,10 +909,6 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Luminosity vs BIG (BO3) - Stake Ranked Episode 6 Playo",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Nemiga vs Astralis (BO5) - Stake Ranked Episode 4 Play",
     "closed": true
    },
@@ -922,6 +918,10 @@
    },
    {
     "t": "Counter-Strike: GamerLegion vs Inner Circle Esports (BO3) - Stake Rank",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Astralis vs fnatic (BO3) - Stake Ranked Episode 5 Play",
     "closed": true
    }
   ],
@@ -980,7 +980,7 @@
    },
    {
     "t": "Dota 2: Team Nemesis vs GamerLegion (BO3) - BLAST Slam Group B",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
@@ -1106,7 +1106,6 @@
   "search:BLAST",
   "search:CCT Europe",
   "search:CCT South America",
-  "search:Dota 2",
   "search:ESEA",
   "search:European Pro League",
   "search:Exort Fiesta",
@@ -1368,8 +1367,8 @@
    ]
   }
  ],
- "events": 21,
- "markets": 103,
+ "events": 19,
+ "markets": 95,
  "markets_dropped_by_volume_floor": 31,
  "day_file": "data/2026/11/2026-11-21T16.jsonl",
  "retention_removed_files": 29,
