@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-21T15:39:07Z",
+ "ts": "2026-11-21T15:53:57Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -393,7 +393,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Natus Vincere vs OG (BO3) - BLAST Slam Group A",
+    "t": "Dota 2: PARIVISION vs LEGION (BO3) - BLAST Slam Group C",
     "closed": true
    }
   ],
@@ -686,7 +686,7 @@
   "search:Predator League": [
    {
     "t": "Valorant: Hertz Esport vs Seventh Letter Gaming (BO3) - Asia Pacific P",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: BOOM Esports vs Rojali (BO3) - Asia Pacific Predator League ",
@@ -795,10 +795,6 @@
   ],
   "search:United21": [
    {
-    "t": "Counter-Strike: EYEBALLERS vs STATE (BO3) - United21 Playoffs",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Alliance vs  Phantom Academy (BO3) - United21 Group D",
     "closed": true
    },
@@ -812,6 +808,10 @@
    },
    {
     "t": "Counter-Strike: 9INE Academy vs CTRL Esports (BO3) - United21 Group C",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Prestige vs MASQ (BO3) - United21 Playoffs",
     "closed": true
    }
   ],
@@ -1369,9 +1369,9 @@
    ]
   }
  ],
- "events": 23,
- "markets": 107,
- "markets_dropped_by_volume_floor": 39,
+ "events": 22,
+ "markets": 103,
+ "markets_dropped_by_volume_floor": 32,
  "day_file": "data/2026/11/2026-11-21T15.jsonl",
  "retention_removed_files": 29,
  "status": "ok"
