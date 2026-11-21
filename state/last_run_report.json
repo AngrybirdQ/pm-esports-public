@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-21T14:53:25Z",
+ "ts": "2026-11-21T15:08:15Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -378,7 +378,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: Aurora vs Astra Invicta (BO3) - BLAST Slam Group D",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: LGD Gaming vs 1win (BO3) - BLAST Slam Group D",
@@ -737,11 +737,11 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: ex-INOX Division vs WBT (BO3) - European Pro League Pl",
+    "t": "Dota 2: Power Rangers vs Red John (BO3) - European Pro League Group B",
     "closed": true
    },
    {
-    "t": "Dota 2: Power Rangers vs Red John (BO3) - European Pro League Group B",
+    "t": "Counter-Strike: ex-INOX Division vs WBT (BO3) - European Pro League Pl",
     "closed": true
    },
    {
@@ -763,11 +763,11 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Rcave vs Glitchtech Esports (BO1) - ESEA Advanced Euro",
-    "closed": true
+    "t": "Counter-Strike: TEAM GELO vs JUMBO TEAM (BO1) - ESEA Advanced Europe R",
+    "closed": false
    },
    {
-    "t": "Counter-Strike: Fire Flux Esports vs eternal premium (BO1) - ESEA Adva",
+    "t": "Counter-Strike: Rcave vs Glitchtech Esports (BO1) - ESEA Advanced Euro",
     "closed": true
    }
   ],
@@ -851,11 +851,11 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: Yawara Esports vs Game Hunters (BO3) - CCT South Ameri",
-    "closed": true
+    "t": "Counter-Strike: Los Niños vs Rush (BO3) - CCT South America Challenger",
+    "closed": false
    },
    {
-    "t": "Counter-Strike: ex-KRÜ Esports vs FOLHA AMARELA (BO3) - CCT South Amer",
+    "t": "Counter-Strike: Yawara Esports vs Game Hunters (BO3) - CCT South Ameri",
     "closed": true
    }
   ],
@@ -972,7 +972,7 @@
   "search:Slam Group": [
    {
     "t": "Dota 2: Aurora vs Astra Invicta (BO3) - BLAST Slam Group D",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: LGD Gaming vs 1win (BO3) - BLAST Slam Group D",
@@ -1107,7 +1107,7 @@
   "search:CCT Europe",
   "search:CCT South America",
   "search:China National Tournament",
-  "search:Dota 2",
+  "search:ESEA",
   "search:European Pro League",
   "search:Exort Fiesta",
   "search:League of Legends",
@@ -1368,10 +1368,10 @@
    ]
   }
  ],
- "events": 21,
- "markets": 106,
- "markets_dropped_by_volume_floor": 41,
- "day_file": "data/2026/11/2026-11-21T14.jsonl",
+ "events": 22,
+ "markets": 103,
+ "markets_dropped_by_volume_floor": 40,
+ "day_file": "data/2026/11/2026-11-21T15.jsonl",
  "retention_removed_files": 29,
  "status": "ok"
 }
