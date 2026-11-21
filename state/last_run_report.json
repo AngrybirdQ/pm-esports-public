@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-21T17:14:31Z",
+ "ts": "2026-11-21T17:24:14Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -829,11 +829,11 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Rune Eaters vs Butterfly (BO3) - CCT Europe Playoffs",
-    "closed": true
+    "t": "Counter-Strike: ex-RUSTEC vs Hype Tech (BO3) - CCT Europe Playoffs",
+    "closed": false
    },
    {
-    "t": "Counter-Strike: maybe vs Drama eSports (BO3) - CCT Europe Closed Quali",
+    "t": "Counter-Strike: Rune Eaters vs Butterfly (BO3) - CCT Europe Playoffs",
     "closed": true
    }
   ],
@@ -1104,6 +1104,7 @@
  },
  "winning_sources": [
   "search:BLAST",
+  "search:CCT Europe",
   "search:CCT South America",
   "search:Dota 2",
   "search:ESEA",
@@ -1367,9 +1368,9 @@
    ]
   }
  ],
- "events": 20,
- "markets": 99,
- "markets_dropped_by_volume_floor": 32,
+ "events": 21,
+ "markets": 102,
+ "markets_dropped_by_volume_floor": 34,
  "day_file": "data/2026/11/2026-11-21T17.jsonl",
  "retention_removed_files": 29,
  "status": "ok"
