@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-22T18:44:18Z",
+ "ts": "2026-11-22T19:04:16Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -343,6 +343,12 @@
    "err": null
   },
   {
+   "url": "slug:league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
+   "ok": true,
+   "events_returned": 1,
+   "err": null
+  },
+  {
    "url": "slug:most-banned-champion-at-worlds-2026",
    "ok": true,
    "events_returned": 1,
@@ -359,17 +365,9 @@
    "ok": true,
    "events_returned": 1,
    "err": null
-  },
-  {
-   "url": "global-scan",
-   "ok": true,
-   "events_returned": 0,
-   "err": null
   }
  ],
- "errors": [
-  "global-scan: HTTP 406: HTTP Error 406: Not Acceptable"
- ],
+ "errors": [],
  "stage": "snap",
  "tags_discovered": [
   "international-affairs"
@@ -421,10 +419,6 @@
   ],
   "search:League of Legends": [
    {
-    "t": "League of Legends Global Power Rankings Post Worlds: Rank 1",
-    "closed": false
-   },
-   {
     "t": "LoL: Dplus KIA Challengers vs KT Rolster Challengers (BO5) - LCK Chall",
     "closed": true
    },
@@ -438,6 +432,10 @@
    },
    {
     "t": "LoL: DN SOOPers Challengers vs Nongshim Esports Academy (BO5) - LCK Ch",
+    "closed": true
+   },
+   {
+    "t": "LoL: DN SOOPers Challengers vs Nongshim Esports Academy (BO3) - LCK Ch",
     "closed": true
    }
   ],
@@ -763,11 +761,11 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: Banger Gang vs Fire Flux Esports (BO1) - ESEA Advanced",
+    "t": "Counter-Strike: JUMBO TEAM vs IMAPROBLEM (BO1) - ESEA Advanced Europe ",
     "closed": false
    },
    {
-    "t": "Counter-Strike: Al Ahli vs Fire Flux Esports (BO1) - ESEA Advanced Eur",
+    "t": "Counter-Strike: Banger Gang vs Fire Flux Esports (BO1) - ESEA Advanced",
     "closed": false
    }
   ],
@@ -883,11 +881,11 @@
   ],
   "search:NODWIN": [
    {
-    "t": "Counter-Strike: Betclic Apogee Esports vs FORZE Reload (BO3) - NODWIN ",
+    "t": "Counter-Strike: Virtus.pro vs Infinite (BO3) - NODWIN Clutch Series Pl",
     "closed": true
    },
    {
-    "t": "Counter-Strike: Virtus.pro vs Infinite (BO3) - NODWIN Clutch Series Pl",
+    "t": "Counter-Strike: Betclic Apogee Esports vs FORZE Reload (BO3) - NODWIN ",
     "closed": true
    },
    {
@@ -1001,15 +999,15 @@
     "closed": true
    },
    {
+    "t": "Valorant: Victory No Limits vs Young Gaming (BO3) - China National Tou",
+    "closed": false
+   },
+   {
     "t": "Valorant: A Team vs FunPlus Phoenix (BO3) - China National Tournament ",
     "closed": false
    },
    {
     "t": "Valorant: Unsettled Resentment vs KeepBest Gaming (BO3) - China Nation",
-    "closed": false
-   },
-   {
-    "t": "Valorant: Victory No Limits vs Young Gaming (BO3) - China National Tou",
     "closed": false
    }
   ],
@@ -1111,10 +1109,10 @@
   "search:ESEA",
   "search:European Pro League",
   "search:Exort Fiesta",
-  "search:League of Legends",
   "search:NODWIN",
   "search:PGL",
-  "search:Predator League"
+  "search:Predator League",
+  "slug:league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424"
  ],
  "n_event_queries": 51,
  "essential_slug_diag": [
@@ -1279,6 +1277,40 @@
    ]
   },
   {
+   "slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
+   "closed": false,
+   "active": true,
+   "n_markets": 31,
+   "mkts_closed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "mkts_active": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
    "slug": "most-banned-champion-at-worlds-2026",
    "closed": true,
    "active": true,
@@ -1372,7 +1404,7 @@
  "events": 22,
  "markets": 100,
  "markets_dropped_by_volume_floor": 54,
- "day_file": "data/2026/11/2026-11-22T18.jsonl",
+ "day_file": "data/2026/11/2026-11-22T19.jsonl",
  "retention_removed_files": 56,
  "status": "ok"
 }
