@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-22T18:09:58Z",
+ "ts": "2026-11-22T18:29:15Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -378,7 +378,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: PARIVISION vs Team Liquid (BO3) - BLAST Slam Group C",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Spirit vs Xtreme Gaming (BO3) - BLAST Slam Group B",
@@ -386,15 +386,15 @@
    },
    {
     "t": "Dota 2: LEGION vs DO KONCA (BO3) - BLAST Slam Group C",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: PlayTime vs OG (BO3) - BLAST Slam Group A",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Yandex vs Natus Vincere (BO3) - BLAST Slam Group A",
-    "closed": true
+    "t": "Dota 2: 1win vs Aurora (BO3) - BLAST Slam Group D",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -751,15 +751,15 @@
   ],
   "search:ESEA": [
    {
+    "t": "Counter-Strike: Banger Gang vs JUMBO TEAM (BO1) - ESEA Advanced Europe",
+    "closed": false
+   },
+   {
     "t": "Counter-Strike: Y23 vs Hermine Esports Club (BO1) - ESEA Advanced Euro",
     "closed": true
    },
    {
     "t": "Counter-Strike: SINQU vs LPH Gaming (BO1) - ESEA Advanced Europe Regul",
-    "closed": false
-   },
-   {
-    "t": "Counter-Strike: Banger Gang vs JUMBO TEAM (BO1) - ESEA Advanced Europe",
     "closed": false
    },
    {
@@ -833,8 +833,8 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: ex-RUSTEC vs Hype Tech (BO3) - CCT Europe Playoffs",
-    "closed": true
+    "t": "Counter-Strike: Lunacy Team vs MOUZ NXT (BO3) - CCT Europe Closed Qual",
+    "closed": false
    }
   ],
   "search:CCT South America": [
@@ -972,7 +972,7 @@
   "search:Slam Group": [
    {
     "t": "Dota 2: PARIVISION vs Team Liquid (BO3) - BLAST Slam Group C",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Spirit vs Xtreme Gaming (BO3) - BLAST Slam Group B",
@@ -980,15 +980,15 @@
    },
    {
     "t": "Dota 2: LEGION vs DO KONCA (BO3) - BLAST Slam Group C",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: PlayTime vs OG (BO3) - BLAST Slam Group A",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Yandex vs Natus Vincere (BO3) - BLAST Slam Group A",
-    "closed": true
+    "t": "Dota 2: 1win vs Aurora (BO3) - BLAST Slam Group D",
+    "closed": false
    }
   ],
   "search:China National Tournament": [
@@ -1001,16 +1001,16 @@
     "closed": true
    },
    {
-    "t": "Valorant: TEC Esports vs KeepBest Gaming (BO3) - China National Tourna",
-    "closed": true
+    "t": "Valorant: A Team vs FunPlus Phoenix (BO3) - China National Tournament ",
+    "closed": false
    },
    {
-    "t": "Valorant: Ambitious Legend Gaming vs KeepBest Gaming (BO3) - China Nat",
-    "closed": true
+    "t": "Valorant: Unsettled Resentment vs KeepBest Gaming (BO3) - China Nation",
+    "closed": false
    },
    {
-    "t": "Valorant: KeepBest Gaming vs Victory No Limits (BO3) - China National ",
-    "closed": true
+    "t": "Valorant: Victory No Limits vs Young Gaming (BO3) - China National Tou",
+    "closed": false
    }
   ],
   "search:VCT Americas": [
@@ -1104,7 +1104,9 @@
  },
  "winning_sources": [
   "search:BLAST",
+  "search:CCT Europe",
   "search:CCT South America",
+  "search:China National Tournament",
   "search:Dota 2",
   "search:ESEA",
   "search:European Pro League",
@@ -1367,9 +1369,9 @@
    ]
   }
  ],
- "events": 19,
- "markets": 93,
- "markets_dropped_by_volume_floor": 20,
+ "events": 22,
+ "markets": 94,
+ "markets_dropped_by_volume_floor": 55,
  "day_file": "data/2026/11/2026-11-22T18.jsonl",
  "retention_removed_files": 56,
  "status": "ok"
