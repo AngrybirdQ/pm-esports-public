@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-22T18:29:15Z",
+ "ts": "2026-11-22T18:44:18Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -381,19 +381,19 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs Xtreme Gaming (BO3) - BLAST Slam Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: LEGION vs DO KONCA (BO3) - BLAST Slam Group C",
     "closed": true
    },
    {
-    "t": "Dota 2: PlayTime vs OG (BO3) - BLAST Slam Group A",
+    "t": "Dota 2: Team Spirit vs Xtreme Gaming (BO3) - BLAST Slam Group B",
     "closed": true
    },
    {
     "t": "Dota 2: 1win vs Aurora (BO3) - BLAST Slam Group D",
+    "closed": false
+   },
+   {
+    "t": "Dota 2: LGD Gaming vs Astra Invicta (BO3) - BLAST Slam Group D",
     "closed": false
    }
   ],
@@ -686,7 +686,7 @@
   "search:Predator League": [
    {
     "t": "Valorant: Maxxing vs Oasis Gaming (BO5) - Asia Pacific Predator League",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: BOOM Esports vs Hertz Esport (BO3) - Asia Pacific Predator L",
@@ -829,12 +829,12 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: ILLYRIANS vs Lilmix (BO3) - CCT Europe Closed Qualifie",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Lunacy Team vs MOUZ NXT (BO3) - CCT Europe Closed Qual",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: ILLYRIANS vs Lilmix (BO3) - CCT Europe Closed Qualifie",
+    "closed": true
    }
   ],
   "search:CCT South America": [
@@ -873,11 +873,11 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: WRAITH PCIFIC vs evermore (BO3) - Exort Fiesta Group S",
+    "t": "Counter-Strike:  Phantom Academy vs KAMUI (BO3) - Exort Fiesta Group S",
     "closed": true
    },
    {
-    "t": "Counter-Strike:  Phantom Academy vs KAMUI (BO3) - Exort Fiesta Group S",
+    "t": "Counter-Strike: Leo Team vs UNiTY esports (BO3) - Exort Fiesta Playoff",
     "closed": true
    }
   ],
@@ -975,19 +975,19 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Spirit vs Xtreme Gaming (BO3) - BLAST Slam Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: LEGION vs DO KONCA (BO3) - BLAST Slam Group C",
     "closed": true
    },
    {
-    "t": "Dota 2: PlayTime vs OG (BO3) - BLAST Slam Group A",
+    "t": "Dota 2: Team Spirit vs Xtreme Gaming (BO3) - BLAST Slam Group B",
     "closed": true
    },
    {
     "t": "Dota 2: 1win vs Aurora (BO3) - BLAST Slam Group D",
+    "closed": false
+   },
+   {
+    "t": "Dota 2: LGD Gaming vs Astra Invicta (BO3) - BLAST Slam Group D",
     "closed": false
    }
   ],
@@ -1370,8 +1370,8 @@
   }
  ],
  "events": 22,
- "markets": 94,
- "markets_dropped_by_volume_floor": 55,
+ "markets": 100,
+ "markets_dropped_by_volume_floor": 54,
  "day_file": "data/2026/11/2026-11-22T18.jsonl",
  "retention_removed_files": 56,
  "status": "ok"
