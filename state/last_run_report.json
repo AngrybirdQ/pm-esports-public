@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-22T16:24:15Z",
+ "ts": "2026-11-22T16:34:10Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -994,7 +994,7 @@
   "search:China National Tournament": [
    {
     "t": "Valorant: FunPlus Phoenix vs Unsettled Resentment (BO3) - China Nation",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: SEC vs LNG Esports (BO3) - China National Tournament Split O",
@@ -1105,7 +1105,6 @@
  "winning_sources": [
   "search:BLAST",
   "search:CCT South America",
-  "search:China National Tournament",
   "search:Dota 2",
   "search:ESEA",
   "search:European Pro League",
@@ -1368,9 +1367,9 @@
    ]
   }
  ],
- "events": 22,
+ "events": 21,
  "markets": 97,
- "markets_dropped_by_volume_floor": 24,
+ "markets_dropped_by_volume_floor": 23,
  "day_file": "data/2026/11/2026-11-22T16.jsonl",
  "retention_removed_files": 56,
  "status": "ok"
