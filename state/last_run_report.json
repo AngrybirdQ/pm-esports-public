@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-22T19:14:15Z",
+ "ts": "2026-11-22T19:36:46Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -749,6 +749,10 @@
   ],
   "search:ESEA": [
    {
+    "t": "Counter-Strike: JUMBO TEAM vs IMAPROBLEM (BO1) - ESEA Advanced Europe ",
+    "closed": false
+   },
+   {
     "t": "Counter-Strike: Banger Gang vs JUMBO TEAM (BO1) - ESEA Advanced Europe",
     "closed": false
    },
@@ -759,10 +763,6 @@
    {
     "t": "Counter-Strike: Y23 vs Hermine Esports Club (BO1) - ESEA Advanced Euro",
     "closed": true
-   },
-   {
-    "t": "Counter-Strike: JUMBO TEAM vs IMAPROBLEM (BO1) - ESEA Advanced Europe ",
-    "closed": false
    },
    {
     "t": "Counter-Strike: Banger Gang vs Fire Flux Esports (BO1) - ESEA Advanced",
@@ -819,19 +819,19 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: BakS eSports vs Butterfly (BO3) - CCT Europe Playoffs",
-    "closed": true
+    "t": "Counter-Strike: Lunacy Team vs MOUZ NXT (BO3) - CCT Europe Closed Qual",
+    "closed": false
    },
    {
     "t": "Counter-Strike: FLXRE vs ENCELADE (BO3) - CCT Europe Contenders #11 Pl",
     "closed": true
    },
    {
-    "t": "Counter-Strike: Lunacy Team vs MOUZ NXT (BO3) - CCT Europe Closed Qual",
-    "closed": false
+    "t": "Counter-Strike: ILLYRIANS vs Lilmix (BO3) - CCT Europe Closed Qualifie",
+    "closed": true
    },
    {
-    "t": "Counter-Strike: ILLYRIANS vs Lilmix (BO3) - CCT Europe Closed Qualifie",
+    "t": "Counter-Strike: BakS eSports vs Butterfly (BO3) - CCT Europe Playoffs",
     "closed": true
    }
   ],
@@ -886,14 +886,14 @@
    },
    {
     "t": "Counter-Strike: Nuclear TigeRES vs Betclic Apogee Esports (BO3) - NODW",
-    "closed": false
-   },
-   {
-    "t": "Counter-Strike: Betclic Apogee Esports vs FORZE Reload (BO3) - NODWIN ",
     "closed": true
    },
    {
     "t": "Counter-Strike: 33 vs Phantom (BO3) - NODWIN Clutch Series Playoffs",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Betclic Apogee Esports vs FORZE Reload (BO3) - NODWIN ",
     "closed": true
    },
    {
@@ -1109,7 +1109,6 @@
   "search:ESEA",
   "search:European Pro League",
   "search:Exort Fiesta",
-  "search:NODWIN",
   "search:PGL",
   "search:Predator League",
   "slug:league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424"
@@ -1401,9 +1400,9 @@
    ]
   }
  ],
- "events": 22,
- "markets": 100,
- "markets_dropped_by_volume_floor": 53,
+ "events": 21,
+ "markets": 96,
+ "markets_dropped_by_volume_floor": 51,
  "day_file": "data/2026/11/2026-11-22T19.jsonl",
  "retention_removed_files": 56,
  "status": "ok"
