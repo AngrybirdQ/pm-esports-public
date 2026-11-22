@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-22T17:00:44Z",
+ "ts": "2026-11-22T17:16:50Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -377,12 +377,12 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Team Spirit vs Xtreme Gaming (BO3) - BLAST Slam Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: PARIVISION vs Team Liquid (BO3) - BLAST Slam Group C",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Spirit vs Xtreme Gaming (BO3) - BLAST Slam Group B",
+    "closed": true
    },
    {
     "t": "Dota 2: LEGION vs DO KONCA (BO3) - BLAST Slam Group C",
@@ -745,7 +745,7 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Spirit Academy vs Team Allied (BO3) - European Pro League Grou",
+    "t": "Dota 2: Zero Tenacity vs Inner Circle (BO3) - European Pro League Grou",
     "closed": false
    }
   ],
@@ -825,15 +825,15 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: ex-RUSTEC vs Hype Tech (BO3) - CCT Europe Playoffs",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: FLXRE vs ENCELADE (BO3) - CCT Europe Contenders #11 Pl",
     "closed": true
    },
    {
     "t": "Counter-Strike: ILLYRIANS vs Lilmix (BO3) - CCT Europe Closed Qualifie",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: ex-RUSTEC vs Hype Tech (BO3) - CCT Europe Playoffs",
     "closed": true
    }
   ],
@@ -971,12 +971,12 @@
   ],
   "search:Slam Group": [
    {
-    "t": "Dota 2: Team Spirit vs Xtreme Gaming (BO3) - BLAST Slam Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: PARIVISION vs Team Liquid (BO3) - BLAST Slam Group C",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Spirit vs Xtreme Gaming (BO3) - BLAST Slam Group B",
+    "closed": true
    },
    {
     "t": "Dota 2: LEGION vs DO KONCA (BO3) - BLAST Slam Group C",
@@ -1368,8 +1368,8 @@
   }
  ],
  "events": 20,
- "markets": 94,
- "markets_dropped_by_volume_floor": 25,
+ "markets": 91,
+ "markets_dropped_by_volume_floor": 26,
  "day_file": "data/2026/11/2026-11-22T17.jsonl",
  "retention_removed_files": 56,
  "status": "ok"
