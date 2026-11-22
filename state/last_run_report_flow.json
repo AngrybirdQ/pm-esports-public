@@ -1,17 +1,27 @@
 {
- "ts": "2026-11-22T19:07:37Z",
+ "ts": "2026-11-22T19:17:33Z",
  "sources": [],
- "errors": [],
+ "errors": [
+  "API-DEPRECATED 2 urls: 404 https://clob.polymarket.com/book?token_id=72854737756042083317458655125499904711505467438721858161913756012237"
+ ],
  "stage": "flow",
  "markets": 100,
- "trades_markets_queried": 41,
+ "trades_markets_queried": 42,
  "trades_watchlist_markets": 28,
- "trades_collected": 2000,
- "anomalies_detected": 0,
- "anomalies_new": 0,
+ "trades_collected": 2002,
+ "anomalies_detected": 14,
+ "anomalies_new": 14,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_markets": 44,
- "books_rows": 60,
- "status": "ok"
+ "books_errors": [
+  "7285473775: HTTP 404 (api deprecated)",
+  "4068925249: HTTP 404 (api deprecated)"
+ ],
+ "books_markets": 45,
+ "books_rows": 62,
+ "status": "ok",
+ "api_deprecated": [
+  "404 https://clob.polymarket.com/book?token_id=72854737756042083317458655125499904711505467438721858161913756012237",
+  "404 https://clob.polymarket.com/book?token_id=40689252491769900082627145176575594824567742544356247046427744885613"
+ ]
 }
