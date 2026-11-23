@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-23T16:04:32Z",
+ "ts": "2026-11-23T16:14:39Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -385,11 +385,11 @@
     "closed": false
    },
    {
-    "t": "Dota 2: PARIVISION vs Team Liquid (BO3) - BLAST Slam Group C",
+    "t": "Dota 2: 1win vs Aurora (BO3) - BLAST Slam Group D",
     "closed": true
    },
    {
-    "t": "Dota 2: 1win vs Aurora (BO3) - BLAST Slam Group D",
+    "t": "Dota 2: PARIVISION vs Team Liquid (BO3) - BLAST Slam Group C",
     "closed": true
    },
    {
@@ -745,7 +745,7 @@
     "closed": false
    },
    {
-    "t": "Dota 2: PuckChamp vs Power Rangers (BO3) - European Pro League Group B",
+    "t": "Counter-Strike: Sökerorg vs Bebop (BO3) - European Pro League Series 1",
     "closed": true
    }
   ],
@@ -796,7 +796,7 @@
   "search:United21": [
    {
     "t": "Counter-Strike: ex-Copenhagen Wolves vs spray'n'pray (BO3) - United21 ",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: The Chosen Few vs Teletubisie (BO3) - United21 Group A",
@@ -953,6 +953,10 @@
     "closed": false
    },
    {
+    "t": "Most Kills at BLAST Slam IX Playoffs",
+    "closed": false
+   },
+   {
     "t": "Dota 2: HULIGANI vs Team Lynx (BO3) - BLAST Slam Europe Closed Qualifi",
     "closed": true
    },
@@ -962,10 +966,6 @@
    },
    {
     "t": "Dota 2: MOUZ vs Yellow Submarine (BO3) - BLAST Slam Europe Closed Qual",
-    "closed": true
-   },
-   {
-    "t": "Dota 2: Team Lynx vs Level UP (BO3) - BLAST Slam Europe Closed Qualifi",
     "closed": true
    }
   ],
@@ -979,16 +979,16 @@
     "closed": false
    },
    {
-    "t": "Dota 2: PARIVISION vs Team Liquid (BO3) - BLAST Slam Group C",
-    "closed": true
+    "t": "Dota 2: Team Nemesis vs Xtreme Gaming (BO3) - BLAST Slam Group B",
+    "closed": false
    },
    {
     "t": "Dota 2: 1win vs Aurora (BO3) - BLAST Slam Group D",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Nemesis vs Xtreme Gaming (BO3) - BLAST Slam Group B",
-    "closed": false
+    "t": "Dota 2: PARIVISION vs Team Liquid (BO3) - BLAST Slam Group C",
+    "closed": true
    }
   ],
   "search:China National Tournament": [
@@ -1001,12 +1001,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: A Team vs FunPlus Phoenix (BO3) - China National Tournament ",
-    "closed": true
-   },
-   {
     "t": "Valorant: Any Questions Gaming vs SEC (BO3) - China National Tournamen",
     "closed": false
+   },
+   {
+    "t": "Valorant: A Team vs FunPlus Phoenix (BO3) - China National Tournament ",
+    "closed": true
    },
    {
     "t": "Valorant: TEC Esports vs KeepBest Gaming (BO3) - China National Tourna",
@@ -1104,6 +1104,7 @@
  },
  "winning_sources": [
   "search:BLAST",
+  "search:BLAST Slam",
   "search:CCT Europe",
   "search:China National Tournament",
   "search:Dota 2",
@@ -1370,8 +1371,8 @@
   }
  ],
  "events": 26,
- "markets": 116,
- "markets_dropped_by_volume_floor": 52,
+ "markets": 113,
+ "markets_dropped_by_volume_floor": 127,
  "day_file": "data/2026/11/2026-11-23T16.jsonl",
  "retention_removed_files": 145,
  "status": "ok"
