@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-23T18:54:41Z",
+ "ts": "2026-11-23T19:12:33Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -377,12 +377,12 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: Natus Vincere vs OG (BO3) - BLAST Slam Group A",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Natus Vincere vs OG (BO3) - BLAST Slam Group A",
+    "closed": true
    },
    {
     "t": "Dota 2: LGD Gaming vs Astra Invicta (BO3) - BLAST Slam Group D",
@@ -745,8 +745,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Zero Tenacity vs Inner Circle (BO3) - European Pro League Grou",
-    "closed": false
+    "t": "Counter-Strike: Sökerorg vs Bebop (BO3) - European Pro League Series 1",
+    "closed": true
    }
   ],
   "search:ESEA": [
@@ -829,12 +829,12 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Lunacy Team vs MOUZ NXT (BO3) - CCT Europe Closed Qual",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: INFURITY Gaming vs Lunacy Team (BO3) - CCT Europe Clos",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: Lunacy Team vs MOUZ NXT (BO3) - CCT Europe Closed Qual",
+    "closed": true
    }
   ],
   "search:CCT South America": [
@@ -971,16 +971,16 @@
   ],
   "search:Slam Group": [
    {
+    "t": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
+    "closed": false
+   },
+   {
     "t": "Dota 2: Natus Vincere vs OG (BO3) - BLAST Slam Group A",
     "closed": true
    },
    {
     "t": "Dota 2: LGD Gaming vs Astra Invicta (BO3) - BLAST Slam Group D",
     "closed": true
-   },
-   {
-    "t": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
-    "closed": false
    },
    {
     "t": "Dota 2: Team Nemesis vs Xtreme Gaming (BO3) - BLAST Slam Group B",
@@ -1369,10 +1369,10 @@
    ]
   }
  ],
- "events": 22,
- "markets": 103,
- "markets_dropped_by_volume_floor": 50,
- "day_file": "data/2026/11/2026-11-23T18.jsonl",
+ "events": 21,
+ "markets": 99,
+ "markets_dropped_by_volume_floor": 49,
+ "day_file": "data/2026/11/2026-11-23T19.jsonl",
  "retention_removed_files": 145,
  "status": "ok"
 }
