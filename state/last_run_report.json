@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-23T14:20:53Z",
+ "ts": "2026-11-23T14:29:30Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -385,16 +385,16 @@
     "closed": true
    },
    {
-    "t": "Dota 2: LEGION vs DO KONCA (BO3) - BLAST Slam Group C",
-    "closed": true
-   },
-   {
     "t": "Dota 2: 1win vs Aurora (BO3) - BLAST Slam Group D",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Synapse vs InterActive Philippines (BO3) - European Pro L",
+    "t": "Dota 2: LEGION vs DO KONCA (BO3) - BLAST Slam Group C",
     "closed": true
+   },
+   {
+    "t": "Dota 2: Team Nemesis vs Xtreme Gaming (BO3) - BLAST Slam Group B",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -781,15 +781,15 @@
     "closed": false
    },
    {
+    "t": "Counter-Strike: HAVU vs KUUSAMO.gg (BO3) - Elisa Open Suomi Group Stag",
+    "closed": false
+   },
+   {
     "t": "Counter-Strike: HAVU vs Nordic Valor (BO3) - Elisa Open Suomi Group St",
     "closed": true
    },
    {
     "t": "Counter-Strike: Prestige vs BoyBand (BO3) - Elisa Open Suomi Group Sta",
-    "closed": true
-   },
-   {
-    "t": "Counter-Strike: Nordic Valor vs BoyBand (BO3) - Elisa Open Suomi Group",
     "closed": true
    }
   ],
@@ -979,11 +979,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: LEGION vs DO KONCA (BO3) - BLAST Slam Group C",
+    "t": "Dota 2: 1win vs Aurora (BO3) - BLAST Slam Group D",
     "closed": true
    },
    {
-    "t": "Dota 2: 1win vs Aurora (BO3) - BLAST Slam Group D",
+    "t": "Dota 2: LEGION vs DO KONCA (BO3) - BLAST Slam Group C",
     "closed": true
    },
    {
@@ -1106,6 +1106,7 @@
   "search:BLAST",
   "search:CCT Europe",
   "search:China National Tournament",
+  "search:Dota 2",
   "search:Elisa Open Suomi",
   "search:European Pro League",
   "search:Exort Fiesta",
@@ -1113,7 +1114,6 @@
   "search:NODWIN",
   "search:PGL",
   "search:Predator League",
-  "search:Slam Group",
   "search:United21"
  ],
  "n_event_queries": 51,
@@ -1369,9 +1369,9 @@
    ]
   }
  ],
- "events": 21,
- "markets": 111,
- "markets_dropped_by_volume_floor": 42,
+ "events": 22,
+ "markets": 110,
+ "markets_dropped_by_volume_floor": 47,
  "day_file": "data/2026/11/2026-11-23T14.jsonl",
  "retention_removed_files": 145,
  "status": "ok"
