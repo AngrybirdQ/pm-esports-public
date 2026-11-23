@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-23T18:14:20Z",
+ "ts": "2026-11-23T18:31:13Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -377,15 +377,11 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: LGD Gaming vs Astra Invicta (BO3) - BLAST Slam Group D",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Natus Vincere vs OG (BO3) - BLAST Slam Group A",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Nemesis vs Xtreme Gaming (BO3) - BLAST Slam Group B",
+    "t": "Dota 2: LGD Gaming vs Astra Invicta (BO3) - BLAST Slam Group D",
     "closed": true
    },
    {
@@ -393,8 +389,12 @@
     "closed": false
    },
    {
-    "t": "Dota 2: 1win vs Aurora (BO3) - BLAST Slam Group D",
+    "t": "Dota 2: Team Nemesis vs Xtreme Gaming (BO3) - BLAST Slam Group B",
     "closed": true
+   },
+   {
+    "t": "Dota 2: Aurora vs LGD Gaming (BO3) - BLAST Slam Group D",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -575,24 +575,24 @@
   ],
   "search:Worlds 2026": [
    {
-    "t": "ON Worlds 2026 Skin Champion",
-    "closed": false
+    "t": "Worlds 2026: Winner",
+    "closed": true
    },
    {
-    "t": "Viper Worlds 2026 Skin Champion",
-    "closed": false
+    "t": "Worlds 2026 Winning Region",
+    "closed": true
    },
    {
-    "t": "Knight Worlds 2026 Skin Champion",
-    "closed": false
+    "t": "Worlds 2026: Finals MVP",
+    "closed": true
    },
    {
-    "t": "Xun Worlds 2026 Skin Champion",
-    "closed": false
+    "t": "Worlds 2026: Team to Make Grand Finals",
+    "closed": true
    },
    {
-    "t": "Bin Worlds 2026 Skin Champion",
-    "closed": false
+    "t": "Most Kills at Worlds 2026",
+    "closed": true
    }
   ],
   "search:1win Essence": [
@@ -755,10 +755,6 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Banger Gang vs JUMBO TEAM (BO1) - ESEA Advanced Europe",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Banger Gang vs Fire Flux Esports (BO1) - ESEA Advanced",
     "closed": true
    },
@@ -767,7 +763,11 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: SINQU vs LPH Gaming (BO1) - ESEA Advanced Europe Regul",
+    "t": "Counter-Strike: Banger Gang vs Younglings (BO1) - ESEA Advanced Europe",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Banger Gang vs JUMBO TEAM (BO1) - ESEA Advanced Europe",
     "closed": true
    }
   ],
@@ -971,15 +971,11 @@
   ],
   "search:Slam Group": [
    {
-    "t": "Dota 2: LGD Gaming vs Astra Invicta (BO3) - BLAST Slam Group D",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Natus Vincere vs OG (BO3) - BLAST Slam Group A",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Nemesis vs Xtreme Gaming (BO3) - BLAST Slam Group B",
+    "t": "Dota 2: LGD Gaming vs Astra Invicta (BO3) - BLAST Slam Group D",
     "closed": true
    },
    {
@@ -987,8 +983,12 @@
     "closed": false
    },
    {
-    "t": "Dota 2: 1win vs Aurora (BO3) - BLAST Slam Group D",
+    "t": "Dota 2: Team Nemesis vs Xtreme Gaming (BO3) - BLAST Slam Group B",
     "closed": true
+   },
+   {
+    "t": "Dota 2: Aurora vs LGD Gaming (BO3) - BLAST Slam Group D",
+    "closed": false
    }
   ],
   "search:China National Tournament": [
@@ -1009,7 +1009,7 @@
     "closed": true
    },
    {
-    "t": "Valorant: Any Questions Gaming vs Victory No Limits (BO3) - China Nati",
+    "t": "Valorant: SEC vs Young Gaming (BO3) - China National Tournament Split ",
     "closed": false
    }
   ],
@@ -1114,8 +1114,7 @@
   "search:NODWIN",
   "search:PGL",
   "search:Predator League",
-  "search:United21",
-  "search:Worlds 2026"
+  "search:United21"
  ],
  "n_event_queries": 51,
  "essential_slug_diag": [
@@ -1370,9 +1369,9 @@
    ]
   }
  ],
- "events": 27,
- "markets": 101,
- "markets_dropped_by_volume_floor": 104,
+ "events": 23,
+ "markets": 105,
+ "markets_dropped_by_volume_floor": 52,
  "day_file": "data/2026/11/2026-11-23T18.jsonl",
  "retention_removed_files": 145,
  "status": "ok"
