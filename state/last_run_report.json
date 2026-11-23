@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-23T01:14:22Z",
+ "ts": "2026-11-23T01:24:15Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -773,6 +773,10 @@
   ],
   "search:Elisa Open Suomi": [
    {
+    "t": "Counter-Strike: SINQU vs RoundsGG (BO3) - Elisa Open Suomi Group Stage",
+    "closed": false
+   },
+   {
     "t": "Counter-Strike: HAVU vs Nordic Valor (BO3) - Elisa Open Suomi Group St",
     "closed": true
    },
@@ -786,10 +790,6 @@
    },
    {
     "t": "Counter-Strike: ENCE vs KAJO (BO3) - Elisa Open Suomi Regular Season",
-    "closed": true
-   },
-   {
-    "t": "Counter-Strike: KUUSAMO.gg vs Nordic Valor (BO3) - Elisa Open Suomi Gr",
     "closed": true
    }
   ],
@@ -1031,8 +1031,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: Cloud9 vs Maryville University (BO3) - VCT Americas Kickoff:",
-    "closed": true
+    "t": "Valorant: Oafs vs SaD Esports (BO3) - VCT Americas Kickoff: North Amer",
+    "closed": false
    }
   ],
   "search:VCT Pacific": [
@@ -1108,11 +1108,13 @@
   "search:CCT South America",
   "search:China National Tournament",
   "search:ESEA",
+  "search:Elisa Open Suomi",
   "search:European Pro League",
   "search:League of Legends",
   "search:NODWIN",
   "search:PGL",
   "search:Slam Group",
+  "search:VCT Americas",
   "search:Valorant"
  ],
  "n_event_queries": 51,
@@ -1368,9 +1370,9 @@
    ]
   }
  ],
- "events": 20,
- "markets": 94,
- "markets_dropped_by_volume_floor": 64,
+ "events": 22,
+ "markets": 100,
+ "markets_dropped_by_volume_floor": 74,
  "day_file": "data/2026/11/2026-11-23T01.jsonl",
  "retention_removed_files": 145,
  "status": "ok"
