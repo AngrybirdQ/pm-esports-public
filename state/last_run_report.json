@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-23T19:47:17Z",
+ "ts": "2026-11-23T20:04:39Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -378,7 +378,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Natus Vincere vs OG (BO3) - BLAST Slam Group A",
@@ -972,7 +972,7 @@
   "search:Slam Group": [
    {
     "t": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Natus Vincere vs OG (BO3) - BLAST Slam Group A",
@@ -1031,8 +1031,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: Elevate vs Arashi (BO3) - VCT Americas Kickoff: Brazil Group",
-    "closed": true
+    "t": "Valorant: University War vs ARG.MIX (BO3) - VCT Americas Kickoff: LATA",
+    "closed": false
    }
   ],
   "search:VCT Pacific": [
@@ -1106,7 +1106,6 @@
   "search:BLAST",
   "search:CCT Europe",
   "search:China National Tournament",
-  "search:Dota 2",
   "search:ESEA",
   "search:Elisa Open Suomi",
   "search:European Pro League",
@@ -1115,7 +1114,8 @@
   "search:NODWIN",
   "search:PGL",
   "search:Predator League",
-  "search:United21"
+  "search:United21",
+  "search:VCT Americas"
  ],
  "n_event_queries": 51,
  "essential_slug_diag": [
@@ -1371,9 +1371,9 @@
   }
  ],
  "events": 21,
- "markets": 94,
- "markets_dropped_by_volume_floor": 46,
- "day_file": "data/2026/11/2026-11-23T19.jsonl",
+ "markets": 92,
+ "markets_dropped_by_volume_floor": 59,
+ "day_file": "data/2026/11/2026-11-23T20.jsonl",
  "retention_removed_files": 145,
  "status": "ok"
 }
