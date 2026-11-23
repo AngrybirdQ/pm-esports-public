@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-23T22:45:42Z",
+ "ts": "2026-11-23T23:03:40Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -663,10 +663,6 @@
   ],
   "search:LPL": [
    {
-    "t": "Will the LPL have an official English broadcast in 2027?",
-    "closed": false
-   },
-   {
     "t": "LoL: Invictus Gaming vs JD Gaming (BO5) - LPL Regional Finals Playoffs",
     "closed": true
    },
@@ -680,6 +676,10 @@
    },
    {
     "t": "LoL: Bilibili Gaming vs Anyone's Legend (BO5) - LPL Playoffs",
+    "closed": true
+   },
+   {
+    "t": "LoL: Top Esports vs LGD Gaming (BO5) - LPL Playoffs",
     "closed": true
    }
   ],
@@ -1019,16 +1019,16 @@
     "closed": true
    },
    {
-    "t": "Valorant: counterfeit vs FlyQuest (BO3) - VCT Americas Kickoff: North ",
-    "closed": true
-   },
-   {
     "t": "Valorant: Maryville University vs QoR (BO3) - VCT Americas Kickoff: No",
     "closed": true
    },
    {
     "t": "Valorant: University War vs ARG.MIX (BO3) - VCT Americas Kickoff: LATA",
     "closed": false
+   },
+   {
+    "t": "Valorant: counterfeit vs FlyQuest (BO3) - VCT Americas Kickoff: North ",
+    "closed": true
    },
    {
     "t": "Valorant: Oafs vs SaD Esports (BO3) - VCT Americas Kickoff: North Amer",
@@ -1109,7 +1109,6 @@
   "search:ESEA",
   "search:Elisa Open Suomi",
   "search:Exort Fiesta",
-  "search:LPL",
   "search:League of Legends",
   "search:PGL",
   "search:Predator League",
@@ -1369,10 +1368,10 @@
    ]
   }
  ],
- "events": 25,
+ "events": 24,
  "markets": 98,
- "markets_dropped_by_volume_floor": 48,
- "day_file": "data/2026/11/2026-11-23T22.jsonl",
+ "markets_dropped_by_volume_floor": 44,
+ "day_file": "data/2026/11/2026-11-23T23.jsonl",
  "retention_removed_files": 145,
  "status": "ok"
 }
