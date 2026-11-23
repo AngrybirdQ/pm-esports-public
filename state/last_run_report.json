@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-23T16:14:39Z",
+ "ts": "2026-11-23T16:31:50Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -385,16 +385,16 @@
     "closed": false
    },
    {
+    "t": "Dota 2: Team Nemesis vs Xtreme Gaming (BO3) - BLAST Slam Group B",
+    "closed": false
+   },
+   {
     "t": "Dota 2: 1win vs Aurora (BO3) - BLAST Slam Group D",
     "closed": true
    },
    {
     "t": "Dota 2: PARIVISION vs Team Liquid (BO3) - BLAST Slam Group C",
     "closed": true
-   },
-   {
-    "t": "Dota 2: Team Nemesis vs Xtreme Gaming (BO3) - BLAST Slam Group B",
-    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -807,11 +807,11 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: Alliance vs  Phantom Academy (BO3) - United21 Group D",
-    "closed": true
+    "t": "Counter-Strike: INFINITE Talent vs TheChampionGG (BO3) - United21 Grou",
+    "closed": false
    },
    {
-    "t": "Counter-Strike: INFURITY Gaming vs ex-MANA eSports (BO3) - United21 Gr",
+    "t": "Counter-Strike: Alliance vs  Phantom Academy (BO3) - United21 Group D",
     "closed": true
    }
   ],
@@ -825,12 +825,12 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: AXE vs SharaDictator (BO3) - CCT Europe Contenders #11",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: ILLYRIANS vs  Phantom Academy (BO3) - CCT Europe Close",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: AXE vs SharaDictator (BO3) - CCT Europe Contenders #11",
+    "closed": true
    },
    {
     "t": "Counter-Strike: ZOTIX vs Diamant Esports (BO3) - CCT Europe Contenders",
@@ -953,10 +953,6 @@
     "closed": false
    },
    {
-    "t": "Most Kills at BLAST Slam IX Playoffs",
-    "closed": false
-   },
-   {
     "t": "Dota 2: HULIGANI vs Team Lynx (BO3) - BLAST Slam Europe Closed Qualifi",
     "closed": true
    },
@@ -966,6 +962,10 @@
    },
    {
     "t": "Dota 2: MOUZ vs Yellow Submarine (BO3) - BLAST Slam Europe Closed Qual",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Team Lynx vs Level UP (BO3) - BLAST Slam Europe Closed Qualifi",
     "closed": true
    }
   ],
@@ -1002,7 +1002,7 @@
    },
    {
     "t": "Valorant: Any Questions Gaming vs SEC (BO3) - China National Tournamen",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: A Team vs FunPlus Phoenix (BO3) - China National Tournament ",
@@ -1104,9 +1104,7 @@
  },
  "winning_sources": [
   "search:BLAST",
-  "search:BLAST Slam",
   "search:CCT Europe",
-  "search:China National Tournament",
   "search:Dota 2",
   "search:Elisa Open Suomi",
   "search:European Pro League",
@@ -1370,9 +1368,9 @@
    ]
   }
  ],
- "events": 26,
- "markets": 113,
- "markets_dropped_by_volume_floor": 127,
+ "events": 25,
+ "markets": 116,
+ "markets_dropped_by_volume_floor": 46,
  "day_file": "data/2026/11/2026-11-23T16.jsonl",
  "retention_removed_files": 145,
  "status": "ok"
