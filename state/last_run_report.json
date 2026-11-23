@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-23T11:39:25Z",
+ "ts": "2026-11-23T11:59:18Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -733,10 +733,6 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: FORZE Reload vs WBT (BO5) - European Pro League Playof",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Synapse vs InterActive Philippines (BO3) - European Pro L",
     "closed": false
    },
@@ -747,6 +743,10 @@
    {
     "t": "Dota 2: Zero Tenacity vs Inner Circle (BO3) - European Pro League Grou",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: FORZE Reload vs WBT (BO5) - European Pro League Playof",
+    "closed": true
    }
   ],
   "search:ESEA": [
@@ -755,16 +755,16 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Banger Gang vs JUMBO TEAM (BO1) - ESEA Advanced Europe",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: SINQU vs LPH Gaming (BO1) - ESEA Advanced Europe Regul",
     "closed": true
    },
    {
+    "t": "Counter-Strike: Banger Gang vs JUMBO TEAM (BO1) - ESEA Advanced Europe",
+    "closed": true
+   },
+   {
     "t": "Counter-Strike: Banger Gang vs Fire Flux Esports (BO1) - ESEA Advanced",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: Al Ahli vs Fire Flux Esports (BO1) - ESEA Advanced Eur",
@@ -803,25 +803,25 @@
     "closed": false
    },
    {
+    "t": "Counter-Strike: Inner Circle Academy vs Passion Academy (BO3) - United",
+    "closed": false
+   },
+   {
     "t": "Counter-Strike: Alliance vs  Phantom Academy (BO3) - United21 Group D",
     "closed": true
    },
    {
     "t": "Counter-Strike: INFURITY Gaming vs ex-MANA eSports (BO3) - United21 Gr",
     "closed": true
-   },
-   {
-    "t": "Counter-Strike: eSuba vs Misa Esports (BO3) - United21 Playoffs",
-    "closed": true
    }
   ],
   "search:CCT Europe": [
    {
-    "t": "Counter-Strike: Butterfly vs ex-RUSTEC (BO3) - CCT Europe Playoffs",
+    "t": "Counter-Strike: Lunacy Team vs MOUZ NXT (BO3) - CCT Europe Closed Qual",
     "closed": true
    },
    {
-    "t": "Counter-Strike: Lunacy Team vs MOUZ NXT (BO3) - CCT Europe Closed Qual",
+    "t": "Counter-Strike: Butterfly vs ex-RUSTEC (BO3) - CCT Europe Playoffs",
     "closed": true
    },
    {
@@ -895,12 +895,12 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: 33 vs Phantom (BO3) - NODWIN Clutch Series Playoffs",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Virtus.pro vs Iberian Soul (BO3) - NODWIN Clutch Serie",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: 33 vs Phantom (BO3) - NODWIN Clutch Series Playoffs",
+    "closed": true
    }
   ],
   "search:Stake Ranked": [
@@ -1105,7 +1105,6 @@
  "winning_sources": [
   "search:BLAST",
   "search:China National Tournament",
-  "search:ESEA",
   "search:Elisa Open Suomi",
   "search:European Pro League",
   "search:League of Legends",
@@ -1370,8 +1369,8 @@
   }
  ],
  "events": 21,
- "markets": 99,
- "markets_dropped_by_volume_floor": 61,
+ "markets": 102,
+ "markets_dropped_by_volume_floor": 59,
  "day_file": "data/2026/11/2026-11-23T11.jsonl",
  "retention_removed_files": 145,
  "status": "ok"
