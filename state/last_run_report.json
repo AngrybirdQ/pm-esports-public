@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-23T12:15:25Z",
+ "ts": "2026-11-23T12:32:19Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -456,7 +456,7 @@
    },
    {
     "t": "Valorant: Unsettled Resentment vs KeepBest Gaming (BO3) - China Nation",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Maryville University vs QoR (BO3) - VCT Americas Kickoff: No",
@@ -689,10 +689,6 @@
     "closed": true
    },
    {
-    "t": "Valorant: BOOM Esports vs Hertz Esport (BO3) - Asia Pacific Predator L",
-    "closed": true
-   },
-   {
     "t": "Valorant: Troopers vs CECIL (BO1) - Asia Pacific Predator League Ocean",
     "closed": false
    },
@@ -702,6 +698,10 @@
    },
    {
     "t": "Valorant: Salamander vs NongKaiTod (BO3) - Asia Pacific Predator Leagu",
+    "closed": true
+   },
+   {
+    "t": "Valorant: Original Gaming vs Học Viện 96 (BO3) - Asia Pacific Predator",
     "closed": true
    }
   ],
@@ -829,11 +829,11 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: ZOTIX vs Diamant Esports (BO3) - CCT Europe Contenders",
-    "closed": true
+    "t": "Counter-Strike: G2 Ares vs maybe (BO3) - CCT Europe Closed Qualifier: ",
+    "closed": false
    },
    {
-    "t": "Counter-Strike: gothboiclique vs NoTime (BO3) - CCT Europe Contenders ",
+    "t": "Counter-Strike: ZOTIX vs Diamant Esports (BO3) - CCT Europe Contenders",
     "closed": true
    }
   ],
@@ -869,15 +869,15 @@
     "closed": true
    },
    {
+    "t": "Counter-Strike: evermore vs ILLYRIANS (BO3) - Exort Fiesta Group Stage",
+    "closed": false
+   },
+   {
     "t": "Counter-Strike:  Phantom Academy vs KAMUI (BO3) - Exort Fiesta Group S",
     "closed": true
    },
    {
     "t": "Counter-Strike: Leo Team vs UNiTY esports (BO3) - Exort Fiesta Playoff",
-    "closed": true
-   },
-   {
-    "t": "Counter-Strike: Lavked vs Vexar (BO3) - Exort Fiesta Group Stage",
     "closed": true
    }
   ],
@@ -998,7 +998,7 @@
    },
    {
     "t": "Valorant: Unsettled Resentment vs KeepBest Gaming (BO3) - China Nation",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: A Team vs FunPlus Phoenix (BO3) - China National Tournament ",
@@ -1104,17 +1104,18 @@
  },
  "winning_sources": [
   "search:BLAST",
+  "search:CCT Europe",
   "search:China National Tournament",
   "search:Dota 2",
   "search:Elisa Open Suomi",
   "search:European Pro League",
+  "search:Exort Fiesta",
   "search:League of Legends",
   "search:NODWIN",
   "search:PGL",
   "search:Predator League",
   "search:Slam Group",
-  "search:United21",
-  "search:Valorant"
+  "search:United21"
  ],
  "n_event_queries": 51,
  "essential_slug_diag": [
@@ -1369,9 +1370,9 @@
    ]
   }
  ],
- "events": 21,
- "markets": 104,
- "markets_dropped_by_volume_floor": 57,
+ "events": 22,
+ "markets": 107,
+ "markets_dropped_by_volume_floor": 56,
  "day_file": "data/2026/11/2026-11-23T12.jsonl",
  "retention_removed_files": 145,
  "status": "ok"
