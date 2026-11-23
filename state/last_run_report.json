@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-23T00:36:23Z",
+ "ts": "2026-11-23T00:44:58Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -343,12 +343,6 @@
    "err": null
   },
   {
-   "url": "slug:league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
-   "ok": true,
-   "events_returned": 1,
-   "err": null
-  },
-  {
    "url": "slug:most-banned-champion-at-worlds-2026",
    "ok": true,
    "events_returned": 1,
@@ -365,9 +359,17 @@
    "ok": true,
    "events_returned": 1,
    "err": null
+  },
+  {
+   "url": "global-scan",
+   "ok": true,
+   "events_returned": 0,
+   "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "global-scan: HTTP 406: HTTP Error 406: Not Acceptable"
+ ],
  "stage": "snap",
  "tags_discovered": [
   "international-affairs"
@@ -419,6 +421,10 @@
   ],
   "search:League of Legends": [
    {
+    "t": "League of Legends Global Power Rankings Post Worlds: Rank 1",
+    "closed": false
+   },
+   {
     "t": "LoL: Dplus KIA Challengers vs KT Rolster Challengers (BO5) - LCK Chall",
     "closed": true
    },
@@ -432,10 +438,6 @@
    },
    {
     "t": "LoL: DN SOOPers Challengers vs Nongshim Esports Academy (BO5) - LCK Ch",
-    "closed": true
-   },
-   {
-    "t": "LoL: DN SOOPers Challengers vs Nongshim Esports Academy (BO3) - LCK Ch",
     "closed": true
    }
   ],
@@ -453,12 +455,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: Oafs vs Shopify Rebellion Black (BO3) - VCT Americas Kickoff",
-    "closed": true
-   },
-   {
     "t": "Valorant: Maryville University vs QoR (BO3) - VCT Americas Kickoff: No",
     "closed": false
+   },
+   {
+    "t": "Valorant: Maxxing vs Oasis Gaming (BO5) - Asia Pacific Predator League",
+    "closed": true
    }
   ],
   "search:NBA": [
@@ -824,7 +826,7 @@
    },
    {
     "t": "Counter-Strike: AXE vs SharaDictator (BO3) - CCT Europe Contenders #11",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: banda chuya vs INFURITY Gaming (BO3) - CCT Europe Clos",
@@ -845,15 +847,15 @@
     "closed": false
    },
    {
+    "t": "Counter-Strike: ALKA vs Rush (BO3) - CCT South America Challengers #4 ",
+    "closed": false
+   },
+   {
     "t": "Counter-Strike: MEIA NOITE vs ALKA (BO3) - CCT South America Challenge",
     "closed": true
    },
    {
     "t": "Counter-Strike: Yawara Esports vs Game Hunters (BO3) - CCT South Ameri",
-    "closed": true
-   },
-   {
-    "t": "Counter-Strike: ex-KRÜ Esports vs FOLHA AMARELA (BO3) - CCT South Amer",
     "closed": true
    }
   ],
@@ -985,7 +987,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Nemesis vs Xtreme Gaming (BO3) - BLAST Slam Group B",
+    "t": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
     "closed": false
    }
   ],
@@ -1025,12 +1027,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: Oafs vs Shopify Rebellion Black (BO3) - VCT Americas Kickoff",
-    "closed": true
-   },
-   {
     "t": "Valorant: Maryville University vs QoR (BO3) - VCT Americas Kickoff: No",
     "closed": false
+   },
+   {
+    "t": "Valorant: Cloud9 vs Maryville University (BO3) - VCT Americas Kickoff:",
+    "closed": true
    }
   ],
   "search:VCT Pacific": [
@@ -1107,11 +1109,11 @@
   "search:China National Tournament",
   "search:ESEA",
   "search:European Pro League",
+  "search:League of Legends",
   "search:NODWIN",
   "search:PGL",
   "search:Slam Group",
-  "search:Valorant",
-  "slug:league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424"
+  "search:Valorant"
  ],
  "n_event_queries": 51,
  "essential_slug_diag": [
@@ -1276,40 +1278,6 @@
    ]
   },
   {
-   "slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
-   "closed": false,
-   "active": true,
-   "n_markets": 31,
-   "mkts_closed": [
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false
-   ],
-   "mkts_active": [
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true
-   ]
-  },
-  {
    "slug": "most-banned-champion-at-worlds-2026",
    "closed": true,
    "active": true,
@@ -1401,8 +1369,8 @@
   }
  ],
  "events": 22,
- "markets": 99,
- "markets_dropped_by_volume_floor": 75,
+ "markets": 98,
+ "markets_dropped_by_volume_floor": 77,
  "day_file": "data/2026/11/2026-11-23T00.jsonl",
  "retention_removed_files": 145,
  "status": "ok"
