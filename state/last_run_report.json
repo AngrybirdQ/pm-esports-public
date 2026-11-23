@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-23T18:00:53Z",
+ "ts": "2026-11-23T18:14:20Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -389,12 +389,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: 1win vs Aurora (BO3) - BLAST Slam Group D",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
     "closed": false
+   },
+   {
+    "t": "Dota 2: 1win vs Aurora (BO3) - BLAST Slam Group D",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -575,24 +575,24 @@
   ],
   "search:Worlds 2026": [
    {
-    "t": "Worlds 2026: Winner",
-    "closed": true
+    "t": "ON Worlds 2026 Skin Champion",
+    "closed": false
    },
    {
-    "t": "Worlds 2026 Winning Region",
-    "closed": true
+    "t": "Viper Worlds 2026 Skin Champion",
+    "closed": false
    },
    {
-    "t": "Worlds 2026: Finals MVP",
-    "closed": true
+    "t": "Knight Worlds 2026 Skin Champion",
+    "closed": false
    },
    {
-    "t": "Worlds 2026: Team to Make Grand Finals",
-    "closed": true
+    "t": "Xun Worlds 2026 Skin Champion",
+    "closed": false
    },
    {
-    "t": "Most Kills at Worlds 2026",
-    "closed": true
+    "t": "Bin Worlds 2026 Skin Champion",
+    "closed": false
    }
   ],
   "search:1win Essence": [
@@ -742,7 +742,7 @@
    },
    {
     "t": "Counter-Strike: Spirit Academy Green vs Revise (BO3) - European Pro Le",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Zero Tenacity vs Inner Circle (BO3) - European Pro League Grou",
@@ -833,8 +833,8 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: ZOTIX vs Diamant Esports (BO3) - CCT Europe Contenders",
-    "closed": true
+    "t": "Counter-Strike: INFURITY Gaming vs Lunacy Team (BO3) - CCT Europe Clos",
+    "closed": false
    }
   ],
   "search:CCT South America": [
@@ -983,12 +983,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: 1win vs Aurora (BO3) - BLAST Slam Group D",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
     "closed": false
+   },
+   {
+    "t": "Dota 2: 1win vs Aurora (BO3) - BLAST Slam Group D",
+    "closed": true
    }
   ],
   "search:China National Tournament": [
@@ -1114,7 +1114,8 @@
   "search:NODWIN",
   "search:PGL",
   "search:Predator League",
-  "search:United21"
+  "search:United21",
+  "search:Worlds 2026"
  ],
  "n_event_queries": 51,
  "essential_slug_diag": [
@@ -1369,9 +1370,9 @@
    ]
   }
  ],
- "events": 22,
- "markets": 104,
- "markets_dropped_by_volume_floor": 49,
+ "events": 27,
+ "markets": 101,
+ "markets_dropped_by_volume_floor": 104,
  "day_file": "data/2026/11/2026-11-23T18.jsonl",
  "retention_removed_files": 145,
  "status": "ok"
