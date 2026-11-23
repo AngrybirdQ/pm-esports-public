@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-23T05:19:46Z",
+ "ts": "2026-11-23T05:29:15Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -693,15 +693,15 @@
     "closed": true
    },
    {
+    "t": "Valorant: Troopers vs CECIL (BO1) - Asia Pacific Predator League Ocean",
+    "closed": false
+   },
+   {
     "t": "Valorant: Xipto Esports vs Sharper Esport (BO5) - Asia Pacific Predato",
     "closed": true
    },
    {
     "t": "Valorant: Salamander vs NongKaiTod (BO3) - Asia Pacific Predator Leagu",
-    "closed": true
-   },
-   {
-    "t": "Valorant: Original Gaming vs Học Viện 96 (BO3) - Asia Pacific Predator",
     "closed": true
    }
   ],
@@ -795,6 +795,10 @@
   ],
   "search:United21": [
    {
+    "t": "Counter-Strike: The Chosen Few vs Teletubisie (BO3) - United21 Group A",
+    "closed": false
+   },
+   {
     "t": "Counter-Strike: Alliance vs  Phantom Academy (BO3) - United21 Group D",
     "closed": true
    },
@@ -808,10 +812,6 @@
    },
    {
     "t": "Counter-Strike: 9INE Academy vs CTRL Esports (BO3) - United21 Group C",
-    "closed": true
-   },
-   {
-    "t": "Counter-Strike: Prestige vs MASQ (BO3) - United21 Playoffs",
     "closed": true
    }
   ],
@@ -1111,7 +1111,9 @@
   "search:League of Legends",
   "search:NODWIN",
   "search:PGL",
+  "search:Predator League",
   "search:Slam Group",
+  "search:United21",
   "search:Valorant"
  ],
  "n_event_queries": 51,
@@ -1367,9 +1369,9 @@
    ]
   }
  ],
- "events": 17,
- "markets": 86,
- "markets_dropped_by_volume_floor": 58,
+ "events": 19,
+ "markets": 87,
+ "markets_dropped_by_volume_floor": 62,
  "day_file": "data/2026/11/2026-11-23T05.jsonl",
  "retention_removed_files": 145,
  "status": "ok"
