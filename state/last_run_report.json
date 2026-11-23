@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-23T20:24:34Z",
+ "ts": "2026-11-23T20:34:45Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -513,6 +513,10 @@
     "closed": false
    },
    {
+    "t": "Will any team get mega creeps at the BLAST Slam IX Playoffs?",
+    "closed": false
+   },
+   {
     "t": "Any rug >$1m on Blast today?",
     "closed": true
    },
@@ -522,10 +526,6 @@
    },
    {
     "t": "Counter-Strike: Legacy vs FUT Esports (BO3) - BLAST Open Porto Group B",
-    "closed": true
-   },
-   {
-    "t": "Counter-Strike: MOUZ vs Team Falcons (BO3) - BLAST Open Porto Group B",
     "closed": true
    }
   ],
@@ -734,7 +734,7 @@
    },
    {
     "t": "Dota 2: PuckChamp vs InterActive Philippines (BO3) - European Pro Leag",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: potn9ki vs Team Synapse (BO3) - European Pro League Group B",
@@ -829,12 +829,12 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: AXE vs SharaDictator (BO3) - CCT Europe Contenders #11",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Diamant Esports vs Young27 (BO3) - CCT Europe Contende",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: ZOTIX vs Diamant Esports (BO3) - CCT Europe Contenders",
+    "closed": true
    }
   ],
   "search:CCT South America": [
@@ -861,12 +861,12 @@
   ],
   "search:Exort Fiesta": [
    {
-    "t": "Counter-Strike: evermore vs ILLYRIANS (BO3) - Exort Fiesta Group Stage",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Revise vs KAMUI (BO3) - Exort Fiesta Group Stage",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: evermore vs ILLYRIANS (BO3) - Exort Fiesta Group Stage",
+    "closed": true
    },
    {
     "t": "Counter-Strike: Misa Esports vs ILLYRIANS (BO3) - Exort Fiesta Group S",
@@ -953,6 +953,10 @@
     "closed": false
    },
    {
+    "t": "Will any team get mega creeps at the BLAST Slam IX Playoffs?",
+    "closed": false
+   },
+   {
     "t": "Dota 2: HULIGANI vs Team Lynx (BO3) - BLAST Slam Europe Closed Qualifi",
     "closed": true
    },
@@ -962,10 +966,6 @@
    },
    {
     "t": "Dota 2: MOUZ vs Yellow Submarine (BO3) - BLAST Slam Europe Closed Qual",
-    "closed": true
-   },
-   {
-    "t": "Dota 2: Team Lynx vs Level UP (BO3) - BLAST Slam Europe Closed Qualifi",
     "closed": true
    }
   ],
@@ -1108,7 +1108,6 @@
   "search:China National Tournament",
   "search:ESEA",
   "search:Elisa Open Suomi",
-  "search:European Pro League",
   "search:Exort Fiesta",
   "search:League of Legends",
   "search:PGL",
@@ -1370,8 +1369,8 @@
   }
  ],
  "events": 22,
- "markets": 93,
- "markets_dropped_by_volume_floor": 58,
+ "markets": 92,
+ "markets_dropped_by_volume_floor": 56,
  "day_file": "data/2026/11/2026-11-23T20.jsonl",
  "retention_removed_files": 145,
  "status": "ok"
