@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-23T11:59:18Z",
+ "ts": "2026-11-23T12:15:25Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -393,8 +393,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Power Rangers vs potn9ki (BO3) - European Pro League Group B",
-    "closed": true
+    "t": "Dota 2: Team Synapse vs InterActive Philippines (BO3) - European Pro L",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -557,11 +557,11 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: NIP vs M80 (BO1) - PGL Major Singapore Stage 1",
+    "t": "Counter-Strike: FaZe vs Wildcard (BO1) - PGL Major Singapore Stage 1",
     "closed": false
    },
    {
-    "t": "Counter-Strike: FaZe vs Wildcard (BO1) - PGL Major Singapore Stage 1",
+    "t": "Counter-Strike: NIP vs M80 (BO1) - PGL Major Singapore Stage 1",
     "closed": false
    },
    {
@@ -729,12 +729,12 @@
   ],
   "search:European Pro League": [
    {
-    "t": "Dota 2: Power Rangers vs potn9ki (BO3) - European Pro League Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Synapse vs InterActive Philippines (BO3) - European Pro L",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Power Rangers vs potn9ki (BO3) - European Pro League Group B",
+    "closed": true
    },
    {
     "t": "Dota 2: PuckChamp vs Power Rangers (BO3) - European Pro League Group B",
@@ -1105,6 +1105,7 @@
  "winning_sources": [
   "search:BLAST",
   "search:China National Tournament",
+  "search:Dota 2",
   "search:Elisa Open Suomi",
   "search:European Pro League",
   "search:League of Legends",
@@ -1369,9 +1370,9 @@
   }
  ],
  "events": 21,
- "markets": 102,
- "markets_dropped_by_volume_floor": 59,
- "day_file": "data/2026/11/2026-11-23T11.jsonl",
+ "markets": 104,
+ "markets_dropped_by_volume_floor": 57,
+ "day_file": "data/2026/11/2026-11-23T12.jsonl",
  "retention_removed_files": 145,
  "status": "ok"
 }
