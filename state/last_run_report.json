@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-23T19:12:33Z",
+ "ts": "2026-11-23T19:29:56Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -751,24 +751,24 @@
   ],
   "search:ESEA": [
    {
-    "t": "Counter-Strike: JUMBO TEAM vs IMAPROBLEM (BO1) - ESEA Advanced Europe ",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Banger Gang vs Fire Flux Esports (BO1) - ESEA Advanced",
-    "closed": true
-   },
-   {
-    "t": "Counter-Strike: Al Ahli vs Fire Flux Esports (BO1) - ESEA Advanced Eur",
-    "closed": true
-   },
-   {
-    "t": "Counter-Strike: Banger Gang vs Younglings (BO1) - ESEA Advanced Europe",
     "closed": true
    },
    {
     "t": "Counter-Strike: Banger Gang vs JUMBO TEAM (BO1) - ESEA Advanced Europe",
     "closed": true
+   },
+   {
+    "t": "Counter-Strike: Privateer Gaming vs Spirit HU (BO1) - ESEA Advanced Eu",
+    "closed": false
+   },
+   {
+    "t": "Counter-Strike: SINQU vs LPH Gaming (BO1) - ESEA Advanced Europe Regul",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Glitchtech Esports vs Growth Lab Esports (BO1) - ESEA ",
+    "closed": false
    }
   ],
   "search:Elisa Open Suomi": [
@@ -822,15 +822,15 @@
    },
    {
     "t": "Counter-Strike: ILLYRIANS vs  Phantom Academy (BO3) - CCT Europe Close",
-    "closed": false
-   },
-   {
-    "t": "Counter-Strike: AXE vs SharaDictator (BO3) - CCT Europe Contenders #11",
     "closed": true
    },
    {
     "t": "Counter-Strike: INFURITY Gaming vs Lunacy Team (BO3) - CCT Europe Clos",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: AXE vs SharaDictator (BO3) - CCT Europe Contenders #11",
+    "closed": true
    },
    {
     "t": "Counter-Strike: Lunacy Team vs MOUZ NXT (BO3) - CCT Europe Closed Qual",
@@ -1107,6 +1107,7 @@
   "search:CCT Europe",
   "search:China National Tournament",
   "search:Dota 2",
+  "search:ESEA",
   "search:Elisa Open Suomi",
   "search:European Pro League",
   "search:Exort Fiesta",
@@ -1369,9 +1370,9 @@
    ]
   }
  ],
- "events": 21,
- "markets": 99,
- "markets_dropped_by_volume_floor": 49,
+ "events": 22,
+ "markets": 98,
+ "markets_dropped_by_volume_floor": 48,
  "day_file": "data/2026/11/2026-11-23T19.jsonl",
  "retention_removed_files": 145,
  "status": "ok"
