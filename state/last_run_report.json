@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-23T14:03:31Z",
+ "ts": "2026-11-23T14:20:53Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -394,7 +394,7 @@
    },
    {
     "t": "Dota 2: Team Synapse vs InterActive Philippines (BO3) - European Pro L",
-    "closed": false
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -730,7 +730,7 @@
   "search:European Pro League": [
    {
     "t": "Dota 2: Team Synapse vs InterActive Philippines (BO3) - European Pro L",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: PuckChamp vs Power Rangers (BO3) - European Pro League Group B",
@@ -861,12 +861,12 @@
   ],
   "search:Exort Fiesta": [
    {
-    "t": "Counter-Strike: Misa Esports vs ILLYRIANS (BO3) - Exort Fiesta Group S",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: evermore vs ILLYRIANS (BO3) - Exort Fiesta Group Stage",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: Misa Esports vs ILLYRIANS (BO3) - Exort Fiesta Group S",
+    "closed": true
    },
    {
     "t": "Counter-Strike: Revise vs ASTRON (BO3) - Exort Fiesta Group Stage",
@@ -884,7 +884,7 @@
   "search:NODWIN": [
    {
     "t": "Counter-Strike: Phantom vs Betclic Apogee Esports (BO3) - NODWIN Clutc",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: Virtus.pro vs Iberian Soul (BO3) - NODWIN Clutch Serie",
@@ -899,7 +899,7 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: 33 vs Phantom (BO3) - NODWIN Clutch Series Playoffs",
+    "t": "Counter-Strike: Gentle Mates vs Nuclear TigeRES (BO3) - NODWIN Clutch ",
     "closed": true
    }
   ],
@@ -1106,7 +1106,6 @@
   "search:BLAST",
   "search:CCT Europe",
   "search:China National Tournament",
-  "search:Dota 2",
   "search:Elisa Open Suomi",
   "search:European Pro League",
   "search:Exort Fiesta",
@@ -1370,9 +1369,9 @@
    ]
   }
  ],
- "events": 23,
- "markets": 114,
- "markets_dropped_by_volume_floor": 47,
+ "events": 21,
+ "markets": 111,
+ "markets_dropped_by_volume_floor": 42,
  "day_file": "data/2026/11/2026-11-23T14.jsonl",
  "retention_removed_files": 145,
  "status": "ok"
