@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-24T10:07:28Z",
+ "ts": "2026-11-24T10:44:38Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -442,7 +442,7 @@
   "search:Valorant": [
    {
     "t": "Valorant: A Team vs Unsettled Resentment (BO3) - China National Tourna",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Any Questions Gaming vs Victory No Limits (BO3) - China Nati",
@@ -743,13 +743,17 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Sökerorg vs Bebop (BO3) - European Pro League Series 1",
-    "closed": true
+    "t": "Counter-Strike: MASONIC vs ex-Sashi Academy (BO3) - European Pro Leagu",
+    "closed": false
    }
   ],
   "search:ESEA": [
    {
     "t": "Counter-Strike: Young TigeRES vs RoundsGG (BO3) - ESEA Advanced Europe",
+    "closed": false
+   },
+   {
+    "t": "Counter-Strike: NoTime vs Al Ahli (BO3) - ESEA Advanced Europe Playoff",
     "closed": false
    },
    {
@@ -762,10 +766,6 @@
    },
    {
     "t": "Counter-Strike: Vitality Academy vs IMAPROBLEM (BO1) - ESEA Advanced E",
-    "closed": false
-   },
-   {
-    "t": "Counter-Strike: B8 Academy vs PARTIZAN (BO3) - ESEA Advanced Europe Pl",
     "closed": false
    }
   ],
@@ -881,11 +881,11 @@
   ],
   "search:NODWIN": [
    {
-    "t": "Counter-Strike: Phantom vs Betclic Apogee Esports (BO3) - NODWIN Clutc",
+    "t": "Counter-Strike: Virtus.pro vs Iberian Soul (BO3) - NODWIN Clutch Serie",
     "closed": true
    },
    {
-    "t": "Counter-Strike: Virtus.pro vs Iberian Soul (BO3) - NODWIN Clutch Serie",
+    "t": "Counter-Strike: Phantom vs Betclic Apogee Esports (BO3) - NODWIN Clutc",
     "closed": true
    },
    {
@@ -992,7 +992,7 @@
   "search:China National Tournament": [
    {
     "t": "Valorant: A Team vs Unsettled Resentment (BO3) - China National Tourna",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Any Questions Gaming vs Victory No Limits (BO3) - China Nati",
@@ -1007,8 +1007,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: Unsettled Resentment vs KeepBest Gaming (BO3) - China Nation",
-    "closed": true
+    "t": "Valorant: FunPlus Phoenix vs KeepBest Gaming (BO3) - China National To",
+    "closed": false
    }
   ],
   "search:VCT Americas": [
@@ -1029,7 +1029,7 @@
     "closed": true
    },
    {
-    "t": "Valorant: SÓ TEM VELHO vs NEXT  (BO3) - VCT Americas Kickoff: Brazil Q",
+    "t": "Valorant: Contra vs 505 (BO3) - VCT Americas Kickoff: LATAM North - Qu",
     "closed": false
    }
   ],
@@ -1103,8 +1103,10 @@
  "winning_sources": [
   "search:BLAST",
   "search:CCT Europe",
+  "search:China National Tournament",
   "search:ESEA",
   "search:Elisa Open Suomi",
+  "search:European Pro League",
   "search:Exort Fiesta",
   "search:League of Legends",
   "search:United21",
@@ -1399,9 +1401,9 @@
    ]
   }
  ],
- "events": 22,
- "markets": 89,
- "markets_dropped_by_volume_floor": 57,
+ "events": 23,
+ "markets": 96,
+ "markets_dropped_by_volume_floor": 71,
  "day_file": "data/2026/11/2026-11-24T10.jsonl",
  "retention_removed_files": 255,
  "status": "ok"
