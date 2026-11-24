@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-24T02:42:07Z",
+ "ts": "2026-11-24T03:04:30Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -460,7 +460,7 @@
    },
    {
     "t": "Valorant: 9z Team vs MALAJUNTA (BO3) - VCT Americas Kickoff: LATAM Sou",
-    "closed": false
+    "closed": true
    }
   ],
   "search:NBA": [
@@ -557,19 +557,19 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: NIP vs M80 (BO1) - PGL Major Singapore Stage 1",
-    "closed": false
-   },
-   {
     "t": "PGL Major Singapore 2026: Winner",
     "closed": false
    },
    {
-    "t": "Counter-Strike: 9z vs Lynn Vision (BO1) - PGL Major Singapore Stage 1",
+    "t": "Counter-Strike: NIP vs M80 (BO1) - PGL Major Singapore Stage 1",
     "closed": false
    },
    {
     "t": "Counter-Strike: Eternal Fire vs FlyQuest (BO1) - PGL Major Singapore S",
+    "closed": false
+   },
+   {
+    "t": "Counter-Strike: 9z vs Lynn Vision (BO1) - PGL Major Singapore Stage 1",
     "closed": false
    }
   ],
@@ -767,8 +767,8 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: Banger Gang vs Honvéd (BO1) - ESEA Advanced Europe Reg",
-    "closed": false
+    "t": "Counter-Strike: XI Esport vs Clutchain (BO3) - ESEA Advanced Europe Pl",
+    "closed": true
    }
   ],
   "search:Elisa Open Suomi": [
@@ -1016,7 +1016,7 @@
   "search:VCT Americas": [
    {
     "t": "Valorant: 9z Team vs MALAJUNTA (BO3) - VCT Americas Kickoff: LATAM Sou",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: University War vs ARG.MIX (BO3) - VCT Americas Kickoff: LATA",
@@ -1024,15 +1024,15 @@
    },
    {
     "t": "Valorant: KRÜ Blaze vs Fracasados ny (BO3) - VCT Americas Kickoff: LAT",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: TRAMITE vs EL LEGADO (BO3) - VCT Americas Kickoff: LATAM Sou",
     "closed": true
    },
    {
-    "t": "Valorant: Maryville University vs QoR (BO3) - VCT Americas Kickoff: No",
-    "closed": true
+    "t": "Valorant: SÓ TEM VELHO vs NEXT  (BO3) - VCT Americas Kickoff: Brazil Q",
+    "closed": false
    }
   ],
   "search:VCT Pacific": [
@@ -1113,8 +1113,7 @@
   "search:PGL",
   "search:Predator League",
   "search:United21",
-  "search:VCT Americas",
-  "search:Valorant"
+  "search:VCT Americas"
  ],
  "n_event_queries": 51,
  "essential_slug_diag": [
@@ -1369,10 +1368,10 @@
    ]
   }
  ],
- "events": 27,
- "markets": 100,
- "markets_dropped_by_volume_floor": 54,
- "day_file": "data/2026/11/2026-11-24T02.jsonl",
+ "events": 25,
+ "markets": 97,
+ "markets_dropped_by_volume_floor": 47,
+ "day_file": "data/2026/11/2026-11-24T03.jsonl",
  "retention_removed_files": 255,
  "status": "ok"
 }
