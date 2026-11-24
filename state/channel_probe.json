@@ -2,49 +2,49 @@
  {
   "name": "pinnacle_api",
   "ok": false,
-  "ms": 76,
+  "ms": 63,
   "err": "HTTPError: HTTP Error 451: Unavailable For Legal Reasons"
  },
  {
   "name": "pinnacle_guest_odds",
   "ok": false,
-  "ms": 81,
+  "ms": 53,
   "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
  },
  {
   "name": "pinnacle_guest_matchups",
   "ok": false,
-  "ms": 48,
+  "ms": 54,
   "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
  },
  {
   "name": "theoddsapi",
   "ok": false,
-  "ms": 113,
+  "ms": 75,
   "err": "HTTPError: HTTP Error 401: Unauthorized"
  },
  {
   "name": "sofascore_esports",
   "ok": false,
-  "ms": 111,
+  "ms": 27,
   "err": "HTTPError: HTTP Error 403: Forbidden"
  },
  {
   "name": "bet365_home",
   "ok": false,
-  "ms": 102,
+  "ms": 43,
   "err": "HTTPError: HTTP Error 403: Forbidden"
  },
  {
   "name": "marathonbet",
   "ok": false,
-  "ms": 557,
+  "ms": 271,
   "err": "HTTPError: HTTP Error 451: Unavailable For Legal Reasons"
  },
  {
   "name": "ggbench",
   "ok": false,
-  "ms": 597,
+  "ms": 379,
   "err": "HTTPError: HTTP Error 404: Not Found"
  },
  {
@@ -58,7 +58,7 @@
   "name": "kalshi",
   "ok": true,
   "code": 200,
-  "ms": 75,
-  "head": "{\"cursor\":\"CgsI4ZaY2AYQmPvcNBIyS1hNVkVDUk9TU0NBVEVHT1JZLVMyMDI2RzdLRFJaQVJBUVhCTVhJVy1FTERYQlpVRFE\",\"markets\":[{\"can_close_early\":true,\"close_time\":\"2026-11-27T"
+  "ms": 94,
+  "head": "{\"cursor\":\"CgsI3JqY2AYQkIHONBIyS1hNVkVDUk9TU0NBVEVHT1JZLVMyMDI2NUIzS1Y1S1FJRUlORFk1TC1FWVpXNVk0WUQ\",\"markets\":[{\"can_close_early\":true,\"close_time\":\"2026-11-27T"
  }
 ]
