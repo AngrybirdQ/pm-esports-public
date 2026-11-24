@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-24T00:04:33Z",
+ "ts": "2026-11-24T00:29:12Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -443,10 +443,6 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: Wildcard vs Winthrop University (BO3) - VCT Americas Kickoff",
-    "closed": true
-   },
-   {
     "t": "Valorant: Victory No Limits vs Young Gaming (BO3) - China National Tou",
     "closed": true
    },
@@ -461,6 +457,10 @@
    {
     "t": "Valorant: A Team vs FunPlus Phoenix (BO3) - China National Tournament ",
     "closed": true
+   },
+   {
+    "t": "Valorant: 9z Team vs MALAJUNTA (BO3) - VCT Americas Kickoff: LATAM Sou",
+    "closed": false
    }
   ],
   "search:NBA": [
@@ -553,11 +553,11 @@
   ],
   "search:PGL": [
    {
-    "t": "PGL Major Singapore 2026: Winner",
+    "t": "Counter-Strike: PVISION vs DENDELE CS (BO1) - PGL Major Singapore Stag",
     "closed": false
    },
    {
-    "t": "Counter-Strike: PVISION vs DENDELE CS (BO1) - PGL Major Singapore Stag",
+    "t": "PGL Major Singapore 2026: Winner",
     "closed": false
    },
    {
@@ -781,15 +781,15 @@
     "closed": true
    },
    {
+    "t": "Counter-Strike: BoyBand vs BOJONG (BO3) - Elisa Open Suomi Group Stage",
+    "closed": false
+   },
+   {
     "t": "Counter-Strike: HAVU vs KUUSAMO.gg (BO3) - Elisa Open Suomi Group Stag",
     "closed": false
    },
    {
     "t": "Counter-Strike: HAVU vs Nordic Valor (BO3) - Elisa Open Suomi Group St",
-    "closed": true
-   },
-   {
-    "t": "Counter-Strike: Prestige vs BoyBand (BO3) - Elisa Open Suomi Group Sta",
     "closed": true
    }
   ],
@@ -1015,20 +1015,20 @@
   ],
   "search:VCT Americas": [
    {
-    "t": "Valorant: Wildcard vs Winthrop University (BO3) - VCT Americas Kickoff",
-    "closed": true
-   },
-   {
     "t": "Valorant: 9z Team vs MALAJUNTA (BO3) - VCT Americas Kickoff: LATAM Sou",
     "closed": false
    },
    {
     "t": "Valorant: University War vs ARG.MIX (BO3) - VCT Americas Kickoff: LATA",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Maryville University vs QoR (BO3) - VCT Americas Kickoff: No",
     "closed": true
+   },
+   {
+    "t": "Valorant: KRÜ Blaze vs Fracasados ny (BO3) - VCT Americas Kickoff: LAT",
+    "closed": false
    },
    {
     "t": "Valorant: Oafs vs SaD Esports (BO3) - VCT Americas Kickoff: North Amer",
@@ -1113,7 +1113,8 @@
   "search:PGL",
   "search:Predator League",
   "search:United21",
-  "search:VCT Americas"
+  "search:VCT Americas",
+  "search:Valorant"
  ],
  "n_event_queries": 51,
  "essential_slug_diag": [
@@ -1368,9 +1369,9 @@
    ]
   }
  ],
- "events": 26,
- "markets": 98,
- "markets_dropped_by_volume_floor": 67,
+ "events": 27,
+ "markets": 100,
+ "markets_dropped_by_volume_floor": 59,
  "day_file": "data/2026/11/2026-11-24T00.jsonl",
  "retention_removed_files": 255,
  "status": "ok"
