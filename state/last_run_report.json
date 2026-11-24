@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-24T17:04:49Z",
+ "ts": "2026-11-24T17:25:02Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -458,7 +458,7 @@
    },
    {
     "t": "Valorant: Eternal Fire vs Misa Esports (BO3) - VCT EMEA Kickoff: Türki",
-    "closed": false
+    "closed": true
    }
   ],
   "search:NBA": [
@@ -743,7 +743,7 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Donstu Esports vs Fortress (BO3) - European Pro League",
+    "t": "Dota 2: PuckChamp vs Zero Tenacity (BO3) - European Pro League Playoff",
     "closed": false
    }
   ],
@@ -761,11 +761,11 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: eternal premium vs  Phantom Academy (BO3) - ESEA Advan",
+    "t": "Counter-Strike: B8 Academy vs PARTIZAN (BO3) - ESEA Advanced Europe Pl",
     "closed": false
    },
    {
-    "t": "Counter-Strike: NoTime vs Al Ahli (BO3) - ESEA Advanced Europe Playoff",
+    "t": "Counter-Strike: eternal premium vs  Phantom Academy (BO3) - ESEA Advan",
     "closed": false
    }
   ],
@@ -820,7 +820,7 @@
    },
    {
     "t": "Counter-Strike: Sökerorg vs Lunacy Team (BO3) - CCT Europe Closed Qual",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: FLXRE vs AXE (BO3) - CCT Europe Contenders #11 Playoff",
@@ -867,15 +867,15 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: evermore vs ILLYRIANS (BO3) - Exort Fiesta Group Stage",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike:  Phantom Academy vs KAMUI (BO3) - Exort Fiesta Group S",
     "closed": true
    },
    {
     "t": "Counter-Strike: Leo Team vs UNiTY esports (BO3) - Exort Fiesta Playoff",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Lavked vs Vexar (BO3) - Exort Fiesta Group Stage",
     "closed": true
    }
   ],
@@ -977,15 +977,15 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Nemesis vs Xtreme Gaming (BO3) - BLAST Slam Group B",
-    "closed": true
-   },
-   {
     "t": "Dota 2: 1win vs Natus Vincere (BO3) - BLAST Slam Group B",
     "closed": true
    },
    {
     "t": "Dota 2: Aurora vs Team Liquid (BO3) - BLAST Slam Group D",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: OG vs BetBoom Team (BO3) - BLAST Slam Group C",
     "closed": true
    }
   ],
@@ -1102,7 +1102,6 @@
  },
  "winning_sources": [
   "search:BLAST",
-  "search:CCT Europe",
   "search:China National Tournament",
   "search:Dota 2",
   "search:ESEA",
@@ -1112,7 +1111,6 @@
   "search:League of Legends",
   "search:United21",
   "search:VCT Americas",
-  "search:Valorant",
   "search:Worlds 2026",
   "slug:pgl-major-singapore-2026-winner-1793811600000"
  ],
@@ -1403,9 +1401,9 @@
    ]
   }
  ],
- "events": 27,
- "markets": 127,
- "markets_dropped_by_volume_floor": 71,
+ "events": 25,
+ "markets": 122,
+ "markets_dropped_by_volume_floor": 62,
  "day_file": "data/2026/11/2026-11-24T17.jsonl",
  "retention_removed_files": 255,
  "status": "ok"
