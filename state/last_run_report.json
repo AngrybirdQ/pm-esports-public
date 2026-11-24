@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-24T06:04:37Z",
+ "ts": "2026-11-24T06:14:31Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -343,6 +343,12 @@
    "err": null
   },
   {
+   "url": "slug:pgl-major-singapore-2026-winner-1793811600000",
+   "ok": true,
+   "events_returned": 1,
+   "err": null
+  },
+  {
    "url": "slug:most-banned-champion-at-worlds-2026",
    "ok": true,
    "events_returned": 1,
@@ -359,17 +365,9 @@
    "ok": true,
    "events_returned": 1,
    "err": null
-  },
-  {
-   "url": "global-scan",
-   "ok": true,
-   "events_returned": 0,
-   "err": null
   }
  ],
- "errors": [
-  "global-scan: HTTP 406: HTTP Error 406: Not Acceptable"
- ],
+ "errors": [],
  "stage": "snap",
  "tags_discovered": [
   "international-affairs"
@@ -455,11 +453,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: Victory No Limits vs Young Gaming (BO3) - China National Tou",
+    "t": "Valorant: 9z Team vs MALAJUNTA (BO3) - VCT Americas Kickoff: LATAM Sou",
     "closed": true
    },
    {
-    "t": "Valorant: 9z Team vs MALAJUNTA (BO3) - VCT Americas Kickoff: LATAM Sou",
+    "t": "Valorant: Victory No Limits vs Young Gaming (BO3) - China National Tou",
     "closed": true
    }
   ],
@@ -565,11 +563,11 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: PVISION vs DENDELE CS (BO1) - PGL Major Singapore Stag",
+    "t": "Counter-Strike: Liquid vs GOSH (BO1) - PGL Major Singapore Stage 1",
     "closed": false
    },
    {
-    "t": "PGL Major Singapore 2026: Winner",
+    "t": "Counter-Strike: PVISION vs DENDELE CS (BO1) - PGL Major Singapore Stag",
     "closed": false
    }
   ],
@@ -1113,7 +1111,8 @@
   "search:PGL",
   "search:Predator League",
   "search:United21",
-  "search:VCT Americas"
+  "search:VCT Americas",
+  "slug:pgl-major-singapore-2026-winner-1793811600000"
  ],
  "n_event_queries": 51,
  "essential_slug_diag": [
@@ -1278,6 +1277,40 @@
    ]
   },
   {
+   "slug": "pgl-major-singapore-2026-winner-1793811600000",
+   "closed": false,
+   "active": true,
+   "n_markets": 38,
+   "mkts_closed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "mkts_active": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
    "slug": "most-banned-champion-at-worlds-2026",
    "closed": true,
    "active": true,
@@ -1368,9 +1401,9 @@
    ]
   }
  ],
- "events": 23,
+ "events": 24,
  "markets": 90,
- "markets_dropped_by_volume_floor": 53,
+ "markets_dropped_by_volume_floor": 50,
  "day_file": "data/2026/11/2026-11-24T06.jsonl",
  "retention_removed_files": 255,
  "status": "ok"
