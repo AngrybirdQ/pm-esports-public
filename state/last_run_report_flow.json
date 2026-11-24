@@ -1,45 +1,17 @@
 {
- "ts": "2026-11-24T07:20:37Z",
+ "ts": "2026-11-24T07:44:12Z",
  "sources": [],
- "errors": [
-  "API-DEPRECATED 8 urls: 404 https://clob.polymarket.com/book?token_id=11565745360794390806942633078820188076781464517729724004256490833547"
- ],
+ "errors": [],
  "stage": "flow",
  "markets": 92,
- "trades_markets_queried": 57,
- "trades_watchlist_markets": 31,
- "trades_collected": 1618,
+ "trades_markets_queried": 61,
+ "trades_watchlist_markets": 32,
+ "trades_collected": 2017,
  "anomalies_detected": 6,
- "anomalies_new": 2,
- "history_debug": [
-  {
-   "cid": "0x9f0ca8ce",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
- "books_errors": [
-  "1156574536: HTTP 404 (api deprecated)",
-  "7484933314: HTTP 404 (api deprecated)",
-  "6464429337: HTTP 404 (api deprecated)",
-  "4009175854: HTTP 404 (api deprecated)",
-  "2250507240: HTTP 404 (api deprecated)",
-  "2668056687: HTTP 404 (api deprecated)",
-  "3376266635: HTTP 404 (api deprecated)",
-  "6818539091: HTTP 404 (api deprecated)"
- ],
- "books_markets": 34,
- "books_rows": 46,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=11565745360794390806942633078820188076781464517729724004256490833547",
-  "404 https://clob.polymarket.com/book?token_id=74849333142736629141749971019801353799067076840546847104562271230754",
-  "404 https://clob.polymarket.com/book?token_id=64644293370633026586566930658869812420721166965226784531510927861510",
-  "404 https://clob.polymarket.com/book?token_id=40091758542196066215660719106619031944309672593905046049233567227583",
-  "404 https://clob.polymarket.com/book?token_id=22505072406218504305101248277849529250791898496619770575451364964418",
-  "404 https://clob.polymarket.com/book?token_id=26680566879619156954759633072961325853637452599839152308954603573245",
-  "404 https://clob.polymarket.com/book?token_id=33762666355954935474391821271970135011561057944517005213070492804562",
-  "404 https://clob.polymarket.com/book?token_id=68185390910663621798575810798347601302933014687971953523160955652427"
- ]
+ "anomalies_new": 6,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_markets": 35,
+ "books_rows": 54,
+ "status": "ok"
 }

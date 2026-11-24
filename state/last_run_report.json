@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-24T07:17:13Z",
+ "ts": "2026-11-24T07:40:33Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -457,8 +457,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: University War vs ARG.MIX (BO3) - VCT Americas Kickoff: LATA",
-    "closed": true
+    "t": "Valorant: A Team vs Unsettled Resentment (BO3) - China National Tourna",
+    "closed": false
    }
   ],
   "search:NBA": [
@@ -560,14 +560,14 @@
    },
    {
     "t": "Counter-Strike: NIP vs M80 (BO1) - PGL Major Singapore Stage 1",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: FaZe vs Wildcard (BO1) - PGL Major Singapore Stage 1",
     "closed": false
    },
    {
     "t": "Counter-Strike: PVISION vs DENDELE CS (BO1) - PGL Major Singapore Stag",
-    "closed": false
-   },
-   {
-    "t": "Counter-Strike: Heroic vs Imperial (BO1) - PGL Major Singapore Stage 1",
     "closed": true
    }
   ],
@@ -757,15 +757,15 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: Banger Gang vs Fire Flux Esports (BO1) - ESEA Advanced",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Privateer Gaming vs Spirit HU (BO1) - ESEA Advanced Eu",
     "closed": false
    },
    {
     "t": "Counter-Strike: MTX vs The Chosen Few (BO1) - ESEA Advanced Europe Reg",
+    "closed": false
+   },
+   {
+    "t": "Counter-Strike: Vitality Academy vs SINQU (BO3) - ESEA Advanced Europe",
     "closed": false
    }
   ],
@@ -1112,6 +1112,7 @@
   "search:Predator League",
   "search:United21",
   "search:VCT Americas",
+  "search:Valorant",
   "slug:pgl-major-singapore-2026-winner-1793811600000"
  ],
  "n_event_queries": 51,
@@ -1403,7 +1404,7 @@
  ],
  "events": 24,
  "markets": 92,
- "markets_dropped_by_volume_floor": 59,
+ "markets_dropped_by_volume_floor": 62,
  "day_file": "data/2026/11/2026-11-24T07.jsonl",
  "retention_removed_files": 255,
  "status": "ok"
