@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-24T17:45:18Z",
+ "ts": "2026-11-24T18:00:26Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -376,18 +376,18 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: Team Yandex vs 1win (BO3) - BLAST Slam Seeding Matches",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
     "closed": true
    },
    {
-    "t": "Dota 2: Aurora vs LGD Gaming (BO3) - BLAST Slam Group D",
+    "t": "Dota 2: GamerLegion vs PARIVISION (BO3) - BLAST Slam Seeding Matches",
     "closed": true
    },
    {
-    "t": "Dota 2: GamerLegion vs PARIVISION (BO3) - BLAST Slam Seeding Matches",
+    "t": "Dota 2: Aurora vs LGD Gaming (BO3) - BLAST Slam Group D",
     "closed": true
    },
    {
@@ -457,8 +457,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: Eternal Fire vs Misa Esports (BO3) - VCT EMEA Kickoff: Türki",
-    "closed": true
+    "t": "Valorant: SEC vs Young Gaming (BO3) - China National Tournament Split ",
+    "closed": false
    }
   ],
   "search:NBA": [
@@ -731,10 +731,6 @@
     "closed": false
    },
    {
-    "t": "Dota 2: PuckChamp vs InterActive Philippines (BO3) - European Pro Leag",
-    "closed": true
-   },
-   {
     "t": "Dota 2: PuckChamp vs Zero Tenacity (BO3) - European Pro League Playoff",
     "closed": false
    },
@@ -744,6 +740,10 @@
    },
    {
     "t": "Counter-Strike: MASONIC vs ex-Sashi Academy (BO3) - European Pro Leagu",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: PuckChamp vs InterActive Philippines (BO3) - European Pro Leag",
     "closed": true
    }
   ],
@@ -757,15 +757,15 @@
     "closed": false
    },
    {
+    "t": "Counter-Strike: 99firepower 1utility vs Hermine Esports Club (BO3) - E",
+    "closed": false
+   },
+   {
     "t": "Counter-Strike: B8 Academy vs PARTIZAN (BO3) - ESEA Advanced Europe Pl",
     "closed": false
    },
    {
     "t": "Counter-Strike: TTG Esports vs aimers (BO3) - ESEA Advanced Europe Pla",
-    "closed": false
-   },
-   {
-    "t": "Counter-Strike: eternal premium vs  Phantom Academy (BO3) - ESEA Advan",
     "closed": false
    }
   ],
@@ -775,12 +775,12 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: SINQU vs RoundsGG (BO3) - Elisa Open Suomi Group Stage",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: BoyBand vs BOJONG (BO3) - Elisa Open Suomi Group Stage",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: SINQU vs RoundsGG (BO3) - Elisa Open Suomi Group Stage",
+    "closed": true
    },
    {
     "t": "Counter-Strike: HAVU vs KUUSAMO.gg (BO3) - Elisa Open Suomi Group Stag",
@@ -1025,12 +1025,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: TRAMITE vs EL LEGADO (BO3) - VCT Americas Kickoff: LATAM Sou",
-    "closed": true
-   },
-   {
     "t": "Valorant: Contra vs 505 (BO3) - VCT Americas Kickoff: LATAM North - Qu",
     "closed": false
+   },
+   {
+    "t": "Valorant: TRAMITE vs EL LEGADO (BO3) - VCT Americas Kickoff: LATAM Sou",
+    "closed": true
    }
   ],
   "search:VCT Pacific": [
@@ -1102,7 +1102,6 @@
  },
  "winning_sources": [
   "search:BLAST",
-  "search:China National Tournament",
   "search:Dota 2",
   "search:ESEA",
   "search:Elisa Open Suomi",
@@ -1111,6 +1110,7 @@
   "search:League of Legends",
   "search:United21",
   "search:VCT Americas",
+  "search:Valorant",
   "search:Worlds 2026",
   "slug:pgl-major-singapore-2026-winner-1793811600000"
  ],
@@ -1401,10 +1401,10 @@
    ]
   }
  ],
- "events": 25,
- "markets": 122,
- "markets_dropped_by_volume_floor": 62,
- "day_file": "data/2026/11/2026-11-24T17.jsonl",
+ "events": 24,
+ "markets": 118,
+ "markets_dropped_by_volume_floor": 61,
+ "day_file": "data/2026/11/2026-11-24T18.jsonl",
  "retention_removed_files": 255,
  "status": "ok"
 }
