@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-24T16:38:46Z",
+ "ts": "2026-11-24T16:49:12Z",
  "sources": [],
  "errors": [
   "trades batch1: HTTP 429: HTTP Error 429: Too Many Requests",
@@ -8,20 +8,14 @@
  ],
  "stage": "flow",
  "markets": 120,
- "trades_markets_queried": 72,
- "trades_watchlist_markets": 35,
+ "trades_markets_queried": 68,
+ "trades_watchlist_markets": 31,
  "trades_collected": 1000,
- "anomalies_detected": 32,
- "anomalies_new": 30,
- "history_debug": [
-  {
-   "cid": "0x4269844a",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
- ],
- "history_conditions_new": 1,
+ "anomalies_detected": 36,
+ "anomalies_new": 8,
+ "history_debug": [],
+ "history_conditions_new": 0,
  "books_markets": 50,
- "books_rows": 58,
+ "books_rows": 56,
  "status": "ok"
 }
