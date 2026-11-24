@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-24T18:00:26Z",
+ "ts": "2026-11-24T18:18:59Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -387,11 +387,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Aurora vs LGD Gaming (BO3) - BLAST Slam Group D",
-    "closed": true
+    "t": "Dota 2: Xtreme Gaming vs Team Liquid (BO3) - BLAST Slam Last Chance Qu",
+    "closed": false
    },
    {
-    "t": "Dota 2: Xtreme Gaming vs Team Liquid (BO3) - BLAST Slam Last Chance Qu",
+    "t": "Dota 2: OG vs Aurora (BO3) - BLAST Slam Last Chance Qualifier",
     "closed": false
    }
   ],
@@ -457,7 +457,7 @@
     "closed": true
    },
    {
-    "t": "Valorant: SEC vs Young Gaming (BO3) - China National Tournament Split ",
+    "t": "Valorant: Fire Flux Esports vs Trigon Titans (BO3) - VCT EMEA Kickoff:",
     "closed": false
    }
   ],
@@ -728,7 +728,7 @@
   "search:European Pro League": [
    {
     "t": "Dota 2: angry birds vs Team Synapse (BO3) - European Pro League Playof",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: PuckChamp vs Zero Tenacity (BO3) - European Pro League Playoff",
@@ -1007,8 +1007,8 @@
     "closed": false
    },
    {
-    "t": "Valorant: Victory No Limits vs Young Gaming (BO3) - China National Tou",
-    "closed": true
+    "t": "Valorant: Victory No Limits vs FunPlus Phoenix (BO3) - China National ",
+    "closed": false
    }
   ],
   "search:VCT Americas": [
@@ -1102,6 +1102,7 @@
  },
  "winning_sources": [
   "search:BLAST",
+  "search:China National Tournament",
   "search:Dota 2",
   "search:ESEA",
   "search:Elisa Open Suomi",
@@ -1401,9 +1402,9 @@
    ]
   }
  ],
- "events": 24,
- "markets": 118,
- "markets_dropped_by_volume_floor": 61,
+ "events": 26,
+ "markets": 125,
+ "markets_dropped_by_volume_floor": 88,
  "day_file": "data/2026/11/2026-11-24T18.jsonl",
  "retention_removed_files": 255,
  "status": "ok"
