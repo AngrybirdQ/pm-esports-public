@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-25T06:49:48Z",
+ "ts": "2026-11-25T07:04:53Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -559,15 +559,15 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: FaZe vs Wildcard (BO1) - PGL Major Singapore Stage 1",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: FaZe vs GOSH (BO1) - PGL Major Singapore Stage 1",
     "closed": true
    },
    {
     "t": "Counter-Strike: PVISION vs FlyQuest (BO1) - PGL Major Singapore Stage ",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: FaZe vs Wildcard (BO1) - PGL Major Singapore Stage 1",
     "closed": true
    }
   ],
@@ -1035,6 +1035,10 @@
   ],
   "search:VCT Pacific": [
    {
+    "t": "Valorant: Trigger Point Esports vs Zexar Esports (BO3) - VCT Pacific K",
+    "closed": false
+   },
+   {
     "t": "Valorant: VARREL vs Gen.G Esports (BO3) - VCT Pacific Kickoff Playoffs",
     "closed": true
    },
@@ -1048,10 +1052,6 @@
    },
    {
     "t": "Valorant: DRX vs Global Esports (BO3) - VCT Pacific Group Alpha",
-    "closed": true
-   },
-   {
-    "t": "Valorant: Global Esports vs Gen.G Esports (BO3) - VCT Pacific Group Al",
     "closed": true
    }
   ],
@@ -1108,6 +1108,7 @@
   "search:League of Legends",
   "search:United21",
   "search:VCT Americas",
+  "search:VCT Pacific",
   "search:Worlds 2026",
   "slug:pgl-major-singapore-2026-winner-1793811600000"
  ],
@@ -1398,10 +1399,10 @@
    ]
   }
  ],
- "events": 17,
+ "events": 18,
  "markets": 91,
- "markets_dropped_by_volume_floor": 130,
- "day_file": "data/2026/11/2026-11-25T06.jsonl",
+ "markets_dropped_by_volume_floor": 134,
+ "day_file": "data/2026/11/2026-11-25T07.jsonl",
  "retention_removed_files": 370,
  "status": "ok"
 }
