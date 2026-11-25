@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-25T00:44:49Z",
+ "ts": "2026-11-25T01:05:21Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -661,6 +661,10 @@
   ],
   "search:LPL": [
    {
+    "t": "Will the LPL have an official English broadcast in 2027?",
+    "closed": false
+   },
+   {
     "t": "LoL: Invictus Gaming vs JD Gaming (BO5) - LPL Regional Finals Playoffs",
     "closed": true
    },
@@ -674,10 +678,6 @@
    },
    {
     "t": "LoL: Bilibili Gaming vs Anyone's Legend (BO5) - LPL Playoffs",
-    "closed": true
-   },
-   {
-    "t": "LoL: Top Esports vs LGD Gaming (BO5) - LPL Playoffs",
     "closed": true
    }
   ],
@@ -754,7 +754,7 @@
    },
    {
     "t": "Counter-Strike: XI Esport vs OldBoys (BO3) - ESEA Advanced Europe Play",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: 99firepower 1utility vs Hermine Esports Club (BO3) - E",
@@ -762,7 +762,7 @@
    },
    {
     "t": "Counter-Strike: BANGARANGA vs Banger Gang (BO3) - ESEA Advanced Europe",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: Diamant Esports vs eSuba (BO3) - ESEA Advanced Europe ",
@@ -831,7 +831,7 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: ENCELADE vs ex-Copenhagen Wolves (BO3) - CCT Europe Co",
+    "t": "Counter-Strike: TTG Esports vs ZOTIX (BO3) - CCT Europe Contenders #11",
     "closed": false
    }
   ],
@@ -951,11 +951,11 @@
     "closed": false
    },
    {
-    "t": "Will any player go Beyond Godlike at the BLAST Slam IX Playoffs?",
+    "t": "Most Kills at BLAST Slam IX Playoffs",
     "closed": false
    },
    {
-    "t": "Most Kills at BLAST Slam IX Playoffs",
+    "t": "Will any player go Beyond Godlike at the BLAST Slam IX Playoffs?",
     "closed": false
    },
    {
@@ -1107,6 +1107,7 @@
   "search:ESEA",
   "search:Elisa Open Suomi",
   "search:European Pro League",
+  "search:LPL",
   "search:League of Legends",
   "search:United21",
   "search:VCT Americas",
@@ -1401,10 +1402,10 @@
    ]
   }
  ],
- "events": 24,
- "markets": 121,
- "markets_dropped_by_volume_floor": 138,
- "day_file": "data/2026/11/2026-11-25T00.jsonl",
+ "events": 23,
+ "markets": 112,
+ "markets_dropped_by_volume_floor": 137,
+ "day_file": "data/2026/11/2026-11-25T01.jsonl",
  "retention_removed_files": 370,
  "status": "ok"
 }
