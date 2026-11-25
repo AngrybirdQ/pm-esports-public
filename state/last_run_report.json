@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-25T20:10:15Z",
+ "ts": "2026-11-25T20:34:51Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -375,10 +375,6 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: OG vs Aurora (BO3) - BLAST Slam Last Chance Qualifier",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Zero Tenacity vs Power Rangers (BO3) - European Pro League Pla",
     "closed": true
    },
@@ -387,12 +383,16 @@
     "closed": false
    },
    {
+    "t": "Dota 2: OG vs Aurora (BO3) - BLAST Slam Last Chance Qualifier",
+    "closed": true
+   },
+   {
     "t": "Dota 2: Power Rangers vs Inner Circle (BO3) - European Pro League Play",
     "closed": true
    },
    {
-    "t": "Dota 2: Xtreme Gaming vs Team Liquid (BO3) - BLAST Slam Last Chance Qu",
-    "closed": true
+    "t": "Dota 2: V vs Amaru Gaming (BO3) - Esports Pro Circuit  Group A",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -507,15 +507,11 @@
   ],
   "search:BLAST": [
    {
-    "t": "BLAST Slam IX: Winner",
-    "closed": false
-   },
-   {
     "t": "Most Kills at BLAST Slam IX Playoffs",
     "closed": false
    },
    {
-    "t": "Will any player go Beyond Godlike at the BLAST Slam IX Playoffs?",
+    "t": "BLAST Slam IX: Winner",
     "closed": false
    },
    {
@@ -524,6 +520,10 @@
    },
    {
     "t": "Will a team win a game after trailing by 10,000+ gold at the BLAST Sla",
+    "closed": false
+   },
+   {
+    "t": "Will any player go Beyond Godlike at the BLAST Slam IX Playoffs?",
     "closed": false
    }
   ],
@@ -743,7 +743,7 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PuckChamp vs Zero Tenacity (BO3) - European Pro League Playoff",
+    "t": "Counter-Strike: maybe vs GLITCH (BO3) - European Pro League Series 11 ",
     "closed": true
    }
   ],
@@ -753,19 +753,19 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: XI Esport vs OldBoys (BO3) - ESEA Advanced Europe Play",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Diamant Esports vs eSuba (BO3) - ESEA Advanced Europe ",
     "closed": false
    },
    {
-    "t": "Counter-Strike: BANGARANGA vs Banger Gang (BO3) - ESEA Advanced Europe",
+    "t": "Counter-Strike: eternal premium vs BANGARANGA (BO3) - ESEA Advanced Eu",
+    "closed": false
+   },
+   {
+    "t": "Counter-Strike: XI Esport vs OldBoys (BO3) - ESEA Advanced Europe Play",
     "closed": true
    },
    {
-    "t": "Counter-Strike: Inner Circle Prospect vs JUMBO TEAM (BO3) - ESEA Advan",
+    "t": "Counter-Strike: BANGARANGA vs Banger Gang (BO3) - ESEA Advanced Europe",
     "closed": true
    }
   ],
@@ -809,8 +809,8 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: INFINITE Talent vs TheChampionGG (BO3) - United21 Grou",
-    "closed": true
+    "t": "Counter-Strike: spray'n'pray vs Teletubisie (BO3) - United21 Group A",
+    "closed": false
    }
   ],
   "search:CCT Europe": [
@@ -947,15 +947,11 @@
   ],
   "search:BLAST Slam": [
    {
-    "t": "BLAST Slam IX: Winner",
-    "closed": false
-   },
-   {
     "t": "Most Kills at BLAST Slam IX Playoffs",
     "closed": false
    },
    {
-    "t": "Will any player go Beyond Godlike at the BLAST Slam IX Playoffs?",
+    "t": "BLAST Slam IX: Winner",
     "closed": false
    },
    {
@@ -964,6 +960,10 @@
    },
    {
     "t": "Will a team win a game after trailing by 10,000+ gold at the BLAST Sla",
+    "closed": false
+   },
+   {
+    "t": "Will any player go Beyond Godlike at the BLAST Slam IX Playoffs?",
     "closed": false
    }
   ],
@@ -1017,15 +1017,15 @@
     "closed": false
    },
    {
-    "t": "Valorant: Chivas Esports vs STREAMER ARENA (BO3) - VCT Americas Kickof",
-    "closed": true
-   },
-   {
     "t": "Valorant: Contra vs 505 (BO3) - VCT Americas Kickoff: LATAM North - Qu",
     "closed": true
    },
    {
     "t": "Valorant: Contra vs STREAMER ARENA (BO3) - VCT Americas Kickoff: LATAM",
+    "closed": true
+   },
+   {
+    "t": "Valorant: Chivas Esports vs STREAMER ARENA (BO3) - VCT Americas Kickof",
     "closed": true
    },
    {
@@ -1401,9 +1401,9 @@
    ]
   }
  ],
- "events": 20,
- "markets": 92,
- "markets_dropped_by_volume_floor": 141,
+ "events": 23,
+ "markets": 97,
+ "markets_dropped_by_volume_floor": 147,
  "day_file": "data/2026/11/2026-11-25T20.jsonl",
  "retention_removed_files": 370,
  "status": "ok"
