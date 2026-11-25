@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-25T16:09:56Z",
+ "ts": "2026-11-25T16:29:56Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -457,7 +457,7 @@
     "closed": true
    },
    {
-    "t": "Valorant: Joblife vs WIP Esports (BO3) - VCT EMEA Kickoff: Europe - Qu",
+    "t": "Valorant: UCAM Esports Club vs CGN Esports (BO3) - VCT EMEA Kickoff: E",
     "closed": false
    }
   ],
@@ -744,7 +744,7 @@
    },
    {
     "t": "Counter-Strike: maybe vs GLITCH (BO3) - European Pro League Series 11 ",
-    "closed": false
+    "closed": true
    }
   ],
   "search:ESEA": [
@@ -809,14 +809,14 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: spray'n'pray vs Teletubisie (BO3) - United21 Group A",
+    "t": "Counter-Strike: WRAITH PCIFIC vs Bad Beavers (BO3) - United21 Group D",
     "closed": false
    }
   ],
   "search:CCT Europe": [
    {
     "t": "Counter-Strike: Butterfly vs Lunacy Team (BO3) - CCT Europe Series #15",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: Spirit Academy vs Quintessence (BO3) - CCT Europe Clos",
@@ -831,7 +831,7 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Drama eSports vs  Phantom Academy (BO3) - CCT Europe C",
+    "t": "Counter-Strike: ENCELADE vs ex-Copenhagen Wolves (BO3) - CCT Europe Co",
     "closed": true
    }
   ],
@@ -1021,16 +1021,16 @@
     "closed": true
    },
    {
+    "t": "Valorant: 9z Team vs ARG.MIX (BO3) - VCT Americas Kickoff: LATAM South",
+    "closed": false
+   },
+   {
     "t": "Valorant: Contra vs STREAMER ARENA (BO3) - VCT Americas Kickoff: LATAM",
     "closed": true
    },
    {
     "t": "Valorant: Chivas Esports vs 505 (BO3) - VCT Americas Kickoff: LATAM No",
     "closed": true
-   },
-   {
-    "t": "Valorant: 2GAME Esports vs Mafiosos (BO3) - VCT Americas Kickoff: Braz",
-    "closed": false
    }
   ],
   "search:VCT Pacific": [
@@ -1102,7 +1102,6 @@
  },
  "winning_sources": [
   "search:BLAST",
-  "search:CCT Europe",
   "search:China National Tournament",
   "search:Dota 2",
   "search:ESEA",
@@ -1404,9 +1403,9 @@
    ]
   }
  ],
- "events": 25,
+ "events": 23,
  "markets": 100,
- "markets_dropped_by_volume_floor": 170,
+ "markets_dropped_by_volume_floor": 165,
  "day_file": "data/2026/11/2026-11-25T16.jsonl",
  "retention_removed_files": 370,
  "status": "ok"
