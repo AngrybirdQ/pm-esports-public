@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-25T20:34:51Z",
+ "ts": "2026-11-25T20:44:54Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -375,16 +375,16 @@
  "search_samples": {
   "search:Dota 2": [
    {
+    "t": "Dota 2: OG vs Aurora (BO3) - BLAST Slam Last Chance Qualifier",
+    "closed": true
+   },
+   {
     "t": "Dota 2: Zero Tenacity vs Power Rangers (BO3) - European Pro League Pla",
     "closed": true
    },
    {
     "t": "Dota 2: Spirit Academy vs angry birds (BO3) - European Pro League Play",
     "closed": false
-   },
-   {
-    "t": "Dota 2: OG vs Aurora (BO3) - BLAST Slam Last Chance Qualifier",
-    "closed": true
    },
    {
     "t": "Dota 2: Power Rangers vs Inner Circle (BO3) - European Pro League Play",
@@ -743,8 +743,8 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: maybe vs GLITCH (BO3) - European Pro League Series 11 ",
-    "closed": true
+    "t": "Dota 2: PuckChamp vs Inner Circle (BO3) - European Pro League Playoffs",
+    "closed": false
    }
   ],
   "search:ESEA": [
@@ -831,8 +831,8 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: gothboiclique vs AXE (BO3) - CCT Europe Contenders #11",
-    "closed": true
+    "t": "Counter-Strike: Drama eSports vs Sökerorg (BO3) - CCT Europe Closed Qu",
+    "closed": false
    }
   ],
   "search:CCT South America": [
@@ -1102,9 +1102,11 @@
  },
  "winning_sources": [
   "search:BLAST",
+  "search:CCT Europe",
   "search:China National Tournament",
   "search:Dota 2",
   "search:ESEA",
+  "search:European Pro League",
   "search:Exort Fiesta",
   "search:LPL",
   "search:League of Legends",
@@ -1401,9 +1403,9 @@
    ]
   }
  ],
- "events": 23,
- "markets": 97,
- "markets_dropped_by_volume_floor": 147,
+ "events": 25,
+ "markets": 106,
+ "markets_dropped_by_volume_floor": 149,
  "day_file": "data/2026/11/2026-11-25T20.jsonl",
  "retention_removed_files": 370,
  "status": "ok"
