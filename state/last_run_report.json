@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-25T21:25:14Z",
+ "ts": "2026-11-25T21:44:55Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -331,6 +331,12 @@
    "err": null
   },
   {
+   "url": "slug:blast-slam-ix-winner",
+   "ok": true,
+   "events_returned": 1,
+   "err": null
+  },
+  {
    "url": "slug:which-teams-will-qualify-for-lcp-2027",
    "ok": true,
    "events_returned": 1,
@@ -359,15 +365,11 @@
    "ok": true,
    "events_returned": 1,
    "err": null
-  },
-  {
-   "url": "slug:worlds-2026-peak-viewership",
-   "ok": true,
-   "events_returned": 1,
-   "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "budget exhausted before essential slugs"
+ ],
  "stage": "snap",
  "tags_discovered": [
   "international-affairs"
@@ -380,7 +382,7 @@
    },
    {
     "t": "Dota 2: Spirit Academy vs angry birds (BO3) - European Pro League Play",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Power Rangers vs Inner Circle (BO3) - European Pro League Play",
@@ -523,7 +525,7 @@
     "closed": false
    },
    {
-    "t": "BLAST Slam IX: Winner",
+    "t": "Will any player go Beyond Godlike at the BLAST Slam IX Playoffs?",
     "closed": false
    }
   ],
@@ -732,6 +734,10 @@
    },
    {
     "t": "Dota 2: Spirit Academy vs angry birds (BO3) - European Pro League Play",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: PuckChamp vs Inner Circle (BO3) - European Pro League Playoffs",
     "closed": false
    },
    {
@@ -741,16 +747,12 @@
    {
     "t": "Counter-Strike: Ryvex vs LVLT (BO3) - European Pro League Series 11 Cl",
     "closed": true
-   },
-   {
-    "t": "Dota 2: PuckChamp vs Inner Circle (BO3) - European Pro League Playoffs",
-    "closed": false
    }
   ],
   "search:ESEA": [
    {
     "t": "Counter-Strike: Falcons Force vs Y23 (BO3) - ESEA Advanced Europe Play",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: eternal premium vs BANGARANGA (BO3) - ESEA Advanced Eu",
@@ -761,11 +763,11 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: XI Esport vs OldBoys (BO3) - ESEA Advanced Europe Play",
+    "t": "Counter-Strike: NoTime vs Al Ahli (BO3) - ESEA Advanced Europe Playoff",
     "closed": true
    },
    {
-    "t": "Counter-Strike: NoTime vs Al Ahli (BO3) - ESEA Advanced Europe Playoff",
+    "t": "Counter-Strike: XI Esport vs OldBoys (BO3) - ESEA Advanced Europe Play",
     "closed": true
    }
   ],
@@ -801,11 +803,11 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: NAVI Junior vs STATE (BO3) - United21 Group D",
+    "t": "Counter-Strike: WRAITH PCIFIC vs Bad Beavers (BO3) - United21 Group D",
     "closed": false
    },
    {
-    "t": "Counter-Strike: WRAITH PCIFIC vs Bad Beavers (BO3) - United21 Group D",
+    "t": "Counter-Strike: NAVI Junior vs STATE (BO3) - United21 Group D",
     "closed": false
    },
    {
@@ -963,7 +965,7 @@
     "closed": false
    },
    {
-    "t": "BLAST Slam IX: Winner",
+    "t": "Will any player go Beyond Godlike at the BLAST Slam IX Playoffs?",
     "closed": false
    }
   ],
@@ -1113,6 +1115,7 @@
   "search:VCT Americas",
   "search:Valorant",
   "search:Worlds 2026",
+  "slug:blast-slam-ix-winner",
   "slug:pgl-major-singapore-2026-winner-1793811600000"
  ],
  "n_event_queries": 51,
@@ -1217,6 +1220,40 @@
     false,
     false,
     false
+   ]
+  },
+  {
+   "slug": "blast-slam-ix-winner",
+   "closed": false,
+   "active": true,
+   "n_markets": 22,
+   "mkts_closed": [
+    false,
+    true,
+    false,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    false
+   ],
+   "mkts_active": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
    ]
   },
   {
@@ -1378,33 +1415,11 @@
     true,
     true
    ]
-  },
-  {
-   "slug": "worlds-2026-peak-viewership",
-   "closed": true,
-   "active": true,
-   "n_markets": 6,
-   "mkts_closed": [
-    true,
-    true,
-    true,
-    true,
-    true,
-    true
-   ],
-   "mkts_active": [
-    true,
-    true,
-    true,
-    true,
-    true,
-    true
-   ]
   }
  ],
- "events": 27,
- "markets": 99,
- "markets_dropped_by_volume_floor": 169,
+ "events": 26,
+ "markets": 96,
+ "markets_dropped_by_volume_floor": 165,
  "day_file": "data/2026/11/2026-11-25T21.jsonl",
  "retention_removed_files": 370,
  "status": "ok"
