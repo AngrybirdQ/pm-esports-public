@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-25T19:39:53Z",
+ "ts": "2026-11-25T19:49:51Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -442,7 +442,7 @@
   "search:Valorant": [
    {
     "t": "Valorant: NAVI Junior vs Aurora Gaming (BO3) - VCT EMEA Kickoff: Europ",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: A Team vs Young Gaming (BO3) - China National Tournament Spl",
@@ -757,15 +757,15 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Diamant Esports vs eSuba (BO3) - ESEA Advanced Europe ",
-    "closed": false
-   },
-   {
     "t": "Counter-Strike: BANGARANGA vs Banger Gang (BO3) - ESEA Advanced Europe",
     "closed": true
    },
    {
-    "t": "Counter-Strike: Inner Circle Prospect vs JUMBO TEAM (BO3) - ESEA Advan",
+    "t": "Counter-Strike: Diamant Esports vs eSuba (BO3) - ESEA Advanced Europe ",
+    "closed": false
+   },
+   {
+    "t": "Counter-Strike: ZOTIX vs Fraternity (BO3) - ESEA Advanced Europe Playo",
     "closed": true
    }
   ],
@@ -801,16 +801,16 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: INFINITE Talent vs TheChampionGG (BO3) - United21 Grou",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: NAVI Junior vs STATE (BO3) - United21 Group D",
     "closed": false
    },
    {
     "t": "Counter-Strike: WRAITH PCIFIC vs Bad Beavers (BO3) - United21 Group D",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: INFINITE Talent vs TheChampionGG (BO3) - United21 Grou",
+    "closed": true
    }
   ],
   "search:CCT Europe": [
@@ -1402,9 +1402,9 @@
    ]
   }
  ],
- "events": 22,
- "markets": 101,
- "markets_dropped_by_volume_floor": 145,
+ "events": 21,
+ "markets": 97,
+ "markets_dropped_by_volume_floor": 141,
  "day_file": "data/2026/11/2026-11-25T19.jsonl",
  "retention_removed_files": 370,
  "status": "ok"
