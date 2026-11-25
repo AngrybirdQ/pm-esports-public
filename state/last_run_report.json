@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-25T17:19:06Z",
+ "ts": "2026-11-25T17:29:55Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -577,10 +577,6 @@
     "closed": false
    },
    {
-    "t": "Bin Worlds 2026 Skin Champion",
-    "closed": false
-   },
-   {
     "t": "Worlds 2026: Winner",
     "closed": true
    },
@@ -590,6 +586,10 @@
    },
    {
     "t": "Worlds 2026: Finals MVP",
+    "closed": true
+   },
+   {
+    "t": "Worlds 2026: Team to Make Grand Finals",
     "closed": true
    }
   ],
@@ -757,16 +757,16 @@
     "closed": true
    },
    {
+    "t": "Counter-Strike: Falcons Force vs Y23 (BO3) - ESEA Advanced Europe Play",
+    "closed": false
+   },
+   {
     "t": "Counter-Strike: 99firepower 1utility vs Hermine Esports Club (BO3) - E",
     "closed": true
    },
    {
     "t": "Counter-Strike: BANGARANGA vs Banger Gang (BO3) - ESEA Advanced Europe",
     "closed": true
-   },
-   {
-    "t": "Counter-Strike: Diamant Esports vs eSuba (BO3) - ESEA Advanced Europe ",
-    "closed": false
    }
   ],
   "search:Elisa Open Suomi": [
@@ -823,15 +823,15 @@
     "closed": true
    },
    {
+    "t": "Counter-Strike: Nordic Partners Gaming  vs Donstu Esports (BO3) - CCT ",
+    "closed": false
+   },
+   {
     "t": "Counter-Strike: gothboiclique vs AXE (BO3) - CCT Europe Contenders #11",
     "closed": true
    },
    {
     "t": "Counter-Strike: TTG Esports vs ZOTIX (BO3) - CCT Europe Contenders #11",
-    "closed": true
-   },
-   {
-    "t": "Counter-Strike: ENCELADE vs ex-Copenhagen Wolves (BO3) - CCT Europe Co",
     "closed": true
    }
   ],
@@ -1102,6 +1102,7 @@
  },
  "winning_sources": [
   "search:BLAST",
+  "search:CCT Europe",
   "search:China National Tournament",
   "search:ESEA",
   "search:European Pro League",
@@ -1402,8 +1403,8 @@
   }
  ],
  "events": 23,
- "markets": 100,
- "markets_dropped_by_volume_floor": 172,
+ "markets": 107,
+ "markets_dropped_by_volume_floor": 167,
  "day_file": "data/2026/11/2026-11-25T17.jsonl",
  "retention_removed_files": 370,
  "status": "ok"
