@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-25T16:59:49Z",
+ "ts": "2026-11-25T17:19:06Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -383,12 +383,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Yandex vs 1win (BO3) - BLAST Slam Seeding Matches",
+    "t": "Dota 2: Zero Tenacity vs Power Rangers (BO3) - European Pro League Pla",
     "closed": true
    },
    {
-    "t": "Dota 2: Zero Tenacity vs Power Rangers (BO3) - European Pro League Pla",
-    "closed": false
+    "t": "Dota 2: Team Yandex vs 1win (BO3) - BLAST Slam Seeding Matches",
+    "closed": true
    },
    {
     "t": "Dota 2: Power Rangers vs Inner Circle (BO3) - European Pro League Play",
@@ -453,12 +453,12 @@
     "closed": false
    },
    {
-    "t": "Valorant: Contra vs 505 (BO3) - VCT Americas Kickoff: LATAM North - Qu",
-    "closed": true
-   },
-   {
     "t": "Valorant: UCAM Esports Club vs CGN Esports (BO3) - VCT EMEA Kickoff: E",
     "closed": false
+   },
+   {
+    "t": "Valorant: Contra vs 505 (BO3) - VCT Americas Kickoff: LATAM North - Qu",
+    "closed": true
    }
   ],
   "search:NBA": [
@@ -577,6 +577,10 @@
     "closed": false
    },
    {
+    "t": "Bin Worlds 2026 Skin Champion",
+    "closed": false
+   },
+   {
     "t": "Worlds 2026: Winner",
     "closed": true
    },
@@ -586,10 +590,6 @@
    },
    {
     "t": "Worlds 2026: Finals MVP",
-    "closed": true
-   },
-   {
-    "t": "Worlds 2026: Team to Make Grand Finals",
     "closed": true
    }
   ],
@@ -728,7 +728,7 @@
   "search:European Pro League": [
    {
     "t": "Dota 2: Zero Tenacity vs Power Rangers (BO3) - European Pro League Pla",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Power Rangers vs Inner Circle (BO3) - European Pro League Play",
@@ -797,11 +797,11 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: INFINITE Talent vs TheChampionGG (BO3) - United21 Grou",
+    "t": "Counter-Strike: Fire Flux Esports vs Fortress (BO3) - United21 Group C",
     "closed": true
    },
    {
-    "t": "Counter-Strike: Fire Flux Esports vs Fortress (BO3) - United21 Group C",
+    "t": "Counter-Strike: INFINITE Talent vs TheChampionGG (BO3) - United21 Grou",
     "closed": true
    },
    {
@@ -1103,7 +1103,6 @@
  "winning_sources": [
   "search:BLAST",
   "search:China National Tournament",
-  "search:Dota 2",
   "search:ESEA",
   "search:European Pro League",
   "search:Exort Fiesta",
@@ -1403,9 +1402,9 @@
   }
  ],
  "events": 23,
- "markets": 103,
- "markets_dropped_by_volume_floor": 166,
- "day_file": "data/2026/11/2026-11-25T16.jsonl",
+ "markets": 100,
+ "markets_dropped_by_volume_floor": 172,
+ "day_file": "data/2026/11/2026-11-25T17.jsonl",
  "retention_removed_files": 370,
  "status": "ok"
 }
