@@ -1,39 +1,17 @@
 {
- "ts": "2026-11-25T13:08:16Z",
+ "ts": "2026-11-25T13:19:05Z",
  "sources": [],
- "errors": [
-  "API-DEPRECATED 8 urls: 404 https://clob.polymarket.com/book?token_id=11091527877736572422709468867454854313519784146649288617032732943242"
- ],
+ "errors": [],
  "stage": "flow",
- "markets": 112,
+ "markets": 108,
  "trades_markets_queried": 66,
- "trades_watchlist_markets": 55,
- "trades_collected": 2727,
- "anomalies_detected": 13,
- "anomalies_new": 13,
+ "trades_watchlist_markets": 56,
+ "trades_collected": 2636,
+ "anomalies_detected": 26,
+ "anomalies_new": 14,
  "history_debug": [],
  "history_conditions_new": 0,
- "books_errors": [
-  "1109152787: HTTP 404 (api deprecated)",
-  "7876905452: HTTP 404 (api deprecated)",
-  "1904049604: HTTP 404 (api deprecated)",
-  "9284520038: HTTP 404 (api deprecated)",
-  "8472089627: HTTP 404 (api deprecated)",
-  "5128732203: HTTP 404 (api deprecated)",
-  "4206850002: HTTP 404 (api deprecated)",
-  "6356777241: HTTP 404 (api deprecated)"
- ],
- "books_markets": 55,
+ "books_markets": 51,
  "books_rows": 54,
- "status": "ok",
- "api_deprecated": [
-  "404 https://clob.polymarket.com/book?token_id=11091527877736572422709468867454854313519784146649288617032732943242",
-  "404 https://clob.polymarket.com/book?token_id=78769054524294399894486640139187985259485462471568436865637014842247",
-  "404 https://clob.polymarket.com/book?token_id=19040496049103665545425997670907115562791298175041130615827030177031",
-  "404 https://clob.polymarket.com/book?token_id=92845200383694777708485170978867986795381906793159925175387698049265",
-  "404 https://clob.polymarket.com/book?token_id=84720896271607818937954618307871917277090097041688409362515706338785",
-  "404 https://clob.polymarket.com/book?token_id=51287322031978538617966203748214250241205082782507827163458118048240",
-  "404 https://clob.polymarket.com/book?token_id=42068500025473108029307932003343297377171370889271550045257259790291",
-  "404 https://clob.polymarket.com/book?token_id=63567772410032007639513437941376295684844207884988143413796087323003"
- ]
+ "status": "ok"
 }

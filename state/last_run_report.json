@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-25T13:03:57Z",
+ "ts": "2026-11-25T13:14:56Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -816,7 +816,7 @@
   "search:CCT Europe": [
    {
     "t": "Counter-Strike: Spirit Academy vs Quintessence (BO3) - CCT Europe Clos",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: Sökerorg vs Lunacy Team (BO3) - CCT Europe Closed Qual",
@@ -1102,7 +1102,6 @@
  },
  "winning_sources": [
   "search:BLAST",
-  "search:CCT Europe",
   "search:China National Tournament",
   "search:ESEA",
   "search:European Pro League",
@@ -1404,8 +1403,8 @@
    ]
   }
  ],
- "events": 25,
- "markets": 112,
+ "events": 24,
+ "markets": 108,
  "markets_dropped_by_volume_floor": 167,
  "day_file": "data/2026/11/2026-11-25T13.jsonl",
  "retention_removed_files": 370,
