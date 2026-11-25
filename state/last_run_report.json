@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-25T15:05:01Z",
+ "ts": "2026-11-25T15:24:56Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -442,7 +442,7 @@
   "search:Valorant": [
    {
     "t": "Valorant: A Team vs Young Gaming (BO3) - China National Tournament Spl",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: NAVI Junior vs Aurora Gaming (BO3) - VCT EMEA Kickoff: Europ",
@@ -739,8 +739,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: angry birds vs Team Synapse (BO3) - European Pro League Playof",
-    "closed": true
+    "t": "Counter-Strike: Ryvex vs LVLT (BO3) - European Pro League Series 11 Cl",
+    "closed": false
    },
    {
     "t": "Counter-Strike: maybe vs GLITCH (BO3) - European Pro League Series 11 ",
@@ -793,12 +793,12 @@
   ],
   "search:United21": [
    {
-    "t": "Counter-Strike: INFINITE Talent vs TheChampionGG (BO3) - United21 Grou",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Prodigies vs Esport Academy Copenhagen (BO3) - United2",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: INFINITE Talent vs TheChampionGG (BO3) - United21 Grou",
+    "closed": true
    },
    {
     "t": "Counter-Strike: Fire Flux Esports vs Fortress (BO3) - United21 Group C",
@@ -992,7 +992,7 @@
   "search:China National Tournament": [
    {
     "t": "Valorant: A Team vs Young Gaming (BO3) - China National Tournament Spl",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Victory No Limits vs FunPlus Phoenix (BO3) - China National ",
@@ -1405,8 +1405,8 @@
   }
  ],
  "events": 25,
- "markets": 102,
- "markets_dropped_by_volume_floor": 161,
+ "markets": 99,
+ "markets_dropped_by_volume_floor": 153,
  "day_file": "data/2026/11/2026-11-25T15.jsonl",
  "retention_removed_files": 370,
  "status": "ok"
