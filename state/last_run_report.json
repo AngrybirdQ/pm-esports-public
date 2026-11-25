@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-25T09:44:55Z",
+ "ts": "2026-11-25T10:03:46Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -453,12 +453,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: Eternal Fire vs Misa Esports (BO3) - VCT EMEA Kickoff: Türki",
-    "closed": true
-   },
-   {
     "t": "Valorant: A Team vs Young Gaming (BO3) - China National Tournament Spl",
     "closed": false
+   },
+   {
+    "t": "Valorant: Eternal Fire vs Misa Esports (BO3) - VCT EMEA Kickoff: Türki",
+    "closed": true
    }
   ],
   "search:NBA": [
@@ -555,19 +555,19 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: Wildcard vs Lynn Vision (BO1) - PGL Major Singapore St",
+    "t": "Counter-Strike: 9z vs DENDELE CS (BO3) - PGL Major Singapore Stage 1",
     "closed": true
    },
    {
-    "t": "Counter-Strike: 9z vs DENDELE CS (BO3) - PGL Major Singapore Stage 1",
-    "closed": false
+    "t": "Counter-Strike: Wildcard vs Lynn Vision (BO1) - PGL Major Singapore St",
+    "closed": true
    },
    {
     "t": "Counter-Strike: Eternal Fire vs DENDELE CS (BO1) - PGL Major Singapore",
     "closed": true
    },
    {
-    "t": "Counter-Strike: 100 Thieves vs Imperial (BO1) - PGL Major Singapore St",
+    "t": "Counter-Strike: Heroic vs M80 (BO1) - PGL Major Singapore Stage 1",
     "closed": true
    }
   ],
@@ -801,11 +801,11 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Fire Flux Esports vs Fortress (BO3) - United21 Group C",
+    "t": "Counter-Strike: Prodigies vs Esport Academy Copenhagen (BO3) - United2",
     "closed": false
    },
    {
-    "t": "Counter-Strike: Prodigies vs Esport Academy Copenhagen (BO3) - United2",
+    "t": "Counter-Strike: Fire Flux Esports vs Fortress (BO3) - United21 Group C",
     "closed": false
    },
    {
@@ -819,11 +819,11 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Lilmix vs maybe (BO3) - CCT Europe Closed Qualifier: S",
+    "t": "Counter-Strike: gothboiclique vs AXE (BO3) - CCT Europe Contenders #11",
     "closed": true
    },
    {
-    "t": "Counter-Strike: gothboiclique vs AXE (BO3) - CCT Europe Contenders #11",
+    "t": "Counter-Strike: Lilmix vs maybe (BO3) - CCT Europe Closed Qualifier: S",
     "closed": true
    },
    {
@@ -863,6 +863,10 @@
     "closed": true
    },
    {
+    "t": "Counter-Strike: Misa Esports vs KAMUI (BO3) - Exort Fiesta Group Stage",
+    "closed": false
+   },
+   {
     "t": "Counter-Strike:  Phantom Academy vs KAMUI (BO3) - Exort Fiesta Group S",
     "closed": true
    },
@@ -872,10 +876,6 @@
    },
    {
     "t": "Counter-Strike: Lavked vs Vexar (BO3) - Exort Fiesta Group Stage",
-    "closed": true
-   },
-   {
-    "t": "Counter-Strike: STATE vs Teletubisie (BO3) - Exort Fiesta Playoffs",
     "closed": true
    }
   ],
@@ -1104,6 +1104,7 @@
   "search:BLAST",
   "search:China National Tournament",
   "search:ESEA",
+  "search:Exort Fiesta",
   "search:LPL",
   "search:League of Legends",
   "search:PGL",
@@ -1402,9 +1403,9 @@
   }
  ],
  "events": 21,
- "markets": 111,
- "markets_dropped_by_volume_floor": 147,
- "day_file": "data/2026/11/2026-11-25T09.jsonl",
+ "markets": 107,
+ "markets_dropped_by_volume_floor": 146,
+ "day_file": "data/2026/11/2026-11-25T10.jsonl",
  "retention_removed_files": 370,
  "status": "ok"
 }
