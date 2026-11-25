@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-25T10:44:42Z",
+ "ts": "2026-11-25T11:03:08Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -445,6 +445,10 @@
     "closed": true
    },
    {
+    "t": "Valorant: A Team vs Young Gaming (BO3) - China National Tournament Spl",
+    "closed": false
+   },
+   {
     "t": "Valorant: Contra vs 505 (BO3) - VCT Americas Kickoff: LATAM North - Qu",
     "closed": true
    },
@@ -455,10 +459,6 @@
    {
     "t": "Valorant: Fire Flux Esports vs Trigon Titans (BO3) - VCT EMEA Kickoff:",
     "closed": true
-   },
-   {
-    "t": "Valorant: A Team vs Young Gaming (BO3) - China National Tournament Spl",
-    "closed": false
    }
   ],
   "search:NBA": [
@@ -552,6 +552,10 @@
   "search:PGL": [
    {
     "t": "Counter-Strike: Imperial vs FlyQuest (BO3) - PGL Major Singapore Stage",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: NIP vs Liquid (BO3) - PGL Major Singapore Stage 1",
     "closed": false
    },
    {
@@ -560,10 +564,6 @@
    },
    {
     "t": "Counter-Strike: Wildcard vs Lynn Vision (BO1) - PGL Major Singapore St",
-    "closed": true
-   },
-   {
-    "t": "Counter-Strike: Eternal Fire vs DENDELE CS (BO1) - PGL Major Singapore",
     "closed": true
    },
    {
@@ -819,6 +819,10 @@
     "closed": true
    },
    {
+    "t": "Counter-Strike: Spirit Academy vs Quintessence (BO3) - CCT Europe Clos",
+    "closed": false
+   },
+   {
     "t": "Counter-Strike: gothboiclique vs AXE (BO3) - CCT Europe Contenders #11",
     "closed": true
    },
@@ -828,10 +832,6 @@
    },
    {
     "t": "Counter-Strike: Drama eSports vs  Phantom Academy (BO3) - CCT Europe C",
-    "closed": true
-   },
-   {
-    "t": "Counter-Strike: ENCELADE vs ex-Copenhagen Wolves (BO3) - CCT Europe Co",
     "closed": true
    }
   ],
@@ -1039,6 +1039,10 @@
     "closed": false
    },
    {
+    "t": "Valorant: GOC Esports vs RANKERS (BO3) - VCT Pacific Kickoff: South As",
+    "closed": false
+   },
+   {
     "t": "Valorant: VARREL vs Gen.G Esports (BO3) - VCT Pacific Kickoff Playoffs",
     "closed": true
    },
@@ -1048,10 +1052,6 @@
    },
    {
     "t": "Valorant: Global Esports vs DRX (BO3) - VCT Pacific Playoffs",
-    "closed": true
-   },
-   {
-    "t": "Valorant: DRX vs Global Esports (BO3) - VCT Pacific Group Alpha",
     "closed": true
    }
   ],
@@ -1102,6 +1102,7 @@
  },
  "winning_sources": [
   "search:BLAST",
+  "search:CCT Europe",
   "search:China National Tournament",
   "search:ESEA",
   "search:European Pro League",
@@ -1403,10 +1404,10 @@
    ]
   }
  ],
- "events": 23,
- "markets": 113,
- "markets_dropped_by_volume_floor": 162,
- "day_file": "data/2026/11/2026-11-25T10.jsonl",
+ "events": 25,
+ "markets": 118,
+ "markets_dropped_by_volume_floor": 166,
+ "day_file": "data/2026/11/2026-11-25T11.jsonl",
  "retention_removed_files": 370,
  "status": "ok"
 }
