@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-25T20:44:54Z",
+ "ts": "2026-11-25T21:04:52Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -375,10 +375,6 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: OG vs Aurora (BO3) - BLAST Slam Last Chance Qualifier",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Zero Tenacity vs Power Rangers (BO3) - European Pro League Pla",
     "closed": true
    },
@@ -389,6 +385,10 @@
    {
     "t": "Dota 2: Power Rangers vs Inner Circle (BO3) - European Pro League Play",
     "closed": true
+   },
+   {
+    "t": "Dota 2: PuckChamp vs Inner Circle (BO3) - European Pro League Playoffs",
+    "closed": false
    },
    {
     "t": "Dota 2: V vs Amaru Gaming (BO3) - Esports Pro Circuit  Group A",
@@ -449,12 +449,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: UCAM Esports Club vs CGN Esports (BO3) - VCT EMEA Kickoff: E",
-    "closed": true
-   },
-   {
     "t": "Valorant: Joblife vs WIP Esports (BO3) - VCT EMEA Kickoff: Europe - Qu",
     "closed": false
+   },
+   {
+    "t": "Valorant: UCAM Esports Club vs CGN Esports (BO3) - VCT EMEA Kickoff: E",
+    "closed": true
    },
    {
     "t": "Valorant: GIANTX vs Pixel Lumina (BO3) - VCT EMEA Kickoff: Europe - Qu",
@@ -1004,10 +1004,10 @@
    },
    {
     "t": "Valorant: Victory No Limits vs Young Gaming (BO3) - China National Tou",
-    "closed": true
+    "closed": false
    },
    {
-    "t": "Valorant: FunPlus Phoenix vs KeepBest Gaming (BO3) - China National To",
+    "t": "Valorant: Victory No Limits vs Young Gaming (BO3) - China National Tou",
     "closed": true
    }
   ],
@@ -1106,7 +1106,6 @@
   "search:China National Tournament",
   "search:Dota 2",
   "search:ESEA",
-  "search:European Pro League",
   "search:Exort Fiesta",
   "search:LPL",
   "search:League of Legends",
@@ -1403,10 +1402,10 @@
    ]
   }
  ],
- "events": 25,
- "markets": 106,
- "markets_dropped_by_volume_floor": 149,
- "day_file": "data/2026/11/2026-11-25T20.jsonl",
+ "events": 26,
+ "markets": 103,
+ "markets_dropped_by_volume_floor": 164,
+ "day_file": "data/2026/11/2026-11-25T21.jsonl",
  "retention_removed_files": 370,
  "status": "ok"
 }
