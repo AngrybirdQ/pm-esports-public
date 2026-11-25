@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-25T19:10:28Z",
+ "ts": "2026-11-25T19:29:56Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -744,7 +744,7 @@
    },
    {
     "t": "Counter-Strike: Ryvex vs LVLT (BO3) - European Pro League Series 11 Cl",
-    "closed": false
+    "closed": true
    }
   ],
   "search:ESEA": [
@@ -765,7 +765,7 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: ZOTIX vs Fraternity (BO3) - ESEA Advanced Europe Playo",
+    "t": "Counter-Strike: Inner Circle Prospect vs JUMBO TEAM (BO3) - ESEA Advan",
     "closed": true
    }
   ],
@@ -801,16 +801,16 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: INFINITE Talent vs TheChampionGG (BO3) - United21 Grou",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: NAVI Junior vs STATE (BO3) - United21 Group D",
     "closed": false
    },
    {
     "t": "Counter-Strike: WRAITH PCIFIC vs Bad Beavers (BO3) - United21 Group D",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: INFINITE Talent vs TheChampionGG (BO3) - United21 Grou",
+    "closed": true
    }
   ],
   "search:CCT Europe": [
@@ -859,12 +859,12 @@
   ],
   "search:Exort Fiesta": [
    {
-    "t": "Counter-Strike: Misa Esports vs KAMUI (BO3) - Exort Fiesta Group Stage",
-    "closed": false
-   },
-   {
     "t": "Counter-Strike: Misa Esports vs ASTRON (BO3) - Exort Fiesta Group Stag",
     "closed": true
+   },
+   {
+    "t": "Counter-Strike: Misa Esports vs KAMUI (BO3) - Exort Fiesta Group Stage",
+    "closed": false
    },
    {
     "t": "Counter-Strike:  Phantom Academy vs KAMUI (BO3) - Exort Fiesta Group S",
@@ -1106,7 +1106,6 @@
   "search:China National Tournament",
   "search:Dota 2",
   "search:ESEA",
-  "search:European Pro League",
   "search:Exort Fiesta",
   "search:LPL",
   "search:League of Legends",
@@ -1403,9 +1402,9 @@
    ]
   }
  ],
- "events": 24,
- "markets": 104,
- "markets_dropped_by_volume_floor": 150,
+ "events": 23,
+ "markets": 102,
+ "markets_dropped_by_volume_floor": 149,
  "day_file": "data/2026/11/2026-11-25T19.jsonl",
  "retention_removed_files": 370,
  "status": "ok"
