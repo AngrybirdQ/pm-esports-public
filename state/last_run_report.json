@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-26T20:00:05Z",
+ "ts": "2026-11-26T20:25:08Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -442,7 +442,7 @@
   "search:Valorant": [
    {
     "t": "Valorant: Enterprise Esports vs UCAM Esports Club (BO3) - VCT EMEA Kic",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Eternal Fire vs Trigon Titans (BO3) - VCT EMEA Kickoff: Türk",
@@ -453,12 +453,12 @@
     "closed": false
    },
    {
-    "t": "Valorant: NAVI Junior vs Barça eSports (BO3) - VCT EMEA Kickoff: Europ",
+    "t": "Valorant: Mandatory vs MIR (BO3) - VCT EMEA Kickoff: Europe - Qualifie",
     "closed": false
    },
    {
-    "t": "Valorant: Mandatory vs MIR (BO3) - VCT EMEA Kickoff: Europe - Qualifie",
-    "closed": false
+    "t": "Valorant: NAVI Junior vs Barça eSports (BO3) - VCT EMEA Kickoff: Europ",
+    "closed": true
    }
   ],
   "search:NBA": [
@@ -515,15 +515,15 @@
     "closed": false
    },
    {
+    "t": "Will a team win a game after trailing by 10,000+ gold at the BLAST Sla",
+    "closed": true
+   },
+   {
     "t": "BLAST Slam IX: Winner",
     "closed": false
    },
    {
     "t": "Will any team get mega creeps at the BLAST Slam IX Playoffs?",
-    "closed": false
-   },
-   {
-    "t": "Will a team win a game after trailing by 10,000+ gold at the BLAST Sla",
     "closed": false
    }
   ],
@@ -739,8 +739,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PuckChamp vs Inner Circle (BO3) - European Pro League Playoffs",
-    "closed": true
+    "t": "Dota 2: Spirit Academy vs Inner Circle (BO3) - European Pro League Pla",
+    "closed": false
    },
    {
     "t": "Counter-Strike: KAMUI vs Tulpar (BO3) - European Pro League Series 11 ",
@@ -749,11 +749,11 @@
   ],
   "search:ESEA": [
    {
-    "t": "Counter-Strike: Spirit Academy Green vs Falcons Force (BO3) - ESEA Adv",
+    "t": "Counter-Strike: TTG Esports vs Vitality Academy (BO3) - ESEA Advanced ",
     "closed": false
    },
    {
-    "t": "Counter-Strike: TTG Esports vs Vitality Academy (BO3) - ESEA Advanced ",
+    "t": "Counter-Strike: Spirit Academy Green vs Falcons Force (BO3) - ESEA Adv",
     "closed": false
    },
    {
@@ -765,8 +765,8 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: eternal premium vs BANGARANGA (BO3) - ESEA Advanced Eu",
-    "closed": true
+    "t": "Counter-Strike: Diamant Esports vs Fraternity (BO3) - ESEA Advanced Eu",
+    "closed": false
    }
   ],
   "search:Elisa Open Suomi": [
@@ -801,16 +801,16 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Passion Academy vs INFINITE Talent (BO3) - United21 Gr",
-    "closed": false
-   },
-   {
-    "t": "Counter-Strike: Inner Circle Academy vs TheChampionGG (BO3) - United21",
-    "closed": false
-   },
-   {
     "t": "Counter-Strike: spray'n'pray vs Teletubisie (BO3) - United21 Group A",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: Alliance vs  Phantom Academy (BO3) - United21 Group D",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: INFURITY Gaming vs ex-MANA eSports (BO3) - United21 Gr",
+    "closed": true
    }
   ],
   "search:CCT Europe": [
@@ -955,15 +955,15 @@
     "closed": false
    },
    {
+    "t": "Will a team win a game after trailing by 10,000+ gold at the BLAST Sla",
+    "closed": true
+   },
+   {
     "t": "BLAST Slam IX: Winner",
     "closed": false
    },
    {
     "t": "Will any team get mega creeps at the BLAST Slam IX Playoffs?",
-    "closed": false
-   },
-   {
-    "t": "Will a team win a game after trailing by 10,000+ gold at the BLAST Sla",
     "closed": false
    }
   ],
@@ -1051,7 +1051,7 @@
     "closed": true
    },
    {
-    "t": "Valorant: Bonkers vs MeatZn (BO3) - VCT Pacific Kickoff: Oceania - Qua",
+    "t": "Valorant: Kryon Esports vs SIGN Esports (BO3) - VCT Pacific Kickoff: S",
     "closed": false
    }
   ],
@@ -1106,6 +1106,7 @@
   "search:China National Tournament",
   "search:Dota 2",
   "search:ESEA",
+  "search:European Pro League",
   "search:Exort Fiesta",
   "search:League of Legends",
   "search:United21",
@@ -1402,9 +1403,9 @@
    ]
   }
  ],
- "events": 29,
- "markets": 109,
- "markets_dropped_by_volume_floor": 143,
+ "events": 26,
+ "markets": 115,
+ "markets_dropped_by_volume_floor": 129,
  "day_file": "data/2026/11/2026-11-26T20.jsonl",
  "retention_removed_files": 478,
  "status": "ok"
