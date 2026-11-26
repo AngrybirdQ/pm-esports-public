@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-26T17:35:09Z",
+ "ts": "2026-11-26T17:55:45Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -445,12 +445,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: NAVI Junior vs Aurora Gaming (BO3) - VCT EMEA Kickoff: Europ",
-    "closed": true
-   },
-   {
     "t": "Valorant: Enterprise Esports vs UCAM Esports Club (BO3) - VCT EMEA Kic",
     "closed": false
+   },
+   {
+    "t": "Valorant: NAVI Junior vs Aurora Gaming (BO3) - VCT EMEA Kickoff: Europ",
+    "closed": true
    },
    {
     "t": "Valorant: Joblife vs WIP Esports (BO3) - VCT EMEA Kickoff: Europe - Qu",
@@ -739,12 +739,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PuckChamp vs Inner Circle (BO3) - European Pro League Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Power Rangers vs angry birds (BO3) - European Pro League Playo",
     "closed": false
+   },
+   {
+    "t": "Dota 2: PuckChamp vs Inner Circle (BO3) - European Pro League Playoffs",
+    "closed": true
    }
   ],
   "search:ESEA": [
@@ -798,7 +798,7 @@
    },
    {
     "t": "Counter-Strike: WRAITH PCIFIC vs Bad Beavers (BO3) - United21 Group D",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: Passion Academy vs INFINITE Talent (BO3) - United21 Gr",
@@ -815,10 +815,6 @@
   ],
   "search:CCT Europe": [
    {
-    "t": "Counter-Strike: Nordic Partners Gaming  vs Donstu Esports (BO3) - CCT ",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: TTG Esports vs AXE (BO3) - CCT Europe Contenders #11 P",
     "closed": true
    },
@@ -832,6 +828,10 @@
    },
    {
     "t": "Counter-Strike: FORZE Reload vs Drama eSports (BO3) - CCT Europe Serie",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: Nordic Partners Gaming  vs Donstu Esports (BO3) - CCT ",
     "closed": true
    }
   ],
@@ -1402,9 +1402,9 @@
    ]
   }
  ],
- "events": 28,
- "markets": 103,
- "markets_dropped_by_volume_floor": 201,
+ "events": 27,
+ "markets": 101,
+ "markets_dropped_by_volume_floor": 199,
  "day_file": "data/2026/11/2026-11-26T17.jsonl",
  "retention_removed_files": 478,
  "status": "ok"
