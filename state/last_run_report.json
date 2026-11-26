@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-26T14:31:29Z",
+ "ts": "2026-11-26T14:52:20Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -387,12 +387,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Zero Tenacity vs Power Rangers (BO3) - European Pro League Pla",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Synapse vs PuckChamp (BO3) - European Pro League Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Zero Tenacity vs Power Rangers (BO3) - European Pro League Pla",
+    "closed": true
    }
   ],
   "search:Counter-Strike": [
@@ -555,6 +555,10 @@
     "closed": true
    },
    {
+    "t": "Counter-Strike: Wildcard vs Chinggis Warriors (BO3) - PGL Major Singap",
+    "closed": false
+   },
+   {
     "t": "Counter-Strike: Imperial vs Liquid (BO3) - PGL Major Singapore Stage 1",
     "closed": true
    },
@@ -564,10 +568,6 @@
    },
    {
     "t": "Counter-Strike: Heroic vs FaZe (BO3) - PGL Major Singapore Stage 1",
-    "closed": true
-   },
-   {
-    "t": "Counter-Strike: 100 Thieves vs 9z (BO3) - PGL Major Singapore Stage 1",
     "closed": true
    }
   ],
@@ -731,16 +731,16 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Zero Tenacity vs Power Rangers (BO3) - European Pro League Pla",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Young TigeRES vs ABT Esports (BO3) - European Pro Leag",
     "closed": false
    },
    {
     "t": "Dota 2: Team Synapse vs PuckChamp (BO3) - European Pro League Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Zero Tenacity vs Power Rangers (BO3) - European Pro League Pla",
+    "closed": true
    },
    {
     "t": "Dota 2: PuckChamp vs Inner Circle (BO3) - European Pro League Playoffs",
@@ -823,15 +823,15 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Butterfly vs Lunacy Team (BO3) - CCT Europe Series #15",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Quintessence vs SAW Youngsters (BO3) - CCT Europe Clos",
     "closed": true
    },
    {
     "t": "Counter-Strike: ENCELADE vs Young27 (BO3) - CCT Europe Contenders #11 ",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: FORZE Reload vs Drama eSports (BO3) - CCT Europe Serie",
     "closed": true
    }
   ],
@@ -1108,6 +1108,7 @@
   "search:European Pro League",
   "search:Exort Fiesta",
   "search:League of Legends",
+  "search:PGL",
   "search:United21",
   "search:VCT Americas",
   "search:VCT Pacific",
@@ -1402,9 +1403,9 @@
    ]
   }
  ],
- "events": 28,
- "markets": 105,
- "markets_dropped_by_volume_floor": 182,
+ "events": 29,
+ "markets": 112,
+ "markets_dropped_by_volume_floor": 184,
  "day_file": "data/2026/11/2026-11-26T14.jsonl",
  "retention_removed_files": 478,
  "status": "ok"
