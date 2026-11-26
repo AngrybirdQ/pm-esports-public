@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-26T17:55:45Z",
+ "ts": "2026-11-26T18:10:13Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -384,15 +384,15 @@
    },
    {
     "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - BLAST Slam Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Spirit Academy vs angry birds (BO3) - European Pro League Play",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Synapse vs PuckChamp (BO3) - European Pro League Playoffs",
-    "closed": true
+    "t": "Dota 2: Power Rangers vs angry birds (BO3) - European Pro League Playo",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -441,19 +441,19 @@
   ],
   "search:Valorant": [
    {
-    "t": "Valorant: Eternal Fire vs Trigon Titans (BO3) - VCT EMEA Kickoff: Türk",
-    "closed": true
-   },
-   {
     "t": "Valorant: Enterprise Esports vs UCAM Esports Club (BO3) - VCT EMEA Kic",
     "closed": false
    },
    {
-    "t": "Valorant: NAVI Junior vs Aurora Gaming (BO3) - VCT EMEA Kickoff: Europ",
+    "t": "Valorant: Eternal Fire vs Trigon Titans (BO3) - VCT EMEA Kickoff: Türk",
     "closed": true
    },
    {
     "t": "Valorant: Joblife vs WIP Esports (BO3) - VCT EMEA Kickoff: Europe - Qu",
+    "closed": true
+   },
+   {
+    "t": "Valorant: NAVI Junior vs Aurora Gaming (BO3) - VCT EMEA Kickoff: Europ",
     "closed": true
    },
    {
@@ -735,12 +735,12 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Team Synapse vs PuckChamp (BO3) - European Pro League Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Power Rangers vs angry birds (BO3) - European Pro League Playo",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Synapse vs PuckChamp (BO3) - European Pro League Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: PuckChamp vs Inner Circle (BO3) - European Pro League Playoffs",
@@ -749,15 +749,11 @@
   ],
   "search:ESEA": [
    {
-    "t": "Counter-Strike: eternal premium vs BANGARANGA (BO3) - ESEA Advanced Eu",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Spirit Academy Green vs Falcons Force (BO3) - ESEA Adv",
     "closed": false
    },
    {
-    "t": "Counter-Strike: Falcons Force vs Y23 (BO3) - ESEA Advanced Europe Play",
+    "t": "Counter-Strike: eternal premium vs BANGARANGA (BO3) - ESEA Advanced Eu",
     "closed": true
    },
    {
@@ -767,6 +763,10 @@
    {
     "t": "Counter-Strike: X-CITY vs Hermine Esports Club (BO3) - ESEA Advanced E",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: Falcons Force vs Y23 (BO3) - ESEA Advanced Europe Play",
+    "closed": true
    }
   ],
   "search:Elisa Open Suomi": [
@@ -831,7 +831,7 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Nordic Partners Gaming  vs Donstu Esports (BO3) - CCT ",
+    "t": "Counter-Strike: Drama eSports vs Sökerorg (BO3) - CCT Europe Closed Qu",
     "closed": true
    }
   ],
@@ -871,11 +871,11 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Rune Eaters vs LPH Gaming (BO3) - Exort Fiesta Playoff",
+    "t": "Counter-Strike: aimclub vs KAMUI (BO3) - Exort Fiesta Playoffs",
     "closed": false
    },
    {
-    "t": "Counter-Strike: Hype Tech vs WRAITH PCIFIC (BO3) - Exort Fiesta Playof",
+    "t": "Counter-Strike: Rune Eaters vs LPH Gaming (BO3) - Exort Fiesta Playoff",
     "closed": false
    }
   ],
@@ -1402,10 +1402,10 @@
    ]
   }
  ],
- "events": 27,
- "markets": 101,
- "markets_dropped_by_volume_floor": 199,
- "day_file": "data/2026/11/2026-11-26T17.jsonl",
+ "events": 26,
+ "markets": 97,
+ "markets_dropped_by_volume_floor": 195,
+ "day_file": "data/2026/11/2026-11-26T18.jsonl",
  "retention_removed_files": 478,
  "status": "ok"
 }
