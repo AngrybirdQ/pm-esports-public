@@ -1,28 +1,39 @@
 {
- "ts": "2026-11-26T11:03:55Z",
+ "ts": "2026-11-26T11:19:36Z",
  "sources": [],
- "errors": [],
- "stage": "flow",
- "markets": 106,
- "trades_markets_queried": 50,
- "trades_watchlist_markets": 37,
- "trades_collected": 1812,
- "anomalies_detected": 26,
- "anomalies_new": 26,
- "history_debug": [
-  {
-   "cid": "0x63bb55d6",
-   "pts": 3,
-   "variant": "interval=all&fidelity=1000"
-  },
-  {
-   "cid": "0x9c5dd785",
-   "pts": 2,
-   "variant": "interval=all&fidelity=1000"
-  }
+ "errors": [
+  "API-DEPRECATED 8 urls: 404 https://clob.polymarket.com/book?token_id=59929562306527997551901668713877862538151988055726801917969917898401"
  ],
- "history_conditions_new": 2,
- "books_markets": 51,
- "books_rows": 68,
- "status": "ok"
+ "stage": "flow",
+ "markets": 104,
+ "trades_markets_queried": 50,
+ "trades_watchlist_markets": 36,
+ "trades_collected": 2388,
+ "anomalies_detected": 15,
+ "anomalies_new": 7,
+ "history_debug": [],
+ "history_conditions_new": 0,
+ "books_errors": [
+  "5992956230: HTTP 404 (api deprecated)",
+  "1154317458: HTTP 404 (api deprecated)",
+  "1087008265: HTTP 404 (api deprecated)",
+  "5585664685: HTTP 404 (api deprecated)",
+  "9570196956: HTTP 404 (api deprecated)",
+  "1003739218: HTTP 404 (api deprecated)",
+  "1991462195: HTTP 404 (api deprecated)",
+  "4341740564: HTTP 404 (api deprecated)"
+ ],
+ "books_markets": 49,
+ "books_rows": 66,
+ "status": "ok",
+ "api_deprecated": [
+  "404 https://clob.polymarket.com/book?token_id=59929562306527997551901668713877862538151988055726801917969917898401",
+  "404 https://clob.polymarket.com/book?token_id=11543174583869899186824762803702308114604860388750817206132265200660",
+  "404 https://clob.polymarket.com/book?token_id=10870082653743583409474273038042264330208638426095611845163244764260",
+  "404 https://clob.polymarket.com/book?token_id=55856646859163704825094081610112181887972991711963299930807449991139",
+  "404 https://clob.polymarket.com/book?token_id=95701969564384331269703660299718387978583157182066019048295045418071",
+  "404 https://clob.polymarket.com/book?token_id=10037392182163651213693940308348365325145309914609951791521533556912",
+  "404 https://clob.polymarket.com/book?token_id=19914621950312301695559195074254750659779365499411600739342158146371",
+  "404 https://clob.polymarket.com/book?token_id=43417405643853649879486965737761325617962527841881945299553660425699"
+ ]
 }
