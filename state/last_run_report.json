@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-26T10:09:56Z",
+ "ts": "2026-11-26T10:35:03Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -385,12 +385,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: PuckChamp vs Inner Circle (BO3) - European Pro League Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: GamerLegion vs Aurora (BO3) - BLAST Slam Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: PuckChamp vs Inner Circle (BO3) - European Pro League Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: V vs Amaru Gaming (BO3) - Esports Pro Circuit  Group A",
@@ -553,15 +553,11 @@
   ],
   "search:PGL": [
    {
-    "t": "Counter-Strike: NIP vs Liquid (BO3) - PGL Major Singapore Stage 1",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Lynn Vision vs PVISION (BO3) - PGL Major Singapore Sta",
     "closed": false
    },
    {
-    "t": "Counter-Strike: GOSH vs Chinggis Warriors (BO3) - PGL Major Singapore ",
+    "t": "Counter-Strike: NIP vs Liquid (BO3) - PGL Major Singapore Stage 1",
     "closed": true
    },
    {
@@ -570,6 +566,10 @@
    },
    {
     "t": "Counter-Strike: Heroic vs FaZe (BO3) - PGL Major Singapore Stage 1",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: GOSH vs Chinggis Warriors (BO3) - PGL Major Singapore ",
     "closed": true
    }
   ],
@@ -745,8 +745,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: InterActive Philippines vs Team Synapse (BO3) - European Pro L",
-    "closed": true
+    "t": "Counter-Strike: KAMUI vs Tulpar (BO3) - European Pro League Series 11 ",
+    "closed": false
    }
   ],
   "search:ESEA": [
@@ -861,15 +861,15 @@
   ],
   "search:Exort Fiesta": [
    {
+    "t": "Counter-Strike: ex-INOX Division vs ILLYRIANS (BO3) - Exort Fiesta Pla",
+    "closed": false
+   },
+   {
     "t": "Counter-Strike: Misa Esports vs KAMUI (BO3) - Exort Fiesta Group Stage",
     "closed": true
    },
    {
     "t": "Counter-Strike: QUAZAR vs INFURITY Gaming (BO3) - Exort Fiesta Playoff",
-    "closed": false
-   },
-   {
-    "t": "Counter-Strike: ex-INOX Division vs ILLYRIANS (BO3) - Exort Fiesta Pla",
     "closed": false
    },
    {
@@ -997,12 +997,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: Victory No Limits vs FunPlus Phoenix (BO3) - China National ",
-    "closed": true
-   },
-   {
     "t": "Valorant: Unsettled Resentment vs Any Questions Gaming (BO3) - China N",
     "closed": false
+   },
+   {
+    "t": "Valorant: Victory No Limits vs FunPlus Phoenix (BO3) - China National ",
+    "closed": true
    },
    {
     "t": "Valorant: Victory No Limits vs Young Gaming (BO3) - China National Tou",
@@ -1053,8 +1053,8 @@
     "closed": false
    },
    {
-    "t": "Valorant: Trigger Point Esports vs Zexar Esports (BO3) - VCT Pacific K",
-    "closed": true
+    "t": "Valorant: SIGN Esports vs GOC Esports (BO3) - VCT Pacific Kickoff: Sou",
+    "closed": false
    }
   ],
   "search:Challengers League": [
@@ -1107,6 +1107,7 @@
   "search:China National Tournament",
   "search:Dota 2",
   "search:ESEA",
+  "search:European Pro League",
   "search:Exort Fiesta",
   "search:LPL",
   "search:League of Legends",
@@ -1417,9 +1418,9 @@
    ]
   }
  ],
- "events": 27,
- "markets": 98,
- "markets_dropped_by_volume_floor": 174,
+ "events": 29,
+ "markets": 103,
+ "markets_dropped_by_volume_floor": 182,
  "day_file": "data/2026/11/2026-11-26T10.jsonl",
  "retention_removed_files": 478,
  "status": "ok"
