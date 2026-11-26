@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-26T11:15:36Z",
+ "ts": "2026-11-26T11:40:07Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -554,7 +554,7 @@
   "search:PGL": [
    {
     "t": "Counter-Strike: Lynn Vision vs PVISION (BO3) - PGL Major Singapore Sta",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: M80 vs Eternal Fire (BO3) - PGL Major Singapore Stage ",
@@ -565,8 +565,8 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: GOSH vs Chinggis Warriors (BO3) - PGL Major Singapore ",
-    "closed": true
+    "t": "Counter-Strike: 100 Thieves vs 9z (BO3) - PGL Major Singapore Stage 1",
+    "closed": false
    },
    {
     "t": "Counter-Strike: NIP vs Liquid (BO3) - PGL Major Singapore Stage 1",
@@ -795,11 +795,11 @@
   ],
   "search:United21": [
    {
-    "t": "Counter-Strike: Prodigies vs Esport Academy Copenhagen (BO3) - United2",
+    "t": "Counter-Strike: Fire Flux Esports vs Fortress (BO3) - United21 Group C",
     "closed": true
    },
    {
-    "t": "Counter-Strike: Fire Flux Esports vs Fortress (BO3) - United21 Group C",
+    "t": "Counter-Strike: Prodigies vs Esport Academy Copenhagen (BO3) - United2",
     "closed": true
    },
    {
@@ -833,8 +833,8 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Drama eSports vs Sökerorg (BO3) - CCT Europe Closed Qu",
-    "closed": true
+    "t": "Counter-Strike: Quintessence vs SAW Youngsters (BO3) - CCT Europe Clos",
+    "closed": false
    }
   ],
   "search:CCT South America": [
@@ -1041,19 +1041,19 @@
     "closed": true
    },
    {
-    "t": "Valorant: Revenant XSpark vs Kryon Esports (BO3) - VCT Pacific Kickoff",
-    "closed": true
-   },
-   {
     "t": "Valorant: Troopers vs Finishers (BO3) - VCT Pacific Kickoff: Oceania -",
     "closed": false
    },
    {
-    "t": "Valorant: GOC Esports vs RANKERS (BO3) - VCT Pacific Kickoff: South As",
+    "t": "Valorant: Revenant XSpark vs Kryon Esports (BO3) - VCT Pacific Kickoff",
     "closed": true
    },
    {
     "t": "Valorant: SIGN Esports vs GOC Esports (BO3) - VCT Pacific Kickoff: Sou",
+    "closed": false
+   },
+   {
+    "t": "Valorant: Bonkers vs MeatZn (BO3) - VCT Pacific Kickoff: Oceania - Qua",
     "closed": false
    }
   ],
@@ -1104,6 +1104,7 @@
  },
  "winning_sources": [
   "search:BLAST",
+  "search:CCT Europe",
   "search:China National Tournament",
   "search:Dota 2",
   "search:ESEA",
@@ -1418,9 +1419,9 @@
    ]
   }
  ],
- "events": 28,
- "markets": 104,
- "markets_dropped_by_volume_floor": 174,
+ "events": 30,
+ "markets": 116,
+ "markets_dropped_by_volume_floor": 173,
  "day_file": "data/2026/11/2026-11-26T11.jsonl",
  "retention_removed_files": 478,
  "status": "ok"
