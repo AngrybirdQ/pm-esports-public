@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-26T13:10:10Z",
+ "ts": "2026-11-26T13:35:06Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -381,15 +381,15 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Zero Tenacity vs Power Rangers (BO3) - European Pro League Pla",
-    "closed": true
+    "t": "Dota 2: 1win vs Team Liquid (BO3) - BLAST Slam Playoffs",
+    "closed": false
    },
    {
     "t": "Dota 2: Spirit Academy vs angry birds (BO3) - European Pro League Play",
     "closed": true
    },
    {
-    "t": "Dota 2: PuckChamp vs Inner Circle (BO3) - European Pro League Playoffs",
+    "t": "Dota 2: Zero Tenacity vs Power Rangers (BO3) - European Pro League Pla",
     "closed": true
    },
    {
@@ -663,10 +663,6 @@
   ],
   "search:LPL": [
    {
-    "t": "Will the LPL have an official English broadcast in 2027?",
-    "closed": false
-   },
-   {
     "t": "LoL: Invictus Gaming vs JD Gaming (BO5) - LPL Regional Finals Playoffs",
     "closed": true
    },
@@ -680,6 +676,10 @@
    },
    {
     "t": "LoL: Bilibili Gaming vs Anyone's Legend (BO5) - LPL Playoffs",
+    "closed": true
+   },
+   {
+    "t": "LoL: Top Esports vs LGD Gaming (BO5) - LPL Playoffs",
     "closed": true
    }
   ],
@@ -729,20 +729,20 @@
   ],
   "search:European Pro League": [
    {
-    "t": "Dota 2: Zero Tenacity vs Power Rangers (BO3) - European Pro League Pla",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Spirit Academy vs angry birds (BO3) - European Pro League Play",
     "closed": true
    },
    {
-    "t": "Dota 2: PuckChamp vs Inner Circle (BO3) - European Pro League Playoffs",
+    "t": "Dota 2: Zero Tenacity vs Power Rangers (BO3) - European Pro League Pla",
     "closed": true
    },
    {
     "t": "Dota 2: Team Synapse vs PuckChamp (BO3) - European Pro League Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: PuckChamp vs Inner Circle (BO3) - European Pro League Playoffs",
+    "closed": true
    },
    {
     "t": "Counter-Strike: KAMUI vs Tulpar (BO3) - European Pro League Series 11 ",
@@ -803,11 +803,11 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: Fire Flux Esports vs Fortress (BO3) - United21 Group C",
+    "t": "Counter-Strike: Prodigies vs Esport Academy Copenhagen (BO3) - United2",
     "closed": true
    },
    {
-    "t": "Counter-Strike: Prodigies vs Esport Academy Copenhagen (BO3) - United2",
+    "t": "Counter-Strike: Fire Flux Esports vs Fortress (BO3) - United21 Group C",
     "closed": true
    },
    {
@@ -830,7 +830,7 @@
    },
    {
     "t": "Counter-Strike: Quintessence vs SAW Youngsters (BO3) - CCT Europe Clos",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: ENCELADE vs Young27 (BO3) - CCT Europe Contenders #11 ",
@@ -865,12 +865,12 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Misa Esports vs KAMUI (BO3) - Exort Fiesta Group Stage",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: QUAZAR vs INFURITY Gaming (BO3) - Exort Fiesta Playoff",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: Misa Esports vs KAMUI (BO3) - Exort Fiesta Group Stage",
+    "closed": true
    },
    {
     "t": "Counter-Strike: Hype Tech vs WRAITH PCIFIC (BO3) - Exort Fiesta Playof",
@@ -1104,13 +1104,11 @@
  },
  "winning_sources": [
   "search:BLAST",
-  "search:CCT Europe",
   "search:China National Tournament",
   "search:Dota 2",
   "search:ESEA",
   "search:European Pro League",
   "search:Exort Fiesta",
-  "search:LPL",
   "search:League of Legends",
   "search:PGL",
   "search:United21",
@@ -1419,9 +1417,9 @@
    ]
   }
  ],
- "events": 29,
- "markets": 109,
- "markets_dropped_by_volume_floor": 181,
+ "events": 28,
+ "markets": 110,
+ "markets_dropped_by_volume_floor": 182,
  "day_file": "data/2026/11/2026-11-26T13.jsonl",
  "retention_removed_files": 478,
  "status": "ok"
