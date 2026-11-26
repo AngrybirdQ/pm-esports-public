@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-26T00:19:58Z",
+ "ts": "2026-11-26T00:35:44Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -421,11 +421,11 @@
   ],
   "search:League of Legends": [
    {
-    "t": "Hall of Legends 2027 Inductee",
+    "t": "League of Legends Global Power Rankings Post Worlds: Rank 1",
     "closed": false
    },
    {
-    "t": "League of Legends Global Power Rankings Post Worlds: Rank 1",
+    "t": "Hall of Legends 2027 Inductee",
     "closed": false
    },
    {
@@ -509,11 +509,11 @@
   ],
   "search:BLAST": [
    {
-    "t": "Most Kills at BLAST Slam IX Playoffs",
+    "t": "Will any game last over 70 minutes at the BLAST Slam IX Playoffs?",
     "closed": false
    },
    {
-    "t": "Will any game last over 70 minutes at the BLAST Slam IX Playoffs?",
+    "t": "Most Kills at BLAST Slam IX Playoffs",
     "closed": false
    },
    {
@@ -525,8 +525,8 @@
     "closed": false
    },
    {
-    "t": "Will any player go Beyond Godlike at the BLAST Slam IX Playoffs?",
-    "closed": false
+    "t": "Any rug >$1m on Blast today?",
+    "closed": true
    }
   ],
   "search:ESL Challenger": [
@@ -833,8 +833,8 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: Drama eSports vs Sökerorg (BO3) - CCT Europe Closed Qu",
-    "closed": true
+    "t": "Counter-Strike: TTG Esports vs AXE (BO3) - CCT Europe Contenders #11 P",
+    "closed": false
    }
   ],
   "search:CCT South America": [
@@ -1104,6 +1104,7 @@
  },
  "winning_sources": [
   "search:BLAST",
+  "search:BLAST Slam",
   "search:CCT Europe",
   "search:China National Tournament",
   "search:ESEA",
@@ -1415,9 +1416,9 @@
    ]
   }
  ],
- "events": 24,
- "markets": 86,
- "markets_dropped_by_volume_floor": 172,
+ "events": 25,
+ "markets": 89,
+ "markets_dropped_by_volume_floor": 167,
  "day_file": "data/2026/11/2026-11-26T00.jsonl",
  "retention_removed_files": 478,
  "status": "ok"
