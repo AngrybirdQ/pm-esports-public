@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-26T21:06:31Z",
+ "ts": "2026-11-26T21:30:15Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -391,8 +391,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Synapse vs PuckChamp (BO3) - European Pro League Playoffs",
-    "closed": true
+    "t": "Dota 2: Spirit Academy vs Inner Circle (BO3) - European Pro League Pla",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -511,10 +511,6 @@
     "closed": true
    },
    {
-    "t": "Will any game last over 70 minutes at the BLAST Slam IX Playoffs?",
-    "closed": false
-   },
-   {
     "t": "Will a team win a game after trailing by 10,000+ gold at the BLAST Sla",
     "closed": true
    },
@@ -524,6 +520,10 @@
    },
    {
     "t": "Will any team get mega creeps at the BLAST Slam IX Playoffs?",
+    "closed": true
+   },
+   {
+    "t": "BLAST Slam IX Grand Final Game 1: Total Roshan Kills",
     "closed": false
    }
   ],
@@ -735,12 +735,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Synapse vs PuckChamp (BO3) - European Pro League Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Spirit Academy vs Inner Circle (BO3) - European Pro League Pla",
     "closed": false
+   },
+   {
+    "t": "Dota 2: Team Synapse vs PuckChamp (BO3) - European Pro League Playoffs",
+    "closed": true
    },
    {
     "t": "Counter-Strike: KAMUI vs Tulpar (BO3) - European Pro League Series 11 ",
@@ -868,15 +868,15 @@
    },
    {
     "t": "Counter-Strike: aimclub vs KAMUI (BO3) - Exort Fiesta Playoffs",
-    "closed": false
-   },
-   {
-    "t": "Counter-Strike: Misa Esports vs KAMUI (BO3) - Exort Fiesta Group Stage",
     "closed": true
    },
    {
     "t": "Counter-Strike: Rune Eaters vs LPH Gaming (BO3) - Exort Fiesta Playoff",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: Misa Esports vs KAMUI (BO3) - Exort Fiesta Group Stage",
+    "closed": true
    }
   ],
   "search:NODWIN": [
@@ -951,10 +951,6 @@
     "closed": true
    },
    {
-    "t": "Will any game last over 70 minutes at the BLAST Slam IX Playoffs?",
-    "closed": false
-   },
-   {
     "t": "Will a team win a game after trailing by 10,000+ gold at the BLAST Sla",
     "closed": true
    },
@@ -964,6 +960,10 @@
    },
    {
     "t": "Will any team get mega creeps at the BLAST Slam IX Playoffs?",
+    "closed": true
+   },
+   {
+    "t": "BLAST Slam IX Grand Final Game 1: Total Roshan Kills",
     "closed": false
    }
   ],
@@ -1104,8 +1104,8 @@
   "search:BLAST",
   "search:CCT Europe",
   "search:China National Tournament",
+  "search:Dota 2",
   "search:ESEA",
-  "search:European Pro League",
   "search:Exort Fiesta",
   "search:League of Legends",
   "search:United21",
@@ -1402,9 +1402,9 @@
    ]
   }
  ],
- "events": 25,
- "markets": 106,
- "markets_dropped_by_volume_floor": 132,
+ "events": 23,
+ "markets": 99,
+ "markets_dropped_by_volume_floor": 125,
  "day_file": "data/2026/11/2026-11-26T21.jsonl",
  "retention_removed_files": 478,
  "status": "ok"
