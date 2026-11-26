@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-26T16:45:05Z",
+ "ts": "2026-11-26T17:10:19Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -573,10 +573,6 @@
   ],
   "search:Worlds 2026": [
    {
-    "t": "Bin Worlds 2026 Skin Champion",
-    "closed": false
-   },
-   {
     "t": "Viper Worlds 2026 Skin Champion",
     "closed": false
    },
@@ -590,6 +586,10 @@
    },
    {
     "t": "Worlds 2026: Finals MVP",
+    "closed": true
+   },
+   {
+    "t": "Worlds 2026: Team to Make Grand Finals",
     "closed": true
    }
   ],
@@ -743,17 +743,17 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: KAMUI vs Tulpar (BO3) - European Pro League Series 11 ",
-    "closed": true
+    "t": "Dota 2: Power Rangers vs angry birds (BO3) - European Pro League Playo",
+    "closed": false
    }
   ],
   "search:ESEA": [
    {
-    "t": "Counter-Strike: Falcons Force vs Y23 (BO3) - ESEA Advanced Europe Play",
+    "t": "Counter-Strike: eternal premium vs BANGARANGA (BO3) - ESEA Advanced Eu",
     "closed": true
    },
    {
-    "t": "Counter-Strike: eternal premium vs BANGARANGA (BO3) - ESEA Advanced Eu",
+    "t": "Counter-Strike: Falcons Force vs Y23 (BO3) - ESEA Advanced Europe Play",
     "closed": true
    },
    {
@@ -871,11 +871,11 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Hype Tech vs WRAITH PCIFIC (BO3) - Exort Fiesta Playof",
+    "t": "Counter-Strike: Rune Eaters vs LPH Gaming (BO3) - Exort Fiesta Playoff",
     "closed": false
    },
    {
-    "t": "Counter-Strike: aimclub vs KAMUI (BO3) - Exort Fiesta Playoffs",
+    "t": "Counter-Strike: Hype Tech vs WRAITH PCIFIC (BO3) - Exort Fiesta Playof",
     "closed": false
    }
   ],
@@ -999,15 +999,15 @@
     "closed": true
    },
    {
+    "t": "Valorant: Any Questions Gaming vs Young Gaming (BO5) - China National ",
+    "closed": false
+   },
+   {
     "t": "Valorant: Victory No Limits vs Young Gaming (BO3) - China National Tou",
     "closed": true
    },
    {
     "t": "Valorant: FunPlus Phoenix vs KeepBest Gaming (BO3) - China National To",
-    "closed": true
-   },
-   {
-    "t": "Valorant: A Team vs Unsettled Resentment (BO3) - China National Tourna",
     "closed": true
    }
   ],
@@ -1102,6 +1102,7 @@
  },
  "winning_sources": [
   "search:BLAST",
+  "search:China National Tournament",
   "search:Dota 2",
   "search:ESEA",
   "search:European Pro League",
@@ -1401,10 +1402,10 @@
    ]
   }
  ],
- "events": 27,
- "markets": 100,
- "markets_dropped_by_volume_floor": 182,
- "day_file": "data/2026/11/2026-11-26T16.jsonl",
+ "events": 28,
+ "markets": 107,
+ "markets_dropped_by_volume_floor": 179,
+ "day_file": "data/2026/11/2026-11-26T17.jsonl",
  "retention_removed_files": 478,
  "status": "ok"
 }
