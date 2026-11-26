@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-26T00:35:44Z",
+ "ts": "2026-11-26T00:50:01Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -949,11 +949,11 @@
   ],
   "search:BLAST Slam": [
    {
-    "t": "Most Kills at BLAST Slam IX Playoffs",
+    "t": "Will any game last over 70 minutes at the BLAST Slam IX Playoffs?",
     "closed": false
    },
    {
-    "t": "Will any game last over 70 minutes at the BLAST Slam IX Playoffs?",
+    "t": "Most Kills at BLAST Slam IX Playoffs",
     "closed": false
    },
    {
@@ -965,8 +965,8 @@
     "closed": false
    },
    {
-    "t": "Will any player go Beyond Godlike at the BLAST Slam IX Playoffs?",
-    "closed": false
+    "t": "Dota 2: HULIGANI vs Team Lynx (BO3) - BLAST Slam Europe Closed Qualifi",
+    "closed": true
    }
   ],
   "search:Slam Group": [
@@ -1104,7 +1104,6 @@
  },
  "winning_sources": [
   "search:BLAST",
-  "search:BLAST Slam",
   "search:CCT Europe",
   "search:China National Tournament",
   "search:ESEA",
@@ -1416,9 +1415,9 @@
    ]
   }
  ],
- "events": 25,
- "markets": 89,
- "markets_dropped_by_volume_floor": 167,
+ "events": 24,
+ "markets": 88,
+ "markets_dropped_by_volume_floor": 165,
  "day_file": "data/2026/11/2026-11-26T00.jsonl",
  "retention_removed_files": 478,
  "status": "ok"
