@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-26T14:10:49Z",
+ "ts": "2026-11-26T14:31:29Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -331,12 +331,6 @@
    "err": null
   },
   {
-   "url": "slug:blast-slam-ix-winner",
-   "ok": true,
-   "events_returned": 1,
-   "err": null
-  },
-  {
    "url": "slug:which-teams-will-qualify-for-lcp-2027",
    "ok": true,
    "events_returned": 1,
@@ -365,11 +359,15 @@
    "ok": true,
    "events_returned": 1,
    "err": null
+  },
+  {
+   "url": "slug:worlds-2026-peak-viewership",
+   "ok": true,
+   "events_returned": 1,
+   "err": null
   }
  ],
- "errors": [
-  "budget exhausted before essential slugs"
- ],
+ "errors": [],
  "stage": "snap",
  "tags_discovered": [
   "international-affairs"
@@ -521,12 +519,12 @@
     "closed": false
    },
    {
-    "t": "Will one team kill two Tormentors in a single game at the BLAST Slam I",
+    "t": "BLAST Slam IX: Winner",
     "closed": false
    },
    {
-    "t": "Any rug >$1m on Blast today?",
-    "closed": true
+    "t": "Will a team win a game after trailing by 10,000+ gold at the BLAST Sla",
+    "closed": false
    }
   ],
   "search:ESL Challenger": [
@@ -737,16 +735,16 @@
     "closed": true
    },
    {
+    "t": "Counter-Strike: Young TigeRES vs ABT Esports (BO3) - European Pro Leag",
+    "closed": false
+   },
+   {
     "t": "Dota 2: Team Synapse vs PuckChamp (BO3) - European Pro League Playoffs",
     "closed": false
    },
    {
     "t": "Dota 2: PuckChamp vs Inner Circle (BO3) - European Pro League Playoffs",
     "closed": true
-   },
-   {
-    "t": "Counter-Strike: Young TigeRES vs ABT Esports (BO3) - European Pro Leag",
-    "closed": false
    }
   ],
   "search:ESEA": [
@@ -759,11 +757,11 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Banger Gang vs Honvéd (BO1) - ESEA Advanced Europe Reg",
+    "t": "Counter-Strike: TTG Esports vs Vitality Academy (BO3) - ESEA Advanced ",
     "closed": false
    },
    {
-    "t": "Counter-Strike: TTG Esports vs Vitality Academy (BO3) - ESEA Advanced ",
+    "t": "Counter-Strike: Banger Gang vs Honvéd (BO1) - ESEA Advanced Europe Reg",
     "closed": false
    },
    {
@@ -821,11 +819,11 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Butterfly vs Lunacy Team (BO3) - CCT Europe Series #15",
+    "t": "Counter-Strike: TTG Esports vs AXE (BO3) - CCT Europe Contenders #11 P",
     "closed": true
    },
    {
-    "t": "Counter-Strike: TTG Esports vs AXE (BO3) - CCT Europe Contenders #11 P",
+    "t": "Counter-Strike: Butterfly vs Lunacy Team (BO3) - CCT Europe Series #15",
     "closed": true
    },
    {
@@ -877,8 +875,8 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike:  Phantom Academy vs KAMUI (BO3) - Exort Fiesta Group S",
-    "closed": true
+    "t": "Counter-Strike: Rune Eaters vs LPH Gaming (BO3) - Exort Fiesta Playoff",
+    "closed": false
    }
   ],
   "search:NODWIN": [
@@ -961,12 +959,12 @@
     "closed": false
    },
    {
-    "t": "Will one team kill two Tormentors in a single game at the BLAST Slam I",
+    "t": "BLAST Slam IX: Winner",
     "closed": false
    },
    {
-    "t": "Dota 2: HULIGANI vs Team Lynx (BO3) - BLAST Slam Europe Closed Qualifi",
-    "closed": true
+    "t": "Will a team win a game after trailing by 10,000+ gold at the BLAST Sla",
+    "closed": false
    }
   ],
   "search:Slam Group": [
@@ -1115,7 +1113,6 @@
   "search:VCT Pacific",
   "search:Valorant",
   "search:Worlds 2026",
-  "slug:blast-slam-ix-winner",
   "slug:pgl-major-singapore-2026-winner-1793811600000"
  ],
  "n_event_queries": 51,
@@ -1220,40 +1217,6 @@
     false,
     false,
     false
-   ]
-  },
-  {
-   "slug": "blast-slam-ix-winner",
-   "closed": false,
-   "active": true,
-   "n_markets": 22,
-   "mkts_closed": [
-    false,
-    true,
-    false,
-    true,
-    true,
-    false,
-    true,
-    true,
-    true,
-    false,
-    true,
-    false
-   ],
-   "mkts_active": [
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true
    ]
   },
   {
@@ -1415,10 +1378,32 @@
     true,
     true
    ]
+  },
+  {
+   "slug": "worlds-2026-peak-viewership",
+   "closed": true,
+   "active": true,
+   "n_markets": 6,
+   "mkts_closed": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "mkts_active": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
   }
  ],
- "events": 27,
- "markets": 108,
+ "events": 28,
+ "markets": 105,
  "markets_dropped_by_volume_floor": 182,
  "day_file": "data/2026/11/2026-11-26T14.jsonl",
  "retention_removed_files": 478,
