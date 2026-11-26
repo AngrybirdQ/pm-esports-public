@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-26T15:45:09Z",
+ "ts": "2026-11-26T16:10:11Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -387,11 +387,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Synapse vs PuckChamp (BO3) - European Pro League Playoffs",
+    "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - BLAST Slam Playoffs",
     "closed": false
    },
    {
-    "t": "Dota 2: PuckChamp vs Inner Circle (BO3) - European Pro League Playoffs",
+    "t": "Dota 2: Team Synapse vs PuckChamp (BO3) - European Pro League Playoffs",
     "closed": true
    }
   ],
@@ -556,7 +556,7 @@
    },
    {
     "t": "Counter-Strike: Wildcard vs Chinggis Warriors (BO3) - PGL Major Singap",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: Imperial vs Liquid (BO3) - PGL Major Singapore Stage 1",
@@ -736,7 +736,7 @@
    },
    {
     "t": "Dota 2: Team Synapse vs PuckChamp (BO3) - European Pro League Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: PuckChamp vs Inner Circle (BO3) - European Pro League Playoffs",
@@ -765,7 +765,7 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: Fire Flux Esports vs Al Ahli (BO3) - ESEA Advanced Eur",
+    "t": "Counter-Strike: B8 Academy vs JUMBO TEAM (BO3) - ESEA Advanced Europe ",
     "closed": false
    }
   ],
@@ -801,15 +801,15 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: Fire Flux Esports vs Fortress (BO3) - United21 Group C",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Passion Academy vs INFINITE Talent (BO3) - United21 Gr",
     "closed": false
    },
    {
     "t": "Counter-Strike: Inner Circle Academy vs TheChampionGG (BO3) - United21",
+    "closed": false
+   },
+   {
+    "t": "Counter-Strike: spray'n'pray vs Teletubisie (BO3) - United21 Group A",
     "closed": false
    }
   ],
@@ -992,7 +992,7 @@
   "search:China National Tournament": [
    {
     "t": "Valorant: Unsettled Resentment vs Any Questions Gaming (BO3) - China N",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Victory No Limits vs Young Gaming (BO3) - China National Tou",
@@ -1102,13 +1102,11 @@
  },
  "winning_sources": [
   "search:BLAST",
-  "search:China National Tournament",
   "search:Dota 2",
   "search:ESEA",
   "search:European Pro League",
   "search:Exort Fiesta",
   "search:League of Legends",
-  "search:PGL",
   "search:United21",
   "search:VCT Americas",
   "search:Valorant",
@@ -1402,10 +1400,10 @@
    ]
   }
  ],
- "events": 27,
- "markets": 100,
- "markets_dropped_by_volume_floor": 186,
- "day_file": "data/2026/11/2026-11-26T15.jsonl",
+ "events": 26,
+ "markets": 98,
+ "markets_dropped_by_volume_floor": 178,
+ "day_file": "data/2026/11/2026-11-26T16.jsonl",
  "retention_removed_files": 478,
  "status": "ok"
 }
