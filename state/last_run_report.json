@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-26T09:45:22Z",
+ "ts": "2026-11-26T10:09:56Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -389,11 +389,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: V vs Amaru Gaming (BO3) - Esports Pro Circuit  Group A",
-    "closed": true
+    "t": "Dota 2: GamerLegion vs Aurora (BO3) - BLAST Slam Playoffs",
+    "closed": false
    },
    {
-    "t": "Dota 2: InterActive Philippines vs Team Synapse (BO3) - European Pro L",
+    "t": "Dota 2: V vs Amaru Gaming (BO3) - Esports Pro Circuit  Group A",
     "closed": true
    }
   ],
@@ -459,7 +459,7 @@
     "closed": true
    },
    {
-    "t": "Valorant: GIANTX vs Pixel Lumina (BO3) - VCT EMEA Kickoff: Europe - Qu",
+    "t": "Valorant: 9z Team vs ARG.MIX (BO3) - VCT Americas Kickoff: LATAM South",
     "closed": true
    }
   ],
@@ -557,12 +557,12 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: GOSH vs Chinggis Warriors (BO3) - PGL Major Singapore ",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Lynn Vision vs PVISION (BO3) - PGL Major Singapore Sta",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: GOSH vs Chinggis Warriors (BO3) - PGL Major Singapore ",
+    "closed": true
    },
    {
     "t": "Counter-Strike: M80 vs Eternal Fire (BO3) - PGL Major Singapore Stage ",
@@ -745,7 +745,7 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: maybe vs GLITCH (BO3) - European Pro League Series 11 ",
+    "t": "Dota 2: InterActive Philippines vs Team Synapse (BO3) - European Pro L",
     "closed": true
    }
   ],
@@ -1045,16 +1045,16 @@
     "closed": false
    },
    {
-    "t": "Valorant: Trigger Point Esports vs Zexar Esports (BO3) - VCT Pacific K",
-    "closed": true
-   },
-   {
     "t": "Valorant: GOC Esports vs RANKERS (BO3) - VCT Pacific Kickoff: South As",
     "closed": true
    },
    {
     "t": "Valorant: Troopers vs Finishers (BO3) - VCT Pacific Kickoff: Oceania -",
     "closed": false
+   },
+   {
+    "t": "Valorant: Trigger Point Esports vs Zexar Esports (BO3) - VCT Pacific K",
+    "closed": true
    }
   ],
   "search:Challengers League": [
@@ -1105,6 +1105,7 @@
  "winning_sources": [
   "search:BLAST",
   "search:China National Tournament",
+  "search:Dota 2",
   "search:ESEA",
   "search:Exort Fiesta",
   "search:LPL",
@@ -1416,10 +1417,10 @@
    ]
   }
  ],
- "events": 26,
- "markets": 94,
- "markets_dropped_by_volume_floor": 179,
- "day_file": "data/2026/11/2026-11-26T09.jsonl",
+ "events": 27,
+ "markets": 98,
+ "markets_dropped_by_volume_floor": 174,
+ "day_file": "data/2026/11/2026-11-26T10.jsonl",
  "retention_removed_files": 478,
  "status": "ok"
 }
