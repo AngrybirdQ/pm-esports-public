@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-26T12:35:56Z",
+ "ts": "2026-11-26T12:56:40Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -378,7 +378,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: GamerLegion vs Aurora (BO3) - BLAST Slam Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Zero Tenacity vs Power Rangers (BO3) - European Pro League Pla",
@@ -393,8 +393,8 @@
     "closed": true
    },
    {
-    "t": "Dota 2: V vs Amaru Gaming (BO3) - Esports Pro Circuit  Group A",
-    "closed": true
+    "t": "Dota 2: Team Synapse vs PuckChamp (BO3) - European Pro League Playoffs",
+    "closed": false
    }
   ],
   "search:Counter-Strike": [
@@ -579,6 +579,10 @@
     "closed": false
    },
    {
+    "t": "Viper Worlds 2026 Skin Champion",
+    "closed": false
+   },
+   {
     "t": "Worlds 2026: Winner",
     "closed": true
    },
@@ -588,10 +592,6 @@
    },
    {
     "t": "Worlds 2026: Finals MVP",
-    "closed": true
-   },
-   {
-    "t": "Worlds 2026: Team to Make Grand Finals",
     "closed": true
    }
   ],
@@ -817,11 +817,11 @@
   ],
   "search:CCT Europe": [
    {
-    "t": "Counter-Strike: Butterfly vs Lunacy Team (BO3) - CCT Europe Series #15",
+    "t": "Counter-Strike: Nordic Partners Gaming  vs Donstu Esports (BO3) - CCT ",
     "closed": true
    },
    {
-    "t": "Counter-Strike: Nordic Partners Gaming  vs Donstu Esports (BO3) - CCT ",
+    "t": "Counter-Strike: Butterfly vs Lunacy Team (BO3) - CCT Europe Series #15",
     "closed": true
    },
    {
@@ -829,12 +829,12 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: ENCELADE vs Young27 (BO3) - CCT Europe Contenders #11 ",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Quintessence vs SAW Youngsters (BO3) - CCT Europe Clos",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: ENCELADE vs Young27 (BO3) - CCT Europe Contenders #11 ",
+    "closed": true
    }
   ],
   "search:CCT South America": [
@@ -1419,9 +1419,9 @@
    ]
   }
  ],
- "events": 29,
- "markets": 112,
- "markets_dropped_by_volume_floor": 168,
+ "events": 30,
+ "markets": 110,
+ "markets_dropped_by_volume_floor": 184,
  "day_file": "data/2026/11/2026-11-26T12.jsonl",
  "retention_removed_files": 478,
  "status": "ok"
