@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-26T22:10:04Z",
+ "ts": "2026-11-26T22:31:10Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -442,7 +442,7 @@
   "search:Valorant": [
    {
     "t": "Valorant: Aurora Gaming vs WIP Esports (BO3) - VCT EMEA Kickoff: Europ",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Enterprise Esports vs UCAM Esports Club (BO3) - VCT EMEA Kic",
@@ -450,7 +450,7 @@
    },
    {
     "t": "Valorant: Mandatory vs MIR (BO3) - VCT EMEA Kickoff: Europe - Qualifie",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Eternal Fire vs Trigon Titans (BO3) - VCT EMEA Kickoff: Türk",
@@ -816,7 +816,7 @@
   "search:CCT Europe": [
    {
     "t": "Counter-Strike: Lir vs Spirit Academy (BO3) - CCT Europe Series #15 Gr",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: Quintessence vs SAW Youngsters (BO3) - CCT Europe Clos",
@@ -1021,12 +1021,12 @@
     "closed": false
    },
    {
-    "t": "Valorant: ARG.MIX vs TRAMITE (BO3) - VCT Americas Kickoff: LATAM South",
-    "closed": true
-   },
-   {
     "t": "Valorant: Fluxo W7M vs Elevate (BO3) - VCT Americas Kickoff: Brazil Qu",
     "closed": false
+   },
+   {
+    "t": "Valorant: ARG.MIX vs TRAMITE (BO3) - VCT Americas Kickoff: LATAM South",
+    "closed": true
    },
    {
     "t": "Valorant: Fuego vs Chivas Esports (BO3) - VCT Americas Kickoff: LATAM ",
@@ -1051,7 +1051,7 @@
     "closed": true
    },
    {
-    "t": "Valorant: Kryon Esports vs SIGN Esports (BO3) - VCT Pacific Kickoff: S",
+    "t": "Valorant: Bonkers vs MeatZn (BO3) - VCT Pacific Kickoff: Oceania - Qua",
     "closed": false
    }
   ],
@@ -1102,7 +1102,6 @@
  },
  "winning_sources": [
   "search:BLAST",
-  "search:CCT Europe",
   "search:China National Tournament",
   "search:Dota 2",
   "search:ESEA",
@@ -1111,7 +1110,6 @@
   "search:United21",
   "search:VCT Americas",
   "search:VCT Pacific",
-  "search:Valorant",
   "search:Worlds 2026",
   "slug:pgl-major-singapore-2026-winner-1793811600000"
  ],
@@ -1402,9 +1400,9 @@
    ]
   }
  ],
- "events": 25,
- "markets": 97,
- "markets_dropped_by_volume_floor": 141,
+ "events": 22,
+ "markets": 88,
+ "markets_dropped_by_volume_floor": 127,
  "day_file": "data/2026/11/2026-11-26T22.jsonl",
  "retention_removed_files": 478,
  "status": "ok"
