@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-27T11:51:28Z",
+ "ts": "2026-11-27T12:05:15Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -375,12 +375,12 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: 1win vs Team Liquid (BO3) - BLAST Slam Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: PARIVISION vs Team Liquid (BO3) - BLAST Slam Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: 1win vs Team Liquid (BO3) - BLAST Slam Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - BLAST Slam Playoffs",
@@ -556,7 +556,7 @@
    },
    {
     "t": "Counter-Strike: Imperial vs Wildcard (BO3) - PGL Major Singapore Stage",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: Wildcard vs Chinggis Warriors (BO3) - PGL Major Singap",
@@ -743,8 +743,8 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: KAMUI vs Tulpar (BO3) - European Pro League Series 11 ",
-    "closed": true
+    "t": "Counter-Strike: Bebop vs Spirit Academy Green (BO3) - European Pro Lea",
+    "closed": false
    }
   ],
   "search:ESEA": [
@@ -859,12 +859,12 @@
   ],
   "search:Exort Fiesta": [
    {
-    "t": "Counter-Strike: QUAZAR vs INFURITY Gaming (BO3) - Exort Fiesta Playoff",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Hype Tech vs WRAITH PCIFIC (BO3) - Exort Fiesta Playof",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: QUAZAR vs INFURITY Gaming (BO3) - Exort Fiesta Playoff",
+    "closed": true
    },
    {
     "t": "Counter-Strike: aimclub vs KAMUI (BO3) - Exort Fiesta Playoffs",
@@ -1039,12 +1039,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: Kryon Esports vs Trigger Point Esports (BO3) - VCT Pacific K",
-    "closed": true
-   },
-   {
     "t": "Valorant: Kryon Esports vs SIGN Esports (BO3) - VCT Pacific Kickoff: S",
     "closed": false
+   },
+   {
+    "t": "Valorant: Kryon Esports vs Trigger Point Esports (BO3) - VCT Pacific K",
+    "closed": true
    },
    {
     "t": "Valorant: SIGN Esports vs GOC Esports (BO3) - VCT Pacific Kickoff: Sou",
@@ -1106,6 +1106,7 @@
   "search:China National Tournament",
   "search:Dota 2",
   "search:Elisa Open Suomi",
+  "search:European Pro League",
   "search:Exort Fiesta",
   "search:League of Legends",
   "search:PGL",
@@ -1403,9 +1404,9 @@
   }
  ],
  "events": 24,
- "markets": 128,
- "markets_dropped_by_volume_floor": 198,
- "day_file": "data/2026/11/2026-11-27T11.jsonl",
+ "markets": 120,
+ "markets_dropped_by_volume_floor": 190,
+ "day_file": "data/2026/11/2026-11-27T12.jsonl",
  "retention_removed_files": 579,
  "status": "ok"
 }
