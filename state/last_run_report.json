@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-27T09:45:16Z",
+ "ts": "2026-11-27T10:00:04Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -563,12 +563,12 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: 100 Thieves vs 9z (BO3) - PGL Major Singapore Stage 1",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Imperial vs Wildcard (BO3) - PGL Major Singapore Stage",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: 100 Thieves vs 9z (BO3) - PGL Major Singapore Stage 1",
+    "closed": true
    }
   ],
   "search:Worlds 2026": [
@@ -827,8 +827,8 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Quintessence vs SAW Youngsters (BO3) - CCT Europe Clos",
-    "closed": true
+    "t": "Counter-Strike: MOUZ NXT vs MASONIC (BO3) - CCT Europe Closed Qualifie",
+    "closed": false
    },
    {
     "t": "Counter-Strike: BakS eSports vs Nordic Partners Gaming  (BO3) - CCT Eu",
@@ -1102,6 +1102,7 @@
  },
  "winning_sources": [
   "search:BLAST",
+  "search:CCT Europe",
   "search:China National Tournament",
   "search:Elisa Open Suomi",
   "search:Exort Fiesta",
@@ -1400,10 +1401,10 @@
    ]
   }
  ],
- "events": 21,
- "markets": 101,
- "markets_dropped_by_volume_floor": 202,
- "day_file": "data/2026/11/2026-11-27T09.jsonl",
+ "events": 22,
+ "markets": 107,
+ "markets_dropped_by_volume_floor": 204,
+ "day_file": "data/2026/11/2026-11-27T10.jsonl",
  "retention_removed_files": 579,
  "status": "ok"
 }
