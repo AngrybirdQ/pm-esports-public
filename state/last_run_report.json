@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-27T15:15:26Z",
+ "ts": "2026-11-27T15:37:16Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -389,11 +389,11 @@
     "closed": false
    },
    {
-    "t": "Dota 2: 1win vs Team Liquid (BO3) - BLAST Slam Playoffs",
+    "t": "Dota 2: Spirit Academy vs Inner Circle (BO3) - European Pro League Pla",
     "closed": true
    },
    {
-    "t": "Dota 2: Spirit Academy vs Inner Circle (BO3) - European Pro League Pla",
+    "t": "Dota 2: Power Rangers vs angry birds (BO3) - European Pro League Playo",
     "closed": true
    }
   ],
@@ -525,8 +525,8 @@
     "closed": true
    },
    {
-    "t": "Most Kills at BLAST Slam IX Playoffs",
-    "closed": false
+    "t": "Will one team kill two Tormentors in a single game at the BLAST Slam I",
+    "closed": true
    }
   ],
   "search:ESL Challenger": [
@@ -553,11 +553,11 @@
   ],
   "search:PGL": [
    {
-    "t": "Counter-Strike: Lynn Vision vs Heroic (BO3) - PGL Major Singapore Stag",
+    "t": "Counter-Strike: M80 vs 100 Thieves (BO3) - PGL Major Singapore Stage 1",
     "closed": true
    },
    {
-    "t": "Counter-Strike: M80 vs 100 Thieves (BO3) - PGL Major Singapore Stage 1",
+    "t": "Counter-Strike: Lynn Vision vs Heroic (BO3) - PGL Major Singapore Stag",
     "closed": true
    },
    {
@@ -741,12 +741,12 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: Young TigeRES vs ABT Esports (BO3) - European Pro Leag",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Bebop vs Spirit Academy Green (BO3) - European Pro Lea",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: Young TigeRES vs ABT Esports (BO3) - European Pro Leag",
+    "closed": true
    }
   ],
   "search:ESEA": [
@@ -997,8 +997,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: Victory No Limits vs Young Gaming (BO3) - China National Tou",
-    "closed": true
+    "t": "Valorant: Unsettled Resentment vs Any Questions Gaming (BO5) - China N",
+    "closed": false
    },
    {
     "t": "Valorant: Victory No Limits vs Young Gaming (BO3) - China National Tou",
@@ -1104,6 +1104,8 @@
  },
  "winning_sources": [
   "search:BLAST",
+  "search:BLAST Slam",
+  "search:China National Tournament",
   "search:Dota 2",
   "search:Elisa Open Suomi",
   "search:European Pro League",
@@ -1369,9 +1371,9 @@
    ]
   }
  ],
- "events": 23,
- "markets": 107,
- "markets_dropped_by_volume_floor": 185,
+ "events": 24,
+ "markets": 108,
+ "markets_dropped_by_volume_floor": 203,
  "day_file": "data/2026/11/2026-11-27T15.jsonl",
  "retention_removed_files": 579,
  "status": "ok"
