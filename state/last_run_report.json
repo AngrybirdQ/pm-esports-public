@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-27T17:40:22Z",
+ "ts": "2026-11-27T18:05:22Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -381,19 +381,19 @@
     "closed": true
    },
    {
-    "t": "Dota 2: GamerLegion vs 1win (BO3) - BLAST Slam Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Aurora vs PARIVISION (BO3) - BLAST Slam Playoffs",
     "closed": false
+   },
+   {
+    "t": "Dota 2: GamerLegion vs 1win (BO3) - BLAST Slam Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: Spirit Academy vs Inner Circle (BO3) - European Pro League Pla",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - BLAST Slam Playoffs",
+    "t": "Dota 2: Team Synapse vs Power Rangers (BO3) - European Pro League Play",
     "closed": true
    }
   ],
@@ -447,16 +447,16 @@
     "closed": false
    },
    {
-    "t": "Valorant: Aurora Gaming vs WIP Esports (BO3) - VCT EMEA Kickoff: Europ",
-    "closed": true
-   },
-   {
     "t": "Valorant: Aurora Gaming vs Mandatory (BO3) - VCT EMEA Kickoff: Europe ",
     "closed": false
    },
    {
     "t": "Valorant: Enterprise Esports vs CGN Esports (BO3) - VCT EMEA Kickoff: ",
     "closed": false
+   },
+   {
+    "t": "Valorant: Aurora Gaming vs WIP Esports (BO3) - VCT EMEA Kickoff: Europ",
+    "closed": true
    },
    {
     "t": "Valorant: xXxMasterProMegaTeamxXx vs Pixel Lumina (BO3) - VCT EMEA Kic",
@@ -569,7 +569,7 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: FUT Esports vs FlyQuest (BO1) - PGL Major Singapore St",
+    "t": "Counter-Strike: Astralis vs Imperial (BO1) - PGL Major Singapore Stage",
     "closed": false
    }
   ],
@@ -733,11 +733,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Power Rangers vs angry birds (BO3) - European Pro League Playo",
+    "t": "Dota 2: Team Synapse vs Power Rangers (BO3) - European Pro League Play",
     "closed": true
    },
    {
-    "t": "Dota 2: Team Synapse vs Power Rangers (BO3) - European Pro League Play",
+    "t": "Dota 2: Power Rangers vs angry birds (BO3) - European Pro League Playo",
     "closed": true
    },
    {
@@ -759,15 +759,15 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: B8 Academy vs JUMBO TEAM (BO3) - ESEA Advanced Europe ",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Diamant Esports vs Fraternity (BO3) - ESEA Advanced Eu",
     "closed": true
    },
    {
     "t": "Counter-Strike: RoundsGG vs OldBoys (BO3) - ESEA Advanced Europe Playo",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: B8 Academy vs JUMBO TEAM (BO3) - ESEA Advanced Europe ",
     "closed": true
    }
   ],
@@ -807,12 +807,12 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Alliance vs  Phantom Academy (BO3) - United21 Group D",
-    "closed": true
+    "t": "Counter-Strike: Inner Circle Academy vs TheChampionGG (BO3) - United21",
+    "closed": false
    },
    {
-    "t": "Counter-Strike: INFURITY Gaming vs ex-MANA eSports (BO3) - United21 Gr",
-    "closed": true
+    "t": "Counter-Strike: Prodigies vs Fire Flux Esports (BO3) - United21 Group ",
+    "closed": false
    }
   ],
   "search:CCT Europe": [
@@ -829,12 +829,12 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Donstu Esports vs Sökerorg (BO3) - CCT Europe Closed Q",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: Nordic Partners Gaming  vs XMETA (BO3) - CCT Europe Se",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: Donstu Esports vs Sökerorg (BO3) - CCT Europe Closed Q",
+    "closed": true
    }
   ],
   "search:CCT South America": [
@@ -862,7 +862,7 @@
   "search:Exort Fiesta": [
    {
     "t": "Counter-Strike: Rune Eaters vs LPH Gaming (BO3) - Exort Fiesta Playoff",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: 9INE vs Revise (BO3) - Exort Fiesta Playoffs",
@@ -1049,11 +1049,11 @@
     "closed": true
    },
    {
-    "t": "Valorant: VARREL vs Gen.G Esports (BO3) - VCT Pacific Kickoff Playoffs",
-    "closed": true
+    "t": "Valorant: MeatZn vs Finishers (BO3) - VCT Pacific Kickoff: Oceania - Q",
+    "closed": false
    },
    {
-    "t": "Valorant: Team Secret vs T1 (BO3) - VCT Pacific Group Omega",
+    "t": "Valorant: VARREL vs Gen.G Esports (BO3) - VCT Pacific Kickoff Playoffs",
     "closed": true
    }
   ],
@@ -1112,7 +1112,9 @@
   "search:Exort Fiesta",
   "search:League of Legends",
   "search:PGL",
+  "search:United21",
   "search:VCT Americas",
+  "search:VCT Pacific",
   "search:Valorant",
   "search:Worlds 2026"
  ],
@@ -1369,10 +1371,10 @@
    ]
   }
  ],
- "events": 26,
- "markets": 110,
- "markets_dropped_by_volume_floor": 228,
- "day_file": "data/2026/11/2026-11-27T17.jsonl",
+ "events": 28,
+ "markets": 105,
+ "markets_dropped_by_volume_floor": 236,
+ "day_file": "data/2026/11/2026-11-27T18.jsonl",
  "retention_removed_files": 579,
  "status": "ok"
 }
