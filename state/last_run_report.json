@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-27T13:30:11Z",
+ "ts": "2026-11-27T13:52:30Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -376,7 +376,7 @@
   "search:Dota 2": [
    {
     "t": "Dota 2: PARIVISION vs Team Liquid (BO3) - BLAST Slam Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - BLAST Slam Playoffs",
@@ -449,12 +449,12 @@
     "closed": true
    },
    {
-    "t": "Valorant: Mandatory vs MIR (BO3) - VCT EMEA Kickoff: Europe - Qualifie",
+    "t": "Valorant: Joblife vs la Masia (BO3) - VCT EMEA Kickoff: Europe - Quali",
     "closed": true
    },
    {
-    "t": "Valorant: Joblife vs la Masia (BO3) - VCT EMEA Kickoff: Europe - Quali",
-    "closed": true
+    "t": "Valorant: xXxMasterProMegaTeamxXx vs Pixel Lumina (BO3) - VCT EMEA Kic",
+    "closed": false
    },
    {
     "t": "Valorant: Any Questions Gaming vs Young Gaming (BO5) - China National ",
@@ -739,12 +739,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Synapse vs PuckChamp (BO3) - European Pro League Playoffs",
-    "closed": true
+    "t": "Dota 2: Team Synapse vs Power Rangers (BO3) - European Pro League Play",
+    "closed": false
    },
    {
-    "t": "Counter-Strike: Bebop vs Spirit Academy Green (BO3) - European Pro Lea",
-    "closed": false
+    "t": "Dota 2: Team Synapse vs PuckChamp (BO3) - European Pro League Playoffs",
+    "closed": true
    }
   ],
   "search:ESEA": [
@@ -775,6 +775,10 @@
     "closed": false
    },
    {
+    "t": "Counter-Strike: BOJONG vs HAVU (BO3) - Elisa Open Suomi Playoffs",
+    "closed": false
+   },
+   {
     "t": "Counter-Strike: Prestige vs Nordic Valor (BO3) - Elisa Open Suomi Grou",
     "closed": true
    },
@@ -784,10 +788,6 @@
    },
    {
     "t": "Counter-Strike: HAVU vs Nordic Valor (BO3) - Elisa Open Suomi Group St",
-    "closed": true
-   },
-   {
-    "t": "Counter-Strike: Prestige vs BoyBand (BO3) - Elisa Open Suomi Group Sta",
     "closed": true
    }
   ],
@@ -871,11 +871,11 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: QUAZAR vs INFURITY Gaming (BO3) - Exort Fiesta Playoff",
+    "t": "Counter-Strike: aimclub vs KAMUI (BO3) - Exort Fiesta Playoffs",
     "closed": true
    },
    {
-    "t": "Counter-Strike: aimclub vs KAMUI (BO3) - Exort Fiesta Playoffs",
+    "t": "Counter-Strike: QUAZAR vs INFURITY Gaming (BO3) - Exort Fiesta Playoff",
     "closed": true
    }
   ],
@@ -1043,15 +1043,15 @@
     "closed": false
    },
    {
+    "t": "Valorant: GodLike Esports vs Revenant XSpark (BO3) - VCT Pacific Kicko",
+    "closed": false
+   },
+   {
     "t": "Valorant: Kryon Esports vs Trigger Point Esports (BO3) - VCT Pacific K",
     "closed": true
    },
    {
     "t": "Valorant: VARREL vs Gen.G Esports (BO3) - VCT Pacific Kickoff Playoffs",
-    "closed": true
-   },
-   {
-    "t": "Valorant: Team Secret vs T1 (BO3) - VCT Pacific Group Omega",
     "closed": true
    }
   ],
@@ -1103,7 +1103,6 @@
  "winning_sources": [
   "search:BLAST",
   "search:CCT Europe",
-  "search:Dota 2",
   "search:Elisa Open Suomi",
   "search:European Pro League",
   "search:Exort Fiesta",
@@ -1403,9 +1402,9 @@
    ]
   }
  ],
- "events": 24,
+ "events": 26,
  "markets": 119,
- "markets_dropped_by_volume_floor": 179,
+ "markets_dropped_by_volume_floor": 200,
  "day_file": "data/2026/11/2026-11-27T13.jsonl",
  "retention_removed_files": 579,
  "status": "ok"
