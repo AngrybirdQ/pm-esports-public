@@ -2,63 +2,63 @@
  {
   "name": "pinnacle_api",
   "ok": false,
-  "ms": 115,
+  "ms": 79,
   "err": "HTTPError: HTTP Error 451: Unavailable For Legal Reasons"
  },
  {
   "name": "pinnacle_guest_odds",
   "ok": false,
-  "ms": 61,
+  "ms": 57,
   "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
  },
  {
   "name": "pinnacle_guest_matchups",
   "ok": false,
-  "ms": 76,
+  "ms": 67,
   "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
  },
  {
   "name": "theoddsapi",
   "ok": false,
-  "ms": 267,
+  "ms": 68,
   "err": "HTTPError: HTTP Error 401: Unauthorized"
  },
  {
   "name": "sofascore_esports",
   "ok": false,
-  "ms": 130,
+  "ms": 54,
   "err": "HTTPError: HTTP Error 403: Forbidden"
  },
  {
   "name": "bet365_home",
   "ok": false,
-  "ms": 138,
+  "ms": 80,
   "err": "HTTPError: HTTP Error 403: Forbidden"
  },
  {
   "name": "marathonbet",
   "ok": false,
-  "ms": 554,
+  "ms": 237,
   "err": "HTTPError: HTTP Error 451: Unavailable For Legal Reasons"
  },
  {
   "name": "ggbench",
   "ok": false,
-  "ms": 505,
+  "ms": 441,
   "err": "HTTPError: HTTP Error 404: Not Found"
  },
  {
   "name": "polymarket_gamma",
   "ok": true,
   "code": 200,
-  "ms": 161,
+  "ms": 50,
   "head": "[{\"id\":\"2890\",\"ticker\":\"nba-will-the-mavericks-beat-the-grizzlies-by-more-than-5pt5-points-in-their-december-4-matchup\",\"slug\":\"nba-will-the-mavericks-beat-the-"
  },
  {
   "name": "kalshi",
   "ok": true,
   "code": 200,
-  "ms": 179,
-  "head": "{\"cursor\":\"CgsIwrOk2AYQ4JmZGxIyS1hNVkVDUk9TU0NBVEVHT1JZLVMyMDI2SjVCN0RMUEtZV0o3VEZITy1KRVhZQzVBTkY\",\"markets\":[{\"can_close_early\":true,\"close_time\":\"2026-12-01T"
+  "ms": 117,
+  "head": "{\"cursor\":\"CgsIlr-k2AYQ2OTwGxIyS1hNVkVDUk9TU0NBVEVHT1JZLVMyMDI2MlZYUzczVlJQU0lXRVJNUi1VRjNURDNEV0g\",\"markets\":[{\"can_close_early\":true,\"close_time\":\"2026-12-02T"
  }
 ]
