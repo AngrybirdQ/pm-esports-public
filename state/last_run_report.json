@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-27T23:15:07Z",
+ "ts": "2026-11-27T23:40:20Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -442,7 +442,7 @@
   "search:Valorant": [
    {
     "t": "Valorant: Joblife vs NAVI Junior (BO3) - VCT EMEA Kickoff: Europe - Qu",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Aurora Gaming vs Mandatory (BO3) - VCT EMEA Kickoff: Europe ",
@@ -563,11 +563,11 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: FUT Esports vs FlyQuest (BO1) - PGL Major Singapore St",
+    "t": "Counter-Strike: Astralis vs Imperial (BO1) - PGL Major Singapore Stage",
     "closed": false
    },
    {
-    "t": "Counter-Strike: Astralis vs Imperial (BO1) - PGL Major Singapore Stage",
+    "t": "Counter-Strike: FUT Esports vs FlyQuest (BO1) - PGL Major Singapore St",
     "closed": false
    }
   ],
@@ -761,11 +761,11 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Diamant Esports vs Fraternity (BO3) - ESEA Advanced Eu",
-    "closed": true
+    "t": "Counter-Strike: BOJONG vs Fraternity (BO1) - ESEA Advanced Europe Regu",
+    "closed": false
    },
    {
-    "t": "Counter-Strike: BOJONG vs Fraternity (BO1) - ESEA Advanced Europe Regu",
+    "t": "Counter-Strike: Banger Gang vs Honvéd (BO1) - ESEA Advanced Europe Reg",
     "closed": false
    }
   ],
@@ -820,7 +820,7 @@
    },
    {
     "t": "Counter-Strike: Lunacy Team vs megoshort (BO3) - CCT Europe Closed Qua",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: ex-Copenhagen Wolves vs ENCELADE (BO3) - CCT Europe Co",
@@ -1013,12 +1013,12 @@
   ],
   "search:VCT Americas": [
    {
-    "t": "Valorant: Fluxo W7M vs Elevate (BO3) - VCT Americas Kickoff: Brazil Qu",
-    "closed": true
-   },
-   {
     "t": "Valorant: Team Solid vs BRASIL2002 (BO3) - VCT Americas Kickoff: Brazi",
     "closed": false
+   },
+   {
+    "t": "Valorant: Fluxo W7M vs Elevate (BO3) - VCT Americas Kickoff: Brazil Qu",
+    "closed": true
    },
    {
     "t": "Valorant: 2GAME Esports vs Mafiosos (BO3) - VCT Americas Kickoff: Braz",
@@ -1029,8 +1029,8 @@
     "closed": false
    },
    {
-    "t": "Valorant: SÓ TEM VELHO vs NEXT  (BO3) - VCT Americas Kickoff: Brazil Q",
-    "closed": true
+    "t": "Valorant: Fuego vs Chivas Esports (BO3) - VCT Americas Kickoff: LATAM ",
+    "closed": false
    }
   ],
   "search:VCT Pacific": [
@@ -1113,7 +1113,6 @@
   "search:United21",
   "search:VCT Americas",
   "search:VCT Pacific",
-  "search:Valorant",
   "search:Worlds 2026",
   "slug:pgl-major-singapore-2026-winner-1793811600000"
  ],
@@ -1405,8 +1404,8 @@
   }
  ],
  "events": 29,
- "markets": 106,
- "markets_dropped_by_volume_floor": 212,
+ "markets": 103,
+ "markets_dropped_by_volume_floor": 223,
  "day_file": "data/2026/11/2026-11-27T23.jsonl",
  "retention_removed_files": 579,
  "status": "ok"
