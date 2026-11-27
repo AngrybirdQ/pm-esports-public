@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-27T15:59:08Z",
+ "ts": "2026-11-27T16:21:52Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -381,12 +381,12 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - BLAST Slam Playoffs",
+    "t": "Dota 2: GamerLegion vs 1win (BO3) - BLAST Slam Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: GamerLegion vs 1win (BO3) - BLAST Slam Playoffs",
-    "closed": false
+    "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - BLAST Slam Playoffs",
+    "closed": true
    },
    {
     "t": "Dota 2: Spirit Academy vs Inner Circle (BO3) - European Pro League Pla",
@@ -447,16 +447,16 @@
     "closed": true
    },
    {
-    "t": "Valorant: Enterprise Esports vs UCAM Esports Club (BO3) - VCT EMEA Kic",
-    "closed": true
+    "t": "Valorant: xXxMasterProMegaTeamxXx vs Pixel Lumina (BO3) - VCT EMEA Kic",
+    "closed": false
    },
    {
     "t": "Valorant: Any Questions Gaming vs Young Gaming (BO5) - China National ",
     "closed": true
    },
    {
-    "t": "Valorant: xXxMasterProMegaTeamxXx vs Pixel Lumina (BO3) - VCT EMEA Kic",
-    "closed": false
+    "t": "Valorant: Enterprise Esports vs UCAM Esports Club (BO3) - VCT EMEA Kic",
+    "closed": true
    },
    {
     "t": "Valorant: Mandatory vs MIR (BO3) - VCT EMEA Kickoff: Europe - Qualifie",
@@ -569,8 +569,8 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: Wildcard vs Chinggis Warriors (BO3) - PGL Major Singap",
-    "closed": true
+    "t": "Counter-Strike: THE ONE vs Eternal Fire (BO1) - PGL Major Singapore St",
+    "closed": false
    }
   ],
   "search:Worlds 2026": [
@@ -865,12 +865,12 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: Hype Tech vs WRAITH PCIFIC (BO3) - Exort Fiesta Playof",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: 9INE vs Revise (BO3) - Exort Fiesta Playoffs",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: Hype Tech vs WRAITH PCIFIC (BO3) - Exort Fiesta Playof",
+    "closed": true
    },
    {
     "t": "Counter-Strike: aimclub vs KAMUI (BO3) - Exort Fiesta Playoffs",
@@ -1105,7 +1105,6 @@
  "winning_sources": [
   "search:BLAST",
   "search:China National Tournament",
-  "search:Dota 2",
   "search:Elisa Open Suomi",
   "search:European Pro League",
   "search:Exort Fiesta",
@@ -1371,9 +1370,9 @@
   }
  ],
  "events": 23,
- "markets": 107,
- "markets_dropped_by_volume_floor": 123,
- "day_file": "data/2026/11/2026-11-27T15.jsonl",
+ "markets": 103,
+ "markets_dropped_by_volume_floor": 125,
+ "day_file": "data/2026/11/2026-11-27T16.jsonl",
  "retention_removed_files": 579,
  "status": "ok"
 }
