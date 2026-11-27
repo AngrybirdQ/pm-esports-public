@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-27T13:52:30Z",
+ "ts": "2026-11-27T14:15:19Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -343,12 +343,6 @@
    "err": null
   },
   {
-   "url": "slug:pgl-major-singapore-2026-winner-1793811600000",
-   "ok": true,
-   "events_returned": 1,
-   "err": null
-  },
-  {
    "url": "slug:most-banned-champion-at-worlds-2026",
    "ok": true,
    "events_returned": 1,
@@ -365,9 +359,17 @@
    "ok": true,
    "events_returned": 1,
    "err": null
+  },
+  {
+   "url": "global-scan",
+   "ok": true,
+   "events_returned": 0,
+   "err": null
   }
  ],
- "errors": [],
+ "errors": [
+  "global-scan: HTTP 406: HTTP Error 406: Not Acceptable"
+ ],
  "stage": "snap",
  "tags_discovered": [
   "international-affairs"
@@ -458,7 +460,7 @@
    },
    {
     "t": "Valorant: Any Questions Gaming vs Young Gaming (BO5) - China National ",
-    "closed": false
+    "closed": true
    }
   ],
   "search:NBA": [
@@ -567,8 +569,8 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Imperial vs Liquid (BO3) - PGL Major Singapore Stage 1",
-    "closed": true
+    "t": "PGL Major Singapore 2026: Winner",
+    "closed": false
    }
   ],
   "search:Worlds 2026": [
@@ -743,8 +745,8 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Team Synapse vs PuckChamp (BO3) - European Pro League Playoffs",
-    "closed": true
+    "t": "Counter-Strike: Bebop vs Spirit Academy Green (BO3) - European Pro Lea",
+    "closed": false
    }
   ],
   "search:ESEA": [
@@ -801,12 +803,12 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: WRAITH PCIFIC vs Bad Beavers (BO3) - United21 Group D",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: spray'n'pray vs Teletubisie (BO3) - United21 Group A",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: WRAITH PCIFIC vs Bad Beavers (BO3) - United21 Group D",
+    "closed": true
    },
    {
     "t": "Counter-Strike: Alliance vs  Phantom Academy (BO3) - United21 Group D",
@@ -992,7 +994,7 @@
   "search:China National Tournament": [
    {
     "t": "Valorant: Any Questions Gaming vs Young Gaming (BO5) - China National ",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: Victory No Limits vs Young Gaming (BO3) - China National Tou",
@@ -1040,18 +1042,18 @@
    },
    {
     "t": "Valorant: Kryon Esports vs SIGN Esports (BO3) - VCT Pacific Kickoff: S",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: GodLike Esports vs Revenant XSpark (BO3) - VCT Pacific Kicko",
     "closed": false
    },
    {
-    "t": "Valorant: Kryon Esports vs Trigger Point Esports (BO3) - VCT Pacific K",
+    "t": "Valorant: VARREL vs Gen.G Esports (BO3) - VCT Pacific Kickoff Playoffs",
     "closed": true
    },
    {
-    "t": "Valorant: VARREL vs Gen.G Esports (BO3) - VCT Pacific Kickoff Playoffs",
+    "t": "Valorant: Team Secret vs T1 (BO3) - VCT Pacific Group Omega",
     "closed": true
    }
   ],
@@ -1112,8 +1114,7 @@
   "search:VCT Americas",
   "search:VCT Pacific",
   "search:Valorant",
-  "search:Worlds 2026",
-  "slug:pgl-major-singapore-2026-winner-1793811600000"
+  "search:Worlds 2026"
  ],
  "n_event_queries": 51,
  "essential_slug_diag": [
@@ -1278,40 +1279,6 @@
    ]
   },
   {
-   "slug": "pgl-major-singapore-2026-winner-1793811600000",
-   "closed": false,
-   "active": true,
-   "n_markets": 38,
-   "mkts_closed": [
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false
-   ],
-   "mkts_active": [
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true
-   ]
-  },
-  {
    "slug": "most-banned-champion-at-worlds-2026",
    "closed": true,
    "active": true,
@@ -1402,10 +1369,10 @@
    ]
   }
  ],
- "events": 26,
- "markets": 119,
- "markets_dropped_by_volume_floor": 200,
- "day_file": "data/2026/11/2026-11-27T13.jsonl",
+ "events": 25,
+ "markets": 115,
+ "markets_dropped_by_volume_floor": 192,
+ "day_file": "data/2026/11/2026-11-27T14.jsonl",
  "retention_removed_files": 579,
  "status": "ok"
 }
