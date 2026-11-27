@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-27T10:21:47Z",
+ "ts": "2026-11-27T10:35:15Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -379,19 +379,19 @@
     "closed": true
    },
    {
-    "t": "Dota 2: GamerLegion vs Aurora (BO3) - BLAST Slam Playoffs",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - BLAST Slam Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: Spirit Academy vs Inner Circle (BO3) - European Pro League Pla",
+    "t": "Dota 2: GamerLegion vs Aurora (BO3) - BLAST Slam Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: Power Rangers vs angry birds (BO3) - European Pro League Playo",
+    "t": "Dota 2: PARIVISION vs Team Liquid (BO3) - BLAST Slam Playoffs",
+    "closed": false
+   },
+   {
+    "t": "Dota 2: Spirit Academy vs Inner Circle (BO3) - European Pro League Pla",
     "closed": true
    }
   ],
@@ -827,11 +827,11 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: FORZE Reload vs Drama eSports (BO3) - CCT Europe Serie",
+    "t": "Counter-Strike: BakS eSports vs Nordic Partners Gaming  (BO3) - CCT Eu",
     "closed": true
    },
    {
-    "t": "Counter-Strike: BakS eSports vs Nordic Partners Gaming  (BO3) - CCT Eu",
+    "t": "Counter-Strike: Donstu Esports vs Sökerorg (BO3) - CCT Europe Closed Q",
     "closed": true
    }
   ],
@@ -859,10 +859,6 @@
   ],
   "search:Exort Fiesta": [
    {
-    "t": "Counter-Strike: ex-INOX Division vs ILLYRIANS (BO3) - Exort Fiesta Pla",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: QUAZAR vs INFURITY Gaming (BO3) - Exort Fiesta Playoff",
     "closed": true
    },
@@ -873,6 +869,10 @@
    {
     "t": "Counter-Strike: Hype Tech vs WRAITH PCIFIC (BO3) - Exort Fiesta Playof",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: ex-INOX Division vs ILLYRIANS (BO3) - Exort Fiesta Pla",
+    "closed": true
    },
    {
     "t": "Counter-Strike: Rune Eaters vs LPH Gaming (BO3) - Exort Fiesta Playoff",
@@ -991,12 +991,12 @@
   ],
   "search:China National Tournament": [
    {
-    "t": "Valorant: Victory No Limits vs Young Gaming (BO3) - China National Tou",
-    "closed": true
-   },
-   {
     "t": "Valorant: Any Questions Gaming vs Young Gaming (BO5) - China National ",
     "closed": false
+   },
+   {
+    "t": "Valorant: Victory No Limits vs Young Gaming (BO3) - China National Tou",
+    "closed": true
    },
    {
     "t": "Valorant: Unsettled Resentment vs Any Questions Gaming (BO3) - China N",
@@ -1104,6 +1104,7 @@
   "search:BLAST",
   "search:CCT Europe",
   "search:China National Tournament",
+  "search:Dota 2",
   "search:Elisa Open Suomi",
   "search:Exort Fiesta",
   "search:League of Legends",
@@ -1401,9 +1402,9 @@
    ]
   }
  ],
- "events": 22,
- "markets": 110,
- "markets_dropped_by_volume_floor": 207,
+ "events": 23,
+ "markets": 115,
+ "markets_dropped_by_volume_floor": 209,
  "day_file": "data/2026/11/2026-11-27T10.jsonl",
  "retention_removed_files": 579,
  "status": "ok"
