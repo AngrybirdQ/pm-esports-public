@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-27T14:15:19Z",
+ "ts": "2026-11-27T14:38:00Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -385,15 +385,15 @@
     "closed": true
    },
    {
+    "t": "Dota 2: GamerLegion vs 1win (BO3) - BLAST Slam Playoffs",
+    "closed": false
+   },
+   {
     "t": "Dota 2: 1win vs Team Liquid (BO3) - BLAST Slam Playoffs",
     "closed": true
    },
    {
     "t": "Dota 2: Spirit Academy vs Inner Circle (BO3) - European Pro League Pla",
-    "closed": true
-   },
-   {
-    "t": "Dota 2: Power Rangers vs angry birds (BO3) - European Pro League Playo",
     "closed": true
    }
   ],
@@ -451,7 +451,7 @@
     "closed": true
    },
    {
-    "t": "Valorant: Joblife vs la Masia (BO3) - VCT EMEA Kickoff: Europe - Quali",
+    "t": "Valorant: Any Questions Gaming vs Young Gaming (BO5) - China National ",
     "closed": true
    },
    {
@@ -459,7 +459,7 @@
     "closed": false
    },
    {
-    "t": "Valorant: Any Questions Gaming vs Young Gaming (BO5) - China National ",
+    "t": "Valorant: Joblife vs la Masia (BO3) - VCT EMEA Kickoff: Europe - Quali",
     "closed": true
    }
   ],
@@ -517,11 +517,11 @@
     "closed": true
    },
    {
-    "t": "Will a team win a game after trailing by 10,000+ gold at the BLAST Sla",
+    "t": "Will any team get mega creeps at the BLAST Slam IX Playoffs?",
     "closed": true
    },
    {
-    "t": "Will any team get mega creeps at the BLAST Slam IX Playoffs?",
+    "t": "Will a team win a game after trailing by 10,000+ gold at the BLAST Sla",
     "closed": true
    },
    {
@@ -737,12 +737,12 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Young TigeRES vs ABT Esports (BO3) - European Pro Leag",
-    "closed": true
-   },
-   {
     "t": "Dota 2: Team Synapse vs Power Rangers (BO3) - European Pro League Play",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: Young TigeRES vs ABT Esports (BO3) - European Pro Leag",
+    "closed": true
    },
    {
     "t": "Counter-Strike: Bebop vs Spirit Academy Green (BO3) - European Pro Lea",
@@ -818,7 +818,7 @@
   "search:CCT Europe": [
    {
     "t": "Counter-Strike: MOUZ NXT vs MASONIC (BO3) - CCT Europe Closed Qualifie",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: Lir vs Spirit Academy (BO3) - CCT Europe Series #15 Gr",
@@ -866,7 +866,7 @@
    },
    {
     "t": "Counter-Strike: Hype Tech vs WRAITH PCIFIC (BO3) - Exort Fiesta Playof",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: 9INE vs Revise (BO3) - Exort Fiesta Playoffs",
@@ -957,11 +957,11 @@
     "closed": true
    },
    {
-    "t": "Will a team win a game after trailing by 10,000+ gold at the BLAST Sla",
+    "t": "Will any team get mega creeps at the BLAST Slam IX Playoffs?",
     "closed": true
    },
    {
-    "t": "Will any team get mega creeps at the BLAST Slam IX Playoffs?",
+    "t": "Will a team win a game after trailing by 10,000+ gold at the BLAST Sla",
     "closed": true
    },
    {
@@ -1001,8 +1001,8 @@
     "closed": true
    },
    {
-    "t": "Valorant: Unsettled Resentment vs Any Questions Gaming (BO3) - China N",
-    "closed": true
+    "t": "Valorant: Unsettled Resentment vs Any Questions Gaming (BO5) - China N",
+    "closed": false
    },
    {
     "t": "Valorant: Victory No Limits vs Young Gaming (BO3) - China National Tou",
@@ -1104,7 +1104,8 @@
  },
  "winning_sources": [
   "search:BLAST",
-  "search:CCT Europe",
+  "search:China National Tournament",
+  "search:Dota 2",
   "search:Elisa Open Suomi",
   "search:European Pro League",
   "search:Exort Fiesta",
@@ -1370,8 +1371,8 @@
   }
  ],
  "events": 25,
- "markets": 115,
- "markets_dropped_by_volume_floor": 192,
+ "markets": 113,
+ "markets_dropped_by_volume_floor": 207,
  "day_file": "data/2026/11/2026-11-27T14.jsonl",
  "retention_removed_files": 579,
  "status": "ok"
