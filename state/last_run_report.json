@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-27T17:15:21Z",
+ "ts": "2026-11-27T17:40:22Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -389,11 +389,11 @@
     "closed": false
    },
    {
-    "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - BLAST Slam Playoffs",
+    "t": "Dota 2: Spirit Academy vs Inner Circle (BO3) - European Pro League Pla",
     "closed": true
    },
    {
-    "t": "Dota 2: Spirit Academy vs Inner Circle (BO3) - European Pro League Pla",
+    "t": "Dota 2: Team Yandex vs GamerLegion (BO3) - BLAST Slam Playoffs",
     "closed": true
    }
   ],
@@ -569,7 +569,7 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: Astralis vs Imperial (BO1) - PGL Major Singapore Stage",
+    "t": "Counter-Strike: FUT Esports vs FlyQuest (BO1) - PGL Major Singapore St",
     "closed": false
    }
   ],
@@ -738,14 +738,14 @@
    },
    {
     "t": "Dota 2: Team Synapse vs Power Rangers (BO3) - European Pro League Play",
+    "closed": true
+   },
+   {
+    "t": "Dota 2: Spirit Academy vs Power Rangers (BO3) - European Pro League Pl",
     "closed": false
    },
    {
     "t": "Counter-Strike: Bebop vs Spirit Academy Green (BO3) - European Pro Lea",
-    "closed": false
-   },
-   {
-    "t": "Dota 2: Spirit Academy vs Power Rangers (BO3) - European Pro League Pl",
     "closed": false
    }
   ],
@@ -767,7 +767,7 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Spirit Academy Green vs Falcons Force (BO3) - ESEA Adv",
+    "t": "Counter-Strike: RoundsGG vs OldBoys (BO3) - ESEA Advanced Europe Playo",
     "closed": true
    }
   ],
@@ -796,7 +796,7 @@
   "search:United21": [
    {
     "t": "Counter-Strike: ex-Copenhagen Wolves vs The Chosen Few (BO3) - United2",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: spray'n'pray vs Teletubisie (BO3) - United21 Group A",
@@ -833,8 +833,8 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Lir vs Drama eSports (BO3) - CCT Europe Series #15 Gro",
-    "closed": true
+    "t": "Counter-Strike: Nordic Partners Gaming  vs XMETA (BO3) - CCT Europe Se",
+    "closed": false
    }
   ],
   "search:CCT South America": [
@@ -1104,6 +1104,7 @@
  },
  "winning_sources": [
   "search:BLAST",
+  "search:CCT Europe",
   "search:China National Tournament",
   "search:Dota 2",
   "search:Elisa Open Suomi",
@@ -1111,7 +1112,6 @@
   "search:Exort Fiesta",
   "search:League of Legends",
   "search:PGL",
-  "search:United21",
   "search:VCT Americas",
   "search:Valorant",
   "search:Worlds 2026"
@@ -1369,9 +1369,9 @@
    ]
   }
  ],
- "events": 27,
- "markets": 109,
- "markets_dropped_by_volume_floor": 235,
+ "events": 26,
+ "markets": 110,
+ "markets_dropped_by_volume_floor": 228,
  "day_file": "data/2026/11/2026-11-27T17.jsonl",
  "retention_removed_files": 579,
  "status": "ok"

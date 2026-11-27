@@ -1,10 +1,10 @@
 {
- "ts": "2026-11-27T17:17:26Z",
- "events": 27,
- "markets": 109,
+ "ts": "2026-11-27T17:42:28Z",
+ "events": 26,
+ "markets": 110,
  "lines": [
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1301995",
    "event_slug": "blast-slam-ix-winner",
    "event_title": "BLAST Slam IX: Winner",
@@ -27,16 +27,16 @@
     "No"
    ],
    "prices": [
-    0.0285,
-    0.9715
+    0.0415,
+    0.9585
    ],
-   "volume": 444.855278,
-   "volume_24h": null,
-   "liquidity": 1447.85067,
+   "volume": 466.005278,
+   "volume_24h": 21.15,
+   "liquidity": 1455.05351,
    "market_end_date": "2026-12-01T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1301995",
    "event_slug": "blast-slam-ix-winner",
    "event_title": "BLAST Slam IX: Winner",
@@ -64,11 +64,11 @@
    ],
    "volume": 894.977666,
    "volume_24h": 488.86,
-   "liquidity": 1807.10419,
+   "liquidity": 1716.45119,
    "market_end_date": "2026-12-01T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1301995",
    "event_slug": "blast-slam-ix-winner",
    "event_title": "BLAST Slam IX: Winner",
@@ -94,13 +94,45 @@
     0.265,
     0.735
    ],
-   "volume": 5071.562618,
-   "volume_24h": 2691.133334,
-   "liquidity": 1176.3124,
+   "volume": 5126.045952,
+   "volume_24h": 2745.616668,
+   "liquidity": 1133.2211,
    "market_end_date": "2026-12-01T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
+   "event_id": "1301995",
+   "event_slug": "blast-slam-ix-winner",
+   "event_title": "BLAST Slam IX: Winner",
+   "event_start_date": "2026-11-02T16:18:15Z",
+   "event_end_date": "2026-12-01T04:59:00Z",
+   "sources": [
+    "search:BLAST",
+    "search:BLAST Slam"
+   ],
+   "market_slug": "will-team-liquid-win-blast-slam-ix",
+   "question": "Will Team Liquid win BLAST Slam IX?",
+   "group_item": "Team Liquid",
+   "condition_id": "0x7065ac261629230caaa450e97616a30c15d1d72be519a1e005af8f2284cc458d",
+   "token_ids": [
+    "84155668168072607027935133472069588692973226871135629819630168277699140486962",
+    "73769451222863594568827556404199122656500273229373783940635559298386024510193"
+   ],
+   "outcomes": [
+    "Yes",
+    "No"
+   ],
+   "prices": [
+    0.255,
+    0.745
+   ],
+   "volume": 411.80165,
+   "volume_24h": 21.14165,
+   "liquidity": 324.7583,
+   "market_end_date": "2026-12-01T04:59:00Z"
+  },
+  {
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1301995",
    "event_slug": "blast-slam-ix-winner",
    "event_title": "BLAST Slam IX: Winner",
@@ -123,16 +155,16 @@
     "No"
    ],
    "prices": [
-    0.495,
-    0.505
+    0.5,
+    0.5
    ],
-   "volume": 1330.373225,
-   "volume_24h": 168.535304,
-   "liquidity": 365.8122,
+   "volume": 1351.523225,
+   "volume_24h": 56.953572,
+   "liquidity": 356.6117,
    "market_end_date": "2026-12-01T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1314910",
    "event_slug": "pgl-major-singapore-2026-winner-1793811600000",
    "event_title": "PGL Major Singapore 2026: Winner",
@@ -159,11 +191,11 @@
    ],
    "volume": 128211.382957,
    "volume_24h": 3258.974716,
-   "liquidity": 54068.1557,
+   "liquidity": 55990.40786,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1314910",
    "event_slug": "pgl-major-singapore-2026-winner-1793811600000",
    "event_title": "PGL Major Singapore 2026: Winner",
@@ -190,11 +222,11 @@
    ],
    "volume": 68661.968208,
    "volume_24h": 1818.499666,
-   "liquidity": 34928.84195,
+   "liquidity": 35752.10565,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1314910",
    "event_slug": "pgl-major-singapore-2026-winner-1793811600000",
    "event_title": "PGL Major Singapore 2026: Winner",
@@ -221,11 +253,11 @@
    ],
    "volume": 68258.80431,
    "volume_24h": 3276.199332,
-   "liquidity": 50475.06726,
+   "liquidity": 55011.47433,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1314910",
    "event_slug": "pgl-major-singapore-2026-winner-1793811600000",
    "event_title": "PGL Major Singapore 2026: Winner",
@@ -247,16 +279,16 @@
     "No"
    ],
    "prices": [
-    0.0275,
-    0.9725
+    0.028,
+    0.972
    ],
    "volume": 65551.075618,
    "volume_24h": 2885.581525,
-   "liquidity": 50895.39186,
+   "liquidity": 51383.31818,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1314910",
    "event_slug": "pgl-major-singapore-2026-winner-1793811600000",
    "event_title": "PGL Major Singapore 2026: Winner",
@@ -281,13 +313,13 @@
     0.0215,
     0.9785
    ],
-   "volume": 70727.416565,
+   "volume": 70922.786565,
    "volume_24h": 1622.7697,
-   "liquidity": 30793.69728,
+   "liquidity": 31648.59683,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1314910",
    "event_slug": "pgl-major-singapore-2026-winner-1793811600000",
    "event_title": "PGL Major Singapore 2026: Winner",
@@ -314,11 +346,11 @@
    ],
    "volume": 62281.992416,
    "volume_24h": 1484.931,
-   "liquidity": 61143.84083,
+   "liquidity": 62308.67964,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1314910",
    "event_slug": "pgl-major-singapore-2026-winner-1793811600000",
    "event_title": "PGL Major Singapore 2026: Winner",
@@ -344,12 +376,12 @@
     0.925
    ],
    "volume": 92041.703478,
-   "volume_24h": 9891.668889,
-   "liquidity": 58999.7274,
+   "volume_24h": 9890.51,
+   "liquidity": 69978.4018,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1314910",
    "event_slug": "pgl-major-singapore-2026-winner-1793811600000",
    "event_title": "PGL Major Singapore 2026: Winner",
@@ -376,11 +408,11 @@
    ],
    "volume": 47963.077834,
    "volume_24h": 1343.46,
-   "liquidity": 31280.64132,
+   "liquidity": 30937.56913,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1314910",
    "event_slug": "pgl-major-singapore-2026-winner-1793811600000",
    "event_title": "PGL Major Singapore 2026: Winner",
@@ -406,12 +438,12 @@
     0.845
    ],
    "volume": 266071.686196,
-   "volume_24h": 2908.646019,
-   "liquidity": 97587.5197,
+   "volume_24h": 3517.079549,
+   "liquidity": 97211.9786,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1314910",
    "event_slug": "pgl-major-singapore-2026-winner-1793811600000",
    "event_title": "PGL Major Singapore 2026: Winner",
@@ -438,11 +470,11 @@
    ],
    "volume": 124347.561758,
    "volume_24h": 12388.314385,
-   "liquidity": 62413.42266,
+   "liquidity": 68675.27313,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1314910",
    "event_slug": "pgl-major-singapore-2026-winner-1793811600000",
    "event_title": "PGL Major Singapore 2026: Winner",
@@ -469,11 +501,11 @@
    ],
    "volume": 74950.109105,
    "volume_24h": 5319.842528,
-   "liquidity": 56132.15488,
+   "liquidity": 56546.52285,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1314910",
    "event_slug": "pgl-major-singapore-2026-winner-1793811600000",
    "event_title": "PGL Major Singapore 2026: Winner",
@@ -500,11 +532,11 @@
    ],
    "volume": 37629.956091,
    "volume_24h": 1055.18,
-   "liquidity": 31503.49621,
+   "liquidity": 31856.88402,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1314910",
    "event_slug": "pgl-major-singapore-2026-winner-1793811600000",
    "event_title": "PGL Major Singapore 2026: Winner",
@@ -531,11 +563,11 @@
    ],
    "volume": 72358.531114,
    "volume_24h": 12276.179453,
-   "liquidity": 61312.77234,
+   "liquidity": 61516.45958,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1314910",
    "event_slug": "pgl-major-singapore-2026-winner-1793811600000",
    "event_title": "PGL Major Singapore 2026: Winner",
@@ -562,11 +594,11 @@
    ],
    "volume": 87496.782775,
    "volume_24h": 4268.4796,
-   "liquidity": 57591.05773,
+   "liquidity": 60586.67708,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1314910",
    "event_slug": "pgl-major-singapore-2026-winner-1793811600000",
    "event_title": "PGL Major Singapore 2026: Winner",
@@ -588,16 +620,16 @@
     "No"
    ],
    "prices": [
-    0.0035,
-    0.9965
+    0.0025,
+    0.9975
    ],
-   "volume": 50589.323409,
-   "volume_24h": 11895.991815,
-   "liquidity": 44117.00898,
+   "volume": 51134.323409,
+   "volume_24h": 12440.991815,
+   "liquidity": 39786.74097,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1314910",
    "event_slug": "pgl-major-singapore-2026-winner-1793811600000",
    "event_title": "PGL Major Singapore 2026: Winner",
@@ -624,11 +656,11 @@
    ],
    "volume": 73043.132753,
    "volume_24h": 1486.669332,
-   "liquidity": 47003.81456,
+   "liquidity": 47900.94564,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1314910",
    "event_slug": "pgl-major-singapore-2026-winner-1793811600000",
    "event_title": "PGL Major Singapore 2026: Winner",
@@ -653,13 +685,13 @@
     0.175,
     0.825
    ],
-   "volume": 103296.606321,
-   "volume_24h": 4691.662571,
-   "liquidity": 75688.0682,
+   "volume": 103302.696321,
+   "volume_24h": 4743.482571,
+   "liquidity": 76151.1573,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1314910",
    "event_slug": "pgl-major-singapore-2026-winner-1793811600000",
    "event_title": "PGL Major Singapore 2026: Winner",
@@ -684,13 +716,13 @@
     0.055,
     0.945
    ],
-   "volume": 84367.326006,
-   "volume_24h": 2961.092499,
-   "liquidity": 67118.4854,
+   "volume": 84388.326006,
+   "volume_24h": 3027.822499,
+   "liquidity": 67182.6517,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1314910",
    "event_slug": "pgl-major-singapore-2026-winner-1793811600000",
    "event_title": "PGL Major Singapore 2026: Winner",
@@ -717,11 +749,11 @@
    ],
    "volume": 65684.021871,
    "volume_24h": 1142.1998,
-   "liquidity": 63883.02212,
+   "liquidity": 62652.79047,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1314910",
    "event_slug": "pgl-major-singapore-2026-winner-1793811600000",
    "event_title": "PGL Major Singapore 2026: Winner",
@@ -748,11 +780,11 @@
    ],
    "volume": 69911.86693,
    "volume_24h": 1732.199666,
-   "liquidity": 59920.32324,
+   "liquidity": 59725.4294,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1314910",
    "event_slug": "pgl-major-singapore-2026-winner-1793811600000",
    "event_title": "PGL Major Singapore 2026: Winner",
@@ -779,11 +811,11 @@
    ],
    "volume": 110942.60284,
    "volume_24h": 20630.18622,
-   "liquidity": 26691.59476,
+   "liquidity": 26182.79247,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1314910",
    "event_slug": "pgl-major-singapore-2026-winner-1793811600000",
    "event_title": "PGL Major Singapore 2026: Winner",
@@ -809,12 +841,12 @@
     0.855
    ],
    "volume": 76995.368532,
-   "volume_24h": 3326.731705,
-   "liquidity": 51171.0295,
+   "volume_24h": 3372.461705,
+   "liquidity": 52071.7509,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1314910",
    "event_slug": "pgl-major-singapore-2026-winner-1793811600000",
    "event_title": "PGL Major Singapore 2026: Winner",
@@ -841,11 +873,11 @@
    ],
    "volume": 76581.225206,
    "volume_24h": 1765.409665,
-   "liquidity": 51351.10307,
+   "liquidity": 52532.37012,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1314910",
    "event_slug": "pgl-major-singapore-2026-winner-1793811600000",
    "event_title": "PGL Major Singapore 2026: Winner",
@@ -871,12 +903,12 @@
     0.715
    ],
    "volume": 99900.868624,
-   "volume_24h": 2513.626185,
-   "liquidity": 71456.2903,
+   "volume_24h": 2559.356185,
+   "liquidity": 70628.1192,
    "market_end_date": "2026-12-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1448335",
    "event_slug": "most-kills-at-blast-slam-ix-playoffs",
    "event_title": "Most Kills at BLAST Slam IX Playoffs",
@@ -899,16 +931,16 @@
     "No"
    ],
    "prices": [
-    0.385,
-    0.615
+    0.39,
+    0.61
    ],
    "volume": 195.461539,
    "volume_24h": 80.0,
-   "liquidity": 98.902,
+   "liquidity": 87.4668,
    "market_end_date": "2026-12-30T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1448797",
    "event_slug": "bin-worlds-2026-skin-champion",
    "event_title": "Bin Worlds 2026 Skin Champion",
@@ -930,16 +962,16 @@
     "No"
    ],
    "prices": [
-    0.988,
-    0.012
+    0.9885,
+    0.0115
    ],
-   "volume": 864.821366,
-   "volume_24h": 605.339533,
-   "liquidity": 710.95622,
+   "volume": 865.321366,
+   "volume_24h": 605.839533,
+   "liquidity": 711.02921,
    "market_end_date": "2027-07-01T03:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1448798",
    "event_slug": "xun-worlds-2026-skin-champion",
    "event_title": "Xun Worlds 2026 Skin Champion",
@@ -961,16 +993,16 @@
     "No"
    ],
    "prices": [
-    0.29,
-    0.71
+    0.28,
+    0.72
    ],
    "volume": 77.4961,
    "volume_24h": 77.4961,
-   "liquidity": 660.8431,
+   "liquidity": 780.772,
    "market_end_date": "2027-07-01T03:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1448798",
    "event_slug": "xun-worlds-2026-skin-champion",
    "event_title": "Xun Worlds 2026 Skin Champion",
@@ -992,16 +1024,16 @@
     "No"
    ],
    "prices": [
-    0.17,
-    0.83
+    0.165,
+    0.835
    ],
    "volume": 77.7171,
    "volume_24h": 77.7171,
-   "liquidity": 45.2782,
+   "liquidity": 50.9859,
    "market_end_date": "2027-07-01T03:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1448798",
    "event_slug": "xun-worlds-2026-skin-champion",
    "event_title": "Xun Worlds 2026 Skin Champion",
@@ -1023,16 +1055,16 @@
     "No"
    ],
    "prices": [
-    0.0785,
-    0.9215
+    0.042,
+    0.958
    ],
    "volume": 77.40815,
    "volume_24h": 77.40815,
-   "liquidity": 87.0628,
+   "liquidity": 65.29694,
    "market_end_date": "2027-07-01T03:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1448798",
    "event_slug": "xun-worlds-2026-skin-champion",
    "event_title": "Xun Worlds 2026 Skin Champion",
@@ -1054,16 +1086,16 @@
     "No"
    ],
    "prices": [
-    0.03,
-    0.97
+    0.029,
+    0.971
    ],
    "volume": 77.6224,
    "volume_24h": 77.6224,
-   "liquidity": 51.01821,
+   "liquidity": 69.49493,
    "market_end_date": "2027-07-01T03:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1448798",
    "event_slug": "xun-worlds-2026-skin-champion",
    "event_title": "Xun Worlds 2026 Skin Champion",
@@ -1085,16 +1117,16 @@
     "No"
    ],
    "prices": [
-    0.075,
-    0.925
+    0.365,
+    0.635
    ],
    "volume": 77.12,
    "volume_24h": 77.12,
-   "liquidity": 99.244,
+   "liquidity": 55.281,
    "market_end_date": "2027-07-01T03:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1448798",
    "event_slug": "xun-worlds-2026-skin-champion",
    "event_title": "Xun Worlds 2026 Skin Champion",
@@ -1121,11 +1153,11 @@
    ],
    "volume": 77.12,
    "volume_24h": 77.12,
-   "liquidity": 83.3542,
+   "liquidity": 102.9136,
    "market_end_date": "2027-07-01T03:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1448798",
    "event_slug": "xun-worlds-2026-skin-champion",
    "event_title": "Xun Worlds 2026 Skin Champion",
@@ -1147,16 +1179,16 @@
     "No"
    ],
    "prices": [
-    0.434,
-    0.566
+    0.487,
+    0.513
    ],
    "volume": 145.8592,
    "volume_24h": 145.8592,
-   "liquidity": 44.54457,
+   "liquidity": 20.87227,
    "market_end_date": "2027-07-01T03:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1448798",
    "event_slug": "xun-worlds-2026-skin-champion",
    "event_title": "Xun Worlds 2026 Skin Champion",
@@ -1183,11 +1215,11 @@
    ],
    "volume": 77.206166,
    "volume_24h": 77.206166,
-   "liquidity": 72.0106,
+   "liquidity": 92.9727,
    "market_end_date": "2027-07-01T03:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1448798",
    "event_slug": "xun-worlds-2026-skin-champion",
    "event_title": "Xun Worlds 2026 Skin Champion",
@@ -1209,16 +1241,16 @@
     "No"
    ],
    "prices": [
-    0.048,
-    0.952
+    0.0475,
+    0.9525
    ],
    "volume": 103.0,
    "volume_24h": 103.0,
-   "liquidity": 164.69421,
+   "liquidity": 159.26651,
    "market_end_date": "2027-07-01T03:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1448798",
    "event_slug": "xun-worlds-2026-skin-champion",
    "event_title": "Xun Worlds 2026 Skin Champion",
@@ -1245,11 +1277,11 @@
    ],
    "volume": 127.64,
    "volume_24h": 127.64,
-   "liquidity": 75.1364,
+   "liquidity": 82.0664,
    "market_end_date": "2027-07-01T03:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1448798",
    "event_slug": "xun-worlds-2026-skin-champion",
    "event_title": "Xun Worlds 2026 Skin Champion",
@@ -1271,16 +1303,16 @@
     "No"
    ],
    "prices": [
-    0.45,
-    0.55
+    0.43,
+    0.57
    ],
    "volume": 169.74736,
    "volume_24h": 169.74736,
-   "liquidity": 33.5797,
+   "liquidity": 44.1292,
    "market_end_date": "2027-07-01T03:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1448802",
    "event_slug": "viper-worlds-2026-skin-champion",
    "event_title": "Viper Worlds 2026 Skin Champion",
@@ -1302,16 +1334,16 @@
     "No"
    ],
    "prices": [
-    0.076,
-    0.924
+    0.0785,
+    0.9215
    ],
    "volume": 141.029666,
    "volume_24h": 141.029666,
-   "liquidity": 100.61636,
+   "liquidity": 63.22771,
    "market_end_date": "2027-07-01T03:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1450030",
    "event_slug": "hall-of-legends-2027-inductee",
    "event_title": "Hall of Legends 2027 Inductee",
@@ -1342,7 +1374,7 @@
    "market_end_date": "2028-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1450030",
    "event_slug": "hall-of-legends-2027-inductee",
    "event_title": "Hall of Legends 2027 Inductee",
@@ -1373,7 +1405,7 @@
    "market_end_date": "2028-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1450030",
    "event_slug": "hall-of-legends-2027-inductee",
    "event_title": "Hall of Legends 2027 Inductee",
@@ -1404,7 +1436,7 @@
    "market_end_date": "2028-01-01T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1452574",
    "event_slug": "cs2-bbp-spi-2026-11-27",
    "event_title": "Counter-Strike: Bebop vs Spirit Academy Green (BO3) - European Pro League Series 11 Closed Qualifier Group A",
@@ -1429,44 +1461,13 @@
     0.9995,
     0.0005
    ],
-   "volume": 18519.858353,
-   "volume_24h": 18519.858353,
-   "liquidity": 31763.29016,
+   "volume": 20121.238353,
+   "volume_24h": 20121.238353,
+   "liquidity": 32235.60039,
    "market_end_date": "2026-11-27T17:40:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
-   "event_id": "1452574",
-   "event_slug": "cs2-bbp-spi-2026-11-27",
-   "event_title": "Counter-Strike: Bebop vs Spirit Academy Green (BO3) - European Pro League Series 11 Closed Qualifier Group A",
-   "event_start_date": "2026-11-24T11:35:31Z",
-   "event_end_date": "2026-11-27T17:40:00Z",
-   "sources": [
-    "search:European Pro League"
-   ],
-   "market_slug": "cs2-bbp-spi-2026-11-27-game2",
-   "question": "Counter-Strike: Bebop vs Spirit Academy Green - Map 2 Winner",
-   "group_item": "Map 2 Winner",
-   "condition_id": "0xfb2d8923d877e9d8c799b5915c40d4fda31ab7293f0509facc8a42ba34a2e161",
-   "token_ids": [
-    "43541733078582121710545457540781414104930163704158698395277781142862590703791",
-    "51444644253812492282825260918510511326254642543281088385823763572036934961108"
-   ],
-   "outcomes": [
-    "Bebop",
-    "Spirit Academy Green"
-   ],
-   "prices": [
-    0.9995,
-    0.0005
-   ],
-   "volume": 6039.583871,
-   "volume_24h": 6039.583871,
-   "liquidity": 6169.40775,
-   "market_end_date": "2026-11-27T17:40:00Z"
-  },
-  {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1452574",
    "event_slug": "cs2-bbp-spi-2026-11-27",
    "event_title": "Counter-Strike: Bebop vs Spirit Academy Green (BO3) - European Pro League Series 11 Closed Qualifier Group A",
@@ -1493,104 +1494,11 @@
    ],
    "volume": 38.4163,
    "volume_24h": 38.4163,
-   "liquidity": 952.80888,
+   "liquidity": 887.90538,
    "market_end_date": "2026-11-27T17:40:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
-   "event_id": "1452575",
-   "event_slug": "cs2-copenh1-tcf-2026-11-27",
-   "event_title": "Counter-Strike: ex-Copenhagen Wolves vs The Chosen Few (BO3) - United21 Group A",
-   "event_start_date": "2026-11-24T11:35:35Z",
-   "event_end_date": "2026-11-27T17:40:00Z",
-   "sources": [
-    "search:United21"
-   ],
-   "market_slug": "cs2-copenh1-tcf-2026-11-27",
-   "question": "Counter-Strike: ex-Copenhagen Wolves vs The Chosen Few (BO3) - United21 Group A",
-   "group_item": "Match Winner",
-   "condition_id": "0x3f364007f2a93f560d0cee0329fdbc56afb221af5b8adbe2b323c1219f83faf5",
-   "token_ids": [
-    "41360564477633201953505732085583635960465825181328217555662302128072749053106",
-    "61409279422082134221404816137756636404201732013682743590919366276200442960345"
-   ],
-   "outcomes": [
-    "ex-Copenhagen Wolves",
-    "The Chosen Few"
-   ],
-   "prices": [
-    0.9995,
-    0.0005
-   ],
-   "volume": 11710.358821,
-   "volume_24h": 11678.878085,
-   "liquidity": 25960.87996,
-   "market_end_date": "2026-11-27T17:40:00Z"
-  },
-  {
-   "ts": "2026-11-27T17:17:26Z",
-   "event_id": "1452575",
-   "event_slug": "cs2-copenh1-tcf-2026-11-27",
-   "event_title": "Counter-Strike: ex-Copenhagen Wolves vs The Chosen Few (BO3) - United21 Group A",
-   "event_start_date": "2026-11-24T11:35:35Z",
-   "event_end_date": "2026-11-27T17:40:00Z",
-   "sources": [
-    "search:United21"
-   ],
-   "market_slug": "cs2-copenh1-tcf-2026-11-27-game2",
-   "question": "Counter-Strike: ex-Copenhagen Wolves vs The Chosen Few - Map 2 Winner",
-   "group_item": "Map 2 Winner",
-   "condition_id": "0x4424e4a817e5545a0b3f9d40ad6e9a1a20578ff0cc59ff09f7fe8c5d4e1d70a0",
-   "token_ids": [
-    "59561272587844585178809444472757464277565150860787630672539629328829193011992",
-    "6720714559719514705234860402259341770978727708908197318350602992750628833355"
-   ],
-   "outcomes": [
-    "ex-Copenhagen Wolves",
-    "The Chosen Few"
-   ],
-   "prices": [
-    0.9995,
-    0.0005
-   ],
-   "volume": 1584.688653,
-   "volume_24h": 1584.688653,
-   "liquidity": 8003.43134,
-   "market_end_date": "2026-11-27T17:40:00Z"
-  },
-  {
-   "ts": "2026-11-27T17:17:26Z",
-   "event_id": "1452575",
-   "event_slug": "cs2-copenh1-tcf-2026-11-27",
-   "event_title": "Counter-Strike: ex-Copenhagen Wolves vs The Chosen Few (BO3) - United21 Group A",
-   "event_start_date": "2026-11-24T11:35:35Z",
-   "event_end_date": "2026-11-27T17:40:00Z",
-   "sources": [
-    "search:United21"
-   ],
-   "market_slug": "cs2-copenh1-tcf-2026-11-27-total-games-2pt5",
-   "question": "Games Total: O/U 2.5",
-   "group_item": "O/U 2.5 Games",
-   "condition_id": "0x051c57947c2a531ca2115b3b5c04f7f8cd2b73a2fd6699c0e8669cf245a711ed",
-   "token_ids": [
-    "75807433830804526257584466050922433421473452905930989439412708170680113880690",
-    "84690140621719169308698346668632846116071928553488032814194164443916474887841"
-   ],
-   "outcomes": [
-    "Over",
-    "Under"
-   ],
-   "prices": [
-    0.0005,
-    0.9995
-   ],
-   "volume": 59.037038,
-   "volume_24h": 59.037038,
-   "liquidity": 5580.11832,
-   "market_end_date": "2026-11-27T17:40:00Z"
-  },
-  {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1454897",
    "event_slug": "val-ts-brasil-2026-11-27",
    "event_title": "Valorant: Team Solid vs BRASIL2002 (BO3) - VCT Americas Kickoff: Brazil Qualifier Playoffs",
@@ -1617,11 +1525,11 @@
    ],
    "volume": 1464.05828,
    "volume_24h": 1461.073205,
-   "liquidity": 7007.3397,
+   "liquidity": 7246.4906,
    "market_end_date": "2026-11-28T02:00:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1455590",
    "event_slug": "val-2game-mafios-2026-11-27",
    "event_title": "Valorant: 2GAME Esports vs Mafiosos (BO3) - VCT Americas Kickoff: Brazil Qualifier Playoffs",
@@ -1646,13 +1554,13 @@
     0.725,
     0.275
    ],
-   "volume": 1699.154931,
-   "volume_24h": 1694.059803,
-   "liquidity": 16181.7937,
+   "volume": 1772.004245,
+   "volume_24h": 1760.059803,
+   "liquidity": 17183.2037,
    "market_end_date": "2026-11-28T05:00:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1455590",
    "event_slug": "val-2game-mafios-2026-11-27",
    "event_title": "Valorant: 2GAME Esports vs Mafiosos (BO3) - VCT Americas Kickoff: Brazil Qualifier Playoffs",
@@ -1674,16 +1582,16 @@
     "Mafiosos"
    ],
    "prices": [
-    0.435,
-    0.565
+    0.445,
+    0.555
    ],
    "volume": 279.561788,
-   "volume_24h": 279.561788,
-   "liquidity": 4089.6005,
+   "volume_24h": 284.561788,
+   "liquidity": 4089.4686,
    "market_end_date": "2026-11-28T05:00:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1458504",
    "event_slug": "val-leones-bbb-2026-11-26",
    "event_title": "Valorant: Leones vs Contra (BO3) - VCT Americas Kickoff: LATAM North - Qualifier Playoffs",
@@ -1705,16 +1613,16 @@
     "Contra"
    ],
    "prices": [
-    0.845,
-    0.155
+    0.84,
+    0.16
    ],
    "volume": 8110.888381,
    "volume_24h": 4628.222111,
-   "liquidity": 5115.0554,
+   "liquidity": 5037.642,
    "market_end_date": "2026-11-29T04:00:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1460543",
    "event_slug": "cs2-pre-sinqu-2026-11-27",
    "event_title": "Counter-Strike: Prestige vs SINQU (BO3) - Elisa Open Suomi Playoffs",
@@ -1736,16 +1644,16 @@
     "SINQU"
    ],
    "prices": [
-    0.805,
-    0.195
+    0.56,
+    0.44
    ],
-   "volume": 8353.713296,
-   "volume_24h": 8459.058849,
-   "liquidity": 10424.243,
+   "volume": 11093.46952,
+   "volume_24h": 13370.652477,
+   "liquidity": 3242.0995,
    "market_end_date": "2026-11-27T21:30:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1460543",
    "event_slug": "cs2-pre-sinqu-2026-11-27",
    "event_title": "Counter-Strike: Prestige vs SINQU (BO3) - Elisa Open Suomi Playoffs",
@@ -1772,11 +1680,11 @@
    ],
    "volume": 566.661579,
    "volume_24h": 566.661579,
-   "liquidity": 7586.87251,
+   "liquidity": 7301.95773,
    "market_end_date": "2026-11-27T21:30:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1460543",
    "event_slug": "cs2-pre-sinqu-2026-11-27",
    "event_title": "Counter-Strike: Prestige vs SINQU (BO3) - Elisa Open Suomi Playoffs",
@@ -1801,13 +1709,13 @@
     0.9995,
     0.0005
    ],
-   "volume": 2005.225039,
-   "volume_24h": 2587.855039,
-   "liquidity": 9089.63927,
+   "volume": 2928.035039,
+   "volume_24h": 2949.845039,
+   "liquidity": 8337.13294,
    "market_end_date": "2026-11-27T21:30:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1460544",
    "event_slug": "cs2-bojong-havu-2026-11-27",
    "event_title": "Counter-Strike: BOJONG vs HAVU (BO3) - Elisa Open Suomi Playoffs",
@@ -1832,13 +1740,13 @@
     0.185,
     0.815
    ],
-   "volume": 1282.206164,
-   "volume_24h": 1282.206164,
-   "liquidity": 4874.1571,
+   "volume": 1284.230552,
+   "volume_24h": 1284.230552,
+   "liquidity": 5076.6219,
    "market_end_date": "2026-11-28T00:00:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1461512",
    "event_slug": "cs2-run2-lph-2026-11-27",
    "event_title": "Counter-Strike: Rune Eaters vs LPH Gaming (BO3) - Exort Fiesta Playoffs",
@@ -1863,13 +1771,13 @@
     0.9995,
     0.0005
    ],
-   "volume": 59686.99843,
-   "volume_24h": 59364.200454,
-   "liquidity": 35305.69102,
+   "volume": 60216.76843,
+   "volume_24h": 60964.830866,
+   "liquidity": 33830.29804,
    "market_end_date": "2026-11-27T18:45:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1461512",
    "event_slug": "cs2-run2-lph-2026-11-27",
    "event_title": "Counter-Strike: Rune Eaters vs LPH Gaming (BO3) - Exort Fiesta Playoffs",
@@ -1896,11 +1804,11 @@
    ],
    "volume": 1729.590316,
    "volume_24h": 1729.590316,
-   "liquidity": 3246.15516,
+   "liquidity": 3145.65516,
    "market_end_date": "2026-11-27T18:45:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1461512",
    "event_slug": "cs2-run2-lph-2026-11-27",
    "event_title": "Counter-Strike: Rune Eaters vs LPH Gaming (BO3) - Exort Fiesta Playoffs",
@@ -1927,11 +1835,11 @@
    ],
    "volume": 429.548213,
    "volume_24h": 429.548213,
-   "liquidity": 3412.45248,
+   "liquidity": 2906.55844,
    "market_end_date": "2026-11-27T18:45:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1461514",
    "event_slug": "cs2-g1-evermo-2026-11-27",
    "event_title": "Counter-Strike: GenOne vs evermore (BO3) - Exort Fiesta Playoffs",
@@ -1953,109 +1861,109 @@
     "evermore"
    ],
    "prices": [
-    0.745,
-    0.255
+    0.735,
+    0.265
    ],
    "volume": 348.317666,
    "volume_24h": 348.317666,
-   "liquidity": 3063.1682,
+   "liquidity": 2503.0175,
    "market_end_date": "2026-11-28T00:00:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
-   "event_id": "1464826",
-   "event_slug": "dota2-synaps-pr1-2026-11-27",
-   "event_title": "Dota 2: Team Synapse vs Power Rangers (BO3) - European Pro League Playoffs",
-   "event_start_date": "2026-11-26T19:09:20Z",
-   "event_end_date": "2026-11-27T19:15:00Z",
+   "ts": "2026-11-27T17:42:28Z",
+   "event_id": "1465743",
+   "event_slug": "cs2-npg-xmeta-2026-11-27",
+   "event_title": "Counter-Strike: Nordic Partners Gaming  vs XMETA (BO3) - CCT Europe Series #15 Group Stage",
+   "event_start_date": "2026-11-26T22:45:27Z",
+   "event_end_date": "2026-11-27T21:00:00Z",
    "sources": [
-    "search:European Pro League"
+    "search:CCT Europe"
    ],
-   "market_slug": "dota2-synaps-pr1-2026-11-27",
-   "question": "Dota 2: Team Synapse vs Power Rangers (BO3) - European Pro League Playoffs",
+   "market_slug": "cs2-npg-xmeta-2026-11-27",
+   "question": "Counter-Strike: Nordic Partners Gaming  vs XMETA (BO3) - CCT Europe Series #15 Group Stage",
    "group_item": "Match Winner",
-   "condition_id": "0x1198293c06c01d02724e49e040edb2f9209e56a2590dcf126ae2890005db395e",
+   "condition_id": "0xad4d67260183b003234241302df6fa1075b94ea16a72f328e785fd2a80750dd1",
    "token_ids": [
-    "1853644279469847350993607175081424498148701596467145865448369512199853499036",
-    "63123828491977149455923665347120181414030066646745786979074239031740525560997"
+    "31837533985135626111143018361811159633049160096299770515927992755916309637264",
+    "46666627797654078860705766784226260373989977698444680123620112752710788834098"
    ],
    "outcomes": [
-    "Team Synapse",
-    "Power Rangers"
+    "Nordic Partners Gaming ",
+    "XMETA"
+   ],
+   "prices": [
+    0.215,
+    0.785
+   ],
+   "volume": 43632.519355,
+   "volume_24h": 56013.481269,
+   "liquidity": 26520.1674,
+   "market_end_date": "2026-11-27T21:00:00Z"
+  },
+  {
+   "ts": "2026-11-27T17:42:28Z",
+   "event_id": "1465743",
+   "event_slug": "cs2-npg-xmeta-2026-11-27",
+   "event_title": "Counter-Strike: Nordic Partners Gaming  vs XMETA (BO3) - CCT Europe Series #15 Group Stage",
+   "event_start_date": "2026-11-26T22:45:27Z",
+   "event_end_date": "2026-11-27T21:00:00Z",
+   "sources": [
+    "search:CCT Europe"
+   ],
+   "market_slug": "cs2-npg-xmeta-2026-11-27-map-handicap-home-1pt5",
+   "question": "Map Handicap: XMETA (-1.5) vs Nordic Partners Gaming  (+1.5)",
+   "group_item": "Map Handicap: XMETA (-1.5) vs Nordic Partners Gaming  (+1.5)",
+   "condition_id": "0x005a13734ca9a00c86edde86296a995d16c10ac98aabc34e50c09be6e5e86e0a",
+   "token_ids": [
+    "52963506819343662206681180416994552299551781358440110198808994832020992312367",
+    "93671253325977073153872694197307040110045211626365105285940203246212234134668"
+   ],
+   "outcomes": [
+    "XMETA",
+    "Nordic Partners Gaming "
    ],
    "prices": [
     0.0005,
     0.9995
    ],
-   "volume": 9247.959665,
-   "volume_24h": 9247.959665,
-   "liquidity": 3385.14304,
-   "market_end_date": "2026-11-27T19:15:00Z"
+   "volume": 312.686154,
+   "volume_24h": 312.686154,
+   "liquidity": 1594.57293,
+   "market_end_date": "2026-11-27T21:00:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
-   "event_id": "1464826",
-   "event_slug": "dota2-synaps-pr1-2026-11-27",
-   "event_title": "Dota 2: Team Synapse vs Power Rangers (BO3) - European Pro League Playoffs",
-   "event_start_date": "2026-11-26T19:09:20Z",
-   "event_end_date": "2026-11-27T19:15:00Z",
+   "ts": "2026-11-27T17:42:28Z",
+   "event_id": "1465743",
+   "event_slug": "cs2-npg-xmeta-2026-11-27",
+   "event_title": "Counter-Strike: Nordic Partners Gaming  vs XMETA (BO3) - CCT Europe Series #15 Group Stage",
+   "event_start_date": "2026-11-26T22:45:27Z",
+   "event_end_date": "2026-11-27T21:00:00Z",
    "sources": [
-    "search:European Pro League"
+    "search:CCT Europe"
    ],
-   "market_slug": "dota2-synaps-pr1-2026-11-27-game2",
-   "question": "Dota 2: Team Synapse vs Power Rangers - Game 2 Winner",
-   "group_item": "Game 2 Winner",
-   "condition_id": "0xd2f6969d32531b7e3373e28dc51a6341a4e9e6c4e6200b9218c82ae2d1754fd5",
-   "token_ids": [
-    "33504179837694597124719575666976400323017976594458341091243553595822888149911",
-    "58736493752177314282161760104278959284965748596409022810344675272323801539114"
-   ],
-   "outcomes": [
-    "Team Synapse",
-    "Power Rangers"
-   ],
-   "prices": [
-    0.0005,
-    0.9995
-   ],
-   "volume": 90651.135302,
-   "volume_24h": 90651.135302,
-   "liquidity": 32868.84093,
-   "market_end_date": "2026-11-27T19:15:00Z"
-  },
-  {
-   "ts": "2026-11-27T17:17:26Z",
-   "event_id": "1464826",
-   "event_slug": "dota2-synaps-pr1-2026-11-27",
-   "event_title": "Dota 2: Team Synapse vs Power Rangers (BO3) - European Pro League Playoffs",
-   "event_start_date": "2026-11-26T19:09:20Z",
-   "event_end_date": "2026-11-27T19:15:00Z",
-   "sources": [
-    "search:European Pro League"
-   ],
-   "market_slug": "dota2-synaps-pr1-2026-11-27-total-games-2pt5",
+   "market_slug": "cs2-npg-xmeta-2026-11-27-total-games-2pt5",
    "question": "Games Total: O/U 2.5",
    "group_item": "O/U 2.5 Games",
-   "condition_id": "0x7dfa8629872c6ac75571319a5173dd676ba69c61378417b319aede76396e3b8b",
+   "condition_id": "0xb78608eca1a713a3aadf34088ff55be05c69e0dbdd89b0045cb8bef2e200889e",
    "token_ids": [
-    "31573517583054987514764444428380775689581470910343562984548147128900123344635",
-    "75031065281939767362533078582733963950956914039434234311414800053652904152728"
+    "109835310368958724513104650327505214479816241761706233939113199927905544814623",
+    "93339405561161596270272355733221749124583393659881040607005465268141558843145"
    ],
    "outcomes": [
     "Over",
     "Under"
    ],
    "prices": [
-    0.0045,
-    0.9955
+    0.9995,
+    0.0005
    ],
-   "volume": 94.85707,
-   "volume_24h": 94.85707,
-   "liquidity": 681.28902,
-   "market_end_date": "2026-11-27T19:15:00Z"
+   "volume": 31.077778,
+   "volume_24h": 330.197778,
+   "liquidity": 1877.61632,
+   "market_end_date": "2026-11-27T21:00:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1466255",
    "event_slug": "val-ep1-cgn-2026-11-27",
    "event_title": "Valorant: Enterprise Esports vs CGN Esports (BO3) - VCT EMEA Kickoff: Europe - Qualifier Swiss Stage",
@@ -2077,16 +1985,16 @@
     "CGN Esports"
    ],
    "prices": [
-    0.795,
-    0.205
+    0.45,
+    0.55
    ],
-   "volume": 20196.161696,
-   "volume_24h": 20307.23168,
-   "liquidity": 14828.1815,
+   "volume": 22208.364753,
+   "volume_24h": 22574.286182,
+   "liquidity": 5615.0374,
    "market_end_date": "2026-11-27T22:00:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1466255",
    "event_slug": "val-ep1-cgn-2026-11-27",
    "event_title": "Valorant: Enterprise Esports vs CGN Esports (BO3) - VCT EMEA Kickoff: Europe - Qualifier Swiss Stage",
@@ -2111,13 +2019,13 @@
     0.9995,
     0.0005
    ],
-   "volume": 5845.837577,
-   "volume_24h": 5845.837577,
-   "liquidity": 19751.40232,
+   "volume": 7807.537577,
+   "volume_24h": 7807.537577,
+   "liquidity": 17208.53264,
    "market_end_date": "2026-11-27T22:00:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1466255",
    "event_slug": "val-ep1-cgn-2026-11-27",
    "event_title": "Valorant: Enterprise Esports vs CGN Esports (BO3) - VCT EMEA Kickoff: Europe - Qualifier Swiss Stage",
@@ -2139,16 +2047,16 @@
     "CGN Esports"
    ],
    "prices": [
-    0.725,
-    0.275
+    0.005,
+    0.995
    ],
-   "volume": 4.675325,
-   "volume_24h": 44.675325,
-   "liquidity": 1268.461,
+   "volume": 986.470314,
+   "volume_24h": 1078.555975,
+   "liquidity": 8944.6848,
    "market_end_date": "2026-11-27T22:00:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1466255",
    "event_slug": "val-ep1-cgn-2026-11-27",
    "event_title": "Valorant: Enterprise Esports vs CGN Esports (BO3) - VCT EMEA Kickoff: Europe - Qualifier Swiss Stage",
@@ -2170,16 +2078,16 @@
     "CGN Esports"
    ],
    "prices": [
-    0.505,
-    0.495
+    0.005,
+    0.995
    ],
-   "volume": 471.007949,
-   "volume_24h": 471.007949,
-   "liquidity": 11.64,
+   "volume": 485.634613,
+   "volume_24h": 485.634613,
+   "liquidity": 423.9256,
    "market_end_date": "2026-11-27T22:00:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1466257",
    "event_slug": "val-aurora-mdr-2026-11-27",
    "event_title": "Valorant: Aurora Gaming vs Mandatory (BO3) - VCT EMEA Kickoff: Europe - Qualifier Swiss Stage",
@@ -2201,16 +2109,16 @@
     "Mandatory"
    ],
    "prices": [
-    0.38,
-    0.62
+    0.44,
+    0.56
    ],
-   "volume": 23449.529188,
-   "volume_24h": 23684.080241,
-   "liquidity": 12603.6725,
+   "volume": 25599.868884,
+   "volume_24h": 25662.531284,
+   "liquidity": 11265.2584,
    "market_end_date": "2026-11-27T22:00:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1466257",
    "event_slug": "val-aurora-mdr-2026-11-27",
    "event_title": "Valorant: Aurora Gaming vs Mandatory (BO3) - VCT EMEA Kickoff: Europe - Qualifier Swiss Stage",
@@ -2235,13 +2143,75 @@
     0.0005,
     0.9995
    ],
-   "volume": 3547.301671,
-   "volume_24h": 3552.301671,
-   "liquidity": 29485.9818,
+   "volume": 4933.191671,
+   "volume_24h": 4933.191671,
+   "liquidity": 18261.14206,
    "market_end_date": "2026-11-27T22:00:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
+   "event_id": "1466257",
+   "event_slug": "val-aurora-mdr-2026-11-27",
+   "event_title": "Valorant: Aurora Gaming vs Mandatory (BO3) - VCT EMEA Kickoff: Europe - Qualifier Swiss Stage",
+   "event_start_date": "2026-11-27T01:49:30Z",
+   "event_end_date": "2026-11-27T22:00:00Z",
+   "sources": [
+    "search:Valorant"
+   ],
+   "market_slug": "val-aurora-mdr-2026-11-27-game2",
+   "question": "Valorant: Aurora Gaming vs Mandatory - Map 2 Winner",
+   "group_item": "Map 2 Winner",
+   "condition_id": "0x692229a1f049949ac65468a674066e14458b0934f8e3cbb3bc30b731aa2d8b34",
+   "token_ids": [
+    "1524422431138829497675020427082089334034011316887834680217986108297074470457",
+    "85159906602919577312966759147515385272911765714618553839638284714739271766220"
+   ],
+   "outcomes": [
+    "Aurora Gaming",
+    "Mandatory"
+   ],
+   "prices": [
+    0.665,
+    0.335
+   ],
+   "volume": 1799.628525,
+   "volume_24h": 952.902308,
+   "liquidity": 1308.2261,
+   "market_end_date": "2026-11-27T22:00:00Z"
+  },
+  {
+   "ts": "2026-11-27T17:42:28Z",
+   "event_id": "1466257",
+   "event_slug": "val-aurora-mdr-2026-11-27",
+   "event_title": "Valorant: Aurora Gaming vs Mandatory (BO3) - VCT EMEA Kickoff: Europe - Qualifier Swiss Stage",
+   "event_start_date": "2026-11-27T01:49:30Z",
+   "event_end_date": "2026-11-27T22:00:00Z",
+   "sources": [
+    "search:Valorant"
+   ],
+   "market_slug": "val-aurora-mdr-2026-11-27-total-games-2pt5",
+   "question": "Games Total: O/U 2.5",
+   "group_item": "O/U 2.5 Games",
+   "condition_id": "0x380196be7481f9ee5dba69e9d4c17e3bb91a1f7a32b3c3d86749bc764e854dc9",
+   "token_ids": [
+    "99943181104356417586365494934110407253687230898735257868553708052349825558794",
+    "104978500949642651579861858554164138639585275961876761360112372730536074467524"
+   ],
+   "outcomes": [
+    "Over",
+    "Under"
+   ],
+   "prices": [
+    0.735,
+    0.265
+   ],
+   "volume": 26.226402,
+   "volume_24h": 55.055994,
+   "liquidity": 78.9095,
+   "market_end_date": "2026-11-27T22:00:00Z"
+  },
+  {
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1466258",
    "event_slug": "val-jl-navij-2026-11-27",
    "event_title": "Valorant: Joblife vs NAVI Junior (BO3) - VCT EMEA Kickoff: Europe - Qualifier Swiss Stage",
@@ -2263,16 +2233,16 @@
     "NAVI Junior"
    ],
    "prices": [
-    0.485,
-    0.515
+    0.495,
+    0.505
    ],
-   "volume": 38266.718287,
-   "volume_24h": 38266.718287,
-   "liquidity": 80729.214,
+   "volume": 59600.118287,
+   "volume_24h": 59600.118287,
+   "liquidity": 45704.1641,
    "market_end_date": "2026-11-28T00:30:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1466261",
    "event_slug": "val-xxxmas-pl-2026-11-27",
    "event_title": "Valorant: xXxMasterProMegaTeamxXx vs Pixel Lumina (BO3) - VCT EMEA Kickoff: Europe - Qualifier Swiss Stage",
@@ -2299,42 +2269,73 @@
    ],
    "volume": 24303.260048,
    "volume_24h": 24303.260048,
-   "liquidity": 27652.9588,
+   "liquidity": 26080.7041,
    "market_end_date": "2026-11-28T00:30:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
-   "event_id": "1467966",
-   "event_slug": "cs2-ast10-imp11-2026-11-28",
-   "event_title": "Counter-Strike: Astralis vs Imperial (BO1) - PGL Major Singapore Stage 2",
-   "event_start_date": "2026-11-27T12:15:39Z",
-   "event_end_date": "2026-11-28T11:00:00Z",
+   "ts": "2026-11-27T17:42:28Z",
+   "event_id": "1467955",
+   "event_slug": "cs2-fut-fly-2026-11-27",
+   "event_title": "Counter-Strike: FUT Esports vs FlyQuest (BO1) - PGL Major Singapore Stage 2",
+   "event_start_date": "2026-11-27T12:15:31Z",
+   "event_end_date": "2026-11-28T10:00:00Z",
    "sources": [
     "search:PGL"
    ],
-   "market_slug": "cs2-ast10-imp11-2026-11-28",
-   "question": "Counter-Strike: Astralis vs Imperial (BO1) - PGL Major Singapore Stage 2",
+   "market_slug": "cs2-fut-fly-2026-11-27",
+   "question": "Counter-Strike: FUT Esports vs FlyQuest (BO1) - PGL Major Singapore Stage 2",
    "group_item": "Match Winner",
-   "condition_id": "0xdbf66636d6fc1ad6b96c5f1d5338ccec7edf39928638e830d4f437cd1919ad77",
+   "condition_id": "0x067d8ceeacb847496393ed2c0cb5a4e1c3978c309c0a71b245dd5091602e75f2",
    "token_ids": [
-    "7560514472910604071026135341786584064506254692221868851075493470273918381525",
-    "68364203513725219205024837783422377808464072933294395110971035349333897414653"
+    "10698644648178957841365420480641082917492822617175350860284747258162358147400",
+    "85354539061399968812190631747418610354235513300857893268525207900726989176946"
    ],
    "outcomes": [
-    "Astralis",
-    "Imperial"
+    "FUT Esports",
+    "FlyQuest"
    ],
    "prices": [
-    0.555,
-    0.445
+    0.735,
+    0.265
    ],
-   "volume": 17973.153361,
-   "volume_24h": 18035.653361,
-   "liquidity": 143516.9829,
-   "market_end_date": "2026-11-28T11:00:00Z"
+   "volume": 41844.677481,
+   "volume_24h": 41844.677481,
+   "liquidity": 203938.1441,
+   "market_end_date": "2026-11-28T10:00:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
+   "event_id": "1467955",
+   "event_slug": "cs2-fut-fly-2026-11-27",
+   "event_title": "Counter-Strike: FUT Esports vs FlyQuest (BO1) - PGL Major Singapore Stage 2",
+   "event_start_date": "2026-11-27T12:15:31Z",
+   "event_end_date": "2026-11-28T10:00:00Z",
+   "sources": [
+    "search:PGL"
+   ],
+   "market_slug": "cs2-fut-fly-2026-11-27-game1-round-handicap-fut-3pt5",
+   "question": "Map 1 Rounds Handicap: FUT Esports (-3.5) vs FlyQuest (+3.5)",
+   "group_item": "Map 1 Rounds Handicap: FUT Esports (-3.5) vs FlyQuest (+3.5)",
+   "condition_id": "0x105e070fb84c171470d1cd190f8324c33ae4868b51d9f1a04b6cd8593991d1ee",
+   "token_ids": [
+    "32756624902156676680152492996783969158370776733564124573512176951489649276966",
+    "189712139654673715515644306596464247436626646010937511899488924960715905234"
+   ],
+   "outcomes": [
+    "FUT Esports",
+    "FlyQuest"
+   ],
+   "prices": [
+    0.535,
+    0.465
+   ],
+   "volume": 1285.91816,
+   "volume_24h": 1285.91816,
+   "liquidity": 30997.1195,
+   "market_end_date": "2026-11-28T10:00:00Z"
+  },
+  {
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1468242",
    "event_slug": "dota2-aur1-pari-2026-11-27",
    "event_title": "Dota 2: Aurora vs PARIVISION (BO3) - BLAST Slam Playoffs",
@@ -2356,16 +2357,16 @@
     "PARIVISION"
    ],
    "prices": [
-    0.095,
-    0.905
+    0.085,
+    0.915
    ],
-   "volume": 159111.053761,
-   "volume_24h": 177807.505283,
-   "liquidity": 128477.4352,
+   "volume": 190486.387135,
+   "volume_24h": 198337.862082,
+   "liquidity": 83914.4994,
    "market_end_date": "2026-11-27T22:00:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1468242",
    "event_slug": "dota2-aur1-pari-2026-11-27",
    "event_title": "Dota 2: Aurora vs PARIVISION (BO3) - BLAST Slam Playoffs",
@@ -2387,47 +2388,16 @@
     "Aurora"
    ],
    "prices": [
-    0.715,
-    0.285
+    0.705,
+    0.295
    ],
-   "volume": 45740.798511,
-   "volume_24h": 49269.388035,
-   "liquidity": 34928.3318,
+   "volume": 52452.78907,
+   "volume_24h": 53120.286865,
+   "liquidity": 29790.249,
    "market_end_date": "2026-11-27T22:00:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
-   "event_id": "1468242",
-   "event_slug": "dota2-aur1-pari-2026-11-27",
-   "event_title": "Dota 2: Aurora vs PARIVISION (BO3) - BLAST Slam Playoffs",
-   "event_start_date": "2026-11-27T13:39:33Z",
-   "event_end_date": "2026-11-27T22:00:00Z",
-   "sources": [
-    "search:Dota 2"
-   ],
-   "market_slug": "dota2-aur1-pari-2026-11-27-game1",
-   "question": "Dota 2: Aurora vs PARIVISION - Game 1 Winner",
-   "group_item": "Game 1 Winner",
-   "condition_id": "0xb28d1666731921bfb7453edc034fafc729bbeff66e1c40d8c8442ab0afbfaa3b",
-   "token_ids": [
-    "43582530204661653987370374004050353961014416716351404186334780184042411308844",
-    "61972681754147758295035249294333384326339150146486506973191126204913302508555"
-   ],
-   "outcomes": [
-    "Aurora",
-    "PARIVISION"
-   ],
-   "prices": [
-    0.0005,
-    0.9995
-   ],
-   "volume": 1870516.301537,
-   "volume_24h": 2061350.205552,
-   "liquidity": 851262.17363,
-   "market_end_date": "2026-11-27T22:00:00Z"
-  },
-  {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1468242",
    "event_slug": "dota2-aur1-pari-2026-11-27",
    "event_title": "Dota 2: Aurora vs PARIVISION (BO3) - BLAST Slam Playoffs",
@@ -2449,16 +2419,16 @@
     "PARIVISION"
    ],
    "prices": [
-    0.305,
-    0.695
+    0.295,
+    0.705
    ],
-   "volume": 14937.623311,
-   "volume_24h": 27967.013748,
-   "liquidity": 180885.861,
+   "volume": 84930.274781,
+   "volume_24h": 295436.504697,
+   "liquidity": 70368.8389,
    "market_end_date": "2026-11-27T22:00:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1468242",
    "event_slug": "dota2-aur1-pari-2026-11-27",
    "event_title": "Dota 2: Aurora vs PARIVISION (BO3) - BLAST Slam Playoffs",
@@ -2480,16 +2450,16 @@
     "Under"
    ],
    "prices": [
-    0.305,
-    0.695
+    0.295,
+    0.705
    ],
-   "volume": 756.850701,
-   "volume_24h": 756.850701,
-   "liquidity": 1523.8672,
+   "volume": 759.070701,
+   "volume_24h": 964.790357,
+   "liquidity": 1489.6804,
    "market_end_date": "2026-11-27T22:00:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1468388",
    "event_slug": "val-ur1-aq-2026-11-28",
    "event_title": "Valorant: Unsettled Resentment vs Any Questions Gaming (BO5) - China National Tournament Split Omega: Pro Division Playoffs",
@@ -2511,16 +2481,16 @@
     "Any Questions Gaming"
    ],
    "prices": [
-    0.35,
-    0.65
+    0.36,
+    0.64
    ],
    "volume": 104.897418,
    "volume_24h": 104.897418,
-   "liquidity": 1051.6131,
+   "liquidity": 969.2324,
    "market_end_date": "2026-11-28T15:00:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1468620",
    "event_slug": "dota2-spirit1-pr1-2026-11-27",
    "event_title": "Dota 2: Spirit Academy vs Power Rangers (BO3) - European Pro League Playoffs",
@@ -2542,16 +2512,47 @@
     "Power Rangers"
    ],
    "prices": [
-    0.2,
-    0.8
+    0.24,
+    0.76
    ],
-   "volume": 2842.349333,
-   "volume_24h": 3096.724839,
-   "liquidity": 10012.7621,
+   "volume": 4910.149769,
+   "volume_24h": 5561.948635,
+   "liquidity": 11370.976,
    "market_end_date": "2026-11-27T22:00:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
+   "event_id": "1468620",
+   "event_slug": "dota2-spirit1-pr1-2026-11-27",
+   "event_title": "Dota 2: Spirit Academy vs Power Rangers (BO3) - European Pro League Playoffs",
+   "event_start_date": "2026-11-27T15:39:23Z",
+   "event_end_date": "2026-11-27T22:00:00Z",
+   "sources": [
+    "search:European Pro League"
+   ],
+   "market_slug": "dota2-spirit1-pr1-2026-11-27-game-handicap-home-1pt5",
+   "question": "Game Handicap: PR (-1.5) vs Spirit Academy (+1.5)",
+   "group_item": "Game Handicap: PR (-1.5) vs Spirit Academy (+1.5)",
+   "condition_id": "0x65fd10744d8a5db6b01fe42ec9f665eecf8ca03c092f450cec0d0731a919ea6a",
+   "token_ids": [
+    "113404971737019734245938713828510284622739097552121627987370588188833594007353",
+    "15354406274314156084541759556598419645830416950308795873345414602538155099023"
+   ],
+   "outcomes": [
+    "Power Rangers",
+    "Spirit Academy"
+   ],
+   "prices": [
+    0.525,
+    0.475
+   ],
+   "volume": 69.936573,
+   "volume_24h": 69.936573,
+   "liquidity": 56.9363,
+   "market_end_date": "2026-11-27T22:00:00Z"
+  },
+  {
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1468620",
    "event_slug": "dota2-spirit1-pr1-2026-11-27",
    "event_title": "Dota 2: Spirit Academy vs Power Rangers (BO3) - European Pro League Playoffs",
@@ -2576,13 +2577,13 @@
     0.0005,
     0.9995
    ],
-   "volume": 25549.667866,
-   "volume_24h": 28797.108384,
-   "liquidity": 58864.53853,
+   "volume": 29372.328384,
+   "volume_24h": 29372.328384,
+   "liquidity": 50471.88388,
    "market_end_date": "2026-11-27T22:00:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "1468620",
    "event_slug": "dota2-spirit1-pr1-2026-11-27",
    "event_title": "Dota 2: Spirit Academy vs Power Rangers (BO3) - European Pro League Playoffs",
@@ -2604,16 +2605,47 @@
     "Power Rangers"
    ],
    "prices": [
-    0.405,
-    0.595
+    0.485,
+    0.515
    ],
-   "volume": 4.761905,
-   "volume_24h": 404.348438,
-   "liquidity": 2341.9626,
+   "volume": 4915.467697,
+   "volume_24h": 26697.934985,
+   "liquidity": 5967.7912,
    "market_end_date": "2026-11-27T22:00:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
+   "event_id": "1468620",
+   "event_slug": "dota2-spirit1-pr1-2026-11-27",
+   "event_title": "Dota 2: Spirit Academy vs Power Rangers (BO3) - European Pro League Playoffs",
+   "event_start_date": "2026-11-27T15:39:23Z",
+   "event_end_date": "2026-11-27T22:00:00Z",
+   "sources": [
+    "search:European Pro League"
+   ],
+   "market_slug": "dota2-spirit1-pr1-2026-11-27-total-games-2pt5",
+   "question": "Games Total: O/U 2.5",
+   "group_item": "O/U 2.5 Games",
+   "condition_id": "0xaeaf7f022e7eb70a4e5d25ac7a5b522ab683efa6c1f86c7af1a35b66219f9c64",
+   "token_ids": [
+    "28293288889472576964319913003135422694903195445404402130720573172491341904585",
+    "96793662049962346527625848877308639075752826782018021250709773704879024811963"
+   ],
+   "outcomes": [
+    "Over",
+    "Under"
+   ],
+   "prices": [
+    0.485,
+    0.515
+   ],
+   "volume": 18.643305,
+   "volume_24h": 61.969392,
+   "liquidity": 58.06,
+   "market_end_date": "2026-11-27T22:00:00Z"
+  },
+  {
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -2640,11 +2672,11 @@
    ],
    "volume": 7796.461918,
    "volume_24h": null,
-   "liquidity": 3327.17693,
+   "liquidity": 3805.94393,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -2671,11 +2703,11 @@
    ],
    "volume": 3040.780833,
    "volume_24h": null,
-   "liquidity": 3619.67689,
+   "liquidity": 3762.19243,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -2702,11 +2734,11 @@
    ],
    "volume": 41909.561805,
    "volume_24h": 78.426249,
-   "liquidity": 1148.36689,
+   "liquidity": 1150.11697,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -2733,11 +2765,11 @@
    ],
    "volume": 1683.071112,
    "volume_24h": null,
-   "liquidity": 3872.57056,
+   "liquidity": 4067.43056,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -2764,11 +2796,11 @@
    ],
    "volume": 1306.0,
    "volume_24h": null,
-   "liquidity": 2981.85265,
+   "liquidity": 3300.86225,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -2795,11 +2827,11 @@
    ],
    "volume": 9117.600852,
    "volume_24h": null,
-   "liquidity": 3745.55127,
+   "liquidity": 3924.12227,
    "market_end_date": "2027-01-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -2826,11 +2858,11 @@
    ],
    "volume": 18260.466105,
    "volume_24h": 300.0,
-   "liquidity": 5303.98969,
+   "liquidity": 5514.23975,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -2857,11 +2889,11 @@
    ],
    "volume": 2784.85,
    "volume_24h": null,
-   "liquidity": 3405.63384,
+   "liquidity": 3717.64386,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -2888,11 +2920,11 @@
    ],
    "volume": 7235.614735,
    "volume_24h": null,
-   "liquidity": 1842.0508,
+   "liquidity": 2391.5188,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -2919,11 +2951,11 @@
    ],
    "volume": 2430.52,
    "volume_24h": 60.0,
-   "liquidity": 2575.93724,
+   "liquidity": 3226.37678,
    "market_end_date": "2027-01-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -2950,11 +2982,11 @@
    ],
    "volume": 71739.078773,
    "volume_24h": 575.145834,
-   "liquidity": 2496.58061,
+   "liquidity": 2795.85138,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -2981,11 +3013,11 @@
    ],
    "volume": 16966.777735,
    "volume_24h": null,
-   "liquidity": 2028.28606,
+   "liquidity": 2279.60606,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -3012,11 +3044,11 @@
    ],
    "volume": 16002.47184,
    "volume_24h": 30.0,
-   "liquidity": 2544.61006,
+   "liquidity": 2803.95206,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -3043,11 +3075,11 @@
    ],
    "volume": 3417.03,
    "volume_24h": null,
-   "liquidity": 4385.03604,
+   "liquidity": 4977.52804,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -3074,11 +3106,11 @@
    ],
    "volume": 9359.55542,
    "volume_24h": null,
-   "liquidity": 2316.06478,
+   "liquidity": 2590.41496,
    "market_end_date": "2027-01-15T04:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -3105,11 +3137,11 @@
    ],
    "volume": 4019.038889,
    "volume_24h": null,
-   "liquidity": 2911.21093,
+   "liquidity": 3106.08093,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -3136,11 +3168,11 @@
    ],
    "volume": 14192.509388,
    "volume_24h": null,
-   "liquidity": 2752.42031,
+   "liquidity": 3016.97019,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -3167,11 +3199,11 @@
    ],
    "volume": 4972.42,
    "volume_24h": null,
-   "liquidity": 4463.59482,
+   "liquidity": 4758.42682,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -3198,11 +3230,11 @@
    ],
    "volume": 6786.097519,
    "volume_24h": null,
-   "liquidity": 3528.32789,
+   "liquidity": 3690.79019,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -3229,11 +3261,11 @@
    ],
    "volume": 19913.417101,
    "volume_24h": null,
-   "liquidity": 2355.39223,
+   "liquidity": 2516.49223,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -3260,11 +3292,11 @@
    ],
    "volume": 9427.692655,
    "volume_24h": null,
-   "liquidity": 2462.14407,
+   "liquidity": 2737.28107,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -3291,11 +3323,11 @@
    ],
    "volume": 6531.905795,
    "volume_24h": null,
-   "liquidity": 3387.30393,
+   "liquidity": 3865.68593,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -3322,11 +3354,11 @@
    ],
    "volume": 2340.900612,
    "volume_24h": null,
-   "liquidity": 4258.89545,
+   "liquidity": 4876.55645,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -3353,11 +3385,11 @@
    ],
    "volume": 1286.0,
    "volume_24h": null,
-   "liquidity": 3080.91765,
+   "liquidity": 3420.49721,
    "market_end_date": "2026-12-31T23:59:00Z"
   },
   {
-   "ts": "2026-11-27T17:17:26Z",
+   "ts": "2026-11-27T17:42:28Z",
    "event_id": "775290",
    "event_slug": "league-of-legends-global-power-rankings-post-worlds-rank-1-20260729165154424",
    "event_title": "League of Legends Global Power Rankings Post Worlds: Rank 1",
@@ -3384,7 +3416,7 @@
    ],
    "volume": 7874.844362,
    "volume_24h": null,
-   "liquidity": 2674.9536,
+   "liquidity": 3059.13544,
    "market_end_date": "2026-12-31T23:59:00Z"
   }
  ]
