@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-27T14:38:00Z",
+ "ts": "2026-11-27T15:00:21Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -557,12 +557,12 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Imperial vs Wildcard (BO3) - PGL Major Singapore Stage",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: M80 vs 100 Thieves (BO3) - PGL Major Singapore Stage 1",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: Imperial vs Wildcard (BO3) - PGL Major Singapore Stage",
+    "closed": true
    },
    {
     "t": "Counter-Strike: Wildcard vs Chinggis Warriors (BO3) - PGL Major Singap",
@@ -773,11 +773,11 @@
   ],
   "search:Elisa Open Suomi": [
    {
-    "t": "Counter-Strike: Prestige vs SINQU (BO3) - Elisa Open Suomi Playoffs",
+    "t": "Counter-Strike: BOJONG vs HAVU (BO3) - Elisa Open Suomi Playoffs",
     "closed": false
    },
    {
-    "t": "Counter-Strike: BOJONG vs HAVU (BO3) - Elisa Open Suomi Playoffs",
+    "t": "Counter-Strike: Prestige vs SINQU (BO3) - Elisa Open Suomi Playoffs",
     "closed": false
    },
    {
@@ -804,7 +804,7 @@
    },
    {
     "t": "Counter-Strike: spray'n'pray vs Teletubisie (BO3) - United21 Group A",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: WRAITH PCIFIC vs Bad Beavers (BO3) - United21 Group D",
@@ -1001,15 +1001,15 @@
     "closed": true
    },
    {
-    "t": "Valorant: Unsettled Resentment vs Any Questions Gaming (BO5) - China N",
-    "closed": false
-   },
-   {
     "t": "Valorant: Victory No Limits vs Young Gaming (BO3) - China National Tou",
     "closed": true
    },
    {
     "t": "Valorant: FunPlus Phoenix vs KeepBest Gaming (BO3) - China National To",
+    "closed": true
+   },
+   {
+    "t": "Valorant: A Team vs Unsettled Resentment (BO3) - China National Tourna",
     "closed": true
    }
   ],
@@ -1104,7 +1104,6 @@
  },
  "winning_sources": [
   "search:BLAST",
-  "search:China National Tournament",
   "search:Dota 2",
   "search:Elisa Open Suomi",
   "search:European Pro League",
@@ -1370,10 +1369,10 @@
    ]
   }
  ],
- "events": 25,
- "markets": 113,
- "markets_dropped_by_volume_floor": 207,
- "day_file": "data/2026/11/2026-11-27T14.jsonl",
+ "events": 23,
+ "markets": 111,
+ "markets_dropped_by_volume_floor": 188,
+ "day_file": "data/2026/11/2026-11-27T15.jsonl",
  "retention_removed_files": 579,
  "status": "ok"
 }
