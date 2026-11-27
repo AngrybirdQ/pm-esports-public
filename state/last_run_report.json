@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-27T16:21:52Z",
+ "ts": "2026-11-27T16:45:16Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -389,11 +389,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Spirit Academy vs Inner Circle (BO3) - European Pro League Pla",
-    "closed": true
+    "t": "Dota 2: Aurora vs PARIVISION (BO3) - BLAST Slam Playoffs",
+    "closed": false
    },
    {
-    "t": "Dota 2: Power Rangers vs angry birds (BO3) - European Pro League Playo",
+    "t": "Dota 2: Spirit Academy vs Inner Circle (BO3) - European Pro League Pla",
     "closed": true
    }
   ],
@@ -447,19 +447,19 @@
     "closed": true
    },
    {
+    "t": "Valorant: Joblife vs NAVI Junior (BO3) - VCT EMEA Kickoff: Europe - Qu",
+    "closed": false
+   },
+   {
     "t": "Valorant: xXxMasterProMegaTeamxXx vs Pixel Lumina (BO3) - VCT EMEA Kic",
     "closed": false
    },
    {
+    "t": "Valorant: Enterprise Esports vs CGN Esports (BO3) - VCT EMEA Kickoff: ",
+    "closed": false
+   },
+   {
     "t": "Valorant: Any Questions Gaming vs Young Gaming (BO5) - China National ",
-    "closed": true
-   },
-   {
-    "t": "Valorant: Enterprise Esports vs UCAM Esports Club (BO3) - VCT EMEA Kic",
-    "closed": true
-   },
-   {
-    "t": "Valorant: Mandatory vs MIR (BO3) - VCT EMEA Kickoff: Europe - Qualifie",
     "closed": true
    }
   ],
@@ -525,8 +525,8 @@
     "closed": true
    },
    {
-    "t": "Will one team kill two Tormentors in a single game at the BLAST Slam I",
-    "closed": true
+    "t": "Most Kills at BLAST Slam IX Playoffs",
+    "closed": false
    }
   ],
   "search:ESL Challenger": [
@@ -569,7 +569,7 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: THE ONE vs Eternal Fire (BO1) - PGL Major Singapore St",
+    "t": "Counter-Strike: Astralis vs Imperial (BO1) - PGL Major Singapore Stage",
     "closed": false
    }
   ],
@@ -745,8 +745,8 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: Young TigeRES vs ABT Esports (BO3) - European Pro Leag",
-    "closed": true
+    "t": "Dota 2: Spirit Academy vs Power Rangers (BO3) - European Pro League Pl",
+    "closed": false
    }
   ],
   "search:ESEA": [
@@ -755,11 +755,11 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Spirit Academy Green vs Falcons Force (BO3) - ESEA Adv",
+    "t": "Counter-Strike: X-CITY vs Hermine Esports Club (BO3) - ESEA Advanced E",
     "closed": true
    },
    {
-    "t": "Counter-Strike: X-CITY vs Hermine Esports Club (BO3) - ESEA Advanced E",
+    "t": "Counter-Strike: Spirit Academy Green vs Falcons Force (BO3) - ESEA Adv",
     "closed": true
    },
    {
@@ -795,23 +795,23 @@
   ],
   "search:United21": [
    {
-    "t": "Counter-Strike: NAVI Junior vs STATE (BO3) - United21 Group D",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: ex-Copenhagen Wolves vs The Chosen Few (BO3) - United2",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: NAVI Junior vs STATE (BO3) - United21 Group D",
+    "closed": true
    },
    {
     "t": "Counter-Strike: spray'n'pray vs Teletubisie (BO3) - United21 Group A",
     "closed": true
    },
    {
-    "t": "Counter-Strike: WRAITH PCIFIC vs Bad Beavers (BO3) - United21 Group D",
+    "t": "Counter-Strike: Alliance vs  Phantom Academy (BO3) - United21 Group D",
     "closed": true
    },
    {
-    "t": "Counter-Strike: Alliance vs  Phantom Academy (BO3) - United21 Group D",
+    "t": "Counter-Strike: INFURITY Gaming vs ex-MANA eSports (BO3) - United21 Gr",
     "closed": true
    }
   ],
@@ -965,8 +965,8 @@
     "closed": true
    },
    {
-    "t": "Will one team kill two Tormentors in a single game at the BLAST Slam I",
-    "closed": true
+    "t": "Most Kills at BLAST Slam IX Playoffs",
+    "closed": false
    }
   ],
   "search:Slam Group": [
@@ -1046,7 +1046,7 @@
    },
    {
     "t": "Valorant: GodLike Esports vs Revenant XSpark (BO3) - VCT Pacific Kicko",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: VARREL vs Gen.G Esports (BO3) - VCT Pacific Kickoff Playoffs",
@@ -1105,6 +1105,7 @@
  "winning_sources": [
   "search:BLAST",
   "search:China National Tournament",
+  "search:Dota 2",
   "search:Elisa Open Suomi",
   "search:European Pro League",
   "search:Exort Fiesta",
@@ -1112,7 +1113,6 @@
   "search:PGL",
   "search:United21",
   "search:VCT Americas",
-  "search:VCT Pacific",
   "search:Valorant",
   "search:Worlds 2026"
  ],
@@ -1369,9 +1369,9 @@
    ]
   }
  ],
- "events": 23,
- "markets": 103,
- "markets_dropped_by_volume_floor": 125,
+ "events": 27,
+ "markets": 111,
+ "markets_dropped_by_volume_floor": 229,
  "day_file": "data/2026/11/2026-11-27T16.jsonl",
  "retention_removed_files": 579,
  "status": "ok"
