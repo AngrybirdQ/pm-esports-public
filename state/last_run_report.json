@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-27T19:35:55Z",
+ "ts": "2026-11-27T20:00:17Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -343,6 +343,12 @@
    "err": null
   },
   {
+   "url": "slug:pgl-major-singapore-2026-winner-1793811600000",
+   "ok": true,
+   "events_returned": 1,
+   "err": null
+  },
+  {
    "url": "slug:most-banned-champion-at-worlds-2026",
    "ok": true,
    "events_returned": 1,
@@ -359,17 +365,9 @@
    "ok": true,
    "events_returned": 1,
    "err": null
-  },
-  {
-   "url": "global-scan",
-   "ok": true,
-   "events_returned": 0,
-   "err": null
   }
  ],
- "errors": [
-  "global-scan: HTTP 406: HTTP Error 406: Not Acceptable"
- ],
+ "errors": [],
  "stage": "snap",
  "tags_discovered": [
   "international-affairs"
@@ -452,7 +450,7 @@
    },
    {
     "t": "Valorant: Enterprise Esports vs CGN Esports (BO3) - VCT EMEA Kickoff: ",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Valorant: GIANTX vs WIP Esports (BO3) - VCT EMEA Kickoff: Europe - Qua",
@@ -569,7 +567,7 @@
     "closed": false
    },
    {
-    "t": "PGL Major Singapore 2026: Winner",
+    "t": "Counter-Strike: Astralis vs Imperial (BO1) - PGL Major Singapore Stage",
     "closed": false
    }
   ],
@@ -745,15 +743,11 @@
     "closed": true
    },
    {
-    "t": "Dota 2: Power Rangers vs angry birds (BO3) - European Pro League Playo",
-    "closed": true
+    "t": "Counter-Strike: ex-Sashi Academy vs Fortress (BO3) - European Pro Leag",
+    "closed": false
    }
   ],
   "search:ESEA": [
-   {
-    "t": "Counter-Strike: TTG Esports vs Vitality Academy (BO3) - ESEA Advanced ",
-    "closed": true
-   },
    {
     "t": "Counter-Strike: Young TigeRES vs XI Esport (BO3) - ESEA Advanced Europ",
     "closed": false
@@ -763,7 +757,11 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: B8 Academy vs JUMBO TEAM (BO3) - ESEA Advanced Europe ",
+    "t": "Counter-Strike: TTG Esports vs Vitality Academy (BO3) - ESEA Advanced ",
+    "closed": true
+   },
+   {
+    "t": "Counter-Strike: PARTIZAN vs Inner Circle Prospect (BO3) - ESEA Advance",
     "closed": true
    },
    {
@@ -774,7 +772,7 @@
   "search:Elisa Open Suomi": [
    {
     "t": "Counter-Strike: Prestige vs SINQU (BO3) - Elisa Open Suomi Playoffs",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: BOJONG vs HAVU (BO3) - Elisa Open Suomi Playoffs",
@@ -821,11 +819,11 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Lir vs Spirit Academy (BO3) - CCT Europe Series #15 Gr",
+    "t": "Counter-Strike: ENCELADE vs AXE (BO3) - CCT Europe Contenders #11 Play",
     "closed": true
    },
    {
-    "t": "Counter-Strike: ENCELADE vs AXE (BO3) - CCT Europe Contenders #11 Play",
+    "t": "Counter-Strike: Lir vs Spirit Academy (BO3) - CCT Europe Series #15 Gr",
     "closed": true
    },
    {
@@ -833,8 +831,8 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Donstu Esports vs Sökerorg (BO3) - CCT Europe Closed Q",
-    "closed": true
+    "t": "Counter-Strike: Lunacy Team vs megoshort (BO3) - CCT Europe Closed Qua",
+    "closed": false
    }
   ],
   "search:CCT South America": [
@@ -1104,6 +1102,7 @@
  },
  "winning_sources": [
   "search:BLAST",
+  "search:CCT Europe",
   "search:China National Tournament",
   "search:Dota 2",
   "search:ESEA",
@@ -1116,7 +1115,8 @@
   "search:VCT Americas",
   "search:VCT Pacific",
   "search:Valorant",
-  "search:Worlds 2026"
+  "search:Worlds 2026",
+  "slug:pgl-major-singapore-2026-winner-1793811600000"
  ],
  "n_event_queries": 51,
  "essential_slug_diag": [
@@ -1281,6 +1281,40 @@
    ]
   },
   {
+   "slug": "pgl-major-singapore-2026-winner-1793811600000",
+   "closed": false,
+   "active": true,
+   "n_markets": 38,
+   "mkts_closed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "mkts_active": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
    "slug": "most-banned-champion-at-worlds-2026",
    "closed": true,
    "active": true,
@@ -1371,10 +1405,10 @@
    ]
   }
  ],
- "events": 28,
- "markets": 111,
- "markets_dropped_by_volume_floor": 230,
- "day_file": "data/2026/11/2026-11-27T19.jsonl",
+ "events": 29,
+ "markets": 116,
+ "markets_dropped_by_volume_floor": 227,
+ "day_file": "data/2026/11/2026-11-27T20.jsonl",
  "retention_removed_files": 579,
  "status": "ok"
 }
