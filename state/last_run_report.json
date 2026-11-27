@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-26T23:50:47Z",
+ "ts": "2026-11-27T00:15:12Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -758,11 +758,11 @@
    },
    {
     "t": "Counter-Strike: X-CITY vs Hermine Esports Club (BO3) - ESEA Advanced E",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: B8 Academy vs JUMBO TEAM (BO3) - ESEA Advanced Europe ",
-    "closed": false
+    "closed": true
    },
    {
     "t": "Counter-Strike: Diamant Esports vs Fraternity (BO3) - ESEA Advanced Eu",
@@ -770,6 +770,10 @@
    }
   ],
   "search:Elisa Open Suomi": [
+   {
+    "t": "Counter-Strike: Prestige vs SINQU (BO3) - Elisa Open Suomi Playoffs",
+    "closed": false
+   },
    {
     "t": "Counter-Strike: Prestige vs Nordic Valor (BO3) - Elisa Open Suomi Grou",
     "closed": true
@@ -784,10 +788,6 @@
    },
    {
     "t": "Counter-Strike: Prestige vs BoyBand (BO3) - Elisa Open Suomi Group Sta",
-    "closed": true
-   },
-   {
-    "t": "Counter-Strike: SINQU vs RoundsGG (BO3) - Elisa Open Suomi Group Stage",
     "closed": true
    }
   ],
@@ -871,11 +871,11 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Rune Eaters vs LPH Gaming (BO3) - Exort Fiesta Playoff",
+    "t": "Counter-Strike: Hype Tech vs WRAITH PCIFIC (BO3) - Exort Fiesta Playof",
     "closed": false
    },
    {
-    "t": "Counter-Strike: 9INE vs Revise (BO3) - Exort Fiesta Playoffs",
+    "t": "Counter-Strike: Rune Eaters vs LPH Gaming (BO3) - Exort Fiesta Playoff",
     "closed": false
    }
   ],
@@ -1106,6 +1106,7 @@
   "search:China National Tournament",
   "search:Dota 2",
   "search:ESEA",
+  "search:Elisa Open Suomi",
   "search:Exort Fiesta",
   "search:League of Legends",
   "search:United21",
@@ -1401,10 +1402,10 @@
    ]
   }
  ],
- "events": 22,
- "markets": 83,
- "markets_dropped_by_volume_floor": 133,
- "day_file": "data/2026/11/2026-11-26T23.jsonl",
- "retention_removed_files": 478,
+ "events": 21,
+ "markets": 80,
+ "markets_dropped_by_volume_floor": 136,
+ "day_file": "data/2026/11/2026-11-27T00.jsonl",
+ "retention_removed_files": 579,
  "status": "ok"
 }
