@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-28T10:45:30Z",
+ "ts": "2026-11-28T11:00:23Z",
  "sources": [
   {
    "url": "/tags?limit=500",
@@ -375,11 +375,11 @@
  "search_samples": {
   "search:Dota 2": [
    {
-    "t": "Dota 2: PARIVISION vs Team Liquid (BO3) - BLAST Slam Playoffs",
+    "t": "Dota 2: Aurora vs PARIVISION (BO3) - BLAST Slam Playoffs",
     "closed": true
    },
    {
-    "t": "Dota 2: Aurora vs PARIVISION (BO3) - BLAST Slam Playoffs",
+    "t": "Dota 2: PARIVISION vs Team Liquid (BO3) - BLAST Slam Playoffs",
     "closed": true
    },
    {
@@ -735,12 +735,12 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: Bebop vs Spirit Academy Green (BO3) - European Pro Lea",
-    "closed": true
-   },
-   {
     "t": "Counter-Strike: ex-Sashi Academy vs Fortress (BO3) - European Pro Leag",
     "closed": false
+   },
+   {
+    "t": "Counter-Strike: Bebop vs Spirit Academy Green (BO3) - European Pro Lea",
+    "closed": true
    },
    {
     "t": "Dota 2: Inner Circle vs Power Rangers (BO5) - European Pro League Play",
@@ -805,11 +805,11 @@
     "closed": false
    },
    {
-    "t": "Counter-Strike: spray'n'pray vs Teletubisie (BO3) - United21 Group A",
-    "closed": true
+    "t": "Counter-Strike: WRAITH PCIFIC vs STATE (BO3) - United21 Group D",
+    "closed": false
    },
    {
-    "t": "Counter-Strike: WRAITH PCIFIC vs STATE (BO3) - United21 Group D",
+    "t": "Counter-Strike: Esport Academy Copenhagen vs Fortress (BO3) - United21",
     "closed": false
    }
   ],
@@ -831,8 +831,8 @@
     "closed": true
    },
    {
-    "t": "Counter-Strike: ZOTIX vs ENCELADE (BO3) - CCT Europe Contenders #11 Pl",
-    "closed": true
+    "t": "Counter-Strike: FORZE Reload vs Leo Team (BO3) - CCT Europe Series #15",
+    "closed": false
    }
   ],
   "search:CCT South America": [
@@ -947,11 +947,11 @@
   ],
   "search:BLAST Slam": [
    {
-    "t": "BLAST Slam IX: Winner",
+    "t": "Most Kills at BLAST Slam IX Playoffs",
     "closed": false
    },
    {
-    "t": "Most Kills at BLAST Slam IX Playoffs",
+    "t": "BLAST Slam IX: Winner",
     "closed": false
    },
    {
@@ -991,12 +991,12 @@
   ],
   "search:China National Tournament": [
    {
-    "t": "Valorant: Any Questions Gaming vs Young Gaming (BO5) - China National ",
-    "closed": true
-   },
-   {
     "t": "Valorant: Unsettled Resentment vs Any Questions Gaming (BO5) - China N",
     "closed": false
+   },
+   {
+    "t": "Valorant: Any Questions Gaming vs Young Gaming (BO5) - China National ",
+    "closed": true
    },
    {
     "t": "Valorant: Victory No Limits vs Young Gaming (BO3) - China National Tou",
@@ -1035,12 +1035,12 @@
   ],
   "search:VCT Pacific": [
    {
-    "t": "Valorant: Kryon Esports vs SIGN Esports (BO3) - VCT Pacific Kickoff: S",
-    "closed": true
-   },
-   {
     "t": "Valorant: MeatZn vs Finishers (BO3) - VCT Pacific Kickoff: Oceania - Q",
     "closed": false
+   },
+   {
+    "t": "Valorant: Kryon Esports vs SIGN Esports (BO3) - VCT Pacific Kickoff: S",
+    "closed": true
    },
    {
     "t": "Valorant: GodLike Esports vs Revenant XSpark (BO3) - VCT Pacific Kicko",
@@ -1051,7 +1051,7 @@
     "closed": false
    },
    {
-    "t": "Valorant: Bonkers vs MeatZn (BO3) - VCT Pacific Kickoff: Oceania - Qua",
+    "t": "Valorant: VARREL vs Gen.G Esports (BO3) - VCT Pacific Kickoff Playoffs",
     "closed": true
    }
   ],
@@ -1102,6 +1102,7 @@
  },
  "winning_sources": [
   "search:BLAST",
+  "search:CCT Europe",
   "search:China National Tournament",
   "search:ESEA",
   "search:Elisa Open Suomi",
@@ -1402,10 +1403,10 @@
    ]
   }
  ],
- "events": 27,
- "markets": 130,
- "markets_dropped_by_volume_floor": 172,
- "day_file": "data/2026/11/2026-11-28T10.jsonl",
+ "events": 29,
+ "markets": 155,
+ "markets_dropped_by_volume_floor": 155,
+ "day_file": "data/2026/11/2026-11-28T11.jsonl",
  "retention_removed_files": 660,
  "status": "ok"
 }
