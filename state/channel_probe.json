@@ -2,64 +2,63 @@
  {
   "name": "pinnacle_api",
   "ok": false,
-  "ms": 194,
-  "err": "HTTPError: HTTP Error 404: Not Found"
+  "ms": 102,
+  "err": "HTTPError: HTTP Error 451: Unavailable For Legal Reasons"
  },
  {
   "name": "pinnacle_guest_odds",
   "ok": false,
-  "ms": 43,
+  "ms": 66,
   "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
  },
  {
   "name": "pinnacle_guest_matchups",
   "ok": false,
-  "ms": 36,
+  "ms": 58,
   "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
  },
  {
   "name": "theoddsapi",
   "ok": false,
-  "ms": 172,
+  "ms": 139,
   "err": "HTTPError: HTTP Error 401: Unauthorized"
  },
  {
   "name": "sofascore_esports",
   "ok": false,
-  "ms": 79,
+  "ms": 76,
   "err": "HTTPError: HTTP Error 403: Forbidden"
  },
  {
   "name": "bet365_home",
   "ok": false,
-  "ms": 96,
+  "ms": 112,
   "err": "HTTPError: HTTP Error 403: Forbidden"
  },
  {
   "name": "marathonbet",
-  "ok": true,
-  "code": 200,
-  "ms": 278,
-  "head": "<!DOCTYPE html><html class=\"u-large-scrollbar u-theme-light\" lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-s"
+  "ok": false,
+  "ms": 354,
+  "err": "HTTPError: HTTP Error 451: Unavailable For Legal Reasons"
  },
  {
   "name": "ggbench",
   "ok": false,
-  "ms": 3279,
+  "ms": 460,
   "err": "HTTPError: HTTP Error 404: Not Found"
  },
  {
   "name": "polymarket_gamma",
   "ok": true,
   "code": 200,
-  "ms": 132,
+  "ms": 104,
   "head": "[{\"id\":\"2890\",\"ticker\":\"nba-will-the-mavericks-beat-the-grizzlies-by-more-than-5pt5-points-in-their-december-4-matchup\",\"slug\":\"nba-will-the-mavericks-beat-the-"
  },
  {
   "name": "kalshi",
   "ok": true,
   "code": 200,
-  "ms": 133,
-  "head": "{\"cursor\":\"CgsIwdWo2AYQiN2RHhIyS1hNVkVDUk9TU0NBVEVHT1JZLVMyMDI2U0VCQVFPVERIWEs2QU1KNC1aTjRMUFQ1WVc\",\"markets\":[{\"can_close_early\":true,\"close_time\":\"2026-11-30T"
+  "ms": 108,
+  "head": "{\"cursor\":\"CgwIqeGo2AYQuLXAiwISMktYTVZFQ1JPU1NDQVRFR09SWS1TMjAyNkpaQ1k0QzRBUE5DQ1pQV0ctUzQ1NFpTR1FS\",\"markets\":[{\"can_close_early\":true,\"close_time\":\"2026-12-01"
  }
 ]
